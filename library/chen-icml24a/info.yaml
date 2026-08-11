@@ -1,0 +1,37 @@
+abstract: Large language models (LLMs) are instruction followers but the performance
+  varies under different instructions. It is challenging to create the best instruction,
+  especially for black-box LLMs on wh...
+author: Chen, Lichang and Chen, Jiuhai and Goldstein, Tom and Huang, Heng and Zhou,
+  Tianyi
+author_list:
+- affiliation: []
+  family: Chen
+  given: Lichang
+- affiliation: []
+  family: Chen
+  given: Jiuhai
+- affiliation: []
+  family: Goldstein
+  given: Tom
+- affiliation: []
+  family: Huang
+  given: Heng
+- affiliation: []
+  family: Zhou
+  given: Tianyi
+files: []
+firstpage: '6503'
+issn: 2640-3498
+language: en
+lastpage: '6518'
+pages: 6503--6518
+papis_id: 44ecdcf10e60c94be23a14c264dec8a3
+pdf_url: https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24e/chen24e.pdf
+publication_date: 2024/07/08
+publisher: PMLR
+ref: chen-icml24a
+time-added: 2026-08-11-15:16:00
+title: 'InstructZero: Efficient Instruction Optimization for Black-Box Large Language
+  Models'
+type: article
+url: https://proceedings.mlr.press/v235/chen24e.html
