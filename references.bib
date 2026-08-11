@@ -1,15 +1,22 @@
 @comment{Generated 2026-08-11 by groupbib. DO NOT EDIT MANUALLY.
          Source of truth: library/<key>/info.yaml. Regenerate with `bin/groupbib export`.}
 
-@article{chen-icml24a,
-  abstract = {Large language models (LLMs) are instruction followers but the performance varies under different instructions. It is challenging to create the best instruction, especially for black-box LLMs on wh...},
+@inproceedings{chen-icml24a,
+  abstract = {Large language models (LLMs) are instruction followers but the performance varies under different instructions. It is challenging to create the best instruction, especially for black-box LLMs on which backpropagation is forbidden. Instead of directly optimizing the discrete instruction, we optimize a low-dimensional soft prompt applied to an open-source LLM to generate the instruction for the black-box LLM. In each optimization step of the proposed method InstructZero, a soft prompt is converted into an instruction by the open-source LLM, which is then submitted to the black-box LLM for zero-shot evaluation, whose result is sent to Bayesian optimization to produce new soft prompts improving the zero-shot performance. We evaluate InstructZero on different combinations of open-source LLMs and APIs including Vicuna and ChatGPT. InstructZero outperforms SOTA auto-instruction methods across a variety of downstream tasks.},
   author = {Chen, Lichang and Chen, Jiuhai and Goldstein, Tom and Huang, Heng and Zhou, Tianyi},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+  editor = {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
   issn = {2640-3498},
   language = {en},
+  month = {21--27 Jul},
   pages = {6503--6518},
+  pdf = {https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24e/chen24e.pdf},
   publisher = {PMLR},
+  series = {Proceedings of Machine Learning Research},
   title = {InstructZero: Efficient Instruction Optimization for Black-Box Large Language Models},
   url = {https://proceedings.mlr.press/v235/chen24e.html},
+  volume = {235},
+  year = {2024},
 }
 
 @inproceedings{he-cvpr16a,
