@@ -17,7 +17,7 @@ dobib/
 │   └── ...
 ├── references.bib           # GENERATED — do not edit by hand
 ├── bin/groupbib             # the wrapper script
-├── config/papis.config      # shared Papis configuration
+├── config/config.py         # shared Papis configuration (loaded via PAPIS_CONFIG_DIR)
 └── README.md
 ```
 
@@ -79,8 +79,9 @@ bin/groupbib export --commit  # ...and commit + push it
   Never edit it by hand — regenerate it with `bin/groupbib export`.
 - **One canonical citation key per paper**, chosen by you and stored in `ref`.
   `groupbib` refuses to create duplicate keys or duplicate DOIs.
-- To hand-edit metadata, use `papis -c config/papis.config -l library edit
-  ref:<key>`, then `bin/groupbib export --commit`.
+- To hand-edit metadata, use
+  `PAPIS_CONFIG_DIR=$PWD/config papis -l group edit ref:<key>`,
+  then `bin/groupbib export --commit`.
 - If two people race and Git reports a **conflict in `references.bib`**, do
   **not** merge it by hand. Resolve the `library/*/info.yaml` changes, then
   regenerate: `bin/groupbib export --commit`.
