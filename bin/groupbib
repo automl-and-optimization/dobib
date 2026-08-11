@@ -12,6 +12,7 @@ Typical usage::
     bin/groupbib add  vaswani-neurips17a 10.48550/arXiv.1706.03762
     bin/groupbib add  he-cvpr16a         arxiv:1512.03385
     bin/groupbib update he-cvpr16a
+    bin/groupbib update he-cvpr16a arxiv:1512.03385
     bin/groupbib export
     bin/groupbib check
 
@@ -20,6 +21,12 @@ Typical usage::
     git pull --rebase -> refresh papis cache -> add/update metadata ->
     validate (duplicate keys / DOIs) -> export references.bib ->
     commit (only library/ and references.bib) -> git push
+
+``update`` is a *clean re-fetch*: it moves the entry's folder aside and
+re-imports from the entry's own stored identifier (arXiv id or DOI), or from
+an identifier you pass explicitly. It never does a fuzzy title search, so it
+cannot silently replace an entry with an unrelated paper. Any manual edits to
+that entry's ``info.yaml`` are discarded by the re-fetch.
 
 There is no CI/build step: when ``git push`` finishes, the generated
 bibliography is part of that same commit.  Overleaf users only need to refresh
@@ -35,6 +42,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 
 # --------------------------------------------------------------------------- #
 # Paths
@@ -207,6 +215,50 @@ def refresh_cache() -> None:
     papis("cache", "reset", check=False, quiet=True)
 
 
+def entry_fields(key: str) -> dict:
+    """Return the canonical identifier fields for an entry.
+
+    ``update`` uses these to re-fetch from the entry's own arXiv id / DOI when
+    no identifier is passed on the command line.
+    """
+    r = papis(
+        "list", f"ref:{key}", "--all", "--format",
+        f"{{doc[doi]}}{_SEP}{{doc[eprint]}}{_SEP}{{doc[eprinttype]}}",
+        check=False, capture=True, quiet=True,
+    )
+    lines = [l for l in r.stdout.splitlines() if _SEP in l]
+    parts = lines[0].split(_SEP) if lines else []
+    parts += [""] * (3 - len(parts))
+    return {
+        "doi": parts[0].strip(),
+        "eprint": parts[1].strip(),
+        "eprinttype": parts[2].strip(),
+    }
+
+
+def folders_for_ref(key: str):
+    """Absolute paths of the Papis document folder(s) carrying this ref."""
+    r = papis("list", f"ref:{key}", "--all", check=False, capture=True, quiet=True)
+    return [l.strip() for l in r.stdout.splitlines() if l.strip()]
+
+
+def _fetch_into_library(key: str, identifier: str):
+    """Import ``identifier`` into the library, tagging it with ``ref=key``.
+
+    Returns the set of newly-created folder names under library/. The caller is
+    responsible for validating the result and rolling back on failure.
+    """
+    importer, value = detect(identifier)
+    before = set(os.listdir(LIBRARY))
+    add_cmd = ["add", "--batch", "--no-download-files", "--set", "ref", key]
+    if importer == "url":
+        add_cmd.append(value)
+    else:
+        add_cmd += ["--from", importer, value]
+    papis(*add_cmd)
+    return set(os.listdir(LIBRARY)) - before
+
+
 def has_metadata(key: str) -> bool:
     """True if the entry with this ref actually got bibliographic metadata.
 
@@ -341,22 +393,9 @@ def cmd_add(args) -> None:
             f"`groupbib update {key}` to refresh it."
         )
 
-    importer, value = detect(args.identifier)
-    before = set(os.listdir(LIBRARY))
-
-    add_cmd = [
-        "add", "--batch", "--no-download-files",
-        "--set", "ref", key,
-    ]
-    if importer == "url":
-        add_cmd.append(value)
-    else:
-        add_cmd += ["--from", importer, value]
-    papis(*add_cmd)
-
     # Roll back the freshly added folder on any problem (empty metadata fetch
     # or a validation failure) so we never commit a broken entry.
-    new_dirs = set(os.listdir(LIBRARY)) - before
+    new_dirs = _fetch_into_library(key, args.identifier)
     try:
         refresh_cache()
         if not has_metadata(key):
@@ -386,11 +425,63 @@ def cmd_update(args) -> None:
     if not any(e["ref"] == key for e in entries()):
         raise GroupbibError(f"no entry with citation key {key!r} found.")
 
-    # Refresh metadata from the entry's own identifiers (doi/arxiv/...).
-    papis("update", "--auto", "--batch", f"ref:{key}")
+    # Decide what to re-fetch from. An explicit identifier wins; otherwise use
+    # the entry's own canonical identifier. We deliberately never fall back to a
+    # fuzzy title search (papis `update --auto`): that silently overwrote good
+    # entries with unrelated papers.
+    if args.identifier:
+        identifier = args.identifier
+    else:
+        f = entry_fields(key)
+        if f["eprinttype"].lower() == "arxiv" and f["eprint"]:
+            identifier = f"arxiv:{f['eprint']}"
+        elif f["doi"]:
+            identifier = f["doi"]
+        else:
+            raise GroupbibError(
+                f"entry {key!r} has no stored DOI or arXiv id to refresh from. "
+                f"Pass one explicitly: `groupbib update {key} <doi|arxiv-id|url>`."
+            )
 
+    old_dirs = folders_for_ref(key)
+    if not old_dirs:
+        raise GroupbibError(f"could not locate the library folder for {key!r}.")
+
+    # Update is a clean re-fetch: move the current folder(s) aside, re-import
+    # under the same ref, and only keep the result if it validates. The backup
+    # lives OUTSIDE library/ so Papis does not index it as a duplicate ref.
+    backup_root = tempfile.mkdtemp(prefix="groupbib-update-")
+    backups = []
+    for d in old_dirs:
+        dest = os.path.join(backup_root, os.path.basename(d))
+        shutil.move(d, dest)
+        backups.append((d, dest))
     refresh_cache()
-    validate(entries())
+
+    kept = set(os.listdir(LIBRARY))
+    try:
+        new_dirs = _fetch_into_library(key, identifier)
+        refresh_cache()
+        if not has_metadata(key):
+            raise GroupbibError(
+                f"re-fetch of {identifier!r} produced an empty entry (no title). "
+                f"The identifier may be wrong or unsupported by Papis' importers."
+            )
+        validate(entries())
+    except GroupbibError:
+        # Remove whatever the failed fetch created, then restore the backup.
+        for d in set(os.listdir(LIBRARY)) - kept:
+            shutil.rmtree(os.path.join(LIBRARY, d), ignore_errors=True)
+        for orig, dest in backups:
+            if os.path.exists(orig):
+                shutil.rmtree(orig, ignore_errors=True)
+            shutil.move(dest, orig)
+        shutil.rmtree(backup_root, ignore_errors=True)
+        refresh_cache()
+        raise
+    else:
+        shutil.rmtree(backup_root, ignore_errors=True)
+
     export()
     commit(f"Update {key}")
     git_push()
@@ -434,6 +525,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     u = sub.add_parser("update", help="refresh an existing reference and push")
     u.add_argument("key", help="citation key of the entry to update")
+    u.add_argument(
+        "identifier", nargs="?", default=None,
+        help="optional DOI, arXiv id, or URL to re-fetch from "
+             "(defaults to the entry's stored arXiv id / DOI)",
+    )
     u.set_defaults(func=cmd_update)
 
     e = sub.add_parser("export", help="regenerate references.bib")
