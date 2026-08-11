@@ -1,57 +1,3 @@
-abstract: '<jats:p>1 Insects recognition is crucial for taxonomy. It helps researchers
-  to
-
-  process tremendous and various ecology data. Most studies focus on
-
-  fine-tuning the deep learning network or altering the algorithm to
-
-  enhance the identification accuracy, and some useful tools have been
-
-  generated with these methods. 2 This study focuses on the influence of
-
-  image data on the recognition model. The data set source of the existing
-
-  automated identification tools is relatively single, and the
-
-  competition-based data set was released only focus on evaluating the
-
-  model at present. For the first time, this article integrates butterfly
-
-  image data sets from multiple sources, covered illustrated books, and
-
-  butterfly popular science websites. The image types include standard
-
-  specimen images, illustrated book scan images and camera shots. In
-
-  addition, these images concluded not only fixed poses, but also various
-
-  other images of butterflies in natural poses. The size of these images
-
-  is also various. Testing data set is new data that is not belongs to the
-
-  training set, which also verifies the generalizability of the model,
-
-  indicating that in practical applications, this model can identify new
-
-  images. 3 We designed different data sets using the ResNet18 network to
-
-  train a classifier, which achieves a validation accuracy of 86 % in the
-
-  end of analyze. By adjusting the data sets, the accuracy changes as
-
-  well. This study provides a method to recognize hundreds of butterfly
-
-  species and analyzes the testing progress from the point of view of
-
-  data. 4 It is the first to combine butterflies from multiple countries
-
-  in the world to a single data set, with a recognition accuracy that
-
-  outperforms previous experiments, to the best of our knowledge. We
-
-  further analyze the testing results of butterfly recognition at the
-
-  family and genus level.</jats:p>'
 author: He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian
 author_list:
 - affiliation: []
@@ -201,6 +147,7 @@ citations:
 - doi: 10.1109/CVPR.2015.7298594
 doc_url: http://xplorestaging.ieee.org/ielx7/7776647/7780329/07780459.pdf?arnumber=7780459
 doi: 10.1109/cvpr.2016.90
+files: []
 journal: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 month: 6
 pages: 770--778
