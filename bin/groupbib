@@ -11,10 +11,16 @@ Typical usage::
 
     bin/groupbib add  vaswani-neurips17a 10.48550/arXiv.1706.03762
     bin/groupbib add  he-cvpr16a         arxiv:1512.03385
+    bin/groupbib add  chen-icml24a       https://proceedings.mlr.press/v235/chen24e.html
     bin/groupbib update he-cvpr16a
     bin/groupbib update he-cvpr16a arxiv:1512.03385
     bin/groupbib export
     bin/groupbib check
+
+PMLR (proceedings.mlr.press) URLs require the papis-pmlr downloader, which is
+shipped in this repo under ``plugins/papis-pmlr`` and installed once with
+``pip install -e plugins/papis-pmlr``. Without it, ``add``/``update`` refuse a
+PMLR URL rather than let Papis scrape a broken ``@article`` entry.
 
 ``add`` and ``update`` run the full synchronous pipeline:
 
@@ -218,21 +224,22 @@ def refresh_cache() -> None:
 def entry_fields(key: str) -> dict:
     """Return the canonical identifier fields for an entry.
 
-    ``update`` uses these to re-fetch from the entry's own arXiv id / DOI when
-    no identifier is passed on the command line.
+    ``update`` uses these to re-fetch from the entry's own arXiv id / DOI / URL
+    when no identifier is passed on the command line.
     """
     r = papis(
         "list", f"ref:{key}", "--all", "--format",
-        f"{{doc[doi]}}{_SEP}{{doc[eprint]}}{_SEP}{{doc[eprinttype]}}",
+        f"{{doc[doi]}}{_SEP}{{doc[eprint]}}{_SEP}{{doc[eprinttype]}}{_SEP}{{doc[url]}}",
         check=False, capture=True, quiet=True,
     )
     lines = [l for l in r.stdout.splitlines() if _SEP in l]
     parts = lines[0].split(_SEP) if lines else []
-    parts += [""] * (3 - len(parts))
+    parts += [""] * (4 - len(parts))
     return {
         "doi": parts[0].strip(),
         "eprint": parts[1].strip(),
         "eprinttype": parts[2].strip(),
+        "url": parts[3].strip(),
     }
 
 
@@ -257,6 +264,40 @@ def _fetch_into_library(key: str, identifier: str):
         add_cmd += ["--from", importer, value]
     papis(*add_cmd)
     return set(os.listdir(LIBRARY)) - before
+
+
+def is_pmlr_url(identifier: str) -> bool:
+    """True for PMLR (proceedings.mlr.press) abstract-page URLs."""
+    return bool(re.match(r"^https?://proceedings\.mlr\.press/", identifier.strip(), re.I))
+
+
+def require_pmlr_plugin() -> None:
+    """Abort unless the papis-pmlr downloader is installed in Papis' environment.
+
+    PMLR has no built-in Papis downloader; without our plugin the URL silently
+    falls back to the generic scraper, which produces a broken ``@article``
+    entry with no venue. We refuse rather than commit that. The check runs in
+    Papis' own interpreter (``papis exec``) because that is where the plugin's
+    entry point must be registered.
+    """
+    fd, probe = tempfile.mkstemp(prefix="groupbib-pmlr-probe-", suffix=".py")
+    with os.fdopen(fd, "w", encoding="utf-8") as fh:
+        fh.write(
+            "import sys, papis.plugin as p\n"
+            "sys.exit(0 if 'pmlr' in p.get_plugin_names('papis.downloader') else 3)\n"
+        )
+    try:
+        r = papis("exec", probe, check=False, capture=True, quiet=True)
+    finally:
+        os.remove(probe)
+    if r.returncode != 0:
+        raise GroupbibError(
+            "PMLR (proceedings.mlr.press) URLs need the papis-pmlr downloader, "
+            "which is not installed in Papis' environment. Without it Papis "
+            "would scrape a broken '@article' entry with no venue.\n"
+            "Install it once with:\n"
+            "  pip install -e plugins/papis-pmlr"
+        )
 
 
 def has_metadata(key: str) -> bool:
@@ -393,6 +434,9 @@ def cmd_add(args) -> None:
             f"`groupbib update {key}` to refresh it."
         )
 
+    if is_pmlr_url(args.identifier):
+        require_pmlr_plugin()
+
     # Roll back the freshly added folder on any problem (empty metadata fetch
     # or a validation failure) so we never commit a broken entry.
     new_dirs = _fetch_into_library(key, args.identifier)
@@ -437,11 +481,16 @@ def cmd_update(args) -> None:
             identifier = f"arxiv:{f['eprint']}"
         elif f["doi"]:
             identifier = f["doi"]
+        elif f["url"] and is_pmlr_url(f["url"]):
+            identifier = f["url"]
         else:
             raise GroupbibError(
                 f"entry {key!r} has no stored DOI or arXiv id to refresh from. "
                 f"Pass one explicitly: `groupbib update {key} <doi|arxiv-id|url>`."
             )
+
+    if is_pmlr_url(identifier):
+        require_pmlr_plugin()
 
     old_dirs = folders_for_ref(key)
     if not old_dirs:

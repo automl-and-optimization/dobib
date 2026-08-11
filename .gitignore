@@ -3,6 +3,7 @@
 # local-noise files.
 __pycache__/
 *.pyc
+*.egg-info/
 .DS_Store
 .idea/
 .vscode/

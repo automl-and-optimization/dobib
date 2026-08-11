@@ -18,6 +18,7 @@ dobib/
 ├── references.bib           # GENERATED — do not edit by hand
 ├── bin/groupbib             # the wrapper script
 ├── config/config.py         # shared Papis configuration (loaded via PAPIS_CONFIG_DIR)
+├── plugins/papis-pmlr/      # Papis downloader for PMLR (proceedings.mlr.press)
 └── README.md
 ```
 
@@ -33,6 +34,8 @@ git clone <this-repo-url> dobib
 cd dobib
 # optional: put groupbib on your PATH
 ln -s "$PWD/bin/groupbib" ~/.local/bin/groupbib
+# required only for PMLR (ICML/AISTATS/…) URLs — registers a Papis downloader:
+pip install -e plugins/papis-pmlr
 ```
 
 `bin/groupbib` locates the repository from its own path, so it works from
@@ -58,11 +61,29 @@ git pull --rebase → refresh papis cache → add/update metadata
   → commit (only library/ + references.bib) → git push
 ```
 
-Refresh an existing entry's metadata from its own DOI/arXiv id:
+Refresh an existing entry. `update` is a **clean re-fetch**: it re-imports from
+the entry's own stored identifier (or one you pass) and never does a fuzzy
+title search, so it can't silently swap in an unrelated paper. Any manual edits
+to that entry's `info.yaml` are discarded by the re-fetch.
 
 ```bash
-bin/groupbib update he-cvpr16a
+bin/groupbib update he-cvpr16a                 # re-fetch from its stored id
+bin/groupbib update he-cvpr16a arxiv:1512.03385  # or from an explicit one
 ```
+
+### PMLR (ICML, AISTATS, CoLT, …)
+
+PMLR has no built-in Papis downloader, so plain scraping mislabels its papers
+as `@article` and drops the venue. This repo ships a downloader
+(`plugins/papis-pmlr`) that reads the correct `@InProceedings` BibTeX embedded
+in each PMLR page. Install it once (`pip install -e plugins/papis-pmlr`), then:
+
+```bash
+bin/groupbib add chen-icml24a https://proceedings.mlr.press/v235/chen24e.html
+```
+
+If the plugin isn't installed, `groupbib` refuses PMLR URLs rather than commit a
+broken entry.
 
 Other commands:
 

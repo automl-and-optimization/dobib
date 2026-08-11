@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "papis-pmlr"
+version = "0.1.0"
+description = "Papis downloader for PMLR (proceedings.mlr.press) proceedings papers."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["papis"]
+
+# This entry point is how Papis discovers the downloader. Papis reads the
+# `papis.downloader` group from installed distribution metadata (see
+# papis/plugin.py), so the package must be installed (e.g. `pip install -e .`)
+# for the plugin to take effect — importing the module alone is not enough.
+[project.entry-points."papis.downloader"]
+pmlr = "papis_pmlr:PMLRDownloader"
+
+[tool.setuptools]
+packages = ["papis_pmlr"]
