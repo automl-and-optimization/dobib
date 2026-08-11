@@ -1,31 +1,21 @@
-abstract: Krista Opsahl-Ong, Michael J Ryan, Josh Purtell, David Broman, Christopher
-  Potts, Matei Zaharia, Omar Khattab. Proceedings of the 2024 Conference on Empirical
-  Methods in Natural Language Processing. 2024.
 acl_anthology_id: 2024.emnlp-main.525
 address: Miami, Florida, USA
-author: Opsahl-Ong, Krista and Ryan, Michael J. and Purtell, Josh and Broman, David
+author: Opsahl-Ong, Krista and Ryan, Michael J and Purtell, Josh and Broman, David
   and Potts, Christopher and Zaharia, Matei and Khattab, Omar
 author_list:
-- affiliation: []
-  family: Opsahl-Ong
+- family: Opsahl-Ong
   given: Krista
-- affiliation: []
-  family: Ryan
-  given: Michael J.
-- affiliation: []
-  family: Purtell
+- family: Ryan
+  given: Michael J
+- family: Purtell
   given: Josh
-- affiliation: []
-  family: Broman
+- family: Broman
   given: David
-- affiliation: []
-  family: Potts
+- family: Potts
   given: Christopher
-- affiliation: []
-  family: Zaharia
+- family: Zaharia
   given: Matei
-- affiliation: []
-  family: Khattab
+- family: Khattab
   given: Omar
 booktitle: Proceedings of the 2024 Conference on Empirical Methods in Natural Language
   Processing
@@ -40,13 +30,13 @@ firstpage: '9340'
 lastpage: '9366'
 month: November
 pages: 9340--9366
-papis_id: 6cb029f580da17a2b32b1e01441d765e
+papis_id: c5e54e5aa7550dcf0540e2a6f9aa6d30
 pdf_url: https://aclanthology.org/2024.emnlp-main.525.pdf
 publication_date: 2024/11
 publisher: Association for Computational Linguistics
 ref: opsahl-ong-emnlp25a
-time-added: 2026-08-11-17:01:04
+time-added: 2026-08-11-17:23:32
 title: Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs
-type: article
+type: inproceedings
 url: https://aclanthology.org/2024.emnlp-main.525/
 year: '2024'
