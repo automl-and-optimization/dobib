@@ -1,0 +1,11 @@
+# Papis builds its local cache/database outside the repo (in the user's XDG
+# cache dir), so there is nothing to ignore there. These are just the usual
+# local-noise files.
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+
+# references.bib is a generated artifact but IS committed on purpose so it can
+# be linked from Overleaf via a raw URL. Do not ignore it.

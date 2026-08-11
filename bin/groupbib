@@ -1,0 +1,467 @@
+#!/usr/bin/env python3
+"""groupbib — a small wrapper around Papis + Git for a shared group bibliography.
+
+The shared bibliography is a metadata-only Papis library that lives in this Git
+repository.  Humans edit only the Papis metadata (``library/<key>/info.yaml``);
+``references.bib`` is a generated build artifact that must never be edited by
+hand.  Each document carries a stable, group-wide citation key in the Papis
+``ref`` field, which becomes the BibTeX key used in ``\\cite{...}``.
+
+Typical usage::
+
+    bin/groupbib add  vaswani-neurips17a 10.48550/arXiv.1706.03762
+    bin/groupbib add  he-cvpr16a         arxiv:1512.03385
+    bin/groupbib update he-cvpr16a
+    bin/groupbib export
+    bin/groupbib check
+
+``add`` and ``update`` run the full synchronous pipeline:
+
+    git pull --rebase -> refresh papis cache -> add/update metadata ->
+    validate (duplicate keys / DOIs) -> export references.bib ->
+    commit (only library/ and references.bib) -> git push
+
+There is no CI/build step: when ``git push`` finishes, the generated
+bibliography is part of that same commit.  Overleaf users only need to refresh
+the externally linked ``references.bib``.
+"""
+
+from __future__ import annotations
+
+import argparse
+import datetime
+import os
+import re
+import shutil
+import subprocess
+import sys
+
+# --------------------------------------------------------------------------- #
+# Paths
+# --------------------------------------------------------------------------- #
+
+# The script lives at <root>/bin/groupbib; the repository root is its parent's
+# parent.  Resolve symlinks so an installed symlink (e.g. ~/.local/bin/groupbib)
+# still finds the real repo.
+SCRIPT = os.path.realpath(__file__)
+ROOT = os.path.dirname(os.path.dirname(SCRIPT))
+LIBRARY = os.path.join(ROOT, "library")
+# Papis reads config/config.py (see that file). We point Papis at it via the
+# PAPIS_CONFIG_DIR environment variable and address the library by name.
+CONFIG_DIR = os.path.join(ROOT, "config")
+LIBNAME = "group"
+BIB = os.path.join(ROOT, "references.bib")
+BIB_REL = "references.bib"
+LIBRARY_REL = "library"
+
+PAPIS = shutil.which("papis")
+
+
+# --------------------------------------------------------------------------- #
+# Small helpers
+# --------------------------------------------------------------------------- #
+
+class GroupbibError(Exception):
+    """A user-facing error that should abort the command cleanly."""
+
+
+def info(msg: str) -> None:
+    print(f"\033[1;34m==>\033[0m {msg}")
+
+
+def warn(msg: str) -> None:
+    print(f"\033[1;33mwarning:\033[0m {msg}", file=sys.stderr)
+
+
+def run(cmd, *, cwd=ROOT, check=True, capture=False, quiet=False):
+    """Run a subprocess rooted at the repository."""
+    if not quiet:
+        info(" ".join(cmd))
+    result = subprocess.run(
+        cmd,
+        cwd=cwd,
+        check=False,
+        text=True,
+        stdout=subprocess.PIPE if capture else None,
+        stderr=subprocess.PIPE if capture else None,
+    )
+    if check and result.returncode != 0:
+        detail = (result.stderr or result.stdout or "").strip()
+        raise GroupbibError(
+            f"command failed ({result.returncode}): {' '.join(cmd)}"
+            + (f"\n{detail}" if detail else "")
+        )
+    return result
+
+
+def papis(*args, check=True, capture=False, quiet=False):
+    """Invoke papis against this repository's config and library.
+
+    PAPIS_CONFIG_DIR makes Papis load config/config.py, which defines the
+    ``group`` library with an absolute path to <repo>/library.
+    """
+    if PAPIS is None:
+        raise GroupbibError(
+            "`papis` was not found on your PATH. Install it (e.g. "
+            "`pipx install papis` or `pip install papis`) and try again."
+        )
+    os.environ["PAPIS_CONFIG_DIR"] = CONFIG_DIR
+    cmd = [PAPIS, "-l", LIBNAME, *args]
+    return run(cmd, check=check, capture=capture, quiet=quiet)
+
+
+# --------------------------------------------------------------------------- #
+# Git helpers
+# --------------------------------------------------------------------------- #
+
+def git(*args, check=True, capture=False, quiet=False):
+    return run(["git", *args], check=check, capture=capture, quiet=quiet)
+
+
+def git_toplevel() -> str:
+    return git("rev-parse", "--show-toplevel", capture=True, quiet=True).stdout.strip()
+
+
+def has_upstream() -> bool:
+    """True if the current branch tracks a remote branch we can pull/push."""
+    r = git(
+        "rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{upstream}",
+        check=False, capture=True, quiet=True,
+    )
+    return r.returncode == 0 and bool(r.stdout.strip())
+
+
+def git_pull() -> None:
+    if not has_upstream():
+        warn("no upstream branch configured; skipping `git pull --rebase`.")
+        return
+    git("pull", "--rebase")
+
+
+def git_push() -> None:
+    if not has_upstream():
+        warn("no upstream branch configured; skipping `git push`. "
+             "Set a remote and run `git push -u origin <branch>` once.")
+        return
+    git("push")
+
+
+def commit(message: str) -> None:
+    """Stage ONLY library/ and references.bib, verify nothing else sneaks in,
+    then commit. Refuses to commit unrelated staged changes."""
+    git("add", "--", LIBRARY_REL, BIB_REL)
+
+    staged = git(
+        "diff", "--cached", "--name-only", capture=True, quiet=True,
+    ).stdout.splitlines()
+    if not staged:
+        info("no bibliography changes to commit.")
+        return
+
+    top = git_toplevel()
+    allowed_lib = os.path.join(ROOT, LIBRARY_REL) + os.sep
+    allowed_bib = os.path.join(ROOT, BIB_REL)
+    unexpected = []
+    for name in staged:
+        abspath = os.path.normpath(os.path.join(top, name))
+        if abspath == allowed_bib or abspath.startswith(allowed_lib):
+            continue
+        unexpected.append(name)
+    if unexpected:
+        raise GroupbibError(
+            "refusing to commit: unexpected files are staged:\n  "
+            + "\n  ".join(unexpected)
+            + "\nCommit or unstage those separately; groupbib only commits "
+            "library/ and references.bib."
+        )
+
+    git("commit", "-m", message)
+
+
+# --------------------------------------------------------------------------- #
+# Papis / library inspection
+# --------------------------------------------------------------------------- #
+
+_SEP = " |||groupbib||| "
+
+
+def entries():
+    """Return the current library as a list of {ref, doi} dicts."""
+    if not os.listdir(LIBRARY) or os.listdir(LIBRARY) == [".gitkeep"]:
+        return []
+    r = papis(
+        "list", "--all", "--format", f"{{doc[ref]}}{_SEP}{{doc[doi]}}",
+        check=False, capture=True, quiet=True,
+    )
+    out = []
+    for line in r.stdout.splitlines():
+        if _SEP not in line:
+            continue
+        ref, doi = line.split(_SEP, 1)
+        out.append({"ref": ref.strip(), "doi": doi.strip()})
+    return out
+
+
+def refresh_cache() -> None:
+    """Rebuild the local Papis cache so entries pulled in via Git are seen."""
+    papis("cache", "reset", check=False, quiet=True)
+
+
+def has_metadata(key: str) -> bool:
+    """True if the entry with this ref actually got bibliographic metadata.
+
+    A failed lookup (e.g. an unresolvable DOI) can leave an almost-empty
+    document behind; we require at least a title before accepting it.
+    """
+    r = papis(
+        "list", f"ref:{key}", "--all", "--format", "{doc[title]}",
+        check=False, capture=True, quiet=True,
+    )
+    return bool(r.stdout.strip())
+
+
+def validate(entries_list) -> None:
+    """Fail on duplicate citation keys, missing keys, or duplicate DOIs."""
+    problems = []
+
+    by_ref = {}
+    for e in entries_list:
+        by_ref.setdefault(e["ref"], []).append(e)
+    if "" in by_ref:
+        problems.append(
+            f"{len(by_ref[''])} document(s) have no citation key (ref field)."
+        )
+    for ref, group in by_ref.items():
+        if ref and len(group) > 1:
+            problems.append(f"duplicate citation key: {ref!r} ({len(group)} entries)")
+
+    by_doi = {}
+    for e in entries_list:
+        doi = e["doi"].lower()
+        if doi:
+            by_doi.setdefault(doi, set()).add(e["ref"])
+    for doi, refs in by_doi.items():
+        if len(refs) > 1:
+            problems.append(
+                f"DOI {doi} used by multiple keys: {', '.join(sorted(refs))}"
+            )
+
+    if problems:
+        raise GroupbibError("validation failed:\n  - " + "\n  - ".join(problems))
+
+
+# --------------------------------------------------------------------------- #
+# Identifier handling
+# --------------------------------------------------------------------------- #
+
+def detect(identifier: str):
+    """Map a user-supplied identifier to (papis-importer, value).
+
+    Returns ("url", url) for plain web URLs, which are added positionally so
+    Papis' downloaders handle them.
+    """
+    s = identifier.strip()
+    low = s.lower()
+
+    if low.startswith("doi:"):
+        s = s[4:]
+        low = s.lower()
+    elif low.startswith("arxiv:"):
+        return ("arxiv", s[6:])
+    elif low.startswith(("http://", "https://")):
+        if "arxiv.org" in low:
+            return ("arxiv", s)
+        if "doi.org/" in low:
+            s = s.split("doi.org/", 1)[1]
+            low = s.lower()
+        else:
+            return ("url", s)
+
+    # arXiv DOIs (10.48550/arXiv.<id>) are DataCite DOIs that Papis' Crossref-
+    # based `doi` importer cannot resolve. Route them to the arXiv importer.
+    m = re.match(r"^10\.48550/arxiv\.(.+)$", s, re.IGNORECASE)
+    if m:
+        return ("arxiv", m.group(1))
+    if s.startswith("10.") and "/" in s:
+        return ("doi", s)
+    # modern arXiv id (1706.03762, 2301.01234v2) or old style (math.AG/0601001)
+    if re.match(r"^\d{4}\.\d{4,5}(v\d+)?$", s):
+        return ("arxiv", s)
+    if re.match(r"^[a-z-]+(\.[A-Z]{2})?/\d{7}$", s):
+        return ("arxiv", s)
+    # Fall back to treating it as a DOI.
+    return ("doi", s)
+
+
+# --------------------------------------------------------------------------- #
+# Export
+# --------------------------------------------------------------------------- #
+
+def export() -> None:
+    """Regenerate references.bib from the Papis library, with a header banner."""
+    tmp = BIB + ".tmp"
+    if os.path.exists(tmp):
+        os.remove(tmp)
+
+    if entries():
+        papis("export", "--all", "--format", "bibtex", "--out", tmp)
+        body = ""
+        if os.path.exists(tmp):
+            with open(tmp, encoding="utf-8") as fh:
+                body = fh.read()
+            os.remove(tmp)
+    else:
+        body = ""
+
+    stamp = datetime.date.today().isoformat()
+    header = (
+        f"@comment{{Generated {stamp} by groupbib. DO NOT EDIT MANUALLY.\n"
+        f"         Source of truth: library/<key>/info.yaml. "
+        f"Regenerate with `bin/groupbib export`.}}\n\n"
+    )
+    with open(BIB, "w", encoding="utf-8") as fh:
+        fh.write(header)
+        fh.write(body)
+    info(f"wrote {BIB_REL} ({len(entries())} entries).")
+
+
+# --------------------------------------------------------------------------- #
+# Commands
+# --------------------------------------------------------------------------- #
+
+def cmd_add(args) -> None:
+    key = args.key
+    git_pull()
+    refresh_cache()
+
+    existing = entries()
+    if any(e["ref"] == key for e in existing):
+        raise GroupbibError(
+            f"citation key {key!r} already exists. Use "
+            f"`groupbib update {key}` to refresh it."
+        )
+
+    importer, value = detect(args.identifier)
+    before = set(os.listdir(LIBRARY))
+
+    add_cmd = [
+        "add", "--batch", "--no-download-files",
+        "--set", "ref", key,
+    ]
+    if importer == "url":
+        add_cmd.append(value)
+    else:
+        add_cmd += ["--from", importer, value]
+    papis(*add_cmd)
+
+    # Roll back the freshly added folder on any problem (empty metadata fetch
+    # or a validation failure) so we never commit a broken entry.
+    new_dirs = set(os.listdir(LIBRARY)) - before
+    try:
+        refresh_cache()
+        if not has_metadata(key):
+            raise GroupbibError(
+                f"metadata lookup for {args.identifier!r} produced an empty "
+                f"entry (no title). The identifier may be wrong or unsupported "
+                f"by Papis' importers. Nothing was committed."
+            )
+        validate(entries())
+    except GroupbibError:
+        for d in new_dirs:
+            shutil.rmtree(os.path.join(LIBRARY, d), ignore_errors=True)
+        refresh_cache()
+        raise
+
+    export()
+    commit(f"Add {key}")
+    git_push()
+    info(f"done: added {key}.")
+
+
+def cmd_update(args) -> None:
+    key = args.key
+    git_pull()
+    refresh_cache()
+
+    if not any(e["ref"] == key for e in entries()):
+        raise GroupbibError(f"no entry with citation key {key!r} found.")
+
+    # Refresh metadata from the entry's own identifiers (doi/arxiv/...).
+    papis("update", "--auto", "--batch", f"ref:{key}")
+
+    refresh_cache()
+    validate(entries())
+    export()
+    commit(f"Update {key}")
+    git_push()
+    info(f"done: updated {key}.")
+
+
+def cmd_export(args) -> None:
+    refresh_cache()
+    export()
+    if args.commit:
+        commit("Regenerate references.bib")
+        git_push()
+
+
+def cmd_check(args) -> None:
+    refresh_cache()
+    validate(entries())
+    info(f"ok: {len(entries())} entries, no duplicate keys or DOIs.")
+
+
+def cmd_list(args) -> None:
+    for e in sorted(entries(), key=lambda e: e["ref"]):
+        print(f"{e['ref']:<40} {e['doi']}")
+
+
+# --------------------------------------------------------------------------- #
+# CLI
+# --------------------------------------------------------------------------- #
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(
+        prog="groupbib",
+        description="Manage the shared group bibliography (Papis + Git).",
+    )
+    sub = p.add_subparsers(dest="command", required=True)
+
+    a = sub.add_parser("add", help="add a new reference and push")
+    a.add_argument("key", help="stable group-wide citation key (BibTeX key)")
+    a.add_argument("identifier", help="DOI, arXiv id, or URL")
+    a.set_defaults(func=cmd_add)
+
+    u = sub.add_parser("update", help="refresh an existing reference and push")
+    u.add_argument("key", help="citation key of the entry to update")
+    u.set_defaults(func=cmd_update)
+
+    e = sub.add_parser("export", help="regenerate references.bib")
+    e.add_argument("--commit", action="store_true",
+                   help="also commit and push references.bib")
+    e.set_defaults(func=cmd_export)
+
+    c = sub.add_parser("check", help="validate keys/DOIs without changing anything")
+    c.set_defaults(func=cmd_check)
+
+    l = sub.add_parser("list", help="list citation keys and DOIs")
+    l.set_defaults(func=cmd_list)
+
+    return p
+
+
+def main(argv=None) -> int:
+    args = build_parser().parse_args(argv)
+    try:
+        args.func(args)
+    except GroupbibError as exc:
+        print(f"\033[1;31merror:\033[0m {exc}", file=sys.stderr)
+        return 1
+    except KeyboardInterrupt:
+        print("\ninterrupted.", file=sys.stderr)
+        return 130
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
