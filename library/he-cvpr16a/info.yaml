@@ -1,0 +1,162 @@
+author: He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian
+author_list:
+- affiliation: []
+  family: He
+  given: Kaiming
+- affiliation: []
+  family: Zhang
+  given: Xiangyu
+- affiliation: []
+  family: Ren
+  given: Shaoqing
+- affiliation: []
+  family: Sun
+  given: Jian
+booktitle: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+citations:
+- article-title: 'Overfeat: Integrated recognition, localization and detection using
+    convolutional networks'
+  author: sermanet
+  journal-title: ICLRE
+  year: '2014'
+- doi: 10.1007/3-540-49430-8_11
+- doi: 10.1017/CBO9780511812651
+- article-title: 'Faster R-CNN: Towards real-time object detection with region proposal
+    networks'
+  author: ren
+  journal-title: NIPS
+  year: '2015'
+- article-title: Deep learning made easier by linear transformations in perceptrons
+  author: raiko
+  journal-title: AISTATS
+  year: '2012'
+- doi: 10.1109/CVPR.2007.383266
+- article-title: Accelerated gradient descent by factor-centering decomposition
+  author: schraudolph
+  journal-title: Technical Report
+  year: '1998'
+- author: saxe
+  journal-title: Exact solutions to the nonlinear dynamics of learning in deep linear
+    neural networks
+  year: '2013'
+- author: russakovsky
+  journal-title: Imagenet Large Scale Visual Recognition Challenge
+  year: '2014'
+- article-title: 'Fitnets: Hints for thin deep nets'
+  author: romero
+  journal-title: ICLRE
+  year: '2015'
+- article-title: On the number of linear regions of deep neural networks
+  author: montúfar
+  journal-title: NIPS
+  year: '2014'
+- doi: 10.1109/CVPR.2015.7298965
+- article-title: Rectified linear units improve restricted boltzmann machines
+  author: nair
+  journal-title: ICML
+  year: '2010'
+- author: bishop
+  doi: 10.1093/oso/9780198538493.001.0001
+  journal-title: Neural Networks for Pattern Recognition
+  year: '1995'
+- doi: 10.1109/72.279181
+- article-title: Learning multiple layers of features from tiny images
+  author: krizhevsky
+  journal-title: Tech Report
+  year: '2009'
+- doi: 10.1162/neco.1989.1.4.541
+- article-title: Imagenet classification with deep convolutional neural networks
+  author: krizhevsky
+  journal-title: NIPS
+  year: '2012'
+- author: lee
+  journal-title: Deeply-supervised nets
+  year: '2014'
+- article-title: Efficient backprop
+  author: lecun
+  doi: 10.1007/3-540-49430-8_2
+  first-page: '9'
+  journal-title: Neural Networks Tricks of the Trade
+  year: '1998'
+- article-title: 'Microsoft COCO: Common objects in context'
+  author: lin
+  journal-title: ECCV
+  year: '2014'
+- author: lin
+  journal-title: Network in Network
+  year: '2013'
+- doi: 10.1109/CVPR.2015.7299173
+- article-title: Spatial pyramid pooling in deep convolutional networks for visual
+    recognition
+  author: he
+  journal-title: ECCV
+  year: '2014'
+- article-title: Very deep convolutional networks for large-scale image recognition
+  author: simonyan
+  journal-title: ICLRE
+  year: '2015'
+- doi: 10.1109/ICCV.2015.123
+- article-title: Improving neural networks by preventing coadaptation of feature detectors
+  author: hinton
+  year: '2012'
+- author: hochreiter
+  journal-title: Untersuchungen zu dynamischen neuronalen Netzen
+  year: '1991'
+- doi: 10.1162/neco.1997.9.8.1735
+- article-title: 'Batch normalization: Accelerating deep network training by reducing
+    internal covariate shift'
+  author: ioffe
+  journal-title: ICML
+  year: '2015'
+- doi: 10.1109/TPAMI.2010.57
+- doi: 10.1109/TPAMI.2011.235
+- author: jia
+  journal-title: Caffe Convolutional Architecture for Fast Feature Embedding
+  year: '2014'
+- doi: 10.5244/C.25.76
+- doi: 10.1137/1.9780898719505
+- doi: 10.1109/ICCV.2015.169
+- doi: 10.1007/s11263-009-0275-4
+- article-title: Understanding the difficulty of training deep feedforward neural
+    networks
+  author: glorot
+  journal-title: AISTATS
+  year: '2010'
+- doi: 10.1109/CVPR.2014.81
+- article-title: Visualizing and understanding convolutional neural networks
+  author: zeiler
+  journal-title: ECCV
+  year: '2014'
+- author: goodfellow
+  journal-title: Maxout Networks
+  year: '2013'
+- doi: 10.1007/978-3-642-42054-2_55
+- doi: 10.1145/1179352.1142005
+- doi: 10.1007/978-1-4757-3121-7
+- author: vedaldi
+  journal-title: Vlfeat An Open and Portable Library of Computer Vision Algorithms
+  year: '2008'
+- article-title: Training very deep networks
+  author: srivastava
+  journal-title: 1507 06228
+  year: '2015'
+- author: srivastava
+  journal-title: Highway networks
+  year: '2015'
+- doi: 10.1109/34.56188
+- doi: 10.1109/CVPR.2015.7298594
+doc_url: http://xplorestaging.ieee.org/ielx7/7776647/7780329/07780459.pdf?arnumber=7780459
+doi: 10.1109/cvpr.2016.90
+files: []
+journal: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+month: 6
+pages: 770--778
+papis_id: c693b83a5d2c5409b24127de60bea269
+publisher: IEEE
+ref: he-cvpr16a
+time-added: 2026-08-11-14:03:10
+title: Deep Residual Learning for Image Recognition
+type: inproceedings
+url: https://doi.org/10.1109/cvpr.2016.90
+venue: Las Vegas, NV, USA
+year: 2016
