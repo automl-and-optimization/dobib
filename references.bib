@@ -1,63 +1,7 @@
-@comment{Generated 2026-08-11 by groupbib. DO NOT EDIT MANUALLY.
+@comment{Generated 2026-08-12 by groupbib. DO NOT EDIT MANUALLY.
          Source of truth: library/<key>/info.yaml. Regenerate with `bin/groupbib export`.}
 
-@inproceedings{chen-icml24a,
-  abstract = {Large language models (LLMs) are instruction followers but the performance varies under different instructions. It is challenging to create the best instruction, especially for black-box LLMs on which backpropagation is forbidden. Instead of directly optimizing the discrete instruction, we optimize a low-dimensional soft prompt applied to an open-source LLM to generate the instruction for the black-box LLM. In each optimization step of the proposed method InstructZero, a soft prompt is converted into an instruction by the open-source LLM, which is then submitted to the black-box LLM for zero-shot evaluation, whose result is sent to Bayesian optimization to produce new soft prompts improving the zero-shot performance. We evaluate InstructZero on different combinations of open-source LLMs and APIs including Vicuna and ChatGPT. InstructZero outperforms SOTA auto-instruction methods across a variety of downstream tasks.},
-  author = {Chen, Lichang and Chen, Jiuhai and Goldstein, Tom and Huang, Heng and Zhou, Tianyi},
-  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
-  editor = {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
-  issn = {2640-3498},
-  language = {en},
-  pages = {6503--6518},
-  pdf = {https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24e/chen24e.pdf},
-  publisher = {PMLR},
-  series = {Proceedings of Machine Learning Research},
-  title = {InstructZero: Efficient Instruction Optimization for Black-Box Large Language Models},
-  url = {https://proceedings.mlr.press/v235/chen24e.html},
-  volume = {235},
-  year = {2024},
-}
-
-@inproceedings{opsahl-ong-emnlp25a,
-  address = {Miami, Florida, USA},
-  author = {Opsahl-Ong, Krista and Ryan, Michael J and Purtell, Josh and Broman, David and Potts, Christopher and Zaharia, Matei and Khattab, Omar},
-  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
-  doi = {10.18653/v1/2024.emnlp-main.525},
-  editor = {Al-Onaizan, Yaser  and
-Bansal, Mohit  and
-Chen, Yun-Nung},
-  pages = {9340--9366},
-  publisher = {Association for Computational Linguistics},
-  title = {Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs},
-  url = {https://aclanthology.org/2024.emnlp-main.525/},
-  year = {2024},
-}
-
-@inproceedings{he-cvpr16a,
-  author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
-  booktitle = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  doi = {10.1109/cvpr.2016.90},
-  journal = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  pages = {770--778},
-  publisher = {IEEE},
-  title = {Deep Residual Learning for Image Recognition},
-  url = {https://doi.org/10.1109/cvpr.2016.90},
-  venue = {Las Vegas, NV, USA},
-  year = {2016},
-}
-
-@article{vaswani-neurips17a,
-  abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.},
-  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
-  eprint = {1706.03762v7},
-  eprintclass = {cs.CL},
-  eprinttype = {arxiv},
-  title = {Attention Is All You Need},
-  url = {http://arxiv.org/abs/1706.03762v7},
-  year = {2017},
-}
-
-@inproceedings{schneider-icml25a,
+@inproceedings{schneider-icml2025a,
   abstract = {Optimal prompt selection is crucial for maximizing large language model (LLM) performance on downstream tasks, especially in black-box settings where models are only accessible via APIs. Black-box prompt selection is challenging due to potentially large, combinatorial search spaces, absence of gradient information, and high evaluation cost of prompts on a validation set. We propose HbBoPs, a novel method that combines a structural-aware deep kernel Gaussian Process with Hyperband as a multi-fidelity scheduler to efficiently select prompts. HbBoPs uses embeddings of instructions and few-shot exemplars, treating them as modular components within prompts. This enhances the surrogate model’s ability to predict which prompt to evaluate next in a sample-efficient manner. Hyperband improves query-efficiency by adaptively allocating resources across different fidelity levels, reducing the number of validation instances required for evaluating prompts. Extensive experiments across ten diverse benchmarks and three LLMs demonstrate that HbBoPs outperforms state-of-the-art methods in both performance and efficiency.},
   author = {Schneider, Lennart and Wistuba, Martin and Klein, Aaron and Golebiowski, Jacek and Zappella, Giovanni and Merra, Felice Antonio},
   booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
@@ -72,4 +16,60 @@ Chen, Yun-Nung},
   url = {https://proceedings.mlr.press/v267/schneider25b.html},
   volume = {267},
   year = {2025},
+}
+
+@inproceedings{he-cvpr2016a,
+  author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  doi = {10.1109/cvpr.2016.90},
+  journal = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {770--778},
+  publisher = {IEEE},
+  title = {Deep Residual Learning for Image Recognition},
+  url = {https://doi.org/10.1109/cvpr.2016.90},
+  venue = {Las Vegas, NV, USA},
+  year = {2016},
+}
+
+@inproceedings{opsahl-ong-emnlp2024a,
+  address = {Miami, Florida, USA},
+  author = {Opsahl-Ong, Krista and Ryan, Michael J and Purtell, Josh and Broman, David and Potts, Christopher and Zaharia, Matei and Khattab, Omar},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  doi = {10.18653/v1/2024.emnlp-main.525},
+  editor = {Al-Onaizan, Yaser  and
+Bansal, Mohit  and
+Chen, Yun-Nung},
+  pages = {9340--9366},
+  publisher = {Association for Computational Linguistics},
+  title = {Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs},
+  url = {https://aclanthology.org/2024.emnlp-main.525/},
+  year = {2024},
+}
+
+@article{vaswani-neurips2017a,
+  abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.},
+  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
+  eprint = {1706.03762v7},
+  eprintclass = {cs.CL},
+  eprinttype = {arxiv},
+  title = {Attention Is All You Need},
+  url = {http://arxiv.org/abs/1706.03762v7},
+  year = {2017},
+}
+
+@inproceedings{chen-icml2024a,
+  abstract = {Large language models (LLMs) are instruction followers but the performance varies under different instructions. It is challenging to create the best instruction, especially for black-box LLMs on which backpropagation is forbidden. Instead of directly optimizing the discrete instruction, we optimize a low-dimensional soft prompt applied to an open-source LLM to generate the instruction for the black-box LLM. In each optimization step of the proposed method InstructZero, a soft prompt is converted into an instruction by the open-source LLM, which is then submitted to the black-box LLM for zero-shot evaluation, whose result is sent to Bayesian optimization to produce new soft prompts improving the zero-shot performance. We evaluate InstructZero on different combinations of open-source LLMs and APIs including Vicuna and ChatGPT. InstructZero outperforms SOTA auto-instruction methods across a variety of downstream tasks.},
+  author = {Chen, Lichang and Chen, Jiuhai and Goldstein, Tom and Huang, Heng and Zhou, Tianyi},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+  editor = {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  issn = {2640-3498},
+  language = {en},
+  pages = {6503--6518},
+  pdf = {https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24e/chen24e.pdf},
+  publisher = {PMLR},
+  series = {Proceedings of Machine Learning Research},
+  title = {InstructZero: Efficient Instruction Optimization for Black-Box Large Language Models},
+  url = {https://proceedings.mlr.press/v235/chen24e.html},
+  volume = {235},
+  year = {2024},
 }

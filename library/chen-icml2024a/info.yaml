@@ -38,7 +38,7 @@ pdf: https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24e/chen2
 pdf_url: https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24e/chen24e.pdf
 publication_date: 2024/07/08
 publisher: PMLR
-ref: chen-icml24a
+ref: chen-icml2024a
 series: Proceedings of Machine Learning Research
 time-added: 2026-08-11-16:50:08
 title: 'InstructZero: Efficient Instruction Optimization for Black-Box Large Language
