@@ -1,0 +1,46 @@
+abstract: Large language models (LLMs) have revolutionized natural language processing
+  by solving a wide range of tasks simply guided by a prompt. Yet their performance
+  is highly sensitive to prompt formulation. While automatic prompt optimization addresses
+  this challenge by finding optimal prompts, current methods require a substantial
+  number of LLM calls and input tokens, making prompt optimization expensive. We introduce
+  CAPO (Cost-Aware Prompt Optimization), an algorithm that enhances prompt optimization
+  efficiency by integrating AutoML techniques. CAPO is an evolutionary approach with
+  LLMs as operators, incorporating racing to save evaluations and multi-objective
+  optimization to balance performance with prompt length. It jointly optimizes instructions
+  and few-shot examples while leveraging task descriptions for improved robustness.
+  Our extensive experiments across diverse datasets and LLMs demonstrate that CAPO
+  outperforms state-of-the-art discrete prompt optimization methods in 11/15 cases
+  with improvements up to 21% in accuracy. Our algorithm achieves better performances
+  already with smaller budgets, saves evaluations through racing, and decreases average
+  prompt length via a length penalty, making it both cost-efficient and cost-aware.
+  Even without few-shot examples, CAPO outperforms its competitors and generally remains
+  robust to initial prompts. CAPO represents an important step toward making prompt
+  optimization more powerful and accessible by improving cost-efficiency.
+author: Zehle, Tom and Schlager, Moritz and Heiß, Timo and Feurer, Matthias
+author_list:
+- family: Zehle
+  given: Tom
+- family: Schlager
+  given: Moritz
+- family: Heiß
+  given: Timo
+- family: Feurer
+  given: Matthias
+booktitle: Proceedings of the Fourth International Conference on Automated Machine
+  Learning
+editor: Akoglu, Leman and Doerr, Carola and van Rijn, Jan N. and Garnett, Roman and
+  Gardner, Jacob R.
+files: []
+month: 08--11 Sep
+pages: 18/1--45
+papis_id: 895ad1a479762fc77887ccf3b5c4a1c9
+pdf: https://raw.githubusercontent.com/mlresearch/v293/main/assets/zehle25a/zehle25a.pdf
+publisher: PMLR
+ref: zehle-automl2025a
+series: Proceedings of Machine Learning Research
+time-added: 2026-08-12-09:56:19
+title: 'CAPO: Cost-Aware Prompt Optimization'
+type: inproceedings
+url: https://proceedings.mlr.press/v293/zehle25a.html
+volume: '293'
+year: '2025'

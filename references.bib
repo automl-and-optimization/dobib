@@ -57,6 +57,21 @@ Chen, Yun-Nung},
   year = {2017},
 }
 
+@inproceedings{zehle-automl2025a,
+  abstract = {Large language models (LLMs) have revolutionized natural language processing by solving a wide range of tasks simply guided by a prompt. Yet their performance is highly sensitive to prompt formulation. While automatic prompt optimization addresses this challenge by finding optimal prompts, current methods require a substantial number of LLM calls and input tokens, making prompt optimization expensive. We introduce CAPO (Cost-Aware Prompt Optimization), an algorithm that enhances prompt optimization efficiency by integrating AutoML techniques. CAPO is an evolutionary approach with LLMs as operators, incorporating racing to save evaluations and multi-objective optimization to balance performance with prompt length. It jointly optimizes instructions and few-shot examples while leveraging task descriptions for improved robustness. Our extensive experiments across diverse datasets and LLMs demonstrate that CAPO outperforms state-of-the-art discrete prompt optimization methods in 11/15 cases with improvements up to 21\% in accuracy. Our algorithm achieves better performances already with smaller budgets, saves evaluations through racing, and decreases average prompt length via a length penalty, making it both cost-efficient and cost-aware. Even without few-shot examples, CAPO outperforms its competitors and generally remains robust to initial prompts. CAPO represents an important step toward making prompt optimization more powerful and accessible by improving cost-efficiency.},
+  author = {Zehle, Tom and Schlager, Moritz and Hei{\ss}, Timo and Feurer, Matthias},
+  booktitle = {Proceedings of the Fourth International Conference on Automated Machine Learning},
+  editor = {Akoglu, Leman and Doerr, Carola and van Rijn, Jan N. and Garnett, Roman and Gardner, Jacob R.},
+  pages = {18/1--45},
+  pdf = {https://raw.githubusercontent.com/mlresearch/v293/main/assets/zehle25a/zehle25a.pdf},
+  publisher = {PMLR},
+  series = {Proceedings of Machine Learning Research},
+  title = {CAPO: Cost-Aware Prompt Optimization},
+  url = {https://proceedings.mlr.press/v293/zehle25a.html},
+  volume = {293},
+  year = {2025},
+}
+
 @inproceedings{chen-icml2024a,
   abstract = {Large language models (LLMs) are instruction followers but the performance varies under different instructions. It is challenging to create the best instruction, especially for black-box LLMs on which backpropagation is forbidden. Instead of directly optimizing the discrete instruction, we optimize a low-dimensional soft prompt applied to an open-source LLM to generate the instruction for the black-box LLM. In each optimization step of the proposed method InstructZero, a soft prompt is converted into an instruction by the open-source LLM, which is then submitted to the black-box LLM for zero-shot evaluation, whose result is sent to Bayesian optimization to produce new soft prompts improving the zero-shot performance. We evaluate InstructZero on different combinations of open-source LLMs and APIs including Vicuna and ChatGPT. InstructZero outperforms SOTA auto-instruction methods across a variety of downstream tasks.},
   author = {Chen, Lichang and Chen, Jiuhai and Goldstein, Tom and Huang, Heng and Zhou, Tianyi},
