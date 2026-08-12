@@ -489,26 +489,40 @@ def show_bib_diff() -> bool:
     ).returncode != 0
     if changed:
         info(f"proposed changes to {BIB_REL}:")
-        # No capture: stream straight to the terminal so git colours the diff.
-        git("diff", "HEAD", "--", BIB_REL, quiet=True)
+        # --no-pager: never launch a pager (e.g. `less`) for the diff. A pager
+        # would both paginate non-interactively and, worse, swallow the y/N
+        # keystrokes typed for the confirmation prompt below.
+        git("--no-pager", "diff", "HEAD", "--", BIB_REL, quiet=True)
     else:
         info(f"no changes to {BIB_REL} (metadata-only change).")
     return changed
 
 
 def confirm(yes: bool) -> bool:
-    """Ask whether to commit + push. ``--yes`` bypasses; non-TTY declines."""
+    """Ask whether to commit + push. ``--yes`` bypasses; non-TTY declines.
+
+    The answer is read from the controlling terminal (``/dev/tty``) rather than
+    ``sys.stdin`` so it cannot be consumed by a subprocess or a pager.
+    """
     if yes:
         return True
     if not sys.stdin.isatty():
         warn("not an interactive terminal; re-run with --yes to commit and "
              "push these changes.")
         return False
+
+    prompt = "Commit and push these changes? [y/N] "
     try:
-        answer = input("Commit and push these changes? [y/N] ").strip().lower()
-    except EOFError:
-        answer = ""
-    return answer in ("y", "yes")
+        with open("/dev/tty", "r+") as tty:
+            tty.write(prompt)
+            tty.flush()
+            answer = tty.readline()
+    except OSError:
+        try:
+            answer = input(prompt)
+        except EOFError:
+            answer = ""
+    return answer.strip().lower() in ("y", "yes")
 
 
 # --------------------------------------------------------------------------- #
