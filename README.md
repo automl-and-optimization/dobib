@@ -79,8 +79,15 @@ Each `add`/`update` runs the full pipeline:
 ```
 git pull --rebase → refresh papis cache → add/update metadata
   → validate (duplicate keys / DOIs) → export references.bib
+  → show the references.bib diff and ask [y/N]
   → commit (only library/ + references.bib) → git push
 ```
+
+Before anything is committed, `groupbib` prints the `references.bib` diff and
+asks for confirmation. Answer `n` (the default) and it rolls back — the entry
+and the regenerated `references.bib` are restored, nothing is committed or
+pushed. Pass `-y`/`--yes` to skip the prompt (e.g. in scripts); in a
+non-interactive shell the prompt defaults to *no* unless `--yes` is given.
 
 Refresh an existing entry. `update` is a **clean re-fetch**: it re-imports from
 the entry's own stored identifier (or one you pass) and never does a fuzzy

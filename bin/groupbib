@@ -26,7 +26,11 @@ PMLR URL rather than let Papis scrape a broken ``@article`` entry.
 
     git pull --rebase -> refresh papis cache -> add/update metadata ->
     validate (duplicate keys / DOIs) -> export references.bib ->
+    show the references.bib diff and confirm ([y/N], or --yes) ->
     commit (only library/ and references.bib) -> git push
+
+Declining the confirmation rolls back the working tree (the new/updated entry
+and the regenerated references.bib), so nothing is committed or pushed.
 
 ``update`` is a *clean re-fetch*: it moves the entry's folder aside and
 re-imports from the entry's own stored identifier (arXiv id or DOI), or from
@@ -472,6 +476,42 @@ def validate_key(key: str) -> None:
 
 
 # --------------------------------------------------------------------------- #
+# Review gate
+# --------------------------------------------------------------------------- #
+
+def show_bib_diff() -> bool:
+    """Print the pending diff of references.bib (working tree vs last commit).
+
+    Returns True if there is anything to review.
+    """
+    changed = git(
+        "diff", "--quiet", "HEAD", "--", BIB_REL, check=False, quiet=True
+    ).returncode != 0
+    if changed:
+        info(f"proposed changes to {BIB_REL}:")
+        # No capture: stream straight to the terminal so git colours the diff.
+        git("diff", "HEAD", "--", BIB_REL, quiet=True)
+    else:
+        info(f"no changes to {BIB_REL} (metadata-only change).")
+    return changed
+
+
+def confirm(yes: bool) -> bool:
+    """Ask whether to commit + push. ``--yes`` bypasses; non-TTY declines."""
+    if yes:
+        return True
+    if not sys.stdin.isatty():
+        warn("not an interactive terminal; re-run with --yes to commit and "
+             "push these changes.")
+        return False
+    try:
+        answer = input("Commit and push these changes? [y/N] ").strip().lower()
+    except EOFError:
+        answer = ""
+    return answer in ("y", "yes")
+
+
+# --------------------------------------------------------------------------- #
 # Commands
 # --------------------------------------------------------------------------- #
 
@@ -509,6 +549,14 @@ def cmd_add(args) -> None:
         raise
 
     export()
+    show_bib_diff()
+    if not confirm(args.yes):
+        for d in new_dirs:
+            shutil.rmtree(os.path.join(LIBRARY, d), ignore_errors=True)
+        git("checkout", "HEAD", "--", BIB_REL, check=False, quiet=True)
+        refresh_cache()
+        info("aborted: nothing committed or pushed.")
+        return
     commit(f"Add {key}")
     git_push()
     info(f"done: added {key}.")
@@ -580,10 +628,23 @@ def cmd_update(args) -> None:
         shutil.rmtree(backup_root, ignore_errors=True)
         refresh_cache()
         raise
-    else:
-        shutil.rmtree(backup_root, ignore_errors=True)
-
+    # Keep the backup until the change is confirmed, so a declined update can
+    # restore the previous version of the entry.
     export()
+    show_bib_diff()
+    if not confirm(args.yes):
+        for d in set(os.listdir(LIBRARY)) - kept:
+            shutil.rmtree(os.path.join(LIBRARY, d), ignore_errors=True)
+        for orig, dest in backups:
+            if os.path.exists(orig):
+                shutil.rmtree(orig, ignore_errors=True)
+            shutil.move(dest, orig)
+        shutil.rmtree(backup_root, ignore_errors=True)
+        git("checkout", "HEAD", "--", BIB_REL, check=False, quiet=True)
+        refresh_cache()
+        info("aborted: entry restored, nothing committed or pushed.")
+        return
+    shutil.rmtree(backup_root, ignore_errors=True)
     commit(f"Update {key}")
     git_push()
     info(f"done: updated {key}.")
@@ -593,6 +654,10 @@ def cmd_export(args) -> None:
     refresh_cache()
     export()
     if args.commit:
+        show_bib_diff()
+        if not confirm(args.yes):
+            info("aborted: not committed.")
+            return
         commit("Regenerate references.bib")
         git_push()
 
@@ -619,9 +684,16 @@ def build_parser() -> argparse.ArgumentParser:
     )
     sub = p.add_subparsers(dest="command", required=True)
 
+    def add_yes(parser):
+        parser.add_argument(
+            "-y", "--yes", action="store_true",
+            help="skip the diff review prompt; commit and push non-interactively",
+        )
+
     a = sub.add_parser("add", help="add a new reference and push")
     a.add_argument("key", help="stable group-wide citation key (BibTeX key)")
     a.add_argument("identifier", help="DOI, arXiv id, or URL")
+    add_yes(a)
     a.set_defaults(func=cmd_add)
 
     u = sub.add_parser("update", help="refresh an existing reference and push")
@@ -631,11 +703,13 @@ def build_parser() -> argparse.ArgumentParser:
         help="optional DOI, arXiv id, or URL to re-fetch from "
              "(defaults to the entry's stored arXiv id / DOI)",
     )
+    add_yes(u)
     u.set_defaults(func=cmd_update)
 
     e = sub.add_parser("export", help="regenerate references.bib")
     e.add_argument("--commit", action="store_true",
                    help="also commit and push references.bib")
+    add_yes(e)
     e.set_defaults(func=cmd_export)
 
     c = sub.add_parser("check", help="validate keys/DOIs without changing anything")
