@@ -1,0 +1,260 @@
+author: Li, Wenhu and van Stein, Niki and Bäck, Thomas and Raponi, Elena
+author_list:
+- affiliation:
+  - name: Leiden Institute of Advanced Computer Science, Leiden University, Leiden,
+      Netherlands
+  family: Li
+  given: Wenhu
+- affiliation:
+  - name: Leiden Institute of Advanced Computer Science, Leiden University, Leiden,
+      Netherlands
+  family: van Stein
+  given: Niki
+- affiliation:
+  - name: Leiden Institute of Advanced Computer Science, Leiden University, Leiden,
+      Netherlands
+  family: Bäck
+  given: Thomas
+- affiliation:
+  - name: Leiden Institute of Advanced Computer Science, Leiden University, Leiden,
+      Netherlands
+  family: Raponi
+  given: Elena
+booktitle: 'GECCO ''26: Genetic and Evolutionary Computation Conference'
+citations:
+- author: Alvi Ahsan
+  unstructured: Ahsan Alvi, Binxin Ru, Jan-Peter Calliess, Stephen Roberts, and Michael
+    A. Osborne. 2019. Asynchronous Batch Bayesian Optimisation with Improved Local
+    Penalisation. In Proceedings of the 36th International Conference on Machine Learning.
+    PMLR, 253–262.
+  volume-title: Proceedings of the 36th International Conference on Machine Learning.
+    PMLR, 253–262
+- author: Balandat Maximilian
+  unstructured: 'Maximilian Balandat, Brian Karrer, Daniel R. Jiang, Samuel Daulton,
+    Benjamin Letham, Andrew Gordon Wilson, and Eytan Bakshy. 2020. BoTorch: A Framework
+    for Efficient Monte-Carlo Bayesian Optimization. In Advances in Neural Information
+    Processing Systems 33. http://arxiv.org/abs/1910.06403'
+  volume-title: Andrew Gordon Wilson, and Eytan Bakshy
+  year: '2020'
+- doi: 10.1023/A:1010933404324
+- doi: 10.48550/arXiv.2012.03826
+- doi: 10.1145/3425501
+- doi: 10.1162/EVCO_A_00342
+- author: Eriksson David
+  unstructured: David Eriksson and Martin Jankowiak. 2021. High-dimensional Bayesian
+    optimization with sparse axis-aligned subspaces. In Proceedings of the Thirty-Seventh
+    Conference on Uncertainty in Artificial Intelligence (Proceedings of Machine Learning
+    Research, Vol. 161), Cassio de Campos and Marloes H. Maathuis (Eds.). PMLR, 493–503.
+    https://proceedings.mlr.press/v161/eriksson21a.html
+  volume: '503'
+  volume-title: Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial
+    Intelligence (Proceedings of Machine Learning Research
+  year: '2021'
+- author: Eriksson David
+  unstructured: David Eriksson, Michael Pearce, Jacob Gardner, Ryan D Turner, and
+    Matthias Poloczek. 2019. Scalable Global Optimization via Local Bayesian Optimization.
+    In Advances in Neural Information Processing Systems, H. Wallach, H. Larochelle,
+    A. Beygelzimer, F. d'Alché-Buc, E. Fox, and R. Garnett (Eds.), Vol. 32. Curran
+    Associates, Inc. https://proceedings.neurips.cc/paper_files/paper/2019/file/6c990b7aca7bc7058f5e98ea909e924b-Paper.pdf
+  volume: '32'
+  volume-title: Garnett (Eds.)
+  year: '2019'
+- author: Eriksson David
+  unstructured: David Eriksson and Matthias Poloczek. 2021. Scalable Constrained Bayesian
+    Optimization. In Proceedings of The 24th International Conference on Artificial
+    Intelligence and Statistics (Proceedings of Machine Learning Research, Vol. 130),
+    Arindam Banerjee and Kenji Fukumizu (Eds.). PMLR, 730–738. https://proceedings.mlr.press/v130/eriksson21a.html
+  volume: '738'
+  volume-title: Proceedings of The 24th International Conference on Artificial Intelligence
+    and Statistics (Proceedings of Machine Learning Research
+  year: '2021'
+- author: Fei Liu
+  unstructured: 'Liu Fei, Xialiang Tong, Mingxuan Yuan, Xi Lin, Fu Luo, Zhenkun Wang,
+    Zhichao Lu, and Qingfu Zhang. 2024. Evolution of Heuristics: Towards Efficient
+    Automatic Algorithm Design Using Large Language Model. In International Conference
+    on Machine Learning (ICML). https://arxiv.org/abs/2401.02051'
+  volume-title: 'Evolution of Heuristics: Towards Efficient Automatic Algorithm Design
+    Using Large Language Model. In International Conference on Machine Learning (ICML).
+    https://arxiv.org/abs/2401'
+  year: '2024'
+- author: Forrester Alexander I. J.
+  unstructured: Alexander I. J. Forrester, András Sóbester, and Andy J. Keane. 2008.
+    Engineering Design via Surrogate Modelling - A Practical Guide. John Wiley & Sons
+    Ltd.
+  volume-title: Keane
+  year: '2008'
+- doi: 10.1287/ijoc.1080.0314
+- doi: 10.48550/arXiv.1807.02811
+  unstructured: Peter I. Frazier. 2018. A Tutorial on Bayesian Optimization. arXiv:1807.02811
+    [stat] 10.48550/arXiv.1807.02811
+- author: Gardner Jacob
+  unstructured: Jacob Gardner, Matt Kusner, Zhixiang, Kilian Weinberger, and John
+    Cunningham. 2014. Bayesian Optimization with Inequality Constraints. In Proceedings
+    of the 31st International Conference on Machine Learning. PMLR, 937–945.
+  volume-title: Proceedings of the 31st International Conference on Machine Learning.
+    PMLR, 937–945
+  year: '2014'
+- doi: 10.1017/9781108348973
+- doi: 10.1007/s10994-006-6226-1
+- author: Gonzalez Javier
+  unstructured: Javier Gonzalez, Zhenwen Dai, Philipp Hennig, and Neil Lawrence. 2016.
+    Batch Bayesian Optimization via Local Penalization. In Proceedings of the 19th
+    International Conference on Artificial Intelligence and Statistics (Proceedings
+    of Machine Learning Research, Vol. 51), Arthur Gretton and Christian C. Robert
+    (Eds.). PMLR, Cadiz, Spain, 648–657. https://proceedings.mlr.press/v51/gonzalez16a.html
+  volume: '657'
+  volume-title: Proceedings of the 19th International Conference on Artificial Intelligence
+    and Statistics (Proceedings of Machine Learning Research
+  year: '2016'
+- doi: 10.48550/arXiv.1604.00772
+  unstructured: 'Nikolaus Hansen. 2023. The CMA Evolution Strategy: A Tutorial. arXiv:1604.00772
+    10.48550/arXiv.1604.00772'
+- doi: 10.1080/10556788.2020.1808977
+- unstructured: 'Nikolaus Hansen Steffen Finck Raymond Ros and Anne Auger. 2009. Realparameter
+    black-box optimization benchmarking 2009: Noiseless functions definitions. Technical
+    Report RR6829. INRIA.'
+- doi: 10.48550/arXiv.1511.09422
+  unstructured: José Miguel Hernández-Lobato Michael A. Gelbart Ryan P. Adams Matthew
+    W. Hoffman and Zoubin Ghahramani. 2016. A General Framework for Constrained Bayesian
+    Optimization Using Information-based Search. arXiv:1511.09422 [stat] 10.48550/arXiv.1511.09422
+- author: Hvarfner Carl
+  unstructured: Carl Hvarfner, Frank Hutter, and Luigi Nardi. 2022. Joint Entropy
+    Search For Maximally-Informed Bayesian Optimization. In Advances in Neural Information
+    Processing Systems, S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and
+    A. Oh (Eds.), Vol. 35. Curran Associates, Inc., 11494–11506. https://proceedings.neurips.cc/paper_files/paper/2022/file/4b03821747e89ce803b2dac590f6a39b-Paper-Conference.pdf
+  volume: '35'
+  volume-title: Oh (Eds.)
+  year: '2022'
+- author: Hvarfner Carl
+  unstructured: 'Carl Hvarfner, Danny Stoll, Artur Souza, Marius Lindauer, Frank Hutter,
+    and Luigi Nardi. 2022. πBO: AUGMENTING ACQUISITION FUNCTIONS WITH USER BELIEFS
+    FOR BAYESIAN OPTIMIZATION. arXiv preprint arXiv:2204.11051 (2022).'
+  volume-title: 'πBO: AUGMENTING ACQUISITION FUNCTIONS WITH USER BELIEFS FOR BAYESIAN
+    OPTIMIZATION. arXiv preprint arXiv:2204.11051'
+  year: '2022'
+- doi: 10.1007/978-981-15-0731-1_3
+- unstructured: Wenhu Li Niki van Stein Thomas Bäck and Elena Raponi. 2025. LLaMEA-BO.
+    https://github.com/Ewendawi/LLaMEA-BO.
+- doi: 10.5281/zenodo.15384610
+  unstructured: Wenhu Li Niki van Stein Thomas Bäck and Elena Raponi. 2025. Logs and
+    raw results of LLaMEA-BO. 10.5281/zenodo.15384610
+- article-title: 'SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter
+    Optimization'
+  author: Lindauer Marius
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Marius Lindauer, Katharina Eggensperger, Matthias Feurer, André Biedenkapp,
+    Difan Deng, Carolin Benjamins, Tim Ruhkopf, René Sass, and Frank Hutter. 2022.
+    SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization.
+    J. Mach. Learn. Res. 23, 1 (2022), 54:2475–54:2483.'
+  volume: '23'
+  year: '2022'
+- unstructured: Fei Liu Xialiang Tong Mingxuan Yuan and Qingfu Zhang. 2023. Algorithm
+    Evolution Using Large Language Model. (2023). arXiv:2311.15249 [cs.NE] arXiv:2311.15249.
+- doi: 10.1145/3787585
+- unstructured: Tennison Liu. 2025. Tennisonliu/LLAMBO. https://github.com/tennisonliu/LLAMBO
+    MIT license.
+- doi: 10.48550/arXiv.2402.03921
+  unstructured: Tennison Liu Nicolás Astorga Nabeel Seedat and Mihaela van der Schaar.
+    2024. Large Language Models to Enhance Bayesian Optimization. arXiv:2402.03921
+    [cs] 10.48550/arXiv.2402.03921
+- doi: 10.1007/978-3-031-30229-9_25
+- doi: 10.1016/j.ejor.2013.10.043
+- author: Marmin Sébastien
+  unstructured: Sébastien Marmin, Clément Chevalier, and David Ginsbourger. 2015.
+    Differentiating the Multipoint Expected Improvement for Optimal Batch Design.
+    In Machine Learning, Optimization, and Big Data, Panos Pardalos, Mario Pavone,
+    Giovanni Maria Farinella, and Vincenzo Cutello (Eds.). Springer International
+    Publishing, Cham, 37–48.
+  volume-title: Differentiating the Multipoint Expected Improvement for Optimal Batch
+    Design
+- author: Papenmeier Leonard
+  unstructured: 'Leonard Papenmeier, Luigi Nardi, and Matthias Poloczek. 2022. Increasing
+    the Scope as You Learn: Adaptive Bayesian Optimization in Nested Subspaces. In
+    Advances in Neural Information Processing Systems, S. Koyejo, S. Mohamed, A. Agarwal,
+    D. Belgrave, K. Cho, and A. Oh (Eds.), Vol. 35. Curran Associates, Inc., 11586–11601.
+    https://proceedings.neurips.cc/paper_files/paper/2022/file/4b7439a4ab0b8e4bcb4e2412c6a10a58-Paper-Conference.pdf'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2022'
+- doi: 10.1145/3638530.3664181
+- doi: 10.48550/arXiv.2304.05341
+- doi: 10.1038/s41586-023-06924-6
+- doi: 10.1145/3670683
+- author: Paul Schwefel Hans-Paul
+  unstructured: 'Hans-Paul Paul Schwefel. 1993. Evolution and Optimum Seeking: The
+    Sixth Generation. John Wiley & Sons, Inc., New York, NY, USA.'
+  volume-title: 'Evolution and Optimum Seeking: The Sixth Generation'
+- author: Snoek Jasper
+  unstructured: Jasper Snoek, Hugo Larochelle, and Ryan P Adams. 2012. Practical Bayesian
+    Optimization of Machine Learning Algorithms. In Advances in Neural Information
+    Processing Systems, Vol. 25. Curran Associates, Inc.
+  volume: '25'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2012'
+- doi: 10.1109/TEVC.2024.3497793
+- author: Turner Ryan
+  unstructured: 'Ryan Turner, David Eriksson, Michael McCourt, Juha Kiili, Eero Laaksonen,
+    Zhen Xu, and Isabelle Guyon. 2021. Bayesian Optimization is Superior to Random
+    Search for Machine Learning Hyperparameter Tuning: Analysis of the Black-Box Optimization
+    Challenge 2020. In Proceedings of the NeurIPS 2020 Competition and Demonstration
+    Track (Proceedings of Machine Learning Research, Vol. 133), Hugo Jair Escalante
+    and Katja Hofmann (Eds.). PMLR, 3–26. https://proceedings.mlr.press/v133/turner21a.html'
+  volume: '26'
+  volume-title: Proceedings of the NeurIPS 2020 Competition and Demonstration Track
+    (Proceedings of Machine Learning Research
+  year: '2021'
+- unstructured: Uber. 2025. Uber/Bayesmark. Uber Open Source. Apache-2.0 license.
+- doi: 10.1145/3641544
+- doi: 10.48550/arXiv.2101.02289
+- doi: 10.1145/3731567
+  unstructured: Niki van Stein Diederick Vermetten and Thomas Bäck. 2025. In-the-loop
+    HyperParameter Optimization for LLM-Based Automated Design of Heuristics. ACM
+    Trans. Evol. Learn. Optim. (2025). Just Accepted. 10.1145/3731567
+- doi: 10.1109/SMC.2017.8122656
+- doi: 10.48550/arXiv.2304.11127
+  unstructured: 'Shuhei Watanabe. 2023. Tree-Structured Parzen Estimator: Understanding
+    Its Algorithm Components and Their Roles for Better Empirical Performance. arXiv:2304.11127
+    [cs] 10.48550/arXiv.2304.11127'
+- author: Yao Yiming
+  unstructured: Yiming Yao, Fei Liu, Ji Cheng, and Qingfu Zhang. 2024. Evolve Cost-Aware
+    Acquisition Functions Using Large Language Models. In Parallel Problem Solving
+    from Nature - PPSN XVIII, Michael Affenzeller, Stephan M. Winkler, Anna V. Kononova,
+    Heike Trautmann, Tea Tušar, Penousal Machado, and Thomas Bäck (Eds.). Springer
+    Nature Switzerland, Cham, 374–390.
+  volume-title: Parallel Problem Solving from Nature - PPSN XVIII, Michael Affenzeller,
+    Stephan M
+- doi: 10.1145/3676536.3676816
+- author: Zhang Rui
+  unstructured: Rui Zhang, Fei Liu, Xi Lin, Zhenkun Wang, Zhichao Lu, and Qingfu Zhang.
+    2024. Understanding the Importance of Evolutionary Search in Automated Heuristic
+    Design with Large Language Models. In International Conference on Parallel Problem
+    Solving from Nature. Springer, 185–202.
+  volume-title: Understanding the Importance of Evolutionary Search in Automated Heuristic
+    Design with Large Language Models. In International Conference on Parallel Problem
+    Solving from Nature. Springer, 185–202
+  year: '2024'
+- author: Ziomek Juliusz Krzysztof
+  unstructured: Juliusz Krzysztof Ziomek and Haitham Bou Ammar. 2023. Are Random Decompositions
+    all we need in High Dimensional Bayesian Optimisation?. In Proceedings of the
+    40th International Conference on Machine Learning (Proceedings of Machine Learning
+    Research, Vol. 202), Andreas Krause, Emma Brunskill, Kyunghyun Cho, Barbara Engelhardt,
+    Sivan Sabato, and Jonathan Scarlett (Eds.). PMLR, 43347–43368. https://proceedings.mlr.press/v202/ziomek23a.html
+  volume: '43368'
+  volume-title: Proceedings of the 40th International Conference on Machine Learning
+    (Proceedings of Machine Learning Research
+  year: '2023'
+doc_url: https://dl.acm.org/doi/pdf/10.1145/3795095.3805059
+doi: 10.1145/3795095.3805059
+files: []
+journal: Proceedings of the Genetic and Evolutionary Computation Conference
+month: 7
+pages: 909--918
+papis_id: b75573a6f9c93e84f13bc65a81c5f33e
+publisher: ACM
+ref: li-gecco2026a
+time-added: 2026-08-12-10:51:12
+title: 'LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically
+  Generating Bayesian Optimization Algorithms'
+type: inproceedings
+url: https://doi.org/10.1145/3795095.3805059
+venue: Centro Internacional de Convenciones CIC-ANDE San Jose Costa Rica
+year: 2026
