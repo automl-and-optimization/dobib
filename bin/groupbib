@@ -266,25 +266,48 @@ def _fetch_into_library(key: str, identifier: str):
     return set(os.listdir(LIBRARY)) - before
 
 
-def is_pmlr_url(identifier: str) -> bool:
-    """True for PMLR (proceedings.mlr.press) abstract-page URLs."""
-    return bool(re.match(r"^https?://proceedings\.mlr\.press/", identifier.strip(), re.I))
+# Venues served by an in-repo Papis downloader plugin, mapped to the plugin's
+# downloader entry-point name and its install path. Used both to let `update`
+# re-fetch such an entry from its stored URL, and to fail with a clear
+# "install this" message when the plugin is not registered in Papis' env.
+_VENUE_PLUGINS = [
+    (re.compile(r"^https?://proceedings\.mlr\.press/", re.I),
+     "pmlr", "plugins/papis-pmlr"),
+    (re.compile(r"^https?://(?:papers\.nips\.cc|proceedings\.neurips\.cc"
+                r"|papers\.neurips\.cc|proceedings\.iclr\.cc)/", re.I),
+     "proceedingscc", "plugins/papis-proceedings-cc"),
+]
 
 
-def require_pmlr_plugin() -> None:
-    """Abort unless the papis-pmlr downloader is installed in Papis' environment.
+def venue_plugin_for(identifier: str):
+    """Return (downloader-name, install-path) if a plugin handles this URL."""
+    s = identifier.strip()
+    for pattern, name, path in _VENUE_PLUGINS:
+        if pattern.match(s):
+            return name, path
+    return None
 
-    PMLR has no built-in Papis downloader; without our plugin the URL silently
-    falls back to the generic scraper, which produces a broken ``@article``
-    entry with no venue. We refuse rather than commit that. The check runs in
-    Papis' own interpreter (``papis exec``) because that is where the plugin's
-    entry point must be registered.
+
+def require_venue_plugin(identifier: str) -> None:
+    """Abort unless the venue's Papis downloader plugin is registered.
+
+    Venues like PMLR / NeurIPS / ICLR have no built-in Papis downloader; we ship
+    one per venue under plugins/. Without it there is no dedicated parser, and
+    since the generic fallback scraper is disabled the add would fail with an
+    opaque "empty entry" error -- so we check up front and tell the user exactly
+    what to install. The check runs in Papis' own interpreter (``papis exec``),
+    where the plugin's entry point must be registered.
     """
-    fd, probe = tempfile.mkstemp(prefix="groupbib-pmlr-probe-", suffix=".py")
+    vp = venue_plugin_for(identifier)
+    if vp is None:
+        return
+    name, path = vp
+    fd, probe = tempfile.mkstemp(prefix="groupbib-plugin-probe-", suffix=".py")
     with os.fdopen(fd, "w", encoding="utf-8") as fh:
         fh.write(
-            "import sys, papis.plugin as p\n"
-            "sys.exit(0 if 'pmlr' in p.get_plugin_names('papis.downloader') else 3)\n"
+            f"import sys, papis.plugin as p\n"
+            f"sys.exit(0 if {name!r} in "
+            f"p.get_plugin_names('papis.downloader') else 3)\n"
         )
     try:
         r = papis("exec", probe, check=False, capture=True, quiet=True)
@@ -292,11 +315,9 @@ def require_pmlr_plugin() -> None:
         os.remove(probe)
     if r.returncode != 0:
         raise GroupbibError(
-            "PMLR (proceedings.mlr.press) URLs need the papis-pmlr downloader, "
-            "which is not installed in Papis' environment. Without it Papis "
-            "would scrape a broken '@article' entry with no venue.\n"
-            "Install it once with:\n"
-            "  pip install -e plugins/papis-pmlr"
+            f"this URL needs the {name!r} Papis downloader, which is not "
+            f"installed in Papis' environment. Install it once with:\n"
+            f"  pip install -e {path}"
         )
 
 
@@ -467,8 +488,7 @@ def cmd_add(args) -> None:
             f"`groupbib update {key}` to refresh it."
         )
 
-    if is_pmlr_url(args.identifier):
-        require_pmlr_plugin()
+    require_venue_plugin(args.identifier)
 
     # Roll back the freshly added folder on any problem (empty metadata fetch
     # or a validation failure) so we never commit a broken entry.
@@ -514,7 +534,7 @@ def cmd_update(args) -> None:
             identifier = f"arxiv:{f['eprint']}"
         elif f["doi"]:
             identifier = f["doi"]
-        elif f["url"] and is_pmlr_url(f["url"]):
+        elif f["url"] and venue_plugin_for(f["url"]):
             identifier = f["url"]
         else:
             raise GroupbibError(
@@ -522,8 +542,7 @@ def cmd_update(args) -> None:
                 f"Pass one explicitly: `groupbib update {key} <doi|arxiv-id|url>`."
             )
 
-    if is_pmlr_url(identifier):
-        require_pmlr_plugin()
+    require_venue_plugin(identifier)
 
     old_dirs = folders_for_ref(key)
     if not old_dirs:

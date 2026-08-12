@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "papis-proceedings-cc"
+version = "0.1.0"
+description = "Papis downloader for NeurIPS/ICLR .cc proceedings sites (papers.nips.cc, proceedings.neurips.cc, proceedings.iclr.cc)."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["papis"]
+
+# Papis discovers downloaders from installed `papis.downloader` entry points
+# (see papis/plugin.py), so the package must be installed (e.g. `pip install
+# -e .`) for the plugin to take effect.
+[project.entry-points."papis.downloader"]
+proceedingscc = "papis_proceedings_cc:ProceedingsCCDownloader"
+
+[tool.setuptools]
+packages = ["papis_proceedings_cc"]

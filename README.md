@@ -34,8 +34,9 @@ git clone <this-repo-url> dobib
 cd dobib
 # optional: put groupbib on your PATH
 ln -s "$PWD/bin/groupbib" ~/.local/bin/groupbib
-# required only for PMLR (ICML/AISTATS/…) URLs — registers a Papis downloader:
-pip install -e plugins/papis-pmlr
+# venue downloaders (register Papis plugins); install the ones you need:
+pip install -e plugins/papis-pmlr             # PMLR: ICML, AISTATS, CoLT, …
+pip install -e plugins/papis-proceedings-cc   # NeurIPS & ICLR .cc proceedings
 ```
 
 `bin/groupbib` locates the repository from its own path, so it works from
@@ -104,6 +105,18 @@ bin/groupbib add chen-icml2024a https://proceedings.mlr.press/v235/chen24e.html
 
 If the plugin isn't installed, `groupbib` refuses PMLR URLs rather than commit a
 broken entry.
+
+### NeurIPS & ICLR (`.cc` proceedings)
+
+`papers.nips.cc` / `proceedings.neurips.cc` and `proceedings.iclr.cc` also lack
+a built-in Papis downloader but link a ready-made BibTeX file on each page. The
+`plugins/papis-proceedings-cc` downloader reads it. Install it once
+(`pip install -e plugins/papis-proceedings-cc`), then:
+
+```bash
+bin/groupbib add feurer-neurips2015a https://papers.nips.cc/paper_files/paper/2015/hash/11d0e6287202fced83f79975ec59a3a6-Abstract.html
+bin/groupbib add agrawal-iclr2026a   https://proceedings.iclr.cc/paper_files/paper/2026/hash/0e9e708b6f48e14fd0ac29e167413f76-Abstract-Conference.html
+```
 
 Other commands:
 
