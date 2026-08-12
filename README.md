@@ -63,8 +63,15 @@ existing key that doesn't.
 ```bash
 bin/groupbib add vaswani-neurips2017a 10.48550/arXiv.1706.03762
 bin/groupbib add he-cvpr2016a          arxiv:1512.03385
-bin/groupbib add smith-icml2024b       https://example.org/paper
+bin/groupbib add opsahl-ong-emnlp2024a https://aclanthology.org/2024.emnlp-main.525/
 ```
+
+A URL is only accepted if Papis has a **dedicated downloader** for that venue
+(arXiv, ACL Anthology, PMLR, Springer, IEEE, …). The generic HTML scraper is
+disabled on purpose: rather than guess metadata from arbitrary pages (which
+produced wrong types and fake abstracts), `groupbib add` **fails** when no
+dedicated parser matches. In that case, supply a DOI / arXiv id, or add a
+downloader for the venue (see `plugins/papis-pmlr` for a template).
 
 Each `add`/`update` runs the full pipeline:
 
