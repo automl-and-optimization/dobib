@@ -1,0 +1,34 @@
+author: Guo, Qingyan and Wang, Rui and Guo, Junliang and Li, Bei and Song, Kaitao
+  and Tan, Xu and Liu, Guoqing and Bian, Jiang and Yang, Yujiu
+author_list:
+- family: Guo
+  given: Qingyan
+- family: Wang
+  given: Rui
+- family: Guo
+  given: Junliang
+- family: Li
+  given: Bei
+- family: Song
+  given: Kaitao
+- family: Tan
+  given: Xu
+- family: Liu
+  given: Guoqing
+- family: Bian
+  given: Jiang
+- family: Yang
+  given: Yujiu
+booktitle: International Conference on Learning Representations
+editor: B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun
+files: []
+pages: 34133--34156
+papis_id: 62cf9b6efcd52812aceda452cb9399a1
+ref: guo-iclr2024a
+time-added: 2026-08-12-14:17:10
+title: Connecting Large Language Models with Evolutionary Algorithms Yields Powerful
+  Prompt Optimizers
+type: inproceedings
+url: https://proceedings.iclr.cc/paper_files/paper/2024/file/9156b0f6dfa9bbd18c79cc459ef5d61c-Paper-Conference.pdf
+volume: '2024'
+year: '2024'
