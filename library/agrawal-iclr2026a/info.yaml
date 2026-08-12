@@ -1,0 +1,52 @@
+author: Agrawal, Lakshya A and Tan, Shangyin and Soylu, Dilara and Ziems, Noah and
+  Khare, Rishi and Opsahl-Ong, Krista and Singhvi, Arnav and Shandilya, Herumb and
+  Ryan, Michael J and Jiang, Meng and Potts, Christopher and Sen, Koushik and Dimakis,
+  Alex and Stoica, Ion and Klein, Dan and Zaharia, Matei and Khattab, Omar
+author_list:
+- family: Agrawal
+  given: Lakshya A
+- family: Tan
+  given: Shangyin
+- family: Soylu
+  given: Dilara
+- family: Ziems
+  given: Noah
+- family: Khare
+  given: Rishi
+- family: Opsahl-Ong
+  given: Krista
+- family: Singhvi
+  given: Arnav
+- family: Shandilya
+  given: Herumb
+- family: Ryan
+  given: Michael J
+- family: Jiang
+  given: Meng
+- family: Potts
+  given: Christopher
+- family: Sen
+  given: Koushik
+- family: Dimakis
+  given: Alex
+- family: Stoica
+  given: Ion
+- family: Klein
+  given: Dan
+- family: Zaharia
+  given: Matei
+- family: Khattab
+  given: Omar
+booktitle: International Conference on Learning Representations
+editor: C. Vondrick and B. Hariharan and C. Raffel and L. Pinto and D. Yang and A.
+  Faust
+files: []
+pages: 8479--8565
+papis_id: 91e09420fba294bae22c8b7d474a556a
+ref: agrawal-iclr2026a
+time-added: 2026-08-12-10:08:38
+title: 'GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning'
+type: inproceedings
+url: https://proceedings.iclr.cc/paper_files/paper/2026/file/0e9e708b6f48e14fd0ac29e167413f76-Paper-Conference.pdf
+volume: '2026'
+year: '2026'
