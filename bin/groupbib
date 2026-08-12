@@ -9,11 +9,11 @@ hand.  Each document carries a stable, group-wide citation key in the Papis
 
 Typical usage::
 
-    bin/groupbib add  vaswani-neurips17a 10.48550/arXiv.1706.03762
-    bin/groupbib add  he-cvpr16a         arxiv:1512.03385
-    bin/groupbib add  chen-icml24a       https://proceedings.mlr.press/v235/chen24e.html
-    bin/groupbib update he-cvpr16a
-    bin/groupbib update he-cvpr16a arxiv:1512.03385
+    bin/groupbib add  vaswani-neurips2017a 10.48550/arXiv.1706.03762
+    bin/groupbib add  he-cvpr2016a          arxiv:1512.03385
+    bin/groupbib add  chen-icml2024a        https://proceedings.mlr.press/v235/chen24e.html
+    bin/groupbib update he-cvpr2016a
+    bin/groupbib update he-cvpr2016a arxiv:1512.03385
     bin/groupbib export
     bin/groupbib check
 
@@ -328,6 +328,13 @@ def validate(entries_list) -> None:
         if ref and len(group) > 1:
             problems.append(f"duplicate citation key: {ref!r} ({len(group)} entries)")
 
+    off_scheme = sorted(r for r in by_ref if r and not KEY_RE.match(r))
+    if off_scheme:
+        problems.append(
+            f"citation key(s) do not match the scheme {KEY_SCHEME}: "
+            + ", ".join(repr(r) for r in off_scheme)
+        )
+
     by_doi = {}
     for e in entries_list:
         doi = e["doi"].lower()
@@ -419,11 +426,37 @@ def export() -> None:
 
 
 # --------------------------------------------------------------------------- #
+# Citation-key scheme
+# --------------------------------------------------------------------------- #
+
+# Enforced scheme: <lastname>-<venue><year><letter>, e.g. ``he-cvpr2016a`` or
+# ``opsahl-ong-emnlp2024a``. The last name may itself be hyphenated, so
+# everything up to the final ``-`` is the (lowercase) last name and the final
+# segment is a lowercase venue abbreviation + a 4-digit year + a single letter.
+# The trailing letter disambiguates same author/venue/year (…2024a, …2024b).
+KEY_SCHEME = "lastname-venueYYYYx  (e.g. he-cvpr2016a, opsahl-ong-emnlp2024a)"
+KEY_RE = re.compile(r"^[a-z]+(?:-[a-z]+)*-[a-z]+[0-9]{4}[a-z]$")
+
+
+def validate_key(key: str) -> None:
+    """Reject a citation key that does not follow the group scheme."""
+    if not KEY_RE.match(key):
+        raise GroupbibError(
+            f"citation key {key!r} does not match the required scheme\n"
+            f"  {KEY_SCHEME}\n"
+            f"i.e. a lowercase (optionally hyphenated) last name, then a "
+            f"lowercase venue abbreviation, a 4-digit year, and a single "
+            f"disambiguating letter."
+        )
+
+
+# --------------------------------------------------------------------------- #
 # Commands
 # --------------------------------------------------------------------------- #
 
 def cmd_add(args) -> None:
     key = args.key
+    validate_key(key)
     git_pull()
     refresh_cache()
 

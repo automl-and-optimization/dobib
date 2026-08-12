@@ -12,7 +12,7 @@ all synchronously on your machine. There is **no CI/build step**.
 ```
 dobib/
 ├── library/                 # source of truth: one folder per paper
-│   ├── vaswani-neurips17a/
+│   ├── vaswani-neurips2017a/
 │   │   └── info.yaml
 │   └── ...
 ├── references.bib           # GENERATED — do not edit by hand
@@ -45,12 +45,25 @@ anywhere inside the repo (or via the symlink above).
 
 Add a new reference (DOI, arXiv id, or URL). The **first argument is the
 citation key you want** — that key is authoritative and never changes, even if
-upstream metadata changes later:
+upstream metadata changes later.
+
+**Citation keys must follow the scheme** `lastname-venueYYYYx`:
+
+- `lastname` — first author's last name, lowercase (may be hyphenated, e.g.
+  `opsahl-ong`);
+- `venue` — lowercase conference/journal abbreviation (`icml`, `neurips`,
+  `cvpr`, `emnlp`, …);
+- `YYYY` — 4-digit publication year;
+- `x` — a single letter disambiguating same author/venue/year (`…2024a`,
+  `…2024b`).
+
+`groupbib add` refuses a key that doesn't match, and `groupbib check` flags any
+existing key that doesn't.
 
 ```bash
-bin/groupbib add vaswani-neurips17a 10.48550/arXiv.1706.03762
-bin/groupbib add he-cvpr16a         arxiv:1512.03385
-bin/groupbib add some-blog-post     https://example.org/paper
+bin/groupbib add vaswani-neurips2017a 10.48550/arXiv.1706.03762
+bin/groupbib add he-cvpr2016a          arxiv:1512.03385
+bin/groupbib add smith-icml2024b       https://example.org/paper
 ```
 
 Each `add`/`update` runs the full pipeline:
@@ -67,8 +80,8 @@ title search, so it can't silently swap in an unrelated paper. Any manual edits
 to that entry's `info.yaml` are discarded by the re-fetch.
 
 ```bash
-bin/groupbib update he-cvpr16a                 # re-fetch from its stored id
-bin/groupbib update he-cvpr16a arxiv:1512.03385  # or from an explicit one
+bin/groupbib update he-cvpr2016a                 # re-fetch from its stored id
+bin/groupbib update he-cvpr2016a arxiv:1512.03385  # or from an explicit one
 ```
 
 ### PMLR (ICML, AISTATS, CoLT, …)
@@ -79,7 +92,7 @@ as `@article` and drops the venue. This repo ships a downloader
 in each PMLR page. Install it once (`pip install -e plugins/papis-pmlr`), then:
 
 ```bash
-bin/groupbib add chen-icml24a https://proceedings.mlr.press/v235/chen24e.html
+bin/groupbib add chen-icml2024a https://proceedings.mlr.press/v235/chen24e.html
 ```
 
 If the plugin isn't installed, `groupbib` refuses PMLR URLs rather than commit a
