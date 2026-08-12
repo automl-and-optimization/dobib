@@ -1,0 +1,28 @@
+author: Feurer, Matthias and Klein, Aaron and Eggensperger, Katharina and Springenberg,
+  Jost and Blum, Manuel and Hutter, Frank
+author_list:
+- family: Feurer
+  given: Matthias
+- family: Klein
+  given: Aaron
+- family: Eggensperger
+  given: Katharina
+- family: Springenberg
+  given: Jost
+- family: Blum
+  given: Manuel
+- family: Hutter
+  given: Frank
+booktitle: Advances in Neural Information Processing Systems
+editor: C. Cortes and N. Lawrence and D. Lee and M. Sugiyama and R. Garnett
+files: []
+pages: ''
+papis_id: 7c0a1aff7aa060a0e93f91fe6f2f7765
+publisher: Curran Associates, Inc.
+ref: feurer-nips2015a
+time-added: 2026-08-12-13:18:51
+title: Efficient and Robust Automated Machine Learning
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf
+volume: '28'
+year: '2015'
