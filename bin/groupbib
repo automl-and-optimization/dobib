@@ -429,7 +429,11 @@ def export() -> None:
         os.remove(tmp)
 
     if entries():
-        papis("export", "--all", "--format", "bibtex", "--out", tmp)
+        # Sort by the citation key (ref) so the file has a stable, alphabetical
+        # order. Adding/updating one entry then yields a small, localized diff
+        # instead of one that depends on Papis' internal document ordering.
+        papis("export", "--all", "--sort", "ref",
+              "--format", "bibtex", "--out", tmp)
         body = ""
         if os.path.exists(tmp):
             with open(tmp, encoding="utf-8") as fh:
