@@ -1,0 +1,44 @@
+author: Zhang, Jiayi and Xiang, Jinyu and Yu, Zhaoyang and Teng, Fengwei and Chen,
+  XiongHui and Chen, Jiaqi and Zhuge, Mingchen and Cheng, Xin and Hong, Sirui and
+  Wang, Jinlin and Zheng, Bingnan and Liu, Bang and Luo, Yuyu and Wu, Chenglin
+author_list:
+- family: Zhang
+  given: Jiayi
+- family: Xiang
+  given: Jinyu
+- family: Yu
+  given: Zhaoyang
+- family: Teng
+  given: Fengwei
+- family: Chen
+  given: XiongHui
+- family: Chen
+  given: Jiaqi
+- family: Zhuge
+  given: Mingchen
+- family: Cheng
+  given: Xin
+- family: Hong
+  given: Sirui
+- family: Wang
+  given: Jinlin
+- family: Zheng
+  given: Bingnan
+- family: Liu
+  given: Bang
+- family: Luo
+  given: Yuyu
+- family: Wu
+  given: Chenglin
+booktitle: International Conference on Learning Representations
+editor: Y. Yue and A. Garg and N. Peng and F. Sha and R. Yu
+files: []
+pages: 34040--34077
+papis_id: 115c2d5175bc9da6c8958f5866a8496b
+ref: zhang-iclr2025a
+time-added: 2026-08-23-09:11:49
+title: 'AFlow: Automating Agentic Workflow Generation'
+type: inproceedings
+url: https://proceedings.iclr.cc/paper_files/paper/2025/file/5492ecbce4439401798dcd2c90be94cd-Paper-Conference.pdf
+volume: '2025'
+year: '2025'
