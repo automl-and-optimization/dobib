@@ -1,6 +1,21 @@
 @comment{Generated 2026-08-23 by groupbib. DO NOT EDIT MANUALLY.
          Source of truth: library/<key>/info.yaml. Regenerate with `bin/groupbib export`.}
 
+@inproceedings{qu-icml2025a,
+  abstract = {The long-standing dominance of gradient-boosted decision trees on tabular data is currently challenged by tabular foundation models using In-Context Learning (ICL): setting the training data as context for the test data and predicting in a single forward pass without parameter updates. While TabPFNv2 foundation model excels on tables with up to 10K samples, its alternating column- and row-wise attentions make handling large training sets computationally prohibitive. So, can ICL be effectively scaled and deliver a benefit for larger tables? We introduce TabICL, a tabular foundation model for classification, pretrained on synthetic datasets with up to 60K samples and capable of handling 500K samples on affordable resources. This is enabled by a novel two-stage architecture: a column-then-row attention mechanism to build fixed-dimensional embeddings of rows, followed by a transformer for efficient ICL. Across 200 classification datasets from the TALENT benchmark, TabICL is on par with TabPFNv2 while being systematically faster (up to 10 times), and significantly outperforms all other approaches. On 53 datasets with over 10K samples, TabICL surpasses both TabPFNv2 and CatBoost, demonstrating the potential of ICL for large data. Pretraining code, inference code, and pre-trained models are available at https://github.com/soda-inria/tabicl.},
+  author = {Qu, Jingang and Holzm{\"u}ller, David and Varoquaux, Ga{\"e}l and Le Morvan, Marine},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+  editor = {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  pages = {50817--50847},
+  pdf = {https://raw.githubusercontent.com/mlresearch/v267/main/assets/qu25d/qu25d.pdf},
+  publisher = {PMLR},
+  series = {Proceedings of Machine Learning Research},
+  title = {TabICL: A Tabular Foundation Model for In-Context Learning on Large Data},
+  url = {https://proceedings.mlr.press/v267/qu25d.html},
+  volume = {267},
+  year = {2025},
+}
+
 @inproceedings{guo-iclr2024a,
   author = {Guo, Qingyan and Wang, Rui and Guo, Junliang and Li, Bei and Song, Kaitao and Tan, Xu and Liu, Guoqing and Bian, Jiang and Yang, Yujiu},
   booktitle = {International Conference on Learning Representations},
