@@ -1,0 +1,129 @@
+abstract: 'Tabular data underpins most high-value prediction problems in science and
+  industry, and TabPFN has driven the foundation model revolution for this modality.
+  Designed with feedback from our users, TabPFN-3 builds on this foundation to scale
+  state-of-the-art performance to datasets with 1M training rows and substantially
+  reduce training and inference time. Pretrained exclusively on synthetic data from
+  our prior, TabPFN-3 dramatically pushes the frontier of tabular prediction and brings
+  substantial gains on time series, relational, and tabular-text data. On the standard
+  tabular benchmark TabArena, a forward pass of TabPFN-3 outperforms all other models,
+  including tuned and ensembled baselines, by a significant margin, and pareto-dominates
+  the speed/performance frontier. On more diverse datasets, TabPFN-3 ranks first on
+  datasets with many classes, and beats 8-hour-tuned gradient-boosted-tree baselines
+  on datasets up to 1M training rows and 200 features. TabPFN-3 introduces test-time
+  compute scaling to tabular foundation models. Our API offering TabPFN-3-Plus (Thinking)
+  exploits this to beat all non-TabPFN models by over 200 Elo on TabArena, rising
+  to 420 Elo on the largest data subset, and outperforms AutoGluon 1.5 extreme while
+  being 10x faster, without using LLMs, real data, internet search or any other model
+  besides TabPFN. TabPFN-3 extends the capabilities of our models, enabling SOTA prediction
+  on relational data (new SOTA foundation model on RelBenchV1) and tabular-text data
+  (SOTA on TabSTAR via TabPFN-3-Plus); and improves existing integrations: a specialized
+  checkpoint, TabPFN-TS-3, ranks 2nd on the time-series benchmark fev-bench, and SHAP-value
+  computation is up to 120x faster. TabPFN-3 achieves this performance while being
+  up to 20x faster than TabPFN-2.5. In addition, a reduced KV cache and row-chunking
+  scale to 1M rows on one H100 with fast inference speed.'
+author: Grinsztajn, Léo and Flöge, Klemens and Key, Oscar and Birkel, Felix and Jund,
+  Philipp and Roof, Brendan and Manium, Mihir and Hoo, Shi Bin and Bühler, Magnus
+  and Garg, Anurag and Safaric, Dominik and Robertson, Jake and Jäger, Benjamin and
+  Alessi, Simone and Hayler, Adrian and Moroshan, Vladyslav and Purucker, Lennart
+  and Singer, Philipp and Arazi, Alan and Siems, Julien and Metzen, Jan Hendrik and
+  Grab, Georg and Erickson, Nick and Guo, Siyuan and Kalfon, Eliott and Bing, Simon
+  and Salinas, David and Cornu, Clara and Wehrhahn, Lilly Charlotte and Kriuchkova,
+  Diana and Kaya, Kursat and Sidhoum, Lydia and Salmon, Marie and Chen, Jerry and
+  Hulsebos, Madelon and LeCun, Yann and Müller, Samuel and Schölkopf, Bernhard and
+  Gambhir, Sauraj and Hollmann, Noah and Hutter, Frank
+author_list:
+- family: Grinsztajn
+  given: Léo
+- family: Flöge
+  given: Klemens
+- family: Key
+  given: Oscar
+- family: Birkel
+  given: Felix
+- family: Jund
+  given: Philipp
+- family: Roof
+  given: Brendan
+- family: Manium
+  given: Mihir
+- family: Hoo
+  given: Shi Bin
+- family: Bühler
+  given: Magnus
+- family: Garg
+  given: Anurag
+- family: Safaric
+  given: Dominik
+- family: Robertson
+  given: Jake
+- family: Jäger
+  given: Benjamin
+- family: Alessi
+  given: Simone
+- family: Hayler
+  given: Adrian
+- family: Moroshan
+  given: Vladyslav
+- family: Purucker
+  given: Lennart
+- family: Singer
+  given: Philipp
+- family: Arazi
+  given: Alan
+- family: Siems
+  given: Julien
+- family: Metzen
+  given: Jan Hendrik
+- family: Grab
+  given: Georg
+- family: Erickson
+  given: Nick
+- family: Guo
+  given: Siyuan
+- family: Kalfon
+  given: Eliott
+- family: Bing
+  given: Simon
+- family: Salinas
+  given: David
+- family: Cornu
+  given: Clara
+- family: Wehrhahn
+  given: Lilly Charlotte
+- family: Kriuchkova
+  given: Diana
+- family: Kaya
+  given: Kursat
+- family: Sidhoum
+  given: Lydia
+- family: Salmon
+  given: Marie
+- family: Chen
+  given: Jerry
+- family: Hulsebos
+  given: Madelon
+- family: LeCun
+  given: Yann
+- family: Müller
+  given: Samuel
+- family: Schölkopf
+  given: Bernhard
+- family: Gambhir
+  given: Sauraj
+- family: Hollmann
+  given: Noah
+- family: Hutter
+  given: Frank
+doc_url: https://arxiv.org/pdf/2605.13986v2
+eprint: 2605.13986v2
+eprintclass: cs.LG
+eprinttype: arxiv
+files: []
+month: 5
+papis_id: 067170546f050982133ac32757cf255c
+ref: grinsztajn-arxiv2026a
+time-added: 2026-08-23-09:06:25
+title: 'TabPFN-3: Technical Report'
+type: article
+url: http://arxiv.org/abs/2605.13986v2
+year: 2026
