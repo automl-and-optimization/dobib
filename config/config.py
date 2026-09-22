@@ -179,12 +179,13 @@ def _normalise_crossref(data, new_data):
 
     # An @inproceedings has a booktitle, never a journal. Papis fills `journal`
     # from container-title for every record, regardless of type.
+    #
+    # `volume` and `issue` are deliberately left alone. AAAI's are an artefact
+    # of its pseudo-journal registration, but they are still how the paper is
+    # located (vol. 38, issue 12 == the track), and BibLaTeX accepts both on an
+    # @inproceedings. Dropping metadata the DOI actually carries is not this
+    # patch's job.
     new_data.pop("journal", None)
-    # AAAI's volume/issue are an artefact of its pseudo-journal registration and
-    # are meaningless in a conference citation.
-    if new_data.get("booktitle"):
-        new_data.pop("volume", None)
-        new_data.pop("issue", None)
 
     return new_data
 
