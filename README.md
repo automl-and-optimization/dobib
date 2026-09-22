@@ -125,6 +125,27 @@ bin/groupbib add feurer-neurips2015a https://papers.nips.cc/paper_files/paper/20
 bin/groupbib add agrawal-iclr2026a   https://proceedings.iclr.cc/paper_files/paper/2026/hash/0e9e708b6f48e14fd0ac29e167413f76-Abstract-Conference.html
 ```
 
+### Conference papers imported by DOI
+
+Papis derives the BibTeX entry type straight from Crossref's `type` field, but
+that field says how the *publisher registered* the DOI, not what the paper is.
+AAAI (and ICAPS, ICWSM, HCOMP, SoCS, …) register their proceedings as a
+pseudo-journal, and Springer registers LNCS/CCIS proceedings papers as book
+chapters, so a plain import yields `@article` and `@inbook` instead of
+`@inproceedings`. Papis also copies Crossref's `container-title` into `journal`
+for *every* record, leaving a stray `journal` field on conference entries.
+
+`config/config.py` patches Papis' Crossref conversion to fix this: an entry is
+treated as a conference paper if the Crossref record carries an `event` block
+(IJCAI, ACM), if its DOI matches a curated venue rule, or — for Springer
+chapters — if the parent book turns out to be a proceedings volume. Such an
+entry gets `@inproceedings` plus a real `booktitle`/`series` and no `journal`.
+The fix lives in the config, not in `info.yaml`, so it survives `groupbib
+update` (which is a clean re-fetch and discards manual edits).
+
+If a venue still imports with the wrong type, add its DOI prefix to
+`_CONFERENCE_DOI_RULES` in `config/config.py` and re-run `groupbib update`.
+
 Other commands:
 
 ```bash
