@@ -1,0 +1,155 @@
+author: Rundel, David and Kobialka, Julius and von Crailsheim, Constantin and Feurer,
+  Matthias and Nagler, Thomas and Rügamer, David
+author_list:
+- affiliation: []
+  family: Rundel
+  given: David
+- affiliation: []
+  family: Kobialka
+  given: Julius
+- affiliation: []
+  family: von Crailsheim
+  given: Constantin
+- affiliation: []
+  family: Feurer
+  given: Matthias
+- affiliation: []
+  family: Nagler
+  given: Thomas
+- affiliation: []
+  family: Rügamer
+  given: David
+citations:
+- author: DW Apley
+  doi: 10.1111/rssb.12377
+  first-page: '1059'
+  issue: '4'
+  journal-title: J. R. Stat. Soc.
+  unstructured: 'Apley, D.W., Zhu, J.: Visualizing the effects of predictor variables
+    in black box supervised learning models. J. R. Stat. Soc. 82(4), 1059–1086 (2020)'
+  volume: '82'
+  year: '2020'
+- doi: 10.18653/v1/2020.blackboxnlp-1.14
+  unstructured: 'Bastings, J., Filippova, K.: The elephant in the interpretability
+    room: why use attention as explanation when we have saliency methods? In: EMNLP
+    Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP (2020)'
+- author: B Bischl
+  doi: 10.1002/widm.1484
+  issue: '2'
+  journal-title: Data Min. Knowl. Discov.
+  unstructured: 'Bischl, B., et al.: Hyperparameter optimization: foundations, algorithms,
+    best practices, and open challenges. Data Min. Knowl. Discov. 13(2), e1484 (2023)'
+  volume: '13'
+  year: '2023'
+- unstructured: 'Bischl, B., et al.: Openml benchmarking suites. In: NeurIPS Datasets
+    and Benchmarks Track, vol. 1 (2021)'
+- doi: 10.1109/CVPR46437.2021.00084
+  unstructured: 'Chefer, H., Gur, S., Wolf, L.: Transformer interpretability beyond
+    attention visualization. In: CVPR, pp. 782–791 (2021)'
+- author: RD Cook
+  doi: 10.1080/00401706.1977.10489493
+  first-page: '15'
+  issue: '1'
+  journal-title: Technometrics
+  unstructured: 'Cook, R.D.: Detection of influential observation in linear regression.
+    Technometrics 19(1), 15–18 (1977)'
+  volume: '19'
+  year: '1977'
+- unstructured: 'Covert, I., Lundberg, S.M., Lee, S.I.: Understanding global feature
+    contributions with additive importance measures. In: NeurIPS, vol. 33, pp. 17212–17223
+    (2020)'
+- doi: 10.1007/978-3-030-58112-1_31
+  unstructured: 'Dandl, S., Molnar, C., Binder, M., Bischl, B.: Multi-objective counterfactual
+    explanations. In: Bäck, T., et al. (eds.) PPSN 2020. LNCS, vol. 12269, pp. 448–469.
+    Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58112-1_31'
+- unstructured: 'Feuer, B., et al.: Tunetables: context optimization for scalable
+    prior-data fitted networks. arXiv:2402.11137 (2024)'
+- doi: 10.1214/aos/1013203451
+  unstructured: 'Friedman, J.H.: Greedy function approximation: a gradient boosting
+    machine. Ann. Stat. 1189–1232 (2001)'
+- author: M Gevrey
+  doi: 10.1016/S0304-3800(02)00257-0
+  first-page: '249'
+  issue: '3'
+  journal-title: Ecol. Model.
+  unstructured: 'Gevrey, M., Dimopoulos, I., Lek, S.: Review and comparison of methods
+    to study the contribution of variables in artificial neural network models. Ecol.
+    Model. 160(3), 249–264 (2003)'
+  volume: '160'
+  year: '2003'
+- unstructured: 'Ghorbani, A., Zou, J.: Data shapley: equitable valuation of data
+    for machine learning. In: ICML, vol. 97, pp. 2242–2251. PMLR (2019)'
+- author: A Goldstein
+  doi: 10.1080/10618600.2014.907095
+  first-page: '44'
+  issue: '1'
+  journal-title: J. Comput. Graph. Stat.
+  unstructured: 'Goldstein, A., Kapelner, A., Bleich, J., Pitkin, E.: Peeking inside
+    the black box: visualizing statistical learning with plots of individual conditional
+    expectation. J. Comput. Graph. Stat. 24(1), 44–65 (2015)'
+  volume: '24'
+  year: '2015'
+- unstructured: 'Hollmann, N., Müller, S., Eggensperger, K., Hutter, F.: TabPFN: a
+    transformer that solves small tabular classification problems in a second. In:
+    ICLR (2023)'
+- unstructured: 'Kwon, Y., Zou, J.: Data-OOB: out-of-bag estimate as a simple and
+    efficient data value. In: ICML, vol. 202, pp. 18135–18152. PMLR (2023)'
+- author: J Lei
+  doi: 10.1080/01621459.2017.1307116
+  first-page: '1094'
+  issue: '523'
+  journal-title: J. Am. Stat. Assoc.
+  unstructured: 'Lei, J., G’Sell, M., Rinaldo, A., Tibshirani, R.J., Wasserman, L.:
+    Distribution-free predictive inference for regression. J. Am. Stat. Assoc. 113(523),
+    1094–1111 (2018)'
+  volume: '113'
+  year: '2018'
+- unstructured: 'Lundberg, S.M., Lee, S.I.: A unified approach to interpreting model
+    predictions. In: NeurIPS, vol. 30 (2017)'
+- unstructured: 'Ma, J., Thomas, V., Yu, G., Caterini, A.: In-context data distillation
+    with TabPFN. arXiv preprint arXiv:2402.06971 (2024)'
+- unstructured: 'McElfresh, D., et al.: When do neural nets outperform boosted trees
+    on tabular data? In: NeurIPS Datasets and Benchmarks Track, vol. 36 (2024)'
+- unstructured: 'Molnar, C.: Interpretable machine learning, 2 edn. (2020)'
+- unstructured: 'Müller, S., Hollmann, N., Arango, S.P., Grabocka, J., Hutter, F.:
+    Transformers can do bayesian inference. In: ICLR (2022)'
+- unstructured: 'Nagler, T.: Statistical foundations of prior-data fitted networks.
+    In: ICML, vol. 202, pp. 25660–25676. PMLR (2023)'
+- doi: 10.24963/ijcai.2022/778
+  unstructured: 'Rozemberczki, B., et al.: The shapley value in machine learning.
+    In: IJCAI, pp. 5572–5579 (2022)'
+- unstructured: 'Shapley, L.S.: A Value for N-Person Games. RAND Corporation (1952)'
+- doi: 10.32614/CRAN.package.dcurves
+  unstructured: 'Sjoberg, D.D.: dcurves: decision curve analysis for model evaluation
+    (2022)'
+- author: E Štrumbelj
+  doi: 10.1007/s10115-013-0679-x
+  first-page: '647'
+  journal-title: Knowl. Inf. Syst.
+  unstructured: 'Štrumbelj, E., Kononenko, I.: Explaining prediction models and individual
+    predictions with feature contributions. Knowl. Inf. Syst. 41, 647–665 (2014)'
+  volume: '41'
+  year: '2014'
+- unstructured: 'Taquet, V., Blot, V., Morzadec, T., Lacombe, L., Brunel, N.: MAPIE:
+    an open-source library for distribution-free uncertainty quantification. arXiv:2207.12274
+    (2022)'
+- unstructured: 'Vaswani, A., et al.: Attention is all you need. In: NeurIPS, vol. 30
+    (2017)'
+- unstructured: 'Wang, J.T., Jia, R.: Data banzhaf: a robust data valuation framework
+    for machine learning. In: AISTATS, vol. 206, pp. 6388–6421. PMLR (2023)'
+doc_url: https://link.springer.com/content/pdf/10.1007/978-3-031-63797-1_23
+doi: 10.1007/978-3-031-63797-1_23
+files: []
+isbn: '9783031637971'
+journal: Communications in Computer and Information Science
+language: en
+month: 7
+pages: 465--476
+papis_id: d91e40a871bf468ef428e4f456245f40
+publisher: Springer Nature Switzerland
+ref: rundel-xai2024a
+time-added: 2026-09-22-16:52:32
+title: Interpretable Machine Learning for TabPFN
+type: inbook
+url: https://doi.org/10.1007/978-3-031-63797-1_23
+year: 2024
