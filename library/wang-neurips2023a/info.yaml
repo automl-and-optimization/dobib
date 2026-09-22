@@ -1,0 +1,27 @@
+author: Wang, Jiachen (Tianhao) and Zhu, Yuqing and Wang, Yu-Xiang and Jia, Ruoxi
+  and Mittal, Prateek
+author_list:
+- family: Wang
+  given: Jiachen (Tianhao)
+- family: Zhu
+  given: Yuqing
+- family: Wang
+  given: Yu-Xiang
+- family: Jia
+  given: Ruoxi
+- family: Mittal
+  given: Prateek
+booktitle: Advances in Neural Information Processing Systems
+doi: 10.52202/075280-2640
+editor: A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine
+files: []
+pages: 60429--60467
+papis_id: c712b3a620f7f00c2ebee7e565caada3
+publisher: Curran Associates, Inc.
+ref: wang-neurips2023a
+time-added: 2026-09-22-17:39:12
+title: A Privacy-Friendly Approach to Data Valuation
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2023/file/bdd5522a32b3a959a6d81fb6ddc1cb38-Paper-Conference.pdf
+volume: '36'
+year: '2023'
