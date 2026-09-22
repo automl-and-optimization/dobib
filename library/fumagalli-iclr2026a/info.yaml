@@ -1,0 +1,21 @@
+author: Fumagalli, Fabian and Witter, R. Teal and Musco, Christopher
+author_list:
+- family: Fumagalli
+  given: Fabian
+- family: Witter
+  given: R. Teal
+- family: Musco
+  given: Christopher
+booktitle: International Conference on Learning Representations
+editor: C. Vondrick and B. Hariharan and C. Raffel and L. Pinto and D. Yang and A.
+  Faust
+files: []
+pages: 136065--136099
+papis_id: 16ce0d4b055359a8cc33cdadadd632ba
+ref: fumagalli-iclr2026a
+time-added: 2026-09-22-16:48:05
+title: 'PolySHAP: Extending KernelSHAP with Interaction-Informed Polynomial Regression'
+type: inproceedings
+url: https://proceedings.iclr.cc/paper_files/paper/2026/file/dc4db30d695c08219a6b904c39dd605a-Paper-Conference.pdf
+volume: '2026'
+year: '2026'
