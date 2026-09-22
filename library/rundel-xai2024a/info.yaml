@@ -19,6 +19,7 @@ author_list:
 - affiliation: []
   family: Rügamer
   given: David
+booktitle: Explainable Artificial Intelligence
 citations:
 - author: DW Apley
   doi: 10.1111/rssb.12377
@@ -141,15 +142,15 @@ doc_url: https://link.springer.com/content/pdf/10.1007/978-3-031-63797-1_23
 doi: 10.1007/978-3-031-63797-1_23
 files: []
 isbn: '9783031637971'
-journal: Communications in Computer and Information Science
 language: en
 month: 7
 pages: 465--476
-papis_id: d91e40a871bf468ef428e4f456245f40
+papis_id: c9952dd2dbe277f308420c5c7d3963bc
 publisher: Springer Nature Switzerland
 ref: rundel-xai2024a
-time-added: 2026-09-22-16:52:32
+series: Communications in Computer and Information Science
+time-added: 2026-09-22-17:16:27
 title: Interpretable Machine Learning for TabPFN
-type: inbook
+type: inproceedings
 url: https://doi.org/10.1007/978-3-031-63797-1_23
 year: 2024
