@@ -91,7 +91,7 @@ papis_id: 63dabdc705bc9ef753b801909d349f3d
 publisher: ACM
 ref: chen-kdd2016a
 time-added: 2026-09-22-17:01:03
-title: XGBoost
+title: 'XGBoost: A Scalable Tree Boosting System'
 type: inproceedings
 url: https://doi.org/10.1145/2939672.2939785
 venue: San Francisco California USA
