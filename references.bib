@@ -330,6 +330,21 @@
   year = {2025},
 }
 
+@inproceedings{jung-icml2022a,
+  abstract = {Causal contributions measure the strengths of different causes to a target quantity. Understanding causal contributions is important in empirical sciences and data-driven disciplines since it allows to answer practical queries like \textquotedblleft what are the contributions of each cause to the effect?\textquotedblright  In this paper, we develop a principled method for quantifying causal contributions. First, we provide desiderata of properties axioms that causal contribution measures should satisfy and propose the do-Shapley values (inspired by do-interventions [Pearl, 2000]) as a unique method satisfying these properties. Next, we develop a criterion under which the do-Shapley values can be efficiently inferred from non-experimental data. Finally, we provide do-Shapley estimators exhibiting consistency, computational feasibility, and statistical robustness. Simulation results corroborate with the theory.},
+  author = {Jung, Yonghan and Kasiviswanathan, Shiva and Tian, Jin and Janzing, Dominik and Bloebaum, Patrick and Bareinboim, Elias},
+  booktitle = {Proceedings of the 39th International Conference on Machine Learning},
+  editor = {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  pages = {10476--10501},
+  pdf = {https://proceedings.mlr.press/v162/jung22a/jung22a.pdf},
+  publisher = {PMLR},
+  series = {Proceedings of Machine Learning Research},
+  title = {On Measuring Causal Contributions via do-interventions},
+  url = {https://proceedings.mlr.press/v162/jung22a.html},
+  volume = {162},
+  year = {2022},
+}
+
 @article{junyan-arxiv2026a,
   abstract = {Structured LLM workflows, where specialized LLM sub-agents execute according to a predefined graph, have become a powerful abstraction for solving complex tasks. Optimizing such workflows, i.e., selecting configurations for each sub-agent to balance accuracy and latency, is challenging due to the combinatorial design space over model choices, reasoning budgets, and workflow structures. Existing cost-aware methods largely treat workflow optimization as a routing problem, selecting a configuration at inference time for each query according to the accuracy-latency objective used during training. We argue that structured LLM workflows can also be optimized from a compilation perspective: before deployment, the system can globally explore the workflow design space and construct a reusable set of workflow-level configurations spanning diverse accuracy-latency trade-offs. Drawing inspiration from machine learning compilers, we introduce FlowCompile, a structured LLM workflow compiler that performs compile-time design space exploration to identify a high-quality, reusable trade-off set. FlowCompile decomposes a workflow into sub-agents, profiles each sub-agent under diverse configurations, and composes these measurements through a structure-aware proxy to estimate workflow-level accuracy and latency. It then identifies diverse high-quality configurations in a single compile-time pass, without retraining or online adaptation. Experiments across diverse workflows and challenging benchmarks show that FlowCompile consistently outperforms heuristically optimized workflow configurations and routing-based baselines, delivering up to 6.4x speedup. The compiled configuration set further serves as a reusable optimization artifact, enabling flexible deployment under varying runtime preferences and supporting downstream selection or routing.},
   author = {Li, Junyan and Hong, Zhang-Wei and Shen, Maohao and Zhang, Yang and Gan, Chuang},

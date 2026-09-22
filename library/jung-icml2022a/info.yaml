@@ -1,0 +1,43 @@
+abstract: Causal contributions measure the strengths of different causes to a target
+  quantity. Understanding causal contributions is important in empirical sciences
+  and data-driven disciplines since it allows to answer practical queries like “what
+  are the contributions of each cause to the effect?” In this paper, we develop a
+  principled method for quantifying causal contributions. First, we provide desiderata
+  of properties axioms that causal contribution measures should satisfy and propose
+  the do-Shapley values (inspired by do-interventions [Pearl, 2000]) as a unique method
+  satisfying these properties. Next, we develop a criterion under which the do-Shapley
+  values can be efficiently inferred from non-experimental data. Finally, we provide
+  do-Shapley estimators exhibiting consistency, computational feasibility, and statistical
+  robustness. Simulation results corroborate with the theory.
+author: Jung, Yonghan and Kasiviswanathan, Shiva and Tian, Jin and Janzing, Dominik
+  and Bloebaum, Patrick and Bareinboim, Elias
+author_list:
+- family: Jung
+  given: Yonghan
+- family: Kasiviswanathan
+  given: Shiva
+- family: Tian
+  given: Jin
+- family: Janzing
+  given: Dominik
+- family: Bloebaum
+  given: Patrick
+- family: Bareinboim
+  given: Elias
+booktitle: Proceedings of the 39th International Conference on Machine Learning
+editor: Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba
+  and Niu, Gang and Sabato, Sivan
+files: []
+month: 17--23 Jul
+pages: 10476--10501
+papis_id: 1314382d6c356895bc7e6a86cff510a4
+pdf: https://proceedings.mlr.press/v162/jung22a/jung22a.pdf
+publisher: PMLR
+ref: jung-icml2022a
+series: Proceedings of Machine Learning Research
+time-added: 2026-09-22-17:37:31
+title: On Measuring Causal Contributions via do-interventions
+type: inproceedings
+url: https://proceedings.mlr.press/v162/jung22a.html
+volume: '162'
+year: '2022'
