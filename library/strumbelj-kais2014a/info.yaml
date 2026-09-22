@@ -1,0 +1,213 @@
+author: Štrumbelj, Erik and Kononenko, Igor
+author_list:
+- affiliation: []
+  family: Štrumbelj
+  given: Erik
+- affiliation: []
+  family: Kononenko
+  given: Igor
+citations:
+- author: CH Achen
+  doi: 10.4135/9781412984560
+  unstructured: Achen CH (1982) Intepreting and Using Regression. Sage Publications,
+    Thousand Oaks
+  volume-title: Intepreting and Using Regression
+  year: '1982'
+- unstructured: 'Allahyari H, Lavesson N (2011) User-oriented assessment of classification
+    model understandability. In: Proceedings of the 11th Scandinavian conference on
+    artificial intelligence, SCAI 2011, pp 11–19'
+- unstructured: Becker B, Kohavi R, Sommerfield D (1997) Visualizing the simple Bayesian
+    classier. KDD workshop on issues in the integration of data mining and data visualization
+- author: S Bhattacharya
+  doi: 10.1016/j.dss.2010.08.011
+  first-page: '576'
+  issue: '3'
+  journal-title: Decis Support Syst
+  unstructured: Bhattacharya S, Xu D, Kumar K (2011) An ANN-based auditor decision
+    support system using Benford’s law. Decis Support Syst 50(3):576–584
+  volume: '50'
+  year: '2011'
+- author: S Bhattacharyya
+  doi: 10.1016/j.dss.2010.08.008
+  first-page: '602'
+  issue: '3'
+  journal-title: Decis Support Syst
+  unstructured: 'Bhattacharyya S, Jha S, Tharakunnel K, Westland JC (2011) Data mining
+    for credit card fraud: a comparative study. Decis Support Syst 50(3):602–613'
+  volume: '50'
+  year: '2011'
+- author: J Blanchard
+  doi: 10.1007/s10115-006-0046-2
+  first-page: '43'
+  journal-title: Knowl Inf Syst
+  unstructured: Blanchard J, Guillet F, Briand H (2007) Interactive visual exploration
+    of association rules with rule-focusing methodology. Knowl Inf Syst 13:43–75
+  volume: '13'
+  year: '2007'
+- author: J Castro
+  doi: 10.1016/j.cor.2008.04.004
+  first-page: '1726'
+  issue: '5'
+  journal-title: Comput Oper Res
+  unstructured: Castro J, Gómez D, Tejada J (2009) Polynomial calculation of the shapley
+    value based on sampling. Comput Oper Res 36(5):1726–1730
+  volume: '36'
+  year: '2009'
+- author: I Falco De
+  doi: 10.1007/s10115-003-0143-4
+  first-page: '179'
+  journal-title: Knowl Inf Syst
+  unstructured: De Falco I, Della Cioppa A (2005) An evolutionary approach for automatically
+    extracting intelligible classification rules. Knowl Inf Syst 7:179–201
+  volume: '7'
+  year: '2005'
+- unstructured: Frank A, Asuncion A (2011) Uci machine learning repository
+- author: M Hall
+  doi: 10.1145/1656274.1656278
+  first-page: '10'
+  issue: '1'
+  journal-title: SIGKDD Explor Newsl
+  unstructured: 'Hall M, Frank E, Holmes G, Pfahringer B, Reutemann P, Witten IH (2009)
+    The weka data mining software: an update. SIGKDD Explor Newsl 11(1):10–18'
+  volume: '11'
+  year: '2009'
+- author: Z Huang
+  doi: 10.1016/S0167-9236(03)00086-1
+  first-page: '543'
+  issue: '4'
+  journal-title: Decis Support Syst
+  unstructured: 'Huang Z, Chen H, Hsu CJ, Chen WH, Wu S (2004) Credit rating analysis
+    with support vector machines and neural networks: a market comparative study.
+    Decis Support Syst 37(4):543–558'
+  volume: '37'
+  year: '2004'
+- author: J Huysmans
+  doi: 10.1016/j.dss.2010.12.003
+  first-page: '141'
+  issue: '1'
+  journal-title: Decis Support Syst
+  unstructured: Huysmans J, Dejaeger K, Mues C, Vanthienen J, Baesens B (2011) An
+    empirical evaluation of the comprehensibility of decision table, tree and rule
+    based predictive models. Decis Support Syst 51(1):141–154
+  volume: '51'
+  year: '2011'
+- author: P Jaeckel
+  unstructured: Jaeckel P (2002) Monte Carlo methods in finance. Wiley, New York
+  volume-title: Monte Carlo methods in finance
+  year: '2002'
+- doi: 10.1145/1081870.1081886
+  unstructured: 'Jakulin A, Možina M, Demšar J, Bratko I, Zupan B (2005) Nomograms
+    for visualizing support vector machines. KDD ’05: 11th ACM SIGKDD, ACM, pp 108–117'
+- author: MW Kattan
+  doi: 10.1093/jnci/90.10.766
+  first-page: '766'
+  journal-title: J Natl Cancer Inst
+  unstructured: Kattan MW, Eastham JA, Stapleton AM, Wheeler TM, Scardino PT (1998)
+    A preoperative nomogram for disease recurrence following radical prostatectomy
+    for prostate cancer. J Natl Cancer Inst 90:766–771
+  volume: '90'
+  year: '1998'
+- author: DE Knuth
+  unstructured: 'Knuth DE (1998) The art of computer programming, volume 2: seminumerical
+    algorithms. Addison-Wesley, Boston'
+  volume-title: 'The art of computer programming, volume 2: seminumerical algorithms'
+  year: '1998'
+- author: I Kononenko
+  doi: 10.1080/08839519308949993
+  first-page: '317'
+  journal-title: Appl Artif Intell
+  unstructured: Kononenko I (1993) Inductive and bayesian learning in medical diagnosis.
+    Appl Artif Intell 7:317–337
+  volume: '7'
+  year: '1993'
+- author: S Lee
+  doi: 10.1016/j.dss.2010.06.002
+  first-page: '486'
+  issue: '4'
+  journal-title: Decis Support Syst
+  unstructured: Lee S (2010) Using data envelopment analysis and decision trees for
+    efficiency analysis and recommendation of B2C controls. Decis Support Syst 49(4):486–497
+  volume: '49'
+  year: '2010'
+- doi: 10.1109/IJCNN.2008.4633863
+  unstructured: 'Lemaire V, Feraud R, Voisine N (2008) Contact personalization using
+    a score understanding method. In: International joint conference on neural networks
+    (IJCNN)'
+- doi: 10.1145/1518701.1519023
+  unstructured: 'Lim BY, Dey AK, Avrahami D (2009) Why and why not explanations improve
+    the intelligibility of context-aware intelligent systems. In: Proceedings of the
+    27th international conference on Human factors in computing systems, CHI ’09,
+    ACM, New York, NY, USA, pp 2119–2128'
+- author: J Lubsen
+  doi: 10.1055/s-0038-1636613
+  first-page: '127'
+  journal-title: Methods Inf Med
+  unstructured: Lubsen J, Pool J, van der Does E (1978) A practical device for the
+    application of a diagnostic or prognostic function. Methods Inf Med 17:127–129
+  volume: '17'
+  year: '1978'
+- unstructured: Melli G (n.d.) The datgen dataset generator. http://www.datasetgenerator.com
+- doi: 10.1007/978-3-540-30116-5_32
+  unstructured: Možina M, Demšar J, Kattan M, Zupan B (2004) Nomograms for visualization
+    of naive Bayesian classifier. PKDD 2004, Springer, pp 337–348
+- author: M Robnik-Šikonja
+  first-page: '589'
+  journal-title: IEEE TKDE
+  unstructured: Robnik-Šikonja M, Kononenko I (2008) Explaining classifications for
+    individual instances. IEEE TKDE 20:589–600
+  volume: '20'
+  year: '2008'
+- doi: 10.1515/9781400881970-018
+  unstructured: Shapley LS (1953) A value for n-person games, vol II of Contributions
+    to the theory of games. Princeton University Press, Princeton
+- unstructured: 'Szafron D, Poulin B, Eisner R, Lu P, Greiner R, Wishart D, Fyshe
+    A, Pearcy B, Macdonell C, Anvik J (2006) Visual explanation of evidence in additive
+    classifiers. In: Proceedings of innovative applications of artificial intelligence'
+- author: E Štrumbelj
+  doi: 10.1007/s10115-009-0244-9
+  first-page: '305'
+  issue: '2'
+  journal-title: Knowl Inf Syst
+  unstructured: Štrumbelj E, Bosnić Z, Zakotnik B, Grašič-Kuhar C, Kononenko I (2010)
+    Explanation and reliability of breast cancer recurrence predictions. Knowl Inf
+    Syst 24(2):305–324
+  volume: '24'
+  year: '2010'
+- author: E Štrumbelj
+  first-page: '1'
+  journal-title: J Mach Learn Res
+  unstructured: Štrumbelj E, Kononenko I (2010) An efficient explanation of individual
+    classifications using game theory. J Mach Learn Res 11:1–18
+  volume: '11'
+  year: '2010'
+- doi: 10.1007/978-3-642-20267-4_3
+  unstructured: 'Štrumbelj E, Kononenko I (2011) A general method for visualizing
+    and explaining black-box regression models. In: Dobnikar A, Lotric U, Ster B (eds)
+    ICANNGA (2), vol 6594 of Lecture notes in computer science. Springer, Berlin,
+    pp 21–30'
+- author: BP Welford
+  doi: 10.1080/00401706.1962.10490022
+  first-page: '419'
+  issue: '3'
+  journal-title: Technometrics
+  unstructured: Welford BP (1962) Note on a method for calculating corrected sums
+    of squares and products. Technometrics 4(3):419–420
+  volume: '4'
+  year: '1962'
+doc_url: http://link.springer.com/content/pdf/10.1007/s10115-013-0679-x
+doi: 10.1007/s10115-013-0679-x
+files: []
+issue: '3'
+journal: Knowledge and Information Systems
+language: en
+month: 12
+pages: 647--665
+papis_id: a75814fa59d0daa89a3c3b919f2890ca
+publisher: Springer Science and Business Media LLC
+ref: strumbelj-kais2014a
+time-added: 2026-09-22-16:54:57
+title: Explaining prediction models and individual predictions with feature contributions
+type: article
+url: https://doi.org/10.1007/s10115-013-0679-x
+volume: '41'
+year: 2014
