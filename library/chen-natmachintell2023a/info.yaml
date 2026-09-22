@@ -1,0 +1,438 @@
+author: Chen, Hugh and Covert, Ian C. and Lundberg, Scott M. and Lee, Su-In
+author_list:
+- affiliation: []
+  family: Chen
+  given: Hugh
+- affiliation: []
+  family: Covert
+  given: Ian C.
+- affiliation: []
+  family: Lundberg
+  given: Scott M.
+- affiliation: []
+  family: Lee
+  given: Su-In
+citations:
+- author: D Silver
+  doi: 10.1038/nature24270
+  first-page: '354'
+  journal-title: Nature
+  unstructured: Silver, D. et al. Mastering the game of Go without human knowledge.
+    Nature 550, 354–359 (2017).
+  volume: '550'
+  year: '2017'
+- author: M Moravcik
+  doi: 10.1126/science.aam6960
+  first-page: '508'
+  journal-title: Science
+  unstructured: 'Moravcik, M. et al. Deepstack: expert-level artificial intelligence
+    in heads-up no-limit poker. Science 356, 508–513 (2017).'
+  volume: '356'
+  year: '2017'
+- author: O Vinyals
+  doi: 10.1038/s41586-019-1724-z
+  first-page: '350'
+  journal-title: Nature
+  unstructured: Vinyals, O. et al. Grandmaster level in StarCraft II using multi-agent
+    reinforcement learning. Nature 575, 350–354 (2019).
+  volume: '575'
+  year: '2019'
+- author: J Jumper
+  doi: 10.1038/s41586-021-03819-2
+  first-page: '583'
+  journal-title: Nature
+  unstructured: Jumper, J. et al. Highly accurate protein structure prediction with
+    AlphaFold. Nature 596, 583–589 (2021).
+  volume: '596'
+  year: '2021'
+- doi: 10.3115/v1/P15-1001
+  unstructured: Jean, S., Cho, K., Memisevic, R. & Bengio, Y. On using very large
+    target vocabulary for neural machine translation. In Proc. 53rd Annual Meeting
+    of the Association for Computational Linguistics and the 7th International Joint
+    Conference on Natural Language Processing (Volume 1, Long Papers) P15-1001 (2015).
+- author: L Breiman
+  doi: 10.1023/A:1010933404324
+  first-page: '5'
+  journal-title: Mach. Learn.
+  unstructured: Breiman, L. Random forests. Mach. Learn. 45, 5–32 (2001).
+  volume: '45'
+  year: '2001'
+- author: Y LeCun
+  doi: 10.1038/nature14539
+  first-page: '436'
+  journal-title: Nature
+  unstructured: LeCun, Y., Bengio, Y. & Hinton, G. Deep learning. Nature 521, 436–444
+    (2015).
+  volume: '521'
+  year: '2015'
+- doi: 10.1145/2939672.2939785
+  unstructured: 'Chen, T. & Guestrin, C. XGBoost: a scalable tree boosting system.
+    In Proc. 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data
+    Mining 785–794 (ACM, 2016).'
+- doi: 10.1109/ICDAR.2005.251
+  unstructured: Steinkraus, D., Buck, I. & Simard, P. Using GPUs for machine learning
+    algorithms. In Proc. Eighth International Conference on Document Analysis and
+    Recognition (ICDAR’05) 1115–1120 (IEEE, 2005).
+- author: R Geirhos
+  doi: 10.1038/s42256-020-00257-z
+  first-page: '665'
+  journal-title: Nat. Mach. Intell.
+  unstructured: Geirhos, R. et al. Shortcut learning in deep neural networks. Nat.
+    Mach. Intell. 2, 665–673 (2020).
+  volume: '2'
+  year: '2020'
+- unstructured: Doshi-Velez, F. & Kim, B. Towards a rigorous science of interpretable
+    machine learning. Preprint at https://arxiv.org/abs/1702.08608 (2017).
+- unstructured: Selbst, A. & Powles, J. ‘Meaningful information’ and the right to
+    explanation. In Proc. Conference on Fairness, Accountability and Transparency
+    48–48 (PMLR, 2018).
+- author: E Knight
+  first-page: '236'
+  journal-title: Bus. Fin. L. Rev.
+  unstructured: Knight, E. AI and machine learning-based credit underwriting and adverse
+    action under the ECOA. Bus. Fin. L. Rev. 3, 236 (2019).
+  volume: '3'
+  year: '2019'
+- doi: 10.1145/2939672.2939778
+  unstructured: Ribeiro, M. T., Singh, S. & Guestrin, C. ‘Why should I trust you?’
+    Explaining the predictions of any classifier. In Proc. 22nd ACM SIGKDD International
+    Conference on Knowledge Discovery and Data Mining 1135–1144 (ACM, 2016).
+- unstructured: Lundberg, S. M. & Lee, S.-I. A unified approach to interpreting model
+    predictions. In Advances in Neural Information Processing Systems 4765–4774 (ACM,
+    2017).
+- author: SM Lundberg
+  doi: 10.1038/s42256-019-0138-9
+  first-page: '56'
+  journal-title: Nat. Mach. Intell.
+  unstructured: Lundberg, S. M. et al. From local explanations to global understanding
+    with explainable AI for trees. Nat. Mach. Intell. 2, 56–67 (2020).
+  volume: '2'
+  year: '2020'
+- unstructured: Shrikumar, A., Greenside, P. & Kundaje, A. Learning important features
+    through propagating activation differences. In Proc. 34th International Conference
+    on Machine Learning Vol. 70, 3145–3153 (JMLR, 2017).
+- doi: 10.1007/978-3-319-44781-0_8
+  unstructured: Binder, A., Montavon, G., Lapuschkin, S., Muller, K.-R. & Samek, W.
+    Layer-wise relevance propagation for neural networks with local renormalization
+    layers. In Proc. International Conference on Artificial Neural Networks 63–71
+    (Springer, 2016).
+- doi: 10.1109/SP.2016.42
+  unstructured: 'Datta, A., Sen, S. & Zick, Y. Algorithmic transparency via quantitative
+    input influence: theory and experiments with learning systems. In Proc. 2016 IEEE
+    Symposium on Security and Privacy (SP) 598–617 (IEEE, 2016).'
+- unstructured: Sundararajan, M., Taly, A. & Yan, Q. Axiomatic attribution for deep
+    networks. In Proc. International Conference on Machine Learning 3319–3328 (PMLR,
+    2017).
+- author: E Strumbelj
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Strumbelj, E. & Kononenko, I. An efficient explanation of individual
+    classifications using game theory. J. Mach. Learn. Res. 11, 1–18 (2010).
+  volume: '11'
+  year: '2010'
+- unstructured: Kumar, I. E., Venkatasubramanian, S., Scheidegger, C. & Friedler,
+    S. Problems with Shapley-value-based explanations as feature importance measures.
+    In Proc. International Conference on Machine Learning 5491–5500 (PMLR, 2020).
+- unstructured: Sundararajan, M. & Najmi, A. The many Shapley values for model explanation.
+    In Proc. International Conference on Machine Learning 9269–9278 (PMLR, 2020).
+- unstructured: 'Janzing, D., Minorics, L. & Blobaum, P. Feature relevance quantification
+    in explainable AI: a causal problem. In Proc. International Conference on Artificial
+    Intelligence and Statistics 2907–2916 (PMLR, 2020).'
+- author: T Heskes
+  first-page: '4778'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  unstructured: 'Heskes, T., Sijben, E., Bucur, I. G. & Claassen, T. Causal Shapley
+    values: exploiting causal knowledge to explain individual predictions of complex
+    models. Adv. Neural Inf. Process. Syst. 33, 4778–4789 (2020).'
+  volume: '33'
+  year: '2020'
+- author: I Covert
+  first-page: '9477'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Covert, I., Lundberg, S. & Lee, S.-I. Explaining by removing: a unified
+    framework for model explanation. J. Mach. Learn. Res. 22, 9477–9566 (2021).'
+  volume: '22'
+  year: '2021'
+- unstructured: 'Chen, J., Song, L., Wainwright, M. J. & Jordan, M. I. L-Shapley and
+    C-Shapley: efficient model interpretation for structured data. In Proc. International
+    Conference on Learning Representations (ICLR''19) (2019).'
+- unstructured: Chen, H., Janizek, J. D., Lundberg, S. & Lee, S.-I. True to the model
+    or true to the data? Preprint at https://arxiv.org/abs/2006.16234 (2020).
+- doi: 10.1038/s41467-022-31384-3
+  unstructured: Chen, H., Lundberg, S.M. & Lee, SI. Explaining a series of models
+    by propagating Shapley values. Nat. Commun. 13, 4512 (2022).
+- author: J Castro
+  doi: 10.1016/j.cor.2008.04.004
+  first-page: '1726'
+  journal-title: Comput. Op. Res.
+  unstructured: Castro, J., Gómez, D. & Tejada, J. Polynomial calculation of the Shapley
+    value based on sampling. Comput. Op. Res. 36, 1726–1730 (2009).
+  volume: '36'
+  year: '2009'
+- doi: 10.1109/ICPR48806.2021.9412511
+  unstructured: Okhrati, R. & Lipani, A. A multilinear sampling algorithm to estimate
+    Shapley values. In Proc. 2020 25th International Conference on Pattern Recognition
+    (ICPR) 7992–7999 (IEEE, 2021).
+- unstructured: 'Jethani, N., Sudarshan, M., Covert, I. C., Lee, S.-I. & Ranganath,
+    R. FastSHAP: real-time Shapley value estimation. In Proc. International Conference
+    on Learning Representations (PMLR, 2022).'
+- unstructured: Ancona, M., Oztireli, C. & Gross, M. Explaining deep neural networks
+    with a polynomial time algorithm for Shapley value approximation. In Proc. International
+    Conference on Machine Learning 272–281 (PMLR, 2019).
+- unstructured: Wang, R., Wang, X. & Inouye, D. I. Shapley explanation networks. In
+    Proc. International Conference on Learning Representations (PMLR, 2020).
+- doi: 10.1515/9781400881970-018
+  unstructured: Shapley, L. in Contributions to the Theory of Games Vol. II, 307–317
+    (Princeton Univ. Press, 1953).
+- author: R Lucchetti
+  doi: 10.1016/j.cor.2009.02.020
+  first-page: '1406'
+  journal-title: Comput. Op. Res.
+  unstructured: Lucchetti, R., Moretti, S., Patrone, F. & Radrizzani, P. The Shapley
+    and Banzhaf values in microarray games. Comput. Op. Res. 37, 1406–1412 (2010).
+  volume: '37'
+  year: '2010'
+- author: S Moretti
+  doi: 10.1016/j.cor.2009.02.016
+  first-page: '1413'
+  journal-title: Comput. Op. Res.
+  unstructured: Moretti, S. Statistical analysis of the Shapley value for microarray
+    games. Comput. Op. Res. 37, 1413–1418 (2010).
+  volume: '37'
+  year: '2010'
+- author: N Tarashev
+  doi: 10.1093/rof/rfv028
+  first-page: '1189'
+  journal-title: Rev. Finance
+  unstructured: 'Tarashev, N., Tsatsaronis, K. & Borio, C. Risk attribution using
+    the Shapley value: methodology and policy applications. Rev. Finance 20, 1189–1213
+    (2016).'
+  volume: '20'
+  year: '2016'
+- unstructured: Tarashev, N. A., Borio, C. E. & Tsatsaronis, K. The Systemic Importance
+    of Financial Institutions. BIS Quarterly Review (September 2009).
+- author: HP Young
+  doi: 10.1007/BF01769885
+  first-page: '65'
+  journal-title: Int. J. Game Theory
+  unstructured: Young, H. P. Monotonic solutions of cooperative games. Int. J. Game
+    Theory 14, 65–72 (1985).
+  volume: '14'
+  year: '1985'
+- author: D Monderer
+  first-page: '2055'
+  journal-title: Handbook Game Theory
+  unstructured: Monderer, D. & Samet, D. et al. Variations on the Shapley value. Handbook
+    Game Theory 3, 2055–2076 (2002).
+  volume: '3'
+  year: '2002'
+- doi: 10.1109/ICCV.2017.371
+  unstructured: Fong, R. C. & Vedaldi, A. Interpretable explanations of black boxes
+    by meaningful perturbation. In Proc. IEEE International Conference on Computer
+    Vision 3429–3437 (IEEE, 2017).
+- author: P Sturmfels
+  doi: 10.23915/distill.00022
+  first-page: e22
+  journal-title: Distill
+  unstructured: Sturmfels, P., Lundberg, S. & Lee, S.-I. Visualizing the impact of
+    feature attribution baselines. Distill 5, e22 (2020).
+  volume: '5'
+  year: '2020'
+- doi: 10.1109/ICCV.2019.00505
+  unstructured: 'Kapishnikov, A., Bolukbasi, T., Viégas, F. & Terry, M. XRAI: better
+    attributions through regions. In Proc. IEEE/CVF International Conference on Computer
+    Vision 4948–4957 (IEEE, 2019).'
+- unstructured: Ren, J., Zhou, Z., Chen, Q. & Zhang, Q. Can we faithfully represent
+    absence states to compute Shapley values on a DNN? In Proc. International Conference
+    on Learning Representations (2023).
+- doi: 10.1007/978-3-030-57321-8_2
+  unstructured: 'Merrick, L. & Taly, A. The explanation game: explaining machine learning
+    models using Shapley values. In Proc. International Cross-Domain Conference for
+    Machine Learning and Knowledge Extraction 17–38 (Springer, 2020).'
+- author: K Aas
+  doi: 10.1016/j.artint.2021.103502
+  first-page: '103502'
+  journal-title: Artif. Intell.
+  unstructured: 'Aas, K., Jullum, M. & Løland, A. Explaining individual predictions
+    when features are dependent: more accurate approximations to Shapley values. Artif.
+    Intell. 298, 103502 (2021).'
+  volume: '298'
+  year: '2021'
+- unstructured: Frye, C., de Mijolla, D., Begley, T., Cowton, L., Stanley, M. & Feige,
+    I. Shapley-based explainability on the data manifold. In Proc. International Conference
+    on Learning Representations (2021).
+- unstructured: 'Frye, C., Rowat, C. & Feige, I. Asymmetric Shapley values: incorporating
+    causal knowledge into model-agnostic explainability. In Proc. Advances in Neural
+    Information Processing Systems 33 (NIPS, 2020).'
+- unstructured: 'Wang, J., Wiens, J. & Lundberg, S. Shapley flow: a graph-based approach
+    to interpreting model predictions. In Proc. International Conference on Artificial
+    Intelligence and Statistics 721–729 (PMLR, 2021).'
+- unstructured: Mase, M., Owen, A. B. & Seiler, B. Explaining black box decisions
+    by Shapley cohort refinement. Preprint at https://arxiv.org/abs/1911.00467 (2019).
+- doi: 10.1007/978-3-030-57321-8_7
+  unstructured: Redelmeier, A., Jullum, M. & Aas, K. Explaining predictive models
+    with mixed features using Shapley values and conditional inference trees. In Proc.
+    International Cross-Domain Conference for Machine Learning and Knowledge Extraction
+    117–137 (Springer, 2020).
+- unstructured: 'Bénard, C., Biau, G., Da Veiga, S. & Scornet, E. SHAFF: fast and
+    consistent Shapley effect estimates via random forests. In Proc. International
+    Conference on Artificial Intelligence and Statistics 5563–5582 (PMLR, 2022).'
+- author: K Aas
+  doi: 10.1515/demo-2021-0103
+  first-page: '62'
+  journal-title: Dependence Model.
+  unstructured: Aas, K., Nagler, T., Jullum, M. & Løland, A. Explaining predictive
+    models using Shapley values and non-parametric vine copulas. Dependence Model.
+    9, 62–81 (2021).
+  volume: '9'
+  year: '2021'
+- author: LHB Olsen
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Olsen, L. H. B., Glad, I. K., Jullum, M. & Aas, K. Using Shapley values
+    and variational autoencoders to explain predictive models with dependent mixed
+    features. J. Mach. Learn. Res. 23, 1–51 (2022).
+  volume: '23'
+  year: '2022'
+- author: S Lipovetsky
+  doi: 10.1002/asmb.446
+  first-page: '319'
+  journal-title: Appl. Stochastic Models Business Industry
+  unstructured: Lipovetsky, S. & Conklin, M. Analysis of regression in game theory
+    approach. Appl. Stochastic Models Business Industry 17, 319–330 (2001).
+  volume: '17'
+  year: '2001'
+- author: E Štrumbelj
+  doi: 10.1016/j.datak.2009.01.004
+  first-page: '886'
+  journal-title: Data Knowledge Eng.
+  unstructured: Štrumbelj, E., Kononenko, I. & Šikonja, M. R. Explaining instance
+    classifications with interactions of subsets of feature values. Data Knowledge
+    Eng. 68, 886–904 (2009).
+  volume: '68'
+  year: '2009'
+- unstructured: Williamson, B. & Feng, J. Efficient nonparametric statistical inference
+    on population feature importance using Shapley values. In Proc. International
+    Conference on Machine Learning 10282–10291 (PMLR, 2020).
+- unstructured: Covert, I., Kim, C. & Lee, S.-I. Learning to estimate Shapley values
+    with vision transformers. In Proc. International Conference on Learning Representations
+    (2023).
+- author: X Deng
+  doi: 10.1287/moor.19.2.257
+  first-page: '257'
+  journal-title: Math. Op. Res.
+  unstructured: Deng, X. & Papadimitriou, C. H. On the complexity of cooperative solution
+    concepts. Math. Op. Res. 19, 257–266 (1994).
+  volume: '19'
+  year: '1994'
+- author: U Faigle
+  doi: 10.1007/BF01258278
+  first-page: '249'
+  journal-title: Int. J. Game Theory
+  unstructured: Faigle, U. & Kern, W. The Shapley value for cooperative games under
+    precedence constraints. Int. J. Game Theory 21, 249–266 (1992).
+  volume: '21'
+  year: '1992'
+- author: J Castro
+  doi: 10.1016/j.cor.2017.01.019
+  first-page: '180'
+  journal-title: Comput. Op. Res.
+  unstructured: Castro, J., Gómez, D., Molina, E. & Tejada, J. Improving polynomial
+    estimation of the Shapley value by stratified random sampling with optimum allocation.
+    Comput. Op. Res. 82, 180–188 (2017).
+  volume: '82'
+  year: '2017'
+- author: SS Fatima
+  doi: 10.1016/j.artint.2008.05.003
+  first-page: '1673'
+  journal-title: Artif. Intell.
+  unstructured: Fatima, S. S., Wooldridge, M. & Jennings, N. R. A linear approximation
+    method for the Shapley value. Artif. Intell. 172, 1673–1699 (2008).
+  volume: '172'
+  year: '2008'
+- unstructured: Illés, F. & Kerényi, P. Estimation of the Shapley value by ergodic
+    sampling. Preprint at https://arxiv.org/abs/1906.05224 (2019).
+- author: N Megiddo
+  doi: 10.1287/moor.3.3.189
+  first-page: '189'
+  journal-title: Math. Op. Res.
+  unstructured: Megiddo, N. Computational complexity of the game theory approach to
+    cost allocation for a tree. Math. Op. Res. 3, 189–196 (1978).
+  volume: '3'
+  year: '1978'
+- author: D Granot
+  doi: 10.1287/moor.27.4.647.307
+  first-page: '647'
+  journal-title: Math. Op. Res.
+  unstructured: Granot, D., Kuipers, J. & Chopra, S. Cost allocation for a tree network
+    with heterogeneous customers. Math. Op. Res. 27, 647–661 (2002).
+  volume: '27'
+  year: '2002'
+- author: P Dubey
+  doi: 10.1287/moor.6.1.122
+  first-page: '122'
+  journal-title: Math. Op. Res.
+  unstructured: Dubey, P., Neyman, A. & Weber, R. J. Value theory without efficiency.
+    Math. Op. Res. 6, 122–128 (1981).
+  volume: '6'
+  year: '1981'
+- doi: 10.1007/978-94-009-3677-5_7
+  unstructured: Charnes, A., Golany, B., Keane, M. & Rousseau, J. in Econometrics
+    of Planning and Efficiency 123–133 (Springer, 1988).
+- author: LM Ruiz
+  doi: 10.1006/game.1997.0622
+  first-page: '109'
+  journal-title: Games Econ. Behav.
+  unstructured: Ruiz, L. M., Valenciano, F. & Zarzuelo, J. M. The family of least
+    square values for transferable utility games. Games Econ. Behav. 24, 109–130 (1998).
+  volume: '24'
+  year: '1998'
+- doi: 10.1007/978-3-030-57321-8_6
+  unstructured: Simon, G. & Vincent, T. A projected stochastic gradient algorithm
+    for estimating Shapley value applied in attribute importance. In Proc. International
+    Cross-Domain Conference for Machine Learning and Knowledge Extraction 97–115 (Springer,
+    2020).
+- author: G Owen
+  doi: 10.1287/mnsc.18.5.64
+  first-page: '64'
+  journal-title: Manag. Sci.
+  unstructured: Owen, G. Multilinear extensions of games. Manag. Sci. 18, 64–79 (1972).
+  volume: '18'
+  year: '1972'
+- unstructured: 'Covert, I. & Lee, S.-I. Improving KernelSHAP: practical Shapley value
+    estimation using linear regression. In Proc. International Conference on Artificial
+    Intelligence and Statistics 3457–3465 (PMLR, 2021).'
+- author: R Mitchell
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Mitchell, R., Cooper, J., Frank, E. & Holmes, G. Sampling permutations
+    for Shapley value estimation. J. Mach. Learn. Res. 23, 1–46 (2022).
+  volume: '23'
+  year: '2022'
+- author: I Covert
+  first-page: '17212'
+  journal-title: Advances Neural Information Processing Systems
+  unstructured: Covert, I., Lundberg, S. M. & Lee, S.-I. Understanding global feature
+    contributions with additive importance measures. Advances Neural Information Processing
+    Systems 33, 17212–17223 (2020).
+  volume: '33'
+  year: '2020'
+- unstructured: 'Yang, J. Fast TreeSHAP: accelerating SHAP value computation for trees.
+    Preprint at https://arxiv.org/abs/2109.09847 (2021).'
+doc_url: https://www.nature.com/articles/s42256-023-00657-x.pdf
+doi: 10.1038/s42256-023-00657-x
+files: []
+issue: '6'
+journal: Nature Machine Intelligence
+language: en
+month: 5
+pages: 590--601
+papis_id: 36af602c42e8fef16f564cb71aa5d944
+publisher: Springer Science and Business Media LLC
+ref: chen-natmachintell2023a
+time-added: 2026-09-22-17:01:26
+title: Algorithms to estimate Shapley value feature attributions
+type: article
+url: https://doi.org/10.1038/s42256-023-00657-x
+volume: '5'
+year: 2023
