@@ -1,0 +1,18 @@
+author: Enouen, James and Liu, Yan
+author_list:
+- family: Enouen
+  given: James
+- family: Liu
+  given: Yan
+booktitle: International Conference on Learning Representations
+editor: Y. Yue and A. Garg and N. Peng and F. Sha and R. Yu
+files: []
+pages: 22720--22765
+papis_id: ae25328817fe897e502d6ccf6b113b5e
+ref: enouen-iclr2025a
+time-added: 2026-09-22-16:47:18
+title: 'InstaSHAP: Interpretable Additive Models Explain Shapley Values Instantly'
+type: inproceedings
+url: https://proceedings.iclr.cc/paper_files/paper/2025/file/38fc6254f73450813db3b3e04397a9fc-Paper-Conference.pdf
+volume: '2025'
+year: '2025'
