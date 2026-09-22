@@ -1,0 +1,33 @@
+author: Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei
+  and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan
+author_list:
+- family: Ke
+  given: Guolin
+- family: Meng
+  given: Qi
+- family: Finley
+  given: Thomas
+- family: Wang
+  given: Taifeng
+- family: Chen
+  given: Wei
+- family: Ma
+  given: Weidong
+- family: Ye
+  given: Qiwei
+- family: Liu
+  given: Tie-Yan
+booktitle: Advances in Neural Information Processing Systems
+editor: I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and
+  S. Vishwanathan and R. Garnett
+files: []
+pages: ''
+papis_id: 68a318cf2a17a62c0373ddb32d75c2fb
+publisher: Curran Associates, Inc.
+ref: ke-neurips2017a
+time-added: 2026-09-22-17:37:53
+title: 'LightGBM: A Highly Efficient Gradient Boosting Decision Tree'
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf
+volume: '30'
+year: '2017'
