@@ -1,0 +1,20 @@
+author: Lundberg, Scott M and Lee, Su-In
+author_list:
+- family: Lundberg
+  given: Scott M
+- family: Lee
+  given: Su-In
+booktitle: Advances in Neural Information Processing Systems
+editor: I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and
+  S. Vishwanathan and R. Garnett
+files: []
+pages: ''
+papis_id: 57c354580c8ed67eee983f6dea57cc9d
+publisher: Curran Associates, Inc.
+ref: lundberg-neurips2017a
+time-added: 2026-09-22-17:38:25
+title: A Unified Approach to Interpreting Model Predictions
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf
+volume: '30'
+year: '2017'
