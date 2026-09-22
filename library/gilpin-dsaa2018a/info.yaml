@@ -1,0 +1,257 @@
+author: Gilpin, Leilani H. and Bau, David and Yuan, Ben Z. and Bajwa, Ayesha and Specter,
+  Michael and Kagal, Lalana
+author_list:
+- affiliation: []
+  family: Gilpin
+  given: Leilani H.
+- affiliation: []
+  family: Bau
+  given: David
+- affiliation: []
+  family: Yuan
+  given: Ben Z.
+- affiliation: []
+  family: Bajwa
+  given: Ayesha
+- affiliation: []
+  family: Specter
+  given: Michael
+- affiliation: []
+  family: Kagal
+  given: Lalana
+booktitle: 2018 IEEE 5th International Conference on Data Science and Advanced Analytics
+  (DSAA)
+citations:
+- author: Angwin
+  volume-title: Machine bias
+  year: '2019'
+- doi: 10.1109/CVPR.2015.7298640
+- author: Szegedy
+  volume-title: Intriguing properties of neural networks
+  year: '2013'
+- doi: 10.1109/cvpr.2017.17
+- doi: 10.1109/EuroSP.2016.36
+- doi: 10.18653/v1/D17-1215
+- author: Liu
+  volume-title: Trojaning attack on neural networks
+  year: '2017'
+- author: Goodfellow
+  volume-title: Explaining and harnessing adversarial examples
+  year: '2014'
+- author: Madry
+  volume-title: Towards deep learning models resistant to adversarial attacks
+  year: '2018'
+- author: Kraft
+  volume-title: Vision by alignment
+  year: '2018'
+- doi: 10.1145/3128572.3140444
+- article-title: European union regulations on algorithmic decision-making and a
+  author: Goodman
+  volume-title: arXiv preprint
+  year: '2016'
+- doi: 10.1080/1369118X.2012.678878
+- doi: 10.1126/science.aal4230
+- doi: 10.1609/aimag.v36i4.2577
+- author: Bromberger
+  volume-title: 'On what we know we don’t know: Explanation, theory, linguistics,
+    and how questions shape them'
+  year: '1992'
+- doi: 10.2307/2025686
+- author: Herman
+  volume-title: The promise and peril of human evaluation for model interpretability
+  year: '2017'
+- doi: 10.1109/CVPR.2016.90
+- doi: 10.1145/2939672.2939778
+- doi: 10.1007/978-3-319-46307-0_29
+- doi: 10.1109/IJCNN.2001.938448
+- doi: 10.1007/s11063-011-9207-8
+- doi: 10.1007/BF00993309
+- doi: 10.1109/72.809084
+- doi: 10.1016/0950-7051(96)81920-4
+- author: Zilke
+  volume-title: Extracting Rules from Deep Neural Networks
+  year: '2016'
+- article-title: Rule generation from neural networks
+  author: Fu
+  doi: 10.1109/21.299696
+  first-page: '1114'
+  issue: '8'
+  journal-title: IEEE Transactions on Systems, Man, and Cybernetics
+  volume: '24'
+  year: '1994'
+- doi: 10.1109/72.839008
+- doi: 10.1109/72.623216
+- article-title: Extrarting rules from artificial neural networks with distributed
+    representations
+  author: Thrun
+  first-page: '505'
+  journal-title: Advances in neural information processing systems
+  year: '1995'
+- doi: 10.1109/ICIF.2005.1592040
+- author: Craven
+  volume-title: Extracting comprehensible models from trained neural networks
+  year: '1996'
+- doi: 10.1109/69.774103
+- author: Hailesilassic
+  volume-title: 'Rule extraction algorithm for deep neural networks: A review'
+  year: '2016'
+- doi: 10.1007/BF00993103
+- article-title: 'Fernn: An algorithm for fast extraction of rules from neural networks'
+  author: Setiono
+  doi: 10.1023/A:1008307919726
+  first-page: '15'
+  issue: 1-2
+  journal-title: Applied Intelligence
+  volume: '12'
+  year: '2000'
+- doi: 10.1007/978-3-319-10590-1_53
+- author: Simonyan
+  volume-title: 'Deep inside convolutional networks: Visualising image classification
+    models and saliency maps'
+  year: '2013'
+- doi: 10.1371/journal.pone.0130140
+- author: Shrikumar
+  volume-title: Learning important features through propagating activation differences
+  year: '2017'
+- doi: 10.1109/CVPR.2016.319
+- author: Selvaraju
+  issue: '8'
+  volume: '7'
+  volume-title: 'Grad-cam: Visual explanations from deep networks via gradient-based
+    localization'
+  year: '2016'
+- author: Sundararajan
+  volume-title: Axiomatic attribution for deep networks
+  year: '2017'
+- article-title: 'Smoothgrad: removing noise by adding noise'
+  author: Smilkov
+  volume: abs/1706.03825
+  volume-title: CoRR
+  year: '2017'
+- article-title: A unified view of gradient-based attribution methods for deep neural
+    networks
+  author: Ancona
+  volume: abs/1711.06104
+  volume-title: CoRR
+  year: '2017'
+- doi: 10.1109/CVPRW.2014.131
+- article-title: How transferable are features in deep neural networks?
+  author: Yosinski
+  first-page: '3320'
+  journal-title: Advances in neural information processing systems
+  year: '2014'
+- author: Zhou
+  volume-title: Object detectors emerge in deep scene cnns
+  year: '2014'
+- article-title: Syn-thesizing the preferred inputs for neurons in neural networks
+    via deep generator networks
+  author: Nguyen
+  first-page: '3387'
+  journal-title: Advances in Neural Information Processing Systems
+  year: '2016'
+- doi: 10.1109/CVPR.2017.354
+- doi: 10.1631/FITEE.1700808
+- article-title: 'The lottery ticket hypothesis: Training pruned neural networks'
+  author: Frankle
+  volume: abs/1803.03635
+  volume-title: CoRR
+  year: '2018'
+- author: Kim
+  volume-title: 'Tcav: Relative concept importance testing with linear concept activation
+    vectors'
+  year: '2017'
+- article-title: Attention is all you need
+  author: Vaswani
+  first-page: '6000'
+  journal-title: Advances in Neural Information Processing Systems
+  year: '2017'
+- doi: 10.1109/CVPR.2015.7298685
+- article-title: Hierarchical question-image co-attention for visual question answering
+  author: Lu
+  first-page: '289'
+  journal-title: Advances In Neural Information Processing Systems
+  year: '2016'
+- doi: 10.1016/j.cviu.2017.10.001
+- doi: 10.1109/CVPR.2018.00915
+- doi: 10.24963/ijcai.2017/371
+- doi: 10.1007/978-1-4757-1904-8_7
+- doi: 10.1016/S0893-6080(00)00026-5
+- doi: 10.1016/j.csda.2006.11.006
+- author: Kingma
+  volume-title: Auto-encoding variational bayes
+  year: '2013'
+- author: Higgins
+  volume-title: 'beta-vae: Learning basic visual concepts with a constrained variational
+    framework'
+  year: '2016'
+- article-title: 'Infogan: Interpretable representation learning by information maximizing
+    generative adversarial nets'
+  author: Chen
+  first-page: '2172'
+  journal-title: Advances in Neural Information Processing Systems
+  year: '2016'
+- doi: 10.1109/CVPR.2018.00920
+- author: Zhang
+  doi: 10.1609/aaai.v31i1.10924
+  volume-title: Growing interpretable part graphs on convnets via multi-shot learning
+  year: '2017'
+- author: Zhang
+  volume-title: Unsupervised learning of neural networks to explain neural networks
+  year: '2018'
+- article-title: Dynamic routing between capsules
+  author: Sabour
+  first-page: '3859'
+  journal-title: Advances in Neural Information Processing Systems
+  year: '2017'
+- doi: 10.1109/ICCV.2015.279
+- doi: 10.1007/978-3-319-46493-0_1
+- doi: 10.18653/v1/D16-1044
+- author: Doshi-Velez
+  volume-title: Towards a rigorous science of interpretable machine learning
+  year: '2017'
+- doi: 10.1145/3173574.3174156
+- doi: 10.1145/3236009
+- article-title: Explainable planning
+  author: Fox
+  volume: abs/1709.10256
+  volume-title: CoRR
+  year: '2017'
+- author: Kautz
+  volume-title: Generalized plan recognition
+- author: Reeves
+  volume-title: 'Computational morality: A process model of belief conflict and resolution
+    for story understanding'
+  year: '1991'
+- doi: 10.1002/0470018860.s00082
+- author: Winston
+  volume-title: 'The genesis manifesto: Story understanding and human intelligence'
+  year: '2017'
+- author: Rosenthal
+  volume-title: 'Verbalization: Narration of autonomous robot experience'
+- author: Leake
+  volume-title: Focusing construction and selection of abductive hypotheses
+  year: '1993'
+- article-title: The role of coherence in constructing and evaluating abductive explanations
+  author: Ng
+  volume-title: Working Notes, AAAI Spring Symposium on Automated Abduction
+- doi: 10.1016/j.cogdev.2014.12.008
+- doi: 10.1016/j.neuron.2013.08.020
+- author: LeCun
+  volume-title: My take on ali rahimi’s test of time award talk at nips
+  year: '2017'
+doc_url: http://xplorestaging.ieee.org/ielx7/8620128/8631391/08631448.pdf?arnumber=8631448
+doi: 10.1109/dsaa.2018.00018
+files: []
+journal: 2018 IEEE 5th International Conference on Data Science and Advanced Analytics
+  (DSAA)
+month: 10
+pages: 80--89
+papis_id: 00b20d897088c21f926d8c622ade6ba4
+publisher: IEEE
+ref: gilpin-dsaa2018a
+time-added: 2026-09-22-16:48:21
+title: 'Explaining Explanations: An Overview of Interpretability of Machine Learning'
+type: inproceedings
+url: https://doi.org/10.1109/dsaa.2018.00018
+venue: Turin, Italy
+year: 2018
