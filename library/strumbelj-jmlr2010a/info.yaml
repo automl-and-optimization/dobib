@@ -1,0 +1,18 @@
+author: Štrumbelj, Erik and Kononenko, Igor
+author_list:
+- family: Štrumbelj
+  given: Erik
+- family: Kononenko
+  given: Igor
+files: []
+journal: Journal of Machine Learning Research
+number: '1'
+pages: 1--18
+papis_id: 57d2082f171f0feb3c9df1d1ada35e2c
+ref: strumbelj-jmlr2010a
+time-added: 2026-09-22-18:12:39
+title: An Efficient Explanation of Individual Classifications using Game Theory
+type: article
+url: http://jmlr.org/papers/v11/strumbelj10a.html
+volume: '11'
+year: '2010'
