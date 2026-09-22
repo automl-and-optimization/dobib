@@ -1,0 +1,106 @@
+author: Ruiz, Luis M. and Valenciano, Federico and Zarzuelo, Jose M.
+author_list:
+- affiliation: []
+  family: Ruiz
+  given: Luis M.
+- affiliation: []
+  family: Valenciano
+  given: Federico
+- affiliation: []
+  family: Zarzuelo
+  given: Jose M.
+citations:
+- article-title: The Kernel of a Cooperative Game
+  author: Davis
+  doi: 10.1002/nav.3800120303
+  first-page: '223'
+  journal-title: Naval Res. Logist. Quart.
+  volume: '12'
+  year: '1965'
+- article-title: Value Theory without Efficiency
+  author: Dubey
+  doi: 10.1287/moor.4.2.99
+  first-page: '99'
+  journal-title: Math. Oper. Res.
+  volume: '4'
+  year: '1981'
+- article-title: Dynamics of Cooperative Games
+  author: Grotte
+  doi: 10.1007/BF01770985
+  first-page: '27'
+  journal-title: Internat. J. Game Theory
+  volume: '5'
+  year: '1976'
+- article-title: Potential, Value and Consistency
+  author: Hart
+  doi: 10.2307/1911054
+  first-page: '589'
+  journal-title: Econometrica
+  volume: '57'
+  year: '1989'
+- unstructured: Keane, M. 1969, Some Topics inN, Evanston, IL, Northwestern University
+- article-title: The Bargaining Set, Kernel and Nucleolus
+  author: Maschler
+  series-title: Handbook of Game Theory
+  year: '1992'
+- article-title: The Kernel and Bargaining Set for Convex Games
+  author: Maschler
+  doi: 10.1007/BF01753435
+  first-page: '73'
+  journal-title: Internat. J. Game Theory
+  volume: '1'
+  year: '1972'
+- article-title: Geometric Properties of the Kernel, Nucleolus and Related Solution
+    Concepts
+  author: Maschler
+  doi: 10.1287/moor.4.4.303
+  first-page: '303'
+  journal-title: Math. Oper. Res.
+  volume: '4'
+  year: '1979'
+- unstructured: Ruiz, L. M. Valenciano, F. Zarzuelo, J. M. 1995, The Family of Least
+    Square Values for TU Games, Departamento de Economı&#x0301;a Aplicada I, Universidad
+    del Paı&#x0301;s Vasco, Bilbao, Spain
+- article-title: The Least Square Prenucleolus and the Least Square Nucleolus. Two
+    Values for TU Games Based on the Excess Vector
+  author: Ruiz
+  doi: 10.1007/BF01254388
+  first-page: '113'
+  journal-title: Internat. J. Game Theory
+  volume: '25'
+  year: '1996'
+- article-title: The Nucleolus of a Characteristic Function Game
+  author: Schmeidler
+  doi: 10.1137/0117107
+  first-page: '1163'
+  journal-title: SIAM J. Appl. Math.
+  volume: '17'
+  year: '1969'
+- article-title: The Functional Equations that Give the Payoffs of the Players in
+    ann
+  author: Sobolev
+  first-page: '151'
+  series-title: Advances in Game Theory
+  year: '1973'
+- article-title: The Characterization of Optimality Principles in Cooperative Games
+    by Functional Equations
+  author: Sobolev
+  first-page: '94'
+  series-title: Mathematical Methods in the Social Sciences 6
+  year: '1975'
+doi: 10.1006/game.1997.0622
+files: []
+issue: 1-2
+journal: Games and Economic Behavior
+language: en
+month: 7
+pages: 109--130
+papis_id: c564118339dcf5186f0b51e65b1169c7
+publisher: Elsevier BV
+ref: ruiz-game1998a
+time-added: 2026-09-22-17:52:53
+title: The Family of Least Square Values for Transferable Utility Games
+type: article
+url: https://doi.org/10.1006/game.1997.0622
+volume: '24'
+year: 1998
