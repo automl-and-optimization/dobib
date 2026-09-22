@@ -1,0 +1,22 @@
+author: Chau, Siu Lun and Muandet, Krikamol and Sejdinovic, Dino
+author_list:
+- family: Chau
+  given: Siu Lun
+- family: Muandet
+  given: Krikamol
+- family: Sejdinovic
+  given: Dino
+booktitle: Advances in Neural Information Processing Systems
+doi: 10.52202/075280-2209
+editor: A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine
+files: []
+pages: 50769--50795
+papis_id: 82d35e1f3706da1df7e5da11676f9b18
+publisher: Curran Associates, Inc.
+ref: chau-neurips2023a
+time-added: 2026-09-22-17:00:46
+title: 'Explaining the Uncertain: Stochastic Shapley Values for Gaussian Process Models'
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2023/file/9f0b1220028dfa2ee82ca0a0e0fc52d1-Paper-Conference.pdf
+volume: '36'
+year: '2023'
