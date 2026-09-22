@@ -41,14 +41,12 @@ booktitle: Thirty-First International Joint Conference on Artificial Intelligenc
   {IJCAI-22}
 doi: 10.24963/ijcai.2022/778
 files: []
-journal: Proceedings of the Thirty-First International Joint Conference on Artificial
-  Intelligence
 month: 7
 pages: 5572--5579
-papis_id: abe9ef11842ce4189576d14e8a304944
+papis_id: 0a87f653f029a0bb43a0d48d0f8153c8
 publisher: International Joint Conferences on Artificial Intelligence Organization
 ref: rozemberczki-ijcai2022a
-time-added: 2026-09-22-16:51:57
+time-added: 2026-09-22-17:21:15
 title: The Shapley Value in Machine Learning
 type: inproceedings
 url: https://doi.org/10.24963/ijcai.2022/778
