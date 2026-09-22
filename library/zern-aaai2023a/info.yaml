@@ -22,20 +22,20 @@ author_list:
 - affiliation: []
   family: Kasneci
   given: Gjergji
+booktitle: Proceedings of the AAAI Conference on Artificial Intelligence
 doc_url: https://ojs.aaai.org/index.php/AAAI/article/download/26322/26094
 doi: 10.1609/aaai.v37i9.26322
 files: []
 issue: '9'
-journal: Proceedings of the AAAI Conference on Artificial Intelligence
 month: 6
 pages: 11164--11173
-papis_id: 830569f62036614f97e7dbf16ec4e50f
+papis_id: 380d6b617d1fadec51631a0eb561a007
 publisher: Association for the Advancement of Artificial Intelligence (AAAI)
 ref: zern-aaai2023a
-time-added: 2026-09-22-16:56:37
+time-added: 2026-09-22-17:21:01
 title: Interventional SHAP Values and Interaction Values for Piecewise Linear Regression
   Trees
-type: article
+type: inproceedings
 url: https://doi.org/10.1609/aaai.v37i9.26322
 volume: '37'
 year: 2023
