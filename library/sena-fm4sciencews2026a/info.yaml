@@ -1,0 +1,16 @@
+author: Sena, Luan Borges Teodoro Reis and Azevedo, Francisco Galuppo
+author_list:
+- family: Sena
+  given: Luan Borges Teodoro Reis
+- family: Azevedo
+  given: Francisco Galuppo
+booktitle: 'ICLR 2026 Workshop on Foundation Models for Science: Real-World Impact
+  and Science-First Design'
+files: []
+papis_id: b506b41d42afdce41e60230b799519d3
+ref: sena-fm4sciencews2026a
+time-added: 2026-09-22-18:57:33
+title: '[Short] Real-Time Explanations for Tabular Foundation Models'
+type: inproceedings
+url: https://openreview.net/forum?id=StSMBSZqxx
+year: '2026'
