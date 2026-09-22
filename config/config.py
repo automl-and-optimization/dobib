@@ -115,10 +115,35 @@ def _crossref_parent_book(doi):
     return data if isinstance(data, dict) else None
 
 
+def _full_title(data):
+    """Reassemble a title that Crossref split across `title` and `subtitle`.
+
+    ACM (and others) deposit "XGBoost: A Scalable Tree Boosting System" as
+    title "XGBoost" plus subtitle "A Scalable Tree Boosting System". Papis maps
+    only `title`, so everything after the colon is silently dropped.
+    """
+    title = " ".join(t for t in data.get("title", []) if t).strip()
+    subtitle = " ".join(s for s in data.get("subtitle", []) if s).strip()
+    if not title or not subtitle:
+        return title or None
+    # Some publishers already end the title with the separator, or repeat the
+    # subtitle inside it; don't produce "Foo:: Bar" or say it twice.
+    if subtitle.lower() in title.lower():
+        return title
+    if title.endswith((":", "?", "!", ".", "-", "—")):
+        return f"{title} {subtitle}"
+    return f"{title}: {subtitle}"
+
+
 def _normalise_crossref(data, new_data):
     """Rewrite type/booktitle/journal of a converted Crossref record in place."""
     doi = str(new_data.get("doi") or data.get("DOI") or "")
     containers = [c for c in data.get("container-title", []) if c]
+
+    # Applies to every record, not just conference papers.
+    title = _full_title(data)
+    if title:
+        new_data["title"] = title
 
     booktitle = None
     # Crossref only deposits an `event` block for conference papers (IJCAI,
