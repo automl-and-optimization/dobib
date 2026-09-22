@@ -1,0 +1,22 @@
+author: Müller, Samuel and Hollmann, Noah and Arango, Sebastian Pineda and Grabocka,
+  Josif and Hutter, Frank
+author_list:
+- family: Müller
+  given: Samuel
+- family: Hollmann
+  given: Noah
+- family: Arango
+  given: Sebastian Pineda
+- family: Grabocka
+  given: Josif
+- family: Hutter
+  given: Frank
+booktitle: International Conference on Learning Representations
+files: []
+papis_id: fb12b0b4b1100e490e5f69d2b3138b6e
+ref: muller-iclr2022a
+time-added: 2026-09-22-19:03:12
+title: Transformers Can Do Bayesian Inference
+type: inproceedings
+url: https://openreview.net/forum?id=KSugKcbNf9
+year: '2022'
