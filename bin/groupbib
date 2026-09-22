@@ -571,6 +571,19 @@ def show_bib_diff() -> bool:
     return changed
 
 
+def pending_changes() -> bool:
+    """True if anything groupbib would commit differs from the last commit.
+
+    ``git status`` rather than ``git diff``: a freshly added entry's folder is
+    untracked, which a diff against HEAD would not see. Scoped to the same two
+    paths :func:`commit` stages, so unrelated edits elsewhere in the working
+    tree never make this look dirty.
+    """
+    r = git("status", "--porcelain", "--", LIBRARY_REL, BIB_REL,
+            capture=True, quiet=True)
+    return bool(r.stdout.strip())
+
+
 def confirm(yes: bool) -> bool:
     """Ask whether to commit + push. ``--yes`` bypasses; non-TTY declines.
 
@@ -719,6 +732,14 @@ def cmd_update(args) -> None:
     # Keep the backup until the change is confirmed, so a declined update can
     # restore the previous version of the entry.
     export()
+    if not pending_changes():
+        # The re-fetch reproduced the entry exactly. There is nothing to review
+        # and nothing to commit, so don't make the user answer a prompt about
+        # it. The re-fetched folder is identical to the backup; just drop the
+        # backup and keep it.
+        shutil.rmtree(backup_root, ignore_errors=True)
+        info(f"{key} is already up to date; nothing to commit.")
+        return
     show_bib_diff()
     if not confirm(args.yes):
         for d in set(os.listdir(LIBRARY)) - kept:
@@ -742,6 +763,9 @@ def cmd_export(args) -> None:
     refresh_cache()
     export()
     if args.commit:
+        if not pending_changes():
+            info("nothing to commit.")
+            return
         show_bib_diff()
         if not confirm(args.yes):
             info("aborted: not committed.")
