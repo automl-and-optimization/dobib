@@ -1,0 +1,25 @@
+author: yu, peng and Bifet, Albert and Read, Jesse and Xu, Chao
+author_list:
+- family: yu
+  given: peng
+- family: Bifet
+  given: Albert
+- family: Read
+  given: Jesse
+- family: Xu
+  given: Chao
+booktitle: Advances in Neural Information Processing Systems
+doi: 10.52202/068431-1872
+editor: S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A.
+  Oh
+files: []
+pages: 25818--25828
+papis_id: a919d5d4ea0470295c02bfea675ac6e5
+publisher: Curran Associates, Inc.
+ref: yu-neurips2022a
+time-added: 2026-09-22-17:39:31
+title: Linear tree shap
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2022/file/a5a3b1ef79520b7cd122d888673a3ebc-Paper-Conference.pdf
+volume: '35'
+year: '2022'
