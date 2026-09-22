@@ -3,7 +3,7 @@
 These sites share the same software and each abstract page links a ready-made
 ``@InProceedings`` BibTeX file behind a "Bibtex" button:
 
-* NeurIPS — ``papers.nips.cc`` / ``proceedings.neurips.cc``
+* NeurIPS — ``{papers,proceedings}.{nips,neurips}.cc``
 * ICLR    — ``proceedings.iclr.cc``
 
 Papis ships no downloader for them, so without this plugin their URLs have no
@@ -22,10 +22,13 @@ from urllib.parse import urljoin
 
 from papis.downloaders import Downloader
 
-#: Hosts served by the shared NeurIPS/ICLR proceedings software.
+#: Hosts served by the shared NeurIPS/ICLR proceedings software. NeurIPS serves
+#: the same site under either prefix on either domain -- all four combinations
+#: of {papers,proceedings} x {nips,neurips}.cc resolve, so match them as a
+#: product rather than listing them and risking another gap.
 _HOST_RE = re.compile(
     r"^https?://("
-    r"papers\.nips\.cc|proceedings\.neurips\.cc|papers\.neurips\.cc"
+    r"(?:papers|proceedings)\.(?:nips|neurips)\.cc"
     r"|proceedings\.iclr\.cc"
     r")/",
     re.IGNORECASE,

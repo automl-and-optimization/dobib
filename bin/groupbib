@@ -323,8 +323,10 @@ def _fetch_into_library(key: str, identifier: str):
 _VENUE_PLUGINS = [
     (re.compile(r"^https?://proceedings\.mlr\.press/", re.I),
      "pmlr", "plugins/papis-pmlr"),
-    (re.compile(r"^https?://(?:papers\.nips\.cc|proceedings\.neurips\.cc"
-                r"|papers\.neurips\.cc|proceedings\.iclr\.cc)/", re.I),
+    # Keep in sync with _HOST_RE in plugins/papis-proceedings-cc. NeurIPS
+    # serves the same site under either prefix on either domain.
+    (re.compile(r"^https?://(?:(?:papers|proceedings)\.(?:nips|neurips)\.cc"
+                r"|proceedings\.iclr\.cc)/", re.I),
      "proceedingscc", "plugins/papis-proceedings-cc"),
 ]
 
