@@ -444,10 +444,24 @@ def _patched_to_bibtex(document, *args, **kwargs):
     if not overrides:
         return _clean_text(_to_bibtex(document, *args, **kwargs))
 
+    # Some exported fields are regenerated from a structured source rather than
+    # read straight off the document: the exporter rebuilds `author` from
+    # `author_list` whenever that is present, which would silently ignore an
+    # `author` override. Drop the source so the override is what gets written.
+    shadowed = {"author": "author_list"}
+    drop = {source for field, source in shadowed.items()
+            if field in overrides and source in document}
+
     # Apply to the in-memory document only, then put it back: the library on
     # disk must stay a faithful copy of what the publisher deposited.
-    saved = {key: document[key] for key in overrides if key in document}
+    # NOTE: `{*overrides}`, not `set(overrides)` -- Papis execs this file in
+    # papis.config's own namespace, where `set` is its config-setter function
+    # and shadows the builtin. `set` is the only builtin it shadows.
+    touched = {*overrides} | drop
+    saved = {key: document[key] for key in touched if key in document}
     try:
+        for key in drop:
+            document.pop(key, None)
         for key, value in overrides.items():
             if value is None:
                 document.pop(key, None)
@@ -455,7 +469,7 @@ def _patched_to_bibtex(document, *args, **kwargs):
                 document[key] = value
         return _clean_text(_to_bibtex(document, *args, **kwargs))
     finally:
-        for key in overrides:
+        for key in touched:
             document.pop(key, None)
         document.update(saved)
 

@@ -26,3 +26,9 @@ harsanyi-ier1963a:
   # registered it that way, as it did for many pre-digital articles. The real
   # extent is International Economic Review 4(2), May 1963, pp. 194-220.
   pages: 194--220
+ 
+yu-neurips2022a:
+  # for whatever reason the first author's name is in all lower cases
+  author: "Yu, Peng and Bifet, Albert and Read, Jesse and Xu, Chao"
+  # same here
+  title: "Linear TreeShap"
