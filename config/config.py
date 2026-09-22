@@ -276,3 +276,36 @@ def _split_authors_name(authors, separator=None):
 # conversion table, so rebinding it on papis.document is enough -- the lookup
 # happens when that table is first built, which is after this config is loaded.
 papis.document.split_authors_name = _split_authors_name
+
+
+# --------------------------------------------------------------------------- #
+# Let `howpublished` hold a LaTeX command.
+#
+# The BibTeX exporter escapes every field that is not in
+# papis.bibtex.bibtex_verbatim_fields, so a `howpublished` of
+# "\url{https://...}" is exported as "\textbackslash url{https://...}" -- the
+# command is destroyed. Web sources are cited as @misc with the URL in
+# `howpublished` (see "Citing a web page" in the README), which is exactly the
+# case where the field holds markup rather than prose, so treat it verbatim for
+# the same reason `url` and `doi` already are.
+# --------------------------------------------------------------------------- #
+# `papis.bibtex` reads the configuration while it is being imported, so it
+# cannot be imported from here -- doing so deadlocks on a circular import. The
+# BibTeX *exporter* module, by contrast, touches neither config nor
+# papis.bibtex at import time, so patch its entry point and apply the change on
+# the first export, by which point papis.bibtex is safely loaded.
+import papis.exporters.bibtex   # noqa: E402
+
+_to_bibtex = papis.exporters.bibtex.to_bibtex
+
+
+def _patched_to_bibtex(*args, **kwargs):
+    import papis.bibtex
+    if "howpublished" not in papis.bibtex.bibtex_verbatim_fields:
+        papis.bibtex.bibtex_verbatim_fields = (
+            papis.bibtex.bibtex_verbatim_fields | frozenset({"howpublished"})
+        )
+    return _to_bibtex(*args, **kwargs)
+
+
+papis.exporters.bibtex.to_bibtex = _patched_to_bibtex

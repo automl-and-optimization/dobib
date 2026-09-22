@@ -73,8 +73,10 @@ A URL is only accepted if Papis has a **dedicated downloader** for that venue
 (arXiv, ACL Anthology, PMLR, Springer, IEEE, …). The generic HTML scraper is
 disabled on purpose: rather than guess metadata from arbitrary pages (which
 produced wrong types and fake abstracts), `groupbib add` **fails** when no
-dedicated parser matches. In that case, supply a DOI / arXiv id, or add a
-downloader for the venue (see `plugins/papis-pmlr` for a template).
+dedicated parser matches. In that case, supply a DOI / arXiv id, add a
+downloader for the venue (see `plugins/papis-pmlr` for a template), or — for a
+one-off web source — enter it by hand (see
+[Citing a web page](#citing-a-web-page)).
 
 Each `add`/`update` runs the full pipeline:
 
@@ -141,6 +143,67 @@ bin/groupbib add strumbelj-jmlr2010a https://jmlr.org/papers/v11/strumbelj10a.ht
 
 TMLR (`jmlr.org/tmlr/`) is a separate site with a different layout and is not
 handled; import those from OpenReview or by DOI.
+
+### Citing a web page
+
+A blog post, a tech report on someone's homepage, a documentation page — these
+have no DOI, no arXiv id, and no venue downloader, and their pages rarely carry
+usable metadata (Keller Jordan's Muon post, for instance, has an *empty*
+`<meta name="author">` and no `citation_*` tags). `groupbib add <url>` therefore
+refuses them, by the same rule that disables the generic scraper: better to
+fail than to commit an invented byline.
+
+Enter these by hand. Add the entry with Papis directly, then regenerate the
+bibliography:
+
+```bash
+PAPIS_CONFIG_DIR=$PWD/config papis -l group add --batch --no-download-files \
+  --set ref          jordan-blog2024a \
+  --set type         misc \
+  --set author       "Jordan, Keller" \
+  --set title        "Muon: An optimizer for hidden layers in neural networks" \
+  --set howpublished '\url{https://kellerjordan.github.io/posts/muon/}' \
+  --set url          "https://kellerjordan.github.io/posts/muon/" \
+  --set urldate      "2026-09-22" \
+  --set year         2024
+
+bin/groupbib export --commit
+```
+
+which yields
+
+```bibtex
+@misc{jordan-blog2024a,
+  author = {Jordan, Keller},
+  howpublished = {\url{https://kellerjordan.github.io/posts/muon/}},
+  title = {Muon: An optimizer for hidden layers in neural networks},
+  url = {https://kellerjordan.github.io/posts/muon/},
+  urldate = {2026-09-22},
+  year = {2024},
+}
+```
+
+Notes:
+
+- **`@misc` + `howpublished`, not `@online`.** `@online` is BibLaTeX-only and
+  renders as nothing under the plain BibTeX styles most conference templates
+  use (`plainnat`, `unsrtnat`, venue `.bst` files). `@misc` with the URL in
+  `howpublished` works everywhere.
+- **`howpublished` is exported verbatim.** Papis escapes every field that is not
+  on its verbatim list, which would turn `\url{...}` into
+  `\textbackslash url{...}`; `config/config.py` adds `howpublished` to that list
+  so the command survives. `\url` needs the `url` or `hyperref` package.
+- **The key still follows the scheme**, so pick a venue slug — `blog` here.
+  `groupbib check` validates these entries like any other.
+- **`groupbib update` will not work on a manual entry**: it has no stored DOI or
+  arXiv id to re-fetch from and fails with a clear message. That is deliberate —
+  nothing can silently overwrite what you typed. To change it, edit and
+  re-export:
+
+  ```bash
+  PAPIS_CONFIG_DIR=$PWD/config papis -l group edit ref:jordan-blog2024a
+  bin/groupbib export --commit
+  ```
 
 ### Conference papers imported by DOI
 
