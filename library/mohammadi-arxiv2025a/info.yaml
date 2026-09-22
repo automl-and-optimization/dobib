@@ -1,0 +1,39 @@
+abstract: 'Kernel methods are widely used in machine learning and statistics for their
+  flexibility and expressive power, yet their black-box nature limits adoption in
+  high-stakes applications. Shapley value-based attribution methods such as SHAP,
+  and kernel-specific adaptations including RKHS-SHAP, provide a principled framework
+  for explainability -- but exact computation of Shapley values is generally intractable,
+  forcing existing approaches to rely on approximations that incur unavoidable estimation
+  error. We introduce PKeX-Shapley, an algorithm that exploits the multiplicative
+  structure of product kernels to compute exact Shapley values for all $d$ features
+  in quadratic time in $d$. The method rests on a distribution-free removal operator
+  intrinsic to the product-kernel structure: removing a feature replaces its kernel
+  factor with the multiplicative identity. This yields a parameter-free value function
+  -- requiring no sampling and no density estimation -- and uniquely determines a
+  functional decomposition of the model. Building on this value function, we develop
+  shared recursive formulations that evaluate all feature attributions jointly, achieving
+  amortized linear time per feature with numerical stability. Beyond predictive modeling,
+  the framework extends to widely used kernel-based discrepancies such as the Maximum
+  Mean Discrepancy (MMD) and the Hilbert-Schmidt Independence Criterion (HSIC), providing
+  new tools for interpretable statistical analysis.'
+author: Mohammadi, Majid and Chau, Siu Lun and Muandet, Krikamol
+author_list:
+- family: Mohammadi
+  given: Majid
+- family: Chau
+  given: Siu Lun
+- family: Muandet
+  given: Krikamol
+doc_url: https://arxiv.org/pdf/2505.16516v3
+eprint: 2505.16516v3
+eprintclass: cs.LG
+eprinttype: arxiv
+files: []
+month: 5
+papis_id: cb71219289ab8b1eadefdada0f67f7ab
+ref: mohammadi-arxiv2025a
+time-added: 2026-09-22-16:50:31
+title: Amortized Linear-time Exact Shapley Value for Product-Kernel Methods
+type: article
+url: http://arxiv.org/abs/2505.16516v3
+year: 2025
