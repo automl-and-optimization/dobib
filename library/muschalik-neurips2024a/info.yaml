@@ -1,0 +1,30 @@
+author: Muschalik, Maximilian and Baniecki, Hubert and Fumagalli, Fabian and Kolpaczki,
+  Patrick and Hammer, Barbara and Hüllermeier, Eyke
+author_list:
+- family: Muschalik
+  given: Maximilian
+- family: Baniecki
+  given: Hubert
+- family: Fumagalli
+  given: Fabian
+- family: Kolpaczki
+  given: Patrick
+- family: Hammer
+  given: Barbara
+- family: Hüllermeier
+  given: Eyke
+booktitle: Advances in Neural Information Processing Systems
+doi: 10.52202/079017-4141
+editor: A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J.
+  Tomczak and C. Zhang
+files: []
+pages: 130324--130357
+papis_id: 924a6bd01ea1080b7ebc82bd36c68c15
+publisher: Curran Associates, Inc.
+ref: muschalik-neurips2024a
+time-added: 2026-09-22-17:38:45
+title: 'shapiq: Shapley Interactions for Machine Learning'
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2024/file/eb3a9313405e2d4175a5a3cfcd49999b-Paper-Datasets_and_Benchmarks_Track.pdf
+volume: '37'
+year: '2024'
