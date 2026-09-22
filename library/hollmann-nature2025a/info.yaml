@@ -1,0 +1,381 @@
+abstract: "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Tabular
+  data, spreadsheets organized in rows and columns, are ubiquitous across scientific
+  fields, from biomedicine to particle physics to economics and climate science\n
+  \                   <jats:sup>1,2</jats:sup>\n                    . The fundamental
+  prediction task of filling in missing values of a label column based on the rest
+  of the columns is essential for various applications as diverse as biomedical risk
+  models, drug discovery and materials science. Although deep learning has revolutionized
+  learning from raw data and led to numerous high-profile success stories\n                    <jats:sup>3–5</jats:sup>\n
+  \                   , gradient-boosted decision trees\n                    <jats:sup>6–9</jats:sup>\n
+  \                   have dominated tabular data for the past 20 years. Here we present
+  the Tabular Prior-data Fitted Network (TabPFN), a tabular foundation model that
+  outperforms all previous methods on datasets with up to 10,000 samples by a wide
+  margin, using substantially less training time. In 2.8 s, TabPFN outperforms an
+  ensemble of the strongest baselines tuned for 4 h in a classification setting. As
+  a generative transformer-based foundation model, this model also allows fine-tuning,
+  data generation, density estimation and learning reusable embeddings. TabPFN is
+  a learning algorithm that is itself learned across millions of synthetic datasets,
+  demonstrating the power of this approach for algorithm development. By improving
+  modelling abilities across diverse fields, TabPFN has the potential to accelerate
+  scientific discovery and enhance important decision-making in various domains.\n
+  \                 </jats:p>"
+author: Hollmann, Noah and Müller, Samuel and Purucker, Lennart and Krishnakumar,
+  Arjun and Körfer, Max and Hoo, Shi Bin and Schirrmeister, Robin Tibor and Hutter,
+  Frank
+author_list:
+- affiliation: []
+  family: Hollmann
+  given: Noah
+- affiliation: []
+  family: Müller
+  given: Samuel
+- affiliation: []
+  family: Purucker
+  given: Lennart
+- affiliation: []
+  family: Krishnakumar
+  given: Arjun
+- affiliation: []
+  family: Körfer
+  given: Max
+- affiliation: []
+  family: Hoo
+  given: Shi Bin
+- affiliation: []
+  family: Schirrmeister
+  given: Robin Tibor
+- affiliation: []
+  family: Hutter
+  given: Frank
+citations:
+- author: V Borisov
+  doi: 10.1109/TNNLS.2022.3229161
+  first-page: '7499'
+  journal-title: IEEE Trans. Neural Netw. Learn. Syst.
+  unstructured: 'Borisov, V. et al. Deep neural networks and tabular data: a survey.
+    IEEE Trans. Neural Netw. Learn. Syst. 35, 7499–7519 (2024).'
+  volume: '35'
+  year: '2024'
+- unstructured: 'van Breugel, B. & van der Schaar, M. Position: why tabular foundation
+    models should be a research priority. In Proc. 41st International Conference on
+    Machine Learning 48976–48993 (PMLR, 2024).'
+- author: D Silver
+  doi: 10.1038/nature16961
+  first-page: '484'
+  journal-title: Nature
+  unstructured: Silver, D. et al. Mastering the game of go with deep neural networks
+    and tree search. Nature 529, 484–489 (2016).
+  volume: '529'
+  year: '2016'
+- author: JM Jumper
+  doi: 10.1038/s41586-021-03819-2
+  first-page: 583 – 589
+  journal-title: Nature
+  unstructured: Jumper, J. M. et al. Highly accurate protein structure prediction
+    with AlphaFold. Nature 596, 583 – 589 (2021).
+  volume: '596'
+  year: '2021'
+- unstructured: OpenAI. GPT-4 Technical Report. Preprint at https://arxiv.org/abs/2303.08774
+    (2023).
+- doi: 10.1214/aos/1013203451
+  unstructured: 'Friedman, J. H. Greedy function approximation: a gradient boosting
+    machine. Ann. Stat. 1189–1232 (2001).'
+- doi: 10.1145/2939672.2939785
+  unstructured: 'Chen, T. & Guestrin, C. Xgboost: A scalable tree boosting system.
+    In Proc. 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data
+    Mining (eds Krishnapuram, B. et al.) 785–794 (ACM Press, 2016).'
+- unstructured: 'Ke, G. et al. Lightgbm: A highly efficient gradient boosting decision
+    tree. In Proc. 30th International Conference on Advances in Neural Information
+    Processing Systems (eds Guyon, I. et al.) 3149–3157 (Curran Associates, 2017).'
+- unstructured: 'Prokhorenkova, L., Gusev, G., Vorobev, A., Dorogush, A. & Gulin,
+    A. CatBoost: unbiased boosting with categorical features. In Proc. 30th International
+    Conference on Advances in Neural Information Processing Systems (eds Bengio, S.
+    et al.) 6639–6649 (Curran Associates, 2018).'
+- author: DG Lowe
+  doi: 10.1023/B:VISI.0000029664.99615.94
+  first-page: '91'
+  journal-title: Int. J. Comput. Vis.
+  unstructured: Lowe, D. G. Distinctive image features from scale-invariant keypoints.
+    Int. J. Comput. Vis. 60, 91–110 (2004).
+  volume: '60'
+  year: '2004'
+- doi: 10.1109/CVPR.2005.177
+  unstructured: Dalal, N. & Triggs, B. Histograms of oriented gradients for human
+    detection. In Proc. 2005 IEEE Computer Society Conference on Computer Vision and
+    Pattern Recognition (CVPR’05) 886–893 (IEEE, 2005).
+- unstructured: Vaswani, A. et al. Attention is all you need. In Proc. 30th International
+    Conference on Advances in Neural Information Processing Systems (eds Guyon, I.
+    et al.) 6000–6010 (Curran Associates, 2017).
+- author: D Silver
+  doi: 10.1038/nature24270
+  first-page: '354'
+  journal-title: Nature
+  unstructured: Silver, D. et al. Mastering the game of go without human knowledge.
+    Nature 550, 354–359 (2017).
+  volume: '550'
+  year: '2017'
+- unstructured: Grinsztajn, L., Oyallon, E. & Varoquaux, G. Why do tree-based models
+    still outperform deep learning on typical tabular data? In Proc. 36th International
+    Conference on Neural Information Processing Systems Vol. 35, 507–520 (ACM, 2022).
+- unstructured: McElfresh, D. et al. When do neural nets outperform boosted trees
+    on tabular data? In Proc. 37th International Conference on Neural Information
+    Processing System Vol. 36, 76336–76369 (ACM, 2024).
+- unstructured: Goodfellow, I., Bengio, Y. & Courville, A. Deep Learning (MIT Press,
+    2016).
+- unstructured: Brown, T. et al. Language models are few-shot learners. In Proc. Advances
+    in Neural Information Processing Systems (eds Larochelle, H. et al.) Vol. 33,
+    1877–1901 (Curran Associates, 2020).
+- unstructured: Garg, S., Tsipras, D., Liang, P. S. & Valiant, G. What can transformers
+    learn in-context? A case study of simple function classes. In Proc. Advances in
+    Neural Information Processing Systems Vol. 35, 30583–30598 (ACM, 2022).
+- unstructured: Akyürek, E., Schuurmans, D., Andreas, J., Ma, T. & Zhou, D. What learning
+    algorithm is in-context learning? Investigations with linear models. In Proc.
+    The Eleventh International Conference on Learning Representations (ICLR, 2023).
+- unstructured: Von Oswald, J. et al. Transformers learn in-context by gradient descent.
+    In Proc. 40th International Conference on Machine Learning 35151–35174 (PMLR,
+    2023).
+- unstructured: Zhou, H. et al. What algorithms can transformers learn? A study in
+    length generalization. In Proc. The Twelfth International Conference on Learning
+    Representations (ICLR, 2024).
+- unstructured: Müller, S., Hollmann, N., Pineda-Arango, S., Grabocka, J. & Hutter,
+    F. Transformers can do Bayesian inference. In Proc. The Tenth International Conference
+    on Learning Representations (ICLR, 2022).
+- unstructured: 'Hollmann, N., Müller, S., Eggensperger, K. & Hutter, F. TabPFN: a
+    transformer that solves small tabular classification problems in a second. In
+    Proc. The Eleventh International Conference on Learning Representations (ICLR,
+    2023).'
+- unstructured: 'Kingma, D. & Ba, J. Adam: A method for stochastic optimization. In
+    Proc. International Conference on Learning Representations (ICLR, 2015).'
+- unstructured: Bahdanau, D., Cho, K. & Bengio, Y. Neural machine translation by jointly
+    learning to align and translate. In Proc. 3rd International Conference on Learning
+    Representations (eds Bengio, Y. & LeCun, Y.) (ICLR, 2015).
+- unstructured: Gorishniy, Y., Rubachev, I., Khrulkov, V. & Babenko, A. Revisiting
+    deep learning models for tabular data. In Proc. Advances in Neural Information
+    Processing Systems 34 (eds Ranzato, M. et al.) 18932–18943 (NeurIPS, 2021).
+- unstructured: 'Zhu, B. et al. XTab: cross-table pretraining for tabular transformers.
+    In Proc. 40th International Conference on Machine Learning (eds Krause, A. et
+    al.) 43181–43204 (PMLR, 2023).'
+- unstructured: Lorch, L., Sussex, S., Rothfuss, J., Krause, A. & Schölkopf, B. Amortized
+    inference for causal structure learning. In Proc. Advances in Neural Information
+    Processing Systems (eds Koyejo, S. et al.) Vol. 35, 13104–13118 (ACM, 2022).
+- unstructured: 'Dao, T., Fu, D., Ermon, S., Rudra, A. & Ré, C. Flashattention: fast
+    and memory-efficient exact attention with io-awareness. In Proc. Advances in Neural
+    Information Processing Systems (eds Koyejo, S. et al.) Vol. 35, 16344–16359 (2022).'
+- author: L Torgo
+  doi: 10.3233/IDA-1997-1405
+  first-page: '275'
+  journal-title: Intell. Data Anal.
+  unstructured: Torgo, L. & Gama, J. Regression using classification algorithms. Intell.
+    Data Anal. 1, 275–292 (1997).
+  volume: '1'
+  year: '1997'
+- doi: 10.1017/CBO9780511803161
+  unstructured: Pearl, J. Causality 2nd edn (Cambridge Univ. Press, 2009).
+- unstructured: Jiang, M. et al. Investigating Data Contamination for Pre-training
+    Language Models. Preprint at https://arxiv.org/abs/2401.06059 (2024).
+- author: P Kumaraswamy
+  doi: 10.1016/0022-1694(80)90036-0
+  first-page: '79'
+  journal-title: J. Hydrol.
+  unstructured: Kumaraswamy, P. A generalized probability density function for double-bounded
+    random processes. J. Hydrol. 46, 79–88 (1980).
+  volume: '46'
+  year: '1980'
+- doi: 10.21236/AD0256582
+  unstructured: 'Rosenblatt, F. Principles of Neurodynamics: Perceptrons and the Theory
+    of Brain Mechanisms. Report No. 1196-0-8 (Cornell Aeronautical Lab, 1961).'
+- author: T Young
+  first-page: '1'
+  journal-title: Philos. Trans. R. Soc. Lond.
+  unstructured: Young, T. I. The bakerian lecture. experiments and calculations relative
+    to physical optics. Philos. Trans. R. Soc. Lond. 94, 1–16 (1804).
+  volume: '94'
+  year: '1804'
+- author: P Gijsbers
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Gijsbers, P. et al. AMLB: an AutoML benchmark. J. Mach. Learn. Res.
+    25, 1–65 (2024).'
+  volume: '25'
+  year: '2024'
+- unstructured: Fischer, S. F., Feurer, M. & Bischl, B. OpenML-CTR23 – a curated tabular
+    regression benchmarking suite. In Proc. AutoML Conference 2023 (Workshop) (AutoML,
+    2023).
+- author: L Breimann
+  doi: 10.1023/A:1010933404324
+  first-page: '5'
+  journal-title: Mach. Learn.
+  unstructured: Breimann, L. Random forests. Mach. Learn. 45, 5–32 (2001).
+  volume: '45'
+  year: '2001'
+- author: C Cortes
+  doi: 10.1007/BF00994018
+  first-page: '273'
+  journal-title: Mach. Learn.
+  unstructured: Cortes, C. & Vapnik, V. Support-vector networks. Mach. Learn. 20,
+    273–297 (1995).
+  volume: '20'
+  year: '1995'
+- unstructured: 'Erickson, N. et al. Autogluon-tabular: robust and accurate automl
+    for structured data. Preprint at https://arxiv.org/abs/2003.06505 (2020).'
+- author: D Wolpert
+  doi: 10.1016/S0893-6080(05)80023-1
+  first-page: '241'
+  journal-title: Neural Netw.
+  unstructured: Wolpert, D. Stacked generalization. Neural Netw. 5, 241–259 (1992).
+  volume: '5'
+  year: '1992'
+- doi: 10.1145/1015330.1015432
+  unstructured: Caruana, R., Niculescu-Mizil, A., Crew, G. & Ksikes, A. Ensemble selection
+    from libraries of models. In Proc. 21st International Conference on Machine Learning
+    (ed. Greiner, R.) (Omnipress, 2004).
+- unstructured: 'Purucker, L. O. et al. Q(D)O-ES: Population-based quality (diversity)
+    optimisation for post hoc ensemble selection in AutoML. In Proc. International
+    Conference on Automated Machine Learning Vol. 224 (PMLR, 2023).'
+- doi: 10.24432/C5NC77
+  unstructured: Hofmann, H. Statlog (German Credit Data). UCI Machine Learning Repository
+    https://doi.org/10.24432/C5NC77 (1994).
+- doi: 10.24432/C5HC70
+  unstructured: Duin, R. Multiple Features. UCI Machine Learning Repository https://doi.org/10.24432/C5HC70
+    (1998).
+- author: J-F Rajotte
+  doi: 10.1016/j.isci.2022.105331
+  first-page: '105331'
+  journal-title: iScience
+  unstructured: Rajotte, J.-F. et al. Synthetic data as an enabler for machine learning
+    applications in medicine. iScience 25, 105331 (2022).
+  volume: '25'
+  year: '2022'
+- unstructured: Lundberg, S. M. & Lee, S.-I. A unified approach to interpreting model
+    predictions. In Proc. Advances in Neural Information Processing Systems (eds Guyon,
+    I. et al.) Vol. 30, 4765–4774 (Curran Associates, 2017).
+- unstructured: 'Feuer, B. et al. TuneTables: context optimization for scalable prior-data
+    fitted networks. In Proc. 38th Conference on Neural Information Processing Systems
+    (NeurIPS, 2024).'
+- unstructured: 'Helli, K., Schnurr, D., Hollmann, N., Müller, S. & Hutter, F. Drift-resilient
+    tabPFN: In-context learning temporal distribution shifts on tabular data. In Proc.
+    38th Conference on Neural Information Processing Systems (NeurIPS, 2024).'
+- unstructured: Thomas, V. et al. Retrieval & fine-tuning for in-context tabular models.
+    In Proc. 1st Workshop on In-Context Learning at the 41st International Conference
+    on Machine Learning (ICML, 2024).
+- unstructured: Nagler, T. Statistical foundations of prior-data fitted networks.
+    In Proc. 40th International Conference on Machine Learning (eds Krause, A. et
+    al.) Vol. 202, 25660–25676 (PMLR, 2023).
+- unstructured: 'Dooley, S., Khurana, G. S., Mohapatra, C., Naidu, S. V. & White,
+    C. ForecastPFN: synthetically-trained zero-shot forecasting. In Proc. 37th Conference
+    on Advances in Neural Information Processing Systems (eds Oh, A. et al.) (NeurIPS,
+    2023).'
+- doi: 10.1109/CVPR52729.2023.00602
+  unstructured: 'Czolbe, S. & Dalca, A. V. Neuralizer: General neuroimage analysis
+    without re-training. In Proc. IEEE/CVF Conference on Computer Vision and Pattern
+    Recognition 6217–6230 (IEEE, 2023).'
+- doi: 10.1007/978-1-4612-4380-9_16
+  unstructured: 'Wilcoxon, F. in Breakthroughs in Statistics: Methodology and Distribution
+    (eds Kotz, S. & Johnson, N. L.) 196–202 (Springer, 1992).'
+- unstructured: 'Müller, A., Curino, C. & Ramakrishnan, R. Mothernet: a foundational
+    hypernetwork for tabular classification. Preprint at https://arxiv.org/abs/2312.08598
+    (2023).'
+- unstructured: 'Shazeer, N. Fast transformer decoding: one write-head is all you
+    need. Preprint at https://arxiv.org/abs/1911.02150 (2019).'
+- author: PL Krapivsky
+  doi: 10.1103/PhysRevE.63.066123
+  first-page: '066123'
+  journal-title: Phys. Rev. E
+  unstructured: Krapivsky, P. L. & Redner, S. Organization of growing random networks.
+    Phys. Rev. E 63, 066123 (2001).
+  volume: '63'
+  year: '2001'
+- unstructured: Glorot, X. & Bengio, Y. Understanding the difficulty of training deep
+    feedforward neural networks. In Proc. 13th International Conference on Artificial
+    Intelligence and Statistics 249–256 (JMLR, 2010).
+- unstructured: Nair, V. & Hinton, G. Rectified linear units improve restricted Boltzmann
+    machines. In Proc. 27th International Conference on Machine Learning (eds Fürnkranz,
+    J. & Joachims, T.) 807–814 (Omnipress, 2010).
+- author: JR Quinlan
+  doi: 10.1007/BF00116251
+  first-page: '81'
+  journal-title: Mach. Learn.
+  unstructured: Quinlan, J. R. Induction of decision trees. Mach. Learn. 1, 81–106
+    (1986).
+  volume: '1'
+  year: '1986'
+- unstructured: 'Müller, S., Feurer, M., Hollmann, N. & Hutter, F. PFNS4BO: in-context
+    learning for Bayesian optimization. In Proc. 40th International Conference on
+    Machine Learning 25444–25470 (PMLR, 2023).'
+- author: TG Dietterich
+  doi: 10.1613/jair.105
+  first-page: '263'
+  journal-title: J. Artif. Intell. Res.
+  unstructured: Dietterich, T. G. & Bakiri, G. Solving multiclass learning problems
+    via error-correcting output codes. J. Artif. Intell. Res. 2, 263–286 (1994).
+  volume: '2'
+  year: '1994'
+- unstructured: 'Loshchilov, I. & Hutter, F. SGDR: Stochastic gradient descent with
+    warm restarts. In Proc. 5th International Conference on Learning Representations
+    (ICLR, 2017).'
+- unstructured: 'Murphy, R. L., Srinivasan, B., Rao, V. A. & Ribeiro, B. Janossy pooling:
+    learning deep permutation-invariant functions for variable-size inputs. In Proc.
+    7th International Conference on Learning Representations (ICLR, 2019).'
+- unstructured: McCarter, C. The kernel density integral transformation. Transact.
+    Mach. Learn. Res. https://openreview.net/pdf?id=6OEcDKZj5j (2023).
+- doi: 10.1109/ICDM.2006.76
+  unstructured: Caruana, R., Munson, A. & Niculescu-Mizil, A. Getting the most out
+    of ensemble selection. In Proc. 6th IEEE International Conference on Data Mining
+    (eds Clifton, C. et al.) 828–833 (IEEE, 2006).
+- unstructured: 'Feurer, M. et al. in Automated Machine Learning: Methods, Systems,
+    Challenges (eds Hutter, F. et al.) Ch. 6 (Springer, 2019).'
+- unstructured: 'Purucker, L. & Beel, J. Assembled-OpenML: creating efficient benchmarks
+    for ensembles in AutoML with OpenML. In Proc. First International Conference on
+    Automated Machine Learning (AutoML, 2022).'
+- unstructured: 'Purucker, L. & Beel, J. CMA-ES for post hoc ensembling in AutoML:
+    a great success and salvageable failure. In Proc. International Conference on
+    Automated Machine Learning Vol. 224, 1–23 (PMLR, 2023).'
+- author: AE Hoerl
+  doi: 10.1080/00401706.1970.10488634
+  first-page: '55'
+  journal-title: Technometrics
+  unstructured: 'Hoerl, A. E. & Kennard, R. W. Ridge regression: biased estimation
+    for nonorthogonal problems. Technometrics 12, 55–67 (1970).'
+  volume: '12'
+  year: '1970'
+- author: R Shwartz-Ziv
+  doi: 10.1016/j.inffus.2021.11.011
+  first-page: '84'
+  journal-title: Inf. Fusion
+  unstructured: 'Shwartz-Ziv, R. & Armon, A. Tabular data: deep learning is not all
+    you need. Inf. Fusion 81, 84–90 (2022).'
+  volume: '81'
+  year: '2022'
+- author: J Vanschoren
+  doi: 10.1145/2641190.2641198
+  first-page: '49'
+  journal-title: SIGKDD Explor.
+  unstructured: 'Vanschoren, J., van Rijn, J. N., Bischl, B. & Torgo, L. OpenML: networked
+    science in machine learning. SIGKDD Explor. 15, 49–60 (2014).'
+  volume: '15'
+  year: '2014'
+- author: E Fix
+  doi: 10.2307/1403797
+  first-page: '238'
+  journal-title: Int. Stat. Rev.
+  unstructured: 'Fix, E. & Hodges, J. L. Discriminatory analysis. Nonparametric discrimination:
+    consistency properties. Int. Stat. Rev. 57, 238–247 (1989).'
+  volume: '57'
+  year: '1989'
+doc_url: https://www.nature.com/articles/s41586-024-08328-6.pdf
+doi: 10.1038/s41586-024-08328-6
+files: []
+issue: '8045'
+journal: Nature
+language: en
+month: 1
+pages: 319--326
+papis_id: 67a83af0d299241346b195b22fc3cdce
+publisher: Springer Science and Business Media LLC
+ref: hollmann-nature2025a
+time-added: 2026-09-22-16:49:05
+title: Accurate predictions on small data with a tabular foundation model
+type: article
+url: https://doi.org/10.1038/s41586-024-08328-6
+volume: '637'
+year: 2025
