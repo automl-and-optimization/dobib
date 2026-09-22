@@ -1,0 +1,38 @@
+abstract: <jats:p>We study from a complexity theoretic standpoint the various solution
+  concepts arising in cooperative game theory. We use as a vehicle for this study
+  a game in which the players are nodes of a graph with weights on the edges, and
+  the value of a coalition is determined by the total weight of the edges contained
+  in it. The Shapley value is always easy to compute. The core is easy to characterize
+  when the game is convex, and is intractable (NP-complete) otherwise. Similar results
+  are shown for the kernel, the nucleolus, the ε-core, and the bargaining set. As
+  for the von Neumann-Morgenstern solution, we point out that its existence may not
+  even be decidable. Many of these results generalize to the case in which the game
+  is presented by a hypergraph with edges of size k &gt; 2.</jats:p>
+author: Deng, Xiaotie and Papadimitriou, Christos H.
+author_list:
+- affiliation:
+  - name: Department of Computer Science, York University, Toronto, Ontario, Canada
+  family: Deng
+  given: Xiaotie
+- affiliation:
+  - name: Department of Computer Science and Engineering, University of California
+      at San Diego, La Jolla, California 92093-0114
+  family: Papadimitriou
+  given: Christos H.
+doc_url: https://pubsonline.informs.org/doi/pdf/10.1287/moor.19.2.257
+doi: 10.1287/moor.19.2.257
+files: []
+issue: '2'
+journal: Mathematics of Operations Research
+language: en
+month: 5
+pages: 257--266
+papis_id: 5b5b1691e5b0ce9f1c63654432e42299
+publisher: Institute for Operations Research and the Management Sciences (INFORMS)
+ref: deng-mor1994a
+time-added: 2026-09-22-16:46:46
+title: On the Complexity of Cooperative Solution Concepts
+type: article
+url: https://doi.org/10.1287/moor.19.2.257
+volume: '19'
+year: 1994
