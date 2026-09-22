@@ -1,0 +1,98 @@
+author: Chen, Tianqi and Guestrin, Carlos
+author_list:
+- affiliation:
+  - name: University of Washington, Seattle, WA, USA
+  family: Chen
+  given: Tianqi
+- affiliation:
+  - name: University of Washington, Seattle, WA, USA
+  family: Guestrin
+  given: Carlos
+booktitle: 'KDD ''16: The 22nd ACM SIGKDD International Conference on Knowledge Discovery
+  and Data Mining'
+citations:
+- unstructured: 'R. Bekkerman. The present and the future of the kdd cup competition:
+    an outsider''s perspective.'
+- doi: 10.5555/2124408
+- author: Bennett J.
+  first-page: '3'
+  unstructured: J. Bennett and S. Lanning. The netflix prize. In Proceedings of the
+    KDD Cup Workshop 2007, pages 3--6, New York, Aug. 2007.
+  volume-title: Proceedings of the KDD Cup Workshop 2007
+  year: '2007'
+- doi: 10.1023/A:1010933404324
+- article-title: 'From ranknet to lambdarank to lambdamart: An overview'
+  author: Burges C.
+  first-page: '23'
+  journal-title: Learning
+  unstructured: 'C. Burges. From ranknet to lambdarank to lambdamart: An overview.
+    Learning, 11:23--581, 2010.'
+  volume: '11'
+  year: '2010'
+- author: Chapelle O.
+  unstructured: O. Chapelle and Y. Chang. Yahoo! Learning to Rank Challenge Overview.
+    Journal of Machine Learning Research - W & CP, 14:1--24, 2011.
+  volume-title: Yahoo! Learning to Rank Challenge Overview. Journal of Machine Learning
+    Research - W & CP, 14:1--24
+  year: '2011'
+- author: Chen T.
+  first-page: '436'
+  unstructured: T. Chen, H. Li, Q. Yang, and Y. Yu. General functional matrix factorization
+    using gradient boosting. In Proceeding of 30th International Conference on Machine
+    Learning (ICML'13), volume 1, pages 436--444, 2013.
+  volume: '1'
+  volume-title: Proceeding of 30th International Conference on Machine Learning (ICML'13)
+  year: '2013'
+- author: Chen T.
+  unstructured: T. Chen, S. Singh, B. Taskar, and C. Guestrin. Efficient second-order
+    gradient boosting for conditional random fields. In Proceeding of 18th Artificial
+    Intelligence and Statistics Conference (AISTATS'15), volume 1, 2015.
+  volume: '1'
+  volume-title: Proceeding of 18th Artificial Intelligence and Statistics Conference
+    (AISTATS'15)
+  year: '2015'
+- doi: 10.5555/1390681.1442794
+- doi: 10.1214/aos/1013203451
+- doi: 10.1016/S0167-9473(01)00065-2
+- doi: 10.1214/aos/1016218223
+- author: Friedman J. H.
+  unstructured: J. H. Friedman and B. E. Popescu. Importance sampled learning ensembles,
+    2003.
+  volume-title: Importance sampled learning ensembles
+  year: '2003'
+- doi: 10.1145/375663.375670
+- doi: 10.1145/2648584.2648589
+- doi: 10.5555/3023549.3023585
+- doi: 10.5555/2981562.2981675
+- doi: 10.5555/2946645.2946679
+- doi: 10.14778/1687553.1687569
+- doi: 10.5555/1953048.2078195
+- unstructured: 'G. Ridgeway. Generalized Boosted Models: A guide to the gbm package.'
+- doi: 10.1145/1963405.1963461
+- doi: 10.1145/1645953.1646301
+- doi: 10.1109/SSDBM.2007.27
+- article-title: Learning nonlinear functions using regularized greedy forest
+  author: Zhang T.
+  issue: '5'
+  journal-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  unstructured: T. Zhang and R. Johnson. Learning nonlinear functions using regularized
+    greedy forest. IEEE Transactions on Pattern Analysis and Machine Intelligence,
+    36(5), 2014.
+  volume: '36'
+  year: '2014'
+doc_url: https://dl.acm.org/doi/pdf/10.1145/2939672.2939785
+doi: 10.1145/2939672.2939785
+files: []
+journal: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining
+month: 8
+pages: 785--794
+papis_id: 63dabdc705bc9ef753b801909d349f3d
+publisher: ACM
+ref: chen-kdd2016a
+time-added: 2026-09-22-17:01:03
+title: XGBoost
+type: inproceedings
+url: https://doi.org/10.1145/2939672.2939785
+venue: San Francisco California USA
+year: 2016
