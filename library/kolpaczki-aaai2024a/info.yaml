@@ -26,19 +26,19 @@ author_list:
 - affiliation: []
   family: Hüllermeier
   given: Eyke
+booktitle: Proceedings of the AAAI Conference on Artificial Intelligence
 doc_url: https://ojs.aaai.org/index.php/AAAI/article/download/29225/30311
 doi: 10.1609/aaai.v38i12.29225
 files: []
 issue: '12'
-journal: Proceedings of the AAAI Conference on Artificial Intelligence
 month: 3
 pages: 13246--13255
-papis_id: 94d17194e1b80923689f6c6c6055f702
+papis_id: eb02a91f326674798223096a5bcaa1e2
 publisher: Association for the Advancement of Artificial Intelligence (AAAI)
 ref: kolpaczki-aaai2024a
-time-added: 2026-09-22-16:49:55
+time-added: 2026-09-22-17:20:21
 title: Approximating the Shapley Value without Marginal Contributions
-type: article
+type: inproceedings
 url: https://doi.org/10.1609/aaai.v38i12.29225
 volume: '38'
 year: 2024
