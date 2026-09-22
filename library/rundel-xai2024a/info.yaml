@@ -145,11 +145,11 @@ isbn: '9783031637971'
 language: en
 month: 7
 pages: 465--476
-papis_id: c9952dd2dbe277f308420c5c7d3963bc
+papis_id: aaa36c2398e0c1fe31ebfd4af35672da
 publisher: Springer Nature Switzerland
 ref: rundel-xai2024a
 series: Communications in Computer and Information Science
-time-added: 2026-09-22-17:16:27
+time-added: 2026-09-22-17:20:07
 title: Interpretable Machine Learning for TabPFN
 type: inproceedings
 url: https://doi.org/10.1007/978-3-031-63797-1_23
