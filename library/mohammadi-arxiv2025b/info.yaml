@@ -1,0 +1,47 @@
+abstract: Shapley values are widely recognized as a principled method for attributing
+  importance to input features in machine learning. However, the exact computation
+  of Shapley values scales exponentially with the number of features, severely limiting
+  the practical application of this powerful approach. The challenge is further compounded
+  when the predictive model is probabilistic - as in Gaussian processes (GPs) - where
+  the outputs are random variables rather than point estimates, necessitating additional
+  computational effort in modeling higher-order moments. In this work, we demonstrate
+  that for an important class of GPs known as FANOVA GP, which explicitly models all
+  main effects and interactions, *exact* Shapley attributions for both local and global
+  explanations can be computed in *quadratic time*. For local, instance-wise explanations,
+  we define a stochastic cooperative game over function components and compute the
+  exact stochastic Shapley value in quadratic time only, capturing both the expected
+  contribution and uncertainty. For global explanations, we introduce a deterministic,
+  variance-based value function and compute exact Shapley values that quantify each
+  feature's contribution to the model's overall sensitivity. Our methods leverage
+  a closed-form (stochastic) Möbius representation of the FANOVA decomposition and
+  introduce recursive algorithms, inspired by Newton's identities, to efficiently
+  compute the mean and variance of Shapley values. Our work enhances the utility of
+  explainable AI, as demonstrated by empirical studies, by providing more scalable,
+  axiomatically sound, and uncertainty-aware explanations for predictions generated
+  by structured probabilistic models.
+author: Mohammadi, Majid and Muandet, Krikamol and Tiddi, Ilaria and Teije, Annette
+  Ten and Chau, Siu Lun
+author_list:
+- family: Mohammadi
+  given: Majid
+- family: Muandet
+  given: Krikamol
+- family: Tiddi
+  given: Ilaria
+- family: Teije
+  given: Annette Ten
+- family: Chau
+  given: Siu Lun
+doc_url: https://arxiv.org/pdf/2508.14499v1
+eprint: 2508.14499v1
+eprintclass: cs.LG
+eprinttype: arxiv
+files: []
+month: 8
+papis_id: b147c442abcf6f07de1064e33e1f2c4f
+ref: mohammadi-arxiv2025b
+time-added: 2026-09-22-16:50:50
+title: Exact Shapley Attributions in Quadratic-time for FANOVA Gaussian Processes
+type: article
+url: http://arxiv.org/abs/2508.14499v1
+year: 2025
