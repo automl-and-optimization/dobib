@@ -1,0 +1,29 @@
+author: Covert, Ian and Kim, Chanwoo and Lee, Su-In and Zou, James and Hashimoto,
+  Tatsunori
+author_list:
+- family: Covert
+  given: Ian
+- family: Kim
+  given: Chanwoo
+- family: Lee
+  given: Su-In
+- family: Zou
+  given: James
+- family: Hashimoto
+  given: Tatsunori
+booktitle: Advances in Neural Information Processing Systems
+doi: 10.52202/079017-0143
+editor: A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J.
+  Tomczak and C. Zhang
+files: []
+pages: 4374--4423
+papis_id: 28dd055a6f811ee8a5c67086b7c07226
+publisher: Curran Associates, Inc.
+ref: covert-neurips2024a
+time-added: 2026-09-22-17:01:42
+title: 'Stochastic Amortization: A Unified Approach to Accelerate Feature and Data
+  Attribution'
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2024/file/084252ec5f05f13bf565843c1873686d-Paper-Conference.pdf
+volume: '37'
+year: '2024'
