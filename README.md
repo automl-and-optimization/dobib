@@ -57,7 +57,9 @@ upstream metadata changes later.
 - `lastname` — first author's last name, lowercase (may be hyphenated, e.g.
   `opsahl-ong`);
 - `venue` — lowercase conference/journal abbreviation (`icml`, `neurips`,
-  `cvpr`, `emnlp`, …);
+  `cvpr`, `emnlp`, …). It may contain digits after its first character, which
+  workshop names often need (`fm4sciencews`, `ai4science`, `ml4h`); it must
+  start with a letter, so that the 4-digit year stays unambiguous;
 - `YYYY` — 4-digit publication year;
 - `x` — a single letter disambiguating same author/venue/year (`…2024a`,
   `…2024b`).

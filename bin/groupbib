@@ -537,8 +537,12 @@ def export() -> None:
 # everything up to the final ``-`` is the (lowercase) last name and the final
 # segment is a lowercase venue abbreviation + a 4-digit year + a single letter.
 # The trailing letter disambiguates same author/venue/year (…2024a, …2024b).
+#
+# The venue may contain digits after its first character -- workshop names
+# routinely do (``fm4science``, ``ai4science``, ``ml4h``). Requiring it to start
+# with a letter is what keeps the trailing 4-digit year unambiguous.
 KEY_SCHEME = "lastname-venueYYYYx  (e.g. he-cvpr2016a, opsahl-ong-emnlp2024a)"
-KEY_RE = re.compile(r"^[a-z]+(?:-[a-z]+)*-[a-z]+[0-9]{4}[a-z]$")
+KEY_RE = re.compile(r"^[a-z]+(?:-[a-z]+)*-[a-z][a-z0-9]*[0-9]{4}[a-z]$")
 
 
 def validate_key(key: str) -> None:
@@ -548,8 +552,9 @@ def validate_key(key: str) -> None:
             f"citation key {key!r} does not match the required scheme\n"
             f"  {KEY_SCHEME}\n"
             f"i.e. a lowercase (optionally hyphenated) last name, then a "
-            f"lowercase venue abbreviation, a 4-digit year, and a single "
-            f"disambiguating letter."
+            f"venue abbreviation (lowercase, may contain digits after the "
+            f"first character), a 4-digit year, and a single disambiguating "
+            f"letter."
         )
 
 
