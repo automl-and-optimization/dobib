@@ -1,0 +1,17 @@
+author: Covert, Ian Connick and Kim, Chanwoo and Lee, Su-In
+author_list:
+- family: Covert
+  given: Ian Connick
+- family: Kim
+  given: Chanwoo
+- family: Lee
+  given: Su-In
+booktitle: 'The Eleventh International Conference on Learning Representations '
+files: []
+papis_id: d4fafe855bbe7f97c2258d5e504678b8
+ref: covert-iclr2023a
+time-added: 2026-09-22-19:52:17
+title: Learning to Estimate Shapley Values with Vision Transformers
+type: inproceedings
+url: https://openreview.net/forum?id=5ktFNz_pJLK
+year: '2023'
