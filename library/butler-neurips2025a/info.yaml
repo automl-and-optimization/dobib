@@ -1,0 +1,31 @@
+author: Butler, Landon and Agarwal, Abhineet and Kang, Justin and Erginbas, Yigit
+  Efe and Yu, Bin and Ramchandran, Kannan
+author_list:
+- family: Butler
+  given: Landon
+- family: Agarwal
+  given: Abhineet
+- family: Kang
+  given: Justin
+- family: Erginbas
+  given: Yigit Efe
+- family: Yu
+  given: Bin
+- family: Ramchandran
+  given: Kannan
+booktitle: Advances in Neural Information Processing Systems
+doi: 10.52202/085713-2426
+editor: D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi
+  and N. Chen
+files: []
+pages: 72306--72340
+papis_id: c430422517bb926504357b036534ebd7
+publisher: Curran Associates, Inc.
+ref: butler-neurips2025a
+time-added: 2026-09-22-17:00:28
+title: 'ProxySPEX: Inference-Efficient Interpretability via Sparse Feature Interactions
+  in LLMs'
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2025/file/68dced1638d71d4d21598f79ae91262e-Paper-Conference.pdf
+volume: 38, Main Conference
+year: '2025'
