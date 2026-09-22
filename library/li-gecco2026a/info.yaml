@@ -94,7 +94,9 @@ citations:
   volume-title: Proceedings of the 31st International Conference on Machine Learning.
     PMLR, 937–945
   year: '2014'
-- doi: 10.1017/9781108348973
+- author: Garnett Roman
+  unstructured: Roman Garnett. 2023. Bayesian Optimization. Cambridge University Press.
+  volume-title: Bayesian Optimization
 - doi: 10.1007/s10994-006-6226-1
 - author: Gonzalez Javier
   unstructured: Javier Gonzalez, Zhenwen Dai, Philipp Hennig, and Neil Lawrence. 2016.
@@ -157,8 +159,24 @@ citations:
   unstructured: Tennison Liu Nicolás Astorga Nabeel Seedat and Mihaela van der Schaar.
     2024. Large Language Models to Enhance Bayesian Optimization. arXiv:2402.03921
     [cs] 10.48550/arXiv.2402.03921
-- doi: 10.1007/978-3-031-30229-9_25
-- doi: 10.1016/j.ejor.2013.10.043
+- author: Long Fu Xing
+  unstructured: 'Fu Xing Long, Diederick Vermetten, Bas van Stein, and Anna V Kononova.
+    2023. BBOB instance analysis: Landscape properties and algorithm performance across
+    problem instances. In International Conference on the Applications of Evolutionary
+    Computation (Part of EvoStar). Springer, 380–395.'
+  volume-title: International Conference on the Applications of Evolutionary Computation
+    (Part of EvoStar). Springer, 380–395
+  year: '2023'
+- article-title: Automatically improving the anytime behaviour of optimisation algorithms
+  author: López-Ibáñez Manuel
+  doi: 10.1016/j.ejor.2013.10.043
+  first-page: '569'
+  journal-title: European Journal of Operational Research
+  unstructured: Manuel López-Ibáñez and Thomas Stützle. 2014. Automatically improving
+    the anytime behaviour of optimisation algorithms. European Journal of Operational
+    Research 235, 3 (2014), 569–582.
+  volume: '235'
+  year: '2014'
 - author: Marmin Sébastien
   unstructured: Sébastien Marmin, Clément Chevalier, and David Ginsbourger. 2015.
     Differentiating the Multipoint Expected Improvement for Optimal Batch Design.
@@ -175,9 +193,29 @@ citations:
     https://proceedings.neurips.cc/paper_files/paper/2022/file/4b7439a4ab0b8e4bcb4e2412c6a10a58-Paper-Conference.pdf'
   volume-title: Advances in Neural Information Processing Systems
   year: '2022'
-- doi: 10.1145/3638530.3664181
+- author: Pluhacek Michal
+  unstructured: Michal Pluhacek, Jozef Kovac, Adam Viktorin, Peter Janku, Tomas Kadavy,
+    and Roman Senkerik. 2024. Using LLM for Automatic Evolvement of Metaheuristics
+    from Swarm Algorithm SOMA. In Proceedings of the Genetic and Evolutionary Computation
+    Conference Companion (Melbourne, VIC, Australia) (GECCO '24 Companion). Association
+    for Computing Machinery, New York, NY, USA, 2018–2022. 10.1145/3638530.3664181
+  volume-title: Proceedings of the Genetic and Evolutionary Computation Conference
+    Companion
+  year: '2024'
 - doi: 10.48550/arXiv.2304.05341
-- doi: 10.1038/s41586-023-06924-6
+- article-title: Mathematical discoveries from program search with large language
+    models
+  author: Romera-Paredes Bernardino
+  doi: 10.1038/s41586-023-06924-6
+  first-page: '468'
+  journal-title: Nature
+  unstructured: Bernardino Romera-Paredes, Mohammadamin Barekatain, Alexander Novikov,
+    Matej Balog, M Pawan Kumar, Emilien Dupont, Francisco JR Ruiz, Jordan S Ellenberg,
+    Pengming Wang, Omar Fawzi, Pushmeet Kohli, and Alhussein Fawzi. 2024. Mathematical
+    discoveries from program search with large language models. Nature 625 (2024),
+    468–475. Issue 7995.
+  volume: '625'
+  year: '2024'
 - doi: 10.1145/3670683
 - author: Paul Schwefel Hans-Paul
   unstructured: 'Hans-Paul Paul Schwefel. 1993. Evolution and Optimum Seeking: The
@@ -209,7 +247,14 @@ citations:
   unstructured: Niki van Stein Diederick Vermetten and Thomas Bäck. 2025. In-the-loop
     HyperParameter Optimization for LLM-Based Automated Design of Heuristics. ACM
     Trans. Evol. Learn. Optim. (2025). Just Accepted. 10.1145/3731567
-- doi: 10.1109/SMC.2017.8122656
+- author: Wang Hao
+  unstructured: Hao Wang, Bas van Stein, Michael Emmerich, and Thomas Back. 2017.
+    A New Acquisition Function for Bayesian Optimization Based on the Moment-Generating
+    Function. In 2017 IEEE International Conference on Systems, Man, and Cybernetics
+    (SMC). 507–512. 10.1109/SMC.2017.8122656
+  volume-title: 2017 IEEE International Conference on Systems, Man, and Cybernetics
+    (SMC). 507–512
+  year: '2017'
 - doi: 10.48550/arXiv.2304.11127
   unstructured: 'Shuhei Watanabe. 2023. Tree-Structured Parzen Estimator: Understanding
     Its Algorithm Components and Their Roles for Better Empirical Performance. arXiv:2304.11127
@@ -222,7 +267,14 @@ citations:
     Nature Switzerland, Cham, 374–390.
   volume-title: Parallel Problem Solving from Nature - PPSN XVIII, Michael Affenzeller,
     Stephan M
-- doi: 10.1145/3676536.3676816
+- author: Yin Yuxuan
+  unstructured: 'Yuxuan Yin, Yu Wang, Boxun Xu, and Peng Li. 2024. ADO-LLM: Analog
+    Design Bayesian Optimization with In-Context Learning of Large Language Models.
+    In Proceedings of the 43rd IEEE/ACM International Conference on Computer-Aided
+    Design. 1–9. arXiv:2406.18770 [cs] 10.1145/3676536.3676816'
+  volume-title: Proceedings of the 43rd IEEE/ACM International Conference on Computer-Aided
+    Design. 1–9. arXiv:2406
+  year: '2024'
 - author: Zhang Rui
   unstructured: Rui Zhang, Fei Liu, Xi Lin, Zhenkun Wang, Zhichao Lu, and Qingfu Zhang.
     2024. Understanding the Importance of Evolutionary Search in Automated Heuristic
@@ -245,13 +297,12 @@ citations:
 doc_url: https://dl.acm.org/doi/pdf/10.1145/3795095.3805059
 doi: 10.1145/3795095.3805059
 files: []
-journal: Proceedings of the Genetic and Evolutionary Computation Conference
 month: 7
 pages: 909--918
-papis_id: b75573a6f9c93e84f13bc65a81c5f33e
+papis_id: d8a2b7892e860320c89764d7aefd97ab
 publisher: ACM
 ref: li-gecco2026a
-time-added: 2026-08-12-10:51:12
+time-added: 2026-09-22-17:21:30
 title: 'LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically
   Generating Bayesian Optimization Algorithms'
 type: inproceedings
