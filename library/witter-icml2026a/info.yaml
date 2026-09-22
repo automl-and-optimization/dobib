@@ -1,0 +1,26 @@
+author: Witter, R. Teal and Parafita, Álvaro and Garriga, Tomas and Muschalik, Maximilian
+  and Fumagalli, Fabian and Brando, Axel and Rosenblatt, Lucas
+author_list:
+- family: Witter
+  given: R. Teal
+- family: Parafita
+  given: Álvaro
+- family: Garriga
+  given: Tomas
+- family: Muschalik
+  given: Maximilian
+- family: Fumagalli
+  given: Fabian
+- family: Brando
+  given: Axel
+- family: Rosenblatt
+  given: Lucas
+booktitle: Forty-third International Conference on Machine Learning
+files: []
+papis_id: c380e7f0e8428bfc34fafc043ac70f6e
+ref: witter-icml2026a
+time-added: 2026-09-22-18:57:48
+title: Exactly Computing do-Shapley Values
+type: inproceedings
+url: https://openreview.net/forum?id=Peim0KY6ty
+year: '2026'
