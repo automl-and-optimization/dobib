@@ -8,8 +8,8 @@ author_list:
   - name: University of Washington, Seattle, WA, USA
   family: Guestrin
   given: Carlos
-booktitle: 'KDD ''16: The 22nd ACM SIGKDD International Conference on Knowledge Discovery
-  and Data Mining'
+booktitle: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining
 citations:
 - unstructured: 'R. Bekkerman. The present and the future of the kdd cup competition:
     an outsider''s perspective.'
@@ -82,9 +82,9 @@ citations:
   year: '2014'
 doc_url: https://dl.acm.org/doi/pdf/10.1145/2939672.2939785
 doi: 10.1145/2939672.2939785
+eventtitle: 'KDD ''16: The 22nd ACM SIGKDD International Conference on Knowledge Discovery
+  and Data Mining'
 files: []
-journal: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge
-  Discovery and Data Mining
 month: 8
 pages: 785--794
 papis_id: 63dabdc705bc9ef753b801909d349f3d
