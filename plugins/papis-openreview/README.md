@@ -49,6 +49,14 @@ account is enough; no special permissions are needed to read published notes.
 Without them the downloader stops with a clear message instead of failing on a
 challenge error.
 
+The login token is cached in `$XDG_CACHE_HOME/papis-openreview/token`
+(`~/.cache/papis-openreview/token` by default), mode `600`, and re-used until
+it expires. This is what keeps a session of several `groupbib add` runs to a
+single sign-in: OpenReview allows only about three sign-ins per half-minute —
+counted across both API generations, which share one `/login` endpoint —
+whereas ordinary reads are not limited that tightly. Delete the file to force a
+fresh sign-in.
+
 ## Use
 
 ```sh
@@ -61,6 +69,9 @@ bin/groupbib add witter-tmlr2025a https://openreview.net/forum?id=StSMBSZqxx
 
 - **Unpublished submissions often have no `_bibtex` field.** Rejected or
   still-under-review papers may carry none; cite the arXiv version instead.
+- **A throttled lookup is not a missing paper.** If OpenReview rate-limits a
+  request, the downloader says so explicitly rather than reporting the note as
+  not found — the API it was cut off from is the one that would have known.
 - **For accepted ICLR papers, prefer `proceedings.iclr.cc`**, which
   `papis-proceedings-cc` handles. The proceedings record has editors and pages;
   the OpenReview one does not.

@@ -483,6 +483,35 @@ def detect(identifier: str):
 # ignoring the generation date.
 _HEADER_RE = re.compile(r"\A@comment\{Generated .*?\}\n\n", re.DOTALL)
 
+# Start of a BibTeX entry in the exported body, used to count what came out.
+_ENTRY_RE = re.compile(r"^@[A-Za-z]+\{([^,]*),", re.MULTILINE)
+
+
+def library_refs() -> set:
+    """Citation keys as recorded on disk, read without going through Papis.
+
+    :func:`entries` and ``papis export`` both read the library through Papis,
+    which *skips* a document whose ``info.yaml`` it cannot parse -- it logs an
+    error and carries on. That makes both of them agree on a number that is
+    quietly too small, so neither can be used to check the other. Reading the
+    directory directly gives an independent count.
+    """
+    refs = set()
+    for name in os.listdir(LIBRARY):
+        path = os.path.join(LIBRARY, name, INFO_NAME)
+        if not os.path.isfile(path):
+            continue
+        # Deliberately not a YAML parse: a file too broken to parse is exactly
+        # the case this guards against, and `ref:` is a top-level scalar.
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            for line in fh:
+                if line.startswith("ref:"):
+                    refs.add(line.split(":", 1)[1].strip())
+                    break
+            else:
+                refs.add(f"<no ref in {name}/>")
+    return refs
+
 
 def export() -> None:
     """Regenerate references.bib from the Papis library, with a header banner."""
@@ -504,7 +533,25 @@ def export() -> None:
     else:
         body = ""
 
-    count = len(entries())
+    # Refuse to write a bibliography that lost entries. Papis skips a document
+    # whose info.yaml it cannot read -- it logs an error to stderr and exits 0 --
+    # so without this check a single malformed file silently drops a reference
+    # from references.bib, and every \cite of it breaks in every paper.
+    on_disk = library_refs()
+    exported = set(_ENTRY_RE.findall(body))
+    missing = on_disk - exported
+    if missing:
+        raise GroupbibError(
+            f"refusing to write {BIB_REL}: {len(missing)} entr"
+            f"{'y' if len(missing) == 1 else 'ies'} in {LIBRARY_REL}/ did not "
+            f"make it into the export:\n  "
+            + "\n  ".join(sorted(missing))
+            + "\nPapis skips a document it cannot parse, so this usually means "
+            "a malformed info.yaml. Re-run and read the [ERROR] lines above, "
+            "or fix/re-fetch that entry. Nothing was written."
+        )
+
+    count = len(exported)
 
     # If the bibliography itself is unchanged, leave the file alone. Rewriting
     # it would only move the banner's date, which dirties the working tree and

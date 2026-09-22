@@ -274,10 +274,15 @@ def _split_authors_name(authors, separator=None):
     author_list = []
     for subauthors in authors:
         sep = separator if separator else guess_authors_separator(subauthors)
+        # `sep` may itself be a regex -- guess_authors_separator returns
+        # r",\s*(?:and)?" for "Name, and Name" lists -- so it must be
+        # interpolated raw, exactly as upstream does. Only a bare alphabetic
+        # separator gets the tightened `\s+`; a punctuation one legitimately
+        # has no space before it and keeps upstream's `\s*`.
         lead = r"\s+" if str(sep).isalpha() else r"\s*"
         author_list.extend([
             split_author_name(author)
-            for author in re.split(fr"{lead}{re.escape(str(sep))}\s+", subauthors)
+            for author in re.split(fr"{lead}{sep}\s+", subauthors)
         ])
 
     return author_list
