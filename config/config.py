@@ -232,3 +232,47 @@ def _patched_crossref_data_to_papis_data(data):
 
 
 papis.crossref.crossref_data_to_papis_data = _patched_crossref_data_to_papis_data
+
+
+# --------------------------------------------------------------------------- #
+# Fix author splitting on the word "and" inside a name.
+#
+# papis.document.split_authors_name splits an author string with
+#
+#     re.split(fr"\s*{sep}\s+", subauthors)
+#
+# and BibTeX passes sep="and". The leading `\s*` matches the EMPTY string, so
+# the separator also matches the "and" inside a name: "Bertrand Thirion"
+# becomes "Bertr" and "Thirion". Every BibTeX-sourced import is affected
+# (PMLR, the .cc proceedings sites, JMLR) -- scikit-learn's author list is a
+# real example.
+#
+# An alphabetic separator must be a whole word, so require whitespace on both
+# sides of it. Punctuation separators (",", ";") keep the original pattern:
+# there is legitimately no space before a comma.
+# --------------------------------------------------------------------------- #
+import papis.document   # noqa: E402
+
+
+def _split_authors_name(authors, separator=None):
+    from papis.document import guess_authors_separator, split_author_name
+
+    if isinstance(authors, str):
+        authors = [authors]
+
+    author_list = []
+    for subauthors in authors:
+        sep = separator if separator else guess_authors_separator(subauthors)
+        lead = r"\s+" if str(sep).isalpha() else r"\s*"
+        author_list.extend([
+            split_author_name(author)
+            for author in re.split(fr"{lead}{re.escape(str(sep))}\s+", subauthors)
+        ])
+
+    return author_list
+
+
+# papis.bibtex imports this name inside the function that builds its key
+# conversion table, so rebinding it on papis.document is enough -- the lookup
+# happens when that table is first built, which is after this config is loaded.
+papis.document.split_authors_name = _split_authors_name

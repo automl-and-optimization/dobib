@@ -19,6 +19,7 @@ dobib/
 ├── bin/groupbib             # the wrapper script
 ├── config/config.py         # shared Papis configuration (loaded via PAPIS_CONFIG_DIR)
 ├── plugins/papis-pmlr/      # Papis downloader for PMLR (proceedings.mlr.press)
+├── plugins/papis-jmlr/      # Papis downloader for JMLR (jmlr.org)
 └── README.md
 ```
 
@@ -37,6 +38,7 @@ ln -s "$PWD/bin/groupbib" ~/.local/bin/groupbib
 # venue downloaders (register Papis plugins); install the ones you need:
 pip install -e plugins/papis-pmlr             # PMLR: ICML, AISTATS, CoLT, …
 pip install -e plugins/papis-proceedings-cc   # NeurIPS & ICLR .cc proceedings
+pip install -e plugins/papis-jmlr             # JMLR (jmlr.org)
 ```
 
 `bin/groupbib` locates the repository from its own path, so it works from
@@ -115,7 +117,7 @@ broken entry.
 
 ### NeurIPS & ICLR (`.cc` proceedings)
 
-`papers.nips.cc` / `proceedings.neurips.cc` and `proceedings.iclr.cc` also lack
+`{papers,proceedings}.{nips,neurips}.cc` and `proceedings.iclr.cc` also lack
 a built-in Papis downloader but link a ready-made BibTeX file on each page. The
 `plugins/papis-proceedings-cc` downloader reads it. Install it once
 (`pip install -e plugins/papis-proceedings-cc`), then:
@@ -124,6 +126,21 @@ a built-in Papis downloader but link a ready-made BibTeX file on each page. The
 bin/groupbib add feurer-neurips2015a https://papers.nips.cc/paper_files/paper/2015/hash/11d0e6287202fced83f79975ec59a3a6-Abstract.html
 bin/groupbib add agrawal-iclr2026a   https://proceedings.iclr.cc/paper_files/paper/2026/hash/0e9e708b6f48e14fd0ac29e167413f76-Abstract-Conference.html
 ```
+
+### JMLR
+
+JMLR publishes without DOIs, so its papers cannot come in via the Crossref
+route, and Papis ships no downloader for `jmlr.org`. Each paper page links a
+ready-made `@article` BibTeX file (the `bib` button); the `plugins/papis-jmlr`
+downloader follows it. Install it once (`pip install -e plugins/papis-jmlr`),
+then:
+
+```bash
+bin/groupbib add strumbelj-jmlr2010a https://jmlr.org/papers/v11/strumbelj10a.html
+```
+
+TMLR (`jmlr.org/tmlr/`) is a separate site with a different layout and is not
+handled; import those from OpenReview or by DOI.
 
 ### Conference papers imported by DOI
 

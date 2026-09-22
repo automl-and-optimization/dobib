@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "papis-jmlr"
+version = "0.1.0"
+description = "Papis downloader for JMLR (jmlr.org) papers."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["papis"]
+
+# Papis discovers downloaders from installed `papis.downloader` entry points
+# (see papis/plugin.py), so the package must be installed (e.g. `pip install
+# -e .`) for the plugin to take effect.
+[project.entry-points."papis.downloader"]
+jmlr = "papis_jmlr:JMLRDownloader"
+
+[tool.setuptools]
+packages = ["papis_jmlr"]
