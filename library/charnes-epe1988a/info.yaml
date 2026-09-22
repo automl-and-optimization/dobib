@@ -1,0 +1,121 @@
+author: Charnes, A. and Golany, B. and Keane, M. and Rousseau, J.
+author_list:
+- affiliation: []
+  family: Charnes
+  given: A.
+- affiliation: []
+  family: Golany
+  given: B.
+- affiliation: []
+  family: Keane
+  given: M.
+- affiliation: []
+  family: Rousseau
+  given: J.
+citations:
+- author: WF Lucas
+  doi: 10.1090/S0002-9904-1968-11901-9
+  first-page: '237'
+  journal-title: Bull. Am. Math. Soc
+  unstructured: 'Lucas, W. F. (1968), ‘A game with no solution’, Bull. Am. Math. Soc.
+    74: 237–239.'
+  volume: '74'
+  year: '1968'
+- author: D Schmeidler
+  first-page: '23'
+  unstructured: Schmeidler, D. (1963), ‘The nucleolus of a characteristic function
+    game’, Research Memorandum 23, Mathematics Dept., The Hebrew University of Jerusalem.
+  volume-title: ‘The nucleolus of a characteristic function game’, Research Memorandum
+  year: '1963'
+- author: A Charnes
+  unstructured: Charnes, A. and Kortanek, K. O. (1970), ‘On classes of convex and
+    preemptive nuclei for n-person games’, in H. W. Kuhn (ed.), Proc. 1967 Princeton
+    Symposium on Mathematical Programming, Princeton, N.J.
+  volume-title: On classes of convex and preemptive nuclei for n-person games
+  year: '1970'
+- author: A Charnes
+  first-page: '12'
+  unstructured: Charnes, A. and Keane, M. (1969), ‘Convex nuclei and the shapley value’,
+    Center for Cybernetic Studies Research Report 12, The University of Texas, Austin.
+  volume-title: ‘Convex nuclei and the shapley value’, Center for Cybernetic Studies
+    Research Report
+  year: '1969'
+- author: A Charnes
+  unstructured: Charnes, A. and Keane, M. (1970), ‘Convex nuclei and the shapley value
+    (abstract)’, Proc. Int. Congress of Mathematicians, Nice.
+  volume-title: Proc. Int
+  year: '1970'
+- author: L Seiford
+  unstructured: Seiford, L. (1977), ‘Entropic solutions and disruption solutions for
+    n-person games’, Ph.D. Dissertation Department of Mathematics, University of Texas,
+    Austin.
+  volume-title: Ph.D. Dissertation Department of Mathematics, University of Texas,
+    Austin
+  year: '1977'
+- author: D Gately
+  doi: 10.2307/2526099
+  first-page: '195'
+  journal-title: Int. Economic Review
+  unstructured: "Gately, D. (1974), ‘Sharing the gains from regional cooperation:
+    a game theoretic application to planning investment in electric power’, Int. Economic
+    Review\n                  15: 195-208."
+  volume: '15'
+  year: '1974'
+- author: SC Littlechild
+  doi: 10.1007/BF01753316
+  first-page: '151'
+  journal-title: Int. Jour. Game Theory
+  unstructured: "Littlechild, S. C. and Vaidya, K. G. (1976), ‘The propensity to disrupt
+    and the disruption nucleolus of a characteristic function game’, Int. Jour. Game
+    Theory\n                  5: 151–161."
+  volume: '5'
+  year: '1976'
+- author: A Charnes
+  doi: 10.1007/BF01763119
+  first-page: '37'
+  journal-title: Int. Jour. Game Theory
+  unstructured: "Charnes, A., Rousseau, J., and Seiford, L. (1977), ‘Complements,
+    mollifiers and the propensity to disrupt’, Int. Jour. Game Theory\n                  7,
+    37–50."
+  volume: '7'
+  year: '1977'
+- author: H Michener
+  doi: 10.1007/BF01769261
+  first-page: '75'
+  journal-title: Int. Jour. Game Theory
+  unstructured: "Michener, H., Yuen, K., and Sakurai, M. (1981), ‘Experimental games’,
+    Int. Jour. Game Theory\n                  10: 75."
+  volume: '10'
+  year: '1981'
+- author: A Charnes
+  doi: 10.1080/00207728308926504
+  first-page: '877'
+  journal-title: Int. J. Systems Sci
+  unstructured: 'Charnes, A. and Golany, B. (1983), ‘Homocores, cores and operational
+    inefficiency in superadditive n-person games’, Int. J. Systems Sci. 14: 877–893.'
+  volume: '14'
+  year: '1983'
+- author: A Charnes
+  doi: 10.1007/BF01755726
+  first-page: '163'
+  journal-title: Int. Jour. Game Theory
+  unstructured: "Charnes, A., Rousseau, J., and Seiford, L. (1982), ‘Mollifiers for
+    games in normal form and the Harsanyi-Selten valuation function’, Int. Jour. Game
+    Theory\n                  11: 163–174."
+  volume: '11'
+  year: '1982'
+doc_url: http://link.springer.com/content/pdf/10.1007/978-94-009-3677-5_7.pdf
+doi: 10.1007/978-94-009-3677-5_7
+files: []
+isbn: '9789400936775'
+journal: Advanced Studies in Theoretical and Applied Econometrics
+pages: 123--133
+papis_id: 5e54a587d67be478ac84d631bfee064c
+publisher: Springer Netherlands
+ref: charnes-epe1988a
+time-added: 2026-09-22-16:46:30
+title: 'Extremal Principle Solutions of Games in Characteristic Function Form: Core,
+  Chebychev and Shapley Value Generalizations'
+type: inbook
+url: https://doi.org/10.1007/978-94-009-3677-5_7
+year: 1988
