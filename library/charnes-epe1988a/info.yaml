@@ -12,6 +12,7 @@ author_list:
 - affiliation: []
   family: Rousseau
   given: J.
+booktitle: Econometrics of Planning and Efficiency
 citations:
 - author: WF Lucas
   doi: 10.1090/S0002-9904-1968-11901-9
@@ -108,11 +109,11 @@ doc_url: http://link.springer.com/content/pdf/10.1007/978-94-009-3677-5_7.pdf
 doi: 10.1007/978-94-009-3677-5_7
 files: []
 isbn: '9789400936775'
-journal: Advanced Studies in Theoretical and Applied Econometrics
 pages: 123--133
 papis_id: 5e54a587d67be478ac84d631bfee064c
 publisher: Springer Netherlands
 ref: charnes-epe1988a
+series: Advanced Studies in Theoretical and Applied Econometrics
 time-added: 2026-09-22-16:46:30
 title: 'Extremal Principle Solutions of Games in Characteristic Function Form: Core,
   Chebychev and Shapley Value Generalizations'
