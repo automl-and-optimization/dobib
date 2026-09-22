@@ -95,13 +95,20 @@ _CONFERENCE_DOI_RULES = [
 _PROCEEDINGS_SUBTITLE = re.compile(
     r"\b(conference|proceedings|workshop|symposium|congress)\b", re.I)
 
-# Springer chapter DOIs are "<book doi>_<chapter number>".
-_SPRINGER_CHAPTER = re.compile(r"^(10\.\d{4,9}/[^/]*?)_\d+$")
+# Chapter DOIs are "<book doi><sep><chapter number>": Springer uses "_23",
+# De Gruyter "-018". A journal DOI can end the same way (10.1038/s41586-024-6),
+# but this is only ever consulted for records Crossref types as `book-chapter`,
+# and a wrong guess just 404s and changes nothing.
+_CHAPTER_DOI = re.compile(r"^(10\.\d{4,9}/[^/]*?)[-_]\d+$")
+
+# Publishers that number chapters often prefix the number to the title, e.g.
+# De Gruyter's "17. A Value for n-Person Games".
+_CHAPTER_NUMBER_PREFIX = re.compile(r"^\d{1,3}\.\s+(?=\D)")
 
 
 def _crossref_parent_book(doi):
-    """Fetch the Crossref record of the book containing a Springer chapter."""
-    m = _SPRINGER_CHAPTER.match(doi)
+    """Fetch the Crossref record of the book containing a chapter."""
+    m = _CHAPTER_DOI.match(doi)
     if not m:
         return None
     try:
@@ -143,6 +150,10 @@ def _normalise_crossref(data, new_data):
     # Applies to every record, not just conference papers.
     title = _full_title(data)
     if title:
+        if data.get("type") == "book-chapter":
+            # Strip a leading chapter number the publisher folded into the
+            # title; it belongs to the book's numbering, not to the paper.
+            title = _CHAPTER_NUMBER_PREFIX.sub("", title, count=1)
         new_data["title"] = title
 
     booktitle = None
