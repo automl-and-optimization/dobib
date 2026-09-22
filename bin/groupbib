@@ -394,6 +394,37 @@ def has_metadata(key: str) -> bool:
     return bool(r.stdout.strip())
 
 
+OVERRIDES_REL = os.path.join("config", "overrides.yaml")
+
+
+def export_overrides() -> dict:
+    """Per-entry corrections applied at export time (see config/overrides.yaml).
+
+    Read here only to check that every correction still names a live entry; the
+    corrections themselves are applied by config/config.py during the export.
+    """
+    path = os.path.join(ROOT, OVERRIDES_REL)
+    if not os.path.isfile(path):
+        return {}
+    # Run it through Papis' interpreter, which is the one that certainly has
+    # PyYAML; groupbib itself only needs the standard library.
+    fd, probe = tempfile.mkstemp(prefix="groupbib-overrides-", suffix=".py")
+    with os.fdopen(fd, "w", encoding="utf-8") as fh:
+        fh.write(
+            "import yaml\n"
+            f"d = yaml.safe_load(open({path!r}, encoding='utf-8')) or {{}}\n"
+            "print('\\n'.join(sorted(d)))\n"
+        )
+    try:
+        r = papis("exec", probe, check=False, capture=True, quiet=True)
+    finally:
+        os.remove(probe)
+    if r.returncode != 0:
+        raise GroupbibError(
+            f"could not read {OVERRIDES_REL}:\n{(r.stderr or '').strip()}")
+    return {line.strip(): None for line in r.stdout.splitlines() if line.strip()}
+
+
 def validate(entries_list) -> None:
     """Fail on duplicate citation keys, missing keys, or duplicate DOIs."""
     problems = []
@@ -414,6 +445,14 @@ def validate(entries_list) -> None:
         problems.append(
             f"citation key(s) do not match the scheme {KEY_SCHEME}: "
             + ", ".join(repr(r) for r in off_scheme)
+        )
+
+    stale = sorted(set(export_overrides()) - {r for r in by_ref if r})
+    if stale:
+        problems.append(
+            "config/overrides.yaml corrects citation key(s) that are not in "
+            "the library: " + ", ".join(repr(r) for r in stale)
+            + " (remove them, or fix the key)"
         )
 
     by_doi = {}

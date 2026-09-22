@@ -268,6 +268,39 @@ bin/groupbib export           # regenerate references.bib only
 bin/groupbib export --commit  # ...and commit + push it
 ```
 
+## Correcting upstream metadata
+
+`groupbib update` is a clean re-fetch, so hand-editing `library/<key>/info.yaml`
+does not survive it. That is deliberate — it is what stops an entry drifting
+silently from its source — but publishers do deposit metadata that is wrong or
+incomplete. JSTOR registered Harsanyi (1963) with only its first page, for
+instance, so Crossref reports `pages = 194` where the article runs 194–220.
+
+Put such corrections in **`config/overrides.yaml`**. They are applied when
+`references.bib` is generated, to the exported entry only, so `update` cannot
+revert them and the library stays a faithful copy of the deposit:
+
+```yaml
+harsanyi-ier1963a:
+  # Crossref has only the first page for 10.2307/2525487; JSTOR registered it
+  # that way. Real extent: International Economic Review 4(2), 1963, 194-220.
+  pages: 194--220
+```
+
+A field set to `null` is dropped from the exported entry instead. Always record
+*why*, with a source — these override real publisher metadata, and the next
+person needs to judge whether the reason still holds.
+
+`groupbib check` fails on an override naming a citation key that is not in the
+library, so a correction left behind by a deleted or renamed entry cannot sit
+there unnoticed.
+
+Separately, invisible characters that publishers deposit — non-breaking and
+zero-width spaces, soft hyphens — are stripped from the generated BibTeX
+automatically. Springer's record for `rundel-xai2024a` contains a literal
+U+00A0, which is invisible in the source and aborts the LaTeX run under older
+`inputenc` setups.
+
 ## Rules of the road
 
 - **Humans edit only the metadata.** `references.bib` is a build artifact.

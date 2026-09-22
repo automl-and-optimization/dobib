@@ -1,0 +1,28 @@
+# Per-entry corrections applied when references.bib is generated.
+#
+# WHY THIS EXISTS
+# ---------------
+# library/<key>/info.yaml is a faithful copy of what the publisher deposited,
+# and `groupbib update` is a clean re-fetch that discards any hand-edit. That is
+# deliberate -- it is what stops an entry silently drifting from its source --
+# but it leaves no way to correct upstream data that is simply wrong or
+# incomplete. Corrections listed here are applied at export time instead, to the
+# BibTeX only, so `update` cannot revert them.
+#
+# FORMAT
+# ------
+#   <citation key>:
+#     <bibtex field>: <value>     # set or replace a field
+#     <bibtex field>: null        # drop a field from the exported entry
+#
+# Always say why, with a source. These override real publisher metadata, so the
+# next person needs to see the reasoning to judge whether it still holds.
+#
+# `groupbib check` fails on an override whose citation key is not in the
+# library, so a stale entry here cannot sit unnoticed.
+
+harsanyi-ier1963a:
+  # Crossref has only the first page for this DOI (10.2307/2525487); JSTOR
+  # registered it that way, as it did for many pre-digital articles. The real
+  # extent is International Economic Review 4(2), May 1963, pp. 194-220.
+  pages: 194--220

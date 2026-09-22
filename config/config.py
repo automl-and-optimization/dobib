@@ -122,6 +122,34 @@ def _crossref_parent_book(doi):
     return data if isinstance(data, dict) else None
 
 
+# Characters publishers deposit that have no place in a BibTeX field. A literal
+# U+00A0 in a title (Springer deposits one in "Interpretable Machine Learning
+# for<NBSP>TabPFN") is invisible in the source and, with an older `inputenc`
+# setup, aborts the LaTeX run with "Unicode character not set up for use with
+# LaTeX". The zero-width ones are simply invisible damage.
+#
+# Cleaned when the BibTeX is written, not on import: info.yaml stays a faithful
+# copy of the deposit, and entries already in the library are fixed without
+# having to re-fetch them.
+_INVISIBLE_CHARS = {
+    " ": " ",   # no-break space
+    " ": " ",   # narrow no-break space
+    " ": " ",   # thin space
+    "​": "",    # zero-width space
+    "﻿": "",    # byte-order mark
+    "­": "",    # soft hyphen
+}
+
+
+def _clean_text(value):
+    """Replace invisible or non-breaking whitespace in a string value."""
+    if not isinstance(value, str):
+        return value
+    for bad, good in _INVISIBLE_CHARS.items():
+        value = value.replace(bad, good)
+    return value
+
+
 def _full_title(data):
     """Reassemble a title that Crossref split across `title` and `subtitle`.
 
@@ -363,13 +391,73 @@ import papis.exporters.bibtex   # noqa: E402
 _to_bibtex = papis.exporters.bibtex.to_bibtex
 
 
-def _patched_to_bibtex(*args, **kwargs):
+# --------------------------------------------------------------------------- #
+# Per-entry corrections, applied when the BibTeX is generated.
+#
+# `groupbib update` is a clean re-fetch, so a hand-edit to info.yaml does not
+# survive it -- which is what keeps an entry honest about its source, but also
+# leaves no way to correct upstream metadata that is wrong or incomplete (a
+# first-page-only JSTOR deposit, say). config/overrides.yaml holds those
+# corrections and they are applied here, to the exported entry only. The
+# library itself stays a faithful copy of what the publisher deposited.
+#
+# `groupbib check` fails on an override naming a key that is not in the
+# library, so a stale correction cannot sit here unnoticed.
+# --------------------------------------------------------------------------- #
+OVERRIDES_FILE = os.path.join(_cfg, "overrides.yaml") if _cfg else None
+
+
+def load_overrides():
+    """Read config/overrides.yaml as {citation key: {field: value}}."""
+    if not (OVERRIDES_FILE and os.path.isfile(OVERRIDES_FILE)):
+        return {}
+
+    import yaml
+    with open(OVERRIDES_FILE, encoding="utf-8") as fh:
+        data = yaml.safe_load(fh) or {}
+    if not isinstance(data, dict):
+        raise ValueError(
+            f"{OVERRIDES_FILE}: expected a mapping of citation key -> fields.")
+    for ref, fields in data.items():
+        if not isinstance(fields, dict):
+            raise ValueError(
+                f"{OVERRIDES_FILE}: entry {ref!r} must be a mapping of "
+                f"BibTeX field -> value.")
+    return data
+
+
+_OVERRIDES = load_overrides()
+
+
+def _overrides_for(ref):
+    return _OVERRIDES.get(ref) or {}
+
+
+def _patched_to_bibtex(document, *args, **kwargs):
     import papis.bibtex
     if "howpublished" not in papis.bibtex.bibtex_verbatim_fields:
         papis.bibtex.bibtex_verbatim_fields = (
             papis.bibtex.bibtex_verbatim_fields | frozenset({"howpublished"})
         )
-    return _to_bibtex(*args, **kwargs)
+
+    overrides = _overrides_for(document.get("ref"))
+    if not overrides:
+        return _clean_text(_to_bibtex(document, *args, **kwargs))
+
+    # Apply to the in-memory document only, then put it back: the library on
+    # disk must stay a faithful copy of what the publisher deposited.
+    saved = {key: document[key] for key in overrides if key in document}
+    try:
+        for key, value in overrides.items():
+            if value is None:
+                document.pop(key, None)
+            else:
+                document[key] = value
+        return _clean_text(_to_bibtex(document, *args, **kwargs))
+    finally:
+        for key in overrides:
+            document.pop(key, None)
+        document.update(saved)
 
 
 papis.exporters.bibtex.to_bibtex = _patched_to_bibtex
