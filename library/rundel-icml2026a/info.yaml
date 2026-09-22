@@ -1,0 +1,22 @@
+author: Rundel, David and Fumagalli, Fabian and Muschalik, Maximilian and Bischl,
+  Bernd and Feurer, Matthias
+author_list:
+- family: Rundel
+  given: David
+- family: Fumagalli
+  given: Fabian
+- family: Muschalik
+  given: Maximilian
+- family: Bischl
+  given: Bernd
+- family: Feurer
+  given: Matthias
+booktitle: Forty-third International Conference on Machine Learning
+files: []
+papis_id: a2e74855ed2eb79c643f600da5199c3c
+ref: rundel-icml2026a
+time-added: 2026-09-22-19:52:39
+title: '\$\texttt\ShaplEIG\\$: Bayesian Experimental Design for Shapley Value Estimation'
+type: inproceedings
+url: https://openreview.net/forum?id=ub9PwBtHqD
+year: '2026'
