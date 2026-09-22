@@ -1,0 +1,41 @@
+abstract: <jats:p>In recent years, game-theoretic Shapley values have gained increasing
+  attention with respect to local model explanation by feature attributions. While
+  the approach using Shapley values is model-independent, their (exact) computation
+  is usually intractable, so efficient model-specific algorithms have been devised
+  including approaches for decision trees or their ensembles in general. Our work
+  goes further in this direction by extending the interventional TreeSHAP algorithm
+  to piecewise linear regression trees, which gained more attention in the past few
+  years. To this end, we introduce a decomposition of the contribution function based
+  on decision paths, which allows a more comprehensible formulation of SHAP algorithms
+  for tree-based models. Our algorithm can also be readily applied to computing SHAP
+  interaction values of these models. In particular, as the main contribution of this
+  paper, we provide a more efficient approach of interventional SHAP for tree-based
+  models by precomputing statistics of the background data based on the tree structure.</jats:p>
+author: Zern, Artjom and Broelemann, Klaus and Kasneci, Gjergji
+author_list:
+- affiliation: []
+  family: Zern
+  given: Artjom
+- affiliation: []
+  family: Broelemann
+  given: Klaus
+- affiliation: []
+  family: Kasneci
+  given: Gjergji
+doc_url: https://ojs.aaai.org/index.php/AAAI/article/download/26322/26094
+doi: 10.1609/aaai.v37i9.26322
+files: []
+issue: '9'
+journal: Proceedings of the AAAI Conference on Artificial Intelligence
+month: 6
+pages: 11164--11173
+papis_id: 830569f62036614f97e7dbf16ec4e50f
+publisher: Association for the Advancement of Artificial Intelligence (AAAI)
+ref: zern-aaai2023a
+time-added: 2026-09-22-16:56:37
+title: Interventional SHAP Values and Interaction Values for Piecewise Linear Regression
+  Trees
+type: article
+url: https://doi.org/10.1609/aaai.v37i9.26322
+volume: '37'
+year: 2023
