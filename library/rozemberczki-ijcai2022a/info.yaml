@@ -37,9 +37,11 @@ author_list:
   - name: The University of Edinburgh
   family: Sarkar
   given: Rik
-booktitle: Thirty-First International Joint Conference on Artificial Intelligence
-  {IJCAI-22}
+booktitle: Proceedings of the Thirty-First International Joint Conference on Artificial
+  Intelligence
 doi: 10.24963/ijcai.2022/778
+eventtitle: Thirty-First International Joint Conference on Artificial Intelligence
+  {IJCAI-22}
 files: []
 month: 7
 pages: 5572--5579
