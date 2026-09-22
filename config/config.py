@@ -471,47 +471,85 @@ def _fold_eprint_into_journal(document):
     return {"journal": label, **{field: None for field in _EPRINT_FIELDS}}
 
 
+def _decode_html_entities(document):
+    """Undo HTML escaping that publishers leave in their Crossref deposit.
+
+    Elsevier registers "Computers &amp; Operations Research" as the container
+    title, ampersand and all. Papis stores it verbatim and the exporter then
+    escapes only the ampersand, so the entry reaches LaTeX as
+    "Computers \\&amp; Operations Research" and prints the "amp;".
+
+    This is decoding, not correcting, so it is applied to every entry and the
+    result still goes through the exporter's normal LaTeX escaping -- the bare
+    "&" it yields must still become "\\&".
+    """
+    import html
+
+    fixed = {}
+    for key, value in document.items():
+        if isinstance(value, str) and "&" in value:
+            decoded = html.unescape(value)
+            if decoded != value:
+                fixed[key] = decoded
+    return fixed
+
+
 def _patched_to_bibtex(document, *args, **kwargs):
     import papis.bibtex
-    if "howpublished" not in papis.bibtex.bibtex_verbatim_fields:
-        papis.bibtex.bibtex_verbatim_fields = (
-            papis.bibtex.bibtex_verbatim_fields | frozenset({"howpublished"})
-        )
 
-    overrides = dict(_overrides_for(document.get("ref")))
+    verbatim = papis.bibtex.bibtex_verbatim_fields
+    if "howpublished" not in verbatim:
+        verbatim = verbatim | frozenset({"howpublished"})
+        papis.bibtex.bibtex_verbatim_fields = verbatim
+
+    # Hand-written corrections from config/overrides.yaml.
+    manual = dict(_overrides_for(document.get("ref")))
+    # Corrections this config derives on its own. An explicit override wins.
+    automatic = _decode_html_entities(document)
     if BIBTEX_FLAVOUR == "plain":
-        # An explicit override still wins over the flavour's own rewriting.
         for field, value in _fold_eprint_into_journal(document).items():
-            overrides.setdefault(field, value)
+            automatic.setdefault(field, value)
+    for field in manual:
+        automatic.pop(field, None)
 
-    if not overrides:
+    changes = {**automatic, **manual}
+    if not changes:
         return _clean_text(_to_bibtex(document, *args, **kwargs))
 
     # Some exported fields are regenerated from a structured source rather than
     # read straight off the document: the exporter rebuilds `author` from
     # `author_list` whenever that is present, which would silently ignore an
-    # `author` override. Drop the source so the override is what gets written.
+    # `author` correction. Drop the source so the correction is what gets
+    # written.
     shadowed = {"author": "author_list"}
     drop = {source for field, source in shadowed.items()
-            if field in overrides and source in document}
+            if field in changes and source in document}
+
+    # A hand-written override is authored LaTeX -- someone typed exactly what
+    # they want to see -- so it is exported verbatim. Corrections derived here
+    # are plain text and go through the usual escaping.
+    authored = frozenset(k for k, v in manual.items() if v is not None)
 
     # Apply to the in-memory document only, then put it back: the library on
     # disk must stay a faithful copy of what the publisher deposited.
-    # NOTE: `{*overrides}`, not `set(overrides)` -- Papis execs this file in
+    # NOTE: `{*changes}`, not `set(changes)` -- Papis execs this file in
     # papis.config's own namespace, where `set` is its config-setter function
     # and shadows the builtin. `set` is the only builtin it shadows.
-    touched = {*overrides} | drop
+    touched = {*changes} | drop
     saved = {key: document[key] for key in touched if key in document}
     try:
+        if authored:
+            papis.bibtex.bibtex_verbatim_fields = verbatim | authored
         for key in drop:
             document.pop(key, None)
-        for key, value in overrides.items():
+        for key, value in changes.items():
             if value is None:
                 document.pop(key, None)
             else:
                 document[key] = value
         return _clean_text(_to_bibtex(document, *args, **kwargs))
     finally:
+        papis.bibtex.bibtex_verbatim_fields = verbatim
         for key in touched:
             document.pop(key, None)
         document.update(saved)

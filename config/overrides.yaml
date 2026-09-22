@@ -18,6 +18,11 @@
 # Always say why, with a source. These override real publisher metadata, so the
 # next person needs to see the reasoning to judge whether it still holds.
 #
+# Values here are written into the BibTeX VERBATIM -- you are authoring LaTeX,
+# so type exactly what should appear. That is what lets a value contain markup
+# such as \texttt{...}; it also means a non-ASCII character has to be written
+# the LaTeX way ({\"a}, not ä).
+#
 # `groupbib check` fails on an override whose citation key is not in the
 # library, so a stale entry here cannot sit unnoticed.
 
@@ -32,3 +37,13 @@ yu-neurips2022a:
   author: "Yu, Peng and Bifet, Albert and Read, Jesse and Xu, Chao"
   # same here
   title: "Linear TreeShap"
+
+rundel-icml2026a:
+  # The authors styled the title as "$\texttt{ShaplEIG}$: ..." on OpenReview.
+  # Papis runs every BibTeX title through bibtexparser's latex_to_unicode,
+  # which strips the braces out of a LaTeX command -- \texttt{ShaplEIG} becomes
+  # \textttShaplEIG -- and the export then escapes the wreckage into
+  # "\textbackslash \textdollar ...". The damage is not reversible, so the
+  # title is restored here. arXiv carries it as plain text; the braces keep
+  # styles that lowercase titles from touching the name.
+  title: "{ShaplEIG}: Bayesian Experimental Design for Shapley Value Estimation"
