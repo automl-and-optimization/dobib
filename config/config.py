@@ -433,6 +433,44 @@ def _overrides_for(ref):
     return _OVERRIDES.get(ref) or {}
 
 
+# --------------------------------------------------------------------------- #
+# BibTeX flavour.
+#
+# The default export is BibLaTeX-oriented: an arXiv preprint is an @article
+# carrying `eprint`, `eprinttype` and `eprintclass`, which BibLaTeX renders as
+# "arXiv:2505.16516 [cs.LG]". Plain BibTeX styles -- plainnat, unsrtnat, most
+# venue .bst files -- ignore those fields entirely, so the same entry comes out
+# as a bare author-title-year with no hint that it is a preprint at all.
+#
+# With GROUPBIB_BIBTEX_FLAVOUR=plain the eprint fields are folded into `journal`
+# instead, which every style prints. `bin/groupbib export` writes both files.
+# --------------------------------------------------------------------------- #
+BIBTEX_FLAVOUR = os.environ.get("GROUPBIB_BIBTEX_FLAVOUR", "biblatex")
+
+_EPRINT_FIELDS = ("eprint", "eprinttype", "eprintclass")
+
+
+def _fold_eprint_into_journal(document):
+    """Corrections turning an eprint-bearing entry into a plain-BibTeX one.
+
+    Returns a mapping applied like an override: a value of ``None`` drops the
+    field. Only arXiv eprints are handled; anything else is left alone.
+    """
+    if str(document.get("eprinttype") or "").lower() != "arxiv":
+        return {}
+    eprint = str(document.get("eprint") or "").strip()
+    if not eprint:
+        return {}
+    # An entry that already names a journal is a published paper that merely
+    # also has a preprint; its venue must win.
+    if str(document.get("journal") or "").strip():
+        return {}
+
+    eprintclass = str(document.get("eprintclass") or "").strip()
+    label = f"arXiv:{eprint} [{eprintclass}]" if eprintclass else f"arXiv:{eprint}"
+    return {"journal": label, **{field: None for field in _EPRINT_FIELDS}}
+
+
 def _patched_to_bibtex(document, *args, **kwargs):
     import papis.bibtex
     if "howpublished" not in papis.bibtex.bibtex_verbatim_fields:
@@ -440,7 +478,12 @@ def _patched_to_bibtex(document, *args, **kwargs):
             papis.bibtex.bibtex_verbatim_fields | frozenset({"howpublished"})
         )
 
-    overrides = _overrides_for(document.get("ref"))
+    overrides = dict(_overrides_for(document.get("ref")))
+    if BIBTEX_FLAVOUR == "plain":
+        # An explicit override still wins over the flavour's own rewriting.
+        for field, value in _fold_eprint_into_journal(document).items():
+            overrides.setdefault(field, value)
+
     if not overrides:
         return _clean_text(_to_bibtex(document, *args, **kwargs))
 

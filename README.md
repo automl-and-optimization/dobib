@@ -15,7 +15,8 @@ dobib/
 │   ├── vaswani-neurips2017a/
 │   │   └── info.yaml
 │   └── ...
-├── references.bib           # GENERATED — do not edit by hand
+├── references.bib           # GENERATED — BibLaTeX flavour, do not edit by hand
+├── references-plain.bib     # GENERATED — plain-BibTeX flavour, same library
 ├── bin/groupbib             # the wrapper script
 ├── config/config.py         # shared Papis configuration (loaded via PAPIS_CONFIG_DIR)
 ├── plugins/papis-pmlr/      # Papis downloader for PMLR (proceedings.mlr.press)
@@ -86,9 +87,9 @@ Each `add`/`update` runs the full pipeline:
 
 ```
 git pull --rebase → refresh papis cache → add/update metadata
-  → validate (duplicate keys / DOIs) → export references.bib
-  → show the references.bib diff and ask [y/N]
-  → commit (only library/ + references.bib) → git push
+  → validate (duplicate keys / DOIs) → export both .bib files
+  → show the .bib diffs and ask [y/N]
+  → commit (only library/ + the .bib files) → git push
 ```
 
 Before anything is committed, `groupbib` prints the `references.bib` diff and
@@ -264,7 +265,7 @@ Other commands:
 ```bash
 bin/groupbib list             # show citation keys and DOIs
 bin/groupbib check            # validate without changing anything
-bin/groupbib export           # regenerate references.bib only
+bin/groupbib export           # regenerate both .bib files only
 bin/groupbib export --commit  # ...and commit + push it
 ```
 
@@ -314,16 +315,55 @@ U+00A0, which is invisible in the source and aborts the LaTeX run under older
   **not** merge it by hand. Resolve the `library/*/info.yaml` changes, then
   regenerate: `bin/groupbib export --commit`.
 
+## Two generated files: which one to cite
+
+`groupbib export` writes the same library twice. The entries are identical
+except for arXiv preprints, and both carry every citation key, so `\cite{...}`
+works against either.
+
+| file | for | arXiv preprints |
+| --- | --- | --- |
+| `references.bib` | BibLaTeX (`\usepackage[backend=biber]{biblatex}`) | `eprint`, `eprinttype`, `eprintclass` |
+| `references-plain.bib` | plain BibTeX — `plainnat`, `unsrtnat`, venue `.bst` files | folded into `journal` |
+
+The split exists because plain BibTeX styles ignore the `eprint*` fields
+entirely. A preprint would print as a bare author–title–year with nothing to say
+it is a preprint at all:
+
+```bibtex
+% references.bib — BibLaTeX renders this as "arXiv:2505.16516v3 [cs.LG]"
+@article{mohammadi-arxiv2025a,
+  eprint = {2505.16516v3},
+  eprintclass = {cs.LG},
+  eprinttype = {arxiv},
+  ...
+}
+
+% references-plain.bib — every style prints a journal
+@article{mohammadi-arxiv2025a,
+  journal = {arXiv:2505.16516v3 [cs.LG]},
+  ...
+}
+```
+
+A preprint that has since been published keeps its real venue: the fold only
+applies when the entry has no `journal` of its own.
+
+**Pick one file per paper** and link only that one — mixing both into a single
+project would define every key twice.
+
 ## Using it in Overleaf
 
-Make this repository (or at least `references.bib`) reachable via a raw,
+Make this repository (or at least the `.bib` file you use) reachable via a raw,
 unauthenticated URL — e.g. a **public** GitHub repo:
 
 ```
 https://raw.githubusercontent.com/<org>/dobib/main/references.bib
+https://raw.githubusercontent.com/<org>/dobib/main/references-plain.bib
 ```
 
-In Overleaf: **Add file → From External URL**, paste that URL, and name it
+In Overleaf: **Add file → From External URL**, paste the URL of whichever
+flavour your document class needs (see the table above), and name it
 `references.bib`. After anyone pushes an update, Overleaf users just click
 **Refresh** on the linked file — it is not a live include. The generated file
 carries a `@comment{Generated <date> ...}` banner so a stale copy is obvious.

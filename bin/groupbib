@@ -72,6 +72,21 @@ LIBNAME = "group"
 INFO_NAME = "info.yaml"
 BIB = os.path.join(ROOT, "references.bib")
 BIB_REL = "references.bib"
+# A second rendering of the same library for plain BibTeX styles. They ignore
+# `eprint`/`eprinttype`/`eprintclass`, so an arXiv preprint would otherwise
+# print as a bare author-title-year with no sign that it is a preprint; in this
+# file that information is folded into `journal` instead.
+BIB_PLAIN = os.path.join(ROOT, "references-plain.bib")
+BIB_PLAIN_REL = "references-plain.bib"
+
+# (absolute path, repo-relative path, exporter flavour, banner note)
+BIB_TARGETS = [
+    (BIB, BIB_REL, "biblatex",
+     "Flavour: BibLaTeX (arXiv preprints use eprint/eprinttype)."),
+    (BIB_PLAIN, BIB_PLAIN_REL, "plain",
+     "Flavour: plain BibTeX (arXiv preprints fold eprint into journal)."),
+]
+BIB_RELS = [rel for _, rel, _, _ in BIB_TARGETS]
 LIBRARY_REL = "library"
 
 PAPIS = shutil.which("papis")
@@ -93,7 +108,7 @@ def warn(msg: str) -> None:
     print(f"\033[1;33mwarning:\033[0m {msg}", file=sys.stderr)
 
 
-def run(cmd, *, cwd=ROOT, check=True, capture=False, quiet=False):
+def run(cmd, *, cwd=ROOT, check=True, capture=False, quiet=False, env=None):
     """Run a subprocess rooted at the repository."""
     if not quiet:
         info(" ".join(cmd))
@@ -104,6 +119,7 @@ def run(cmd, *, cwd=ROOT, check=True, capture=False, quiet=False):
         text=True,
         stdout=subprocess.PIPE if capture else None,
         stderr=subprocess.PIPE if capture else None,
+        env={**os.environ, **env} if env else None,
     )
     if check and result.returncode != 0:
         detail = (result.stderr or result.stdout or "").strip()
@@ -114,7 +130,7 @@ def run(cmd, *, cwd=ROOT, check=True, capture=False, quiet=False):
     return result
 
 
-def papis(*args, check=True, capture=False, quiet=False):
+def papis(*args, check=True, capture=False, quiet=False, env=None):
     """Invoke papis against this repository's config and library.
 
     PAPIS_CONFIG_DIR makes Papis load config/config.py, which defines the
@@ -127,7 +143,7 @@ def papis(*args, check=True, capture=False, quiet=False):
         )
     os.environ["PAPIS_CONFIG_DIR"] = CONFIG_DIR
     cmd = [PAPIS, "-l", LIBNAME, *args]
-    return run(cmd, check=check, capture=capture, quiet=quiet)
+    return run(cmd, check=check, capture=capture, quiet=quiet, env=env)
 
 
 # --------------------------------------------------------------------------- #
@@ -169,7 +185,7 @@ def git_push() -> None:
 def commit(message: str) -> None:
     """Stage ONLY library/ and references.bib, verify nothing else sneaks in,
     then commit. Refuses to commit unrelated staged changes."""
-    git("add", "--", LIBRARY_REL, BIB_REL)
+    git("add", "--", LIBRARY_REL, *BIB_RELS)
 
     staged = git(
         "diff", "--cached", "--name-only", capture=True, quiet=True,
@@ -180,11 +196,11 @@ def commit(message: str) -> None:
 
     top = git_toplevel()
     allowed_lib = os.path.join(ROOT, LIBRARY_REL) + os.sep
-    allowed_bib = os.path.join(ROOT, BIB_REL)
+    allowed_bibs = {os.path.join(ROOT, rel) for rel in BIB_RELS}
     unexpected = []
     for name in staged:
         abspath = os.path.normpath(os.path.join(top, name))
-        if abspath == allowed_bib or abspath.startswith(allowed_lib):
+        if abspath in allowed_bibs or abspath.startswith(allowed_lib):
             continue
         unexpected.append(name)
     if unexpected:
@@ -552,9 +568,9 @@ def library_refs() -> set:
     return refs
 
 
-def export() -> None:
-    """Regenerate references.bib from the Papis library, with a header banner."""
-    tmp = BIB + ".tmp"
+def _export_one(path: str, rel: str, flavour: str, note: str) -> None:
+    """Regenerate one bibliography file, with a header banner."""
+    tmp = path + ".tmp"
     if os.path.exists(tmp):
         os.remove(tmp)
 
@@ -563,7 +579,8 @@ def export() -> None:
         # order. Adding/updating one entry then yields a small, localized diff
         # instead of one that depends on Papis' internal document ordering.
         papis("export", "--all", "--sort", "ref",
-              "--format", "bibtex", "--out", tmp)
+              "--format", "bibtex", "--out", tmp,
+              env={"GROUPBIB_BIBTEX_FLAVOUR": flavour})
         body = ""
         if os.path.exists(tmp):
             with open(tmp, encoding="utf-8") as fh:
@@ -575,13 +592,13 @@ def export() -> None:
     # Refuse to write a bibliography that lost entries. Papis skips a document
     # whose info.yaml it cannot read -- it logs an error to stderr and exits 0 --
     # so without this check a single malformed file silently drops a reference
-    # from references.bib, and every \cite of it breaks in every paper.
+    # from the bibliography, and every \cite of it breaks in every paper.
     on_disk = library_refs()
     exported = set(_ENTRY_RE.findall(body))
     missing = on_disk - exported
     if missing:
         raise GroupbibError(
-            f"refusing to write {BIB_REL}: {len(missing)} entr"
+            f"refusing to write {rel}: {len(missing)} entr"
             f"{'y' if len(missing) == 1 else 'ies'} in {LIBRARY_REL}/ did not "
             f"make it into the export:\n  "
             + "\n  ".join(sorted(missing))
@@ -595,23 +612,30 @@ def export() -> None:
     # If the bibliography itself is unchanged, leave the file alone. Rewriting
     # it would only move the banner's date, which dirties the working tree and
     # turns a no-op `groupbib update` into a commit that says nothing.
-    if os.path.exists(BIB):
-        with open(BIB, encoding="utf-8") as fh:
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as fh:
             old = fh.read()
         if _HEADER_RE.sub("", old, count=1) == body:
-            info(f"{BIB_REL} is already up to date ({count} entries).")
+            info(f"{rel} is already up to date ({count} entries).")
             return
 
     stamp = datetime.date.today().isoformat()
     header = (
         f"@comment{{Generated {stamp} by groupbib. DO NOT EDIT MANUALLY.\n"
         f"         Source of truth: library/<key>/info.yaml. "
-        f"Regenerate with `bin/groupbib export`.}}\n\n"
+        f"Regenerate with `bin/groupbib export`.\n"
+        f"         {note}}}\n\n"
     )
-    with open(BIB, "w", encoding="utf-8") as fh:
+    with open(path, "w", encoding="utf-8") as fh:
         fh.write(header)
         fh.write(body)
-    info(f"wrote {BIB_REL} ({count} entries).")
+    info(f"wrote {rel} ({count} entries).")
+
+
+def export() -> None:
+    """Regenerate every bibliography file from the Papis library."""
+    for path, rel, flavour, note in BIB_TARGETS:
+        _export_one(path, rel, flavour, note)
 
 
 # --------------------------------------------------------------------------- #
@@ -649,27 +673,34 @@ def validate_key(key: str) -> None:
 # --------------------------------------------------------------------------- #
 
 def show_bib_diff() -> bool:
-    """Print the pending diff of references.bib (working tree vs last commit).
+    """Print the pending diff of every bibliography file (working tree vs HEAD).
 
-    Returns True if there is anything to review.
+    Returns True if there is anything to review. Both files are shown: they are
+    two renderings of the same library, and a change that looks right in one can
+    look wrong in the other.
     """
-    # --no-ext-diff: ignore any user-configured diff.external (e.g. a global
-    # meld wrapper). The review gate must print a plain text diff to the
-    # terminal, not launch a GUI diff tool per file.
-    changed = git(
-        "diff", "--no-ext-diff", "--quiet", "HEAD", "--", BIB_REL,
-        check=False, quiet=True,
-    ).returncode != 0
-    if changed:
-        info(f"proposed changes to {BIB_REL}:")
-        # --no-pager: never launch a pager (e.g. `less`) for the diff. A pager
-        # would both paginate non-interactively and, worse, swallow the y/N
-        # keystrokes typed for the confirmation prompt below.
-        git("--no-pager", "diff", "--no-ext-diff", "HEAD", "--", BIB_REL,
-            quiet=True)
-    else:
-        info(f"no changes to {BIB_REL} (metadata-only change).")
-    return changed
+    any_changed = False
+    for rel in BIB_RELS:
+        # --no-ext-diff: ignore any user-configured diff.external (e.g. a global
+        # meld wrapper). The review gate must print a plain text diff to the
+        # terminal, not launch a GUI diff tool per file.
+        changed = git(
+            "diff", "--no-ext-diff", "--quiet", "HEAD", "--", rel,
+            check=False, quiet=True,
+        ).returncode != 0
+        any_changed |= changed
+        if changed:
+            info(f"proposed changes to {rel}:")
+            # --no-pager: never launch a pager (e.g. `less`) for the diff. A
+            # pager would both paginate non-interactively and, worse, swallow
+            # the y/N keystrokes typed for the confirmation prompt below.
+            git("--no-pager", "diff", "--no-ext-diff", "HEAD", "--", rel,
+                quiet=True)
+        else:
+            info(f"no changes to {rel}.")
+    if not any_changed:
+        info("(metadata-only change)")
+    return any_changed
 
 
 def pending_changes() -> bool:
@@ -680,7 +711,7 @@ def pending_changes() -> bool:
     paths :func:`commit` stages, so unrelated edits elsewhere in the working
     tree never make this look dirty.
     """
-    r = git("status", "--porcelain", "--", LIBRARY_REL, BIB_REL,
+    r = git("status", "--porcelain", "--", LIBRARY_REL, *BIB_RELS,
             capture=True, quiet=True)
     return bool(r.stdout.strip())
 
@@ -754,7 +785,7 @@ def cmd_add(args) -> None:
     if not confirm(args.yes):
         for d in new_dirs:
             shutil.rmtree(os.path.join(LIBRARY, d), ignore_errors=True)
-        git("checkout", "HEAD", "--", BIB_REL, check=False, quiet=True)
+        git("checkout", "HEAD", "--", *BIB_RELS, check=False, quiet=True)
         refresh_cache()
         info("aborted: nothing committed or pushed.")
         return
@@ -850,7 +881,7 @@ def cmd_update(args) -> None:
                 shutil.rmtree(orig, ignore_errors=True)
             shutil.move(dest, orig)
         shutil.rmtree(backup_root, ignore_errors=True)
-        git("checkout", "HEAD", "--", BIB_REL, check=False, quiet=True)
+        git("checkout", "HEAD", "--", *BIB_RELS, check=False, quiet=True)
         refresh_cache()
         info("aborted: entry restored, nothing committed or pushed.")
         return
