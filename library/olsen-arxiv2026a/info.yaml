@@ -1,0 +1,33 @@
+abstract: Shapley values have become a cornerstone of explainable AI, but they are
+  computationally expensive to use, especially when features are dependent. Evaluating
+  them requires approximating a large number of conditional expectations, either via
+  Monte Carlo integration or regression. Until recently it has not been possible to
+  fully exploit deep learning for the regression approach, because retraining for
+  each conditional expectation takes too long. Tabular foundation models such as TabPFN
+  overcome this computational hurdle by leveraging in-context learning, so each conditional
+  expectation can be approximated without any re-training. In this paper, we compute
+  Shapley values with multiple variants of TabPFN and compare their performance with
+  state-of-the-art methods on both simulated and real datasets. In most cases, TabPFN
+  yields the best performance; where it does not, it is only marginally worse than
+  the best method, at a fraction of the runtime. We discuss further improvements and
+  how tabular foundation models can be better adapted specifically for conditional
+  Shapley value estimation.
+author: Olsen, Lars Henry Berge and Christensen, Dennis
+author_list:
+- family: Olsen
+  given: Lars Henry Berge
+- family: Christensen
+  given: Dennis
+doc_url: https://arxiv.org/pdf/2602.09489v1
+eprint: 2602.09489v1
+eprintclass: cs.AI
+eprinttype: arxiv
+files: []
+month: 2
+papis_id: 4aa01d5ed85a0900b1175e5e88cb3fff
+ref: olsen-arxiv2026a
+time-added: 2026-09-22-16:51:38
+title: Computing Conditional Shapley Values Using Tabular Foundation Models
+type: article
+url: http://arxiv.org/abs/2602.09489v1
+year: 2026
