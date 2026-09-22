@@ -295,6 +295,54 @@ papis.document.split_authors_name = _split_authors_name
 
 
 # --------------------------------------------------------------------------- #
+# Fix names built with a space-terminated LaTeX command.
+#
+# In LaTeX a control word ends at whitespace, and that whitespace is a
+# terminator rather than a space: "\L ukasz" is "Łukasz". bibtexparser's
+# latex_to_unicode converts the command but keeps the space, giving "Ł ukasz",
+# which is then re-escaped on export as "{\L} ukasz" and typeset with a gap in
+# the middle of the name. NeurIPS deposits exactly this for Łukasz Kaiser, and
+# every BibTeX-sourced downloader we use is affected (proceedingscc, pmlr,
+# jmlr, openreview).
+#
+# Rewrite "\L ukasz" to "{\L}ukasz" before the BibTeX is parsed, which is the
+# same character with the terminator made explicit. Only the closed set of
+# commands that produce a single letter is touched, so constructs like
+# "{\em text}" -- where the space really is a space -- are left alone.
+# --------------------------------------------------------------------------- #
+_LATEX_LETTER_COMMANDS = [
+    "AA", "AE", "DH", "DJ", "NG", "OE", "SS", "TH", "L", "O",
+    "aa", "ae", "dh", "dj", "ng", "oe", "ss", "th", "i", "j", "l", "o",
+]
+# Longest first, so "\AA " is not matched as "\A" + "A ".
+_SPACE_TERMINATED_RE = re.compile(
+    r"\\(" + "|".join(sorted(_LATEX_LETTER_COMMANDS, key=len, reverse=True))
+    + r") +(?=[A-Za-z])"
+)
+
+
+def _brace_space_terminated_commands(bibtex):
+    return _SPACE_TERMINATED_RE.sub(r"{\\\1}", bibtex)
+
+
+# Every BibTeX-based downloader reaches Papis' parser through this one method,
+# so it is the single place the raw BibTeX can be normalised. Patching
+# papis.bibtex directly is not possible here -- it reads the configuration
+# while being imported, which deadlocks on a circular import.
+import papis.downloaders   # noqa: E402
+
+_get_bibtex_data = papis.downloaders.Downloader.get_bibtex_data
+
+
+def _patched_get_bibtex_data(self):
+    bibtex = _get_bibtex_data(self)
+    return _brace_space_terminated_commands(bibtex) if bibtex else bibtex
+
+
+papis.downloaders.Downloader.get_bibtex_data = _patched_get_bibtex_data
+
+
+# --------------------------------------------------------------------------- #
 # Let `howpublished` hold a LaTeX command.
 #
 # The BibTeX exporter escapes every field that is not in
