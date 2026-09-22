@@ -1,0 +1,272 @@
+author: Lundberg, Scott M. and Erion, Gabriel and Chen, Hugh and DeGrave, Alex and
+  Prutkin, Jordan M. and Nair, Bala and Katz, Ronit and Himmelfarb, Jonathan and Bansal,
+  Nisha and Lee, Su-In
+author_list:
+- affiliation: []
+  family: Lundberg
+  given: Scott M.
+- affiliation: []
+  family: Erion
+  given: Gabriel
+- affiliation: []
+  family: Chen
+  given: Hugh
+- affiliation: []
+  family: DeGrave
+  given: Alex
+- affiliation: []
+  family: Prutkin
+  given: Jordan M.
+- affiliation: []
+  family: Nair
+  given: Bala
+- affiliation: []
+  family: Katz
+  given: Ronit
+- affiliation: []
+  family: Himmelfarb
+  given: Jonathan
+- affiliation: []
+  family: Bansal
+  given: Nisha
+- affiliation: []
+  family: Lee
+  given: Su-In
+citations:
+- unstructured: The state of data science & maching learning. Kaggle https://www.kaggle.com/surveys/2017
+    (2017).
+- doi: 10.1007/978-0-387-21606-5_1
+  unstructured: Friedman, J., Hastie, T. & Tibshirani, R. The Elements of Statistical
+    Learning Vol. 1 (Springer Series in Statistics, Springer, 2001).
+- unstructured: Lundberg, S. M. & Lee, S.-I. A unified approach to interpreting model
+    predictions. Adv. Neural Inf. Process. Syst. 30, 4768–4777 (2017).
+- unstructured: Saabas, A. treeinterpreter python package. GitHub https://github.com/andosa/treeinterpreter
+    (2019).
+- doi: 10.1145/2939672.2939778
+  unstructured: 'Ribeiro, M. T., Singh, S. & Guestrin, C. Why should i trust you?:
+    Explaining the predictions of any classifier. In Proc. 22nd ACM SIGKDD International
+    Conference on Knowledge Discovery and Data Mining 1135–1144 (ACM, 2016).'
+- doi: 10.1109/SP.2016.42
+  unstructured: 'Datta, A., Sen, S. & Zick, Y. Algorithmic transparency via quantitative
+    input influence: theory and experiments with learning systems. In Proc. 2016 IEEE
+    Symposium on Security and Privacy (SP), 598–617 (IEEE, 2016).'
+- author: E Štrumbelj
+  doi: 10.1007/s10115-013-0679-x
+  first-page: '647'
+  journal-title: Knowl. Inf. Syst.
+  unstructured: Štrumbelj, E. & Kononenko, I. Explaining prediction models and individual
+    predictions with feature contributions. Knowl. Inf. Syst. 41, 647–665 (2014).
+  volume: '41'
+  year: '2014'
+- author: D Baehrens
+  first-page: '1803'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Baehrens, D. et al. How to explain individual classification decisions.
+    J. Mach. Learn. Res. 11, 1803–1831 (2010).
+  volume: '11'
+  year: '2010'
+- author: LS Shapley
+  first-page: '307'
+  journal-title: Contrib. Theor. Games
+  unstructured: Shapley, L. S. A value for n-person games. Contrib. Theor. Games 2,
+    307–317 (1953).
+  volume: '2'
+  year: '1953'
+- unstructured: Sundararajan, M. & Najmi, A. The many Shapley values for model explanation.
+    Preprint at https://arxiv.org/abs/1908.08474 (2019).
+- unstructured: 'Janzing, D., Minorics, L. & Blöbaum, P. Feature relevance quantification
+    in explainable AI: a causality problem. Preprint at https://arxiv.org/abs/1910.13413
+    (2019).'
+- author: Y Matsui
+  doi: 10.1016/S0304-3975(00)00251-6
+  first-page: '305'
+  journal-title: Theor. Comput. Sci.
+  unstructured: Matsui, Y. & Matsui, T. NP-completeness for calculating power indices
+    of weighted majority games. Theor. Comput. Sci. 263, 305–310 (2001).
+  volume: '263'
+  year: '2001'
+- author: K Fujimoto
+  doi: 10.1016/j.geb.2005.03.002
+  first-page: '72'
+  journal-title: Games Econ. Behav.
+  unstructured: Fujimoto, K., Kojadinovic, I. & Marichal, J.-L. Axiomatic characterizations
+    of probabilistic and cardinal-probabilistic interaction indices. Games Econ. Behav.
+    55, 72–99 (2006).
+  volume: '55'
+  year: '2006'
+- doi: 10.1609/aaai.v32i1.11491
+  unstructured: 'Ribeiro, M. T., Singh, S. & Guestrin, C. Anchors: high-precision
+    model-agnostic explanations. In Proc. AAAI Conference on Artificial Intelligence
+    (2018).'
+- author: EH Shortliffe
+  doi: 10.1001/jama.2018.17163
+  first-page: '2199'
+  journal-title: JAMA
+  unstructured: Shortliffe, E. H. & Sepúlveda, M. J. Clinical decision support in
+    the era of artificial intelligence. JAMA 320, 2199–2200 (2018).
+  volume: '320'
+  year: '2018'
+- author: SM Lundberg
+  doi: 10.1038/s41551-018-0304-0
+  first-page: '749'
+  journal-title: Nat. Biomed. Eng.
+  unstructured: Lundberg, S. M. et al. Explainable machine learning predictions to
+    help anesthesiologists prevent hypoxemia during surgery. Nat. Biomed. Eng. 2,
+    749–760 (2018).
+  volume: '2'
+  year: '2018'
+- author: CS Cox
+  first-page: '1'
+  journal-title: Vital Health Stat.
+  unstructured: Cox, C. S. et al. Plan and operation of the NHANES I Epidemiologic
+    Followup Study, 1992. Vital Health Stat. 35, 1–231 (1997).
+  volume: '35'
+  year: '1997'
+- doi: 10.1145/2939672.2939785
+  unstructured: 'Chen, T. & Guestrin, C. Xgboost: a scalable tree boosting system.
+    In Proc. 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data
+    Mining 785–794 (ACM, 2016).'
+- author: S Haufe
+  doi: 10.1016/j.neuroimage.2013.10.067
+  first-page: '96'
+  journal-title: Neuroimage
+  unstructured: Haufe, S. et al. On the interpretation of weight vectors of linear
+    models in multivariate neuroimaging. Neuroimage 87, 96–110 (2014).
+  volume: '87'
+  year: '2014'
+- unstructured: 'Kim, B. et al. Interpretability beyond feature attribution: quantitative
+    testing with concept activation vectors (TCAV). In International Conference on
+    Machine Learning (ICLR, 2018).'
+- unstructured: Yosinski, J., Clune, J., Nguyen, A., Fuchs, T. & Lipson, H. Understanding
+    neural networks through deep visualization. In ICML Deep Learning Workshop (ICML,
+    2015).
+- doi: 10.1109/CVPR.2017.354
+  unstructured: 'Bau, D., Zhou, B., Khosla, A., Oliva, A. & Torralba, A. Network dissection:
+    quantifying interpretability of deep visual representations. In Proc. IEEE Conference
+    on Computer Vision and Pattern Recognition 6541–6549 (IEEE, 2017).'
+- doi: 10.1109/TEST.2018.8624792
+  unstructured: Leino, K., Sen, S., Datta, A., Fredrikson, M. & Li, L. Influence-directed
+    explanations for deep convolutional networks. In Proc. 2018 IEEE International
+    Test Conference (ITC) 1–8 (IEEE, 2018).
+- author: SR Group
+  doi: 10.1056/NEJMoa1511939
+  first-page: '2103'
+  journal-title: N. Engl. J. Med.
+  unstructured: Group, S. R. A randomized trial of intensive versus standard blood-pressure
+    control. N. Engl. J. Med. 373, 2103–2116 (2015).
+  volume: '373'
+  year: '2015'
+- author: D Mozaffarian
+  first-page: e38
+  journal-title: Circulation
+  unstructured: Mozaffarian, D. et al. Heart disease and stroke statistics-2016 update
+    a report from the American Heart Association. Circulation 133, e38–e48 (2016).
+  volume: '133'
+  year: '2016'
+- author: B Bowe
+  doi: 10.2215/CJN.09710916
+  first-page: '603'
+  journal-title: Clin. J. Am. Soc. Nephrol.
+  unstructured: Bowe, B., Xie, Y., Xian, H., Li, T. & Al-Aly, Z. Association between
+    monocyte count and risk of incident CKD and progression to ESRD. Clin. J. Am.
+    Soc. Nephrol. 12, 603–613 (2017).
+  volume: '12'
+  year: '2017'
+- author: F Fan
+  doi: 10.1186/s12882-017-0608-4
+  journal-title: BMC Nephrol.
+  unstructured: Fan, F., Jia, J., Li, J., Huo, Y. & Zhang, Y. White blood cell count
+    predicts the odds of kidney function decline in a Chinese community-based population.
+    BMC Nephrol. 18, 190 (2017).
+  volume: '18'
+  year: '2017'
+- unstructured: 'Zinkevich, M. Rules of machine learning: best practices for ML engineering
+    (2017).'
+- author: SM van Rooden
+  doi: 10.1002/mds.23116
+  first-page: '969'
+  journal-title: Mov. Disord.
+  unstructured: 'van Rooden, S. M. et al. The identification of Parkinson’s disease
+    subtypes using cluster analysis: a systematic review. Mov. Disord. 25, 969–978
+    (2010).'
+  volume: '25'
+  year: '2010'
+- author: T Sørlie
+  doi: 10.1073/pnas.0932692100
+  first-page: '8418'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Sørlie, T. et al. Repeated observation of breast tumor subtypes in
+    independent gene expression data sets. Proc. Natl Acad. Sci. USA 100, 8418–8423
+    (2003).
+  volume: '100'
+  year: '2003'
+- author: S Lapuschkin
+  doi: 10.1038/s41467-019-08987-4
+  journal-title: Nat. Commun.
+  unstructured: Lapuschkin, S. et al. Unmasking clever hans predictors and assessing
+    what machines really learn. Nat. Commun. 10, 1096 (2019).
+  volume: '10'
+  year: '2019'
+- doi: 10.5962/bhl.title.56164
+  unstructured: 'Pfungst, O. Clever Hans: (the Horse of Mr. Von Osten.) A Contribution
+    to Experimental Animal and Human Psychology (Holt, Rinehart and Winston, 1911).'
+- unstructured: Machine Learning Recommendations for Policymakers (IIF, 2019); https://www.iif.com/Publications/ID/3574/Machine-Learning-Recommendations-for-Policymakers
+- unstructured: Deeks, A. The judicial demand for explainable artificial intelligence.
+    (2019).
+- author: G Plumb
+  first-page: '2520'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  unstructured: Plumb, G., Molitor, D. & Talwalkar, A. S. Model agnostic supervised
+    local explanations. Adv. Neural Inf. Process. Syst. 31, 2520–2529 (2018).
+  volume: '31'
+  year: '2018'
+- author: HP Young
+  doi: 10.1007/BF01769885
+  first-page: '65'
+  journal-title: Int. J. Game Theor.
+  unstructured: Young, H. P. Monotonic solutions of cooperative games. Int. J. Game
+    Theor. 14, 65–72 (1985).
+  volume: '14'
+  year: '1985'
+- unstructured: Ancona, M., Ceolini, E., Oztireli, C. & Gross, M. Towards better understanding
+    of gradient-based attribution methods for deep neural networks. In Proc. 6th International
+    Conference on Learning Representations (ICLR 2018) (2018).
+- unstructured: Hooker, S., Erhan, D., Kindermans, P.-J. & Kim, B. A benchmark for
+    interpretability methods in deep neural networks. In Conference on Neural Information
+    Processing Systems (NIPS, 2019).
+- unstructured: 'Shrikumar, A., Greenside, P., Shcherbina, A. & Kundaje, A. Not just
+    a black box: learning important features through propagating activation differences.
+    Preprint at https://arxiv.org/abs/1605.01713 (2016).'
+- author: KL Lunetta
+  doi: 10.1186/1471-2156-5-32
+  journal-title: BMC Genet.
+  unstructured: 'Lunetta, K. L., Hayward, L. B., Segal, J. & Van Eerdewegh, P. Screening
+    large-scale association study data: exploiting interactions using random forests.
+    BMC Genet. 5, 32 (2004).'
+  volume: '5'
+  year: '2004'
+- author: R Jiang
+  doi: 10.1186/1471-2105-10-S1-S65
+  journal-title: BMC Bioinformatics
+  unstructured: Jiang, R., Tang, W., Wu, X. & Fu, W. A random forest approach to the
+    detection of epistatic interactions in case-control studies. BMC Bioinformatics
+    10, S65 (2009).
+  volume: '10'
+  year: '2009'
+doc_url: https://www.nature.com/articles/s42256-019-0138-9.pdf
+doi: 10.1038/s42256-019-0138-9
+files: []
+issue: '1'
+journal: Nature Machine Intelligence
+language: en
+month: 1
+pages: 56--67
+papis_id: d69c872943cd998ddbde3716f0c18f99
+publisher: Springer Science and Business Media LLC
+ref: lundberg-natmachintell2020a
+time-added: 2026-09-22-16:50:17
+title: From local explanations to global understanding with explainable AI for trees
+type: article
+url: https://doi.org/10.1038/s42256-019-0138-9
+volume: '2'
+year: 2020
