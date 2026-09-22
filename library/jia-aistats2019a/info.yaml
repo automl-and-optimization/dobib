@@ -1,0 +1,52 @@
+abstract: '{\em “How much is my data worth?”} is an increasingly common question posed
+  by organizations and individuals alike. An answer to this question could allow,
+  for instance, fairly distributing profits among multiple data contributors and determining
+  prospective compensation when data breaches happen. In this paper, we study the
+  problem of \emph{data valuation} by utilizing the Shapley value, a popular notion
+  of value which originated in coopoerative game theory. The Shapley value defines
+  a unique payoff scheme that satisfies many desiderata for the notion of data value.
+  However, the Shapley value often requires \emph{exponential} time to compute. To
+  meet this challenge, we propose a repertoire of efficient algorithms for approximating
+  the Shapley value. We also demonstrate the value of each training instance for various
+  benchmark datasets.'
+author: Jia, Ruoxi and Dao, David and Wang, Boxin and Hubis, Frances Ann and Hynes,
+  Nick and Gürel, Nezihe Merve and Li, Bo and Zhang, Ce and Song, Dawn and Spanos,
+  Costas J.
+author_list:
+- family: Jia
+  given: Ruoxi
+- family: Dao
+  given: David
+- family: Wang
+  given: Boxin
+- family: Hubis
+  given: Frances Ann
+- family: Hynes
+  given: Nick
+- family: Gürel
+  given: Nezihe Merve
+- family: Li
+  given: Bo
+- family: Zhang
+  given: Ce
+- family: Song
+  given: Dawn
+- family: Spanos
+  given: Costas J.
+booktitle: Proceedings of the Twenty-Second International Conference on Artificial
+  Intelligence and Statistics
+editor: Chaudhuri, Kamalika and Sugiyama, Masashi
+files: []
+month: 16--18 Apr
+pages: 1167--1176
+papis_id: c0c835431bc8340aa6a455fc8c2f614f
+pdf: http://proceedings.mlr.press/v89/jia19a/jia19a.pdf
+publisher: PMLR
+ref: jia-aistats2019a
+series: Proceedings of Machine Learning Research
+time-added: 2026-09-22-18:03:35
+title: Towards Efficient Data Valuation Based on the Shapley Value
+type: inproceedings
+url: https://proceedings.mlr.press/v89/jia19a.html
+volume: '89'
+year: '2019'
