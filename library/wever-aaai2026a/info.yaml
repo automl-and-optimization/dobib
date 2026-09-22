@@ -27,19 +27,19 @@ author_list:
 - affiliation: []
   family: Lindauer
   given: Marius
+booktitle: Proceedings of the AAAI Conference on Artificial Intelligence
 doc_url: https://ojs.aaai.org/index.php/AAAI/article/download/39898/43859
 doi: 10.1609/aaai.v40i32.39898
 files: []
 issue: '32'
-journal: Proceedings of the AAAI Conference on Artificial Intelligence
 month: 3
 pages: 26867--26875
-papis_id: 97e6ed001a59dc86257ed7fcb803730c
+papis_id: 40e84ff974cd0dbc5b435492133fe2df
 publisher: Association for the Advancement of Artificial Intelligence (AAAI)
 ref: wever-aaai2026a
-time-added: 2026-09-22-16:55:27
+time-added: 2026-09-22-17:20:50
 title: 'HyperSHAP: Shapley Values and Interactions for Explaining Hyperparameter Optimization'
-type: article
+type: inproceedings
 url: https://doi.org/10.1609/aaai.v40i32.39898
 volume: '40'
 year: 2026
