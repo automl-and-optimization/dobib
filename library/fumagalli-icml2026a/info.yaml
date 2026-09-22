@@ -1,0 +1,22 @@
+author: Fumagalli, Fabian and Butler, Landon and Kang, Justin Singh and Ramchandran,
+  Kannan and Witter, R. Teal
+author_list:
+- family: Fumagalli
+  given: Fabian
+- family: Butler
+  given: Landon
+- family: Kang
+  given: Justin Singh
+- family: Ramchandran
+  given: Kannan
+- family: Witter
+  given: R. Teal
+booktitle: Forty-third International Conference on Machine Learning
+files: []
+papis_id: 9594f946da00caa5556b098f601adf14
+ref: fumagalli-icml2026a
+time-added: 2026-09-22-18:54:00
+title: An Odd Estimator for Shapley Values
+type: inproceedings
+url: https://openreview.net/forum?id=xILwgiWAUk
+year: '2026'
