@@ -20,6 +20,7 @@ dobib/
 ├── config/config.py         # shared Papis configuration (loaded via PAPIS_CONFIG_DIR)
 ├── plugins/papis-pmlr/      # Papis downloader for PMLR (proceedings.mlr.press)
 ├── plugins/papis-jmlr/      # Papis downloader for JMLR (jmlr.org)
+├── plugins/papis-openreview/ # Papis downloader for OpenReview (needs login)
 └── README.md
 ```
 
@@ -39,6 +40,7 @@ ln -s "$PWD/bin/groupbib" ~/.local/bin/groupbib
 pip install -e plugins/papis-pmlr             # PMLR: ICML, AISTATS, CoLT, …
 pip install -e plugins/papis-proceedings-cc   # NeurIPS & ICLR .cc proceedings
 pip install -e plugins/papis-jmlr             # JMLR (jmlr.org)
+pip install -e plugins/papis-openreview       # OpenReview (needs an account)
 ```
 
 `bin/groupbib` locates the repository from its own path, so it works from
@@ -143,6 +145,35 @@ bin/groupbib add strumbelj-jmlr2010a https://jmlr.org/papers/v11/strumbelj10a.ht
 
 TMLR (`jmlr.org/tmlr/`) is a separate site with a different layout and is not
 handled; import those from OpenReview or by DOI.
+
+### OpenReview (TMLR, workshop papers, submissions)
+
+OpenReview cannot be scraped: unauthenticated requests to both its pages and its
+API are answered with a browser-verification challenge (`403
+ChallengeRequiredError`). Signing in bypasses it, so `plugins/papis-openreview`
+talks to the official API through the `openreview-py` client and reads the
+note's own `_bibtex` field. Install it once (`pip install -e
+plugins/papis-openreview`) and put your credentials **in your environment, never
+in this repository**:
+
+```bash
+export OPENREVIEW_USERNAME='you@example.org'
+export OPENREVIEW_PASSWORD='...'
+```
+
+`openreview-py` reads those two variables itself; a free account suffices. Then:
+
+```bash
+bin/groupbib add witter-tmlr2025a https://openreview.net/forum?id=StSMBSZqxx
+```
+
+Both API generations are tried (`api2` for venues from 2023 on, `api` for older
+ones), since a forum id is valid on only one. `pdf` and `attachment` URLs carry
+the same id and work too.
+
+For an **accepted ICLR paper, prefer the `proceedings.iclr.cc` URL** — that
+record has editors and pages, which the OpenReview one lacks. Unpublished
+submissions often carry no `_bibtex` at all; cite the arXiv version instead.
 
 ### Citing a web page
 

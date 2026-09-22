@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "papis-openreview"
+version = "0.1.0"
+description = "Papis downloader for OpenReview (openreview.net) papers."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["papis", "openreview-py>=1.40"]
+
+# Papis discovers downloaders from installed `papis.downloader` entry points
+# (see papis/plugin.py), so the package must be installed (e.g. `pip install
+# -e .`) for the plugin to take effect.
+[project.entry-points."papis.downloader"]
+openreview = "papis_openreview:OpenReviewDownloader"
+
+[tool.setuptools]
+packages = ["papis_openreview"]

@@ -326,6 +326,11 @@ _VENUE_PLUGINS = [
     # Keep in sync with _JMLR_URL_RE in plugins/papis-jmlr.
     (re.compile(r"^https?://(?:www\.)?jmlr\.org/papers/", re.I),
      "jmlr", "plugins/papis-jmlr"),
+    # Keep in sync with _OPENREVIEW_URL_RE in plugins/papis-openreview. Needs
+    # OPENREVIEW_USERNAME / OPENREVIEW_PASSWORD in the environment as well.
+    (re.compile(r"^https?://(?:www\.)?openreview\.net/(?:forum|pdf|attachment)\b",
+                re.I),
+     "openreview", "plugins/papis-openreview"),
     # Keep in sync with _HOST_RE in plugins/papis-proceedings-cc. NeurIPS
     # serves the same site under either prefix on either domain.
     (re.compile(r"^https?://(?:(?:papers|proceedings)\.(?:nips|neurips)\.cc"
