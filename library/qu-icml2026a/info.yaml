@@ -1,0 +1,19 @@
+author: QU, Jingang and Holzmüller, David and Varoquaux, Gaël and Morvan, Marine Le
+author_list:
+- family: QU
+  given: Jingang
+- family: Holzmüller
+  given: David
+- family: Varoquaux
+  given: Gaël
+- family: Morvan
+  given: Marine Le
+booktitle: Forty-third International Conference on Machine Learning
+files: []
+papis_id: fed1564a6a8ba02e910ffc7500aec5e8
+ref: qu-icml2026a
+time-added: 2026-09-22-18:54:34
+title: 'TabICLv2: A Better, Faster, Scalable, and Open Tabular Foundation Model'
+type: inproceedings
+url: https://openreview.net/forum?id=SxsyLjIfWB
+year: '2026'
