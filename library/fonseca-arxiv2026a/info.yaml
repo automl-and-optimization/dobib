@@ -1,0 +1,43 @@
+abstract: 'Computing the importance of features in supervised classification tasks
+  is critical for model interpretability. Shapley values are a widely used approach
+  for explaining model predictions, but require direct access to the underlying model,
+  an assumption frequently violated in real-world deployments. We investigate whether
+  meaningful feature attributions can be obtained in a zero-shot setting, using only
+  the input data distribution and no evaluations of the target model. Because multiple
+  models can produce identical predictions yet yield different Shapley decompositions,
+  the mapping from data to attributions is not uniquely identifiable. We therefore
+  target attributions that are "true to the data" rather than "true to the model",
+  learning a posterior mean attribution under a meta-training prior. To this end,
+  we introduce ExplainerPFN, a tabular foundation model built on TabPFN, pretrained
+  on synthetic structural causal datasets supervised with exact or near-exact Shapley
+  values, that predicts feature attributions for unseen tabular datasets without model
+  access, gradients, or example explanations.   Our contributions are fourfold: (1)
+  we show that few-shot surrogate explainers achieve high SHAP fidelity with as few
+  as two reference observations; (2) we propose ExplainerPFN, the first zero-shot
+  method for estimating Shapley-value-style feature attributions without access to
+  the underlying model or reference explanations, providing a principled attribution
+  where no existing explainer can be applied; (3) we release an open-source implementation
+  including the full training pipeline and synthetic data generator; and (4) through
+  extensive experiments on real and synthetic datasets, we show that ExplainerPFN
+  achieves performance competitive with few-shot surrogate explainers that rely on
+  2-10 SHAP examples.'
+author: Fonseca, Joao and Stoyanovich, Julia
+author_list:
+- family: Fonseca
+  given: Joao
+- family: Stoyanovich
+  given: Julia
+doc_url: https://arxiv.org/pdf/2601.23068v2
+eprint: 2601.23068v2
+eprintclass: cs.LG
+eprinttype: arxiv
+files: []
+month: 1
+papis_id: a3db18c11748df51c5207b9ee5c698f2
+ref: fonseca-arxiv2026a
+time-added: 2026-09-22-16:47:41
+title: 'ExplainerPFN: Towards tabular foundation models for model-free zero-shot feature
+  importance estimations'
+type: article
+url: http://arxiv.org/abs/2601.23068v2
+year: 2026
