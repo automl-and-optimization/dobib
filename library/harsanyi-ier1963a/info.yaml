@@ -3,51 +3,18 @@ author_list:
 - affiliation: []
   family: Harsanyi
   given: John C.
-booktitle: Papers in Game Theory
-citations:
-- doi: 10.1073/pnas.38.10.886
-  unstructured: Debreu, G., “A Social Equilibrium Existence Theorem,” Proceedings
-    of the National Academy of Sciences, XXXVIII (August, 1952 ), 886–93.
-- doi: 10.2307/1905748
-  unstructured: 'Harsanyi, John C., “Approaches to the Bargaining Problem before and
-    after the Theory of Games: A Critical Discussion of Zeuthen’s, Hicks’, and Nash’s
-    Theories,” Econometrica, XXIV (April, 1956 ), 144–57.'
-- author: JC Harsanyi
-  first-page: '325'
-  unstructured: 'Harsanyi, John C., “A Bargaining Model for the Cooperative n-Person
-    Game,” in Contributions to the Theory of Games, IV, ed. A. W. Tucker and R. D.
-    Luce ( Princeton: Princeton University Press, 1959 ), 325–55.'
-  volume-title: Contributions to the Theory of Games
-  year: '1959'
-- doi: 10.1090/S0002-9904-1960-10398-9
-  unstructured: Isbell, J. R., “A Modification of Harsanyi’s Bargaining Model,” Bulletin
-    of the American Mathematical Society, LXVI (March, 1960 ), 70–73.
-- unstructured: 'Luce R. D. and H. Raiffa, Games and Decisions (New York: John Wiley
-    and Sons, Inc., 1957 ).'
-- doi: 10.2307/1907266
-  unstructured: Nash, J. F., “The Bargaining Problem,” Econometrica, XVIII (April,
-    1950 ), 155–62.
-- doi: 10.2307/1906951
-  unstructured: Nash, J. F., “Two-person Cooperative Games,” Econometrica, XXI (January,
-    1953 ), 128–40.
-- author: LS Shapley
-  first-page: '307'
-  unstructured: 'Shapley, L. S., “A Value for n-Person Games,” in Contributions to
-    the Theory of Games, II, ed. H. W. Kuhn and A. W. Tucker ( Princeton: Princeton
-    University Press, 1953 ) 307–17.'
-  volume-title: Contributions to the Theory of Games
-  year: '1953'
-doc_url: http://link.springer.com/content/pdf/10.1007/978-94-017-2527-9_3
-doi: 10.1007/978-94-017-2527-9_3
+doi: 10.2307/2525487
 files: []
-isbn: '9789401725279'
-language: en
-pages: 44--70
+issue: '2'
+journal: International Economic Review
+month: 5
+pages: '194'
 papis_id: ffa3f27dd48e1754bba172de182cf023
-publisher: Springer Netherlands
+publisher: JSTOR
 ref: harsanyi-ier1963a
 time-added: 2026-09-22-17:03:21
 title: A Simplified Bargaining Model for the n-Person Cooperative Game
-type: inbook
-url: https://doi.org/10.1007/978-94-017-2527-9_3
-year: 1982
+type: article
+url: https://doi.org/10.2307/2525487
+volume: '4'
+year: 1963
