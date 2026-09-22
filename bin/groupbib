@@ -68,6 +68,8 @@ LIBRARY = os.path.join(ROOT, "library")
 # PAPIS_CONFIG_DIR environment variable and address the library by name.
 CONFIG_DIR = os.path.join(ROOT, "config")
 LIBNAME = "group"
+# Must match `info-name` in config/config.py.
+INFO_NAME = "info.yaml"
 BIB = os.path.join(ROOT, "references.bib")
 BIB_REL = "references.bib"
 LIBRARY_REL = "library"
@@ -253,6 +255,50 @@ def folders_for_ref(key: str):
     return [l.strip() for l in r.stdout.splitlines() if l.strip()]
 
 
+# Bookkeeping fields Papis mints per document. They say nothing about the
+# reference, but `update` re-imports from scratch and so generates fresh ones
+# every run -- which is enough to make info.yaml differ, and thus to turn an
+# update that changed no metadata into a commit that says nothing.
+_IDENTITY_KEYS = ("papis_id", "time-added")
+
+
+def preserve_identity(backups, new_dirs) -> None:
+    """Carry Papis' bookkeeping fields from a replaced entry into its re-fetch.
+
+    ``backups`` is the list of (original path, backup path) pairs made before
+    the re-import; ``new_dirs`` the folder names the re-import created. Only
+    the simple one-folder-in, one-folder-out case is handled -- anything else
+    is left alone rather than guessed at.
+    """
+    if len(backups) != 1 or len(new_dirs) != 1:
+        return
+    old_info = os.path.join(backups[0][1], INFO_NAME)
+    new_info = os.path.join(LIBRARY, next(iter(new_dirs)), INFO_NAME)
+    if not (os.path.exists(old_info) and os.path.exists(new_info)):
+        return
+
+    # These are top-level single-line scalars, so a line-level substitution
+    # keeps this free of a YAML dependency and cannot reformat the rest of the
+    # file the way a parse-and-dump round trip would.
+    with open(old_info, encoding="utf-8") as fh:
+        keep = {
+            k: line for line in fh for k in _IDENTITY_KEYS
+            if line.startswith(f"{k}:")
+        }
+    if not keep:
+        return
+
+    with open(new_info, encoding="utf-8") as fh:
+        lines = fh.readlines()
+    for i, line in enumerate(lines):
+        for k, original in keep.items():
+            if line.startswith(f"{k}:"):
+                lines[i] = original
+                break
+    with open(new_info, "w", encoding="utf-8") as fh:
+        fh.writelines(lines)
+
+
 def _fetch_into_library(key: str, identifier: str):
     """Import ``identifier`` into the library, tagging it with ``ref=key``.
 
@@ -422,6 +468,12 @@ def detect(identifier: str):
 # Export
 # --------------------------------------------------------------------------- #
 
+# The generated banner, up to and including the blank line that separates it
+# from the first entry. Used to compare two references.bib by their *content*,
+# ignoring the generation date.
+_HEADER_RE = re.compile(r"\A@comment\{Generated .*?\}\n\n", re.DOTALL)
+
+
 def export() -> None:
     """Regenerate references.bib from the Papis library, with a header banner."""
     tmp = BIB + ".tmp"
@@ -442,6 +494,18 @@ def export() -> None:
     else:
         body = ""
 
+    count = len(entries())
+
+    # If the bibliography itself is unchanged, leave the file alone. Rewriting
+    # it would only move the banner's date, which dirties the working tree and
+    # turns a no-op `groupbib update` into a commit that says nothing.
+    if os.path.exists(BIB):
+        with open(BIB, encoding="utf-8") as fh:
+            old = fh.read()
+        if _HEADER_RE.sub("", old, count=1) == body:
+            info(f"{BIB_REL} is already up to date ({count} entries).")
+            return
+
     stamp = datetime.date.today().isoformat()
     header = (
         f"@comment{{Generated {stamp} by groupbib. DO NOT EDIT MANUALLY.\n"
@@ -451,7 +515,7 @@ def export() -> None:
     with open(BIB, "w", encoding="utf-8") as fh:
         fh.write(header)
         fh.write(body)
-    info(f"wrote {BIB_REL} ({len(entries())} entries).")
+    info(f"wrote {BIB_REL} ({count} entries).")
 
 
 # --------------------------------------------------------------------------- #
@@ -633,6 +697,7 @@ def cmd_update(args) -> None:
     kept = set(os.listdir(LIBRARY))
     try:
         new_dirs = _fetch_into_library(key, identifier)
+        preserve_identity(backups, new_dirs)
         refresh_cache()
         if not has_metadata(key):
             raise GroupbibError(

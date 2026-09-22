@@ -170,12 +170,21 @@ def _normalise_crossref(data, new_data):
         return new_data
 
     new_data["type"] = "inproceedings"
-    # Papis' `event` conversion may already have supplied a booktitle (IJCAI,
-    # ACM); a rule-supplied one wins, then the container title as a last resort.
+    # Prefer Crossref's `container-title`: that is the title of the proceedings
+    # volume, which is what `booktitle` means. Papis instead fills booktitle
+    # from `event.name`, the name of the *event*, which is a different and
+    # usually worse string -- "KDD '16: The 22nd ACM SIGKDD International
+    # Conference on ..." rather than "Proceedings of the 22nd ACM SIGKDD
+    # International Conference on ...", and for IJCAI one carrying literal
+    # "{IJCAI-22}" braces. IEEE and ACL deposit the same string in both.
+    event_title = new_data.get("booktitle")
+    if not booktitle:
+        booktitle = containers[-1] if containers else event_title
     if booktitle:
         new_data["booktitle"] = booktitle
-    elif not new_data.get("booktitle") and containers:
-        new_data["booktitle"] = containers[-1]
+    # Keep the event name rather than discard it; BibLaTeX has a field for it.
+    if event_title and event_title != new_data.get("booktitle"):
+        new_data["eventtitle"] = event_title
 
     # An @inproceedings has a booktitle, never a journal. Papis fills `journal`
     # from container-title for every record, regardless of type.

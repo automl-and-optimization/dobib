@@ -181,3 +181,5 @@ In Overleaf: **Add file → From External URL**, paste that URL, and name it
 `references.bib`. After anyone pushes an update, Overleaf users just click
 **Refresh** on the linked file — it is not a live include. The generated file
 carries a `@comment{Generated <date> ...}` banner so a stale copy is obvious.
+The date is only bumped when the bibliography itself changes, so it dates the
+content rather than the last time someone happened to run `export`.
