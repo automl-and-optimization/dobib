@@ -1,0 +1,45 @@
+abstract: "<jats:p>Hyperparameter optimization (HPO) is a crucial step in achieving
+  strong predictive performance.\nYet, the impact of individual hyperparameters on
+  model generalization is highly context-dependent, prohibiting a one-size-fits-all
+  solution and requiring opaque HPO methods to find optimal configurations.\nHowever,
+  the black-box nature of most HPO methods undermines user trust and discourages adoption.
+  \nTo address this, we propose a game-theoretic explainability framework for HPO
+  based on Shapley values and interactions.\nOur approach provides an additive decomposition
+  of a performance measure across hyperparameters, enabling local and global explanations
+  of hyperparameters' contributions and their interactions. \nThe framework, named
+  HyperSHAP, offers insights into ablation studies, the tunability of learning algorithms,
+  and optimizer behavior across different hyperparameter spaces.\nWe demonstrate HyperSHAP's
+  capabilities on various HPO benchmarks to analyze the interaction structure of the
+  corresponding HPO problems, demonstrating its broad applicability and actionable
+  insights for improving HPO.</jats:p>"
+author: Wever, Marcel and Muschalik, Maximilian and Fumagalli, Fabian and Lindauer,
+  Marius
+author_list:
+- affiliation: []
+  family: Wever
+  given: Marcel
+- affiliation: []
+  family: Muschalik
+  given: Maximilian
+- affiliation: []
+  family: Fumagalli
+  given: Fabian
+- affiliation: []
+  family: Lindauer
+  given: Marius
+doc_url: https://ojs.aaai.org/index.php/AAAI/article/download/39898/43859
+doi: 10.1609/aaai.v40i32.39898
+files: []
+issue: '32'
+journal: Proceedings of the AAAI Conference on Artificial Intelligence
+month: 3
+pages: 26867--26875
+papis_id: 97e6ed001a59dc86257ed7fcb803730c
+publisher: Association for the Advancement of Artificial Intelligence (AAAI)
+ref: wever-aaai2026a
+time-added: 2026-09-22-16:55:27
+title: 'HyperSHAP: Shapley Values and Interactions for Explaining Hyperparameter Optimization'
+type: article
+url: https://doi.org/10.1609/aaai.v40i32.39898
+volume: '40'
+year: 2026
