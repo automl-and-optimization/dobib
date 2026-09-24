@@ -1,0 +1,40 @@
+abstract: Symbolic equations are at the core of scientific discovery. The task of
+  discovering the underlying equation from a set of input-output pairs is called symbolic
+  regression. Traditionally, symbolic regression methods use hand-designed strategies
+  that do not improve with experience. In this paper, we introduce the first symbolic
+  regression method that leverages large scale pre-training. We procedurally generate
+  an unbounded set of equations, and simultaneously pre-train a Transformer to predict
+  the symbolic equation from a corresponding set of input-output-pairs. At test time,
+  we query the model on a new set of points and use its output to guide the search
+  for the equation. We show empirically that this approach can re-discover a set of
+  well-known physical equations, and that it improves over time with more data and
+  compute.
+author: Biggio, Luca and Bendinelli, Tommaso and Neitz, Alexander and Lucchi, Aurelien
+  and Parascandolo, Giambattista
+author_list:
+- family: Biggio
+  given: Luca
+- family: Bendinelli
+  given: Tommaso
+- family: Neitz
+  given: Alexander
+- family: Lucchi
+  given: Aurelien
+- family: Parascandolo
+  given: Giambattista
+booktitle: Proceedings of the 38th International Conference on Machine Learning
+editor: Meila, Marina and Zhang, Tong
+files: []
+month: 18--24 Jul
+pages: 936--945
+papis_id: 3e30f836cb0d17cddd60050fb0638223
+pdf: http://proceedings.mlr.press/v139/biggio21a/biggio21a.pdf
+publisher: PMLR
+ref: biggio-icml2021a
+series: Proceedings of Machine Learning Research
+time-added: 2026-09-24-19:22:37
+title: Neural Symbolic Regression that scales
+type: inproceedings
+url: https://proceedings.mlr.press/v139/biggio21a.html
+volume: '139'
+year: '2021'
