@@ -1,0 +1,21 @@
+author: Vinyals, Oriol and Fortunato, Meire and Jaitly, Navdeep
+author_list:
+- family: Vinyals
+  given: Oriol
+- family: Fortunato
+  given: Meire
+- family: Jaitly
+  given: Navdeep
+booktitle: Advances in Neural Information Processing Systems
+editor: C. Cortes and N. Lawrence and D. Lee and M. Sugiyama and R. Garnett
+files: []
+pages: ''
+papis_id: 092026ece53f92df1bd6fe7ba1a811c6
+publisher: Curran Associates, Inc.
+ref: vinyals-neurips2015a
+time-added: 2026-09-24-19:32:43
+title: Pointer Networks
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2015/file/29921001f2f04bd3baee84a12e98098f-Paper.pdf
+volume: '28'
+year: '2015'
