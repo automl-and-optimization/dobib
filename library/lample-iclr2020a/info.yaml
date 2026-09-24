@@ -1,0 +1,15 @@
+author: Lample, Guillaume and Charton, François
+author_list:
+- family: Lample
+  given: Guillaume
+- family: Charton
+  given: François
+booktitle: International Conference on Learning Representations
+files: []
+papis_id: c885d684df765a0919f82b9d809d1dc1
+ref: lample-iclr2020a
+time-added: 2026-09-24-19:28:44
+title: Deep Learning For Symbolic Mathematics
+type: inproceedings
+url: https://openreview.net/forum?id=S1eZYeHFDS
+year: '2020'
