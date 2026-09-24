@@ -1,0 +1,17 @@
+author: Kool, Wouter and van Hoof, Herke and Welling, Max
+author_list:
+- family: Kool
+  given: Wouter
+- family: van Hoof
+  given: Herke
+- family: Welling
+  given: Max
+booktitle: International Conference on Learning Representations
+files: []
+papis_id: 9cb609c1408bcd1f18beff7116b92b40
+ref: kool-iclr2019a
+time-added: 2026-09-24-19:37:33
+title: Attention, Learn to Solve Routing Problems!
+type: inproceedings
+url: https://openreview.net/forum?id=ByxBFsRqYm
+year: '2019'
