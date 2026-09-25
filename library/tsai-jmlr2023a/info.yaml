@@ -1,0 +1,20 @@
+author: Tsai, Che-Ping and Yeh, Chih-Kuan and Ravikumar, Pradeep
+author_list:
+- family: Tsai
+  given: Che-Ping
+- family: Yeh
+  given: Chih-Kuan
+- family: Ravikumar
+  given: Pradeep
+files: []
+journal: Journal of Machine Learning Research
+number: '94'
+pages: 1--42
+papis_id: 812c82ca8390a8ff110c8bb86b50da98
+ref: tsai-jmlr2023a
+time-added: 2026-09-25-22:00:57
+title: 'Faith-Shap: The Faithful Shapley Interaction Index'
+type: article
+url: http://jmlr.org/papers/v24/22-0202.html
+volume: '24'
+year: '2023'
