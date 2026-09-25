@@ -1,0 +1,32 @@
+author: Erickson, Nick and Purucker, Lennart and Tschalzev, Andrej and Holzmüller,
+  David and Desai, Prateek and Salinas, David and Hutter, Frank
+author_list:
+- family: Erickson
+  given: Nick
+- family: Purucker
+  given: Lennart
+- family: Tschalzev
+  given: Andrej
+- family: Holzmüller
+  given: David
+- family: Desai
+  given: Prateek
+- family: Salinas
+  given: David
+- family: Hutter
+  given: Frank
+booktitle: Advances in Neural Information Processing Systems
+doi: 10.52202/085713-0519
+editor: D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi
+  and N. Chen
+files: []
+pages: ''
+papis_id: 0c8b5f6385c5cfc6f85fbfd60a5bcead
+publisher: Curran Associates, Inc.
+ref: erickson-neurips2025a
+time-added: 2026-09-25-21:52:58
+title: 'TabArena: A Living Benchmark for Machine Learning on Tabular Data'
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2025/file/1697e3fb412da11dc9488249f9e7bbc9-Paper-Datasets_and_Benchmarks_Track.pdf
+volume: 38, Main Conference
+year: '2025'
