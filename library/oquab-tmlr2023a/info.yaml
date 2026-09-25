@@ -1,0 +1,71 @@
+author: Oquab, Maxime and Darcet, Timothée and Moutakanni, Théo and Vo, Huy V. and
+  Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and HAZIZA, Daniel and
+  Massa, Francisco and El-Nouby, Alaaeldin and Assran, Mido and Ballas, Nicolas and
+  Galuba, Wojciech and Howes, Russell and Huang, Po-Yao and Li, Shang-Wen and Misra,
+  Ishan and Rabbat, Michael and Sharma, Vasu and Synnaeve, Gabriel and Xu, Hu and
+  Jegou, Herve and Mairal, Julien and Labatut, Patrick and Joulin, Armand and Bojanowski,
+  Piotr
+author_list:
+- family: Oquab
+  given: Maxime
+- family: Darcet
+  given: Timothée
+- family: Moutakanni
+  given: Théo
+- family: Vo
+  given: Huy V.
+- family: Szafraniec
+  given: Marc
+- family: Khalidov
+  given: Vasil
+- family: Fernandez
+  given: Pierre
+- family: HAZIZA
+  given: Daniel
+- family: Massa
+  given: Francisco
+- family: El-Nouby
+  given: Alaaeldin
+- family: Assran
+  given: Mido
+- family: Ballas
+  given: Nicolas
+- family: Galuba
+  given: Wojciech
+- family: Howes
+  given: Russell
+- family: Huang
+  given: Po-Yao
+- family: Li
+  given: Shang-Wen
+- family: Misra
+  given: Ishan
+- family: Rabbat
+  given: Michael
+- family: Sharma
+  given: Vasu
+- family: Synnaeve
+  given: Gabriel
+- family: Xu
+  given: Hu
+- family: Jegou
+  given: Herve
+- family: Mairal
+  given: Julien
+- family: Labatut
+  given: Patrick
+- family: Joulin
+  given: Armand
+- family: Bojanowski
+  given: Piotr
+files: []
+issn: 2835-8856
+journal: Transactions on Machine Learning Research
+note: Featured Certification
+papis_id: f04b40aaf2066f7dc0771fe14b218b35
+ref: oquab-tmlr2023a
+time-added: 2026-09-25-21:56:09
+title: 'DINOv2: Learning Robust Visual Features without Supervision'
+type: article
+url: https://openreview.net/forum?id=a68SUt6zFt
+year: '2024'
