@@ -1,0 +1,39 @@
+acl_anthology_id: P11-1015
+address: Portland, Oregon, USA
+author: Maas, Andrew L. and Daly, Raymond E. and Pham, Peter T. and Huang, Dan and
+  Ng, Andrew Y. and Potts, Christopher
+author_list:
+- family: Maas
+  given: Andrew L.
+- family: Daly
+  given: Raymond E.
+- family: Pham
+  given: Peter T.
+- family: Huang
+  given: Dan
+- family: Ng
+  given: Andrew Y.
+- family: Potts
+  given: Christopher
+booktitle: 'Proceedings of the 49th Annual Meeting of the Association for Computational
+  Linguistics: Human Language Technologies'
+editor: 'Lin, Dekang  and
+
+  Matsumoto, Yuji  and
+
+  Mihalcea, Rada'
+files: []
+firstpage: '142'
+lastpage: '150'
+month: June
+pages: 142--150
+papis_id: 9ebdec2770f0fd73dd5844682c52ca0c
+pdf_url: https://aclanthology.org/P11-1015.pdf
+publication_date: 2011/6
+publisher: Association for Computational Linguistics
+ref: maas-acl2011a
+time-added: 2026-09-25-21:54:48
+title: Learning Word Vectors for Sentiment Analysis
+type: inproceedings
+url: https://aclanthology.org/P11-1015/
+year: '2011'
