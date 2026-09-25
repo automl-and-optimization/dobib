@@ -1,0 +1,22 @@
+author: Mitchell, Rory and Cooper, Joshua and Frank, Eibe and Holmes, Geoffrey
+author_list:
+- family: Mitchell
+  given: Rory
+- family: Cooper
+  given: Joshua
+- family: Frank
+  given: Eibe
+- family: Holmes
+  given: Geoffrey
+files: []
+journal: Journal of Machine Learning Research
+number: '43'
+pages: 1--46
+papis_id: 1e9f8d9fd6265fe5b1ecdf15c316f22d
+ref: mitchell-jmlr2022a
+time-added: 2026-09-25-22:05:18
+title: Sampling Permutations for Shapley Value Estimation
+type: article
+url: http://jmlr.org/papers/v23/21-0439.html
+volume: '23'
+year: '2022'
