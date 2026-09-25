@@ -1,0 +1,38 @@
+abstract: As Transfer Learning from large-scale pre-trained models becomes more prevalent
+  in Natural Language Processing (NLP), operating these large models in on-the-edge
+  and/or under constrained computational training or inference budgets remains challenging.
+  In this work, we propose a method to pre-train a smaller general-purpose language
+  representation model, called DistilBERT, which can then be fine-tuned with good
+  performances on a wide range of tasks like its larger counterparts. While most prior
+  work investigated the use of distillation for building task-specific models, we
+  leverage knowledge distillation during the pre-training phase and show that it is
+  possible to reduce the size of a BERT model by 40%, while retaining 97% of its language
+  understanding capabilities and being 60% faster. To leverage the inductive biases
+  learned by larger models during pre-training, we introduce a triple loss combining
+  language modeling, distillation and cosine-distance losses. Our smaller, faster
+  and lighter model is cheaper to pre-train and we demonstrate its capabilities for
+  on-device computations in a proof-of-concept experiment and a comparative on-device
+  study.
+author: Sanh, Victor and Debut, Lysandre and Chaumond, Julien and Wolf, Thomas
+author_list:
+- family: Sanh
+  given: Victor
+- family: Debut
+  given: Lysandre
+- family: Chaumond
+  given: Julien
+- family: Wolf
+  given: Thomas
+doc_url: https://arxiv.org/pdf/1910.01108v4
+eprint: 1910.01108v4
+eprintclass: cs.CL
+eprinttype: arxiv
+files: []
+month: 10
+papis_id: 10d180614f0dedd56b0e865d0a561b76
+ref: sanh-arxiv2019a
+time-added: 2026-09-25-21:57:10
+title: 'DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter'
+type: article
+url: http://arxiv.org/abs/1910.01108v4
+year: 2019
