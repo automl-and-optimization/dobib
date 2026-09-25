@@ -108,6 +108,15 @@
   year = {2023},
 }
 
+@article{chen-arxiv2020a,
+  abstract = {A variety of recent papers discuss the application of Shapley values, a concept for explaining coalitional games, for feature attribution in machine learning. However, the correct way to connect a machine learning model to a coalitional game has been a source of controversy. The two main approaches that have been proposed differ in the way that they condition on known features, using either (1) an interventional or (2) an observational conditional expectation. While previous work has argued that one of the two approaches is preferable in general, we argue that the choice is application dependent. Furthermore, we argue that the choice comes down to whether it is desirable to be true to the model or true to the data. We use linear models to investigate this choice. After deriving an efficient method for calculating observational conditional expectation Shapley values for linear models, we investigate how correlation in simulated data impacts the convergence of observational conditional expectation Shapley values. Finally, we present two real data examples that we consider to be representative of possible use cases for feature attribution -- (1) credit risk modeling and (2) biological discovery. We show how a different choice of value function performs better in each scenario, and how possible attributions are impacted by modeling choices.},
+  author = {Chen, Hugh and Janizek, Joseph D. and Lundberg, Scott and Lee, Su-In},
+  journal = {arXiv:2006.16234v1 [cs.LG]},
+  title = {True to the Model or True to the Data?},
+  url = {http://arxiv.org/abs/2006.16234v1},
+  year = {2020},
+}
+
 @inproceedings{chen-icml2024a,
   abstract = {Large language models (LLMs) are instruction followers but the performance varies under different instructions. It is challenging to create the best instruction, especially for black-box LLMs on which backpropagation is forbidden. Instead of directly optimizing the discrete instruction, we optimize a low-dimensional soft prompt applied to an open-source LLM to generate the instruction for the black-box LLM. In each optimization step of the proposed method InstructZero, a soft prompt is converted into an instruction by the open-source LLM, which is then submitted to the black-box LLM for zero-shot evaluation, whose result is sent to Bayesian optimization to produce new soft prompts improving the zero-shot performance. We evaluate InstructZero on different combinations of open-source LLMs and APIs including Vicuna and ChatGPT. InstructZero outperforms SOTA auto-instruction methods across a variety of downstream tasks.},
   author = {Chen, Lichang and Chen, Jiuhai and Goldstein, Tom and Huang, Heng and Zhou, Tianyi},
