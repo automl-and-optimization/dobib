@@ -1,0 +1,703 @@
+author: Bischl, Bernd and Casalicchio, Giuseppe and Das, Taniya and Feurer, Matthias
+  and Fischer, Sebastian and Gijsbers, Pieter and Mukherjee, Subhaditya and Müller,
+  Andreas C. and Németh, László and Oala, Luis and Purucker, Lennart and Ravi, Sahithya
+  and van Rijn, Jan N. and Singh, Prabhant and Vanschoren, Joaquin and van der Velde,
+  Jos and Wever, Marcel
+author_list:
+- affiliation: []
+  family: Bischl
+  given: Bernd
+- affiliation: []
+  family: Casalicchio
+  given: Giuseppe
+- affiliation: []
+  family: Das
+  given: Taniya
+- affiliation: []
+  family: Feurer
+  given: Matthias
+- affiliation: []
+  family: Fischer
+  given: Sebastian
+- affiliation: []
+  family: Gijsbers
+  given: Pieter
+- affiliation: []
+  family: Mukherjee
+  given: Subhaditya
+- affiliation: []
+  family: Müller
+  given: Andreas C.
+- affiliation: []
+  family: Németh
+  given: László
+- affiliation: []
+  family: Oala
+  given: Luis
+- affiliation: []
+  family: Purucker
+  given: Lennart
+- affiliation: []
+  family: Ravi
+  given: Sahithya
+- affiliation: []
+  family: van Rijn
+  given: Jan N.
+- affiliation: []
+  family: Singh
+  given: Prabhant
+- affiliation: []
+  family: Vanschoren
+  given: Joaquin
+- affiliation: []
+  family: van der Velde
+  given: Jos
+- affiliation: []
+  family: Wever
+  given: Marcel
+citations:
+- series-title: 'Science in the Age of AI: How Artificial Intelligence Is Changing
+    the Nature and Method of Scientific Research'
+  year: '2024'
+- article-title: 'Position: Why We Must Rethink Empirical Research in Machine Learning'
+  author: Herrmann
+  first-page: '18228'
+  volume: '235'
+  year: '2024'
+- article-title: A Step Toward Quantifying Independently Reproducible Machine Learning
+    Research
+  author: Raff
+  first-page: '5485'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '32'
+  year: '2019'
+- article-title: Benchmark Data Repositories for Better Benchmarking
+  author: Longjohn
+  first-page: '86435'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '37'
+  year: '2024'
+- article-title: The FAIR Guiding Principles for scientific data management and stewardship
+  author: Wilkinson
+  first-page: '53'
+  journal-title: Data Sci.
+  volume: '5'
+  year: '2022'
+- article-title: Jupyter Notebooks–a publishing format for reproducible computational
+    workflows
+  author: Kluyver
+  first-page: '87'
+  journal-title: 'Positioning and power in academic publishing: Players, agents and
+    agendas'
+  year: '2016'
+- article-title: 'OpenML: networked science in machine learning'
+  author: Vanschoren
+  doi: 10.1145/2641190.2641198
+  first-page: '49'
+  journal-title: SIGKDD Explor. Newsl.
+  volume: '15'
+  year: '2014'
+- article-title: OpenML Benchmarking Suites
+  author: Bischl
+  series-title: Proceedings of the Neural Information Processing Systems Track on
+    Datasets and Benchmarks
+  year: '2021'
+- article-title: 'Meta-Album: Multi-domain MetaDataset for Few-Shot Image Classification'
+  author: Ullah
+  first-page: '3232'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '35'
+  year: '2022'
+- article-title: Meta-learning by Landmarking Various Learning Algorithms
+  author: Pfahringer
+  first-page: '743'
+  series-title: Proceedings of the 17th International Conference on Machine Learning
+  year: '2000'
+- author: Brazdil
+  series-title: 'Metalearning: Applications to Automated Machine Learning and Data
+    Mining'
+  year: '2022'
+- article-title: 'Scikit-learn: Machine Learning in Python'
+  author: Pedregosa
+  first-page: '2825'
+  journal-title: J. Mach. Learn. Res.
+  volume: '12'
+  year: '2011'
+- article-title: 'Tunability: Importance of hyperparameters of machine learning algorithms'
+  author: Probst
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  volume: '20'
+  year: '2019'
+- article-title: Hyperparameter Importance Across Datasets
+  author: van Rijn
+  first-page: '2367'
+  series-title: Proceedings of the 24th ACM SIGKDD International Conference on Knowledge
+    Discovery & Data Mining
+  year: '2018'
+- article-title: OpenML-CTR23 – A curated tabular regression benchmarking suite
+  author: Fischer
+  series-title: AutoML Conference 2023 (Workshop)
+  year: '2023'
+- article-title: 'AMLB: an AutoML Benchmark'
+  author: Gijsbers
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  volume: '25'
+  year: '2024'
+- article-title: 'OpenML-Python: an extensible Python API for OpenML'
+  author: Feurer
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  volume: '22'
+  year: '2021'
+- article-title: 'OpenML: An R package to connect to the machine learning platform
+    OpenML'
+  author: Casalicchio
+  doi: 10.1007/s00180-017-0742-2
+  first-page: '977'
+  journal-title: Comput. Stat.
+  volume: '34'
+  year: '2019'
+- article-title: Large-Scale Benchmarking
+  author: Fischer
+  first-page: '240'
+  series-title: Applied Machine Learning Using mlr3
+  year: '2024'
+- author: van Rijn
+  series-title: Massively Collaborative Machine Learning
+  year: '2016'
+- article-title: 'TensorFlow: A System for Large-Scale Machine Learning'
+  author: Abadi
+  first-page: '265'
+  year: '2016'
+- article-title: 'PyTorch: An Imperative Style, High-Performance Deep Learning Library'
+  author: Paszke
+  first-page: '8024'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '32'
+  year: '2019'
+- article-title: 'mlr3: A modern object-oriented machine learning framework in R'
+  author: Lang
+  doi: 10.21105/joss.01903
+  first-page: '1903'
+  journal-title: J. Open Source Softw.
+  volume: '4'
+  year: '2019'
+- article-title: 'mlr: Machine Learning in R'
+  author: Bischl
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  volume: '17'
+  year: '2016'
+- article-title: 'The WEKA Data Mining Software: An Update'
+  author: Hall
+  doi: 10.1145/1656274.1656278
+  first-page: '10'
+  journal-title: SIGKDD Explor.
+  volume: '11'
+  year: '2009'
+- article-title: Unreproducible Research is Reproducible
+  author: Bouthillier
+  first-page: '725'
+  volume: '97'
+  year: '2019'
+- article-title: mlr3pipelines-flexible machine learning pipelines in r
+  author: Binder
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  volume: '22'
+  year: '2021'
+- unstructured: 'Bradbury, J., Frostig, R., Hawkins, P., Johnson, M. J., Leary, C.,
+    Maclaurin, D., Necula, G., Paszke, A., VanderPlas, J., Wanderman-Milne, S., et
+    al. (2018). JAX: Composable Transformations of Python+NumPy Programs. Version
+    0.3.13.'
+- article-title: 'Management of Machine Learning Lifecycle Artifacts: A Survey'
+  author: Schlegel
+  doi: 10.1145/3582302.3582306
+  first-page: '18'
+  journal-title: SIGMOD Rec.
+  volume: '51'
+  year: '2023'
+- article-title: Machine Learning as an Experimental Science
+  author: Langley
+  doi: 10.1023/A:1022623814640
+  first-page: '5'
+  journal-title: Mach. Learn.
+  volume: '3'
+  year: '1988'
+- author: Hardt
+  series-title: 'Patterns, Predictions, and Actions: Foundations of Machine Learning'
+  year: '2022'
+- article-title: 'DMLR: Data-centric Machine Learning Research Past, Present and Future'
+  author: Oala
+  first-page: '1'
+  journal-title: J. Data-centric Mach. Learn. Res.
+  volume: '1'
+  year: '2024'
+- article-title: 'State of the Art: Reproducibility in Artificial Intelligence'
+  author: Gundersen
+  first-page: '1644'
+  year: '2018'
+- article-title: 'Exposé: An ontology for data mining experiments'
+  author: Vanschoren
+  first-page: '31'
+  series-title: 'English. International workshop on third generation data mining:
+    Towards service-oriented knowledge discovery (SoKD-2010)'
+  year: '2010'
+- article-title: 'ML-Schema: An interchangeable format for description of machine
+    learning experiments'
+  author: Publio
+  series-title: 2nd Reproducibility in Machine Learning Workshop at ICML 2018
+  year: '2020'
+- article-title: 'Croissant: A Metadata Format for ML-Ready Datasets'
+  author: Akhtar
+  series-title: Proceedings of the Eighth Workshop on Data Management for End-to-End
+    Machine Learning
+  year: '2023'
+- unstructured: Kelly M., Longjohn R., Nottingham K. The UCI Machine Learning Repository.
+    https://archive.ics.uci.edu.
+- article-title: Open science in machine learning
+  author: Vanschoren
+  series-title: Conference of the CLAssification and Data Analysis (2013)
+  year: '2014'
+- article-title: 'Keel data-mining software tool: Data set repository, integration
+    of algorithms and experimental analysis framework'
+  author: Derrac
+  first-page: '255'
+  journal-title: J. Mult.-Valued Log. Soft Comput.
+  volume: '17'
+  year: '2015'
+- article-title: 'Online chemical modeling environment (OCHEM): web platform for data
+    storage, model development and publishing of chemical information'
+  author: Sushko
+  doi: 10.1007/s10822-011-9440-2
+  first-page: '533'
+  journal-title: J. Comput. Aided Mol. Des.
+  volume: '25'
+  year: '2011'
+- article-title: The BioStudies database—one stop shop for all data supporting a life
+    sciences study
+  author: Sarkans
+  doi: 10.1093/nar/gkx965
+  first-page: D1266
+  journal-title: Nucleic Acids Res.
+  volume: '46'
+  year: '2018'
+- unstructured: 'Torgo, L. (n.d.). Regression DataSets. Last Accessed: May 19th, 2025.
+    https://www.dcc.fc.up.pt/∼ltorgo/Regression/DataSets.html.'
+- article-title: 'PMLB: a large benchmark suite for machine learning evaluation and
+    comparison'
+  author: Olson
+  doi: 10.1186/s13040-017-0154-4
+  first-page: '36'
+  journal-title: BioData Min.
+  volume: '10'
+  year: '2017'
+- unstructured: Biewald, L. (2020). Experiment Tracking with Weights and Biases. Software
+    available from wandb.com.
+- article-title: Accelerating the Machine Learning Lifecycle with MLflow
+  author: Zaharia
+  first-page: '39'
+  journal-title: IEEE Data Eng. Bull.
+  volume: '41'
+  year: '2018'
+- article-title: The Sacred Infrastructure for Computational Research
+  author: Greff
+  first-page: '49'
+  series-title: Proceedings of the 16th Python in Science Conference
+  year: '2017'
+- unstructured: 'Yadan, O. (2019). Hydra - A framework for elegantly configuring complex
+    applications. Last accessed: May 19th, 2025. https://github.com/facebookresearch/hydra.'
+- unstructured: 'Kuprieiev, R., skshetry, Rowlands (변기호), P. Petrov, D., Redzyński,
+    P., da Costa-Luis, C., de la Iglesia Castro, D., Schepanovski, A., Shcheklein,
+    I., Berenbaum, D., et al. (2024). DVC: Data Version Control - Git for Data & Models.
+    https://doi.org/10.5281/zenodo.13137317.'
+- article-title: 'Codabench: Flexible, easy-to-use, and reproducible meta-benchmark
+    platform'
+  author: Xu
+  doi: 10.1016/j.patter.2022.100543
+  journal-title: Patterns
+  volume: '3'
+  year: '2022'
+- article-title: 'Dynabench: Rethinking Benchmarking in NLP'
+  author: Kiela
+  first-page: '4110'
+  year: '2021'
+- article-title: Benchmarking Neural Network Training Algorithms
+  author: Dahl
+  journal-title: arXiv
+  year: '2023'
+- article-title: 'Accelerating neural network training: An analysis of the AlgoPerf
+    competition'
+  author: Kasimbeg
+  series-title: 13th International Conference on Learning Representations, ICLR 2025
+  year: '2025'
+- article-title: 'DataPerf: Benchmarks for Data-Centric AI Development'
+  author: Mazumder
+  first-page: '5320'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '36'
+  year: '2023'
+- article-title: 'Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference'
+  author: Chiang
+  first-page: '8359'
+  volume: '235'
+  year: '2024'
+- article-title: 'MLJ: A Julia package for composable machine learning'
+  author: Blaom
+  doi: 10.21105/joss.02704
+  first-page: '2704'
+  journal-title: J. Open Source Softw.
+  volume: '5'
+  year: '2020'
+- unstructured: 'ECMLPKDD Research Track Call for Papers (2025). Last Accessed: May
+    19th, 2025. https://ecmlpkdd.org/2025/submissions-research-track.'
+- unstructured: 'NeurIPS 2025 Datasets & Benchmarks Track Call for Papers (2025).
+    Last Accessed: May 19th, 2025. https://neurips.cc/Conferences/2025/CallForDatasetsBenchmarks.'
+- doi: 10.1016/j.patter.2025.101317
+  unstructured: 'Bischl, B., Casalicchio, G., Das, T., Feurer, M., Fischer, S., Gijsbers,
+    P., Mukherjee, S., Müller, A. C., Németh, L., Oala, L., et al. (2025). openml/OpenML-Paper-ImpactAnalysis:
+    v1.0.4 - Code Release for paper “OpenML: Insights from ten years and more than
+    a thousand papers”. Zenodo. https://doi.org/10.5281/zenodo.15495895.'
+- article-title: A study of the correlation of metafeatures used for metalearning
+  author: Rivolli
+  first-page: '471'
+  series-title: Work-Conference on Artificial Neural Networks
+  year: '2021'
+- article-title: 'Precision-Recall-Gain Curves: PR Analysis Done Right'
+  author: Flach
+  first-page: '838'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '28'
+  year: '2015'
+- article-title: YAHPO Gym - An Efficient Multi-Objective Multi-Fidelity Benchmark
+    for Hyperparameter Optimization
+  author: Pfisterer
+  first-page: 3/1
+  volume: '188'
+  year: '2022'
+- article-title: 'LCDB 1.0: An extensive learning curves database for classification
+    tasks'
+  author: Mohr
+  first-page: '3'
+  volume: '13717'
+  year: '2022'
+- article-title: Instance spaces for machine learning classification
+  author: Muñoz
+  doi: 10.1007/s10994-017-5629-5
+  first-page: '109'
+  journal-title: Mach. Learn.
+  volume: '107'
+  year: '2018'
+- article-title: 'Meta-QSAR: a large-scale application of meta-learning to drug design
+    and discovery'
+  author: Olier
+  doi: 10.1007/s10994-017-5685-x
+  first-page: '285'
+  journal-title: Mach. Learn.
+  volume: '107'
+  year: '2018'
+- article-title: When Do Neural Nets Outperform Boosted Trees on Tabular Data?
+  author: McElfresh
+  first-page: '76336'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '36'
+  year: '2023'
+- article-title: 'TabRepo: A Large Scale Repository of Tabular Model Evaluations and
+    its AutoML Applications'
+  author: Salinas
+  volume: '256'
+  year: '2024'
+- article-title: A closer look at deep learning on tabular data
+  author: Ye
+  journal-title: arXiv
+  year: '2024'
+- unstructured: Dasoulas, I., Chaves-Fraga, D., Garijo, D., and Dimou, A. (2023).
+    “Declarative RDF construction from in-memory data structures with RML”. Proceedings
+    of the 4th International Workshop on Knowledge Graph Construction Co-located with
+    20th Extended Semantic Web Conference, ESWC 2023. Vol. 3471. CEUR-WS.org.
+- article-title: 'Experiment databases: a new way to share, organize and learn from
+    experiments'
+  author: Vanschoren
+  doi: 10.1007/s10994-011-5277-0
+  first-page: '127'
+  journal-title: Mach. Learn.
+  volume: '87'
+  year: '2012'
+- article-title: 'Assembled-OpenML: Creating Efficient Benchmarks for Ensembles in
+    AutoML with OpenML'
+  author: Purucker
+  series-title: First International Conference on Automated Machine Learning (Late-Breaking
+    Workshop)
+  year: '2022'
+- article-title: Automatic Exploration of Machine Learning Experiments on OpenML
+  author: Kühn
+  journal-title: arXiv
+  year: '2018'
+- article-title: Collecting Empirical Data About Hyperparameters for Data Driven AutoML
+  author: Binder
+  series-title: Proceedings of the 7th ICML Workshop on Automated Machine Learning
+    (AutoML 2020)
+  year: '2020'
+- article-title: Does feature selection improve classification? A large scale experiment
+    in OpenML
+  author: Post
+  first-page: '158'
+  series-title: Advances in Intelligent Data Analysis XV
+  year: '2016'
+- article-title: 'Don''t Rule Out Simple Models Prematurely: A Large Scale Benchmark
+    Comparing Linear and Non-linear Classifiers in OpenML'
+  author: Strang
+  first-page: '303'
+  series-title: Advances in Intelligent Data Analysis XVII
+  year: '2018'
+- article-title: 'Family and prejudice: A behavioural taxonomy of machine learning
+    techniques'
+  author: Fabra-Boluda
+  first-page: '1135'
+  series-title: Proceedings of the 24th European Conference on Artificial Intelligence
+    (ECAI’20)
+  year: '2020'
+- article-title: 'Demystifying a dark art: Understanding real-world machine learning
+    model development'
+  author: Lee
+  journal-title: arXiv
+  year: '2020'
+- article-title: Master your metrics with calibration
+  author: Siblini
+  first-page: '457'
+  series-title: Advances in Intelligent Data Analysis XVIII - 18th International Symposium
+    on Intelligent Data Analysis, IDA 2020
+  year: '2020'
+- article-title: 'Non-parametric Bayesian Isotonic Calibration: Fighting Over-Confidence
+    in Binary Classification'
+  author: Allikivi
+  first-page: '103'
+  volume: '11907'
+  year: '2020'
+- article-title: 'TabPFN: A Transformer That Solves Small Tabular Classification Problems
+    in a Second'
+  author: Hollmann
+  series-title: Nickel, M., Wang, M., Chen, N.F., & Marivate, V. (Eds.). 11th International
+    Conference on Learning Representations, ICLR’23
+  year: '2023'
+- article-title: Large Scale Transfer Learning for Tabular Data via Language Modeling
+  author: Gardner
+  first-page: '45155'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '37'
+  year: '2024'
+- article-title: Accurate predictions on small data with a tabular foundation model
+  author: Hollmann
+  doi: 10.1038/s41586-024-08328-6
+  first-page: '319'
+  journal-title: Nature
+  volume: '637'
+  year: '2025'
+- article-title: Data vs classifiers, who wins?
+  author: Cardoso
+  journal-title: arXiv
+  year: '2021'
+- article-title: 'Towards UCI+: A mindful repository design'
+  author: Macià
+  doi: 10.1016/j.ins.2013.08.059
+  first-page: '237'
+  journal-title: Inf. Sci.
+  volume: '261'
+  year: '2014'
+- article-title: The Algorithm Selection Problem
+  author: Rice
+  doi: 10.1016/S0065-2458(08)60520-3
+  first-page: '65'
+  journal-title: Adv. Comput.
+  volume: '15'
+  year: '1976'
+- article-title: A survey of deep meta-learning
+  author: Huisman
+  doi: 10.1007/s10462-021-10004-4
+  first-page: '4483'
+  journal-title: Artif. Intell. Rev.
+  volume: '54'
+  year: '2021'
+- article-title: 'Meta-Learning in Neural Networks: A Survey'
+  author: Hospedales
+  first-page: '5149'
+  journal-title: IEEE Trans. Pattern Anal. Mach. Intell.
+  volume: '44'
+  year: '2022'
+- article-title: Intelligent assistance for data pre-processing
+  author: Bilalli
+  doi: 10.1016/j.csi.2017.05.004
+  first-page: '101'
+  journal-title: Comput. Stand. Interfaces
+  volume: '57'
+  year: '2018'
+- article-title: 'Open Algorithm Selection Challenge 2017: Setup and Scenarios'
+  author: Lindauer
+  first-page: '1'
+  volume: '79'
+  year: '2017'
+- article-title: Active dataset generation for meta-learning system quality improvement
+  author: Zabashta
+  first-page: '394'
+  series-title: 'Intelligent Data Engineering and Automated Learning– IDEAL 2019:
+    20th International Conference, Manchester, UK, November 14–16, 2019, Proceedings,
+    Part I 20'
+  year: '2019'
+- article-title: Collecting Meta-Data from the OpenML Public Repository. Anaid do
+    Encontro Nacional de Inteligência Artificial e Computacional (ENIAC)
+  author: Carvalho
+  first-page: '610'
+  journal-title: SBC
+  year: '2023'
+- article-title: Multi-task learning with a natural metric for quantitative structure
+    activity relationship learning
+  author: Sadawi
+  doi: 10.1186/s13321-019-0392-1
+  first-page: '68'
+  journal-title: J. Cheminform.
+  volume: '11'
+  year: '2019'
+- article-title: 'Chameleon: Learning Model Initializations Across Tasks With Different
+    Schemas'
+  author: Brinkmeyer
+  journal-title: arXiv
+  year: '2019'
+- article-title: 'XTab: Crosstable Pretraining for Tabular Transformers'
+  author: Zhu
+  first-page: '43181'
+  volume: '202'
+  year: '2023'
+- article-title: 'TabDPT: Scaling Tabular Foundation Models'
+  author: Ma
+  journal-title: arXiv
+  year: '2024'
+- article-title: On First-Order Meta-Learning Algorithms
+  author: Nichol
+  journal-title: arXiv
+  year: '2018'
+- article-title: Efficient and Robust Automated Machine Learning
+  author: Feurer
+  first-page: '2962'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '28'
+  year: '2015'
+- article-title: 'FLAML: A Fast and Lightweight AutoML Library'
+  author: Wang
+  series-title: Proceedings of the Fourth Conference on Machine Learning and Systems,
+    MLSys 2021
+  year: '2021'
+- article-title: 'AutoGluon-Tabular: Robust and Accurate AutoML for Structured Data'
+  author: Erickson
+  journal-title: arXiv
+  year: '2020'
+- article-title: 'H2O AutoML: Scalable Automatic Machine Learning'
+  author: LeDell
+  series-title: 7th ICML Workshop on Automated Machine Learning (AutoML)
+  year: '2020'
+- article-title: 'AutoSklearn 2.0: Hands-free AutoML via Meta-Learning'
+  author: Feurer
+  first-page: '1'
+  journal-title: J. Mach. Learn. Res.
+  volume: '23'
+  year: '2022'
+- article-title: Assisted design of data science pipelines
+  author: Redyuk
+  doi: 10.1007/s00778-024-00835-2
+  first-page: '1129'
+  journal-title: VLDB J
+  volume: '33'
+  year: '2024'
+- article-title: Scalable Hyperparameter Transfer Learning
+  author: Perrone
+  first-page: '6845'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '31'
+  year: '2018'
+- article-title: 'HPO-B: A Large-Scale Reproducible Benchmark for Black-Box HPO based
+    on OpenML'
+  author: Pineda
+  series-title: Proceedings of the Neural Information Processing Systems Track on
+    Datasets and Benchmarks (NeurIPS’21)
+  year: '2021'
+- author: Feurer
+  first-page: '1128'
+  series-title: Initializing Bayesian hyperparameter optimization via meta-learning
+  year: '2015'
+- article-title: Learning multiple defaults for machine learning algorithms
+  author: Pfisterer
+  first-page: '241'
+  series-title: Proceedings of the genetic and evolutionary computation conference
+    companion
+  year: '2021'
+- article-title: 'Meta learning for defaults: Symbolic defaults'
+  author: van Rijn
+  series-title: Neural Information Processing Workshop on Meta-Learning
+  year: '2018'
+- article-title: Metalearning for symbolic hyperparameter defaults
+  author: Gijsbers
+  first-page: '151'
+  series-title: Proceedings of the Genetic and Evolutionary Computation Conference
+    Companion
+  year: '2021'
+- article-title: 'Towards quantifying the effect of datasets for benchmarking: A look
+    at tabular machine learning'
+  author: Kohli
+  series-title: 'ICLR 2024 Workshop on Data-centric Machine Learning Research (DMLR):
+    Harnessing Momentum for Science'
+  year: '2024'
+- article-title: Unreflected Use of Tabular Data Repositories Can Undermine Research
+    Quality
+  author: Tschalzev
+  series-title: The Future of Machine Learning Data Practices and Repositories at
+    ICLR 2025
+  year: '2025'
+- article-title: 'CARTE: pretraining and transfer for tabular learning'
+  author: Kim
+  journal-title: arXiv
+  year: '2024'
+- article-title: 'TabICL: A Tabular Foundation Model for In-Context Learning on Large
+    Data'
+  author: Qu
+  journal-title: arXiv
+  year: '2025'
+- author: Recht
+  first-page: '5389'
+  volume: '97'
+  year: '2019'
+- article-title: 'Elephants Never Forget: Memorization and Learning of Tabular Data
+    in Large Language Models'
+  author: Bordt
+  series-title: First Conference on Language Modeling
+  year: '2024'
+- unstructured: Hardt, M. (2025). The Emerging Science of Machine Learning Benchmarks.
+    Manuscript. https://mlbenchmarks.org.
+- article-title: Datasheets for datasets
+  author: Gebru
+  doi: 10.1145/3458723
+  first-page: '86'
+  journal-title: Commun. ACM
+  volume: '64'
+  year: '2021'
+- article-title: Model cards for model reporting
+  author: Mitchell
+  first-page: '220'
+  series-title: Proceedings of the conference on fairness, accountability, and transparency
+  year: '2019'
+doi: 10.1016/j.patter.2025.101317
+files: []
+issue: '7'
+journal: Patterns
+language: en
+month: 7
+pages: '101317'
+papis_id: a26337a3bcd442a500b8ce0aed8a2e44
+publisher: Elsevier BV
+ref: bischl-patterns2025a
+time-added: 2026-09-25-21:22:16
+title: 'OpenML: Insights from 10 years and more than a thousand papers'
+type: article
+url: https://doi.org/10.1016/j.patter.2025.101317
+volume: '6'
+year: 2025
