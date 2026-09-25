@@ -1,0 +1,45 @@
+abstract: When developing and analyzing new hyperparameter optimization methods, it
+  is vital to empirically evaluate and compare them on well-curated benchmark suites.
+  In this work, we propose a new set of challenging and relevant benchmark problems
+  motivated by desirable properties and requirements for such benchmarks. Our new
+  surrogate-based benchmark collection consists of 14 scenarios that in total constitute
+  over 700 multi-fidelity hyperparameter optimization problems, which all enable multi-objective
+  hyperparameter optimization. Furthermore, we empirically compare surrogate-based
+  benchmarks to the more widely-used tabular benchmarks, and demonstrate that the
+  latter may produce unfaithful results regarding the performance ranking of HPO methods.
+  We examine and compare our benchmark collection with respect to defined requirements
+  and propose a single-objective as well as a multi-objective benchmark suite on which
+  we compare 7 single-objective and 7 multi-objective optimizers in a benchmark experiment.  Our
+  software is available at \url{https://github.com/slds-lmu/yahpo_gym}.
+author: Pfisterer, Florian and Schneider, Lennart and Moosbauer, Julia and Binder,
+  Martin and Bischl, Bernd
+author_list:
+- family: Pfisterer
+  given: Florian
+- family: Schneider
+  given: Lennart
+- family: Moosbauer
+  given: Julia
+- family: Binder
+  given: Martin
+- family: Bischl
+  given: Bernd
+booktitle: Proceedings of the First International Conference on Automated Machine
+  Learning
+editor: Guyon, Isabelle and Lindauer, Marius and van der Schaar, Mihaela and Hutter,
+  Frank and Garnett, Roman
+files: []
+month: 25--27 Jul
+pages: 3/1--39
+papis_id: 6e6d0f9b037abe2724bd1ca8585debc4
+pdf: https://proceedings.mlr.press/v188/pfisterer22a/pfisterer22a.pdf
+publisher: PMLR
+ref: pfisterer-automl2022a
+series: Proceedings of Machine Learning Research
+time-added: 2026-09-25-21:59:22
+title: YAHPO Gym - An Efficient Multi-Objective Multi-Fidelity Benchmark for Hyperparameter
+  Optimization
+type: inproceedings
+url: https://proceedings.mlr.press/v188/pfisterer22a.html
+volume: '188'
+year: '2022'
