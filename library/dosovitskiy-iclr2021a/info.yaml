@@ -1,0 +1,38 @@
+author: Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn,
+  Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer,
+  Matthias and Heigold, Georg and Gelly, Sylvain and Uszkoreit, Jakob and Houlsby,
+  Neil
+author_list:
+- family: Dosovitskiy
+  given: Alexey
+- family: Beyer
+  given: Lucas
+- family: Kolesnikov
+  given: Alexander
+- family: Weissenborn
+  given: Dirk
+- family: Zhai
+  given: Xiaohua
+- family: Unterthiner
+  given: Thomas
+- family: Dehghani
+  given: Mostafa
+- family: Minderer
+  given: Matthias
+- family: Heigold
+  given: Georg
+- family: Gelly
+  given: Sylvain
+- family: Uszkoreit
+  given: Jakob
+- family: Houlsby
+  given: Neil
+booktitle: International Conference on Learning Representations
+files: []
+papis_id: 314310eb2e55aa50f8492013a50d9cce
+ref: dosovitskiy-iclr2021a
+time-added: 2026-09-25-21:58:04
+title: 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'
+type: inproceedings
+url: https://openreview.net/forum?id=YicbFdNTTy
+year: '2021'
