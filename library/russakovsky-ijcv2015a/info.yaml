@@ -1,0 +1,464 @@
+author: Russakovsky, Olga and Deng, Jia and Su, Hao and Krause, Jonathan and Satheesh,
+  Sanjeev and Ma, Sean and Huang, Zhiheng and Karpathy, Andrej and Khosla, Aditya
+  and Bernstein, Michael and Berg, Alexander C. and Fei-Fei, Li
+author_list:
+- affiliation: []
+  family: Russakovsky
+  given: Olga
+- affiliation: []
+  family: Deng
+  given: Jia
+- affiliation: []
+  family: Su
+  given: Hao
+- affiliation: []
+  family: Krause
+  given: Jonathan
+- affiliation: []
+  family: Satheesh
+  given: Sanjeev
+- affiliation: []
+  family: Ma
+  given: Sean
+- affiliation: []
+  family: Huang
+  given: Zhiheng
+- affiliation: []
+  family: Karpathy
+  given: Andrej
+- affiliation: []
+  family: Khosla
+  given: Aditya
+- affiliation: []
+  family: Bernstein
+  given: Michael
+- affiliation: []
+  family: Berg
+  given: Alexander C.
+- affiliation: []
+  family: Fei-Fei
+  given: Li
+citations:
+- author: T Ahonen
+  doi: 10.1109/TPAMI.2006.244
+  first-page: '2037'
+  issue: '14'
+  journal-title: Pattern Analysis and Machine Intelligence
+  unstructured: 'Ahonen, T., Hadid, A., & Pietikinen, M. (2006). Face description
+    with local binary patterns: Application to face recognition. Pattern Analysis
+    and Machine Intelligence, 28(14), 2037–2041.'
+  volume: '28'
+  year: '2006'
+- author: B Alexe
+  doi: 10.1109/TPAMI.2012.28
+  first-page: '2189'
+  issue: '11'
+  journal-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  unstructured: Alexe, B., Deselares, T., & Ferrari, V. (2012). Measuring the objectness
+    of image windows. IEEE Transactions on Pattern Analysis and Machine Intelligence,
+    34(11), 2189–2202.
+  volume: '34'
+  year: '2012'
+- doi: 10.1109/CVPR.2012.6248018
+  unstructured: Arandjelovic, R., & Zisserman, A. (2012). Three things everyone should
+    know to improve object retrieval. In CVPR.
+- doi: 10.1109/CVPR.2014.49
+  unstructured: Arbeláez, P., Pont-Tuset, J., Barron, J., Marques, F., & Malik, J.
+    (2014). Multiscale combinatorial grouping. In Computer vision and pattern recognition.
+- author: P Arbelaez
+  doi: 10.1109/TPAMI.2010.161
+  first-page: '898'
+  journal-title: IEEE Transaction on Pattern Analysis and Machine Intelligence
+  unstructured: Arbelaez, P., Maire, M., Fowlkes, C., & Malik, J. (2011). Contour
+    detection and hierarchical image segmentation. IEEE Transaction on Pattern Analysis
+    and Machine Intelligence, 33, 898–916.
+  volume: '33'
+  year: '2011'
+- unstructured: 'Batra, D., Agrawal, H., Banik, P., Chavali, N., Mathialagan, C. S.,
+    & Alfadda, A. (2013). Cloudcv: Large-scale distributed computer vision as a cloud
+    service.'
+- doi: 10.1145/2461912.2462002
+  unstructured: 'Bell, S., Upchurch, P., Snavely, N., & Bala, K. (2013). OpenSurfaces:
+    A richly annotated catalog of surface appearance. In ACM transactions on graphics
+    (SIGGRAPH).'
+- unstructured: Berg, A., Farrell, R., Khosla, A., Krause, J., Fei-Fei, L., Li, J.,
+    & Maji, S. (2013). Fine-grained competition. https://sites.google.com/site/fgcomp2013/
+    .
+- doi: 10.5244/C.28.6
+  unstructured: 'Chatfield, K., Simonyan, K., Vedaldi, A., & Zisserman, A. (2014).
+    Return of the devil in the details: Delving deep into convolutional nets. CoRR,
+    abs/1405.3531.'
+- unstructured: Chen, Q., Song, Z., Huang, Z., Hua, Y., & Yan, S. (2014). Contextualizing
+    object detection and classification. In CVPR.
+- author: K Crammer
+  first-page: '551'
+  journal-title: Journal of Machine Learning Research
+  unstructured: Crammer, K., Dekel, O., Keshet, J., Shalev-Shwartz, S., & Singer,
+    Y. (2006). Online passive-aggressive algorithms. Journal of Machine Learning Research,
+    7, 551–585.
+  volume: '7'
+  year: '2006'
+- unstructured: Criminisi, A. (2004). Microsoft Research Cambridge (MSRC) object recognition
+    image database (version 2.0). http://research.microsoft.com/vision/cambridge/recognition
+    .
+- doi: 10.1109/CVPR.2013.237
+  unstructured: Dean, T., Ruzon, M., Segal, M., Shlens, J., Vijayanarasimhan, S.,
+    & Yagnik, J. (2013). Fast, accurate detection of 100,000 object classes on a single
+    machine. In CVPR.
+- doi: 10.1109/CVPR.2009.5206848
+  unstructured: 'Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., & Fei-Fei, L.
+    (2009). ImageNet: A large-scale hierarchical image database. In CVPR.'
+- doi: 10.1145/2556288.2557011
+  unstructured: Deng, J., Russakovsky, O., Krause, J., Bernstein, M., Berg, A. C.,
+    & Fei-Fei, L. (2014). Scalable multi-label annotation. In CHI.
+- unstructured: 'Donahue, J., Jia, Y., Vinyals, O., Hoffman, J., Zhang, N., Tzeng,
+    E., & Darrell, T. (2013). Decaf: A deep convolutional activation feature for generic
+    visual recognition. CoRR, abs/1310.1531.'
+- doi: 10.1007/978-3-642-33712-3_22
+  unstructured: Dubout, C., & Fleuret, F. (2012). Exact acceleration of linear object
+    detectors. In Proceedings of the European conference on computer vision (ECCV).
+- unstructured: Everingham, M., Gool, L. V., Williams, C., Winn, J., & Zisserman,
+    A. (2005–2012). PASCAL Visual Object Classes Challenge (VOC). http://www.pascal-network.org/challenges/VOC/voc2012/workshop/index.html
+    .
+- author: M Everingham
+  doi: 10.1007/s11263-009-0275-4
+  first-page: '303'
+  issue: '2'
+  journal-title: International Journal of Computer Vision
+  unstructured: Everingham, M., Van Gool, L., Williams, C. K. I., Winn, J., & Zisserman,
+    A. (2010). The Pascal Visual Object Classes (VOC) challenge. International Journal
+    of Computer Vision, 88(2), 303–338.
+  volume: '88'
+  year: '2010'
+- author: M Everingham
+  doi: 10.1007/s11263-014-0733-5
+  first-page: '98'
+  journal-title: International Journal of Computer Vision
+  unstructured: Everingham, M., Eslami, S. M. A., Van Gool, L., Williams, C. K. I.,
+    Winn, J., & Zisserman, A. (2014). The Pascal Visual Object Classes (VOC) challenge—A
+    retrospective. International Journal of Computer Vision, 111, 98–136.
+  volume: '111'
+  year: '2014'
+- doi: 10.1109/CVPR.2005.16
+  unstructured: Fei-Fei, L., & Perona, P. (2005). A Bayesian hierarchical model for
+    learning natural scene categories. In CVPR.
+- doi: 10.1109/CVPR.2004.383
+  unstructured: 'Fei-Fei, L., Fergus, R., & Perona, P. (2004). Learning generative
+    visual models from few examples: An incremental bayesian approach tested on 101
+    object categories. In CVPR.'
+- author: P Felzenszwalb
+  doi: 10.1109/TPAMI.2009.167
+  first-page: '1627'
+  issue: '9'
+  journal-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  unstructured: Felzenszwalb, P., Girshick, R., McAllester, D., & Ramanan, D. (2010).
+    Object detection with discriminatively trained part based models. IEEE Transactions
+    on Pattern Analysis and Machine Intelligence, 32(9), 1627–1645.
+  volume: '32'
+  year: '2010'
+- unstructured: 'Frome, A., Corrado, G., Shlens, J., Bengio, S., Dean, J., Ranzato,
+    M., & Mikolov, T. (2013). Devise: A deep visual-semantic embedding model. In Advances
+    in neural information processing systems, NIPS.'
+- author: A Geiger
+  doi: 10.1177/0278364913491297
+  first-page: '1231'
+  journal-title: International Journal of Robotics Research
+  unstructured: 'Geiger, A., Lenz, P., Stiller, C., & Urtasun, R. (2013). Vision meets
+    robotics: The kitti dataset. International Journal of Robotics Research, 32, 1231–1237.'
+  volume: '32'
+  year: '2013'
+- unstructured: Girshick, R. B., Donahue, J., Darrell, T., & Malik, J. (2013). Rich
+    feature hierarchies for accurate object detection and semantic segmentation (v4).
+    CoRR.
+- doi: 10.1109/CVPR.2014.81
+  unstructured: Girshick, R., Donahue, J., Darrell, T., & Malik., J. (2014). Rich
+    feature hierarchies for accurate object detection and semantic segmentation. In
+    CVPR.
+- doi: 10.1109/ICCV.2009.5459211
+  unstructured: Gould, S., Fulton, R., & Koller, D. (2009). Decomposing a scene into
+    geometric and semantically consistent regions. In ICCV.
+- unstructured: Graham, B. (2013). Sparse arrays of signatures for online character
+    recognition. CoRR.
+- unstructured: Griffin, G., Holub, A., & Perona, P. (2007). Caltech-256 object category
+    dataset. Technical report 7694, Caltech.
+- unstructured: Harada, T., & Kuniyoshi, Y. (2012). Graphical Gaussian vector for
+    image categorization. In NIPS.
+- doi: 10.7551/mitpress/7503.003.0073
+  unstructured: Harel, J., Koch, C., & Perona, P. (2007). Graph-based visual saliency.
+    In NIPS.
+- doi: 10.1007/978-3-319-10578-9_23
+  unstructured: He, K., Zhang, X., Ren, S., & Su, J. (2014). Spatial pyramid pooling
+    in deep convolutional networks for visual recognition. In ECCV.
+- unstructured: Hinton, G. E., Srivastava, N., Krizhevsky, A., Sutskever, I., & Salakhutdinov,
+    R. (2012). Improving neural networks by preventing co-adaptation of feature detectors.
+    CoRR, abs/1207.0580.
+- doi: 10.1007/978-3-642-33712-3_25
+  unstructured: Hoiem, D., Chodpathumwan, Y., & Dai, Q. (2012). Diagnosing error in
+    object detectors. In ECCV.
+- unstructured: Howard, A. (2014). Some improvements on deep convolutional neural
+    network based image classification. In ICLR.
+- unstructured: 'Huang, G. B., Ramesh, M., Berg, T., & Learned-Miller, E. (2007).
+    Labeled faces in the wild: A database for studying face recognition in unconstrained
+    environments. Technical report 07–49, University of Massachusetts, Amherst.'
+- unstructured: 'Iandola, F. N., Moskewicz, M. W., Karayev, S., Girshick, R. B., Darrell,
+    T., & Keutzer, K. (2014). Densenet: Implementing efficient convnet descriptor
+    pyramids. CoRR.'
+- unstructured: 'Jia, Y. (2013). Caffe: An open source convolutional architecture
+    for fast feature embedding. http://caffe.berkeleyvision.org/ .'
+- doi: 10.1109/ICCV.2003.1238311
+  unstructured: Jojic, N., Frey, B. J., & Kannan, A. (2003). Epitomic analysis of
+    appearance and shape. In ICCV.
+- doi: 10.1109/ICRA.2014.6907300
+  unstructured: Kanezaki, A., Inaba, S., Ushiku, Y., Yamashita, Y., Muraoka, H., Kuniyoshi,
+    Y., & Harada, T. (2014). Hard negative classes for multiple object detection.
+    In ICRA.
+- unstructured: Khosla, A., Jayadevaprakash, N., Yao, B., & Fei-Fei, L. (2011). Novel
+    dataset for fine-grained image categorization. In First workshop on fine-grained
+    visual categorization, CVPR.
+- unstructured: Krizhevsky, A., Sutskever, I., & Hinton, G. (2012). ImageNet classification
+    with deep convolutional neural networks. In NIPS.
+- doi: 10.1007/978-3-642-33786-4_34
+  unstructured: Kuettel, D., Guillaumin, M., & Ferrari, V. (2012). Segmentation propagation
+    in ImageNet. In ECCV.
+- doi: 10.1109/CVPR.2006.68
+  unstructured: 'Lazebnik, S., Schmid, C., & Ponce, J. (2006). Beyond bags of features:
+    Spatial pyramid matching for recognizing natural scene categories. In CVPR.'
+- unstructured: Lin, M., Chen, Q., & Yan, S. (2014a). Network in network. In ICLR.
+- doi: 10.1109/CVPR.2011.5995477
+  unstructured: 'Lin, Y., Lv, F., Cao, L., Zhu, S., Yang, M., Cour, T., Yu, K., &
+    Huang, T. (2011). Large-scale image classification: Fast feature extraction and
+    SVM training. In CVPR.'
+- doi: 10.1007/978-3-319-10602-1_48
+  unstructured: 'Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan,
+    D., Dollr, P., & Zitnick, C. L. (2014b). Microsoft COCO: Common objects in context.
+    In ECCV.'
+- author: C Liu
+  doi: 10.1109/TPAMI.2011.131
+  first-page: '2368'
+  journal-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  unstructured: Liu, C., Yuen, J., & Torralba, A. (2011). Nonparametric scene parsing
+    via label transfer. IEEE Transactions on Pattern Analysis and Machine Intelligence,
+    32, 2368–2382.
+  volume: '32'
+  year: '2011'
+- author: DG Lowe
+  doi: 10.1023/B:VISI.0000029664.99615.94
+  first-page: '91'
+  issue: '2'
+  journal-title: International Journal of Computer Vision
+  unstructured: Lowe, D. G. (2004). Distinctive image features from scale-invariant
+    keypoints. International Journal of Computer Vision, 60(2), 91–110.
+  volume: '60'
+  year: '2004'
+- doi: 10.1109/CVPR.2009.5206693
+  unstructured: Maji, S., & Malik, J. (2009). Object detection using a max-margin
+    hough transform. In CVPR.
+- doi: 10.1109/ICCV.2013.315
+  unstructured: Manen, S., Guillaumin, M., & Van Gool, L. (2013). Prime object proposals
+    with randomized Prim’s algorithm. In ICCV.
+- doi: 10.1007/978-3-642-33709-3_35
+  unstructured: 'Mensink, T., Verbeek, J., Perronnin, F., & Csurka, G. (2012). Metric
+    learning for large scale image classification: Generalizing to new classes at
+    near-zero cost. In ECCV.'
+- unstructured: Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). Efficient estimation
+    of word representations in vector space. In ICLR.
+- author: GA Miller
+  doi: 10.1145/219717.219748
+  first-page: '39'
+  issue: '11'
+  journal-title: Commun. ACM
+  unstructured: 'Miller, G. A. (1995). Wordnet: A lexical database for English. Commun.
+    ACM, 38(11), 39–41.'
+  volume: '38'
+  year: '1995'
+- doi: 10.1023/A:1011139631724
+  unstructured: 'Oliva, A., & Torralba, A. (2001). Modeling the shape of the scene:
+    A holistic representation of the spatial envelope. In IJCV.'
+- doi: 10.1109/ICCV.2013.344
+  unstructured: Ordonez, V., Deng, J., Choi, Y., Berg, A. C., & Berg, T. L. (2013).
+    From large scale image categorization to entry-level categories. In IEEE international
+    conference on computer vision (ICCV).
+- doi: 10.1109/ICCV.2013.257
+  unstructured: Ouyang, W., & Wang, X. (2013). Joint deep learning for pedestrian
+    detection. In ICCV.
+- unstructured: 'Ouyang, W., Luo, P., Zeng, X., Qiu, S., Tian, Y., Li, H., Yang, S.,
+    Wang, Z., Xiong, Y., Qian, C., Zhu, Z., Wang, R., Loy, C. C., Wang, X., & Tang,
+    X. (2014). Deepid-net: multi-stage and deformable deep convolutional neural networks
+    for object detection. CoRR, abs/1409.3505.'
+- unstructured: Papandreou, G. (2014). Deep epitomic convolutional neural networks.
+    CoRR.
+- doi: 10.1109/CVPR.2014.264
+  unstructured: Papandreou, G., Chen, L.-C., & Yuille, A. L. (2014). Modeling image
+    patches with a generic dictionary of mini-epitomes.
+- doi: 10.1109/CVPR.2007.383266
+  unstructured: Perronnin, F., & Dance, C. R. (2007). Fisher kernels on visual vocabularies
+    for image categorization. In CVPR.
+- doi: 10.1109/CVPR.2012.6248090
+  unstructured: Perronnin, F., Akata, Z., Harchaoui, Z., & Schmid, C. (2012). Towards
+    good practice in large-scale learning for image classification. In CVPR.
+- doi: 10.1007/978-3-642-15561-1_11
+  unstructured: Perronnin, F., Sánchez, J., & Mensink, T. (2010). Improving the fisher
+    kernel for large-scale image classification. In ECCV (4).
+- doi: 10.1109/ICCV.2013.258
+  unstructured: 'Russakovsky, O., Deng, J., Huang, Z., Berg, A., & Fei-Fei, L. (2013).
+    Detecting avocados to zucchinis: What have we done, & where are we going? In ICCV.'
+- unstructured: 'Russell, B., Torralba, A., Murphy, K., & Freeman, W. T. (2007). LabelMe:
+    A database and web-based tool for image annotation. In IJCV.'
+- unstructured: Sanchez, J., & Perronnin, F. (2011). High-dim. signature compression
+    for large-scale image classification. In CVPR.
+- doi: 10.1016/j.patrec.2012.07.019
+  unstructured: Sanchez, J., Perronnin, F., & de Campos, T. (2012). Modeling spatial
+    layout of images beyond spatial pyramids. In PRL.
+- doi: 10.1109/CVPR.2012.6248021
+  unstructured: 'Scheirer, W., Kumar, N., Belhumeur, P. N., & Boult, T. E. (2012).
+    Multi-attribute spaces: Calibration for attribute fusion and similarity search.
+    In CVPR.'
+- unstructured: Schmidhuber, J. (2012). Multi-column deep neural networks for image
+    classification. In CVPR.
+- unstructured: 'Sermanet, P., Eigen, D., Zhang, X., Mathieu, M., Fergus, R., & LeCun,
+    Y. (2013). Overfeat: Integrated recognition, localization and detection using
+    convolutional networks. CoRR, abs/1312.6229.'
+- doi: 10.1145/1401890.1401965
+  unstructured: Sheng, V. S., Provost, F., & Ipeirotis, P. G. (2008). Get another
+    label? Improving data quality and data mining using multiple, noisy labelers.
+    In SIGKDD.
+- unstructured: Simonyan, K., & Zisserman, A. (2014). Very deep convolutional networks
+    for large-scale image recognition. CoRR, abs/1409.1556.
+- unstructured: Simonyan, K., Vedaldi, A., & Zisserman, A. (2013). Deep fisher networks
+    for large-scale image classification. In NIPS.
+- doi: 10.1109/CVPRW.2008.4562953
+  unstructured: Sorokin, A., & Forsyth, D. (2008). Utility data annotation with Amazon
+    Mechanical Turk. In InterNet08.
+- unstructured: Su, H., Deng, J., & Fei-Fei, L. (2012). Crowdsourcing annotations
+    for visual object detection. In AAAI human computation workshop.
+- unstructured: Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D.,
+    Erhan, D., & Rabinovich, A. (2014). Going deeper with convolutions. Technical
+    report.
+- unstructured: Tang, Y. (2013). Deep learning using support vector machines. CoRR,
+    abs/1306.0239.
+- author: S Thorpe
+  doi: 10.1038/381520a0
+  first-page: '520'
+  issue: '6582'
+  journal-title: Nature
+  unstructured: Thorpe, S., Fize, D., Marlot, C., et al. (1996). Speed of processing
+    in the human visual system. Nature, 381(6582), 520–522.
+  volume: '381'
+  year: '1996'
+- doi: 10.1109/CVPR.2011.5995347
+  unstructured: Torralba, A., & Efros, A. A. (2011). Unbiased look at dataset bias.
+    In CVPR’11.
+- author: A Torralba
+  doi: 10.1109/TPAMI.2008.128
+  first-page: '1958'
+  journal-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  unstructured: 'Torralba, A., Fergus, R., & Freeman, W. (2008). 80 million tiny images:
+    A large data set for nonparametric object and scene recognition. IEEE Transactions
+    on Pattern Analysis and Machine Intelligence, 30, 1958–1970.'
+  volume: '30'
+  year: '2008'
+- author: J Uijlings
+  doi: 10.1007/s11263-013-0620-5
+  first-page: '154'
+  journal-title: International Journal of Computer Vision
+  unstructured: Uijlings, J., van de Sande, K., Gevers, T., & Smeulders, A. (2013).
+    Selective search for object recognition. International Journal of Computer Vision,
+    104, 154–171.
+  volume: '104'
+  year: '2013'
+- unstructured: Urtasun, R., Fergus, R., Hoiem, D., Torralba, A., Geiger, A., Lenz,
+    P., Silberman, N., Xiao, J., & Fidler, S. (2013–2014). Reconstruction meets recognition
+    challenge. http://ttic.uchicago.edu/rurtasun/rmrc/ .
+- doi: 10.1109/CVPR.2014.304
+  unstructured: van de Sande, K. E. A., Snoek, C. G. M., & Smeulders, A. W. M. (2014).
+    Fisher and vlad with flair. In Proceedings of the IEEE conference on computer
+    vision and pattern recognition.
+- doi: 10.1109/ICCV.2011.6126456
+  unstructured: van de Sande, K. E. A., Uijlings, J. R. R., Gevers, T., & Smeulders,
+    A. W. M. (2011b). Segmentation as selective search for object recognition. In
+    ICCV.
+- author: KEA Sande van de
+  doi: 10.1109/TPAMI.2009.154
+  first-page: '1582'
+  issue: '9'
+  journal-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  unstructured: van de Sande, K. E. A., Gevers, T., & Snoek, C. G. M. (2010). Evaluating
+    color descriptors for object and scene recognition. IEEE Transactions on Pattern
+    Analysis and Machine Intelligence, 32(9), 1582–1596.
+  volume: '32'
+  year: '2010'
+- author: KEA Sande van de
+  doi: 10.1109/TMM.2010.2091400
+  first-page: '60'
+  issue: '1'
+  journal-title: IEEE Transactions on Multimedia
+  unstructured: van de Sande, K. E. A., Gevers, T., & Snoek, C. G. M. (2011a). Empowering
+    visual categorization with the GPU. IEEE Transactions on Multimedia, 13(1), 60–70.
+  volume: '13'
+  year: '2011'
+- doi: 10.5244/C.25.109
+  unstructured: Vittayakorn, S., & Hays, J. (2011). Quality assessment for crowdsourced
+    object annotations. In BMVC.
+- unstructured: 'von Ahn, L., & Dabbish, L. (2005). Esp: Labeling images with a computer
+    game. In AAAI spring symposium: Knowledge collection from volunteer contributors.'
+- author: C Vondrick
+  first-page: '184'
+  journal-title: International Journal of Computer Vision
+  unstructured: Vondrick, C., Patterson, D., & Ramanan, D. (2012). Efficiently scaling
+    up crowdsourced video annotation. International Journal of Computer Vision, 1010,
+    184–204.
+  volume: '1010'
+  year: '2012'
+- unstructured: Wan, L., Zeiler, M., Zhang, S., LeCun, Y., & Fergus, R. (2013). Regularization
+    of neural networks using dropconnect. In Proceedings of the international conference
+    on machine learning (ICML’13).
+- unstructured: 'Wang, M., Xiao, T., Li, J., Hong, C., Zhang, J., & Zhang, Z. (2014).
+    Minerva: A scalable and highly efficient training platform for deep learning.
+    In APSys.'
+- doi: 10.1109/CVPR.2010.5540018
+  unstructured: Wang, J., Yang, J., Yu, K., Lv, F., Huang, T., & Gong, Y. (2010).
+    Locality-constrained linear coding for image classification. In CVPR.
+- doi: 10.1109/ICCV.2013.10
+  unstructured: Wang, X., Yang, M., Zhu, S., & Lin, Y. (2013). Regionlets for generic
+    object detection. In ICCV.
+- unstructured: Welinder, P., Branson, S., Belongie, S., & Perona, P. (2010). The
+    multidimensional wisdom of crowds. In NIPS.
+- doi: 10.1109/CVPR.2010.5539970
+  unstructured: 'Xiao, J., Hays, J., Ehinger, K., Oliva, A., & Torralba., A. (2010).
+    SUN database: Large-scale scene recognition from Abbey to Zoo. In CVPR.'
+- unstructured: Yang, J., Yu, K., Gong, Y., & Huang, T. (2009). Linear spatial pyramid
+    matching using sparse coding for image classification. In CVPR.
+- author: B Yao
+  unstructured: 'Yao, B., Yang, X., & Zhu, S.-C. (2007). Introduction to a large scale
+    general purpose ground truth dataset: methodology, annotation tool, and benchmarks.
+    Berlin: Springer.'
+  volume-title: 'Introduction to a large scale general purpose ground truth dataset:
+    methodology, annotation tool, and benchmarks'
+  year: '2007'
+- unstructured: Zeiler, M. D., & Fergus, R. (2013). Visualizing and understanding
+    convolutional networks. CoRR, abs/1311.2901.
+- doi: 10.1109/ICCV.2011.6126474
+  unstructured: Zeiler, M. D., Taylor, G. W., & Fergus, R. (2011). Adaptive deconvolutional
+    networks for mid and high level feature learning. In ICCV.
+- unstructured: Zhou, B., Lapedriza, A., Xiao, J., Torralba, A., & Oliva, A. (2014).
+    Learning deep features for scene recognition using places database. In NIPS.
+- doi: 10.1007/978-3-642-15555-0_11
+  unstructured: Zhou, X., Yu, K., Zhang, T., & Huang, T. (2010). Image classification
+    using super-vector coding of local image descriptors. In ECCV.
+doc_url: http://link.springer.com/content/pdf/10.1007/s11263-015-0816-y
+doi: 10.1007/s11263-015-0816-y
+files: []
+issue: '3'
+journal: International Journal of Computer Vision
+language: en
+month: 12
+pages: 211--252
+papis_id: 3e735b86d32d9ad26c628ab7de081906
+publisher: Springer Science and Business Media LLC
+ref: russakovsky-ijcv2015a
+time-added: 2026-09-25-21:53:42
+title: ImageNet Large Scale Visual Recognition Challenge
+type: article
+url: https://doi.org/10.1007/s11263-015-0816-y
+volume: '115'
+year: 2015
