@@ -1,0 +1,24 @@
+author: Heskes, Tom and Sijben, Evi and Bucur, Ioan Gabriel and Claassen, Tom
+author_list:
+- family: Heskes
+  given: Tom
+- family: Sijben
+  given: Evi
+- family: Bucur
+  given: Ioan Gabriel
+- family: Claassen
+  given: Tom
+booktitle: Advances in Neural Information Processing Systems
+editor: H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin
+files: []
+pages: 4778--4789
+papis_id: 41559e496653539feda32e196635519b
+publisher: Curran Associates, Inc.
+ref: heskes-neurips2020a
+time-added: 2026-09-25-22:12:25
+title: 'Causal Shapley Values: Exploiting Causal Knowledge to Explain Individual Predictions
+  of Complex Models'
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2020/file/32e54441e6382a7fbacbbbaf3c450059-Paper.pdf
+volume: '33'
+year: '2020'
