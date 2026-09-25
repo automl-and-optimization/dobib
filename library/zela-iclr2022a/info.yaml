@@ -1,0 +1,25 @@
+author: Zela, Arber and Siems, Julien Niklas and Zimmer, Lucas and Lukasik, Jovita
+  and Keuper, Margret and Hutter, Frank
+author_list:
+- family: Zela
+  given: Arber
+- family: Siems
+  given: Julien Niklas
+- family: Zimmer
+  given: Lucas
+- family: Lukasik
+  given: Jovita
+- family: Keuper
+  given: Margret
+- family: Hutter
+  given: Frank
+booktitle: International Conference on Learning Representations
+files: []
+papis_id: f6a3c54390422ab4b647177dc76779a1
+ref: zela-iclr2022a
+time-added: 2026-09-25-21:58:52
+title: 'Surrogate NAS Benchmarks: Going Beyond the Limited Search Spaces of Tabular
+  NAS Benchmarks'
+type: inproceedings
+url: https://openreview.net/forum?id=OnpFa95RVqs
+year: '2022'
