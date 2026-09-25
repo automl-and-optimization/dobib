@@ -1,0 +1,20 @@
+author: Covert, Ian and Lundberg, Scott and Lee, Su-In
+author_list:
+- family: Covert
+  given: Ian
+- family: Lundberg
+  given: Scott
+- family: Lee
+  given: Su-In
+files: []
+journal: Journal of Machine Learning Research
+number: '209'
+pages: 1--90
+papis_id: 11d0834a06f3ecd03049c88b17e79b7a
+ref: covert-jmlr2021a
+time-added: 2026-09-25-22:08:10
+title: 'Explaining by Removing: A Unified Framework for Model Explanation'
+type: article
+url: http://jmlr.org/papers/v22/20-1316.html
+volume: '22'
+year: '2021'
