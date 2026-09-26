@@ -1,0 +1,76 @@
+abstract: Optimizing industry-scale machine learning systems involves resource-intensive
+  black-box optimization. Adaptive experimentation substantially improves the sample
+  efficiency of such tasks compared with naive baselines (such as grid or random search)
+  by utilizing surrogate models and sequential optimization algorithms. Ax \url(https://ax.dev)
+  is an open-source platform for adaptive experimentation. Ax is highly extensible
+  and full-featured, and is used at scale at Meta.  We discuss Ax’s design, usage,
+  and performance. Off the shelf, Ax achieves state-of-the-art performance in a wide
+  range of synthetic and real-world black-box optimization tasks in machine learning,
+  engineering, and science.
+author: Olson, Miles and Santorella, Elizabeth and Tiao, Louis C. and Cakmak, Sait
+  and Garrard, Mia and Daulton, Samuel and Lin, Zhiyuan Jerry and Ament, Sebastian
+  and Beckerman, Bernard and Onofrey, Eric and Igusti, Paschal and Lara, Cristian
+  and Letham, Benjamin and Cardoso, Cesar and Shen, Shiyun Sunny and Lin, Andy Chenyuan
+  and Grange, Matthew and Kashtelyan, Elena and Eriksson, David and Balandat, Maximilian
+  and Bakshy, Eytan
+author_list:
+- family: Olson
+  given: Miles
+- family: Santorella
+  given: Elizabeth
+- family: Tiao
+  given: Louis C.
+- family: Cakmak
+  given: Sait
+- family: Garrard
+  given: Mia
+- family: Daulton
+  given: Samuel
+- family: Lin
+  given: Zhiyuan Jerry
+- family: Ament
+  given: Sebastian
+- family: Beckerman
+  given: Bernard
+- family: Onofrey
+  given: Eric
+- family: Igusti
+  given: Paschal
+- family: Lara
+  given: Cristian
+- family: Letham
+  given: Benjamin
+- family: Cardoso
+  given: Cesar
+- family: Shen
+  given: Shiyun Sunny
+- family: Lin
+  given: Andy Chenyuan
+- family: Grange
+  given: Matthew
+- family: Kashtelyan
+  given: Elena
+- family: Eriksson
+  given: David
+- family: Balandat
+  given: Maximilian
+- family: Bakshy
+  given: Eytan
+booktitle: Proceedings of the Fourth International Conference on Automated Machine
+  Learning
+editor: Akoglu, Leman and Doerr, Carola and van Rijn, Jan N. and Garnett, Roman and
+  Gardner, Jacob R.
+files: []
+month: 08--11 Sep
+pages: 21/1--25
+papis_id: dbf31222c379a6b379b1c9fa5afcdd67
+pdf: https://raw.githubusercontent.com/mlresearch/v293/main/assets/olson25a/olson25a.pdf
+publisher: PMLR
+ref: olson-automl2025a
+series: Proceedings of Machine Learning Research
+time-added: 2026-09-26-13:31:55
+title: 'Ax: A Platform for Adaptive Experimentation'
+type: inproceedings
+url: https://proceedings.mlr.press/v293/olson25a.html
+volume: '293'
+year: '2025'
