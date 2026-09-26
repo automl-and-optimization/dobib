@@ -31,12 +31,14 @@ harsanyi-ier1963a:
   # registered it that way, as it did for many pre-digital articles. The real
   # extent is International Economic Review 4(2), May 1963, pp. 194-220.
   pages: 194--220
- 
-yu-neurips2022a:
-  # for whatever reason the first author's name is in all lower cases
-  author: "Yu, Peng and Bifet, Albert and Read, Jesse and Xu, Chao"
-  # same here
-  title: "Linear TreeShap"
+
+#oquab-tmlr2023a:
+  # Author haziza all in upper-case
+  # author: "Oquab, Maxime and Darcet, Timoth{\'e}e and Moutakanni, Th{\'e}o and Vo, Huy V. and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and Assran, Mahmoud and Ballas, Nicolas and Galuba, Wojciech and Howes, Russell and Huang, Po-Yao and Li, Shang-Wen and Misra, Ishan and Rabbat, Michael and Sharma, Vasu and Synnaeve, Gabriel and Xu, Hu and Jegou, Herve and Mairal, Julien and Labatut, Patrick and Joulin, Armand and Bojanowski, Piotr"
+
+qu-icml2026a:
+  # for whatever reasen the first author's name was all in upper cases
+  author: "Qu, Jingang and Holzm{\"u}ller, David and Varoquaux, Ga{\"e}l and Le Morvan, Marine"
 
 rundel-icml2026a:
   # The authors styled the title as "$\texttt{ShaplEIG}$: ..." on OpenReview.
@@ -47,3 +49,9 @@ rundel-icml2026a:
   # title is restored here. arXiv carries it as plain text; the braces keep
   # styles that lowercase titles from touching the name.
   title: "{ShaplEIG}: Bayesian Experimental Design for Shapley Value Estimation"
+  
+yu-neurips2022a:
+  # for whatever reason the first author's name is in all lower cases
+  author: "Yu, Peng and Bifet, Albert and Read, Jesse and Xu, Chao"
+  # same here
+  title: "Linear TreeShap"
