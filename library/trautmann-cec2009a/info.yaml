@@ -1,0 +1,111 @@
+author: Trautmann, Heike and Mehnen, Jorn and Naujoks, Boris
+author_list:
+- affiliation: []
+  family: Trautmann
+  given: Heike
+- affiliation: []
+  family: Mehnen
+  given: Jorn
+- affiliation: []
+  family: Naujoks
+  given: Boris
+booktitle: 2009 IEEE Congress on Evolutionary Computation
+citations:
+- doi: 10.1109/ISDA.2005.15
+- article-title: pareto-front exploration with uncertain objectives
+  author: teich
+  first-page: '314'
+  journal-title: Evolutionary Multi-Criterion Optimization First International Conference
+    EMO 2001 Zurich Switzerland March 7- 9 2001 Proceedings volume 1993 of Lecture
+    Notes in Computer Science
+  year: '2001'
+- doi: 10.2307/1390807
+- article-title: 'the hypervolume indicator revisited: on the design of pareto-compliant
+    indicators via weighted integration'
+  author: zitzler
+  first-page: '862'
+  journal-title: EMO 2007 Proceedings
+  year: '2008'
+- doi: 10.1109/TEVC.2005.846356
+- doi: 10.1109/4235.797969
+- author: hollander
+  journal-title: Nonparametric Statistical Methods
+  year: '1999'
+- article-title: evolutionary multi-objective ranking with uncertainty and noise
+  author: hughes
+  first-page: '329'
+  journal-title: Evolutionary Multi-Criterion Optimization First International Conference
+    EMO 2001 Zurich Switzerland March 7-9 2001 Proceedings volume 1993 of Lecture
+    Notes in Computer Science
+  year: '2001'
+- doi: 10.1109/4235.996017
+- doi: 10.1109/CEC.2006.1688466
+- author: de berg
+  doi: 10.1007/978-3-662-04245-8
+  journal-title: Computational Geometry Algorithms and Applications
+  year: '2000'
+- doi: 10.1007/978-3-540-70928-2_9
+- article-title: handling uncertainties in evolutionary multiobjective optimization
+  author: tan
+  first-page: '262'
+  journal-title: WCCI 2008 Plenary and Invited Lectures
+  year: '2008'
+- doi: 10.1145/235815.235821
+- article-title: robust multi-objective optimisation of weld bead geometry for additive
+    manufacturing
+  author: mehnen
+  journal-title: Proceedings of 6th CIRP International Seminar on Intelligent Computation
+    in Manufacturing Engineering (CIRP ICME '08)
+  year: '2008'
+- article-title: a modified nsgaii to solve noisy multiobjective problems
+  author: babbar
+  first-page: '21'
+  journal-title: GECCO 2003 Proceedings Late Breaking Papers
+  volume: '2723'
+  year: '2003'
+- doi: 10.1109/TEVC.2005.859467
+- author: davies
+  first-page: '655'
+  journal-title: Robust Statistics Handbook of Computational Statistics
+  year: '2004'
+- article-title: analyzing hypervolume indicator based algorithms
+  author: brockhoff
+  first-page: '651'
+  journal-title: Parallel Problem Solving from Nature - PPSN X 10th International
+    Conference Dortmund Germany September 13-17 2008
+  year: '2008'
+- article-title: sequential sampling in noisy environments
+  author: branke
+  first-page: '202'
+  journal-title: Parallel Problem Solving from Nature - PPSN VIII 8th International
+    Conference Birmingham UK September 18- 22 2004 Proceedings
+  year: '2004'
+- article-title: 'a multiobjective evolutionary algorithm: the study cases'
+  author: binh
+  journal-title: Technical report Institute for Automation and Communication
+  year: '1999'
+- article-title: a preliminary study on handling uncertainty in indicator-based multiobjective
+    optimization
+  author: basseur
+  first-page: '727'
+  journal-title: Evoworkshops
+  year: '2006'
+- author: collette
+  journal-title: Multiobjective Optimization Principles and Case Studies
+  year: '2003'
+- doi: 10.1109/TSMCB.2002.804372
+doc_url: http://xplorestaging.ieee.org/ielx5/4939002/4982922/04983338.pdf?arnumber=4983338
+doi: 10.1109/cec.2009.4983338
+eventtitle: 2009 IEEE Congress on Evolutionary Computation (CEC)
+files: []
+month: 5
+pages: 3119--3126
+papis_id: 478a7646704b5f50827ecba2cb82ae5b
+publisher: IEEE
+ref: trautmann-cec2009a
+time-added: 2026-11-24-10:53:11
+title: Pareto-dominance in noisy environments
+type: inproceedings
+url: https://doi.org/10.1109/cec.2009.4983338
+venue: Trondheim, Norway
+year: 2009
