@@ -1,0 +1,966 @@
+abstract: <jats:p>Hyperparameter optimization constitutes a large part of typical
+  modern machine learning (ML) workflows. This arises from the fact that ML methods
+  and corresponding preprocessing steps often only yield optimal performance when
+  hyperparameters are properly tuned. But in many applications, we are not only interested
+  in optimizing ML pipelines solely for predictive accuracy; additional metrics or
+  constraints must be considered when determining an optimal configuration, resulting
+  in a multi-objective optimization problem. This is often neglected in practice,
+  due to a lack of knowledge and readily available software implementations for multi-objective
+  hyperparameter optimization. In this work, we introduce the reader to the basics
+  of multi-objective hyperparameter optimization and motivate its usefulness in applied
+  ML. Furthermore, we provide an extensive survey of existing optimization strategies
+  from the domains of evolutionary algorithms and Bayesian optimization. We illustrate
+  the utility of multi-objective optimization in several specific ML applications,
+  considering objectives such as operating conditions, prediction time, sparseness,
+  fairness, interpretability, and robustness.</jats:p>
+author: Karl, Florian and Pielok, Tobias and Moosbauer, Julia and Pfisterer, Florian
+  and Coors, Stefan and Binder, Martin and Schneider, Lennart and Thomas, Janek and
+  Richter, Jakob and Lang, Michel and Garrido-Merchán, Eduardo C. and Branke, Juergen
+  and Bischl, Bernd
+author_list:
+- affiliation:
+  - name: LMU Munich, Fraunhofer Institut für integrierte Schaltungen, Germany
+  family: Karl
+  given: Florian
+- affiliation:
+  - name: LMU Munich, Munich Center for Machine Learning, Germany
+  family: Pielok
+  given: Tobias
+- affiliation:
+  - name: LMU Munich, Munich Center for Machine Learning, Germany
+  family: Moosbauer
+  given: Julia
+- affiliation:
+  - name: LMU Munich, Munich Center for Machine Learning, Germany
+  family: Pfisterer
+  given: Florian
+- affiliation:
+  - name: LMU Munich, Munich Center for Machine Learning, Germany
+  family: Coors
+  given: Stefan
+- affiliation:
+  - name: LMU Munich, Munich Center for Machine Learning, Germany
+  family: Binder
+  given: Martin
+- affiliation:
+  - name: LMU Munich, Munich Center for Machine Learning, Germany
+  family: Schneider
+  given: Lennart
+- affiliation:
+  - name: LMU Munich, Munich Center for Machine Learning, Germany
+  family: Thomas
+  given: Janek
+- affiliation:
+  - name: LMU Munich, Technische Universität Dortmund, Germany
+  family: Richter
+  given: Jakob
+- affiliation:
+  - name: Technische Universität Dortmund, Germany
+  family: Lang
+  given: Michel
+- affiliation:
+  - name: Universidad Autónoma de Madrid, Spain
+  family: Garrido-Merchán
+  given: Eduardo C.
+- affiliation:
+  - name: Warwick Business School, UK
+  family: Branke
+  given: Juergen
+- affiliation:
+  - name: LMU Munich, Munich Center for Machine Learning, Germany
+  family: Bischl
+  given: Bernd
+citations:
+- doi: 10.1109/EMS.2014.28
+- author: Abdolshah Majid
+  first-page: '12214'
+  unstructured: 'Majid Abdolshah, Alistair Shilton, Santu Rana, Sunil Gupta, and Svetha
+    Venkatesh. 2019. Multi-objective Bayesian optimisation with preferences over objectives.
+    In Advances in Neural Information Processing Systems 32: Annual Conference on
+    Neural Information Processing Systems 2019. 12214–12224.'
+  volume-title: 'Advances in Neural Information Processing Systems 32: Annual Conference
+    on Neural Information Processing Systems 2019'
+  year: '2019'
+- author: Abraham Ajith
+  unstructured: 'Ajith Abraham and Lakhmi Jain. 2006. Evolutionary Multiobjective
+    Optimization: Theoretical Advances and Applications. Springer, London, UK. 2004052555.
+    https://books.google.de/books?id=KHOQu7R_POoC'
+  volume-title: 'Evolutionary Multiobjective Optimization: Theoretical Advances and
+    Applications'
+  year: '2006'
+- doi: 10.2139/ssrn.3711681
+  unstructured: 'Ashrya Agrawal Florian Pfisterer Bernd Bischl Jiahao Chen Srijan
+    Sood Sameena Shah Francois Buet-Golfouse Bilal A. Mateen and Sebastian Vollmer.
+    2020. Debiasing classifiers: Is reality at variance with expectation? arXiv:2011.02407
+    (2020).'
+- doi: 10.1109/ACCESS.2018.2807385
+- doi: 10.1145/3292500.3330701
+- doi: 10.1109/ACCESS.2020.3007291
+- unstructured: Julia Angwin Jeff Larson Surya Mattu and Lauren Kichner. 2016. Machine
+    Bias. Retrieved September 14 2023 from https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+- doi: 10.1111/rssb.12377
+- doi: 10.1016/j.inffus.2019.12.012
+- author: Astudillo Raul
+  unstructured: Raul Astudillo and Peter Frazier. 2017. Multi-attribute Bayesian optimization
+    under utility uncertainty. In Proceedings of the NIPS Workshop on Bayesian Optimization,
+    Vol. 172.
+  volume: '172'
+  volume-title: Proceedings of the NIPS Workshop on Bayesian Optimization
+  year: '2017'
+- doi: 10.1007/978-3-319-68913-5
+- doi: 10.3390/a13030067
+- author: Baker Bowen
+  unstructured: 'Bowen Baker, Otkrist Gupta, Ramesh Raskar, and Nikhil Naik. 2018.
+    Accelerating neural architecture search using performance prediction. In Proceedings
+    of the 6th International Conference on Learning Representations (ICLR’18): Workshop
+    Track.'
+  volume-title: 'Proceedings of the 6th International Conference on Learning Representations
+    (ICLR’18): Workshop Track'
+  year: '2018'
+- author: Balandat Maximilian
+  unstructured: 'Maximilian Balandat, Brian Karrer, Daniel R. Jiang, Samuel Daulton,
+    Benjamin Letham, Andrew Gordon Wilson, and Eytan Bakshy. 2020. BoTorch: A framework
+    for efficient Monte-Carlo Bayesian optimization. In Advances in Neural Information
+    Processing Systems 33: Annual Conference on Neural Information Processing Systems
+    2020 (NeurIPS’20).'
+  volume-title: 'Advances in Neural Information Processing Systems 33: Annual Conference
+    on Neural Information Processing Systems 2020 (NeurIPS’20).'
+  year: '2020'
+- doi: 10.1016/j.neucom.2019.01.110
+- unstructured: Vincent Ballet Xavier Renard Jonathan Aigrain Thibault Laugel Pascal
+    Frossard and Marcin Detyniecki. 2019. Imperceptible adversarial attacks on tabular
+    data. arXiv:1911.03274 (2019).
+- author: Banerjee Mohua
+  doi: 10.1007/3-540-33019-4_1
+  first-page: '3'
+  series-title: Studies in Computational Intelligence
+  unstructured: Mohua Banerjee, Sushmita Mitra, and Ashish Anand. 2006. Feature selection
+    using rough sets. In Multi-Objective Machine Learning, Yaochu Jin (Ed.). Studies
+    in Computational Intelligence, Vol. 16. Springer, 3–20.
+  volume-title: Multi-Objective Machine Learning
+  year: '2006'
+- author: Barocas Solon
+  unstructured: 'Solon Barocas, Moritz Hardt, and Arvind Narayanan. 2018. Fairness
+    and Machine Learning: Limitations and Opportunities. Retrieved September 14, 2023
+    from http://www.fairmlbook.org'
+  volume-title: 'Fairness and Machine Learning: Limitations and Opportunities'
+  year: '2018'
+- author: Bastani Osbert
+  unstructured: 'Osbert Bastani, Yani Ioannou, Leonidas Lampropoulos, Dimitrios Vytiniotis,
+    Aditya V. Nori, and Antonio Criminisi. 2016. Measuring neural net robustness with
+    constraints. In Advances in Neural Information Processing Systems 29: Annual Conference
+    on Neural Information Processing Systems.'
+  volume-title: 'Advances in Neural Information Processing Systems 29: Annual Conference
+    on Neural Information Processing Systems'
+  year: '2016'
+- author: Belakaria Syrine
+  unstructured: 'Syrine Belakaria, Aryan Deshwal, and Janardhan Rao Doppa. 2019. Max-value
+    entropy search for multi-objective Bayesian optimization. In Advances in Neural
+    Information Processing Systems 32: Annual Conference on Neural Information Processing
+    Systems 2019.'
+  volume-title: 'Advances in Neural Information Processing Systems 32: Annual Conference
+    on Neural Information Processing Systems 2019'
+  year: '2019'
+- doi: 10.1609/aaai.v34i06.6560
+- doi: 10.1515/9781400874668
+- author: Bender Gabriel
+  first-page: '550'
+  unstructured: Gabriel Bender, Pieter-Jan Kindermans, Barret Zoph, Vijay Vasudevan,
+    and Quoc Le. 2018. Understanding and simplifying one-shot architecture search.
+    In Proceedings of the International Conference on Machine Learning. 550–559.
+  volume-title: Proceedings of the International Conference on Machine Learning
+  year: '2018'
+- doi: 10.24963/ijcai.2021/592
+- article-title: Random search for hyper-parameter optimization.
+  author: Bergstra James
+  issue: '2'
+  journal-title: Journal of Machine Learning Research
+  unstructured: James Bergstra and Yoshua Bengio. 2012. Random search for hyper-parameter
+    optimization. Journal of Machine Learning Research 13, 2 (2012), 281–305.
+  volume: '13'
+  year: '2012'
+- doi: 10.1016/j.patcog.2015.10.010
+- author: Bi Jinbo
+  first-page: '43'
+  unstructured: Jinbo Bi and Kristin P. Bennett. 2003. Regression error characteristic
+    curves. In Proceedings of the 20th International Conference on Machine Learning
+    (ICML’03). 43–50.
+  volume-title: Proceedings of the 20th International Conference on Machine Learning
+    (ICML’03)
+  year: '2003'
+- doi: 10.1145/3377930.3389815
+- unstructured: 'Bernd Bischl Martin Binder Michel Lang Tobias Pielok Jakob Richter
+    Stefan Coors Janek Thomas Theresa Ullmann Marc Becker Anne-Laure Boulesteix Difan
+    Deng and Marius Lindauer. 2021. Hyperparameter optimization: Foundations algorithms
+    best practices and open challenges. arxiv:2107.05847 [stat.ML] (2021).'
+- doi: 10.1162/EVCO_a_00069
+- doi: 10.1007/978-3-319-09584-4_17
+  unstructured: 'Bernd Bischl Simon Wessing Nadja Bauer Klaus Friedrichs and Claus
+    Weihs. 2014. MOI-MBO: Multiobjective infill for parallel model-based optimization.
+    In Learning and Intelligent Optimization. Lecture Notes in Computer Science Vol.
+    8426. Springer 173–186.'
+- doi: 10.1007/978-3-030-12598-1_19
+  unstructured: Julian Blank Kalyanmoy Deb and Proteek Chandan Roy. 2019. Investigating
+    the normalization procedure of NSGA-III. In Evolutionary Multi-Criterion Optimization.
+    Lecture Notes in Computer Science Vol. 11411. Springer 229–240.
+- doi: 10.1007/978-3-319-50349-3_3
+- doi: 10.1155/2017/7907163
+- doi: 10.1016/j.csda.2019.106839
+- doi: 10.1145/3377930.3390155
+- doi: 10.1007/978-1-4939-3094-4_23
+- author: Branke Jürgen
+  doi: 10.1007/978-3-540-44511-1_21
+  first-page: '461'
+  unstructured: Jürgen Branke and Kalyanmoy Deb. 2005. Integrating user preferences
+    into evolutionary multi-objective optimization. In Knowledge Incorporation in
+    Evolutionary Computation. Springer, 461–477.
+  volume-title: Knowledge Incorporation in Evolutionary Computation
+  year: '2005'
+- doi: 10.1007/978-3-540-30217-9_73
+  unstructured: Jürgen Branke Kalyanmoy Deb Henning Dierolf and Matthias Osswald.
+    2004. Finding knees in multi-objective optimization. In Parallel Problem Solving
+    from Nature—PPSN VIII. Lecture Notes in Computer Science Vol. 3242. Springer 722–731.
+- doi: 10.1007/978-3-540-88908-3
+- author: Branke Jürgen
+  first-page: '243'
+  unstructured: Jürgen Branke, Christian Schmidt, and Hartmut Schmeck. 2001. Efficient
+    fitness estimation in noisy environments. In Proceedings of the Genetic and Evolutionary
+    Computation Conference. 243–250.
+  volume-title: Proceedings of the Genetic and Evolutionary Computation Conference
+  year: '2001'
+- doi: 10.1609/aimag.v33i1.2367
+- doi: 10.1080/01605682.2021.1922098
+- author: Cai Han
+  unstructured: 'Han Cai, Ligeng Zhu, and Song Han. 2019. ProxylessNAS: Direct neural
+    architecture search on target task and hardware. In Proceedings of the 7th International
+    Conference on Learning Representations.'
+  volume-title: Proceedings of the 7th International Conference on Learning Representations
+  year: '2019'
+- doi: 10.1016/j.neunet.2020.03.007
+- doi: 10.1016/j.artmed.2021.102154
+- doi: 10.1111/1540-5915.02254
+- unstructured: Zachariah Carmichael Tim Moon and Sam A. Jacobs. 2021. Learning interpretable
+    models through multi-objective neural architecture search. arXiv:2112.08645 (2021).
+- doi: 10.1145/1014052.1014063
+- doi: 10.3390/electronics8080832
+- doi: 10.1109/SLT.2016.7846303
+- doi: 10.1016/j.patcog.2009.07.006
+- doi: 10.1007/978-3-031-14714-2_12
+  unstructured: 'Zefeng Chen Yuren Zhou Zhengxin Huang and Xiaoyun Xia. 2022. Towards
+    efficient multiobjective hyperparameter optimization: A multiobjective multi-fidelity
+    Bayesian optimization and Hyperband algorithm. In Parallel Problem Solving from
+    Nature—PPSN XVII. Lecture Notes in Computer Science Vol. 13398. Springer 160–174.'
+- doi: 10.1609/aaai.v34i04.5767
+- doi: 10.1007/978-3-030-86523-8_8
+  unstructured: 'Ting-Wu Chin Ari S. Morcos and Diana Marculescu. 2021. Joslim: Joint
+    widths and weights optimization for slimmable neural networks. In Machine Learning
+    and Knowledge Discovery in Databases: Research Track. Lecture Notes in Computer
+    Science Vol. 12977. Springer 119–134.'
+- doi: 10.1007/978-3-030-66823-5_6
+  unstructured: Xiangxiang Chu Bo Zhang and Ruijun Xu. 2020. Multi-objective reinforced
+    evolution in mobile neural architecture search. In Computer Vision—ECCV 2020 Workshops.
+    Lecture Notes in Computer Science Vol. 12538. Springer 99–113.
+- author: Coello Carlos A. Coello
+  unstructured: Carlos A. Coello Coello, Gary B. Lamont, and David A. van Veldhuizen.
+    2007. Evolutionary Algorithms for Solving Multi-Objective Problems. Springer US.
+  volume-title: Evolutionary Algorithms for Solving Multi-Objective Problems
+  year: '2007'
+- doi: 10.1007/978-3-540-24694-7_71
+  unstructured: 'Carlos A. Coello Coello and Margarita R. Sierra. 2004. A study of
+    the parallelization of a coevolutionary multi-objective evolutionary algorithm.
+    In MICAI 2004: Advances in Artificial Intelligence. Lecture Notes in Computer
+    Science Vol. 2972. Springer 688–697.'
+- doi: 10.1145/3531146.3533150
+- article-title: AUC optimization vs. error rate minimization
+  author: Cortes Corinna
+  first-page: '313'
+  journal-title: Advances in Neural Information Processing Systems
+  unstructured: Corinna Cortes and Mehryar Mohri. 2003. AUC optimization vs. error
+    rate minimization. Advances in Neural Information Processing Systems 16 (2003),
+    313–320.
+  volume: '16'
+  year: '2003'
+- doi: 10.1016/j.dss.2009.05.016
+- doi: 10.1002/(SICI)1099-1360(199801)7:1<34::AID-MCDA161>3.0.CO;2-6
+- doi: 10.3233/IDA-1997-1302
+- author: Daulton Samuel
+  unstructured: Samuel Daulton, Maximilian Balandat, and Eytan Bakshy. 2021. Parallel
+    Bayesian optimization of multiple noisy objectives with expected hypervolume improvement.
+    In Advances in Neural Information Processing Systems.
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2021'
+- doi: 10.1145/1143844.1143874
+- doi: 10.24963/ijcai.2020/365
+- doi: 10.5555/559152
+- doi: 10.1162/evco.2006.14.4.463
+- doi: 10.1109/TEVC.2013.2281535
+- author: Deb Kalyanmoy
+  first-page: '1'
+  unstructured: 'Kalyanmoy Deb and Kaisa Miettinen. 2009. A review of nadir point
+    estimation procedures using evolutionary approaches: A tale of dimensionality
+    reduction. In Proceedings of the Multiple Criterion Decision Making Conference
+    (MCDM’08). 1–14.'
+  volume-title: Proceedings of the Multiple Criterion Decision Making Conference (MCDM’08)
+  year: '2009'
+- doi: 10.1109/4235.996017
+- doi: 10.1007/s00521-021-06024-4
+- author: Dong Jin-Dong
+  unstructured: 'Jin-Dong Dong, An-Chieh Cheng, Da-Cheng Juan, Wei Wei, and Min Sun.
+    2018. PPP-Net: Platform-aware progressive search for Pareto-optimal neural architectures.
+    In Proceedings of the 6th International Conference on Learning Representations:
+    Workshop Track.'
+  volume-title: 'Proceedings of the 6th International Conference on Learning Representations:
+    Workshop Track'
+  year: '2018'
+- doi: 10.1109/TMI.2004.841227
+- doi: 10.1007/978-3-319-91641-5_12
+- author: Eggensperger Katharina
+  unstructured: 'Katharina Eggensperger, Philipp Müller, Neeratyoy Mallik, Matthias
+    Feurer, René Sass, Aaron Klein, Noor H. Awad, Marius Lindauer, and Frank Hutter.
+    2021. HPOBench: A collection of reproducible multi-fidelity benchmark problems
+    for HPO. In Proceedings of the Neural Information Processing Systems Track on
+    Datasets and Benchmarks 1 (NeurIPS’21).'
+  volume-title: Proceedings of the Neural Information Processing Systems Track on
+    Datasets and Benchmarks 1 (NeurIPS’21)
+  year: '2021'
+- doi: 10.5555/1121732
+- author: Elsken Thomas
+  unstructured: Thomas Elsken, Jan Hendrik Metzen, and Frank Hutter. 2019. Efficient
+    multi-objective neural architecture search via Lamarckian evolution. In Proceedings
+    of the 7th International Conference on Learning Representations.
+  volume-title: Proceedings of the 7th International Conference on Learning Representations
+  year: '2019'
+- doi: 10.1007/978-3-540-31880-4_5
+- doi: 10.1007/s11047-018-9685-y
+- doi: 10.1109/CEC.2011.5949880
+- doi: 10.1109/TEVC.2005.859463
+- doi: 10.1007/978-3-319-29975-4_12
+- doi: 10.1016/j.patrec.2005.10.016
+- unstructured: 'Stefan Falkner Aaron Klein and Frank Hutter. 2018. BOHB: Robust and
+    efficient hyperparameter optimization at scale. In Proceedings of the 35th International
+    Conference on Machine Learning. 1436–1445.'
+- author: Fan Xinjie
+  first-page: '2996'
+  unstructured: Xinjie Fan, Yuguang Yue, Purnamrita Sarkar, and Y. X. Rachel Wang.
+    2020. On hyperparameter tuning in general clustering problems. In Proceedings
+    of the International Conference on Machine Learning. 2996–3007.
+  volume-title: Proceedings of the International Conference on Machine Learning
+  year: '2020'
+- doi: 10.1016/j.patrec.2005.10.010
+- author: Feurer Matthias
+  first-page: '2962'
+  unstructured: Matthias Feurer, Aaron Klein, Katharina Eggensperger, Jost Springenberg,
+    Manuel Blum, and Frank Hutter. 2015. Efficient and robust automated machine learning.
+    In Advances in Neural Information Processing Systems. 2962–2970.
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2015'
+- author: Fieldsend Jonathan E.
+  first-page: '93'
+  unstructured: Jonathan E. Fieldsend. 2009. Optimizing Decision Trees Using Multi-Objective
+    Particle Swarm Optimization. Springer, Berlin, Germany, 93–114.
+  volume-title: Optimizing Decision Trees Using Multi-Objective Particle Swarm Optimization
+  year: '2009'
+- unstructured: Jonathan E. Fieldsend and Richard M. Everson. 2005. Formulation and
+    comparison of multi-class ROC surfaces. In Proceedings of the 2nd ROCML Workshop
+    Held within the 22nd International Conference on Machine Learning (ICML’05). 41–48.
+- doi: 10.1109/TEVC.2014.2304415
+- doi: 10.1098/rspa.2007.1900
+- doi: 10.1145/3287560.3287589
+- author: Fürnkranz Johannes
+  unstructured: Johannes Fürnkranz and Eyke Hüllermeier. 2010. Preference Learning.
+    Springer, Boston, MA.
+  volume-title: Preference Learning
+  year: '2010'
+- article-title: Parallel predictive entropy search for multi-objective Bayesian optimization
+    with constraints
+  author: Garrido-Merchán Eduardo C.
+  journal-title: arXiv preprint arXiv:2004.00601
+  unstructured: Eduardo C. Garrido-Merchán and Daniel Hernández-Lobato. 2020. Parallel
+    predictive entropy search for multi-objective Bayesian optimization with constraints.
+    arXiv preprint arXiv:2004.00601 (2020).
+  year: '2020'
+- unstructured: Justin Gilmer Nicolas Ford Nicholas Carlini and Ekin Cubuk. 2019.
+    Adversarial examples are a natural consequence of test error in noise. InProceedings
+    of the 36th International Conference on Machine Learning. 2280–2289.
+- doi: 10.5555/3305381.3305514
+- author: Goodfellow Ian J.
+  unstructured: 'Ian J. Goodfellow and Christian Szegedy. 2015. Explaining and harnessing
+    adversarial examples. In Proceedings of the 3rd International Conference on Learning
+    Representations: Conference Track.'
+  volume-title: 'Proceedings of the 3rd International Conference on Learning Representations:
+    Conference Track'
+  year: '2015'
+- doi: 10.1016/j.cor.2021.105489
+- article-title: Normalization and other topics in multi-objective optimization
+  author: Grodzevich Oleg
+  journal-title: Proceedings of the Fields-MITACS Industrial Problems Workshop
+  unstructured: Oleg Grodzevich and Oleksandr Romanko. 2006. Normalization and other
+    topics in multi-objective optimization. In Proceedings of the Fields-MITACS Industrial
+    Problems Workshop.
+  year: '2006'
+- doi: 10.7717/peerj-cs.338
+- article-title: Survey of evolutionary algorithms used in multiobjective optimization
+  author: Guliashki Vassil
+  first-page: '42'
+  issue: '1'
+  journal-title: Problems of Engineering Cybernetics and Robotics
+  unstructured: Vassil Guliashki, Hristo Toshev, and Chavdar Korsemov. 2009. Survey
+    of evolutionary algorithms used in multiobjective optimization. Problems of Engineering
+    Cybernetics and Robotics 60, 1 (2009), 42–54.
+  volume: '60'
+  year: '2009'
+- doi: 10.1109/CVPR42600.2020.00071
+- doi: 10.1007/s10479-013-1369-5
+- doi: 10.5555/944919.944968
+- doi: 10.1023/A:1010920819831
+- unstructured: Michael P. Hansen and Andrzej Jaszkiewicz. 1998. Evaluating the Quality
+    of Approximations to the Non-Dominated Set. Department of Mathematical Modelling
+    IMM Technical University of Denmark.
+- author: Hardt Moritz
+  first-page: '3315'
+  unstructured: Moritz Hardt, Eric Price, and Nathan Srebro. 2016. Equality of opportunity
+    in supervised learning. In Advances in Neural Information Processing Systems.
+    3315–3323.
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2016'
+- doi: 10.1109/CVPR.2016.90
+- doi: 10.1109/TEVC.2021.3076514
+- doi: 10.1016/j.knosys.2020.106622
+- author: Hernández-Lobato Daniel
+  first-page: '1492'
+  unstructured: Daniel Hernández-Lobato, José Miguel Hernández-Lobato, Amar Shah,
+    and Ryan P. Adams. 2016a. Predictive entropy search for multi-objective Bayesian
+    optimization. In Proceedings of the International Conference on Machine Learning.
+    1492–1501.
+  volume-title: Proceedings of the International Conference on Machine Learning
+  year: '2016'
+- author: Hernández-Lobato José Miguel
+  unstructured: José Miguel Hernández-Lobato, Michael A. Gelbart, Brandon Reagen,
+    Robert Adolf, Daniel Hernández-Lobato, Paul N. Whatmough, David Brooks, Gu-Yeon
+    Wei, and Ryan P. Adams. 2016b. Designing neural network hardware accelerators
+    with decoupled objective evaluations. In Proceedings of the NIPS Workshop on Bayesian
+    Optimization.
+  volume-title: Proceedings of the NIPS Workshop on Bayesian Optimization
+  year: '2016'
+- first-page: '1'
+  unstructured: 'High-Level Expert Group on Artificial Intelligence. 2019. Ethics
+    Guidelines for Trustworthy AI. European Commission. https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai
+    Kenneth Holstein, Jennifer Wortman Vaughan, Hal Daumé III, Miroslav Dudík, and
+    Hanna M. Wallach. 2019. Improving fairness in machine learning systems: What do
+    industry practitioners need? In Proceedings of the 2019 Conference on Human Factors
+    in Computing Systems. ACM, New York, NY, 1–16.'
+  volume-title: Ethics Guidelines for Trustworthy AIProceedings of the 2019 Conference
+    on Human Factors in Computing Systems
+  year: '2019'
+- author: Horn Daniel
+  unstructured: Daniel Horn. 2010. Multi-Objective Analysis of Machine Learning Algorithms
+    Using Model-Based Optimization Techniques. Ph. D. Dissertation. Technische Universität
+    Dortmund.
+  volume-title: Multi-Objective Analysis of Machine Learning Algorithms Using Model-Based
+    Optimization Techniques
+  year: '2010'
+- doi: 10.1109/SSCI.2016.7850221
+- doi: 10.1007/978-3-319-54157-0_21
+- doi: 10.1007/978-3-319-15934-8_5
+- unstructured: 'Andrew G. Howard Menglong Zhu Bo Chen Dmitry Kalenichenko Weijun
+    Wang Tobias Weyand Marco Andreetto and Hartwig Adam. 2017. MobileNets: Efficient
+    convolutional neural networks for mobile vision applications. arXiv:1704.04861
+    (2017).'
+- article-title: 'Monas: Multi-objective neural architecture search using reinforcement
+    learning'
+  author: Hsu Chi-Hung
+  journal-title: arXiv preprint arXiv:1806.10332
+  unstructured: 'Chi-Hung Hsu, Shu-Huan Chang, Jhao-Hong Liang, Hsin-Ping Chou, Chun-Hao
+    Liu, Shih-Chieh Chang, Jia-Yu Pan, Yu-Ting Chen, Wei Wei, and Da-Cheng Juan. 2018.
+    Monas: Multi-objective neural architecture search using reinforcement learning.
+    arXiv preprint arXiv:1806.10332 (2018).'
+  year: '2018'
+- doi: 10.1007/s00158-005-0587-0
+- doi: 10.1109/CVPR.2017.243
+- doi: 10.1109/TKDE.2005.50
+- doi: 10.1007/3-540-44719-9_23
+- doi: 10.1145/3299872
+- unstructured: 'Aminul Huq and Mst. Tasnim Pervin. 2020. Adversarial attacks and
+    defense on texts: A survey. arXiv:2005.14108 (2020).'
+- doi: 10.1007/978-3-642-25566-3_40
+- author: Hutter Frank
+  unstructured: 'Frank Hutter, Lars Kotthoff, and Joaquin Vanschoren (Eds.). 2018.
+    Automated Machine Learning: Methods, Systems, Challenges. Springer. http://automl.org/book'
+  volume-title: 'Automated Machine Learning: Methods, Systems, Challenges'
+  year: '2018'
+- article-title: 'FlexiBO: Cost-aware multi-objective optimization of deep neural
+    networks'
+  author: Iqbal Md. Shahriar
+  journal-title: CoRR
+  unstructured: 'Md. Shahriar Iqbal, Jianhai Su, Lars Kotthoff, and Pooyan Jamshidi.
+    2020. FlexiBO: Cost-aware multi-objective optimization of deep neural networks.
+    CoRR abs/2001.06588 (2020).'
+  volume: '2001'
+  year: '2020'
+- article-title: Expected hypervolume improvement for simultaneous multi-objective
+    and multi-fidelity optimization
+  author: Irshad Faran
+  journal-title: arXiv preprint arXiv:2112.13901
+  unstructured: Faran Irshad, Stefan Karsch, and Andreas Döpp. 2021. Expected hypervolume
+    improvement for simultaneous multi-objective and multi-fidelity optimization.
+    arXiv preprint arXiv:2112.13901 (2021).
+  year: '2021'
+- doi: 10.1007/s40747-017-0061-9
+- doi: 10.1162/evco_a_00226
+- doi: 10.1109/CEC.2008.4631121
+- author: Izquierdo Sergio
+  unstructured: Sergio Izquierdo, Julia Guerrero-Viu, Sven Hauns, Guilherme Miotto,
+    Simon Schrodi, André Biedenkapp, Thomas Elsken, Difan Deng, Marius Lindauer, and
+    Frank Hutter. 2021. Bag of baselines for multi-objective joint neural architecture
+    search and hyperparameter optimization. In Proceedings of the 8th ICML Workshop
+    on Automated Machine Learning (AutoML’21).
+  volume-title: Proceedings of the 8th ICML Workshop on Automated Machine Learning
+    (AutoML’21)
+  year: '2021'
+- doi: 10.1109/TEVC.2013.2281534
+- doi: 10.1017/CBO9780511921803
+- doi: 10.1109/CEC.2005.1554959
+- doi: 10.1007/3-540-33019-4
+- doi: 10.1109/TEVC.2005.846356
+- doi: 10.1109/TSMCC.2008.919172
+- doi: 10.1023/A:1012771025575
+- doi: 10.1023/A:1008306431147
+- doi: 10.1109/FUZZ-IEEE.2014.6891545
+- doi: 10.1007/s10115-011-0463-8
+- article-title: 'Tuning hyperparameters without grad students: Scalable and robust
+    Bayesian optimisation with Dragonfly'
+  author: Kandasamy Kirthevasan
+  first-page: Article 81, 27
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Kirthevasan Kandasamy, Karun Raju Vysyaraju, Willie Neiswanger, Biswajit
+    Paria, Christopher R. Collins, Jeff Schneider, Barnabás Póczos, and Eric P. Xing.
+    2020. Tuning hyperparameters without grad students: Scalable and robust Bayesian
+    optimisation with Dragonfly. Journal of Machine Learning Research 21 (2020), Article
+    81, 27 pages.'
+  volume: '21'
+  year: '2020'
+- doi: 10.18653/v1/2021.emnlp-main.701
+- doi: 10.1145/3491209
+- author: Kendall Alex
+  first-page: '5574'
+  unstructured: 'Alex Kendall and Yarin Gal. 2017. What uncertainties do we need in
+    Bayesian deep learning for computer vision? In Advances in Neural Information
+    Processing Systems 30: Annual Conference on Neural Information Processing Systems
+    2017. 5574–5584.'
+  volume-title: 'Advances in Neural Information Processing Systems 30: Annual Conference
+    on Neural Information Processing Systems 2017'
+  year: '2017'
+- author: Kim Ye-Hoon
+  unstructured: 'Ye-Hoon Kim, Bhargava Reddy, Sojung Yun, and Chanwon Seo. 2017. NEMO:
+    Neuro-evolution with multiobjective optimization of deep neural network for speed
+    and accuracy. In Proceedings of the ICML 2017 AutoML Workshop.'
+  volume-title: Proceedings of the ICML 2017 AutoML Workshop
+  year: '2017'
+- author: Kindermans Pieter-Jan
+  doi: 10.1007/978-3-030-28954-6_14
+  first-page: '267'
+  unstructured: 'Pieter-Jan Kindermans, Sara Hooker, Julius Adebayo, Maximilian Alber,
+    Kristof T. Schütt, Sven Dähne, Dumitru Erhan, and Been Kim. 2019. The (un)reliability
+    of saliency methods. In Explainable AI: Interpreting, Explaining and Visualizing
+    Deep Learning. Springer, 267–280.'
+  volume-title: 'Explainable AI: Interpreting, Explaining and Visualizing Deep Learning'
+  year: '2019'
+- unstructured: Aaron Klein Louis C. Tiao Thibaut Lienart Cedric Archambeau and Matthias
+    Seeger. 2020. Model-based asynchronous hyperparameter and neural architecture
+    search. arXiv:2003.10865 (2020).
+- doi: 10.1109/TEVC.2005.851274
+  unstructured: 'Joshua Knowles. 2006. ParEGO: A hybrid algorithm with on-line landscape
+    approximation for expensive multiobjective optimization problems. IEEE Transactions
+    on Evolutionary Computation 10 1 (2006) 50–66.'
+- doi: 10.1007/978-3-642-01020-0_8
+- article-title: Reducing local optima in single-objective problems by multi-objectivization
+  author: Knowles Joshua
+  journal-title: Lecture Notes in Computer Science, Vol. 1993. Springer, 269–283
+  unstructured: Joshua Knowles, Richard Watson, and David Corne. 2001. Reducing local
+    optima in single-objective problems by multi-objectivization. In Evolutionary
+    Multi-Criterion Optimization. Lecture Notes in Computer Science, Vol. 1993. Springer,
+    269–283.
+  year: '2001'
+- unstructured: 'Nicolas Knudde Joachim van der Herten Tom Dhaene and Ivo Couckuyt.
+    2017. GPflowOpt: A Bayesian optimization library using TensorFlow. arXiv:1711.03845
+    (2017).'
+- doi: 10.1016/j.asoc.2015.01.005
+- doi: 10.1016/S0004-3702(97)00043-X
+- author: Lahoti Preethi
+  unstructured: 'Preethi Lahoti, Alex Beutel, Jilin Chen, Kang Lee, Flavien Prost,
+    Nithum Thain, Xuezhi Wang, and Ed Chi. 2020. Fairness without demographics through
+    adversarially reweighted learning. In Advances in Neural Information Processing
+    Systems 33: Annual Conference on Neural Information Processing Systems 2020.'
+  volume-title: 'Advances in Neural Information Processing Systems 33: Annual Conference
+    on Neural Information Processing Systems 2020'
+  year: '2020'
+- author: Lakshminarayanan Balaji
+  unstructured: Balaji Lakshminarayanan, Alexander Pritzel, and Charles Blundell.
+    2017. Simple and scalable predictive uncertainty estimation using deep ensembles.
+    In Advances in Neural Information Processing Systems, Vol. 30. Curran Associates,
+    1–12.
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2017'
+- doi: 10.1109/TEVC.2009.2024143
+- doi: 10.1109/ICCVW.2019.00134
+- doi: 10.3389/fgene.2019.00452
+- author: LeCun Yann
+  doi: 10.1007/3-540-46805-6_19
+  first-page: '319'
+  unstructured: Yann LeCun, Patrick Haffner, Léon Bottou, and Yoshua Bengio. 1999.
+    Object recognition with gradient-based learning. In Shape, Contour and Grouping
+    in Computer Vision. Springer, 319–345.
+  volume-title: Shape, Contour and Grouping in Computer Vision
+  year: '1999'
+- doi: 10.1007/978-3-540-88051-6_5
+- doi: 10.1145/2330163.2330285
+- first-page: '286'
+  unstructured: Julien-Charles Levesque, Audrey Durand, Christian Gagné, and Robert
+    Sabourin. 2017. Bayesian optimization for conditional hyperparameter spaces. In
+    Proceedings of the 2017 International Joint Conference on Neural Networks. IEEE,
+    Los Alamitos, CA, 286–293.
+  volume-title: Proceedings of the 2017 International Joint Conference on Neural Networks
+  year: '2017'
+- article-title: 'Hyperband: A novel bandit-based approach to hyperparameter optimization'
+  author: Li Lisha
+  first-page: Article 185, 52
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Lisha Li, Kevin G. Jamieson, Giulia DeSalvo, Afshin Rostamizadeh,
+    and Ameet Talwalkar. 2017. Hyperband: A novel bandit-based approach to hyperparameter
+    optimization. Journal of Machine Learning Research 18 (2017), Article 185, 52
+    pages.'
+  volume: '18'
+  year: '2017'
+- author: Li Liam
+  unstructured: Liam Li, Kevin G. Jamieson, Afshin Rostamizadeh, Ekaterina Gonina,
+    Jonathan Ben-tzur, Moritz Hardt, Benjamin Recht, and Ameet Talwalkar. 2020. A
+    system for massively parallel hyperparameter tuning. In Proceedings of Machine
+    Learning and Systems 2020 (MLSys’20). https://mlsys.org
+  volume-title: Proceedings of Machine Learning and Systems 2020 (MLSys’20)
+  year: '2020'
+- doi: 10.1145/3154815
+- doi: 10.1109/TEVC.2016.2638437
+- doi: 10.1145/3447548.3467061
+- doi: 10.1145/3321707.3321721
+- doi: 10.1109/CEC.2010.5586072
+- author: Lin Zhiyuan Jerry
+  first-page: '4235'
+  unstructured: Zhiyuan Jerry Lin, Raul Astudillo, Peter Frazier, and Eytan Bakshy.
+    2022. Preference exploration for efficient Bayesian optimization with multiple
+    outcomes. In Proceedings of the International Conference on Artificial Intelligence
+    and Statistics. 4235–4258.
+  volume-title: Proceedings of the International Conference on Artificial Intelligence
+    and Statistics
+  year: '2022'
+- doi: 10.3390/e23010018
+- doi: 10.1145/3236386.3241340
+- author: Liu Hanxiao
+  unstructured: Hanxiao Liu, Karen Simonyan, Oriol Vinyals, Chrisantha Fernando, and
+    Koray Kavukcuoglu. 2018. Hierarchical representations for efficient architecture
+    search. In Proceedings of the 6th International Conference on Learning Representations.
+  volume-title: Proceedings of the 6th International Conference on Learning Representations
+  year: '2018'
+- doi: 10.1007/s11263-019-01247-4
+- doi: 10.1145/3229762.3229767
+- doi: 10.1016/j.micpro.2020.102989
+- doi: 10.1007/978-3-030-30487-4_17
+  unstructured: 'Mohammad Loni Ali Zoljodi Sima Sinaei Masoud Daneshtalab and Mikael
+    Sjödin. 2019. NeuroPower: Designing energy efficient convolutional neural network
+    architecture for embedded systems. In Artificial Neural Networks and Machine Learning—ICANN
+    2019: Theoretical Neural Computation. Lecture Notes in Computer Science Vol. 11727.
+    Springer 208–222.'
+- article-title: 'Neural architecture search as multiobjective optimization benchmarks:
+    Problem formulation and performance assessment'
+  author: Lu Zhichao
+  journal-title: IEEE Transactions on Evolutionary Computation.
+  unstructured: 'Zhichao Lu, Ran Cheng, Yaochu Jin, Kay Chen Tan, and Kalyanmoy Deb.
+    2023. Neural architecture search as multiobjective optimization benchmarks: Problem
+    formulation and performance assessment. IEEE Transactions on Evolutionary Computation.
+    Early access, January 2, 2023.'
+  year: '2023'
+- doi: 10.1109/CVPR42600.2020.01206
+- doi: 10.1007/978-3-030-58452-8_3
+- doi: 10.1145/3321707.3321729
+- doi: 10.1007/s13721-016-0125-6
+- author: Madry Aleksander
+  unstructured: 'Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras,
+    and Adrian Vladu. 2018. Towards deep learning models resistant to adversarial
+    attacks. In Proceedings of the 6th International Conference on Learning Representations:
+    Conference Track.'
+  volume-title: 'Proceedings of the 6th International Conference on Learning Representations:
+    Conference Track'
+  year: '2018'
+- author: Mao Chengzhi
+  first-page: '478'
+  unstructured: 'Chengzhi Mao, Ziyuan Zhong, Junfeng Yang, Carl Vondrick, and Baishakhi
+    Ray. 2019. Metric learning for adversarial robustness. In Advances in Neural Information
+    Processing Systems 32: Annual Conference on Neural Information Processing Systems
+    2019. 478–489.'
+  volume-title: 'Advances in Neural Information Processing Systems 32: Annual Conference
+    on Neural Information Processing Systems 2019'
+  year: '2019'
+- author: Martinez Natalia
+  first-page: '6755'
+  unstructured: 'Natalia Martinez, Martin Bertran, and Guillermo Sapiro. 2020. Minimax
+    Pareto fairness: A multi objective perspective. In Proceedings of the 37th International
+    Conference on Machine Learning, Vol. 119. 6755–6764.'
+  volume: '119'
+  volume-title: Proceedings of the 37th International Conference on Machine Learning
+  year: '2020'
+- doi: 10.1145/3457607
+- author: Mierswa Ingo
+  unstructured: Ingo Mierswa. 2009. Non-Convex and Multi-Objective Optimization in
+    Data Mining. Ph. D. Dissertation. Technische Universität Dortmund.
+  volume-title: Non-Convex and Multi-Objective Optimization in Data Mining
+  year: '2009'
+- doi: 10.1145/1143997.1144248
+- author: Miettinen Kaisa
+  unstructured: Kaisa Miettinen. 2012. Nonlinear Multiobjective Optimization. Springer
+    US.
+  volume-title: Nonlinear Multiobjective Optimization
+  year: '2012'
+- doi: 10.1016/j.ijar.2013.04.003
+- doi: 10.1007/s10458-022-09577-3
+- author: Molnar Christoph
+  unstructured: 'Christoph Molnar. 2019. Interpretable Machine Learning: A Guide for
+    Making Black Box Models Explainable. Retrieved September 14, 2023 from https://christophm.github.io/interpretable-ml-book/'
+  volume-title: 'Interpretable Machine Learning: A Guide for Making Black Box Models
+    Explainable'
+  year: '2019'
+- unstructured: Christoph Molnar Giuseppe Casalicchio and Bernd Bischl. 2019. Quantifying
+    interpretability of arbitrary machine learning models through functional decomposition.
+    arXiv:1904.03867 (2019).
+- doi: 10.1109/MASCOTS.2019.00045
+- doi: 10.1109/ICSMC.2011.6083734
+- doi: 10.18653/v1/2020.acl-main.755
+- author: Olson Randal S.
+  first-page: '66'
+  unstructured: 'Randal S. Olson and Jason H. Moore. 2016. TPOT: A tree-based pipeline
+    optimization tool for automating machine learning. In Proceedings of the 2016
+    Workshop on Automatic Machine Learning, Co-Located with the 33rd International
+    Conference on Machine Learningl. 66–74.'
+  volume-title: Proceedings of the 2016 Workshop on Automatic Machine Learning, Co-Located
+    with the 33rd International Conference on Machine Learningl
+  year: '2016'
+- doi: 10.1007/978-3-319-31204-0_9
+  unstructured: Randal S. Olson Ryan J. Urbanowicz Peter C. Andrews Nicole A. Lavender
+    La Creis Kidd and Jason H. Moore. 2016. Automating biomedical data science through
+    tree-based pipeline optimization. In Applications of Evolutionary Computation.
+    Lecture Notes in Computer Science Vol. 9597. Springer 123–137.
+- article-title: Evaluation metrics for unsupervised learning algorithms
+  author: Palacio-Niño Julio-Omar
+  journal-title: arXiv preprint arXiv:1905.05667
+  unstructured: Julio-Omar Palacio-Niño and Fernando Berzal. 2019. Evaluation metrics
+    for unsupervised learning algorithms. arXiv preprint arXiv:1905.05667 (2019).
+  year: '2019'
+- doi: 10.1145/2001576.2001684
+- doi: 10.1109/ICCAD45719.2019.8942046
+- doi: 10.3389/fnins.2020.00667
+- author: Peck Jonathan
+  first-page: '804'
+  unstructured: Jonathan Peck, Joris Roels, Bart Goossens, and Yvan Saeys. 2017. Lower
+    bounds on the robustness to adversarial perturbations. In Advances in Neural Information
+    Processing Systems 30. Curran Associates, 804–813.
+  volume-title: Advances in Neural Information Processing Systems 30
+  year: '2017'
+- unstructured: Guilherme D. Pelegrina Renan D. B. Brotto Leonardo T. Duarte Romis
+    Attux and João M. T. Romano. 2020. A novel multi-objective-based approach to analyze
+    trade-offs in fair principal component analysis. arXiv:2006.06137 (2020).
+- doi: 10.1145/3461702.3462629
+- doi: 10.1145/3494672
+- unstructured: Florian Pfisterer Stefan Coors Janek Thomas and Bernd Bischl. 2019.
+    Multi-objective automatic machine learning with AutoxgboostMC. arxiv:1908.10796
+    [stat.ML] (2019).
+- unstructured: Florian Pfisterer Lennart Schneider Julia Moosbauer Martin Binder
+    and Bernd Bischl. 2022. YAHPO gym—An efficient multi-objective multi-fidelity
+    benchmark for hyperparameter optimization. In Proceedings of the 2022 International
+    Conference on Automated Machine Learning Vol. 188. Article 3 39 pages.
+- author: Pham Hieu
+  first-page: '4095'
+  unstructured: Hieu Pham, Melody Guan, Barret Zoph, Quoc Le, and Jeff Dean. 2018.
+    Efficient neural architecture search via parameters sharing. In Proceedings of
+    the International Conference on Machine Learning. 4095–4104.
+  volume-title: Proceedings of the International Conference on Machine Learning
+  year: '2018'
+- doi: 10.1109/CEC45853.2021.9504773
+- doi: 10.1007/978-3-540-87700-4_78
+  unstructured: Wolfgang Ponweiser Tobias Wagner Dirk Biermann and Markus Vincze.
+    2008. Multiobjective optimization on a limited budget of evaluations using model-assisted
+    \(\mathcal {S}\) -metric selection. In Parallel Problem Solving from Nature—PPSN
+    X. Lecture Notes in Computer Science Vol. 5199. Springer 784–794.
+- author: Qin Hao
+  first-page: '120'
+  unstructured: Hao Qin, Takahiro Shinozaki, and Kevin Duh. 2017. Evolution strategy
+    based automatic tuning of neural machine translation systems. In Proceedings of
+    the 14th International Workshop on Spoken Language Translation. 120–128.
+  volume-title: Proceedings of the 14th International Workshop on Spoken Language
+    Translation
+  year: '2017'
+- article-title: Multi-objective hyper-parameter optimization of behavioral song embeddings
+  author: Quadrana Massimo
+  journal-title: arXiv preprint arXiv:2208.12724
+  unstructured: Massimo Quadrana, Antoine Larreche-Mouly, and Matthias Mauch. 2022.
+    Multi-objective hyper-parameter optimization of behavioral song embeddings. arXiv
+    preprint arXiv:2208.12724 (2022).
+  year: '2022'
+- doi: 10.1109/ACCESS.2020.3011502
+- doi: 10.1109/ISLPED.2017.8009208
+- doi: 10.1016/j.ejor.2019.12.014
+- doi: 10.1016/j.cor.2019.104869
+- doi: 10.18653/v1/2021.emnlp-main.575
+- unstructured: David Salinas Valerio Perrone Olivier Cruchant and Cédric Archambeau.
+    2021. A multi-objective perspective on jointly tuning hardware and hyperparameters.
+    arXiv:2106.05680 (2021).
+- doi: 10.1109/CVPR.2018.00474
+- doi: 10.1007/s42979-021-00592-x
+- article-title: Multi-objective multi-fidelity hyperparameter optimization with application
+    to fairness
+  author: Schmucker Robin
+  journal-title: Proceedings of the NeurIPS Workshop on Meta-Learning.
+  unstructured: Robin Schmucker, Michele Donini, Valerio Perrone, Muhammad Bilal Zafar,
+    and Cedric Archambeau. 2020. Multi-objective multi-fidelity hyperparameter optimization
+    with application to fairness. In Proceedings of the NeurIPS Workshop on Meta-Learning.
+  year: '2020'
+- unstructured: Robin Schmucker Michele Donini Muhammad Bilal Zafar David Salinas
+    and Cédric Archambeau. 2021. Multi-objective asynchronous successive halving.
+    arXiv:2106.12639 (2021).
+- author: Shah Amar
+  first-page: '1919'
+  unstructured: Amar Shah and Zoubin Ghahramani. 2016. Pareto frontier learning with
+    expensive correlated objectives. In Proceedings of the International Conference
+    on Machine Learning. 1919–1927.
+  volume-title: Proceedings of the International Conference on Machine Learning
+  year: '2016'
+- doi: 10.1109/ISCA.2014.6853196
+- doi: 10.1007/978-981-15-3685-4_4
+- doi: 10.1007/978-3-540-31880-4_35
+- author: Smith Lewis
+  first-page: '560'
+  unstructured: Lewis Smith and Yarin Gal. 2018. Understanding measures of uncertainty
+    for adversarial example detection. In Proceedings of the 34th Conference on Uncertainty
+    in Artificial Intelligence. 560–569.
+  volume-title: Proceedings of the 34th Conference on Uncertainty in Artificial Intelligence
+  year: '2018'
+- doi: 10.1145/2966986.2967058
+- author: Snoek Jasper
+  first-page: '2960'
+  unstructured: Jasper Snoek, Hugo Larochelle, and Ryan P. Adams. 2012. Practical
+    Bayesian optimization of machine learning algorithms. In Proceedings of the 26th
+    Annual Conference on Neural Information Processing Systems. 2960–2968.
+  volume-title: Proceedings of the 26th Annual Conference on Neural Information Processing
+    Systems.
+  year: '2012'
+- author: Suttorp Thorsten
+  doi: 10.1007/3-540-33019-4_9
+  first-page: '199'
+  series-title: Studies in Computational Intelligence
+  unstructured: Thorsten Suttorp and Christian Igel. 2006. Multi-objective optimization
+    of support vector machines. In Multi-Objective Machine Learning, Yaochu Jin (Ed.).
+    Studies in Computational Intelligence, Vol. 16. Springer, 199–220.
+  volume-title: Multi-Objective Machine Learning
+  year: '2006'
+- doi: 10.1016/j.ejor.2009.11.003
+- unstructured: TAILOR. 2022. Strategic Research and Innovation Roadmap of Trustworthy
+    AI. Retrieved September 14, 2023 from https://tailor-network.eu/researchoverview/strategic-research-and-innovation-roadmap/
+  volume-title: Strategic Research and Innovation Roadmap of Trustworthy AI
+  year: '2022'
+- doi: 10.1109/CVPR.2019.00293
+- author: Tan Mingxing
+  first-page: '6105'
+  unstructured: 'Mingxing Tan and Quoc Le. 2019. EfficientNet: Rethinking model scaling
+    for convolutional neural networks. In Proceedings of the International Conference
+    on Machine Learning. 6105–6114.'
+  volume-title: Proceedings of the International Conference on Machine Learning
+  year: '2019'
+- doi: 10.1109/TEVC.2019.2909744
+- doi: 10.1109/SLT.2016.7846334
+- article-title: Measuring robustness to natural distribution shifts in image classification
+  author: Taori Rohan
+  first-page: '18583'
+  journal-title: Advances in Neural Information Processing Systems
+  unstructured: Rohan Taori, Achal Dave, Vaishaal Shankar, Nicholas Carlini, Benjamin
+    Recht, and Ludwig Schmidt. 2020. Measuring robustness to natural distribution
+    shifts in image classification. Advances in Neural Information Processing Systems
+    33 (2020), 18583–18599.
+  volume: '33'
+  year: '2020'
+- author: Tramèr Florian
+  unstructured: 'Florian Tramèr, Alexey Kurakin, Nicolas Papernot, Ian J. Goodfellow,
+    Dan Boneh, and Patrick D. McDaniel. 2018. Ensemble adversarial training: Attacks
+    and defenses. In Proceedings of the 6th International Conference on Learning Representations:
+    Conference Track.'
+  volume-title: 'Proceedings of the 6th International Conference on Learning Representations:
+    Conference Track'
+  year: '2018'
+- author: Tsipras Dimitris
+  unstructured: Dimitris Tsipras, Shibani Santurkar, Logan Engstrom, Alexander Turner,
+    and Aleksander Madry. 2019. Robustness may be at odds with accuracy. In Proceedings
+    of the 7th International Conference on Learning Representations.
+  volume-title: Proceedings of the 7th International Conference on Learning Representations
+  year: '2019'
+- doi: 10.1109/TEVC.2014.2313407
+- doi: 10.1109/ICCPCT.2015.7159422
+- doi: 10.1007/s40747-020-00148-1
+- doi: 10.1007/978-3-030-72062-9_41
+  unstructured: Bing Wang Hemant Kumar Singh and Tapabrata Ray. 2021b. Investigating
+    normalization bounds for hypervolume-based infill criterion for expensive multiobjective
+    optimization. In Proceedings of the 11th International Conference on Evolutionary
+    Multi-Criterion Optimization (EMO’21). 519–530.
+- doi: 10.1145/3321707.3321735
+- unstructured: Chunnan Wang Hongzhi Wang Guocheng Feng and Fei Geng. 2020. Multi-objective
+    neural architecture search based on diverse structures and adaptive recommendation.
+    arXiv:2007.02749 (2020).
+- doi: 10.1007/s00500-015-1940-x
+- doi: 10.1007/s40747-017-0053-9
+- unstructured: 'Rey Reza Wiyatno Anqi Xu Ousmane Dia and Archy de Berker. 2019. Adversarial
+    examples in modern machine learning: A review. arXiv:1911.05268 (2019).'
+- doi: 10.1007/s10994-011-5268-1
+- doi: 10.1109/TSMCB.2012.2227469
+- doi: 10.1109/TEVC.2015.2504420
+- doi: 10.1007/s10898-019-00798-7
+- doi: 10.1145/3321707.3321784
+- doi: 10.1016/j.neucom.2020.07.061
+- unstructured: 'Quanming Yao Mengshuo Wang Yuqiang Chen Wenyuan Dai Hu Yi-Qi Li Yu-Feng
+    Tu Wei-Wei Yang Qiang and Yu Yang. 2018. Taking human out of learning applications:
+    A survey on automated machine learning. arXiv:1810.13306 (2018).'
+- author: Zaidi Sheheryar
+  unstructured: Sheheryar Zaidi, Arber Zela, Thomas Elsken, Chris Holmes, Frank Hutter,
+    and Yee Whye Teh. 2021. Neural ensemble search for uncertainty estimation and
+    dataset shift. In Advances in Neural Information Processing Systems.
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2021'
+- unstructured: Kun Zhang Bernhard Schölkopf Krikamol Muandet and Zhikun Wang. 2013b.
+    Domain adaptation under target and conditional shift. In Proceedings of the 30th
+    International Conference on Machine Learning Vol. 28. Article 3 9 pages.
+- doi: 10.1109/TEVC.2007.892759
+- doi: 10.1145/2463372.2463561
+- doi: 10.1109/CVPR.2018.00716
+- doi: 10.1142/9789814619998_0081
+- doi: 10.1007/978-3-540-70928-2_64
+  unstructured: 'Eckart Zitzler Dimo Brockhoff and Lothar Thiele. 2006. The hypervolume
+    indicator revisited: On the design of Pareto-compliant indicators via weighted
+    integration. In Evolutionary Multi-Criterion Optimization. Lecture Notes in Computer
+    Science Vol. 4403. Springer 862–876.'
+- doi: 10.1007/BFb0056872
+  unstructured: Eckart Zitzler and Lothar Thiele. 1998. Multiobjective optimization
+    using evolutionary algorithms—A comparative case study. In Parallel Problem Solving
+    from Nature—PPSN V. Lecture Notes in Computer Science Vol. 1498. Springer 292–304.
+- doi: 10.1109/TEVC.2003.810758
+- doi: 10.1007/s10618-017-0506-1
+doc_url: https://dl.acm.org/doi/pdf/10.1145/3610536
+doi: 10.1145/3610536
+files: []
+issue: '4'
+journal: ACM Transactions on Evolutionary Learning and Optimization
+language: en
+month: 12
+pages: 1--50
+papis_id: 7a82ff359ce489c68ad78a53e3e6ec90
+publisher: Association for Computing Machinery (ACM)
+ref: karl-telo2023a
+time-added: 2026-11-24-10:42:42
+title: Multi-Objective Hyperparameter Optimization in Machine Learning—An Overview
+type: article
+url: https://doi.org/10.1145/3610536
+volume: '3'
+year: 2023
