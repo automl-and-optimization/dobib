@@ -1,0 +1,711 @@
+author: Feurer, Matthias and Hutter, Frank
+author_list:
+- affiliation: []
+  family: Feurer
+  given: Matthias
+- affiliation: []
+  family: Hutter
+  given: Frank
+booktitle: Automated Machine Learning
+citations:
+- unstructured: 'Proceedings of the International Conference on Learning Representations
+    (ICLR’18) (2018), published online: iclr.cc'
+- unstructured: 'Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro,
+    C., Corrado, G., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I.,
+    Harp, A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur,
+    M., Levenberg, J., Mané, D., Monga, R., Moore, S., Murray, D., Olah, C., Schuster,
+    M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P., Vanhoucke,
+    V., Vasudevan, V., Viégas, F., Vinyals, O., Warden, P., Wattenberg, M., Wicke,
+    M., Yu, Y., Zheng, X.: TensorFlow: Large-scale machine learning on heterogeneous
+    systems (2015), https://www.tensorflow.org/'
+- unstructured: 'Ahmed, M., Shahriari, B., Schmidt, M.: Do we need “harmless” Bayesian
+    optimization and “first-order” Bayesian optimization. In: NeurIPS Workshop on
+    Bayesian Optimization (BayesOpt’16) (2016)'
+- unstructured: 'Alaa, A., van der Schaar, M.: AutoPrognosis: Automated Clinical Prognostic
+    Modeling via Bayesian Optimization with Structured Kernel Learning. In: Dy and
+    Krause [27], pp. 139–148'
+- doi: 10.1017/CBO9780511569920.007
+  unstructured: 'Almeida, L.B., Langlois, T., Amaral, J.D., Plakhov, A.: Parameter
+    Adaptation in Stochastic Optimization, p. 111–134. Cambridge University Press
+    (1999)'
+- unstructured: 'Amazon: Automatic model tuning (2018), https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning.html'
+- unstructured: 'Bach, F., Blei, D. (eds.): Proceedings of the 32nd International
+    Conference on Machine Learning (ICML’15), vol. 37. Omnipress (2015)'
+- unstructured: 'Balcan, M., Weinberger, K. (eds.): Proceedings of the 33rd International
+    Conference on Machine Learning (ICML’17), vol. 48. Proceedings of Machine Learning
+    Research (2016)'
+- unstructured: 'Bartlett, P., Pereira, F., Burges, C., Bottou, L., Weinberger, K.
+    (eds.): Proceedings of the 26th International Conference on Advances in Neural
+    Information Processing Systems (NeurIPS’12) (2012)'
+- unstructured: 'Baydin, A.G., Cornish, R., Rubio, D.M., Schmidt, M., Wood, F.: Online
+    Learning Rate Adaption with Hypergradient Descent. In: Proceedings of the International
+    Conference on Learning Representations (ICLR’18) [1], published online: iclr.cc'
+- unstructured: 'BBOBies: Black-box Optimization Benchmarking (BBOB) workshop series
+    (2018), http://numbbo.github.io/workshops/index.html'
+- unstructured: 'Bergstra, J., Bardenet, R., Bengio, Y., Kégl, B.: Algorithms for
+    hyper-parameter optimization. In: Shawe-Taylor, J., Zemel, R., Bartlett, P., Pereira,
+    F., Weinberger, K. (eds.) Proceedings of the 25th International Conference on
+    Advances in Neural Information Processing Systems (NeurIPS’11). pp. 2546–2554
+    (2011)'
+- author: J Bergstra
+  first-page: '281'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Bergstra, J., Bengio, Y.: Random search for hyper-parameter optimization.
+    Journal of Machine Learning Research 13, 281–305 (2012)'
+  volume: '13'
+  year: '2012'
+- unstructured: 'Bergstra, J., Yamins, D., Cox, D.: Making a science of model search:
+    Hyperparameter optimization in hundreds of dimensions for vision architectures.
+    In: Dasgupta and McAllester [23], pp. 115–123'
+- unstructured: 'Bertrand, H., Ardon, R., Perrot, M., Bloch, I.: Hyperparameter optimization
+    of deep neural networks: Combining hyperband with Bayesian model selection. In:
+    Conférence sur l’Apprentissage Automatique (2017)'
+- author: B Bischl
+  doi: 10.1162/EVCO_a_00069
+  first-page: '249'
+  issue: '2'
+  journal-title: Evolutionary Computation
+  unstructured: 'Bischl, B., Mersmann, O., Trautmann, H., Weihs, C.: Resampling methods
+    for meta-model validation with recommendations for evolutionary computation. Evolutionary
+    Computation 20(2), 249–275 (2012)'
+  volume: '20'
+  year: '2012'
+- unstructured: 'Van den Bosch, A.: Wrapped progressive sampling search for optimizing
+    learning algorithm parameters. In: Proceedings of the sixteenth Belgian-Dutch
+    Conference on Artificial Intelligence. pp. 219–226 (2004)'
+- unstructured: 'Brochu, E., Cora, V., de Freitas, N.: A tutorial on Bayesian optimization
+    of expensive cost functions, with application to active user modeling and hierarchical
+    reinforcement learning. arXiv:1012.2599v1 [cs.LG] (2010)'
+- doi: 10.1007/978-3-319-27677-9_4
+  unstructured: 'Bürger, F., Pauli, J.: A Holistic Classification Optimization Framework
+    with Feature Selection, Preprocessing, Manifold Learning and Classifiers., pp.
+    52–68. Springer (2015)'
+- unstructured: 'Cawley, G., Talbot, N.: On Overfitting in Model Selection and Subsequent
+    Selection Bias in Performance Evaluation. Journal of Machine Learning Research
+    11 (2010)'
+- doi: 10.1007/978-3-319-71249-9_29
+  unstructured: 'Chandrashekaran, A., Lane, I.: Speeding up Hyper-parameter Optimization
+    by Extrapolation of Learning Curves using Previous Builds. In: Ceci, M., Hollmen,
+    J., Todorovski, L., Vens, C., Džeroski, S. (eds.) Machine Learning and Knowledge
+    Discovery in Databases (ECML/PKDD’17). Lecture Notes in Computer Science, vol.
+    10534. Springer (2017)'
+- doi: 10.1109/ICASSP.2013.6639346
+  unstructured: 'Dahl, G., Sainath, T., Hinton, G.: Improving deep neural networks
+    for LVCSR using rectified linear units and dropout. In: Adams, M., Zhao, V. (eds.)
+    International Conference on Acoustics, Speech and Signal Processing (ICASSP’13).
+    pp. 8609–8613. IEEE Computer Society Press (2013)'
+- unstructured: 'Dasgupta, S., McAllester, D. (eds.): Proceedings of the 30th International
+    Conference on Machine Learning (ICML’13). Omnipress (2014)'
+- author: T Desautels
+  first-page: '4053'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Desautels, T., Krause, A., Burdick, J.: Parallelizing exploration-exploitation
+    tradeoffs in Gaussian process bandit optimization. Journal of Machine Learning
+    Research 15, 4053–4103 (2014)'
+  volume: '15'
+  year: '2014'
+- unstructured: 'Dewancker, I., McCourt, M., Clark, S., Hayes, P., Johnson, A., Ke,
+    G.: A stratified analysis of Bayesian optimization methods. arXiv:1603.09441v1
+    [cs.LG] (2016)'
+- unstructured: 'Domhan, T., Springenberg, J.T., Hutter, F.: Speeding up automatic
+    hyperparameter optimization of deep neural networks by extrapolation of learning
+    curves. In: Yang, Q., Wooldridge, M. (eds.) Proceedings of the 25th International
+    Joint Conference on Artificial Intelligence (IJCAI’15). pp. 3460–3468 (2015)'
+- unstructured: 'Dy, J., Krause, A. (eds.): Proceedings of the 35th International
+    Conference on Machine Learning (ICML’18), vol. 80. Proceedings of Machine Learning
+    Research (2018)'
+- doi: 10.1007/BFb0040812
+  unstructured: 'Eberhart, R., Shi, Y.: Comparison between genetic algorithms and
+    particle swarm optimization. In: Porto, V., Saravanan, N., Waagen, D., Eiben,
+    A. (eds.) 7th International conference on evolutionary programming. pp. 611–616.
+    Springer (1998)'
+- unstructured: 'Eggensperger, K., Feurer, M., Hutter, F., Bergstra, J., Snoek, J.,
+    Hoos, H., Leyton-Brown, K.: Towards an empirical foundation for assessing Bayesian
+    optimization of hyperparameters. In: NeurIPS Workshop on Bayesian Optimization
+    in Theory and Practice (BayesOpt’13) (2013)'
+- author: H Escalante
+  first-page: '405'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Escalante, H., Montes, M., Sucar, E.: Particle Swarm Model Selection.
+    Journal of Machine Learning Research 10, 405–440 (2009)'
+  volume: '10'
+  year: '2009'
+- doi: 10.1109/IJCNN.2010.5596915
+  unstructured: 'Escalante, H., Montes, M., Sucar, E.: Ensemble particle swarm model
+    selection. In: Proceedings of the 2010 IEEE International Joint Conference on
+    Neural Networks (IJCNN). pp. 1–8. IEEE Computer Society Press (2010)'
+- author: Hugo Jair Escalante
+  doi: 10.1007/978-3-642-10268-4_66
+  first-page: '563'
+  unstructured: 'Escalante, H., Montes, M., Villaseñor, L.: Particle swarm model selection
+    for authorship verification. In: Bayro-Corrochano, E., Eklundh, J.O. (eds.) Progress
+    in Pattern Recognition, Image Analysis, Computer Vision, and Applications. pp.
+    563–570 (2009)'
+  volume-title: Progress in Pattern Recognition, Image Analysis, Computer Vision,
+    and Applications
+  year: '2009'
+- unstructured: 'Falkner, S., Klein, A., Hutter, F.: BOHB: Robust and Efficient Hyperparameter
+    Optimization at Scale. In: Dy and Krause [27], pp. 1437–1446'
+- unstructured: 'Feurer, M., Klein, A., Eggensperger, K., Springenberg, J.T., Blum,
+    M., Hutter, F.: Efficient and robust automated machine learning. In: Cortes, C.,
+    Lawrence, N., Lee, D., Sugiyama, M., Garnett, R. (eds.) Proceedings of the 29th
+    International Conference on Advances in Neural Information Processing Systems
+    (NeurIPS’15). pp. 2962–2970 (2015)'
+- author: S Fischer
+  unstructured: 'Fischer, S., Klinkenberg, R., Mierswa, I., Ritthoff, O.: Yale: Yet
+    another learning environment – tutorial. Tech. rep., University of Dortmund (2002)'
+  volume-title: 'Yale: Yet another learning environment – tutorial'
+  year: '2002'
+- unstructured: 'Franceschi, L., Donini, M., Frasconi, P., Pontil, M.: Forward and
+    Reverse Gradient-Based Hyperparameter Optimization. In: Precup and Teh [122],
+    pp. 1165–1173'
+- unstructured: 'Franceschi, L., Frasconi, P., Salzo, S., Grazzi, R., Pontil, M.:
+    Bilevel Programming for Hyperparameter Optimization and Meta-Learning. In: Dy
+    and Krause [27], pp. 1568–1577'
+- author: F Friedrichs
+  doi: 10.1016/j.neucom.2004.11.022
+  first-page: '107'
+  journal-title: Neurocomputing
+  unstructured: 'Friedrichs, F., Igel, C.: Evolutionary tuning of multiple SVM parameters.
+    Neurocomputing 64, 107–117 (2005)'
+  volume: '64'
+  year: '2005'
+- unstructured: 'Frohlich, H., Zell, A.: Efficient parameter selection for support
+    vector machines in classification and regression via model-based global optimization.
+    In: Prokhorov, D., Levine, D., Ham, F., Howell, W. (eds.) Proceedings of the 2005
+    IEEE International Joint Conference on Neural Networks (IJCNN). pp. 1431–1436.
+    IEEE Computer Society Press (2005)'
+- unstructured: 'Gardner, J., Guo, C., Weinberger, K., Garnett, R., Grosse, R.: Discovering
+    and Exploiting Additive Structure for Bayesian Optimization. In: Singh, A., Zhu,
+    J. (eds.) Proceedings of the Seventeenth International Conference on Artificial
+    Intelligence and Statistics (AISTATS). vol. 54, pp. 1311–1319. Proceedings of
+    Machine Learning Research (2017)'
+- unstructured: 'Gardner, J., Kusner, M., Xu, Z., Weinberger, K., Cunningham, J.:
+    Bayesian Optimization with Inequality Constraints. In: Xing and Jebara [157],
+    pp. 937–945'
+- unstructured: 'Garrido-Merchán, E., Hernández-Lobato, D.: Dealing with integer-valued
+    variables in Bayesian optimization with Gaussian processes. arXiv:1706.03673v2
+    [stats.ML] (2017)'
+- unstructured: 'Gelbart, M., Snoek, J., Adams, R.: Bayesian optimization with unknown
+    constraints. In: Zhang, N., Tian, J. (eds.) Proceedings of the 30th conference
+    on Uncertainty in Artificial Intelligence (UAI’14). AUAI Press (2014)'
+- doi: 10.1007/978-3-642-10701-6_6
+  unstructured: 'Ginsbourger, D., Le Riche, R., Carraro, L.: Kriging Is Well-Suited
+    to Parallelize Optimization. In: Computational Intelligence in Expensive Optimization
+    Problems, pp. 131–162. Springer (2010)'
+- doi: 10.1145/3097983.3098043
+  unstructured: 'Golovin, D., Solnik, B., Moitra, S., Kochanski, G., Karro, J., Sculley,
+    D.: Google Vizier: A service for black-box optimization. In: Matwin, S., Yu, S.,
+    Farooq, F. (eds.) Proceedings of the 23rd ACM SIGKDD International Conference
+    on Knowledge Discovery and Data Mining (KDD). pp. 1487–1495. ACM Press (2017)'
+- author: R Gramacy
+  doi: 10.1093/acprof:oso/9780199694587.003.0008
+  first-page: '229'
+  issue: '9'
+  journal-title: Bayesian Statistics
+  unstructured: 'Gramacy, R., Lee, H.: Optimization under unknown constraints. Bayesian
+    Statistics 9(9), 229–246 (2011)'
+  volume: '9'
+  year: '2011'
+- unstructured: 'Gretton, A., Robert, C. (eds.): Proceedings of the Seventeenth International
+    Conference on Artificial Intelligence and Statistics (AISTATS), vol. 51. Proceedings
+    of Machine Learning Research (2016)'
+- unstructured: 'Guyon, I., von Luxburg, U., Bengio, S., Wallach, H., Fergus, R.,
+    Vishwanathan, S., Garnett, R. (eds.): Proceedings of the 31st International Conference
+    on Advances in Neural Information Processing Systems (NeurIPS’17) (2017)'
+- author: Isabelle Guyon
+  doi: 10.1016/j.neunet.2007.12.024
+  first-page: '544'
+  issue: 2-3
+  journal-title: Neural Networks
+  unstructured: 'Guyon, I., Saffari, A., Dror, G., Cawley, G.: Analysis of the IJCNN
+    2007 agnostic learning vs. prior knowledge challenge. Neural Networks 21(2), 544–550
+    (2008)'
+  volume: '21'
+  year: '2008'
+- author: I Guyon
+  first-page: '61'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Guyon, I., Saffari, A., Dror, G., Cawley, G.: Model Selection: Beyond
+    the Bayesian/Frequentist Divide. Journal of Machine Learning Research 11, 61–87
+    (2010)'
+  volume: '11'
+  year: '2010'
+- unstructured: 'Hansen, N.: The CMA evolution strategy: A tutorial. arXiv:1604.00772v1
+    [cs.LG] (2016)'
+- unstructured: 'Hazan, E., Klivans, A., Yuan, Y.: Hyperparameter optimization: A
+    spectral approach. In: Proceedings of the International Conference on Learning
+    Representations (ICLR’18) [1], published online: iclr.cc'
+- unstructured: 'Hernandez-Lobato, D., Hernandez-Lobato, J., Shah, A., Adams, R.:
+    Predictive Entropy Search for Multi-objective Bayesian Optimization. In: Balcan
+    and Weinberger [8], pp. 1492–1501'
+- unstructured: 'Hernández-Lobato, J., Requeima, J., Pyzer-Knapp, E., Aspuru-Guzik,
+    A.: Parallel and distributed Thompson sampling for large-scale accelerated exploration
+    of chemical space. In: Precup and Teh [122], pp. 1470–1479'
+- author: J Hernández-Lobato
+  first-page: '5549'
+  issue: '1'
+  journal-title: The Journal of Machine Learning Research
+  unstructured: 'Hernández-Lobato, J., Gelbart, M., Adams, R., Hoffman, M., Ghahramani,
+    Z.: A general framework for constrained Bayesian optimization using information-based
+    search. The Journal of Machine Learning Research 17(1), 5549–5601 (2016)'
+  volume: '17'
+  year: '2016'
+- unstructured: 'Hoeting, J., Madigan, D., Raftery, A., Volinsky, C.: Bayesian model
+    averaging: a tutorial. Statistical science pp. 382–401 (1999)'
+- doi: 10.1109/SSCI.2016.7850221
+  unstructured: 'Horn, D., Bischl, B.: Multi-objective parameter configuration of
+    machine learning algorithms using model-based optimization. In: Likas, A. (ed.)
+    2016 IEEE Symposium Series on Computational Intelligence (SSCI). pp. 1–8. IEEE
+    Computer Society Press (2016)'
+- unstructured: 'Hutter, F.: Automated Configuration of Algorithms for Solving Hard
+    Computational Problems. Ph.D. thesis, University of British Columbia, Department
+    of Computer Science, Vancouver, Canada (2009)'
+- doi: 10.1007/978-3-642-25566-3_40
+  unstructured: 'Hutter, F., Hoos, H., Leyton-Brown, K.: Sequential model-based optimization
+    for general algorithm configuration. In: Coello, C. (ed.) Proceedings of the Fifth
+    International Conference on Learning and Intelligent Optimization (LION’11). Lecture
+    Notes in Computer Science, vol. 6683, pp. 507–523. Springer (2011)'
+- doi: 10.1007/978-3-642-34413-8_5
+  unstructured: 'Hutter, F., Hoos, H., Leyton-Brown, K.: Parallel algorithm configuration.
+    In: Hamadi, Y., Schoenauer, M. (eds.) Proceedings of the Sixth International Conference
+    on Learning and Intelligent Optimization (LION’12). Lecture Notes in Computer
+    Science, vol. 7219, pp. 55–70. Springer (2012)'
+- unstructured: 'Hutter, F., Hoos, H., Leyton-Brown, K.: An efficient approach for
+    assessing hyperparameter importance. In: Xing and Jebara [157], pp. 754–762'
+- doi: 10.1007/978-3-642-13800-3_30
+  unstructured: 'Hutter, F., Hoos, H., Leyton-Brown, K., Murphy, K.: Time-bounded
+    sequential parameter optimization. In: Blum, C. (ed.) Proceedings of the Fourth
+    International Conference on Learning and Intelligent Optimization (LION’10). Lecture
+    Notes in Computer Science, vol. 6073, pp. 281–298. Springer (2010)'
+- unstructured: 'Hutter, F., Osborne, M.: A kernel for hierarchical parameter spaces.
+    arXiv:1310.5738v1 [stats.ML] (2013)'
+- author: F Hutter
+  doi: 10.1007/s13218-015-0381-0
+  first-page: '329'
+  issue: '4'
+  journal-title: KI - Künstliche Intelligenz
+  unstructured: 'Hutter, F., Lücke, J., Schmidt-Thieme, L.: Beyond Manual Tuning of
+    Hyperparameters. KI - Künstliche Intelligenz 29(4), 329–337 (2015)'
+  volume: '29'
+  year: '2015'
+- doi: 10.1007/978-3-540-31880-4_37
+  unstructured: 'Igel, C.: Multi-objective Model Selection for Support Vector Machines.
+    In: Coello, C., Aguirre, A., Zitzler, E. (eds.) Evolutionary Multi-Criterion Optimization.
+    pp. 534–546. Springer (2005)'
+- unstructured: 'Ihler, A., Janzing, D. (eds.): Proceedings of the 32nd conference
+    on Uncertainty in Artificial Intelligence (UAI’16). AUAI Press (2016)'
+- doi: 10.1609/aaai.v31i1.10647
+  unstructured: 'Ilievski, I., Akhtar, T., Feng, J., Shoemaker, C.: Efficient Hyperparameter
+    Optimization for Deep Learning Algorithms Using Deterministic RBF Surrogates.
+    In: Sierra, C. (ed.) Proceedings of the 27th International Joint Conference on
+    Artificial Intelligence (IJCAI’17) (2017)'
+- unstructured: 'Jamieson, K., Recht, B.: The news on auto-tuning (2016), http://www.argmin.net/2016/06/20/hypertuning/'
+- unstructured: 'Jamieson, K., Talwalkar, A.: Non-stochastic best arm identification
+    and hyperparameter optimization. In: Gretton and Robert [47], pp. 240–248'
+- unstructured: 'Jenatton, R., Archambeau, C., González, J., Seeger, M.: Bayesian
+    Optimization with Tree-structured Dependencies. In: Precup and Teh [122], pp.
+    1655–1664'
+- unstructured: 'John, G.: Cross-Validated C4.5: Using Error Estimation for Automatic
+    Parameter Selection. Tech. Rep. STAN-CS-TN-94-12, Stanford University, Stanford
+    University (1994)'
+- author: D Jones
+  doi: 10.1023/A:1008306431147
+  first-page: '455'
+  journal-title: Journal of Global Optimization
+  unstructured: 'Jones, D., Schonlau, M., Welch, W.: Efficient global optimization
+    of expensive black box functions. Journal of Global Optimization 13, 455–492 (1998)'
+  volume: '13'
+  year: '1998'
+- unstructured: 'Kandasamy, K., Dasarathy, G., Oliva, J., Schneider, J., Póczos, B.:
+    Gaussian Process Bandit Optimisation with Multi-fidelity Evaluations. In: Lee
+    et al. [87], pp. 992–1000'
+- unstructured: 'Kandasamy, K., Dasarathy, G., Schneider, J., Póczos, B.: Multi-fidelity
+    Bayesian Optimisation with Continuous Approximations. In: Precup and Teh [122],
+    pp. 1799–1808'
+- unstructured: 'Kandasamy, K., Schneider, J., Póczos, B.: High Dimensional Bayesian
+    Optimisation and Bandits via Additive Models. In: Bach and Blei [7], pp. 295–304'
+- unstructured: 'Karnin, Z., Koren, T., Somekh, O.: Almost optimal exploration in
+    multi-armed bandits. In: Dasgupta and McAllester [23], pp. 1238–1246'
+- author: R King
+  doi: 10.1080/08839519508945477
+  first-page: '289'
+  issue: '3'
+  journal-title: Applied Artificial Intelligence an International Journal
+  unstructured: 'King, R., Feng, C., Sutherland, A.: Statlog: comparison of classification
+    algorithms on large real-world problems. Applied Artificial Intelligence an International
+    Journal 9(3), 289–333 (1995)'
+  volume: '9'
+  year: '1995'
+- author: Aaron Klein
+  doi: 10.1214/17-EJS1335SI
+  first-page: '4945'
+  issue: '2'
+  journal-title: Electronic Journal of Statistics
+  unstructured: 'Klein, A., Falkner, S., Bartels, S., Hennig, P., Hutter, F.: Fast
+    bayesian hyperparameter optimization on large datasets. In: Electronic Journal
+    of Statistics. vol. 11 (2017)'
+  volume: '11'
+  year: '2017'
+- unstructured: 'Klein, A., Falkner, S., Mansur, N., Hutter, F.: RoBO: A flexible
+    and robust Bayesian optimization framework in Python. In: NeurIPS workshop on
+    Bayesian Optimization (BayesOpt’17) (2017)'
+- unstructured: 'Klein, A., Falkner, S., Springenberg, J.T., Hutter, F.: Learning
+    curve prediction with Bayesian neural networks. In: Proceedings of the International
+    Conference on Learning Representations (ICLR’17) (2017), published online: iclr.cc'
+- unstructured: 'Koch, P., Konen, W., Flasch, O., Bartz-Beielstein, T.: Optimizing
+    support vector machines for stormwater prediction. Tech. Rep. TR10-2-007, Technische
+    Universität Dortmund (2010)'
+- doi: 10.1016/B978-1-55860-377-6.50045-1
+  unstructured: 'Kohavi, R., John, G.: Automatic Parameter Selection by Minimizing
+    Estimated Error. In: Prieditis, A., Russell, S. (eds.) Proceedings of the Twelfth
+    International Conference on Machine Learning, pp. 304–312. Morgan Kaufmann Publishers
+    (1995)'
+- doi: 10.25080/Majora-14bd3278-006
+  unstructured: 'Komer, B., Bergstra, J., Eliasmith, C.: Hyperopt-sklearn: Automatic
+    hyperparameter configuration for scikit-learn. In: Hutter, F., Caruana, R., Bardenet,
+    R., Bilenko, M., Guyon, I., Kégl, B., Larochelle, H. (eds.) ICML workshop on Automated
+    Machine Learning (AutoML workshop 2014) (2014)'
+- doi: 10.1145/2001576.2001844
+  unstructured: 'Konen, W., Koch, P., Flasch, O., Bartz-Beielstein, T., Friese, M.,
+    Naujoks, B.: Tuned data mining: a benchmark study on different tuners. In: Krasnogor,
+    N. (ed.) Proceedings of the 13th Annual Conference on Genetic and Evolutionary
+    Computation (GECCO’11). pp. 1995–2002. ACM (2011)'
+- unstructured: 'Krizhevsky, A., Sutskever, I., Hinton, G.: Imagenet classification
+    with deep convolutional neural networks. In: Bartlett et al. [9], pp. 1097–1105'
+- unstructured: 'Krueger, T., Panknin, D., Braun, M.: Fast cross-validation via sequential
+    testing. Journal of Machine Learning Research (2015)'
+- unstructured: 'Lee, D., Sugiyama, M., von Luxburg, U., Guyon, I., Garnett, R. (eds.):
+    Proceedings of the 30th International Conference on Advances in Neural Information
+    Processing Systems (NeurIPS’16) (2016)'
+- author: H Lee
+  first-page: '467'
+  issue: '3'
+  journal-title: Pacific Journal of Optimization
+  unstructured: 'Lee, H., Gramacy, R.: Optimization Subject to Hidden Constraints
+    via Statistical Emulation. Pacific Journal of Optimization 7(3), 467–478 (2011)'
+  volume: '7'
+  year: '2011'
+- unstructured: 'Li, F.F., Li, J.: Cloud AutoML: Making AI accessible to every business
+    (2018), https://www.blog.google/products/google-cloud/cloud-automl-making-ai-accessible-every-business/'
+- author: L Li
+  first-page: '1'
+  issue: '185'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Li, L., Jamieson, K., DeSalvo, G., Rostamizadeh, A., Talwalkar, A.:
+    Hyperband: A novel bandit-based approach to hyperparameter optimization. Journal
+    of Machine Learning Research 18(185), 1–52 (2018)'
+  volume: '18'
+  year: '2018'
+- unstructured: 'Loshchilov, I., Hutter, F.: CMA-ES for hyperparameter optimization
+    of deep neural networks. In: International Conference on Learning Representations
+    Workshop track (2016), published online: iclr.cc'
+- unstructured: 'Lu, X., Gonzalez, J., Dai, Z., Lawrence, N.: Structured Variationally
+    Auto-encoded Optimization. In: Dy and Krause [27], pp. 3273–3281'
+- unstructured: 'Luketina, J., Berglund, M., Greff, K., Raiko, T.: Scalable Gradient-Based
+    Tuning of Continuous Regularization Hyperparameters. In: Balcan and Weinberger
+    [8], pp. 2952–2960'
+- doi: 10.1007/s13721-016-0125-6
+  unstructured: 'Luo, G.: A review of automatic selection methods for machine learning
+    algorithms and hyper-parameter values. Network Modeling Analysis in Health Informatics
+    and Bioinformatics 5(1) (2016)'
+- unstructured: 'Lévesque, J.C.: Bayesian Hyperparameter Optimization: Overfitting,
+    Ensembles and Conditional Spaces. Ph.D. thesis, Université Laval (2018)'
+- doi: 10.1109/IJCNN.2017.7965867
+  unstructured: 'Lévesque, J.C., Durand, A., Gagné, C., Sabourin, R.: Bayesian optimization
+    for conditional hyperparameter spaces. In: Howell, B. (ed.) 2017 International
+    Joint Conference on Neural Networks (IJCNN). pp. 286–293. IEEE (2017)'
+- unstructured: 'Lévesque, J.C., Gagné, C., Sabourin, R.: Bayesian Hyperparameter
+    Optimization for Ensemble Learning. In: Ihler and Janzing [66], pp. 437–446'
+- doi: 10.1007/978-94-015-8729-7_2
+  unstructured: 'MacKay, D.: Hyperparameters: Optimize, or Integrate Out?, pp. 43–59.
+    Springer (1996)'
+- unstructured: 'Maclaurin, D., Duvenaud, D., Adams, R.: Gradient-based Hyperparameter
+    Optimization through Reversible Learning. In: Bach and Blei [7], pp. 2113–2122'
+- doi: 10.1109/BRACIS.2016.018
+  unstructured: 'Mantovani, R., Horvath, T., Cerri, R., Vanschoren, J., Carvalho,
+    A.: Hyper-Parameter Tuning of a Decision Tree Induction Algorithm. In: 2016 5th
+    Brazilian Conference on Intelligent Systems (BRACIS). pp. 37–42. IEEE Computer
+    Society Press (2016)'
+- unstructured: 'Marcel Wever, F.M., Hüllermeier, E.: ML-Plan for unlimited-length
+    machine learning pipelines. In: Garnett, R., Vanschoren, F.H.J., Brazdil, P.,
+    Caruana, R., Giraud-Carrier, C., Guyon, I., Kégl, B. (eds.) ICML workshop on Automated
+    Machine Learning (AutoML workshop 2018) (2018)'
+- author: O Maron
+  doi: 10.1023/A:1006556606079
+  first-page: '193'
+  issue: 1–5
+  journal-title: Artificial Intelligence Review
+  unstructured: 'Maron, O., Moore, A.: The racing algorithm: Model selection for lazy
+    learners. Artificial Intelligence Review 11(1–5), 193–225 (1997)'
+  volume: '11'
+  year: '1997'
+- unstructured: 'McInerney, J.: An Empirical Bayes Approach to Optimizing Machine
+    Learning Algorithms. In: Guyon et al. [48], pp. 2712–2721'
+- unstructured: 'McIntire, M., Ratner, D., Ermon, S.: Sparse Gaussian Processes for
+    Bayesian Optimization. In: Ihler and Janzing [66]'
+- unstructured: 'Melis, G., Dyer, C., Blunsom, P.: On the state of the art of evaluation
+    in neural language models. In: Proceedings of the International Conference on
+    Learning Representations (ICLR’18) [1], published online: iclr.cc'
+- unstructured: 'Mendoza, H., Klein, A., Feurer, M., Springenberg, J., Hutter, F.:
+    Towards automatically-tuned neural networks. In: ICML 2016 AutoML Workshop (2016)'
+- unstructured: 'Michie, D., Spiegelhalter, D., Taylor, C., Campbell, J. (eds.): Machine
+    Learning, Neural and Statistical Classification. Ellis Horwood (1994)'
+- author: F Mohr
+  doi: 10.1007/s10994-018-5735-z
+  first-page: '1495'
+  issue: 8–10
+  journal-title: Machine Learning
+  unstructured: 'Mohr, F., Wever, M., Höllermeier, E.: ML-Plan: Automated machine
+    learning via hierarchical planning. Machine Learning 107(8–10), 1495–1515 (2018)'
+  volume: '107'
+  year: '2018'
+- doi: 10.1137/1.9781611972726.16
+  unstructured: 'Momma, M., Bennett, K.: A Pattern Search Method for Model Selection
+    of Support Vector Regression. In: Proceedings of the 2002 SIAM International Conference
+    on Data Mining, pp. 261–274 (2002)'
+- author: D Montgomery
+  unstructured: 'Montgomery, D.: Design and analysis of experiments. John Wiley &
+    Sons, Inc, eighth edn. (2013)'
+  volume-title: Design and analysis of experiments
+  year: '2013'
+- unstructured: 'Murray, I., Adams, R.: Slice sampling covariance hyperparameters
+    of latent Gaussian models. In: Lafferty, J., Williams, C., Shawe-Taylor, J., Zemel,
+    R., Culotta, A. (eds.) Proceedings of the 24th International Conference on Advances
+    in Neural Information Processing Systems (NeurIPS’10). pp. 1732–1740 (2010)'
+- author: T Nguyen
+  first-page: '578'
+  journal-title: Lecture Notes in Artificial Intelligence
+  unstructured: 'Nguyen, T., Gupta, S., Rana, S., Venkatesh, S.: Stable Bayesian Optimization.
+    In: Kim, J., Shim, K., Cao, L., Lee, J.G., Lin, X., Moon, Y.S. (eds.) Advances
+    in Knowledge Discovery and Data Mining (PAKDD’17). Lecture Notes in Artificial
+    Intelligence, vol. 10235, pp. 578–591 (2017)'
+  volume: '10235'
+  year: '2017'
+- doi: 10.1109/ICDM.2017.44
+  unstructured: 'Nguyen, V., Gupta, S., Rana, S., Li, C., Venkatesh, S.: Filtering
+    Bayesian optimization approach in weakly specified search space. Knowledge and
+    Information Systems (2018)'
+- unstructured: 'Oh, C., Gavves, E., Welling, M.: BOCK: Bayesian Optimization with
+    Cylindrical Kernels. In: Dy and Krause [27], pp. 3865–3874'
+- doi: 10.1145/2908812.2908918
+  unstructured: 'Olson, R., Bartley, N., Urbanowicz, R., Moore, J.: Evaluation of
+    a Tree-based Pipeline Optimization Tool for Automating Data Science. In: Friedrich,
+    T. (ed.) Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’16).
+    pp. 485–492. ACM (2016)'
+- doi: 10.1142/9789813235533_0018
+  unstructured: 'Olson, R., La Cava, W., Mustahsan, Z., Varik, A., Moore, J.: Data-driven
+    advice for applying machine learning to bioinformatics problems. In: Proceedings
+    of the Pacific Symposium in Biocomputing 2018. pp. 192–203 (2018)'
+- unstructured: 'Paszke, A., Gross, S., Chintala, S., Chanan, G., Yang, E., DeVito,
+    Z., Lin, Z., Desmaison, A., Antiga, L., Lerer, A.: Automatic differentiation in
+    PyTorch. In: NeurIPS Autodiff Workshop (2017)'
+- unstructured: 'Pedregosa, F.: Hyperparameter optimization with approximate gradient.
+    In: Balcan and Weinberger [8], pp. 737–746'
+- unstructured: 'Peng-Wei Chen, Jung-Ying Wang, Hahn-Ming Lee: Model selection of
+    SVMs using GA approach. In: Proceedings of the 2004 IEEE International Joint Conference
+    on Neural Networks (IJCNN). vol. 3, pp. 2035–2040. IEEE Computer Society Press
+    (2004)'
+- unstructured: 'Petrak, J.: Fast subsampling performance estimates for classification
+    algorithm selection. Technical Report TR-2000-07, Austrian Research Institute
+    for Artificial Intelligence (2000)'
+- unstructured: 'Poloczek, M., Wang, J., Frazier, P.: Multi-Information Source Optimization.
+    In: Guyon et al. [48], pp. 4288–4298'
+- unstructured: 'Precup, D., Teh, Y. (eds.): Proceedings of the 34th International
+    Conference on Machine Learning (ICML’17), vol. 70. Proceedings of Machine Learning
+    Research (2017)'
+- doi: 10.1145/312129.312188
+  unstructured: 'Provost, F., Jensen, D., Oates, T.: Efficient progressive sampling.
+    In: Fayyad, U., Chaudhuri, S., Madigan, D. (eds.) The 5th ACM SIGKDD International
+    Conference on Knowledge Discovery and Data Mining (KDD’99). pp. 23–32. ACM Press
+    (1999)'
+- doi: 10.7551/mitpress/3206.001.0001
+  unstructured: 'Rasmussen, C., Williams, C.: Gaussian Processes for Machine Learning.
+    The MIT Press (2006)'
+- doi: 10.1109/ICDM.2010.127
+  unstructured: 'Rendle, S.: Factorization machines. In: Webb, G., Liu, B., Zhang,
+    C., Gunopulos, D., Wu, X. (eds.) Proceedings of the 10th IEEE International Conference
+    on Data Mining (ICDM’06). pp. 995–1000. IEEE Computer Society Press (2010)'
+- author: BD Ripley
+  doi: 10.1007/978-1-4899-3099-6_2
+  first-page: '40'
+  journal-title: Networks and chaos—statistical and probabilistic aspects
+  unstructured: 'Ripley, B.D.: Statistical aspects of neural networks. Networks and
+    chaos—statistical and probabilistic aspects 50, 40–123 (1993)'
+  volume: '50'
+  year: '1993'
+- author: O Russakovsky
+  doi: 10.1007/s11263-015-0816-y
+  first-page: '211'
+  issue: '3'
+  journal-title: International Journal of Computer Vision
+  unstructured: 'Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma,
+    S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., Berg, A., Fei-Fei, L.:
+    Imagenet large scale visual recognition challenge. International Journal of Computer
+    Vision 115(3), 211–252 (2015)'
+  volume: '115'
+  year: '2015'
+- doi: 10.1609/aaai.v30i1.10316
+  unstructured: 'Sabharwal, A., Samulowitz, H., Tesauro, G.: Selecting Near-Optimal
+    Learners via Incremental Data Allocation. In: Schuurmans, D., Wellman, M. (eds.)
+    Proceedings of the Thirtieth National Conference on Artificial Intelligence (AAAI’16).
+    AAAI Press (2016)'
+- author: B Samanta
+  doi: 10.1016/S0888-3270(03)00020-7
+  first-page: '625'
+  issue: '3'
+  journal-title: Mechanical Systems and Signal Processing
+  unstructured: 'Samanta, B.: Gear fault detection using artificial neural networks
+    and support vector machines with genetic algorithms. Mechanical Systems and Signal
+    Processing 18(3), 625–644 (2004)'
+  volume: '18'
+  year: '2004'
+- doi: 10.1109/ICDM.2017.137
+  unstructured: 'Sanders, S., Giraud-Carrier, C.: Informing the Use of Hyperparameter
+    Optimization Through Metalearning. In: Gottumukkala, R., Ning, X., Dong, G., Raghavan,
+    V., Aluru, S., Karypis, G., Miele, L., Wu, X. (eds.) 2017 IEEE International Conference
+    on Big Data (Big Data). IEEE Computer Society Press (2017)'
+- doi: 10.1007/978-3-319-23525-7_6
+  unstructured: 'Schilling, N., Wistuba, M., Drumond, L., Schmidt-Thieme, L.: Hyperparameter
+    optimization with factorized multilayer perceptrons. In: Appice, A., Rodrigues,
+    P., Costa, V., Gama, J., Jorge, A., Soares, C. (eds.) Machine Learning and Knowledge
+    Discovery in Databases (ECML/PKDD’15). Lecture Notes in Computer Science, vol.
+    9285, pp. 87–103. Springer (2015)'
+- doi: 10.1109/ICTAI.2015.24
+  unstructured: 'Schilling, N., Wistuba, M., Drumond, L., Schmidt-Thieme, L.: Joint
+    Model Choice and Hyperparameter Optimization with Factorized Multilayer Perceptrons.
+    In: 2015 IEEE 27th International Conference on Tools with Artificial Intelligence
+    (ICTAI). pp. 72–79. IEEE Computer Society Press (2015)'
+- unstructured: 'Sculley, D., Snoek, J., Wiltschko, A., Rahimi, A.: Winner’s curse?
+    on pace, progress, and empirical rigor. In: International Conference on Learning
+    Representations Workshop track (2018), published online: iclr.cc'
+- unstructured: 'Shah, A., Ghahramani, Z.: Pareto Frontier Learning with Expensive
+    Correlated Objectives. In: Balcan and Weinberger [8], pp. 1919–1927'
+- author: B Shahriari
+  doi: 10.1109/JPROC.2015.2494218
+  first-page: '148'
+  issue: '1'
+  journal-title: Proceedings of the IEEE
+  unstructured: 'Shahriari, B., Swersky, K., Wang, Z., Adams, R., de Freitas, N.:
+    Taking the human out of the loop: A review of Bayesian optimization. Proceedings
+    of the IEEE 104(1), 148–175 (2016)'
+  volume: '104'
+  year: '2016'
+- unstructured: 'Shahriari, B., Bouchard-Cote, A., de Freitas, N.: Unbounded Bayesian
+    optimization via regularization. In: Gretton and Robert [47], pp. 1168–1176'
+- unstructured: 'SIGOPT: Improve ML models 100x faster (2018), https://sigopt.com/'
+- unstructured: 'Simon, D.: Evolutionary optimization algorithms. John Wiley & Sons
+    (2013)'
+- unstructured: 'Snoek, J.: Bayesian optimization and semiparametric models with applications
+    to assistive technology. PhD Thesis, University of Toronto (2013)'
+- unstructured: 'Snoek, J., Larochelle, H., Adams, R.: Practical Bayesian optimization
+    of machine learning algorithms. In: Bartlett et al. [9], pp. 2960–2968'
+- unstructured: 'Snoek, J., Rippel, O., Swersky, K., Kiros, R., Satish, N., Sundaram,
+    N., Patwary, M., Prabhat, Adams, R.: Scalable Bayesian optimization using deep
+    neural networks. In: Bach and Blei [7], pp. 2171–2180'
+- unstructured: 'Snoek, J., Swersky, K., Zemel, R., Adams, R.: Input warping for Bayesian
+    optimization of non-stationary functions. In: Xing and Jebara [157], pp. 1674–1682'
+- doi: 10.1145/2806777.2806945
+  unstructured: 'Sparks, E., Talwalkar, A., Haas, D., Franklin, M., Jordan, M., Kraska,
+    T.: Automating model search for large scale machine learning. In: Balazinska,
+    M. (ed.) Proceedings of the Sixth ACM Symposium on Cloud Computing - SoCC ’15.
+    pp. 368–380. ACM Press (2015)'
+- unstructured: 'Springenberg, J., Klein, A., Falkner, S., Hutter, F.: Bayesian optimization
+    with robust Bayesian neural networks. In: Lee et al. [87]'
+- doi: 10.1007/978-3-642-38067-9_23
+  unstructured: 'Sun, Q., Pfahringer, B., Mayo, M.: Towards a Framework for Designing
+    Full Model Selection and Optimization Systems. In: Multiple Classifier Systems,
+    vol. 7872, pp. 259–270. Springer (2013)'
+- unstructured: 'Swersky, K., Duvenaud, D., Snoek, J., Hutter, F., Osborne, M.: Raiders
+    of the lost architecture: Kernels for Bayesian optimization in conditional parameter
+    spaces. In: NeurIPS Workshop on Bayesian Optimization in Theory and Practice (BayesOpt’14)
+    (2014)'
+- unstructured: 'Swersky, K., Snoek, J., Adams, R.: Multi-task Bayesian optimization.
+    In: Burges, C., Bottou, L., Welling, M., Ghahramani, Z., Weinberger, K. (eds.)
+    Proceedings of the 27th International Conference on Advances in Neural Information
+    Processing Systems (NeurIPS’13). pp. 2004–2012 (2013)'
+- unstructured: 'Swersky, K., Snoek, J., Adams, R.: Freeze-thaw Bayesian optimization
+    arXiv:1406.3896v1 [stats.ML] (2014)'
+- doi: 10.1145/2487575.2487629
+  unstructured: 'Thornton, C., Hutter, F., Hoos, H., Leyton-Brown, K.: Auto-WEKA:
+    combined selection and hyperparameter optimization of classification algorithms.
+    In: Dhillon, I., Koren, Y., Ghani, R., Senator, T., Bradley, P., Parekh, R., He,
+    J., Grossman, R., Uthurusamy, R. (eds.) The 19th ACM SIGKDD International Conference
+    on Knowledge Discovery and Data Mining (KDD’13). pp. 847–855. ACM Press (2013)'
+- author: J Wainer
+  first-page: '1'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Wainer, J., Cawley, G.: Empirical Evaluation of Resampling Procedures
+    for Optimising SVM Hyperparameters. Journal of Machine Learning Research 18, 1–35
+    (2017)'
+  volume: '18'
+  year: '2017'
+- unstructured: 'Wang, J., Xu, J., Wang, X.: Combination of hyperband and Bayesian
+    optimization for hyperparameter optimization in deep learning. arXiv:1801.01596v1
+    [cs.CV] (2018)'
+- doi: 10.18653/v1/D15-1253
+  unstructured: 'Wang, L., Feng, M., Zhou, B., Xiang, B., Mahadevan, S.: Efficient
+    Hyper-parameter Optimization for NLP Applications. In: Proceedings of the 2015
+    Conference on Empirical Methods in Natural Language Processing. pp. 2112–2117.
+    Association for Computational Linguistics (2015)'
+- author: Z Wang
+  doi: 10.1613/jair.4806
+  first-page: '361'
+  journal-title: Journal of Artificial Intelligence Research
+  unstructured: 'Wang, Z., Hutter, F., Zoghi, M., Matheson, D., de Feitas, N.: Bayesian
+    optimization in a billion dimensions via random embeddings. Journal of Artificial
+    Intelligence Research 55, 361–387 (2016)'
+  volume: '55'
+  year: '2016'
+- unstructured: 'Wang, Z., Gehring, C., Kohli, P., Jegelka, S.: Batched Large-scale
+    Bayesian Optimization in High-dimensional Spaces. In: Storkey, A., Perez-Cruz,
+    F. (eds.) Proceedings of the 21st International Conference on Artificial Intelligence
+    and Statistics (AISTATS). vol. 84. Proceedings of Machine Learning Research (2018)'
+- author: Martin Wistuba
+  doi: 10.1137/1.9781611974973.83
+  first-page: '741'
+  unstructured: 'Wistuba, M., Schilling, N., Schmidt-Thieme, L.: Automatic Frankensteining:
+    Creating Complex Ensembles Autonomously. In: Proceedings of the 2017 SIAM International
+    Conference on Data Mining (2017)'
+  volume-title: Proceedings of the 2017 SIAM International Conference on Data Mining
+  year: '2017'
+- author: D Wolpert
+  doi: 10.1016/S0893-6080(05)80023-1
+  first-page: '241'
+  issue: '2'
+  journal-title: Neural Networks
+  unstructured: 'Wolpert, D.: Stacked generalization. Neural Networks 5(2), 241–259
+    (1992)'
+  volume: '5'
+  year: '1992'
+- unstructured: 'Xing, E., Jebara, T. (eds.): Proceedings of the 31th International
+    Conference on Machine Learning, (ICML’14). Omnipress (2014)'
+- doi: 10.1007/978-1-4419-9182-9_2
+  unstructured: 'Zabinsky, Z.: Pure Random Search and Pure Adaptive Search. In: Stochastic
+    Adaptive Search for Global Optimization, pp. 25–54. Springer (2003)'
+- doi: 10.1007/s13755-017-0023-z
+  unstructured: 'Zeng, X., Luo, G.: Progressive sampling-based Bayesian optimization
+    for efficient and automatic machine learning model selection. Health Information
+    Science and Systems 5(1) (2017)'
+- doi: 10.1145/2939672.2939829
+  unstructured: 'Zhang, Y., Bahadori, M.T., Su, H., Sun, J.: FLASH: Fast Bayesian
+    Optimization for Data Analytic Pipelines. In: Krishnapuram, B., Shah, M., Smola,
+    A., Aggarwal, C., Shen, D., Rastogi, R. (eds.) Proceedings of the 22nd ACM SIGKDD
+    International Conference on Knowledge Discovery and Data Mining (KDD). pp. 2065–2074.
+    ACM Press (2016)'
+doc_url: http://link.springer.com/content/pdf/10.1007/978-3-030-05318-5_1
+doi: 10.1007/978-3-030-05318-5_1
+files: []
+isbn: '9783030053185'
+language: en
+month: 5
+pages: 3--33
+papis_id: 193ccf7bc3e287531f9f80895f05c580
+publisher: Springer International Publishing
+ref: feurer-automlbook2019a
+series: The Springer Series on Challenges in Machine Learning
+time-added: 2026-11-24-10:30:56
+title: Hyperparameter Optimization
+type: inbook
+url: https://doi.org/10.1007/978-3-030-05318-5_1
+year: 2019
