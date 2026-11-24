@@ -1,0 +1,37 @@
+author: Bischl, Bernd and Bischl, Bernd and Casalicchio, Giuseppe and Feurer, Matthias
+  and Gijsbers, Pieter and Hutter, Frank and Lang, Michel and Gomes Mantovani, Rafael
+  and van Rijn, Jan and Vanschoren, Joaquin
+author_list:
+- family: Bischl
+  given: Bernd
+- family: Bischl
+  given: Bernd
+- family: Casalicchio
+  given: Giuseppe
+- family: Feurer
+  given: Matthias
+- family: Gijsbers
+  given: Pieter
+- family: Hutter
+  given: Frank
+- family: Lang
+  given: Michel
+- family: Gomes Mantovani
+  given: Rafael
+- family: van Rijn
+  given: Jan
+- family: Vanschoren
+  given: Joaquin
+booktitle: Proceedings of the Neural Information Processing Systems Track on Datasets
+  and Benchmarks
+editor: J. Vanschoren and S. Yeung
+files: []
+pages: ''
+papis_id: ba74d83c8881afcdcb3ac73977f5e3b4
+ref: bischl-neurips2021a
+time-added: 2026-11-24-19:41:23
+title: OpenML Benchmarking Suites
+type: inproceedings
+url: https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/c7e1249ffc03eb9ded908c236bd1996d-Paper-round2.pdf
+volume: '1'
+year: '2021'
