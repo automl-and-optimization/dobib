@@ -1,0 +1,25 @@
+author: Feurer, Matthias and Eggensperger, Katharina and Falkner, Stefan and Lindauer,
+  Marius and Hutter, Frank
+author_list:
+- family: Feurer
+  given: Matthias
+- family: Eggensperger
+  given: Katharina
+- family: Falkner
+  given: Stefan
+- family: Lindauer
+  given: Marius
+- family: Hutter
+  given: Frank
+files: []
+journal: Journal of Machine Learning Research
+number: '261'
+pages: 1--61
+papis_id: 6ce88abc5de893505d7efaa63d68f313
+ref: feurer-jmlr2022a
+time-added: 2026-11-24-10:41:32
+title: 'Auto-Sklearn 2.0: Hands-free AutoML via Meta-Learning'
+type: article
+url: http://jmlr.org/papers/v23/21-0992.html
+volume: '23'
+year: '2022'
