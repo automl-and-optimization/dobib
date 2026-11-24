@@ -1,0 +1,168 @@
+author: Kostovska, Ana and Vermetten, Diederick and Doerr, Carola and Džeroski, Sašo
+  and Panov, Panče and Eftimov, Tome
+author_list:
+- affiliation:
+  - name: Department of Knowledge Technologies, Jo&#x017E;ef Stefan Institute, Ljubljana,
+      Slovenia
+  family: Kostovska
+  given: Ana
+- affiliation:
+  - name: Leiden Institute for Advanced Computer Science, Leiden University, Leiden,
+      The Netherlands
+  family: Vermetten
+  given: Diederick
+- affiliation:
+  - name: Sorbonne Universit&#x00E9;, CNRS, LIP6, Paris, France
+  family: Doerr
+  given: Carola
+- affiliation:
+  - name: Department of Knowledge Technologies, Jo&#x017E;ef Stefan Institute, Ljubljana,
+      Slovenia
+  family: Džeroski
+  given: Sašo
+- affiliation:
+  - name: Department of Knowledge Technologies, Jo&#x017E;ef Stefan Institute, Ljubljana,
+      Slovenia
+  family: Panov
+  given: Panče
+- affiliation:
+  - name: Computer Systems Department, Jo&#x017E;ef Stefan Institute, Ljubljana, Slovenia
+  family: Eftimov
+  given: Tome
+citations:
+- doi: 10.1609/aaai.v32i1.11503
+- doi: 10.1038/s41746-019-0120-2
+- doi: 10.1145/3466624
+- doi: 10.1145/2001576.2001690
+- doi: 10.1145/3449639.3459407
+- doi: 10.1007/978-3-030-72699-7_38
+- doi: 10.1162/evco_a_00242
+- doi: 10.1016/j.ins.2015.05.010
+- doi: 10.1145/3071178.3071343
+- article-title: Ontology
+  author: Smith
+  doi: 10.1163/9789401207799_005
+  first-page: '47'
+  volume-title: The Furniture of the World
+  year: '2012'
+- doi: 10.1093/nar/gky1055
+- article-title: Using ontology reasoning to classify protein phosphatases
+  author: Wolstencroft
+  first-page: '2005'
+  volume: '24'
+  volume-title: Proc. 8th Annu. Bio-Ontol. Meeting
+- article-title: Provenance information in the Web of data
+  author: Hartig
+  first-page: '1'
+  volume-title: Proc. LDOW
+- author: Hansen
+  volume-title: Data repository of the BBOB test suite of the COCO benchmark environment
+  year: '2020'
+- author: Rapin
+  volume-title: Nevergrad—A gradient-free optimization platform
+  year: '2018'
+- article-title: 'IOHprofiler: A Benchmarking and profiling tool for iterative optimization
+    heuristics'
+  author: Doerr
+  journal-title: arXiv:1810.05281
+  year: '2018'
+- doi: 10.1145/3510426
+- doi: 10.1006/ijhc.1995.1081
+- doi: 10.1101/gr.180801
+- doi: 10.1038/s41538-018-0032-6
+- doi: 10.1186/2041-1480-4-43
+- doi: 10.1007/s10618-014-0363-0
+- doi: 10.1109/MDSO.2004.1285880
+- doi: 10.1017/cbo9780511711787
+- doi: 10.1007/s10817-014-9305-1
+- doi: 10.1007/11814771_26
+- author: Hendler
+  volume-title: 'Semantic Web for the Working Ontologist: Effective Modeling for Linked
+    Data, RDFS, and OWL'
+  year: '2020'
+- author: Horridge
+  volume: '107'
+  volume-title: A Practical Guide to Building Owl Ontologies Using Protégé 4 and Co-ode
+    Tools Edition1. 2
+  year: '2009'
+- article-title: Protégé-OWL tutorial
+  author: Drummond
+  first-page: '1'
+  volume-title: Proc. 8th Int. Protégé Conf.
+- doi: 10.1007/978-3-030-11928-7_40
+- doi: 10.1007/978-3-319-55849-3_39
+- doi: 10.1007/978-3-319-49325-1_1
+- doi: 10.1007/978-3-319-54157-0_28
+- article-title: 'The SOS platform: Designing, tuning and statistically benchmarking
+    optimisation algorithms'
+  author: Caraffini
+  doi: 10.3390/math8050785
+  first-page: '785'
+  issue: '5'
+  journal-title: Mathematics
+  volume: '8'
+  year: '2020'
+- doi: 10.1080/10556788.2020.1808977
+- article-title: 'Benchmarking in optimization: Best practice and open issues'
+  author: Bartz-Beielstein
+  journal-title: arXiv:2007.03488
+  year: '2020'
+- doi: 10.1007/978-3-030-25147-5_7
+- author: Renau
+  volume-title: Experimental data set for the study `exploratory landscape analysis
+    is strongly sensitive to the sampling strategy
+  year: '2020'
+- doi: 10.1007/978-3-030-60376-2_10
+- doi: 10.1111/itor.12001
+- doi: 10.1038/nbt1346
+- article-title: Relations in biomedical ontologies
+  author: Smith
+  doi: 10.1186/gb-2005-6-5-r46
+  issue: '5'
+  journal-title: Genome Biol.
+  volume: '6'
+  year: '2005'
+- doi: 10.7551/mitpress/9780262527811.001.0001
+- doi: 10.1371/journal.pone.0154556
+- doi: 10.1016/j.ins.2015.08.006
+- doi: 10.1186/2041-1480-5-14
+- article-title: 'Protégé-2000: An open-source ontology-development and knowledge-acquisition
+    environment'
+  author: Noy
+  first-page: '953'
+  volume-title: Proc. Annu. AMIA Symp.
+- doi: 10.1093/nar/gkp440
+- article-title: An algorithm, implementation and execution ontology design pattern
+  author: Lawrynowicz
+  first-page: '55'
+  journal-title: Adv. Ontol. Des. Patterns
+  volume: '32'
+  year: '2017'
+- doi: 10.1145/2757001.2757003
+- volume-title: Dublin Core Metadata Element Set, Version 1.1
+  year: '2012'
+- doi: 10.1145/1830761.1830790
+- doi: 10.1145/3377930.3389838
+- doi: 10.1007/978-3-030-58115-2_10
+- author: Richardson
+  volume-title: RESTful Web Services
+  year: '2008'
+- doi: 10.1007/s11047-020-09824-0
+- doi: 10.1007/s11047-020-09820-4
+- doi: 10.1007/s10462-021-10095-z
+doc_url: http://xplorestaging.ieee.org/ielx7/4235/10336690/10002940.pdf?arnumber=10002940
+doi: 10.1109/tevc.2022.3232844
+files: []
+issue: '6'
+journal: IEEE Transactions on Evolutionary Computation
+month: 12
+pages: 1618--1632
+papis_id: 7923bc1895b45b316d1dd5aa2e7ceb07
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: kostovska-tec2023a
+time-added: 2026-11-24-19:35:22
+title: 'OPTION: OPTImization Algorithm Benchmarking ONtology'
+type: article
+url: https://doi.org/10.1109/tevc.2022.3232844
+volume: '27'
+year: 2023
