@@ -1,10 +1,11 @@
-"""A Papis downloader for NeurIPS- and ICLR-style ``.cc`` proceedings sites.
+"""A Papis downloader for NeurIPS-style proceedings sites (``.cc`` and MLSys).
 
 These sites share the same software and each abstract page links a ready-made
 ``@InProceedings`` BibTeX file behind a "Bibtex" button:
 
 * NeurIPS — ``{papers,proceedings}.{nips,neurips}.cc``
 * ICLR    — ``proceedings.iclr.cc``
+* MLSys   — ``proceedings.mlsys.org``
 
 Papis ships no downloader for them, so without this plugin their URLs have no
 dedicated parser. This downloader locates the "Bibtex" link, fetches it, and
@@ -22,21 +23,22 @@ from urllib.parse import urljoin
 
 from papis.downloaders import Downloader
 
-#: Hosts served by the shared NeurIPS/ICLR proceedings software. NeurIPS serves
-#: the same site under either prefix on either domain -- all four combinations
-#: of {papers,proceedings} x {nips,neurips}.cc resolve, so match them as a
-#: product rather than listing them and risking another gap.
+#: Hosts served by the shared NeurIPS/ICLR/MLSys proceedings software. NeurIPS
+#: serves the same site under either prefix on either domain -- all four
+#: combinations of {papers,proceedings} x {nips,neurips}.cc resolve, so match
+#: them as a product rather than listing them and risking another gap.
 _HOST_RE = re.compile(
     r"^https?://("
     r"(?:papers|proceedings)\.(?:nips|neurips)\.cc"
     r"|proceedings\.iclr\.cc"
+    r"|proceedings\.mlsys\.org"
     r")/",
     re.IGNORECASE,
 )
 
 
 class ProceedingsCCDownloader(Downloader):
-    """Retrieve metadata from NeurIPS/ICLR ``.cc`` proceedings pages.
+    """Retrieve metadata from NeurIPS/ICLR/MLSys proceedings pages.
 
     Metadata comes solely from the BibTeX file the page links (see
     :meth:`download_bibtex`); the generic ``citation_*`` scrape is not used.

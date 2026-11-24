@@ -350,7 +350,8 @@ _VENUE_PLUGINS = [
     # Keep in sync with _HOST_RE in plugins/papis-proceedings-cc. NeurIPS
     # serves the same site under either prefix on either domain.
     (re.compile(r"^https?://(?:(?:papers|proceedings)\.(?:nips|neurips)\.cc"
-                r"|proceedings\.iclr\.cc)/", re.I),
+                r"|proceedings\.iclr\.cc"
+                r"|proceedings\.mlsys\.org)/", re.I),
      "proceedingscc", "plugins/papis-proceedings-cc"),
 ]
 

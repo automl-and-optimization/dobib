@@ -1,10 +1,11 @@
 # papis-proceedings-cc
 
-A [Papis](https://papis.readthedocs.io) downloader for the NeurIPS- and
-ICLR-style `.cc` proceedings sites:
+A [Papis](https://papis.readthedocs.io) downloader for NeurIPS-style
+proceedings sites running the same software:
 
 - NeurIPS — `papers.nips.cc`, `proceedings.neurips.cc`
 - ICLR — `proceedings.iclr.cc`
+- MLSys — `proceedings.mlsys.org`
 
 ## Why
 
@@ -31,4 +32,4 @@ papis exec <(echo 'import papis.plugin as p; print("proceedingscc" in p.get_plug
 ```
 
 Once installed, Papis (and `groupbib add <url>`) routes any NeurIPS/ICLR `.cc`
-proceedings URL through this downloader automatically.
+or MLSys proceedings URL through this downloader automatically.
