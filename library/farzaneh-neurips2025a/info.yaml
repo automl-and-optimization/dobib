@@ -1,0 +1,22 @@
+author: Farzaneh, Amirmohammad and Simeone, Osvaldo
+author_list:
+- family: Farzaneh
+  given: Amirmohammad
+- family: Simeone
+  given: Osvaldo
+booktitle: Advances in Neural Information Processing Systems
+doi: 10.52202/085713-1324
+editor: D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi
+  and N. Chen
+files: []
+pages: 39709--39740
+papis_id: b572c9c5eeeefb35ff0f6b2299b521d6
+publisher: Curran Associates, Inc.
+ref: farzaneh-neurips2025a
+time-added: 2026-11-24-10:40:40
+title: Multi-Objective Hyperparameter Selection via Hypothesis Testing on Reliability
+  Graphs
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2025/file/38853020527b0f84187870114ff7a686-Paper-Conference.pdf
+volume: 38, Main Conference
+year: '2025'
