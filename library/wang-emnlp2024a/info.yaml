@@ -1,0 +1,81 @@
+author: Wang, Kaiwen and Kidambi, Rahul and Sullivan, Ryan and Agarwal, Alekh and
+  Dann, Christoph and Michi, Andrea and Gelmi, Marco and Li, Yunxuan and Gupta, Raghav
+  and Dubey, Kumar Avinava and Rame, Alexandre and Ferret, Johan and Cideron, Geoffrey
+  and Hou, Le and Yu, Hongkun and Ahmed, Amr and Mehta, Aranyak and Hussenot, Leonard
+  and Bachem, Olivier and Leurent, Edouard
+author_list:
+- affiliation: []
+  family: Wang
+  given: Kaiwen
+- affiliation: []
+  family: Kidambi
+  given: Rahul
+- affiliation: []
+  family: Sullivan
+  given: Ryan
+- affiliation: []
+  family: Agarwal
+  given: Alekh
+- affiliation: []
+  family: Dann
+  given: Christoph
+- affiliation: []
+  family: Michi
+  given: Andrea
+- affiliation: []
+  family: Gelmi
+  given: Marco
+- affiliation: []
+  family: Li
+  given: Yunxuan
+- affiliation: []
+  family: Gupta
+  given: Raghav
+- affiliation: []
+  family: Dubey
+  given: Kumar Avinava
+- affiliation: []
+  family: Rame
+  given: Alexandre
+- affiliation: []
+  family: Ferret
+  given: Johan
+- affiliation: []
+  family: Cideron
+  given: Geoffrey
+- affiliation: []
+  family: Hou
+  given: Le
+- affiliation: []
+  family: Yu
+  given: Hongkun
+- affiliation: []
+  family: Ahmed
+  given: Amr
+- affiliation: []
+  family: Mehta
+  given: Aranyak
+- affiliation: []
+  family: Hussenot
+  given: Leonard
+- affiliation: []
+  family: Bachem
+  given: Olivier
+- affiliation: []
+  family: Leurent
+  given: Edouard
+booktitle: 'Findings of the Association for Computational Linguistics: EMNLP 2024'
+doi: 10.18653/v1/2024.findings-emnlp.118
+files: []
+month: 11
+pages: 2153--2186
+papis_id: 5efbcda96debb072abf1117e55e67dcf
+publisher: Association for Computational Linguistics
+ref: wang-emnlp2024a
+time-added: 2026-11-24-10:53:23
+title: 'Conditional Language Policy: A General Framework For Steerable Multi-Objective
+  Finetuning'
+type: inproceedings
+url: https://doi.org/10.18653/v1/2024.findings-emnlp.118
+venue: Miami, Florida, USA
+year: 2024
