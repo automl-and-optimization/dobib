@@ -1,0 +1,47 @@
+author: Branke, Juergen
+author_list:
+- affiliation:
+  - name: Warwick Business School, University of Warwick, Coventry, U.K.
+  family: Branke
+  given: Juergen
+citations:
+- doi: 10.1109/TEVC.2003.810758
+- doi: 10.1007/978-3-540-24694-7_71
+- author: Hansen
+  volume-title: Evaluating the Quality of Approximations to the Non-Dominated Set
+  year: '1994'
+- doi: 10.1145/3610536
+- article-title: Efficient sampling in interactive multi-criteria selection
+  author: Branke
+  first-page: '42'
+  volume-title: Proc. INFORMS Simul. Soc. Res. Workshop
+- doi: 10.1016/j.ejor.2020.11.016
+- doi: 10.1145/3300148
+- doi: 10.1007/978-3-319-15892-1_8
+- doi: 10.1016/j.ejor.2009.11.003
+- doi: 10.1109/TEVC.2006.882428
+- doi: 10.1109/TEVC.2014.2304415
+- doi: 10.1145/2908812.2908873
+- doi: 10.1007/3-540-44719-9_22
+- doi: 10.1109/CEC.2015.7257317
+- doi: 10.1007/s10732-008-9077-z
+- doi: 10.1145/3299872
+- doi: 10.1007/s00291-019-00561-0
+- doi: 10.1007/978-3-642-87563-2_5
+- doi: 10.1007/978-3-540-30217-9_73
+doc_url: http://xplorestaging.ieee.org/ielx8/4235/11106177/10623415.pdf?arnumber=10623415
+doi: 10.1109/tevc.2024.3438115
+files: []
+issue: '4'
+journal: IEEE Transactions on Evolutionary Computation
+month: 8
+pages: 1449--1455
+papis_id: 2af5be24440173592dc8f47efde123f3
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: branke-tec2025a
+time-added: 2026-11-24-10:34:36
+title: Performance Metrics for Multiobjective Optimization Under Noise
+type: article
+url: https://doi.org/10.1109/tevc.2024.3438115
+volume: '29'
+year: 2025
