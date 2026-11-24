@@ -39,6 +39,26 @@ _HOST_RE = re.compile(
 )
 
 
+#: Matches the ``@type{key,`` opening line of a BibTeX entry, capturing the
+#: entry's cite key so it can be sanitized (see ``_sanitize_bibtex_key``).
+_BIBTEX_KEY_RE = re.compile(r"^(@\w+\{)([^,]+)(,)")
+
+
+def _sanitize_bibtex_key(bibtex: str) -> str:
+    """Strip whitespace from a BibTeX entry's cite key.
+
+    The NeurIPS Datasets & Benchmarks track generates keys such as
+    ``NEURIPS DATASETS AND BENCHMARKS2021_c7e1249f`` -- spaces are not valid
+    in a BibTeX key and silently break Papis' parser (it returns no entries
+    at all, with no error). The key itself is discarded anyway: ``groupbib``
+    always overrides it via ``--set ref``, so collapsing the whitespace here
+    is enough to make the entry parseable without losing any data.
+    """
+    return _BIBTEX_KEY_RE.sub(
+        lambda m: m.group(1) + re.sub(r"\s+", "", m.group(2)) + m.group(3),
+        bibtex, count=1)
+
+
 class ProceedingsCCDownloader(Downloader):
     """Retrieve metadata from NeurIPS/ICLR/MLSys proceedings pages.
 
@@ -77,7 +97,7 @@ class ProceedingsCCDownloader(Downloader):
         response = self.session.get(url, cookies=self.cookies)
         bibtex = response.content.decode().strip()
         if bibtex.startswith("@"):
-            self.bibtex_data = bibtex
+            self.bibtex_data = _sanitize_bibtex_key(bibtex)
         else:
             self.logger.warning(
                 "Content at '%s' does not look like BibTeX.", url)
