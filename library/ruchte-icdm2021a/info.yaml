@@ -1,0 +1,125 @@
+author: Ruchte, Michael and Grabocka, Josif
+author_list:
+- affiliation:
+  - name: University of Freiburg,Freiburg,Germany
+  family: Ruchte
+  given: Michael
+- affiliation:
+  - name: University of Freiburg,Freiburg,Germany
+  family: Grabocka
+  given: Josif
+booktitle: 2021 IEEE International Conference on Data Mining (ICDM)
+citations:
+- article-title: 'GradNorm: Gradient normalization for adaptive loss balancing in
+    deep multitask networks'
+  author: chen
+  first-page: '794'
+  journal-title: Proceedings of the 35th International Conference on Machine Learning
+    ser Proceedings of Machine Learning Research
+  volume: '80'
+  year: '2018'
+- article-title: Nonlinear Multiobjective Optimization, ser
+  author: kaisa
+  journal-title: International Series in Operations Research & Management Science
+  volume: '12'
+  year: '1999'
+- author: ehrgott
+  journal-title: Multicriteria Optimization
+  year: '2005'
+- doi: 10.1007/3-540-45356-3_83
+- article-title: How fair can we go in machine learning? assessing the boundaries
+    of fairness in decision trees
+  author: valdivia
+  journal-title: arXiv preprint arXiv 2006 10226
+  year: '2020'
+- article-title: Addressing fairness in classification with a model-agnostic multiobjective
+    algorithm
+  author: padh
+  journal-title: arXiv preprint arXiv 2009 02026
+  year: '0'
+- article-title: The cost of fairness in binary classification
+  author: menon
+  first-page: '107'
+  journal-title: Conference on Fairness Accountability and Transparency
+  year: '2018'
+- article-title: 'You only train once: Loss-conditional training of deep networks'
+  author: dosovitskiy
+  journal-title: International Conference on Learning Representations
+  year: '2020'
+- doi: 10.1007/978-3-540-70928-2_64
+- article-title: 'Adam: A method for stochastic optimization'
+  author: kingma
+  journal-title: 3rd International Conference on Learning Representations ICLR 2015
+    San Diego CA USA May 7-9 2015 Conference Track Proceedings
+  year: '2015'
+- article-title: Pareto multi-task learning
+  author: lin
+  first-page: 12 060
+  journal-title: Advances in neural information processing systems
+  year: '2019'
+- article-title: Multi-task learning as multi-objective optimization
+  author: sener
+  first-page: '525'
+  journal-title: Proceedings of the 32Nd International Conference on Neural Information
+    Processing Systems
+  year: '2018'
+- author: lin
+  journal-title: Controllable pareto multi-task learning
+  year: '2021'
+- article-title: 'Multi-task learning with user p: Gradient descent with controlled
+    ascent in pareto optimization'
+  author: mahapatra
+  first-page: '6597'
+  journal-title: International Conference on Machine Learning
+  year: '2020'
+- author: zhang
+  journal-title: A survey on multi-task learning
+  year: '2018'
+- article-title: Learning the pareto front with hypernetworks
+  author: navon
+  journal-title: International Conference on Learning Representations
+  year: '2021'
+- article-title: Mutiple-gradient descent algorithm for multiobjective optimization
+  author: désidéri
+  journal-title: European Congress on Computational Methods in Applied Sciences and
+    Engineering (ECCOMAS 2012)
+  year: '2012'
+- article-title: Which tasks should be learned together in multi-task learning?
+  author: standley
+  journal-title: Int Conference on Machine Learning
+  year: '2020'
+- doi: 10.1007/s001860000043
+- author: dua
+  journal-title: UCI Machine Learning Repository
+  year: '2017'
+- doi: 10.1016/j.eswa.2007.12.020
+- author: angwin
+  journal-title: Machine Bias
+  year: '2016'
+- doi: 10.1109/ICCV.2015.425
+- article-title: Dynamic routing between capsules
+  author: sabour
+  journal-title: arXiv preprint arXiv 1710 09829
+  year: '2017'
+- doi: 10.1021/acs.iecr.6b03453
+- article-title: 'EfficientNet: Rethinking model scaling for convolutional neural
+    networks'
+  author: tan
+  first-page: '6105'
+  journal-title: Proceedings of the 36th International Conference on Machine Learning
+  volume: '97'
+  year: '2019'
+doc_url: http://xplorestaging.ieee.org/ielx7/9678506/9678989/09679014.pdf?arnumber=9679014
+doi: 10.1109/icdm51629.2021.00162
+files: []
+month: 12
+pages: 1306--1311
+papis_id: 892626288f8b8d9ca8ab777bc7f1ee25
+publisher: IEEE
+ref: ruchte-icdm2021a
+time-added: 2026-11-24-10:48:29
+title: Scalable Pareto Front Approximation for Deep Multi-Objective Learning
+type: inproceedings
+url: https://doi.org/10.1109/icdm51629.2021.00162
+venue: Auckland, New Zealand
+year: 2021
