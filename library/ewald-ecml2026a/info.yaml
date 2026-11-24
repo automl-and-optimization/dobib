@@ -1,0 +1,184 @@
+author: Ewald, Fiona Katharina and Binder, Martin and Feurer, Matthias and Bischl,
+  Bernd and Casalicchio, Giuseppe
+author_list:
+- affiliation: []
+  family: Ewald
+  given: Fiona Katharina
+- affiliation: []
+  family: Binder
+  given: Martin
+- affiliation: []
+  family: Feurer
+  given: Matthias
+- affiliation: []
+  family: Bischl
+  given: Bernd
+- affiliation: []
+  family: Casalicchio
+  given: Giuseppe
+booktitle: Machine Learning and Knowledge Discovery in Databases. Research Track
+citations:
+- unstructured: 'Binder, M., Pfisterer, F., Bischl, B.: Collecting empirical data
+    about hyperparameters for data driven AutoML. In: ICML Workshop on AutoML (2020)'
+- author: B Bischl
+  issue: '2'
+  journal-title: Wiley IRDMKD
+  unstructured: 'Bischl, B., et al.: Hyperparameter optimization: foundations, algorithms,
+    best practices, and open challenges. Wiley IRDMKD 13(2), e1484 (2023)'
+  volume: '13'
+  year: '2023'
+- unstructured: 'Bogunovic, I., Scarlett, J., Krause, A., Cevher, V.: Truncated variance
+    reduction: A unified approach to Bayesian optimization and level-set estimation.
+    NeurIPS 29 (2016)'
+- author: L Breiman
+  first-page: '5'
+  journal-title: Random forests. MLJ
+  unstructured: 'Breiman, L.: Random forests. MLJ 45, 5–32 (2001)'
+  volume: '45'
+  year: '2001'
+- doi: 10.1214/ss/1009213726
+  unstructured: 'Breiman, L.: Statistical modeling: the two cultures (with comments
+    and a rejoinder by the author). Stat. Sci. 16(3) (2001)'
+- unstructured: 'Bryan, B., Nichol, R.C., Genovese, C.R., Schneider, J., Miller, C.J.,
+    Wasserman, L.: Active learning for identifying function threshold boundaries.
+    In: NeurIPS 18 (2005)'
+- author: M Cavus
+  unstructured: 'Cavus, M., van Rijn, J.N., Biecek, P.: Quantifying model uncertainty
+    with AutoML and Rashomon partial dependence profiles: Enabling trustworthy and
+    human-centered XAI. Inf. Syst, Front (2026)'
+  volume-title: 'Quantifying model uncertainty with AutoML and Rashomon partial dependence
+    profiles: Enabling trustworthy and human-centered XAI'
+  year: '2026'
+- doi: 10.1145/3637528.3671818
+  unstructured: 'Ciaperoni, M., Xiao, H., Gionis, A.: Efficient exploration of the
+    Rashomon set of rule-set models. In: KDD, pp. 478–489 (2024)'
+- author: J Demšar
+  first-page: '1'
+  journal-title: JMLR
+  unstructured: 'Demšar, J.: Statistical comparisons of classifiers over multiple
+    data sets. JMLR 7, 1–30 (2006)'
+  volume: '7'
+  year: '2006'
+- author: J Dong
+  doi: 10.1038/s42256-020-00264-0
+  first-page: '810'
+  issue: '12'
+  journal-title: Nat. Mach. Intell.
+  unstructured: 'Dong, J., Rudin, C.: Exploring the cloud of variable importance for
+    the set of all good models. Nat. Mach. Intell. 2(12), 810–824 (2020)'
+  volume: '2'
+  year: '2020'
+- author: M Fernández-Delgado
+  first-page: '3133'
+  issue: '90'
+  journal-title: JMLR
+  unstructured: 'Fernández-Delgado, M., Cernadas, E., Barro, S., Amorim, D.: Do we
+    need hundreds of classifiers to solve real world classification problems? JMLR
+    15(90), 3133–3181 (2014)'
+  volume: '15'
+  year: '2014'
+- unstructured: 'Feurer, M., Klein, A., Eggensperger, K., Springenberg, J., Blum,
+    M., Hutter, F.: Efficient and robust automated machine learning. In: NeurIPS,
+    pp. 2962–2970 (2015)'
+- author: A Fisher
+  first-page: '1'
+  issue: '177'
+  journal-title: JMLR
+  unstructured: 'Fisher, A., Rudin, C., Dominici, F.: All models are wrong, but many
+    are useful: learning a variable’s importance by studying an entire class of prediction
+    models simultaneously. JMLR 20(177), 1–81 (2019)'
+  volume: '20'
+  year: '2019'
+- doi: 10.1017/9781108348973
+  unstructured: 'Garnett, R.: Bayesian optimization, Cambridge University Press (2023)'
+- unstructured: 'Gotovos, A., Casati, N., Hitz, G., Krause, A.: Active learning for
+    level set estimation. In: IJCAI pp. 1344–1350 (2013)'
+- author: H Hsu
+  first-page: '121265'
+  journal-title: NeurIPS
+  unstructured: 'Hsu, H., Brugere, I., Sharma, S., Lecue, F., Chen, R.: RashomonGB:
+    Analyzing the Rashomon effect and mitigating predictive multiplicity in gradient
+    boosting. NeurIPS 37, 121265–121303 (2024)'
+  volume: '37'
+  year: '2024'
+- doi: 10.52202/068431-2101
+  unstructured: 'Hsu, H., Calmon, F.: Rashomon capacity: ametric for predictive multiplicity
+    in classification. In: NeurIPS, pp. 28988–29000 (2022)'
+- unstructured: 'Hsu, H., Li, G., Hu, S., Chen, C.F.: Dropout-based rashomon set exploration
+    for efficient predictive multiplicity estimation. In: ICLR, pp. 33104–33144 (2024)'
+- doi: 10.1007/978-3-030-05318-5
+  unstructured: 'Hutter, F., Kotthoff, L., Vanschoren, J.: Automated machine learning:
+    Methods, systems, challenges, Springer (2019)'
+- author: G Laberge
+  first-page: '1'
+  issue: '364'
+  journal-title: JMLR
+  unstructured: 'Laberge, G., Pequignot, Y., Mathieu, A., Khomh, F., Marchand, M.:
+    Partial order in chaos: consensus on feature attributions in the rashomon set.
+    JMLR 24(364), 1–50 (2023)'
+  volume: '24'
+  year: '2023'
+- unstructured: 'LeDell, E., Poirier, S.: H2O AutoML: Scalable automatic machine learning.
+    In: ICML Workshop on AutoML (2020)'
+- unstructured: 'Li, S., Barnard, A.S., Deng, Q.: Practical and efficient rashomon
+    set sampling for model interpretability, AISTATS (2026)'
+- unstructured: 'Lin, J., Zhong, C., Hu, D., Rudin, C., Seltzer, M.: Generalized and
+    scalable optimal sparse decision trees. In: ICML, pp. 6150–6160 (2020)'
+- unstructured: 'Mata, K., Kanamori, K., Arimura, H.: Computing the collection of
+    good models for rule lists. arXiv:2204.11285 (2022)'
+- doi: 10.52202/075280-3337
+  unstructured: 'McElfresh, D., et al.: When do neural nets outperform boosted trees
+    on tabular data?. In: NeurIPS, pp. 76336–76369 (2023)'
+- author: S Müller
+  first-page: '462'
+  journal-title: ECML PKDD
+  unstructured: 'Müller, S., Toborek, V., Beckh, K., Jakobs, M., Bauckhage, C., Welke,
+    P.: An empirical evaluation of the rashomon effect in explainable machine learning.
+    ECML PKDD 14171, 462–478 (2023)'
+  volume: '14171'
+  year: '2023'
+- doi: 10.7551/mitpress/3206.001.0001
+  unstructured: 'Rasmussen, C., Williams, C.: Gaussian processes for machine learning,
+    The MIT Press (2006)'
+- unstructured: 'Rudin, C., et al.: Position: amazing things come from having many
+    good models. In: ICML, pp. 42783–42795 (2024)'
+- doi: 10.1145/3531146.3533232
+  unstructured: 'Semenova, L., Rudin, C., Parr, R.: On the existence of simpler machine
+    learning models. In: ACM FAccT, pp. 1827–1858 (2022)'
+- author: R Shwartz-Ziv
+  doi: 10.1016/j.inffus.2021.11.011
+  first-page: '84'
+  journal-title: Inf. Fusion
+  unstructured: 'Shwartz-Ziv, R., Armon, A.: Tabular data: deep learning is not all
+    you need. Inf. Fusion 81, 84–90 (2022)'
+  volume: '81'
+  year: '2022'
+- doi: 10.1145/2487575.2487629
+  unstructured: 'Thornton, C., Hutter, F., Hoos, H., Leyton-Brown, K.: Auto-WEKA:
+    combined selection and hyperparameter optimization of classification algorithms.
+    In: KDD, pp. 847–855 (2013)'
+- doi: 10.52202/068431-1023
+  unstructured: 'Xin, R., Zhong, C., Chen, Z., Takagi, T., Seltzer, M., Rudin, C.:
+    Exploring the whole Rashomon set of sparse decision trees. In: NeurIPS, pp. 14071–14084
+    (2022)'
+- doi: 10.52202/075280-2476
+  unstructured: 'Zhong, C., Chen, Z., Liu, J., Seltzer, M., Rudin, C.: Exploring and
+    interacting with the set of good sparse generalized additive models. In: NeurIPS,
+    pp. 56673–56699 (2023)'
+doc_url: https://link.springer.com/content/pdf/10.1007/978-3-032-37667-1_19
+doi: 10.1007/978-3-032-37667-1_19
+files: []
+isbn: '9783032376671'
+language: en
+month: 9
+pages: 319--337
+papis_id: ee9ad3a59d975ae91bd169ad36274d42
+publisher: Springer Nature Switzerland
+ref: ewald-ecml2026a
+series: Lecture Notes in Computer Science
+time-added: 2026-11-24-10:30:24
+title: 'CASHomon Sets: Efficient Rashomon Sets Across Multiple Model Classes and Their
+  Hyperparameters'
+type: inproceedings
+url: https://doi.org/10.1007/978-3-032-37667-1_19
+year: 2027
