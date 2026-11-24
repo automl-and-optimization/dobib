@@ -1,0 +1,40 @@
+abstract: 'In this paper, we use Prior-data Fitted Networks (PFNs) as a flexible surrogate
+  for Bayesian Optimization (BO). PFNs are neural processes that are trained to approximate
+  the posterior predictive distribution (PPD) through in-context learning on any prior
+  distribution that can be efficiently sampled from. We describe how this flexibility
+  can be exploited for surrogate modeling in BO. We use PFNs to mimic a naive Gaussian
+  process (GP), an advanced GP, and a Bayesian Neural Network (BNN). In addition,
+  we show how to incorporate further information into the prior, such as allowing
+  hints about the position of optima (user priors), ignoring irrelevant dimensions,
+  and performing non-myopic BO by learning the acquisition function. The flexibility
+  underlying these extensions opens up vast possibilities for using PFNs for BO. We
+  demonstrate the usefulness of PFNs for BO in a large-scale evaluation on artificial
+  GP samples and three different hyperparameter optimization testbeds: HPO-B, Bayesmark,
+  and PD1. We publish code alongside trained models at https://github.com/automl/PFNs4BO.'
+author: Müller, Samuel and Feurer, Matthias and Hollmann, Noah and Hutter, Frank
+author_list:
+- family: Müller
+  given: Samuel
+- family: Feurer
+  given: Matthias
+- family: Hollmann
+  given: Noah
+- family: Hutter
+  given: Frank
+booktitle: Proceedings of the 40th International Conference on Machine Learning
+editor: Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara
+  and Sabato, Sivan and Scarlett, Jonathan
+files: []
+month: 23--29 Jul
+pages: 25444--25470
+papis_id: 3470ee9013c9380a227b622ff1a65626
+pdf: https://proceedings.mlr.press/v202/muller23a/muller23a.pdf
+publisher: PMLR
+ref: muller-icml2023a
+series: Proceedings of Machine Learning Research
+time-added: 2026-11-24-10:46:30
+title: 'PFNs4BO: In-Context Learning for Bayesian Optimization'
+type: inproceedings
+url: https://proceedings.mlr.press/v202/muller23a.html
+volume: '202'
+year: '2023'
