@@ -1,0 +1,48 @@
+abstract: 'Hyperparameter optimization (HPO) aims to identify an optimal hyperparameter
+  configuration (HPC) such that the resulting model generalizes well to unseen data.
+  As the expected generalization error cannot be optimized directly, it is estimated
+  with a resampling strategy, such as holdout or cross-validation. This approach implicitly
+  assumes that minimizing the validation error leads to improved generalization. However,
+  since validation error estimates are inherently stochastic and depend on the resampling
+  strategy, a natural question arises: Can excessive optimization of the validation
+  error lead to overfitting at the HPO level, akin to overfitting in model training
+  based on empirical risk minimization? In this paper, we investigate this phenomenon,
+  which we term overtuning, a form of overfitting specific to HPO. Despite its practical
+  relevance, overtuning has received limited attention in the HPO and AutoML literature.
+  We provide a formal definition of overtuning and distinguish it from related concepts
+  such as meta-overfitting. We then conduct a large-scale reanalysis of HPO benchmark
+  data to assess the prevalence and severity of overtuning. Our results show that
+  overtuning is more common than previously assumed, typically mild but occasionally
+  severe. In approximately 10% of cases, overtuning leads to the selection of a seemingly
+  optimal HPC with worse generalization error than the default or first configuration
+  tried. We further analyze how factors such as performance metric, resampling strategy,
+  dataset size, learning algorithm, and HPO method affect overtuning and discuss mitigation
+  strategies. Our results highlight the need to raise awareness of overtuning, particularly
+  in the small-data regime, indicating that further mitigation strategies should be
+  studied.'
+author: Schneider, Lennart and Bischl, Bernd and Feurer, Matthias
+author_list:
+- family: Schneider
+  given: Lennart
+- family: Bischl
+  given: Bernd
+- family: Feurer
+  given: Matthias
+booktitle: Proceedings of the Fourth International Conference on Automated Machine
+  Learning
+editor: Akoglu, Leman and Doerr, Carola and van Rijn, Jan N. and Garnett, Roman and
+  Gardner, Jacob R.
+files: []
+month: 08--11 Sep
+pages: 17/1--43
+papis_id: 577f07e424c242bf6865e0810287a24d
+pdf: https://raw.githubusercontent.com/mlresearch/v293/main/assets/schneider25a/schneider25a.pdf
+publisher: PMLR
+ref: schneider-automl2025a
+series: Proceedings of Machine Learning Research
+time-added: 2026-11-24-10:49:06
+title: Overtuning in Hyperparameter Optimization
+type: inproceedings
+url: https://proceedings.mlr.press/v293/schneider25a.html
+volume: '293'
+year: '2025'
