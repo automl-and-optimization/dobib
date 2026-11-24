@@ -1,0 +1,371 @@
+author: Schneider, Lennart and Bischl, Bernd and Thomas, Janek
+author_list:
+- affiliation:
+  - name: Department of Statistics, Chair of Statistical Learning and Data Science,
+      LMU Munich, Munich, Germany
+  - name: Munich Center for Machine Learning (MCML), Munich, Germany
+  family: Schneider
+  given: Lennart
+- affiliation:
+  - name: Department of Statistics, Chair of Statistical Learning and Data Science,
+      LMU Munich, Munich, Germany
+  - name: Munich Center for Machine Learning (MCML), Munich, Germany
+  family: Bischl
+  given: Bernd
+- affiliation:
+  - name: Department of Statistics, Chair of Statistical Learning and Data Science,
+      LMU Munich, Munich, Germany
+  - name: Munich Center for Machine Learning (MCML), Munich, Germany
+  family: Thomas
+  given: Janek
+booktitle: Proceedings of the Genetic and Evolutionary Computation Conference
+citations:
+- doi: 10.1111/rssb.12377
+- author: Binder M.
+  unstructured: M. Binder , J. Moosbauer , J. Thomas , and B. Bischl . 2020. Multi-Objective
+    Hyper-parameter Tuning and Feature Selection Using Filter Ensembles . In Proceedings
+    of the 2020 Genetic and Evolutionary Computation Conference. 471--479 . M. Binder,
+    J. Moosbauer, J. Thomas, and B. Bischl. 2020. Multi-Objective Hyper-parameter
+    Tuning and Feature Selection Using Filter Ensembles. In Proceedings of the 2020
+    Genetic and Evolutionary Computation Conference. 471--479.
+  volume-title: Proceedings of the 2020 Genetic and Evolutionary Computation Conference.
+    471--479
+- author: Bischl B.
+  unstructured: 'B. Bischl , M. Binder , M. Lang , T. Pielok , J. Richter , S. Coors
+    , J. Thomas , T. Ullmann , M. Becker , A.-L. Boulesteix , D. Deng , and M. Lindauer
+    . 2021 . Hyperparameter Optimization: Foundations, Algorithms, Best Practices,
+    and Open Challenges . Wiley Interdisciplinary Reviews : Data Mining and Knowledge
+    Discovery (2021), e1484. B. Bischl, M. Binder, M. Lang, T. Pielok, J. Richter,
+    S. Coors, J. Thomas, T. Ullmann, M. Becker, A.-L. Boulesteix, D. Deng, and M.
+    Lindauer. 2021. Hyperparameter Optimization: Foundations, Algorithms, Best Practices,
+    and Open Challenges. Wiley Interdisciplinary Reviews: Data Mining and Knowledge
+    Discovery (2021), e1484.'
+  volume-title: 'Hyperparameter Optimization: Foundations, Algorithms, Best Practices,
+    and Open Challenges'
+  year: '2021'
+- author: Bischl B.
+  unstructured: B. Bischl , G. Casalicchio , M. Feurer , P. Gijsbers , F. Hutter ,
+    M. Lang , R. Gomes Mantovani , J. N. van Rijn , and J. Vanschoren . 2021. OpenML
+    Benchmarking Suites . In Proceedings of the Neural Information Processing Systems
+    Track on Datasets and Benchmarks, J. Vanschoren and S. Yeung (Eds.) , Vol. 1 .
+    B. Bischl, G. Casalicchio, M. Feurer, P. Gijsbers, F. Hutter, M. Lang, R. Gomes
+    Mantovani, J. N. van Rijn, and J. Vanschoren. 2021. OpenML Benchmarking Suites.
+    In Proceedings of the Neural Information Processing Systems Track on Datasets
+    and Benchmarks, J. Vanschoren and S. Yeung (Eds.), Vol. 1.
+  volume: '1'
+  volume-title: Proceedings of the Neural Information Processing Systems Track on
+    Datasets and Benchmarks, J. Vanschoren and S. Yeung (Eds.)
+- author: Bischl B.
+  unstructured: 'B. Bischl , I. Vatolkin , and M. Preuss . 2010. Selecting Small Audio
+    Feature Sets in Music Classification by Means of Asymmetric Mutation . In Proceedings
+    of the 11th International Conference on Parallel Problem Solving from Nature:
+    Part I. 314--323 . B. Bischl, I. Vatolkin, and M. Preuss. 2010. Selecting Small
+    Audio Feature Sets in Music Classification by Means of Asymmetric Mutation. In
+    Proceedings of the 11th International Conference on Parallel Problem Solving from
+    Nature: Part I. 314--323.'
+  volume-title: 'Proceedings of the 11th International Conference on Parallel Problem
+    Solving from Nature: Part I. 314--323'
+- doi: 10.1023/A:1010933404324
+- author: Chang C.-H.
+  unstructured: 'C.-H. Chang , R. Caruana , and A. Goldenberg . 2022 . Node-GAM: Neural
+    Generalized Additive Model for Interpretable Deep Learning. The Tenth International
+    Conference on Learning Representations, ICLR ( 2022 ). C.-H. Chang, R. Caruana,
+    and A. Goldenberg. 2022. Node-GAM: Neural Generalized Additive Model for Interpretable
+    Deep Learning. The Tenth International Conference on Learning Representations,
+    ICLR (2022).'
+  volume-title: 'Node-GAM: Neural Generalized Additive Model for Interpretable Deep
+    Learning. The Tenth International Conference on Learning Representations, ICLR'
+  year: '2022'
+- author: Chen T.
+  unstructured: 'T. Chen and C. Guestrin . 2016. XGBoost: A Scalable Tree Boosting
+    System . In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge
+    Discovery and Data Mining. 785--794 . T. Chen and C. Guestrin. 2016. XGBoost:
+    A Scalable Tree Boosting System. In Proceedings of the 22nd ACM SIGKDD International
+    Conference on Knowledge Discovery and Data Mining. 785--794.'
+  volume-title: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge
+    Discovery and Data Mining. 785--794
+- doi: 10.1007/978-3-540-30502-6_23
+  unstructured: T. Y. Chen H. Leung and I. K. Mak. 2005. Adaptive Random Testing.
+    In Advances in Computer Science - ASIAN 2004. Higher-Level Decision Making M.
+    J. Maher (Ed.). 320--329.  T. Y. Chen H. Leung and I. K. Mak. 2005. Adaptive Random
+    Testing. In Advances in Computer Science - ASIAN 2004. Higher-Level Decision Making
+    M. J. Maher (Ed.). 320--329.
+- doi: 10.1186/s12859-018-2264-5
+- doi: 10.5555/2639279.2639281
+- doi: 10.1109/4235.996017
+- doi: 10.5555/1248547.1248548
+- author: Dubey A.
+  unstructured: A. Dubey , F. Radenovic , and D. Mahajan . 2022. Scalable Interpretability
+    via Polynomials. In Advances in Neural Information Processing Systems, S. Koyejo,
+    S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A . Oh (Eds.) , Vol. 35 . A.
+    Dubey, F. Radenovic, and D. Mahajan. 2022. Scalable Interpretability via Polynomials.
+    In Advances in Neural Information Processing Systems, S. Koyejo, S. Mohamed, A.
+    Agarwal, D. Belgrave, K. Cho, and A. Oh (Eds.), Vol. 35.
+  volume: '35'
+  volume-title: Oh (Eds.)
+- author: Erickson N.
+  unstructured: 'N. Erickson , J. Mueller , A. Shirkov , H. Zhang , P. Larroy , M.
+    Li , and A. Smola . 2020 . AutoGluon-Tabular: Robust and Accurate AutoML for Structured
+    Data. In 7th ICML Workshop on Automated Machine Learning. N. Erickson, J. Mueller,
+    A. Shirkov, H. Zhang, P. Larroy, M. Li, and A. Smola. 2020. AutoGluon-Tabular:
+    Robust and Accurate AutoML for Structured Data. In 7th ICML Workshop on Automated
+    Machine Learning.'
+  volume-title: 'AutoGluon-Tabular: Robust and Accurate AutoML for Structured Data.
+    In 7th ICML Workshop on Automated Machine Learning.'
+- article-title: 'The Grouping Genetic Algorithms: Widening the Scope of the GA''s'
+  author: Falkenauer E.
+  first-page: '1'
+  journal-title: Belgian Journal of Operations Research, Statistics, and Computer
+    Science
+  unstructured: 'E. Falkenauer . 1993 . The Grouping Genetic Algorithms: Widening
+    the Scope of the GA''s . Belgian Journal of Operations Research, Statistics, and
+    Computer Science 33 , 1 -- 2 (1993), 79--102. E. Falkenauer. 1993. The Grouping
+    Genetic Algorithms: Widening the Scope of the GA''s. Belgian Journal of Operations
+    Research, Statistics, and Computer Science 33, 1--2 (1993), 79--102.'
+  volume: '33'
+  year: '1993'
+- doi: 10.1007/BF00226291
+- doi: 10.1007/978-3-030-05318-5_1
+  unstructured: 'M. Feurer and F. Hutter. 2019. Hyperparameter Optimization. In Automated
+    Machine Learning: Methods Systems Challenges F. Hutter L. Kotthoff and J. Vanschoren
+    (Eds.). Springer International Publishing Cham 3--33.  M. Feurer and F. Hutter.
+    2019. Hyperparameter Optimization. In Automated Machine Learning: Methods Systems
+    Challenges F. Hutter L. Kotthoff and J. Vanschoren (Eds.). Springer International
+    Publishing Cham 3--33.'
+- author: Feurer M.
+  unstructured: M. Feurer , A. Klein , K. Eggensperger , J. Springenberg , M. Blum
+    , and F. Hutter . 2015. Efficient and Robust Automated Machine Learning. In Advances
+    in Neural Information Processing Systems, C. Cortes, N. Lawrence, D. Lee, M. Sugiyama,
+    and R . Garnett (Eds.) , Vol. 28 . M. Feurer, A. Klein, K. Eggensperger, J. Springenberg,
+    M. Blum, and F. Hutter. 2015. Efficient and Robust Automated Machine Learning.
+    In Advances in Neural Information Processing Systems, C. Cortes, N. Lawrence,
+    D. Lee, M. Sugiyama, and R. Garnett (Eds.), Vol. 28.
+  volume: '28'
+  volume-title: Garnett (Eds.)
+- doi: 10.1214/aos/1013203451
+- doi: 10.1214/07-AOAS148
+- author: Gijsbers P.
+  unstructured: 'P. Gijsbers , M. L. P. Bueno , S. Coors , E. LeDell , S. Poirier
+    , J. Thomas , B. Bischl , and J. Vanschoren . 2022 . AMLB: An AutoML Benchmark.
+    arXiv:2207.12560 [cs.LG] (2022). P. Gijsbers, M. L. P. Bueno, S. Coors, E. LeDell,
+    S. Poirier, J. Thomas, B. Bischl, and J. Vanschoren. 2022. AMLB: An AutoML Benchmark.
+    arXiv:2207.12560 [cs.LG] (2022).'
+  volume-title: 'AMLB: An AutoML Benchmark. arXiv:2207.12560 [cs.LG]'
+  year: '2022'
+- author: Gorishniy Y.
+  unstructured: Y. Gorishniy , I. Rubachev , V. Khrulkov , and A. Babenko . 2021.
+    Revisiting Deep Learning Models for Tabular Data. In Advances in Neural Information
+    Processing Systems, M. Ranzato, A. Beygelzimer, Y. Dauphin, P. S. Liang, and J
+    . Wortman Vaughan (Eds.) , Vol. 34 . Y. Gorishniy, I. Rubachev, V. Khrulkov, and
+    A. Babenko. 2021. Revisiting Deep Learning Models for Tabular Data. In Advances
+    in Neural Information Processing Systems, M. Ranzato, A. Beygelzimer, Y. Dauphin,
+    P. S. Liang, and J. Wortman Vaughan (Eds.), Vol. 34.
+  volume: '34'
+  volume-title: Wortman Vaughan (Eds.)
+- author: Greenwell B. M.
+  unstructured: B. M. Greenwell , B. C. Boehmke , and A. J. McCarthy . 2018. A Simple
+    and Effective Model-Based Variable Importance Measure. arXiv:1805.04755 [stat.ML]
+    ( 2018 ). B. M. Greenwell, B. C. Boehmke, and A. J. McCarthy. 2018. A Simple and
+    Effective Model-Based Variable Importance Measure. arXiv:1805.04755 [stat.ML]
+    (2018).
+  volume-title: A Simple and Effective Model-Based Variable Importance Measure. arXiv:1805.04755
+    [stat.ML]
+  year: '2018'
+- author: Grinsztajn L.
+  unstructured: L. Grinsztajn , E. Oyallon , and G. Varoquaux . 2022. Why Do Tree-Based
+    Models Still Outperform Deep Learning on Typical Tabular Data? . In Thirty-sixth
+    Conference on Neural Information Processing Systems Datasets and Benchmarks Track.
+    L. Grinsztajn, E. Oyallon, and G. Varoquaux. 2022. Why Do Tree-Based Models Still
+    Outperform Deep Learning on Typical Tabular Data?. In Thirty-sixth Conference
+    on Neural Information Processing Systems Datasets and Benchmarks Track.
+  volume-title: Thirty-sixth Conference on Neural Information Processing Systems Datasets
+    and Benchmarks Track.
+- doi: 10.5555/944919.944968
+- doi: 10.5019/j.ijcir.2006.64
+- doi: 10.1214/ss/1177013604
+- author: Imrie F.
+  unstructured: F. Imrie , A. Norcliffe , P. Liò , and M. van der Schaar . 2022. Composite
+    Feature Selection using Deep Ensembles . In Advances in Neural Information Processing
+    Systems , S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh (Eds.),
+    Vol. 35 . F. Imrie, A. Norcliffe, P. Liò, and M. van der Schaar. 2022. Composite
+    Feature Selection using Deep Ensembles. In Advances in Neural Information Processing
+    Systems, S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh (Eds.),
+    Vol. 35.
+  volume-title: Advances in Neural Information Processing Systems
+- doi: 10.1023/A:1008306431147
+- author: Kadra A.
+  unstructured: A. Kadra , M. Lindauer , F. Hutter , and J. Grabocka . 2021. Well-tuned
+    Simple Nets Excel on Tabular Datasets. In Advances in Neural Information Processing
+    Systems, M. Ranzato, A. Beygelzimer, Y. Dauphin, P. S. Liang, and J . Wortman
+    Vaughan (Eds.) , Vol. 34 . A. Kadra, M. Lindauer, F. Hutter, and J. Grabocka.
+    2021. Well-tuned Simple Nets Excel on Tabular Datasets. In Advances in Neural
+    Information Processing Systems, M. Ranzato, A. Beygelzimer, Y. Dauphin, P. S.
+    Liang, and J. Wortman Vaughan (Eds.), Vol. 34.
+  volume: '34'
+  volume-title: Wortman Vaughan (Eds.)
+- unstructured: F. Karl T. Pielok J. Moosbauer F. Pfisterer S. Coors M. Binder L.
+    Schneider J. Thomas J. Richter M. Lang E. C. Garrido-Merchán J. Branke and B.
+    Bischl. 2022. Multi-Objective Hyperparameter Optimization - An Overview. arXiv:2206.07438
+    [cs.LG] (2022).  F. Karl T. Pielok J. Moosbauer F. Pfisterer S. Coors M. Binder
+    L. Schneider J. Thomas J. Richter M. Lang E. C. Garrido-Merchán J. Branke and
+    B. Bischl. 2022. Multi-Objective Hyperparameter Optimization - An Overview. arXiv:2206.07438
+    [cs.LG] (2022).
+- author: Ke G.
+  unstructured: 'G. Ke , Q. Meng , T. Finley , T. Wang , W. Chen , W. Ma , Q. Ye ,
+    and T.-Y. Liu . 2017 . LightGBM: A Highly Efficient Gradient Boosting Decision
+    Tree. In Advances in Neural Information Processing Systems, I. Guyon, U. von Luxburg,
+    S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R . Garnett (Eds.) , Vol.
+    30 . G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.-Y. Liu.
+    2017. LightGBM: A Highly Efficient Gradient Boosting Decision Tree. In Advances
+    in Neural Information Processing Systems, I. Guyon, U. von Luxburg, S. Bengio,
+    H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett (Eds.), Vol. 30.'
+  volume: '30'
+  volume-title: Garnett (Eds.)
+  year: '2017'
+- doi: 10.1109/TEVC.2005.851274
+- doi: 10.1016/S0004-3702(97)00043-X
+- author: Largeron C.
+  unstructured: C. Largeron , C. Moulin , and M. Géry . 2011. Entropy Based Feature
+    Selection for Text Categorization . In Proceedings of the 2011 ACM Symposium on
+    Applied Computing. 924--928 . C. Largeron, C. Moulin, and M. Géry. 2011. Entropy
+    Based Feature Selection for Text Categorization. In Proceedings of the 2011 ACM
+    Symposium on Applied Computing. 924--928.
+  volume-title: Proceedings of the 2011 ACM Symposium on Applied Computing. 924--928
+- doi: 10.1162/EVCO_a_00059
+- article-title: 'SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter
+    Optimization'
+  author: Lindauer M.
+  first-page: '54'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'M. Lindauer , K. Eggensperger , M. Feurer , A. Biedenkapp , D. Deng
+    , C. Benjamins , T. Ruhkopf , R. Sass , and F. Hutter . 2022 . SMAC3: A Versatile
+    Bayesian Optimization Package for Hyperparameter Optimization . Journal of Machine
+    Learning Research 23 (2022), 54 -- 51 . M. Lindauer, K. Eggensperger, M. Feurer,
+    A. Biedenkapp, D. Deng, C. Benjamins, T. Ruhkopf, R. Sass, and F. Hutter. 2022.
+    SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization.
+    Journal of Machine Learning Research 23 (2022), 54--1.'
+  volume: '23'
+  year: '2022'
+- author: Lou Y.
+  unstructured: Y. Lou , R. Caruana , and J. Gehrke . 2012. Intelligible Models for
+    Classification and Regression . In Proceedings of the 18th ACM SIGKDD International
+    Conference on Knowledge Discovery and Data Mining. 150--158 . Y. Lou, R. Caruana,
+    and J. Gehrke. 2012. Intelligible Models for Classification and Regression. In
+    Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery
+    and Data Mining. 150--158.
+  volume-title: Proceedings of the 18th ACM SIGKDD International Conference on Knowledge
+    Discovery and Data Mining. 150--158
+- author: Lou Y.
+  unstructured: Y. Lou , R. Caruana , J. Gehrke , and G. Hooker . 2013. Accurate Intelligible
+    Models with Pairwise Interactions . In Proceedings of the 19th ACM SIGKDD International
+    Conference on Knowledge Discovery and Data Mining. 623--631 . Y. Lou, R. Caruana,
+    J. Gehrke, and G. Hooker. 2013. Accurate Intelligible Models with Pairwise Interactions.
+    In Proceedings of the 19th ACM SIGKDD International Conference on Knowledge Discovery
+    and Data Mining. 623--631.
+  volume-title: Proceedings of the 19th ACM SIGKDD International Conference on Knowledge
+    Discovery and Data Mining. 623--631
+- unstructured: C. Molnar. 2022. Interpretable Machine Learning (2 ed.). https://christophm.github.io/interpretable-ml-book  C.
+    Molnar. 2022. Interpretable Machine Learning (2 ed.). https://christophm.github.io/interpretable-ml-book
+- doi: 10.1007/978-3-030-43823-4_17
+  unstructured: C. Molnar G. Casalicchio and B. Bischl. 2020. Quantifying Model Complexity
+    via Functional Decomposition for Better post-hoc Interpretability. In Machine
+    Learning and Knowledge Discovery in Databases P. Cellier and K. Driessens (Eds.).
+    193--204.  C. Molnar G. Casalicchio and B. Bischl. 2020. Quantifying Model Complexity
+    via Functional Decomposition for Better post-hoc Interpretability. In Machine
+    Learning and Knowledge Discovery in Databases P. Cellier and K. Driessens (Eds.).
+    193--204.
+- author: Morales-Hernández A.
+  unstructured: A. Morales-Hernández , I. van Nieuwenhuyse , and S. Rojas Gonzalez
+    . 2022. A Survey on Multi-Objective Hyperparameter Optimization Algorithms for
+    Machine Learning. Artificial Intelligence Review ( 2022 ), 1--51. A. Morales-Hernández,
+    I. van Nieuwenhuyse, and S. Rojas Gonzalez. 2022. A Survey on Multi-Objective
+    Hyperparameter Optimization Algorithms for Machine Learning. Artificial Intelligence
+    Review (2022), 1--51.
+  volume-title: A Survey on Multi-Objective Hyperparameter Optimization Algorithms
+    for Machine Learning. Artificial Intelligence Review
+  year: '2022'
+- doi: 10.2307/2344517
+- unstructured: 'H. Nori S. Jenkins P. Koch and R. Caruana. 2019. InterpretML: A Unified
+    Framework for Machine Learning Interpretability. arXiv:1909.09223 [cs.LG] (2019).  H.
+    Nori S. Jenkins P. Koch and R. Caruana. 2019. InterpretML: A Unified Framework
+    for Machine Learning Interpretability. arXiv:1909.09223 [cs.LG] (2019).'
+- doi: 10.1145/568574.568577
+- article-title: 'Tunability: Importance of Hyperparameters of Machine Learning Algorithms'
+  author: Probst P.
+  first-page: '1'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'P. Probst , A.-L. Boulesteix , and B. Bischl . 2019 . Tunability:
+    Importance of Hyperparameters of Machine Learning Algorithms . Journal of Machine
+    Learning Research 20 , 53 (2019), 1 -- 32 . P. Probst, A.-L. Boulesteix, and B.
+    Bischl. 2019. Tunability: Importance of Hyperparameters of Machine Learning Algorithms.
+    Journal of Machine Learning Research 20, 53 (2019), 1--32.'
+  volume: '20'
+  year: '2019'
+- author: Radenovic F.
+  unstructured: F. Radenovic , A. Dubey , and D. Mahajan . 2022. Neural Basis Models
+    for Interpretability. In Advances in Neural Information Processing Systems, S.
+    Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A . Oh (Eds.) , Vol.
+    35 . F. Radenovic, A. Dubey, and D. Mahajan. 2022. Neural Basis Models for Interpretability.
+    In Advances in Neural Information Processing Systems, S. Koyejo, S. Mohamed, A.
+    Agarwal, D. Belgrave, K. Cho, and A. Oh (Eds.), Vol. 35.
+  volume: '35'
+  volume-title: Oh (Eds.)
+- unstructured: A. Sharma and H. Wehrheim. 2020. Testing Monotonicity of Machine Learning
+    Models. arXiv:2002.12278 [cs.LG] (2020).  A. Sharma and H. Wehrheim. 2020. Testing
+    Monotonicity of Machine Learning Models. arXiv:2002.12278 [cs.LG] (2020).
+- doi: 10.1016/j.inffus.2021.11.011
+- unstructured: 'M. Tsang H. Liu S. Purushotham P. Murali and Y. Liu. 2018. Neural
+    Interaction Transparency (NIT): Disentangling Learned Interactions for Improved
+    Interpretability. In Advances in Neural Information Processing Systems S. Bengio
+    H. Wallach H. Larochelle K. Grauman N. Cesa-Bianchi and R. Garnett (Eds.) Vol.
+    31.  M. Tsang H. Liu S. Purushotham P. Murali and Y. Liu. 2018. Neural Interaction
+    Transparency (NIT): Disentangling Learned Interactions for Improved Interpretability.
+    In Advances in Neural Information Processing Systems S. Bengio H. Wallach H. Larochelle
+    K. Grauman N. Cesa-Bianchi and R. Garnett (Eds.) Vol. 31.'
+- author: van Rijn J. N.
+  unstructured: J. N. van Rijn and F. Hutter . 2018. Hyperparameter Importance Across
+    Datasets . In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge
+    Discovery and Data Mining. 2367--2376 . J. N. van Rijn and F. Hutter. 2018. Hyperparameter
+    Importance Across Datasets. In Proceedings of the 24th ACM SIGKDD International
+    Conference on Knowledge Discovery and Data Mining. 2367--2376.
+  volume-title: Proceedings of the 24th ACM SIGKDD International Conference on Knowledge
+    Discovery and Data Mining. 2367--2376
+- doi: 10.1007/s10287-004-0014-9
+- author: Xue B.
+  unstructured: 'B. Xue , W. Fu , and M. Zhang . 2014 . Multi-Objective Feature Selection
+    in Classification: A Differential Evolution Approach. In Simulated Evolution and
+    Learning: 10th International Conference. 516--528 . B. Xue, W. Fu, and M. Zhang.
+    2014. Multi-Objective Feature Selection in Classification: A Differential Evolution
+    Approach. In Simulated Evolution and Learning: 10th International Conference.
+    516--528.'
+  volume-title: 'Multi-Objective Feature Selection in Classification: A Differential
+    Evolution Approach. In Simulated Evolution and Learning: 10th International Conference.
+    516--528'
+- doi: 10.1109/TEVC.2015.2504420
+- doi: 10.1016/j.patcog.2021.108192
+- author: Zitzler E.
+  unstructured: E. Zitzler and L. Thiele . 1998. Multiobjective Optimization Using
+    Evolutionary Algorithms - A Comparative Case Study . In Proceedings of the 5th
+    International Conference on Parallel Problem Solving from Nature. 292--304 . E.
+    Zitzler and L. Thiele. 1998. Multiobjective Optimization Using Evolutionary Algorithms
+    - A Comparative Case Study. In Proceedings of the 5th International Conference
+    on Parallel Problem Solving from Nature. 292--304.
+  volume-title: Proceedings of the 5th International Conference on Parallel Problem
+    Solving from Nature. 292--304
+- doi: 10.1111/j.1467-9868.2005.00503.x
+doc_url: https://dl.acm.org/doi/pdf/10.1145/3583131.3590380
+doi: 10.1145/3583131.3590380
+eventtitle: 'GECCO ''23: Genetic and Evolutionary Computation Conference'
+files: []
+month: 7
+pages: 538--547
+papis_id: 1a3aad3d4b91450467f99efcc28dacbf
+publisher: ACM
+ref: schneider-gecco2023a
+time-added: 2026-11-24-10:49:53
+title: Multi-Objective Optimization of Performance and Interpretability of Tabular
+  Supervised Machine Learning Models
+type: inproceedings
+url: https://doi.org/10.1145/3583131.3590380
+venue: Lisbon Portugal
+year: 2023
