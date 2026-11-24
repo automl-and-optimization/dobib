@@ -1,0 +1,26 @@
+author: Nagler, Thomas and Schneider, Lennart and Bischl, Bernd and Feurer, Matthias
+author_list:
+- family: Nagler
+  given: Thomas
+- family: Schneider
+  given: Lennart
+- family: Bischl
+  given: Bernd
+- family: Feurer
+  given: Matthias
+booktitle: Advances in Neural Information Processing Systems
+doi: 10.52202/079017-1281
+editor: A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J.
+  Tomczak and C. Zhang
+files: []
+pages: 40486--40533
+papis_id: c2a77ec83f4a6397f58dc1494c6b2758
+publisher: Curran Associates, Inc.
+ref: nagler-neurips2024a
+time-added: 2026-11-24-10:48:08
+title: Reshuffling Resampling Splits Can Improve Generalization of Hyperparameter
+  Optimization
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2024/file/47811ee68103bfcde7ca2223fccefb3a-Paper-Conference.pdf
+volume: '37'
+year: '2024'
