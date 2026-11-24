@@ -1,0 +1,69 @@
+abstract: '<jats:p>The field of automated machine learning (AutoML) introduces techniques
+  that automate parts of the development of machine learning (ML) systems, accelerating
+  the process and reducing barriers for novices. However, decisions derived from ML
+  models can reproduce, amplify, or even introduce unfairness in our societies, causing
+  harm to (groups of) individuals. In response, researchers have started to propose
+  AutoML systems that jointly optimize fairness and predictive performance to mitigate
+  fairness-related harm. However, fairness is a complex and inherently interdisciplinary
+  subject, and solely posing it as an optimization problem can have adverse side effects.
+  With this work, we aim to raise awareness among developers of AutoML systems about
+  such limitations of fairness-aware AutoML, while also calling attention to the potential
+  of AutoML as a tool for fairness research. We present a comprehensive overview of
+  different ways in which fairness-related harm can arise and the ensuing implications
+  for the design of fairness-aware AutoML. We conclude that while fairness cannot
+  be automated, fairness-aware AutoML can play an important role in the toolbox of
+  ML practitioners. We highlight several open technical challenges for future work
+  in this direction. Additionally, we advocate for the creation of more user-centered
+  assistive systems designed to tackle challenges encountered in fairness work.
+
+  This article appears in the AI &amp; Society track.</jats:p>'
+author: Weerts, Hilde and Pfisterer, Florian and Feurer, Matthias and Eggensperger,
+  Katharina and Bergman, Edward and Awad, Noor and Vanschoren, Joaquin and Pechenizkiy,
+  Mykola and Bischl, Bernd and Hutter, Frank
+author_list:
+- affiliation: []
+  family: Weerts
+  given: Hilde
+- affiliation: []
+  family: Pfisterer
+  given: Florian
+- affiliation: []
+  family: Feurer
+  given: Matthias
+- affiliation: []
+  family: Eggensperger
+  given: Katharina
+- affiliation: []
+  family: Bergman
+  given: Edward
+- affiliation: []
+  family: Awad
+  given: Noor
+- affiliation: []
+  family: Vanschoren
+  given: Joaquin
+- affiliation: []
+  family: Pechenizkiy
+  given: Mykola
+- affiliation: []
+  family: Bischl
+  given: Bernd
+- affiliation: []
+  family: Hutter
+  given: Frank
+doc_url: http://jair.org/index.php/jair/article/download/14747/27014
+doi: 10.1613/jair.1.14747
+files: []
+journal: Journal of Artificial Intelligence Research
+month: 2
+pages: 639--677
+papis_id: 79e986d81e4b96df3b19dd34c04d1233
+publisher: AI Access Foundation
+ref: weerts-jair2024a
+time-added: 2026-11-24-10:53:41
+title: Can Fairness be Automated? Guidelines and Opportunities for Fairness-aware
+  AutoML
+type: article
+url: https://doi.org/10.1613/jair.1.14747
+volume: '79'
+year: 2024
