@@ -1,0 +1,124 @@
+author: Nadeau, Claude and Bengio, Yoshua
+author_list:
+- affiliation: []
+  family: Nadeau
+  given: Claude
+- affiliation: []
+  family: Bengio
+  given: Yoshua
+citations:
+- unstructured: Blake, C., Keogh, E., & Merz, C.-J. (1998). UCI repository of machine
+    learning databases.
+- author: L. Breiman
+  doi: 10.1214/aos/1032181158
+  first-page: '2350'
+  issue: '6'
+  journal-title: Annals of Statistics
+  unstructured: Breiman, L. (1996). Heuristics of instability and stabilization in
+    model selection. Annals of Statistics,24:6, 2350–2383.
+  volume: '24'
+  year: '1996'
+- unstructured: Breiman, L., Friedman, J., Olshen, R., & Stone, C. (1984). Classification
+    and regression trees. Wadsworth International Group.
+- author: C. Burges
+  doi: 10.1023/A:1009715923555
+  first-page: '1'
+  issue: '2'
+  journal-title: Data Mining and Knowledge Discovery
+  unstructured: Burges, C. (1998). A tutorial on support vector machines for pattern
+    recognition. Data Mining and Knowledge Discovery, 2:2, 1–47.
+  volume: '2'
+  year: '1998'
+- doi: 10.1007/978-1-4612-0711-5
+  unstructured: Devroye, L., Gyröfi, L., & Lugosi, G. (1996). A probabilistic theory
+    of pattern recognition. Springer-Verlag.
+- author: T. Dietterich
+  doi: 10.1162/089976698300017197
+  first-page: '1895'
+  journal-title: Neural Computation
+  unstructured: Dietterich, T. (1998). Approximate statistical tests for comparing
+    supervised classification learning algorithms. Neural Computation, 10:7, 1895–1924.
+  volume: '107'
+  year: '1998'
+- author: B. Efron
+  doi: 10.1007/978-1-4899-4541-9
+  series-title: Monographs on Statistics and Applied Probability
+  unstructured: 'Efron, B., & Tibshirani, R. J. (1993). An introduction to the bootstrap.
+    Monographs on Statistics and Applied Probability 57. New York, NY: Chapman & Hall.'
+  volume-title: An introduction to the bootstrap
+  year: '1993'
+- author: B. Everitt
+  doi: 10.1007/978-1-4899-2927-3
+  unstructured: 'Everitt, B. (1977). The analysis of contingency tables. London: Chapman
+    & Hall.'
+  volume-title: The analysis of contingency tables
+  year: '1977'
+- author: C. Goutte
+  doi: 10.1162/neco.1997.9.6.1245
+  first-page: '1053'
+  issue: '6'
+  journal-title: Neural Computation
+  unstructured: Goutte, C. (1997). Note on free lunches and cross-validation. Neural
+    Computation, 9:6, 1053–1059.
+  volume: '9'
+  year: '1997'
+- unstructured: Hinton, G., Neal, R., Tibshirani, R., & DELVE team members. (1995).
+    Assessing learning procedures using DELVE. Technical report, University of Toronto,
+    Department of Computer Science.
+- doi: 10.1145/267460.267491
+  unstructured: Kearns, M., & Ron, D. (1997). Algorithmic stability and sanity-check
+    bounds for leave-one-out cross-validation. Tenth Annual Conference on Computational
+    Learning Theory (pp. 152–162). Morgan Kaufmann.
+- unstructured: Kohavi, R. (1995). A study of cross-validation and bootstrap for accuracy
+    estimation and model selection. Proceeding of the Fourteenth International Joint
+    Conference on Artificial Intelligence (pp. 1137–1143). Morgan Kaufmann.
+- author: J. Kolen
+  first-page: '860'
+  unstructured: 'Kolen, J. & Pollack, J. (1991). Back propagation is sensitive to
+    initial conditions. Advances in Neural Information Processing Systems (pp. 860–867).
+    San Francisco, CA: Morgan Kauffmann.'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '1991'
+- unstructured: Nadeau, C., & Bengio, Y. (1999). Inference for the generalisation
+    error. Technical report 99s-25, CIRANO.
+- author: V. Vapnik
+  unstructured: 'Vapnik, V. (1982). Estimation of dependences based on empirical data.
+    Berlin: Springer-Verlag.'
+  volume-title: Estimation of dependences based on empirical data
+  year: '1982'
+- author: H. White
+  doi: 10.2307/1912526
+  first-page: '1'
+  journal-title: Econometrica
+  unstructured: White, H. (1982). Maximum likelihood estimation of misspecified models.
+    Econometrica, 50, 1–25.
+  volume: '50'
+  year: '1982'
+- unstructured: Wolpert, D., & Macready,W. (1995). No free lunch theorems for search.
+    Technical report SFI-TR-95-02-010, The Santa Fe Institute.
+- author: H. Zhu
+  doi: 10.1162/neco.1996.8.7.1421
+  first-page: '1421'
+  issue: '7'
+  journal-title: Neural Computation
+  unstructured: Zhu, H., & Rohwer, R. (1996). No free lunch for cross validation.
+    Neural Computation, 8:7, 1421–1426.
+  volume: '8'
+  year: '1996'
+doc_url: https://link.springer.com/content/pdf/10.1023/A:1024068626366.pdf
+doi: 10.1023/a:1024068626366
+files: []
+issue: '3'
+journal: Machine Learning
+language: en
+month: 9
+pages: 239--281
+papis_id: c5fdf4c76759ee5e3af14cf5036b06a2
+publisher: Springer Science and Business Media LLC
+ref: nadeau-mlj2003a
+time-added: 2026-11-24-10:47:34
+title: Inference for the Generalization Error
+type: article
+url: https://doi.org/10.1023/a:1024068626366
+volume: '52'
+year: 2003
