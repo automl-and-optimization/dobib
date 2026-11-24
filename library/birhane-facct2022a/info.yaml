@@ -1,0 +1,251 @@
+author: Birhane, Abeba and Kalluri, Pratyusha and Card, Dallas and Agnew, William
+  and Dotan, Ravit and Bao, Michelle
+author_list:
+- affiliation:
+  - name: Mozilla Foundation &amp; University College Dublin, Ireland
+  family: Birhane
+  given: Abeba
+- affiliation:
+  - name: Stanford University, USA
+  family: Kalluri
+  given: Pratyusha
+- affiliation:
+  - name: University of Michigan, USA
+  family: Card
+  given: Dallas
+- affiliation:
+  - name: University of Washington, USA
+  family: Agnew
+  given: William
+- affiliation:
+  - name: University of Pittsburg, USA
+  family: Dotan
+  given: Ravit
+- affiliation:
+  - name: Stanford University, USA
+  family: Bao
+  given: Michelle
+booktitle: 2022 ACM Conference on Fairness Accountability and Transparency
+citations:
+- doi: 10.1137/1.9781611975673.90
+- doi: 10.1145/3461702.3462563
+- unstructured: Grace Abuhamad and Claudel Rheault. 2020. Like a Researcher Stating
+    Broader Impact For the Very First Time. arXiv preprint arXiv:2011.13032(2020).
+- unstructured: 'Nur Ahmed and Muntasir Wahed. 2020. The De-democratization of AI:
+    Deep Learning and the Compute Divide in Artificial Intelligence Research. arXiv
+    preprint arXiv:2010.15581(2020).'
+- doi: 10.1145/3442188.3445922
+  unstructured: 'Emily M. Bender Timnit Gebru Angelina McMillan-Major and Shmargaret
+    Shmitchell. 2021. On the Dangers of Stochastic Parrots: Can Language Models Be
+    Too Big?Proceedings of FAccT(2021).'
+- unstructured: Samy Bengio and Deborah Raji. 2021. A Retrospective on the NeurIPS
+    2021 Ethics Review Process. https://blog.neurips.cc/2021/12/03/a-retrospective-on-the-neurips-2021-ethics-review-process/
+- doi: 10.1016/j.npls.2016.01.001
+- author: Benjamin Ruha
+  unstructured: 'Ruha Benjamin. 2019. Race After Technology: Abolitionist Tools for
+    the New Jim Code. Wiley.'
+  volume-title: 'Race After Technology: Abolitionist Tools for the New Jim Code'
+- author: L.
+  unstructured: Bruce L. Berg and Howard Lune. 2017. Qualitative research methods
+    for the social sciences (ninth edition ed.). Pearson.
+  volume-title: Berg and Howard Lune
+  year: '2017'
+- author: Birhane Abeba
+  unstructured: Abeba Birhane. 2020. Algorithmic Colonization of Africa. SCRIPTed
+    17, 2 (2020).
+  volume-title: Algorithmic Colonization of Africa. SCRIPTed 17, 2
+  year: '2020'
+- doi: 10.18653/v1/2020.acl-main.485
+- author: C.
+  unstructured: 'Geoffrey C. Bowker and Susan Leigh Star. 2000. Sorting things out:
+    Classification and its consequences. MIT press.'
+  volume-title: Bowker and Susan Leigh Star
+  year: '2000'
+- author: Buolamwini Joy
+  unstructured: 'Joy Buolamwini and Timnit Gebru. 2018. Gender Shades: Intersectional
+    Accuracy Disparities in Commercial Gender Classification. In Proceedings of the
+    Conference on Fairness, Accountability and Transparency.'
+  volume-title: Proceedings of the Conference on Fairness, Accountability and Transparency.
+  year: '2018'
+- doi: 10.21428/96c8d426
+  unstructured: Sasha Costanza-Chock. 2018. Design Justice AI and Escape from the
+    Matrix of Domination. Journal of Design and Science(2018).
+- unstructured: Kate Crawford. 2017. The Trouble with Bias. (2017). NeurIPS Keynote.
+- author: Denzin K
+  unstructured: 'Norman K Denzin. 2017. Sociological methods: a sourcebook. McGraw-Hill.'
+  volume-title: 'Sociological methods: a sourcebook'
+- author: D’Ignazio Catherine
+  unstructured: Catherine D’Ignazio and Lauren F Klein. 2020. Data Feminism. MIT Press.
+  volume-title: Data Feminism
+- doi: 10.1145/3351095.3373157
+  unstructured: Ravit Dotan and Smitha Milli. 2019. Value-Laden Disciplinary Shifts
+    in Machine Learning. arXiv preprint arXiv:1912.01172(2019).
+- doi: 10.1177/1744987119880234
+- doi: 10.18653/v1/2020.emnlp-main.393
+- article-title: A Unified Framework of Five Principles for AI in Society
+  author: Floridi Luciano
+  journal-title: Harvard Data Science Review
+  unstructured: Luciano Floridi and Josh Cowls. 2019. A Unified Framework of Five
+    Principles for AI in Society. Harvard Data Science Review 1, 1 (2019).
+  volume: '1'
+  year: '2019'
+- author: Glaser G.
+  unstructured: 'Barney G. Glaser and Anselm L. Strauss. 1999. The discovery of grounded
+    theory: strategies for grounded research. Aldine de Gruyter.'
+  volume-title: 'The discovery of grounded theory: strategies for grounded research'
+- author: Green Ben
+  unstructured: Ben Green. 2019. ‘Good’ isn’t Good Enough. In NeurIPS Joint Workshop
+    on AI for Social Good.
+  volume-title: Good Enough. In NeurIPS Joint Workshop on AI for Social Good.
+  year: '2019'
+- author: Hamidi Foad
+  unstructured: Foad Hamidi, Morgan Klaus Scheuerman, and Stacy M. Branham. 2018.
+    Gender Recognition or Gender Reductionism? The Social Implications of Embedded
+    Gender Recognition Systems. In Proceedings CHI.
+  volume-title: Proceedings CHI.
+  year: '2018'
+- author: Hanna Alex
+  unstructured: 'Alex Hanna and Tina M. Park. 2020. Against Scale: Provocations and
+    Resistances to Scale Thinking. arXiv preprint arXiv:2010.08850(2020).'
+  volume-title: 'Against Scale: Provocations and Resistances to Scale Thinking. arXiv
+    preprint arXiv:2010.08850(2020).'
+  year: '2020'
+- author: Hill Kashmir
+  unstructured: Kashmir Hill. 2020. Wrongfully Accused by an Algorithm. The New York
+    Times (2020). https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html
+  volume-title: Wrongfully Accused by an Algorithm. The New York Times
+  year: '2020'
+- doi: 10.1145/3290605.3300830
+- doi: 10.1177/1049732305276687
+- doi: 10.1177/1745691612464056
+- unstructured: Pratyusha Kalluri. 2019. The Values of Machine Learning. https://slideslive.com/38923453/the-values-of-machine-learning
+    https://slideslive.com/38923453/the-values-of-machine-learning.
+- author: Kalluri Pratyusha
+  unstructured: Pratyusha Kalluri. 2020. Don’t ask if Artificial Intelligence is Good
+    or Fair, ask how it Shifts Power.Nature 583, 7815 (2020), 169–169.
+  volume-title: Don’t ask if Artificial Intelligence is Good or Fair, ask how it Shifts
+    Power.Nature 583, 7815
+  year: '2020'
+- author: Kendall G
+  unstructured: Maurice G Kendall and B Babington Smith. 1939. The problem of m rankings.
+    The annals of mathematical statistics 10, 3 (1939), 275–287.
+  volume-title: The problem of m rankings. The annals of mathematical statistics 10,
+    3
+  year: '1939'
+- doi: 10.1371/journal.pone.0149787
+- doi: 10.5014/ajot.45.3.214
+- author: Krippendorff Klaus
+  unstructured: 'Klaus Krippendorff. 2018. Content Analysis: An Introduction to its
+    Methodology. Sage Publications.'
+  volume-title: 'Content Analysis: An Introduction to its Methodology'
+  year: '2018'
+- author: Kuhn S.
+  unstructured: 'Thomas S. Kuhn. 1977. Objectivity, Value Judgment, and Theory Choice.
+    In The Essential Tension: Selected Studies in Scientific Tradition and Change.
+    University of Chicago Press, 320–39.'
+  volume-title: 'The Essential Tension: Selected Studies in Scientific Tradition and
+    Change'
+- unstructured: Jason Edward Lewis Angie Abdilla Noelani Arista Kaipulaumakaniolono
+    Baker Scott Benesiinaabandan Michelle Brown Melanie Cheung Meredith Coleman Ashley
+    Cordes Joel Davison 2020. Indigenous Protocol and Artificial Intelligence Position
+    Paper. (2020).
+- unstructured: 'T. Lewis S. P. Gangadharan M. Saba and T. Petty. 2018. Digital Defense
+    Playbook: Community power tools for reclaiming data. Our Data Bodies.'
+- author: Lincoln S.
+  unstructured: Yvonna S. Lincoln and Egon G. Guba. 2006. Naturalistic inquiry. Sage
+    Publ.
+  volume-title: Naturalistic inquiry
+- doi: 10.1145/3317287.3328534
+- author: Longino E.
+  unstructured: 'Helen E. Longino. 1996. Cognitive and Non-Cognitive Values in Science:
+    Rethinking the Dichotomy. In Feminism, Science, and the Philosophy of Science,
+    Lynn Hankinson Nelson and Jack Nelson (Eds.). Springer Netherlands, 39–58.'
+  volume-title: Feminism, Science, and the Philosophy of Science
+- doi: 10.1086/psaprocbienmeetp.1982.2.192409
+- unstructured: Sharan B Merriam and Robin S Grenier. 2019. Qualitative Research in
+    Practice. Jossey-Bass.
+- author: Merton K.
+  unstructured: 'Robert K. Merton. 1973. The Sociology of Science: Theoretical and
+    Empirical Investigations. University of Chicago press.'
+  volume-title: 'The Sociology of Science: Theoretical and Empirical Investigations'
+- doi: 10.1007/s13347-020-00405-8
+- doi: 10.1145/3461702.3462608
+- doi: 10.1136/eb-2015-102054
+- author: Noble Safiya Umoja
+  unstructured: 'Safiya Umoja Noble. 2018. Algorithms of oppression: How search engines
+    reinforce racism. NYU Press.'
+  volume-title: 'Algorithms of oppression: How search engines reinforce racism'
+- author: O’Neil Cathy
+  unstructured: 'Cathy O’Neil. 2016. Weapons of Math Destruction: How Big Data Increases
+    Inequality and Threatens Democracy. Broadway Books.'
+  volume-title: 'Weapons of Math Destruction: How Big Data Increases Inequality and
+    Threatens Democracy'
+- author: Pasquale Frank
+  unstructured: Frank Pasquale. 2015. The black box society. Harvard University Press.
+  volume-title: The black box society
+- author: Patton Michael Quinn
+  unstructured: Michael Quinn Patton. 1990. Qualitative Evaluation and Research Methods.
+    Sage.
+  volume-title: Qualitative Evaluation and Research Methods
+- article-title: Enhancing the quality and credibility of qualitative analysis
+  author: Patton M Q
+  first-page: '5'
+  journal-title: Health Services Research
+  unstructured: M Q Patton. 1999. Enhancing the quality and credibility of qualitative
+    analysis. Health Services Research 34, 5 (Dec 1999).
+  volume: '34'
+  year: '1999'
+- author: Perdomo Juan
+  unstructured: Juan Perdomo, Tijana Zrnic, Celestine Mendler-Dünner, and Moritz Hardt.
+    2020. Performative Prediction. In Proceedings of ICML.
+  volume-title: Performative Prediction. In Proceedings of ICML.
+  year: '2020'
+- unstructured: 'Vinay Uday Prabhu and Abeba Birhane. 2020. Large Image Datasets:
+    A Pyrrhic Win for Computer Vision?arXiv preprint arXiv:2006.16923(2020). https://arxiv.org/abs/2006.16923'
+- unstructured: 'Anna Rogers. 2019. Peer review in NLP: reject-if-not-SOTA. Hacking
+    Semantics blog(2019). https://hackingsemantics.xyz/2020/reviewing-models/#everything-wrong-with-reject-if-not-sota'
+- author: Rus Daniela
+  unstructured: 'Daniela Rus. 2018. Rise of the robots: Are you ready?Financial Times
+    Magazine (March 2018). https://www.ft.com/content/e31c4986-20d0-11e8-a895-1ba1f72c2c11'
+  volume-title: 'Rise of the robots: Are you ready?Financial Times Magazine (March'
+  year: '2018'
+- unstructured: Harini Suresh and John V. Guttag. 2019. A Framework for Understanding
+    Unintended Consequences of Machine Learning. arXiv preprint arXiv:1901.10002(2019).
+    http://arxiv.org/abs/1901.10002
+- doi: 10.1016/j.respol.2015.05.007
+- doi: 10.1136/bmj.h6467
+  unstructured: 'Christiaan H. Vinkers Joeri K. Tijdink and Willem M. Otte. 2015.
+    Use of Positive and Negative Words in Scientific PubMed Abstracts between 1974
+    and 2014: Retrospective Analysis. BMJ 351(2015).'
+- author: Wagstaff Kiri
+  unstructured: Kiri Wagstaff. 2012. Machine Learning that Matters. In Proceedings
+    of ICML.
+  volume-title: Proceedings of ICML.
+  year: '2012'
+- doi: 10.1126/science.176.4035.609
+- author: Winner Langdon
+  unstructured: 'Langdon Winner. 1977. Autonomous Technology: Technics-out-of-Control
+    as a Theme in Political Thought. MIT Press.'
+  volume-title: 'Autonomous Technology: Technics-out-of-Control as a Theme in Political
+    Thought'
+  year: '1977'
+- author: Winner Langdon
+  unstructured: Langdon Winner. 1980. Do Artifacts Have Politics?Daedalus 109, 1 (1980),
+    121–136.
+  volume-title: Do Artifacts Have Politics?Daedalus 109, 1
+  year: '1980'
+doc_url: https://dl.acm.org/doi/pdf/10.1145/3531146.3533083
+doi: 10.1145/3531146.3533083
+eventtitle: 'FAccT ''22: 2022 ACM Conference on Fairness, Accountability, and Transparency'
+files: []
+month: 6
+pages: 173--184
+papis_id: 5f703e1c6436f8dc9c4e3f10f0a27064
+publisher: ACM
+ref: birhane-facct2022a
+time-added: 2026-11-24-10:27:29
+title: The Values Encoded in Machine Learning Research
+type: inproceedings
+url: https://doi.org/10.1145/3531146.3533083
+venue: Seoul Republic of Korea
+year: 2022
