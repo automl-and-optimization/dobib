@@ -4,6 +4,7 @@ A [Papis](https://papis.readthedocs.io) downloader for NeurIPS-style
 proceedings sites running the same software:
 
 - NeurIPS — `papers.nips.cc`, `proceedings.neurips.cc`
+- NeurIPS Datasets & Benchmarks — `datasets-benchmarks-proceedings.neurips.cc`
 - ICLR — `proceedings.iclr.cc`
 - MLSys — `proceedings.mlsys.org`
 

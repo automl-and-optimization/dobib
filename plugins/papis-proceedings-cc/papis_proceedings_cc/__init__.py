@@ -4,6 +4,7 @@ These sites share the same software and each abstract page links a ready-made
 ``@InProceedings`` BibTeX file behind a "Bibtex" button:
 
 * NeurIPS — ``{papers,proceedings}.{nips,neurips}.cc``
+* NeurIPS Datasets & Benchmarks — ``datasets-benchmarks-proceedings.neurips.cc``
 * ICLR    — ``proceedings.iclr.cc``
 * MLSys   — ``proceedings.mlsys.org``
 
@@ -30,6 +31,7 @@ from papis.downloaders import Downloader
 _HOST_RE = re.compile(
     r"^https?://("
     r"(?:papers|proceedings)\.(?:nips|neurips)\.cc"
+    r"|datasets-benchmarks-proceedings\.neurips\.cc"
     r"|proceedings\.iclr\.cc"
     r"|proceedings\.mlsys\.org"
     r")/",
