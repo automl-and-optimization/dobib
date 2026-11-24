@@ -748,6 +748,21 @@
   year = {2026},
 }
 
+@inproceedings{lin-icml2025a,
+  abstract = {Multi-objective test-time alignment aims to adapt large language models (LLMs) to diverse multi-dimensional user preferences during inference while keeping LLMs frozen. Recently, GenARM (Xu et al., 2025) first independently trains Autoregressive Reward Models (ARMs) for each preference dimension without awareness of each other, then combines their outputs based on user-specific preference vectors during inference to achieve multi-objective test-time alignment, leading to two key limitations: the need for multiple ARMs increases the inference cost, and the separate training of ARMs causes the misalignment between the guided generation and the user preferences. To address these issues, we propose Preference-aware ARM (PARM), a single unified ARM trained across all preference dimensions. PARM uses our proposed Preference-Aware Bilinear Low-Rank Adaptation (PBLoRA), which employs a bilinear form to condition the ARM on preference vectors, enabling it to achieve precise control over preference trade-offs during inference. Experiments demonstrate that PARM reduces inference costs and achieves better alignment with preference vectors compared with existing methods. Additionally, PARM enables weak-to-strong guidance, allowing a smaller PARM to guide a larger frozen LLM without expensive training, making multi-objective alignment accessible with limited computing resources. The code is available at https://github.com/Baijiong-Lin/PARM.},
+  author = {Lin, Baijiong and Jiang, Weisen and Xu, Yuancheng and Chen, Hao and Chen, Ying-Cong},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+  editor = {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  pages = {37874--37888},
+  pdf = {https://raw.githubusercontent.com/mlresearch/v267/main/assets/lin25h/lin25h.pdf},
+  publisher = {PMLR},
+  series = {Proceedings of Machine Learning Research},
+  title = {PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model},
+  url = {https://proceedings.mlr.press/v267/lin25h.html},
+  volume = {267},
+  year = {2025},
+}
+
 @article{lundberg-natmachintell2020a,
   author = {Lundberg, Scott M. and Erion, Gabriel and Chen, Hugh and DeGrave, Alex and Prutkin, Jordan M. and Nair, Bala and Katz, Ronit and Himmelfarb, Jonathan and Bansal, Nisha and Lee, Su-In},
   doi = {10.1038/s42256-019-0138-9},
