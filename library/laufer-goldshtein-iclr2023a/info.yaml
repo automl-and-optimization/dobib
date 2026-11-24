@@ -1,0 +1,20 @@
+author: Laufer-Goldshtein, Bracha and Fisch, Adam and Barzilay, Regina and Jaakkola,
+  Tommi S.
+author_list:
+- family: Laufer-Goldshtein
+  given: Bracha
+- family: Fisch
+  given: Adam
+- family: Barzilay
+  given: Regina
+- family: Jaakkola
+  given: Tommi S.
+booktitle: 'The Eleventh International Conference on Learning Representations '
+files: []
+papis_id: 1b98c4d7a41954e402f29e4511d195a5
+ref: laufer-goldshtein-iclr2023a
+time-added: 2026-11-24-10:44:10
+title: Efficiently Controlling Multiple Risks with Pareto Testing
+type: inproceedings
+url: https://openreview.net/forum?id=cyg2YXn_BqF
+year: '2023'
