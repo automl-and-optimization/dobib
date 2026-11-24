@@ -1,0 +1,382 @@
+author: Zitzler, Eckart and Knowles, Joshua and Thiele, Lothar
+author_list:
+- affiliation: []
+  family: Zitzler
+  given: Eckart
+- affiliation: []
+  family: Knowles
+  given: Joshua
+- affiliation: []
+  family: Thiele
+  given: Lothar
+booktitle: Multiobjective Optimization
+citations:
+- author: Y. Benjamini
+  doi: 10.1111/j.2517-6161.1995.tb02031.x
+  first-page: '125'
+  journal-title: Journal of the Royal Statistical Society, Series B (Methodological)
+  unstructured: 'Benjamini, Y., Hochberg, Y.: Controlling the false discovery rate:
+    a practical and powerful approach to multiple testing. Journal of the Royal Statistical
+    Society, Series B (Methodological) 57, 125–133 (1995)'
+  volume: '57'
+  year: '1995'
+- author: V.E. Berezkin
+  doi: 10.1134/S096554250611008X
+  first-page: '1918'
+  issue: '11'
+  journal-title: Computational Mathematics and Mathematical Physics
+  unstructured: 'Berezkin, V.E., Kamenev, G.K., Lotov, A.V.: Hybrid adaptive methods
+    for approximating a nonconvex multidimensional pareto frontier. Computational
+    Mathematics and Mathematical Physics 46(11), 1918–1931 (2006)'
+  volume: '46'
+  year: '2006'
+- author: N. Beume
+  first-page: '231'
+  unstructured: 'Beume, N., Rudolph, G.: Faster S-Metric Calculation by Considering
+    Dominated Hypervolume as Klee’s Measure Problem. In: Proceedings of the Second
+    IASTED Conference on Computational Intelligence, pp. 231–236. ACTA Press, Anaheim
+    (2006)'
+  volume-title: Proceedings of the Second IASTED Conference on Computational Intelligence
+  year: '2006'
+- author: N. Beume
+  doi: 10.1016/j.ejor.2006.08.008
+  first-page: '1653'
+  journal-title: European Journal on Operational Research
+  unstructured: 'Beume, N., Naujoks, B., Emmerich, M.: SMS-EMOA: Multiobjective selection
+    based on dominated hypervolume. European Journal on Operational Research 181,
+    1653–1669 (2007)'
+  volume: '181'
+  year: '2007'
+- author: J.M. Bland
+  doi: 10.1136/bmj.310.6973.170
+  first-page: '170'
+  journal-title: British Medical Journal
+  unstructured: 'Bland, J.M., Altman, D.G.: Multiple significance tests: the bonferroni
+    method. British Medical Journal 310, 170 (1995)'
+  volume: '310'
+  year: '1995'
+- author: J. Chambers
+  unstructured: 'Chambers, J., Cleveland, W., Kleiner, B., Tukey, P.: Graphical Methods
+    for Data Analysis. Wadsworth, Belmont (1983)'
+  volume-title: Graphical Methods for Data Analysis
+  year: '1983'
+- author: C.A. Coello Coello
+  doi: 10.1007/978-1-4757-5184-0
+  unstructured: 'Coello Coello, C.A., Van Veldhuizen, D.A., Lamont, G.B.: Evolutionary
+    Algorithms for Solving Multi-Objective Problems. Kluwer Academic Publishers, New
+    York (2002)'
+  volume-title: Evolutionary Algorithms for Solving Multi-Objective Problems
+  year: '2002'
+- author: W.J. Conover
+  edition: '3'
+  unstructured: 'Conover, W.J.: Practical Nonparametric Statistics, 3rd edn. John
+    Wiley and Sons, New York (1999)'
+  volume-title: Practical Nonparametric Statistics
+  year: '1999'
+- author: P. Czyzak
+  doi: 10.1002/(SICI)1099-1360(199801)7:1<34::AID-MCDA161>3.0.CO;2-6
+  first-page: '34'
+  journal-title: Multi-Criteria Decision Analysis
+  unstructured: 'Czyzak, P., Jaskiewicz, A.: Pareto simulated annealing—a metaheuristic
+    for multiobjective combinatorial optimization. Multi-Criteria Decision Analysis 7,
+    34–47 (1998)'
+  volume: '7'
+  year: '1998'
+- author: K. Deb
+  unstructured: 'Deb, K.: Multi-objective optimization using evolutionary algorithms.
+    Wiley, Chichester (2001)'
+  volume-title: Multi-objective optimization using evolutionary algorithms
+  year: '2001'
+- author: K. Deb
+  doi: 10.1109/4235.996017
+  first-page: '181'
+  issue: '2'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  unstructured: 'Deb, K., Pratap, A., Agrawal, S., Meyarivan, T.: A fast and elitist
+    multi-objective genetic algorithm: NSGA-II. IEEE Transactions on Evolutionary
+    Computation 6(2), 181–197 (2002)'
+  volume: '6'
+  year: '2002'
+- author: B. Efron
+  doi: 10.1007/978-1-4899-4541-9
+  unstructured: 'Efron, B., Tibshirani, R.: An introduction to the bootstrap. Chapman
+    and Hall, London (1993)'
+  volume-title: An introduction to the bootstrap
+  year: '1993'
+- author: M. Ehrgott
+  doi: 10.1007/s002910000046
+  first-page: '425'
+  journal-title: OR Spektrum
+  unstructured: 'Ehrgott, M., Gandibleux, X.: A Survey and Annotated Bibliography
+    of Multiobjective Combinatorial Optimization. OR Spektrum 22, 425–460 (2000)'
+  volume: '22'
+  year: '2000'
+- author: M. Fleischer
+  doi: 10.1007/3-540-36970-8_37
+  first-page: '519'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Fleischer, M.: The Measure of Pareto Optima. In: Fonseca, C.M., Fleming,
+    P.J., Zitzler, E., Deb, K., Thiele, L. (eds.) EMO 2003. LNCS, vol. 2632, pp. 519–533.
+    Springer, Heidelberg (2003)'
+  volume-title: Evolutionary Multi-Criterion Optimization
+  year: '2003'
+- author: C.M. Fonseca
+  first-page: '416'
+  unstructured: 'Fonseca, C.M., Fleming, P.J.: Genetic Algorithms for Multiobjective
+    Optimization: Formulation, Discussion and Generalization. In: Forrest, S. (ed.)
+    Proceedings of the Fifth International Conference on Genetic Algorithms, pp. 416–423.
+    Morgan Kaufmann, San Mateo (1993)'
+  volume-title: Proceedings of the Fifth International Conference on Genetic Algorithms
+  year: '1993'
+- author: C.M. Fonseca
+  doi: 10.1007/978-3-540-31880-4_18
+  first-page: '250'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Fonseca, C.M., Grunert da Fonseca, V., Paquete, L.: Exploring the
+    performance of stochastic multiobjective optimisers with the second-order attainment
+    function. In: Coello Coello, C.A., Hernández Aguirre, A., Zitzler, E. (eds.) EMO
+    2005. LNCS, vol. 3410, pp. 250–264. Springer, Heidelberg (2005)'
+  volume-title: Evolutionary Multi-Criterion Optimization
+  year: '2005'
+- author: C.M. Fonseca
+  first-page: '1157'
+  unstructured: 'Fonseca, C.M., Paquete, L., López-Ibáñez, M.: An Improved Dimension-Sweep
+    Algorithm for the Hypervolume Indicator. In: Congress on Evolutionary Computation
+    (CEC 2006), Sheraton Vancouver Wall Centre Hotel, Vancouver, BC Canada, pp. 1157–1163.
+    IEEE Computer Society Press, Los Alamitos (2006)'
+  volume-title: Congress on Evolutionary Computation (CEC 2006)
+  year: '2006'
+- author: V. Grunert da Fonseca
+  doi: 10.1007/3-540-44719-9_15
+  first-page: '213'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Grunert da Fonseca, V., Fonseca, C.M., Hall, A.O.: Inferential Performance
+    Assessment of Stochastic Optimisers and the Attainment Function. In: Zitzler,
+    E., Deb, K., Thiele, L., Coello Coello, C.A., Corne, D.W. (eds.) EMO 2001. LNCS,
+    vol. 1993, pp. 213–225. Springer, Heidelberg (2001)'
+  volume-title: Evolutionary Multi-Criterion Optimization
+  year: '2001'
+- unstructured: 'Hansen, M.P., Jaszkiewicz, A.: Evaluating the quality of approximations
+    of the non-dominated set. Technical report, Institute of Mathematical Modeling,
+    Technical University of Denmark. IMM Technical Report IMM-REP-1998-7 (1998)'
+- author: S. Helbig
+  doi: 10.1007/BF01720705
+  first-page: '179'
+  issue: '3'
+  journal-title: OR Spektrum
+  unstructured: 'Helbig, S., Pateva, D.: On several concepts for ε-efficiency. OR
+    Spektrum 16(3), 179–186 (1994)'
+  volume: '16'
+  year: '1994'
+- author: G. Kamenev
+  first-page: '105'
+  issue: '3'
+  journal-title: Matematicheskoe Modelirovanie
+  unstructured: 'Kamenev, G., Kondtratíev, D.: Method for the exploration of non-closed
+    nonlinear models (in Russian). Matematicheskoe Modelirovanie 4(3), 105–118 (1992)'
+  volume: '4'
+  year: '1992'
+- author: G.K. Kamenev
+  first-page: '1667'
+  journal-title: Computational Mathematics And Mathematical Physics
+  unstructured: 'Kamenev, G.K.: Approximation of completely bounded sets by the deep
+    holes method. Computational Mathematics And Mathematical Physics 41, 1667–1676
+    (2001)'
+  volume: '41'
+  year: '2001'
+- doi: 10.1109/ISDA.2005.15
+  unstructured: 'Knowles, J.: A summary-attainment-surface plotting method for visualizing
+    the performance of stochastic multiobjective optimizers. In: Computational Intelligence
+    and Applications, Proceedings of the Fifth International Workshop on Intelligent
+    Systems Design and Applications: ISDA’05 (2005)'
+- author: J. Knowles
+  first-page: '711'
+  unstructured: 'Knowles, J., Corne, D.: On Metrics for Comparing Non-Dominated Sets.
+    In: Congress on Evolutionary Computation (CEC 2002), pp. 711–716. IEEE Press,
+    Piscataway (2002)'
+  volume-title: Congress on Evolutionary Computation (CEC 2002)
+  year: '2002'
+- unstructured: 'Knowles, J., Thiele, L., Zitzler, E.: A Tutorial on the Performance
+    Assessment of Stochastic Multiobjective Optimizers. TIK Report 214, Computer Engineering
+    and Networks Laboratory (TIK), ETH Zurich (2006)'
+- unstructured: 'Knowles, J.D.: Local-Search and Hybrid Evolutionary Algorithms for
+    Pareto Optimization. Ph.D. thesis, University of Reading (2002)'
+- author: M. López-Ibáñez
+  doi: 10.1007/s10852-005-9034-x
+  first-page: '111'
+  issue: '1'
+  journal-title: Journal of Mathematical Modelling and Algorithms
+  unstructured: 'López-Ibáñez, M., Paquete, L., Stützle, T.: Hybrid population-based
+    algorithms for the bi-objective quadratic assignment problem. Journal of Mathematical
+    Modelling and Algorithms 5(1), 111–137 (2006)'
+  volume: '5'
+  year: '2006'
+- author: A.V. Lotov
+  first-page: '260'
+  issue: '2'
+  journal-title: Doklady Mathematics
+  unstructured: 'Lotov, A.V., Kamenev, G.K., Berezkin, V.E.: Approximation and Visualization
+    of Pareto-Efficient Frontier for Nonconvex Multiobjective Problems. Doklady Mathematics 66(2),
+    260–262 (2002)'
+  volume: '66'
+  year: '2002'
+- author: A.V. Lotov
+  doi: 10.1007/978-1-4419-8851-5
+  unstructured: 'Lotov, A.V., Bushenkov, V.A., Kamenev, G.K.: Interactive Decision
+    Maps. Approximation and Visualization of Pareto Frontier. Kluwer Academic Publishers,
+    Boston (2004)'
+  volume-title: Interactive Decision Maps. Approximation and Visualization of Pareto
+    Frontier
+  year: '2004'
+- author: R.G. Miller
+  doi: 10.1007/978-1-4613-8122-8
+  edition: '2'
+  unstructured: 'Miller, R.G.: Simultaneous Statistical Inference, 2nd edn. Springer,
+    New York (1981)'
+  volume-title: Simultaneous Statistical Inference
+  year: '1981'
+- author: T.V. Perneger
+  doi: 10.1136/bmj.316.7139.1236
+  first-page: '1236'
+  journal-title: British Medical Journal
+  unstructured: 'Perneger, T.V.: What’s wrong with Bonferroni adjustments. British
+    Medical Journal 316, 1236–1238 (1998)'
+  volume: '316'
+  year: '1998'
+- unstructured: 'Schott, J.: Fault Tolerant Design Using Single and Multicriteria
+    Genetic Algorithm Optimization. Master’s thesis, Department of Aeronautics and
+    Astronautics, Massachusetts Institute of Technology (1995)'
+- author: K.J. Shaw
+  first-page: '37'
+  unstructured: 'Shaw, K.J., Nortcliffe, A.L., Thompson, M., Love, J., Fonseca, C.M.,
+    Fleming, P.J.: Assessing the Performance of Multiobjective Genetic Algorithms
+    for Optimization of a Batch Process Scheduling Problem. In: 1999 Congress on Evolutionary
+    Computation, Washington, D.C., pp. 37–45. IEEE Computer Society Press, Los Alamitos
+    (1999)'
+  volume-title: 1999 Congress on Evolutionary Computation
+  year: '1999'
+- doi: 10.1109/TEVC.2007.904345
+  unstructured: 'Smith, K.I., Everson, R.M., Fieldsend, J.E., Murphy, C., Misra, R.:
+    Dominance-based multiobjective simulated annealing. IEEE Transactions on Evolutionary
+    Computation. In press (2008)'
+- author: E.L. Ulungu
+  doi: 10.1002/(SICI)1099-1360(199907)8:4<221::AID-MCDA247>3.0.CO;2-O
+  first-page: '221'
+  issue: '4'
+  journal-title: Journal of Multi-Criteria Decision Analysis
+  unstructured: 'Ulungu, E.L., Teghem, J., Fortemps, P.H., Tuyttens, D.: Mosa method:
+    A tool for solving multiobjective combinatorial optimization problems. Journal
+    of Multi-Criteria Decision Analysis 8(4), 221–236 (1999)'
+  volume: '8'
+  year: '1999'
+- unstructured: 'Van Veldhuizen, D.A.: Multiobjective Evolutionary Algorithms: Classifications,
+    Analyses, and New Innovations. Ph.D. thesis, Graduate School of Engineering, Air
+    Force Institute of Technology, Air University (1999)'
+- author: T. Wagner
+  doi: 10.1007/978-3-540-70928-2_56
+  first-page: '742'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Wagner, T., Beume, N., Naujoks, B.: Pareto-, Aggregation-, and Indicator-Based
+    Methods in Many-Objective Optimization. In: Obayashi, S., Deb, K., Poloni, C.,
+    Hiroyasu, T., Murata, T. (eds.) EMO 2007. LNCS, vol. 4403, pp. 742–756. Springer,
+    Heidelberg (2007), extended version published as internal report of Sonderforschungsbereich
+    531 Computational Intelligence CI-217/06, Universität Dortmund (September 2006).'
+  volume-title: Evolutionary Multi-Criterion Optimization
+  year: '2007'
+- author: P.H. Westfall
+  unstructured: 'Westfall, P.H., Young, S.S.: Resampling-based multiple testing. Wiley,
+    New York (1993)'
+  volume-title: Resampling-based multiple testing
+  year: '1993'
+- author: L. While
+  doi: 10.1007/978-3-540-31880-4_23
+  first-page: '326'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'While, L.: A New Analysis of the LebMeasure Algorithm for Calculating
+    Hypervolume. In: Coello Coello, C.A., Hernández Aguirre, A., Zitzler, E. (eds.)
+    EMO 2005. LNCS, vol. 3410, pp. 326–340. Springer, Heidelberg (2005)'
+  volume-title: Evolutionary Multi-Criterion Optimization
+  year: '2005'
+- author: L. While
+  doi: 10.1109/CEC.2005.1554971
+  first-page: '2225'
+  unstructured: 'While, L., Bradstreet, L., Barone, L., Hingston, P.: Heuristics for
+    Optimising the Calculation of Hypervolume for Multi-objective Optimisation Problems.
+    In: Congress on Evolutionary Computation (CEC 2005), IEEE Service Center, Edinburgh,
+    Scotland, pp. 2225–2232. IEEE Computer Society Press, Los Alamitos (2005)'
+  volume-title: Congress on Evolutionary Computation (CEC 2005)
+  year: '2005'
+- author: L. While
+  doi: 10.1109/TEVC.2005.851275
+  first-page: '29'
+  issue: '1'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  unstructured: 'While, L., Hingston, P., Barone, L., Huband, S.: A Faster Algorithm
+    for Calculating Hypervolume. IEEE Transactions on Evolutionary Computation 10(1),
+    29–38 (2006)'
+  volume: '10'
+  year: '2006'
+- author: E. Zitzler
+  doi: 10.1007/978-3-540-30217-9_84
+  first-page: '832'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Zitzler, E., Künzli, S.: Indicator-Based Selection in Multiobjective
+    Search. In: Yao, X., Burke, E.K., Lozano, J.A., Smith, J., Merelo-Guervós, J.J.,
+    Bullinaria, J.A., Rowe, J.E., Tiňo, P., Kabán, A., Schwefel, H.-P. (eds.) PPSN
+    2004. LNCS, vol. 3242, pp. 832–842. Springer, Heidelberg (2004)'
+  volume-title: Parallel Problem Solving from Nature - PPSN VIII
+  year: '2004'
+- author: E. Zitzler
+  doi: 10.1007/BFb0056872
+  first-page: '292'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Zitzler, E., Thiele, L.: Multiobjective Optimization Using Evolutionary
+    Algorithms - A Comparative Case Study. In: Eiben, A.E., Bäck, T., Schoenauer,
+    M., Schwefel, H.-P. (eds.) PPSN 1998. LNCS, vol. 1498, pp. 292–301. Springer,
+    Heidelberg (1998)'
+  volume-title: Parallel Problem Solving from Nature - PPSN V
+  year: '1998'
+- author: E. Zitzler
+  doi: 10.1109/4235.797969
+  first-page: '257'
+  issue: '4'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  unstructured: 'Zitzler, E., Thiele, L.: Multiobjective Evolutionary Algorithms:
+    A Comparative Case Study and the Strength Pareto Approach. IEEE Transactions on
+    Evolutionary Computation 3(4), 257–271 (1999)'
+  volume: '3'
+  year: '1999'
+- author: E. Zitzler
+  doi: 10.1109/TEVC.2003.810758
+  first-page: '117'
+  issue: '2'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  unstructured: 'Zitzler, E., Thiele, L., Laumanns, M., Foneseca, C.M., Grunert da
+    Fonseca, V.: Performance Assessment of Multiobjective Optimizers: An Analysis
+    and Review. IEEE Transactions on Evolutionary Computation 7(2), 117–132 (2003)'
+  volume: '7'
+  year: '2003'
+- author: E. Zitzler
+  doi: 10.1007/978-3-540-70928-2_64
+  first-page: '862'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Zitzler, E., Brockhoff, D., Thiele, L.: The Hypervolume Indicator
+    Revisited: On the Design of Pareto-compliant Indicators Via Weighted Integration.
+    In: Obayashi, S., Deb, K., Poloni, C., Hiroyasu, T., Murata, T. (eds.) EMO 2007.
+    LNCS, vol. 4403, pp. 862–876. Springer, Heidelberg (2007)'
+  volume-title: Evolutionary Multi-Criterion Optimization
+  year: '2007'
+doc_url: http://link.springer.com/content/pdf/10.1007/978-3-540-88908-3_14
+doi: 10.1007/978-3-540-88908-3_14
+files: []
+isbn: '9783540889083'
+pages: 373--404
+papis_id: ceb10f5582be4ede751c1a0956deb958
+publisher: Springer Berlin Heidelberg
+ref: zitzler-mobook2008a
+series: Lecture Notes in Computer Science
+time-added: 2026-11-24-10:55:35
+title: Quality Assessment of Pareto Set Approximations
+type: inbook
+url: https://doi.org/10.1007/978-3-540-88908-3_14
+year: 2008
