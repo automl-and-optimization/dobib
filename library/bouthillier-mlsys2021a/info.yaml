@@ -1,0 +1,49 @@
+author: Bouthillier, Xavier and Delaunay, Pierre and Bronzi, Mirko and Trofimov, Assya
+  and Nichyporuk, Brennan and Szeto, Justin and Mohammadi Sepahvand, Nazanin and Raff,
+  Edward and Madan, Kanika and Voleti, Vikram and Ebrahimi Kahou, Samira and Michalski,
+  Vincent and Arbel, Tal and Pal, Chris and Varoquaux, Gael and Vincent, Pascal
+author_list:
+- family: Bouthillier
+  given: Xavier
+- family: Delaunay
+  given: Pierre
+- family: Bronzi
+  given: Mirko
+- family: Trofimov
+  given: Assya
+- family: Nichyporuk
+  given: Brennan
+- family: Szeto
+  given: Justin
+- family: Mohammadi Sepahvand
+  given: Nazanin
+- family: Raff
+  given: Edward
+- family: Madan
+  given: Kanika
+- family: Voleti
+  given: Vikram
+- family: Ebrahimi Kahou
+  given: Samira
+- family: Michalski
+  given: Vincent
+- family: Arbel
+  given: Tal
+- family: Pal
+  given: Chris
+- family: Varoquaux
+  given: Gael
+- family: Vincent
+  given: Pascal
+booktitle: Proceedings of Machine Learning and Systems
+editor: A. Smola and A. Dimakis and I. Stoica
+files: []
+pages: 747--769
+papis_id: 41cfbf7b736ffe5e0487ae964c0e56be
+ref: bouthillier-mlsys2021a
+time-added: 2026-11-24-10:31:44
+title: Accounting for Variance in Machine Learning Benchmarks
+type: inproceedings
+url: https://proceedings.mlsys.org/paper_files/paper/2021/file/0184b0cd3cfb185989f858a1d9f5c1eb-Paper.pdf
+volume: '3'
+year: '2021'
