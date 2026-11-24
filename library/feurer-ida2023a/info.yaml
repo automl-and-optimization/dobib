@@ -1,0 +1,220 @@
+author: Feurer, Matthias and Eggensperger, Katharina and Bergman, Edward and Pfisterer,
+  Florian and Bischl, Bernd and Hutter, Frank
+author_list:
+- affiliation: []
+  family: Feurer
+  given: Matthias
+- affiliation: []
+  family: Eggensperger
+  given: Katharina
+- affiliation: []
+  family: Bergman
+  given: Edward
+- affiliation: []
+  family: Pfisterer
+  given: Florian
+- affiliation: []
+  family: Bischl
+  given: Bernd
+- affiliation: []
+  family: Hutter
+  given: Frank
+booktitle: Advances in Intelligent Data Analysis XXI
+citations:
+- doi: 10.24963/ijcai.2021/592
+  unstructured: 'Benmeziane, H., El Maghraoui, K., Ouarnoughi, H., Niar, S., Wistuba,
+    M., Wang, N.: A comprehensive survey on Hardware-aware Neural Architecture Search.
+    arXiv:2101.09336 [cs.LG] (2021)'
+- author: J Bergstra
+  first-page: '281'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Bergstra, J., Bengio, Y.: Random search for hyper-parameter optimization.
+    J. Mach. Learn. Res. 13, 281–305 (2012)'
+  volume: '13'
+  year: '2012'
+- doi: 10.1145/3377930.3389815
+  unstructured: 'Binder, M., Moosbauer, J., Thomas, J., Bischl, B.: Multi-objective
+    hyperparameter tuning and feature selection using filter ensembles. In: Ceberio,
+    J. (ed.) Proceedings of the Genetic and Evolutionary Computation Conference (GECCO
+    2020), pp. 471–479. ACM Press (2020)'
+- author: L Breiman
+  doi: 10.1023/A:1010933404324
+  first-page: '5'
+  journal-title: Mach. Learn. J.
+  unstructured: 'Breiman, L.: Random forests. Mach. Learn. J. 45, 5–32 (2001)'
+  volume: '45'
+  year: '2001'
+- unstructured: 'Chakraborty, J., Xia, T., Fahid, F., Menzies, T.: Software engineering
+    for fairness: a case study with Hyperparameter Optimization. In: Proceedings of
+    the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE).
+    IEEE (2019)'
+- unstructured: 'Cruz, A., Saleiro, P., Belem, C., Soares, C., Bizarro, P.: Promoting
+    fairness through hyperparameter optimization. In: Bailey, J., Miettinen, P., Koh,
+    Y., Tao, D., Wu, X. (eds.) Proceedings of the IEEE International Conference on
+    Data Mining (ICDM 2021), pp. 1036–1041. IEEE (2021)'
+- unstructured: 'Dua, D., Graff, C.: UCI machine learning repository (2017)'
+- doi: 10.1007/978-3-030-05318-5_3
+  unstructured: 'Elsken, T., Metzen, J., Hutter, F.: Efficient multi-objective Neural
+    Architecture Search via Lamarckian evolution. In: Proceedings of the International
+    Conference on Learning Representations (ICLR 2019) (2019a). Published online:
+    https://iclr.cc/'
+- doi: 10.1007/978-3-030-05318-5_11
+  unstructured: 'Elsken, T., Metzen, J., Hutter, F.: Neural architecture search: a
+    survey. J. Mach. Learn. Res. 20(55), 1–21 (2019b)'
+- author: MTM Emmerich
+  doi: 10.1007/s11047-018-9685-y
+  first-page: '585'
+  issue: '3'
+  journal-title: Nat. Comput.
+  unstructured: 'Emmerich, M.T.M., Deutz, A.H.: A tutorial on multiobjective optimization:
+    fundamentals and evolutionary methods. Nat. Comput. 17(3), 585–609 (2018)'
+  volume: '17'
+  year: '2018'
+- unstructured: 'Feffer, M., Hirzel, M., Hoffman, S., Kate, K., Ram, P., Shinnar,
+    A.: An empirical study of modular bias mitigators and ensembles. arXiv:2202.00751
+    [cs.LG] (2022)'
+- doi: 10.1007/978-3-030-05318-5_1
+  unstructured: 'Feurer, M., Hutter, F.: Hyperparameter optimization. In: Hutter et
+    al. (2019), chap. 1, pp. 3–38, available for free at http://automl.org/book'
+- author: M Feurer
+  first-page: '1'
+  issue: '100'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Feurer, M., et al.: OpenML-Python: an extensible Python API for OpenML.
+    J. Mach. Learn. Res. 22(100), 1–5 (2021)'
+  volume: '22'
+  year: '2021'
+- doi: 10.1109/DSAA.2019.00051
+  unstructured: 'Gardner, S., et al.: Constrained multi-objective optimization for
+    automated machine learning. In: Singh, L., De Veaux, R., Karypis, G., Bonchi,
+    F., Hill, J. (eds.) Proceedings of the International Conference on Data Science
+    and Advanced Analytics (DSAA 2019), pp. 364–373. ieeecis, IEEE (2019)'
+- unstructured: 'Gelbart, M., Snoek, J., Adams, R.: Bayesian optimization with unknown
+    constraints. In: Zhang, N., Tian, J. (eds.) Proceedings of the 30th Conference
+    on Uncertainty in Artificial Intelligence (UAI 2014), pp. 250–258. AUAI Press
+    (2014)'
+- unstructured: 'Gonzalez, S., Branke, J., van Nieuwenhuyse, I.: Multiobjective ranking
+    and selection using stochastic Kriging. arXiv:2209.03919 [stat.ML] (2022)'
+- author: J Hernández-Lobato
+  first-page: '5549'
+  issue: '1'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Hernández-Lobato, J., Gelbart, M., Adams, R., Hoffman, M., Ghahramani,
+    Z.: A general framework for constrained Bayesian optimization using information-based
+    search. J. Mach. Learn. Res. 17(1), 5549–5601 (2016)'
+  volume: '17'
+  year: '2016'
+- doi: 10.1109/SSCI.2016.7850221
+  unstructured: 'Horn, D., Bischl, B.: Multi-objective parameter configuration of
+    machine learning algorithms using model-based optimization. In: Likas, A. (ed.)
+    2016 IEEE Symposium Series on Computational Intelligence (SSCI), pp. 1–8. IEEE
+    (2016)'
+- author: D Horn
+  doi: 10.1007/978-3-319-54157-0_21
+  first-page: '298'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Horn, D., Dagge, M., Sun, X., Bischl, B.: First investigations on
+    noisy model-based multi-objective optimization. In: Trautmann, H., et al. (eds.)
+    EMO 2017. LNCS, vol. 10173, pp. 298–313. Springer, Cham (2017). https://doi.org/10.1007/978-3-319-54157-0_21'
+  volume-title: Evolutionary Multi-Criterion Optimization
+  year: '2017'
+- doi: 10.1007/978-3-030-05318-5
+  unstructured: 'Hutter, F., Kotthoff, L., Vanschoren, J. (eds.): Automated Machine
+    Learning: Methods, Systems, Challenges. Springer, Heidelberg (2019). Available
+    for free at http://automl.org/book'
+- unstructured: 'Iqbal, M., Su, J., Kotthoff, L., Jamshidi, P.: Flexibo: Cost-aware
+    multi-objective optimization of deep neural networks. arXiv:2001.06588 [cs.LG]
+    (2020)'
+- unstructured: 'Karl, F., et al.: Multi-objective hyperparameter optimization - an
+    overview. arXiv:2206.07438 [cs.LG] (2022)'
+- unstructured: 'Kirschner, J., Bogunovic, I., Jegelka, S., Krause, A.: Distributionally
+    robust Bayesian optimization. In: Chiappa, S., Calandra, R. (eds.) Proceedings
+    of the 23rd International Conference on Artificial Intelligence and Statistics
+    (AISTATS 2020), pp. 2174–2184. Proceedings of Machine Learning Research (2020)'
+- doi: 10.1145/2001576.2001844
+  unstructured: 'Konen, W., Koch, P., Flasch, O., Bartz-Beielstein, T., Friese, M.,
+    Naujoks, B.: Tuned data mining: a benchmark study on different tuners. In: Krasnogor,
+    N. (ed.) Proceedings of the 13th Annual Conference on Genetic and Evolutionary
+    Computation (GECCO 2011), pp. 1995–2002. ACM Press (2011)'
+- doi: 10.1214/18-BA1110
+  unstructured: 'Letham, B., Brian, K., Ottoni, G., Bakshy, E.: Constrained Bayesian
+    optimization with noisy experiments. Bayesian Analysis (2018)'
+- doi: 10.1145/2330163.2330285
+  unstructured: 'Levesque, J.C., Durand, A., Gagne, C., Sabourin, R.: Multi-objective
+    evolutionary optimization for generating ensembles of classifiers in the roc space.
+    In: Soule, T. (ed.) Proceedings of the 14th Annual Conference on Genetic and Evolutionary
+    Computation (GECCO 2012), pp. 879–886. ACM Press (2011)'
+- author: C Manning
+  doi: 10.1017/CBO9780511809071
+  unstructured: 'Manning, C., Raghavan, P., Schütze, H.: Introduction to Information
+    Retrieval. Cambridge University Press, Cambridge (2008)'
+  volume-title: Introduction to Information Retrieval
+  year: '2008'
+- author: C Molnar
+  doi: 10.1007/978-3-030-43823-4_17
+  first-page: '193'
+  series-title: Communications in Computer and Information Science
+  unstructured: 'Molnar, C., Casalicchio, G., Bischl, B.: Quantifying model complexity
+    via functional decomposition for better post-hoc interpretability. In: Cellier,
+    P., Driessens, K. (eds.) ECML PKDD 2019. CCIS, vol. 1167, pp. 193–204. Springer,
+    Cham (2020). https://doi.org/10.1007/978-3-030-43823-4_17'
+  volume-title: Machine Learning and Knowledge Discovery in Databases
+  year: '2020'
+- doi: 10.1007/s10462-022-10359-2
+  unstructured: 'Morales-Hernández, A., Nieuwenhuyse, I.V., Gonzalez, S.: A survey
+    on multi-objective hyperparameter optimization algorithms for machine learning.
+    arXiv:2111.13755 [cs.LG] (2021)'
+- author: F Pedregosa
+  first-page: '2825'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Pedregosa, F., et al.: Scikit-learn: machine learning in Python.
+    J. Mach. Learn. Res. 12, 2825–2830 (2011)'
+  volume: '12'
+  year: '2011'
+- unstructured: 'Raschka, S.: Model evaluation, model selection, and algorithm selection
+    in machine learning. arXiv:1811.12808 [stat.ML] (2018)'
+- unstructured: 'Schmucker, R., Donini, M., Zafar, M., Salinas, D., Archambeau, C.:
+    Multi-objective asynchronous successive halving. arXiv:2106.12639 [stat.ML] (2021)'
+- author: J Vanschoren
+  doi: 10.1145/2641190.2641198
+  first-page: '49'
+  issue: '2'
+  journal-title: SIGKDD Explor.
+  unstructured: 'Vanschoren, J., van Rijn, J., Bischl, B., Torgo, L.: OpenML: networked
+    science in machine learning. SIGKDD Explor. 15(2), 49–60 (2014)'
+  volume: '15'
+  year: '2014'
+- author: E Zitzler
+  doi: 10.1162/106365600568202
+  first-page: '173'
+  issue: '2'
+  journal-title: Evol. Comput.
+  unstructured: 'Zitzler, E., Deb, K., Thiele, L.: Comparison of multiobjective evolutionary
+    algorithms: empirical results. Evol. Comput. 8(2), 173–195 (2000)'
+  volume: '8'
+  year: '2000'
+- author: E Zitzler
+  doi: 10.1109/TEVC.2003.810758
+  first-page: '117'
+  journal-title: IEEE Trans. Evol. Comput.
+  unstructured: 'Zitzler, E., Thiele, L., Laumanns, M., Fonseca, C., Fonseca, V.:
+    Performance assessment of multiobjective optimizers: an analysis and review. IEEE
+    Trans. Evol. Comput. 7, 117–132 (2003)'
+  volume: '7'
+  year: '2003'
+doc_url: https://link.springer.com/content/pdf/10.1007/978-3-031-30047-9_11
+doi: 10.1007/978-3-031-30047-9_11
+files: []
+isbn: '9783031300479'
+language: en
+month: 4
+pages: 130--142
+papis_id: 9d22d067a8389fcd9cea358e6209240f
+publisher: Springer Nature Switzerland
+ref: feurer-ida2023a
+series: Lecture Notes in Computer Science
+time-added: 2026-11-24-10:41:05
+title: 'Mind the Gap: Measuring Generalization Performance Across Multiple Objectives'
+type: inproceedings
+url: https://doi.org/10.1007/978-3-031-30047-9_11
+year: 2023
