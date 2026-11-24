@@ -26,6 +26,11 @@
 # `groupbib check` fails on an override whose citation key is not in the
 # library, so a stale entry here cannot sit unnoticed.
 
+bischl-neurips2021a:
+  # The site's own BibTeX lists "Bischl, Bernd" twice in the author field;
+  # confirmed against https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/108-/bibtex.
+  author: "Bischl, Bernd and Casalicchio, Giuseppe and Feurer, Matthias and Gijsbers, Pieter and Hutter, Frank and Lang, Michel and Gomes Mantovani, Rafael and van Rijn, Jan and Vanschoren, Joaquin"
+
 harsanyi-ier1963a:
   # Crossref has only the first page for this DOI (10.2307/2525487); JSTOR
   # registered it that way, as it did for many pre-digital articles. The real
