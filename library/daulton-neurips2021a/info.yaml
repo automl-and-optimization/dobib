@@ -1,0 +1,23 @@
+author: Daulton, Samuel and Balandat, Maximilian and Bakshy, Eytan
+author_list:
+- family: Daulton
+  given: Samuel
+- family: Balandat
+  given: Maximilian
+- family: Bakshy
+  given: Eytan
+booktitle: Advances in Neural Information Processing Systems
+editor: M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman
+  Vaughan
+files: []
+pages: 2187--2200
+papis_id: f63b4681f7451649f0583deae2caefb1
+publisher: Curran Associates, Inc.
+ref: daulton-neurips2021a
+time-added: 2026-11-24-10:35:42
+title: Parallel Bayesian Optimization of Multiple Noisy Objectives with Expected Hypervolume
+  Improvement
+type: inproceedings
+url: https://proceedings.neurips.cc/paper_files/paper/2021/file/11704817e347269b7254e744b5e22dac-Paper.pdf
+volume: '34'
+year: '2021'
