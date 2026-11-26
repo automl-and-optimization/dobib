@@ -1,0 +1,24 @@
+author: Schröder, Sietse and Zellmann, Zubin and Feurer, Matthias and Baratchi, Mitra
+  and van Rijn, Jan N. and Bischl, Bernd
+author_list:
+- family: Schröder
+  given: Sietse
+- family: Zellmann
+  given: Zubin
+- family: Feurer
+  given: Matthias
+- family: Baratchi
+  given: Mitra
+- family: van Rijn
+  given: Jan N.
+- family: Bischl
+  given: Bernd
+booktitle: AutoML 2026 Methods Track
+files: []
+papis_id: b9cc3e94d134ea3a26d323d5ce86b0ab
+ref: schroeder-automl2026a
+time-added: 2026-11-26-11:32:28
+title: A Large-Scale Study of Overtuning Mitigation Strategies in Hyperparameter Optimization
+type: inproceedings
+url: https://openreview.net/forum?id=pX6n6ca762
+year: '2026'
