@@ -1,0 +1,220 @@
+author: Horn, Daniel and Dagge, Melanie and Sun, Xudong and Bischl, Bernd
+author_list:
+- affiliation: []
+  family: Horn
+  given: Daniel
+- affiliation: []
+  family: Dagge
+  given: Melanie
+- affiliation: []
+  family: Sun
+  given: Xudong
+- affiliation: []
+  family: Bischl
+  given: Bernd
+booktitle: Evolutionary Multi-Criterion Optimization
+citations:
+- author: AN Aizawa
+  doi: 10.1162/evco.1994.2.2.97
+  first-page: '97'
+  issue: '2'
+  journal-title: Evol. Comput.
+  unstructured: 'Aizawa, A.N., Wah, B.W.: Scheduling of genetic algorithms in a noisy
+    environment. Evol. Comput. 2(2), 97–122 (1994)'
+  volume: '2'
+  year: '1994'
+- author: B Bischl
+  doi: 10.1162/EVCO_a_00069
+  first-page: '249'
+  issue: '2'
+  journal-title: Evol. Comput.
+  unstructured: 'Bischl, B., Mersmann, O., Trautmann, H., Weihs, C.: Resampling methods
+    for meta-model validation with recommendations for evolutionary computation. Evol.
+    Comput. 20(2), 249–275 (2012)'
+  volume: '20'
+  year: '2012'
+- author: B Bischl
+  first-page: '1'
+  issue: '170'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Bischl, B., Lang, M., Kotthoff, L., Schiffner, J., Richter, J., Studerus,
+    E., Casalicchio, G., Jones, Z.M.: mlr: machine learning in R. J. Mach. Learn.
+    Res. 17(170), 1–5 (2016)'
+  volume: '17'
+  year: '2016'
+- author: B Bischl
+  doi: 10.18637/jss.v064.i11
+  first-page: '1'
+  issue: '11'
+  journal-title: J. Stat. Softw.
+  unstructured: 'Bischl, B., Lang, M., Mersmann, O., Rahnenführer, J., Weihs, C.:
+    BatchJobs and BatchExperiments: abstraction mechanisms for using R in batch environments.
+    J. Stat. Softw. 64(11), 1–25 (2015)'
+  volume: '64'
+  year: '2015'
+- unstructured: 'Bischl, B., Richter, J., Bossek, J., Horn, D., Lang, M.: mlrMBO:
+    A Toolbox for Model-Based Optimization of Expensive Black-Box Functions. https://github.com/berndbischl/mlrMBO'
+- unstructured: 'Breiderhoff, B., Bartz-Beielstein, T., Naujoks, B., Zaefferer, M.,
+    Fischbach, A., Flasch, O., Friese, M., Mersmann, O., Stork, J.: Simulation and
+    optimization of cyclone dust separators. In: Proceedings of the 23rd Workshop
+    on Computational Intelligence, pp. 177–195 (2013)'
+- unstructured: 'Dem $$\breve{\rm {s}}$$ ar, J.: Statistical comparisons of classifiers
+    over multiple data sets. J. Mach. Learn. Res. 7, 1–30 (2006)'
+- author: T Fawcett
+  doi: 10.1016/j.patrec.2005.10.010
+  first-page: '861'
+  issue: '8'
+  journal-title: Pattern Recogn. Lett.
+  unstructured: 'Fawcett, T.: An introduction to ROC analysis. Pattern Recogn. Lett.
+    27(8), 861–874 (2006)'
+  volume: '27'
+  year: '2006'
+- author: JE Fieldsend
+  doi: 10.1109/TEVC.2014.2304415
+  first-page: '103'
+  issue: '1'
+  journal-title: IEEE Trans. Evol. Comput.
+  unstructured: 'Fieldsend, J.E., Everson, R.M.: The rolling tide evolutionary algorithm:
+    a multiobjective optimizer for noisy optimization problems. IEEE Trans. Evol.
+    Comput. 19(1), 103–117 (2015)'
+  volume: '19'
+  year: '2015'
+- unstructured: 'Hernández-Lobato, D., Hernández-Lobato, J.M., Shah, A., Adams, R.P.:
+    Predictive entropy search for multi-objective bayesian optimization. arXiv preprint
+    arXiv:1511.05467 (2015)'
+- doi: 10.1109/SSCI.2016.7850221
+  unstructured: 'Horn, D., Bischl, B.: Multi-objective parameter configuration of
+    machine learning algorithms using model-based optimization. In: IEEE Symposium
+    on Computational Intelligence in Multicriteria Decision-Making (2016, accepted)'
+- doi: 10.1007/s11634-016-0265-7
+  unstructured: 'Horn, D., Demircioğlu, A., Bischl, B., Glasmachers, T., Weihs, C.:
+    A comparative study on large scale kernelized support vector machines. Adv. Data
+    Anal. Classif., 1–17 (2016)'
+- doi: 10.1007/978-3-319-15934-8_5
+  unstructured: 'Horn, D., Wagner, T., Biermann, D., Weihs, C., Bischl, B.: Model-based
+    multi-objective optimization: taxonomy, multi-point proposal, toolbox and benchmark.
+    In: International Conference on Evolutionary Multi-criterion Optimization, pp.
+    64–78 (2015)'
+- author: Y Jin
+  doi: 10.1109/TEVC.2005.846356
+  first-page: '303'
+  issue: '3'
+  journal-title: IEEE Trans. Evol. Comput.
+  unstructured: 'Jin, Y., Branke, J.: Evolutionary optimization in uncertain environments
+    - a survey. IEEE Trans. Evol. Comput. 9(3), 303–317 (2005)'
+  volume: '9'
+  year: '2005'
+- author: DR Jones
+  doi: 10.1023/A:1008306431147
+  first-page: '455'
+  issue: '4'
+  journal-title: J. Global Optim.
+  unstructured: 'Jones, D.R., Schonlau, M., Welch, W.J.: Efficient global optimization
+    of expensive black-box functions. J. Global Optim. 13(4), 455–492 (1998)'
+  volume: '13'
+  year: '1998'
+- doi: 10.1109/WSC.2006.323031
+  unstructured: 'Kleijnen, J.P.C.: White noise assumptions revisited: regression metamodels
+    and experimental designs in practice. In: Proceedings of the 38th Conference on
+    Winter Simulation, pp. 107–117 (2006)'
+- author: J Knowles
+  doi: 10.1109/TEVC.2005.851274
+  first-page: '50'
+  issue: '1'
+  journal-title: IEEE Trans. Evol. Comput.
+  unstructured: 'Knowles, J.: Parego: a hybrid algorithm with on-line landscape approximation
+    for expensive multiobjective optimization problems. IEEE Trans. Evol. Comput.
+    10(1), 50–66 (2006)'
+  volume: '10'
+  year: '2006'
+- doi: 10.1007/978-3-642-01020-0_8
+  unstructured: 'Knowles, J., Corne, D., Reynolds, A.: Noisy multiobjective optimization
+    on a budget of 250 evaluations. In: International Conference on Evolutionary Multi-criterion
+    Optimization, pp. 36–50 (2009)'
+- author: P Koch
+  doi: 10.1016/j.asoc.2015.01.005
+  first-page: '357'
+  journal-title: Appl. Soft Comput.
+  unstructured: 'Koch, P., Wagner, T., Emmerich, M.T., Bck, T., Konen, W.: Efficient
+    multi-criteria optimization on noisy machine learning problems. Appl. Soft Comput.
+    29, 357–370 (2015)'
+  volume: '29'
+  year: '2015'
+- doi: 10.1007/978-3-540-87700-4_78
+  unstructured: 'Ponweiser, W., Wagner, T., Biermann, D., Vincze, M.: Multiobjective
+    optimization on a limited amount of evaluations using model-assisted $$\cal{S}$$
+    -metric selection. In: Proceedings of the 10th International Conference on Parallel
+    Problem Solving from Nature (PPSN), pp. 784–794 (2008)'
+- unstructured: 'Schiffner, J., Bischl, B., Lang, M., Richter, J., Jones, Z.M., Probst,
+    P., Pfisterer, F., Gallo, M., Kirchhoff, D., Kühn, T., Thomas, J., Kotthoff, L.:
+    mlr tutorial. CoRR abs/1609.06146 (2016)'
+- author: O Schutze
+  doi: 10.1109/TEVC.2011.2161872
+  first-page: '504'
+  issue: '4'
+  journal-title: IEEE Trans. Evol. Comput.
+  unstructured: 'Schutze, O., Esquivel, X., Lara, A., Coello, C.A.C.: Using the averaged
+    hausdorff distance as a performance measure in evolutionary multiobjective optimization.
+    IEEE Trans. Evol. Comput. 16(4), 504–522 (2012)'
+  volume: '16'
+  year: '2012'
+- author: A Syberfeldt
+  doi: 10.1016/j.ejor.2009.11.003
+  first-page: '533'
+  issue: '3'
+  journal-title: Eur. J. Oper. Res.
+  unstructured: 'Syberfeldt, A., Ng, A., John, R.I., Moore, P.: Evolutionary optimisation
+    of noisy multi-objective problems using confidence-based dynamic resampling. Eur.
+    J. Oper. Res. 204(3), 533–544 (2010)'
+  volume: '204'
+  year: '2010'
+- author: J Vanschoren
+  doi: 10.1145/2641190.2641198
+  first-page: '49'
+  issue: '2'
+  journal-title: SIGKDD Explor. Newsl.
+  unstructured: 'Vanschoren, J., van Rijn, J.N., Bischl, B., Torgo, L.: OpenML: networked
+    science in machine learning. SIGKDD Explor. Newsl. 15(2), 49–60 (2014)'
+  volume: '15'
+  year: '2014'
+- doi: 10.2991/978-94-6239-180-2_9
+  unstructured: 'Zhan, J., Ma, Y., Zhu, L.: Multiobjective simulation optimization
+    using stochastic kriging. In: Proceedings of the 22nd International Conference
+    on Industrial Engineering and Engineering Management 2015, pp. 81–91 (2016)'
+- unstructured: 'Zhang, Q., Zhou, A., Zhaoy, S., Suganthany, P.N., Liu, W., Tiwari,
+    S.: Multiobjective optimization test instances for the cec 2009 special session
+    and competition. University of Essex and Nanyang Technological University, Technical
+    report (2008)'
+- author: A Zhou
+  doi: 10.1016/j.swevo.2011.03.001
+  first-page: '32'
+  journal-title: Swarm Evol. Comput.
+  unstructured: 'Zhou, A., Qu, B.Y., Li, H., Zhao, S.Z., Suganthan, P.N., Zhang, Q.:
+    Multiobjective evolutionary algorithms: a survey of the state of the art. Swarm
+    Evol. Comput. 1, 32–49 (2011)'
+  volume: '1'
+  year: '2011'
+- author: M Zuluaga
+  first-page: '1'
+  issue: '104'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Zuluaga, M., Krause, A., Püschel, M.: e-pal: an active learning approach
+    to the multi-objective optimization problem. J. Mach. Learn. Res. 17(104), 1–32
+    (2016)'
+  volume: '17'
+  year: '2016'
+doc_url: http://link.springer.com/content/pdf/10.1007/978-3-319-54157-0_21
+doi: 10.1007/978-3-319-54157-0_21
+files: []
+isbn: '9783319541570'
+month: 2
+pages: 298--313
+papis_id: 622e6f5cf01b991ffd4719bf0f76bf20
+publisher: Springer International Publishing
+ref: horn-emo2017a
+series: Lecture Notes in Computer Science
+time-added: 2026-11-26-22:02:04
+title: First Investigations on Noisy Model-Based Multi-objective Optimization
+type: inproceedings
+url: https://doi.org/10.1007/978-3-319-54157-0_21
+year: 2017
