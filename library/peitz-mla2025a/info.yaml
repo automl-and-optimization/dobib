@@ -1,0 +1,1335 @@
+author: Peitz, Sebastian and Hotegni, Sèdjro Salomon
+author_list:
+- affiliation: []
+  family: Peitz
+  given: Sebastian
+- affiliation: []
+  family: Hotegni
+  given: Sèdjro Salomon
+citations:
+- article-title: Dynamic weights in multi-objective deep reinforcement learning
+  author: Abels
+  first-page: '11'
+  series-title: Proceedings of the 36th international conference on machine learning
+  volume: vol. 97
+  year: '2019'
+- doi: 10.65109/LNGI4831
+  unstructured: Agarwal, M., Aggarwal, V., & Lan, T. (2022). Multi-objective reinforcement
+    learning with non-linear scalarization. In Proceedings of the 21st international
+    conference on autonomous agents and multiagent systems (pp. 9–17).
+- author: Akhter
+  series-title: Common pitfalls to avoid while using multiobjective optimization in
+    machine learning
+  year: '2024'
+- article-title: Multi-objective unsupervised feature selection and cluster based
+    on symbiotic organism search
+  author: AL-Gburi
+  doi: 10.3390/a17080355
+  first-page: '355'
+  issue: '8'
+  journal-title: Algorithms
+  volume: '17'
+  year: '2024'
+- article-title: Multi-objective training of generative adversarial networks with
+    multiple discriminators
+  author: Albuquerque
+  first-page: '202'
+  series-title: Proceedings of the 36th international conference on machine learning
+  volume: vol. 97
+  year: '2019'
+- article-title: 'Multi-objective evolutionary optimization algorithms for machine
+    learning: A recent survey'
+  author: Alexandropoulos
+  first-page: '35'
+  series-title: 'Approximation and optimization : algorithms, complexity and applications'
+  year: '2019'
+- article-title: A new semi-supervised clustering technique using multi-objective
+    optimization
+  author: Alok
+  doi: 10.1007/s10489-015-0656-z
+  first-page: '633'
+  journal-title: 'Applied Intelligence: The International Journal of Artificial Intelligence,
+    Neural Networks, and Complex Problem-Solving Technologies'
+  volume: '43'
+  year: '2015'
+- article-title: A multiobjective continuation method to compute the regularization
+    path of deep neural networks
+  author: Amakor
+  doi: 10.1016/j.mlwa.2025.100625
+  journal-title: Machine Learning with Applications
+  volume: '19'
+  year: '2025'
+- article-title: SVM classification for imbalanced data sets using a multiobjective
+    optimization framework
+  author: Aşkan
+  doi: 10.1007/s10479-012-1300-5
+  first-page: '191'
+  issue: '1'
+  journal-title: Annals of Operations Research
+  volume: '216'
+  year: '2013'
+- article-title: 'Hypervolume-based multiobjective optimization: Theoretical foundations
+    and practical implications'
+  author: Auger
+  doi: 10.1016/j.tcs.2011.03.012
+  first-page: '75'
+  journal-title: Theoretical Computer Science
+  volume: '425'
+  year: '2012'
+- article-title: 'Hype: An algorithm for fast hypervolume-based many-objective optimization'
+  author: Bader
+  doi: 10.1162/EVCO_a_00009
+  first-page: '45'
+  issue: '1'
+  journal-title: Evolutionary Computation
+  volume: '19'
+  year: '2011'
+- article-title: Evolutionary multi-objective optimization of large language model
+    prompts for balancing sentiments
+  author: Baumann
+  first-page: '212'
+  series-title: International conference on the applications of evolutionary computation
+    (part of evoStar)
+  year: '2024'
+- article-title: The explicit linear quadratic regulator for constrained systems
+  author: Bemporad
+  doi: 10.1016/S0005-1098(01)00174-1
+  first-page: '3'
+  issue: '1'
+  journal-title: Automatica
+  volume: '38'
+  year: '2002'
+- article-title: 'Autoencoders and their applications in machine learning: a survey'
+  author: Berahmand
+  doi: 10.1007/s10462-023-10662-6
+  first-page: '28'
+  issue: '2'
+  journal-title: Artificial Intelligence Review
+  volume: '57'
+  year: '2024'
+- article-title: Derivative-free Multiobjective Trust Region descent method using
+    radial basis function surrogate models
+  author: Berkemeier
+  doi: 10.3390/mca26020031
+  issue: '2'
+  journal-title: Mathematical and Computational Applications
+  volume: '26'
+  year: '2021'
+- author: Bertsekas
+  series-title: Reinforcement learning and optimal control
+  year: '2019'
+- article-title: 'DeepSI: Interactive deep learning for semantic interaction'
+  author: Bian
+  first-page: '197'
+  series-title: Proceedings of the 26th international conference on intelligent user
+    interfaces
+  year: '2021'
+- article-title: On the Treatment of Optimization Problems with L1 Penalty Terms via
+    Multiobjective Continuation
+  author: Bieker
+  doi: 10.1109/TPAMI.2021.3114962
+  first-page: '7797'
+  issue: '11'
+  journal-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  volume: '44'
+  year: '2022'
+- article-title: Pattern recognition and machine learning
+  author: Bishop
+  series-title: Information science and statistics
+  year: '2006'
+- author: Bishop
+  series-title: 'Deep Learning: Foundations and Concepts'
+  year: '2024'
+- article-title: On gradients and hybrid evolutionary algorithms for real-valued multiobjective
+    optimization
+  author: Bosman
+  doi: 10.1109/TEVC.2010.2051445
+  first-page: '51'
+  issue: '1'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '16'
+  year: '2012'
+- article-title: Enhancing multi-objective optimisation through machine learning-supported
+    multiphysics simulation
+  author: Botache
+  first-page: '297'
+  series-title: Machine learning and knowledge discovery in databases. applied data
+    science track
+  year: '2024'
+- article-title: A survey on active learning and human-in-the-loop deep learning for
+    medical image analysis
+  author: Budd
+  doi: 10.1016/j.media.2021.102062
+  journal-title: Medical Image Analysis
+  volume: '71'
+  year: '2021'
+- article-title: 'MoMAC: Multi-objective optimization to combine multiple association
+    rules into an interpretable classification'
+  author: Bui-Thi
+  doi: 10.1007/s10489-021-02595-w
+  first-page: '3090'
+  issue: '3'
+  journal-title: 'Applied Intelligence: The International Journal of Artificial Intelligence,
+    Neural Networks, and Complex Problem-Solving Technologies'
+  volume: '52'
+  year: '2022'
+- article-title: A Bregman learning framework for sparse neural networks
+  author: Bungert
+  first-page: '1'
+  issue: '192'
+  journal-title: Journal of Machine Learning Research
+  volume: '23'
+  year: '2022'
+- article-title: 'Ad-dmkde: Anomaly detection through density matrices and fourier
+    features'
+  author: Bustos-Brinez
+  first-page: '327'
+  series-title: International conference on information technology & systems
+  year: '2023'
+- doi: 10.1007/978-3-030-01264-9_9
+  unstructured: Caron, M., Bojanowski, P., Joulin, A., & Douze, M. (2018). Deep clustering
+    for unsupervised learning of visual features. In Proceedings of the European conference
+    on computer vision (pp. 132–149).
+- article-title: A tutorial on kernel density estimation and recent advances
+  author: Chen
+  doi: 10.1080/24709360.2017.1396742
+  first-page: '161'
+  issue: '1'
+  journal-title: Biostatistics & Epidemiology
+  volume: '1'
+  year: '2017'
+- doi: 10.1109/CVPR46437.2021.01345
+  unstructured: Chen, Z., Ge, J., Zhan, H., Huang, S., & Wang, D. (2021). Pareto self-supervised
+    training for few-shot learning. In Proceedings of the IEEE/CVF conference on computer
+    vision and pattern recognition (pp. 13663–13672).
+- article-title: 'Semi-supervised and unsupervised deep visual learning: A survey'
+  author: Chen
+  doi: 10.1109/TPAMI.2022.3201576
+  first-page: '1327'
+  issue: '3'
+  journal-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  volume: '46'
+  year: '2022'
+- article-title: 'EMORL: Effective multi-objective reinforcement learning method for
+    hyperparameter optimization'
+  author: Chen
+  doi: 10.1016/j.engappai.2021.104315
+  journal-title: Engineering Applications of Artificial Intelligence
+  volume: '104'
+  year: '2021'
+- article-title: Handling computationally expensive multiobjective optimization problems
+    with evolutionary algorithms-a survey
+  author: Chugh
+  first-page: '1957'
+  issue: '2015'
+  journal-title: Reports of the Department of Mathematical Information Technology,
+    Series B, Scientific Computing No. B
+  volume: '4'
+  year: '2015'
+- author: Clarke
+  series-title: Optimization and nonsmooth analysis
+  year: '1990'
+- author: Coello Coello
+  series-title: Evolutionary Algorithms for Solving Multi-Objective Problems
+  year: '2007'
+- article-title: 'A fast and elitist multiobjective genetic algorithm: NSGA-II'
+  author: Deb
+  doi: 10.1109/4235.996017
+  first-page: '182'
+  issue: '2'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '6'
+  year: '2002'
+- article-title: 'Surrogate modeling approaches for multiobjective optimization: Methods,
+    taxonomy, and results'
+  author: Deb
+  doi: 10.3390/mca26010005
+  issue: '1'
+  journal-title: Mathematical and Computational Applications
+  volume: '26'
+  year: '2021'
+- article-title: Magnetic control of tokamak plasmas through deep reinforcement learning
+  author: Degrave
+  doi: 10.1038/s41586-021-04301-9
+  first-page: '414'
+  issue: '7897'
+  journal-title: Nature
+  volume: '602'
+  year: '2022'
+- article-title: Covering Pareto sets by multilevel subdivision techniques
+  author: Dellnitz
+  doi: 10.1007/s10957-004-6468-7
+  first-page: '113'
+  issue: '1'
+  journal-title: Journal of Optimization Theory and Applications
+  volume: '124'
+  year: '2005'
+- article-title: Multiple-gradient descent algorithm (MGDA) for multiobjective optimization
+  author: Désidéri
+  doi: 10.1016/j.crma.2012.03.014
+  first-page: '313'
+  issue: 5–6
+  journal-title: Comptes Rendus. Mathématique
+  volume: '350'
+  year: '2012'
+- article-title: Static video summarization with multi-objective constrained optimization
+  author: Dhanushree
+  doi: 10.1007/s12652-024-04777-z
+  first-page: '2621'
+  issue: '4'
+  journal-title: Journal of Ambient Intelligence and Humanized Computing
+  volume: '15'
+  year: '2024'
+- doi: 10.1109/ICTC55196.2022.9952910
+  unstructured: Dobrički, T., Zhuang, X., Won, K. J., & Hong, B.-W. (2022). Survey
+    on unsupervised learning methods for optical flow estimation. In 2022 13th international
+    conference on information and communication technology convergence.
+- unstructured: Durugkar, I., Gemp, I., & Mahadevan, S. (2017). Generative Multi-Adversarial
+    Networks. In International conference on learning representations.
+- author: Ehrgott
+  series-title: Multicriteria optimization
+  year: '2005'
+- article-title: An adaptive scalarization method in multiobjective optimization
+  author: Eichfelder
+  doi: 10.1137/060672029
+  first-page: '1694'
+  issue: '4'
+  journal-title: SIAM Journal on Optimization
+  volume: '19'
+  year: '2009'
+- doi: 10.1007/978-3-030-05318-5_3
+  unstructured: Elsken, T., Metzen, J. H., & Hutter, F. (2019a). Efficient Multi-Objective
+    Neural Architecture Search via Lamarckian Evolution. In International conference
+    on learning representations.
+- article-title: 'Neural architecture search: A survey'
+  author: Elsken
+  first-page: '1'
+  issue: '55'
+  journal-title: Journal of Machine Learning Research
+  volume: '20'
+  year: '2019'
+- article-title: Pareto navigator for interactive nonlinear multiobjective optimization
+  author: Eskelinen
+  doi: 10.1007/s00291-008-0151-6
+  first-page: '211'
+  issue: '1'
+  journal-title: OR Spectrum
+  volume: '32'
+  year: '2010'
+- article-title: 'Multi-objective reinforcement learning based on decomposition: A
+    taxonomy and framework'
+  author: Felten
+  doi: 10.1613/jair.1.15702
+  first-page: '679'
+  journal-title: Journal of Artificial Intelligence Research
+  volume: '79'
+  year: '2024'
+- doi: 10.1145/3359566.3360053
+  unstructured: Ferstl, Y., Neff, M., & McDonnell, R. (2019). Multi-objective adversarial
+    gesture generation. In Proceedings of the 12th ACM SIGGRAPH conference on motion,
+    interaction and games.
+- article-title: Newton’s method for multiobjective optimization
+  author: Fliege
+  doi: 10.1137/08071692X
+  first-page: '602'
+  issue: '2'
+  journal-title: SIAM Journal on Optimization
+  volume: '20'
+  year: '2009'
+- article-title: Steepest descent methods for multicriteria optimization
+  author: Fliege
+  doi: 10.1007/s001860000043
+  first-page: '479'
+  issue: '3'
+  journal-title: Mathematical Methods of Operations Research
+  volume: '51'
+  year: '2000'
+- article-title: A method for constrained multiobjective optimization based on sqp
+    techniques
+  author: Fliege
+  doi: 10.1137/15M1016424
+  first-page: '2091'
+  issue: '4'
+  journal-title: SIAM Journal on Optimization
+  volume: '26'
+  year: '2016'
+- article-title: An overview of evolutionary algorithms in multiobjective optimization
+  author: Fonseca
+  doi: 10.1162/evco.1995.3.1.1
+  first-page: '1'
+  issue: '1'
+  journal-title: Evolutionary Computation
+  volume: '3'
+  year: '1995'
+- article-title: 'MPGAN: Multi Pareto generative adversarial network for the denoising
+    and quantitative analysis of low-dose PET images of human brain'
+  author: Fu
+  doi: 10.1016/j.media.2024.103306
+  journal-title: Medical Image Analysis
+  volume: '98'
+  year: '2024'
+- article-title: 'DessiLBI: Exploring structural sparsity of deep networks via differential
+    inclusion paths'
+  author: Fu
+  first-page: '3315'
+  series-title: Proceedings of the 37th international conference on machine learning
+  volume: vol. 119
+  year: '2020'
+- article-title: Exploring structural sparsity of deep networks via inverse scale
+    spaces
+  author: Fu
+  doi: 10.1109/TPAMI.2022.3168881
+  first-page: '1749'
+  issue: '2'
+  journal-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  volume: '45'
+  year: '2023'
+- article-title: An Efficient Descent Method for Locally Lipschitz Multiobjective
+    Optimization Problems
+  author: Gebken
+  doi: 10.1007/s10957-020-01803-w
+  first-page: '696'
+  journal-title: Journal of Optimization Theory and Applications
+  volume: '188'
+  year: '2021'
+- article-title: A Descent Method for Equality and Inequality Constrained Multiobjective
+    Optimization Problems
+  author: Gebken
+  first-page: '29'
+  series-title: Numerical and evolutionary optimization – NEO 2017
+  year: '2019'
+- article-title: On the hierarchical structure of Pareto critical sets
+  author: Gebken
+  doi: 10.1007/s10898-019-00737-6
+  first-page: '891'
+  issue: '4'
+  journal-title: Journal of Global Optimization
+  volume: '73'
+  year: '2019'
+- article-title: Unsupervised band selection based on evolutionary multiobjective
+    optimization for hyperspectral images
+  author: Gong
+  doi: 10.1109/TGRS.2015.2461653
+  first-page: '544'
+  issue: '1'
+  journal-title: IEEE Transactions on Geoscience and Remote Sensing
+  volume: '54'
+  year: '2015'
+- article-title: Improving constrained clustering via decomposition-based multiobjective
+    optimization with memetic elitism
+  author: González-Almagro
+  first-page: '333'
+  series-title: Proceedings of the 2020 genetic and evolutionary computation conference
+  year: '2020'
+- author: Goodfellow
+  series-title: Deep Learning
+  year: '2016'
+- article-title: Generative adversarial nets
+  author: Goodfellow
+  series-title: Advances in neural information processing systems
+  volume: vol. 27
+  year: '2014'
+- author: Gui
+  series-title: 'A survey on self-supervised learning: Algorithms, applications, and
+    future trends'
+  year: '2023'
+- author: Gui
+  series-title: 'Constructing multiple tasks for augmentation: Improving neural image
+    classification with K-means features'
+  year: '2019'
+- article-title: 'Soft actor-critic: Off-policy maximum entropy deep reinforcement
+    learning with a stochastic actor'
+  author: Haarnoja
+  first-page: '1861'
+  series-title: International conference on machine learning
+  year: '2018'
+- article-title: 'Kill two birds with one stone: A multi-view multi-adversarial learning
+    approach for joint air quality and weather prediction'
+  author: Han
+  doi: 10.1109/TKDE.2023.3236423
+  first-page: '11515'
+  issue: '11'
+  journal-title: IEEE Transactions on Knowledge and Data Engineering
+  volume: '35'
+  year: '2023'
+- article-title: Feature subset selection in unsupervised learning via multiobjective
+    optimization
+  author: Handl
+  first-page: '217'
+  issue: '3'
+  journal-title: International Journal of Computational Intelligence Research
+  volume: '2'
+  year: '2006'
+- author: Hastie
+  series-title: The elements of statistical learning
+  year: '2009'
+- article-title: A practical guide to multi-objective reinforcement learning and planning
+  author: Hayes
+  doi: 10.1007/s10458-022-09552-y
+  issue: '1'
+  journal-title: Autonomous Agents and Multi-Agent Systems
+  volume: '36'
+  year: '2022'
+- article-title: Masked autoencoders are scalable vision learners
+  author: He
+  first-page: '16000'
+  series-title: Proceedings of the IEEE/CVF conference on computer vision and pattern
+    recognition
+  year: '2022'
+- author: He
+  series-title: Evolutionary multiobjective optimization driven by generative adversarial
+    networks (GANs)
+  year: '2019'
+- author: Hillermeier
+  series-title: 'Nonlinear multiobjective optimization: A generalized homotopy approach'
+  year: '2001'
+- doi: 10.1109/IJCNN60899.2024.10650994
+  unstructured: Hotegni, S. S., Berkemeier, M., & Peitz, S. (2024). Multi-Objective
+    Optimization for Sparse Deep Multi-Task Learning. In 2024 international joint
+    conference on neural networks (pp. 1–9).
+- author: Hotegni
+  series-title: 'MOREL: Enhancing adversarial robustness through multi-objective representation
+    learning'
+  year: '2024'
+- article-title: A generative kriging surrogate model for constrained and unconstrained
+    multi-objective optimization
+  author: Hussein
+  first-page: '573'
+  series-title: Proceedings of the genetic and evolutionary computation conference
+    2016
+  year: '2016'
+- article-title: Multi-objective GFlownets
+  author: Jain
+  first-page: '14631'
+  series-title: Proceedings of the 40th international conference on machine learning
+  volume: '202'
+  year: '2023'
+- author: Jang
+  series-title: Visual representation learning with stochastic frame prediction
+  year: '2024'
+- article-title: 'Feature dimensionality reduction: a review'
+  author: Jia
+  doi: 10.1007/s40747-021-00637-x
+  first-page: '2663'
+  issue: '3'
+  journal-title: Complex & Intelligent Systems
+  volume: '8'
+  year: '2022'
+- article-title: 'Pareto-based multiobjective machine learning: An overview and case
+    studies'
+  author: Jin
+  doi: 10.1109/TSMCC.2008.919172
+  first-page: '397'
+  issue: '3'
+  journal-title: IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications
+    and Reviews)
+  volume: '38'
+  year: '2008'
+- article-title: Evolutionary multi-objective optimization of spiking neural networks
+  author: Jin
+  first-page: '370'
+  series-title: Artificial neural networks – ICANN 2007
+  year: '2007'
+- author: Jing
+  series-title: Self-supervised spatiotemporal feature learning via video rotation
+    prediction
+  year: '2018'
+- article-title: Multi-objective hyperparameter optimization in machine learning—An
+    overview
+  author: Karl
+  doi: 10.1145/3610536
+  issue: '4'
+  journal-title: ACM Transactions on Evolutionary Learning and Optimization
+  volume: '3'
+  year: '2023'
+- article-title: Physics-informed machine learning
+  author: Karniadakis
+  doi: 10.1038/s42254-021-00314-5
+  first-page: '422'
+  issue: '6'
+  journal-title: Nature Reviews Physics
+  volume: '3'
+  year: '2021'
+- article-title: A conic scalarization method in multi-objective optimization
+  author: Kasimbeyli
+  doi: 10.1007/s10898-011-9789-8
+  first-page: '279'
+  issue: '2'
+  journal-title: Journal of Global Optimization
+  volume: '56'
+  year: '2011'
+- author: Khan
+  series-title: A survey of the self supervised learning mechanisms for vision transformers
+  year: '2024'
+- author: Kim
+  series-title: Scale-invariant gradient aggregation for constrained multi-objective
+    reinforcement learning
+  year: '2024'
+- article-title: 'MDARTS: Multi-objective differentiable neural architecture search'
+  author: Kim
+  first-page: '1344'
+  series-title: 2021 design, automation & test in europe conference & exhibition
+  year: '2021'
+- author: Kingma
+  series-title: 'Adam: A method for stochastic optimization'
+  year: '2014'
+- author: Kingma
+  series-title: Auto-encoding variational Bayes
+  year: '2013'
+- article-title: An introduction to variational autoencoders
+  author: Kingma
+  doi: 10.1561/2200000056
+  first-page: '307'
+  issue: '4'
+  journal-title: Foundations and Trends® in Machine Learning
+  volume: '12'
+  year: '2019'
+- article-title: 'Reinforcement learning in robotics: A survey'
+  author: Kober
+  doi: 10.1177/0278364913495721
+  first-page: '1238'
+  issue: '11'
+  journal-title: The International Journal of Robotics Research
+  volume: '32'
+  year: '2013'
+- article-title: Intensity-modulated radiotherapy - a large scale multi-criteria programming
+    problem
+  author: Küfer
+  doi: 10.1007/s00291-003-0125-7
+  first-page: '223'
+  issue: '2'
+  journal-title: OR Spectrum
+  volume: '25'
+  year: '2003'
+- article-title: 'Contrastive self-supervised learning: review, progress, challenges
+    and future research directions'
+  author: Kumar
+  doi: 10.1007/s13735-022-00245-6
+  first-page: '461'
+  issue: '4'
+  journal-title: International Journal of Multimedia Information Retrieval
+  volume: '11'
+  year: '2022'
+- article-title: Deep learning
+  author: LeCun
+  doi: 10.1038/nature14539
+  first-page: '436'
+  issue: '7553'
+  journal-title: Nature
+  volume: '521'
+  year: '2015'
+- article-title: 'LassoNet: A neural network with feature sparsity'
+  author: Lemhadri
+  first-page: '1'
+  issue: '127'
+  journal-title: Journal of Machine Learning Research
+  volume: '22'
+  year: '2021'
+- article-title: Multi-augmentation contrastive learning as multi-objective optimization
+    for graph neural networks
+  author: Li
+  first-page: '495'
+  series-title: Pacific-Asia conference on knowledge discovery and data mining
+  year: '2023'
+- author: Li
+  series-title: Neural manifold clustering and embedding
+  year: '2022'
+- author: Li
+  series-title: 'It’s morphing time: Unleashing the potential of multiple LLMs via
+    multi-objective optimization'
+  year: '2024'
+- article-title: Deep reinforcement learning for multiobjective optimization
+  author: Li
+  doi: 10.1109/TCYB.2020.2977661
+  first-page: '3103'
+  issue: '6'
+  journal-title: IEEE Transactions on Cybernetics
+  volume: '51'
+  year: '2021'
+- author: Lillicrap
+  series-title: Continuous control with deep reinforcement learning
+  year: '2015'
+- article-title: Pareto multi-task learning
+  author: Lin
+  series-title: Advances in neural information processing systems
+  volume: '32'
+  year: '2019'
+- article-title: 'FAMO: Fast adaptive multitask optimization'
+  author: Liu
+  journal-title: Advances in Neural Information Processing Systems
+  volume: '36'
+  year: '2024'
+- article-title: Structure learning for deep neural networks based on multiobjective
+    optimization
+  author: Liu
+  doi: 10.1109/TNNLS.2017.2695223
+  first-page: '2450'
+  issue: '6'
+  journal-title: IEEE Transactions on Neural Networks and Learning Systems
+  volume: '29'
+  year: '2017'
+- author: Liu
+  series-title: Large language model for multi-objective evolutionary optimization
+  year: '2023'
+- article-title: Conflict-averse gradient descent for multi-task learning
+  author: Liu
+  first-page: '18878'
+  journal-title: Advances in Neural Information Processing Systems
+  volume: '34'
+  year: '2021'
+- article-title: Profiling Pareto front with multi-objective stein variational gradient
+    descent
+  author: Liu
+  first-page: '14721'
+  journal-title: Advances in Neural Information Processing Systems
+  volume: '34'
+  year: '2021'
+- article-title: The stochastic multi-gradient algorithm for multi-objective optimization
+    and its application to supervised machine learning
+  author: Liu
+  doi: 10.1007/s10479-021-04033-z
+  first-page: '1119'
+  issue: '3'
+  journal-title: Annals of Operations Research
+  volume: '339'
+  year: '2021'
+- article-title: 'Stein variational gradient descent: A general purpose Bayesian inference
+    algorithm'
+  author: Liu
+  series-title: Advances in neural information processing systems
+  volume: vol. 29
+  year: '2016'
+- article-title: 'Multiobjective reinforcement learning: A comprehensive overview'
+  author: Liu
+  doi: 10.1109/TSMC.2014.2358639
+  first-page: '385'
+  issue: '3'
+  journal-title: 'IEEE Transactions on Systems, Man, and Cybernetics: Systems'
+  volume: '45'
+  year: '2015'
+- article-title: 'Self-supervised learning: Generative or contrastive'
+  author: Liu
+  first-page: '857'
+  issue: '1'
+  journal-title: IEEE Transactions on Knowledge and Data Engineering
+  volume: '35'
+  year: '2021'
+- article-title: Multi-objective genetic algorithm for missing data imputation
+  author: Lobato
+  doi: 10.1016/j.patrec.2015.08.023
+  first-page: '126'
+  journal-title: Pattern Recognition Letters
+  volume: '68'
+  year: '2015'
+- unstructured: 'Lu, H., Herman, D., & Yu, Y. (2023). Multi-objective reinforcement
+    learning: Convexity, stationarity and pareto optimality. In The eleventh international
+    conference on learning representations.'
+- article-title: Self-supervised multi-object tracking with path consistency
+  author: Lu
+  series-title: CVPR 2024
+  year: '2024'
+- article-title: Efficient continuous Pareto exploration in multi-task learning
+  author: Ma
+  first-page: '6522'
+  series-title: Proceedings of the 37th international conference on machine learning
+  volume: vol. 119
+  year: '2020'
+- author: Michelucci
+  series-title: An introduction to autoencoders
+  year: '2022'
+- doi: 10.1145/1143997.1144248
+  unstructured: Mierswa, I., & Wurst, M. (2006). Information preserving multi-objective
+    feature selection for unsupervised learning. In Proceedings of the 8th annual
+    conference on genetic and evolutionary computation (pp. 1545–1552).
+- author: Miettinen
+  series-title: Nonlinear Multiobjective Optimization
+  year: '1998'
+- article-title: 'Interactive bundle-based method for nondifferentiable multiobjeective
+    optimization: NIMBUS'
+  author: Miettinen
+  doi: 10.1080/02331939508844109
+  first-page: '231'
+  issue: '3'
+  journal-title: Optimization
+  volume: '34'
+  year: '1995'
+- author: Miranda
+  series-title: Multi-objective optimization for self-adjusting weighted gradient
+    in machine learning tasks
+  year: '2015'
+- article-title: A unified multi-view clustering algorithm using multi-objective optimization
+    coupled with generative model
+  author: Mitra
+  doi: 10.1145/3365673
+  first-page: '1'
+  issue: '1'
+  journal-title: ACM Transactions on Knowledge Discovery from Data (TKDD)
+  volume: '14'
+  year: '2020'
+- author: Mitrevski
+  series-title: Momentum-based gradient methods in multi-objective recommendation
+  year: '2020'
+- article-title: Human-level control through deep reinforcement learning
+  author: Mnih
+  doi: 10.1038/nature14236
+  first-page: '529'
+  issue: '7540'
+  journal-title: Nature
+  volume: '518'
+  year: '2015'
+- article-title: A survey on multi-objective hyperparameter optimization algorithms
+    for machine learning
+  author: Morales-Hernández
+  doi: 10.1007/s10462-022-10359-2
+  first-page: '8043'
+  issue: '8'
+  journal-title: Artificial Intelligence Review
+  volume: '56'
+  year: '2022'
+- article-title: 'Human-in-the-loop machine learning: a state of the art'
+  author: Mosqueira-Rey
+  doi: 10.1007/s10462-022-10246-w
+  first-page: '3005'
+  issue: '4'
+  journal-title: Artificial Intelligence Review
+  volume: '56'
+  year: '2022'
+- author: Mossalam
+  series-title: Multi-objective deep reinforcement learning
+  year: '2016'
+- series-title: Multi-objective machine learning
+  year: '2006'
+- article-title: Anomaly detection with density estimation
+  author: Nachman
+  doi: 10.1103/PhysRevD.101.075042
+  issue: '7'
+  journal-title: Physical Review D
+  volume: '101'
+  year: '2020'
+- author: Navon
+  series-title: Multi-task learning as a bargaining game
+  year: '2022'
+- unstructured: Neyshabur, B., Li, Z., Bhojanapalli, S., LeCun, Y., & Srebro, N. (2019).
+    The role of over-parametrization in generalization of neural networks. In International
+    conference on learning representations.
+- article-title: A multi-objective deep reinforcement learning framework
+  author: Nguyen
+  doi: 10.1016/j.engappai.2020.103915
+  journal-title: Engineering Applications of Artificial Intelligence
+  volume: '96'
+  year: '2020'
+- doi: 10.1109/SMC53992.2023.10394533
+  unstructured: Nikbakhtsarvestani, F., Ebrahimi, M., & Rahnamayan, S. (2023). Multi-objective
+    ADAM Optimizer (MAdam). In 2023 IEEE international conference on systems, man,
+    and cybernetics (pp. 3860–3867).
+- author: Ozçelebi
+  series-title: Multi-objective optimization for video streaming
+  year: '2006'
+- article-title: Scalarizing vector optimization problems
+  author: Pascoletti
+  doi: 10.1007/BF00934564
+  first-page: '499'
+  issue: '4'
+  journal-title: Journal of Optimization Theory and Applications
+  volume: '42'
+  year: '1984'
+- doi: 10.1609/aaai.v32i1.11767
+  unstructured: Pei, Z., Cao, Z., Long, M., & Wang, J. (2018). Multi-Adversarial Domain
+    Adaptation. vol. 32, In Proceedings of the AAAI conference on artificial intelligence.
+    1.
+- article-title: A Survey of Recent Trends in Multiobjective Optimal Control – Surrogate
+    Models, Feedback Control and Objective Reduction
+  author: Peitz
+  doi: 10.3390/mca23020030
+  issue: '2'
+  journal-title: Mathematical and Computational Applications
+  volume: '23'
+  year: '2018'
+- article-title: Gradient-based multiobjective optimization with uncertainties
+  author: Peitz
+  first-page: '159'
+  series-title: NEO 2016
+  volume: vol. 731
+  year: '2018'
+- article-title: Distributed Control of Partial Differential Equations Using Convolutional
+    Reinforcement Learning
+  author: Peitz
+  doi: 10.1016/j.physd.2024.134096
+  journal-title: 'Physica D: Nonlinear Phenomena'
+  volume: '461'
+  year: '2024'
+- article-title: Gaussian process optimization for adaptable multi-objective text
+    generation using linearly-weighted language models
+  author: Pour
+  first-page: '1529'
+  series-title: 'Findings of the association for computational linguistics: NAACL
+    2024'
+  year: '2024'
+- article-title: Quasi-Newton’s method for multiobjective optimization
+  author: Povalej
+  doi: 10.1016/j.cam.2013.06.045
+  first-page: '765'
+  journal-title: Journal of Computational and Applied Mathematics
+  volume: '255'
+  year: '2014'
+- article-title: A comprehensive review of machine learning in multi-objective optimization
+  author: Qu
+  first-page: '7'
+  series-title: 2021 IEEE 4th international conference on big data and artificial
+    intelligence
+  year: '2021'
+- article-title: Exploring multiobjective training in multiclass classification
+  author: Raimundo
+  doi: 10.1016/j.neucom.2020.12.087
+  first-page: '307'
+  journal-title: Neurocomputing
+  volume: '435'
+  year: '2021'
+- article-title: Gaussian mixture models.
+  author: Reynolds
+  doi: 10.1007/978-0-387-73003-5_196
+  issue: 659–663
+  journal-title: Encyclopedia of Biometrics
+  volume: '741'
+  year: '2009'
+- article-title: 'Data vs. Physics: The apparent Pareto front of physics-informed
+    neural networks'
+  author: Rohrhofer
+  doi: 10.1109/ACCESS.2023.3302892
+  first-page: '86252'
+  journal-title: IEEE Access
+  volume: '11'
+  year: '2023'
+- article-title: A survey of multi-objective sequential decision-making
+  author: Roijers
+  doi: 10.1613/jair.3987
+  first-page: '67'
+  journal-title: Journal of Artificial Intelligence Research
+  volume: '48'
+  year: '2013'
+- article-title: Computing convex coverage sets for faster multi-objective coordination
+  author: Roijers
+  doi: 10.1613/jair.4550
+  first-page: '399'
+  journal-title: Journal of Artificial Intelligence Research
+  volume: '52'
+  year: '2015'
+- unstructured: Roijers, D. M., Whiteson, S., Vamplew, P., & Dazeley, R. (2015). Why
+    multi-objective reinforcement learning?. In European workshop on reinforcement
+    learning (pp. 1–2).
+- doi: 10.1109/CVPR52688.2022.01042
+  unstructured: Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B. (2022).
+    High-resolution image synthesis with latent diffusion models. In Proceedings of
+    the IEEE/CVF conference on computer vision and pattern recognition (pp. 10684–10695).
+- author: Ruan
+  series-title: Weighted ensemble self-supervised learning
+  year: '2022'
+- doi: 10.1109/ICDM51629.2021.00162
+  unstructured: Ruchte, M., & Grabocka, J. (2021). Scalable Pareto Front Approximation
+    for Deep Multi-Objective Learning. In 2021 IEEE international conference on data
+    mining (pp. 1306–1311).
+- article-title: An introduction to deep generative modeling
+  author: Ruthotto
+  doi: 10.1002/gamm.202100008
+  issue: '2'
+  journal-title: GAMM-Mitteilungen
+  volume: '44'
+  year: '2021'
+- article-title: Multi-dimensional optimization for text summarization via reinforcement
+    learning
+  author: Ryu
+  first-page: '5858'
+  series-title: 'Proceedings of the 62nd annual meeting of the association for computational
+    linguistics (volume 1: long papers)'
+  year: '2024'
+- article-title: 'M2ASR: Multilingual multi-task automatic speech recognition via
+    multi-objective optimization'
+  author: Saif
+  first-page: '1240'
+  series-title: Interspeech 2024
+  year: '2024'
+- article-title: 'Think globally, fit locally: unsupervised learning of low dimensional
+    manifolds'
+  author: Saul
+  first-page: '119'
+  issue: 'null'
+  journal-title: Journal of Machine Learning Research
+  volume: '4'
+  year: '2003'
+- article-title: Stochastic method for the solution of unconstrained vector optimization
+    problems
+  author: Schäffler
+  doi: 10.1023/A:1015472306888
+  first-page: '209'
+  issue: '1'
+  journal-title: Journal of Optimization Theory and Applications
+  volume: '114'
+  year: '2002'
+- article-title: A survey on semi-, self- and unsupervised learning for image classification
+  author: Schmarje
+  doi: 10.1109/ACCESS.2021.3084358
+  journal-title: IEEE Access
+  year: '2021'
+- author: Schulman
+  series-title: Proximal policy optimization algorithms
+  year: '2017'
+- article-title: 'Pareto Explorer: a global/local exploration tool for many-objective
+    optimization problems'
+  author: Schütze
+  doi: 10.1080/0305215X.2019.1617286
+  first-page: '832'
+  issue: '5'
+  journal-title: Engineering Optimization
+  volume: '52'
+  year: '2020'
+- article-title: Covering Pareto sets by multilevel evolutionary subdivision techniques
+  author: Schütze
+  first-page: '118'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2003'
+- doi: 10.1109/ICASSP.2013.6639012
+  unstructured: Seltzer, M. L., & Droppo, J. (2013). Multi-task learning in deep neural
+    networks for improved phoneme recognition. In 2013 IEEE international conference
+    on acoustics, speech and signal processing (pp. 6965–6969).
+- article-title: Multi-task learning as multi-objective optimization
+  author: Sener
+  journal-title: Advances in Neural Information Processing Systems
+  volume: '31'
+  year: '2018'
+- article-title: Multi-criteria feature selection on cost-sensitive data with missing
+    values
+  author: Shu
+  doi: 10.1016/j.patcog.2015.09.016
+  first-page: '268'
+  journal-title: Pattern Recognition
+  volume: '51'
+  year: '2016'
+- article-title: A general reinforcement learning algorithm that masters chess, shogi,
+    and go through self-play
+  author: Silver
+  doi: 10.1126/science.aar6404
+  first-page: '1140'
+  issue: '6419'
+  journal-title: Science
+  volume: '362'
+  year: '2018'
+- article-title: A survey on supervised and unsupervised learning techniques
+  author: Sindhu Meena
+  first-page: '627'
+  series-title: 'Proceedings of international conference on artificial intelligence,
+    smart grid and smart city applications: AISGSC 2019'
+  year: '2020'
+- article-title: Deep unsupervised learning using nonequilibrium thermodynamics
+  author: Sohl-Dickstein
+  first-page: '2256'
+  series-title: Proceedings of the 32nd international conference on machine learning
+  volume: vol. 37
+  year: '2015'
+- article-title: Metric-based regularization and temporal ensemble for multi-task
+    learning using heterogeneous unsupervised tasks
+  author: Song
+  first-page: '2903'
+  series-title: 2019 IEEE/CVF international conference on computer vision workshop
+  year: '2019'
+- article-title: Fast convergence of inertial multiobjective gradient-like systems
+    with asymptotic vanishing damping
+  author: Sonntag
+  doi: 10.1137/23M1588512
+  first-page: '2259'
+  journal-title: SIAM Journal on Optimization
+  volume: '34'
+  year: '2024'
+- article-title: Fast Multiobjective Gradient Methods with Nesterov Acceleration via
+    Inertial Gradient-like Systems
+  author: Sonntag
+  doi: 10.1007/s10957-024-02389-3
+  first-page: '539'
+  journal-title: Journal of Optimization Theory and Applications
+  volume: '201'
+  year: '2024'
+- article-title: Hypervolume maximization via set based Newton’s method
+  author: Sosa Hernández
+  first-page: '15'
+  series-title: EVOLVE - a bridge between probability, set oriented numerics, and
+    evolutionary computation v
+  year: '2014'
+- author: Sukthanker
+  series-title: Multi-objective differentiable neural architecture search
+  year: '2024'
+- author: Suman
+  series-title: Building an effective intrusion detection system using unsupervised
+    feature selection in multi-objective optimization framework
+  year: '2019'
+- article-title: Multiple-target deep learning for LSTM-RNN based speech enhancement
+  author: Sun
+  first-page: '136'
+  series-title: 2017 hands-free speech communications and microphone arrays
+  year: '2017'
+- author: Sutton
+  series-title: 'Reinforcement learning: An introduction'
+  year: '2018'
+- article-title: Multi-objective optimization of support vector machines
+  author: Suttorp
+  first-page: '199'
+  series-title: Multi-objective machine learning
+  year: '2006'
+- article-title: 'Multiobjective optimization for politically fair districting: A
+    scalable multilevel approach'
+  author: Swamy
+  doi: 10.1287/opre.2022.2311
+  first-page: '536'
+  issue: '2'
+  journal-title: Operations Research
+  volume: '71'
+  year: '2023'
+- article-title: 'A survey on handling computationally expensive multiobjective optimization
+    problems using surrogates: non-nature inspired methods'
+  author: Tabatabaei
+  doi: 10.1007/s00158-015-1226-z
+  first-page: '1'
+  issue: '1'
+  journal-title: Structural and Multidisciplinary Optimization
+  volume: '52'
+  year: '2015'
+- doi: 10.15439/2018F231
+  unstructured: Tajmajer, T. (2018). Modular Multi-Objective Deep Reinforcement Learning
+    with Decision Values. In 2018 federated conference on computer science and information
+    systems (fedCSIS) (pp. 85–93).
+- article-title: Proximal gradient methods for multiobjective optimization and their
+    applications
+  author: Tanabe
+  doi: 10.1007/s10589-018-0043-x
+  first-page: '339'
+  issue: '2'
+  journal-title: Computational Optimization and Applications
+  volume: '72'
+  year: '2018'
+- article-title: An accelerated proximal gradient method for multiobjective optimization
+  author: Tanabe
+  doi: 10.1007/s10589-023-00497-w
+  first-page: '421'
+  issue: '2'
+  journal-title: Computational Optimization and Applications
+  volume: '86'
+  year: '2023'
+- article-title: A preference-based evolutionary algorithm for multi-objective optimization
+  author: Thiele
+  doi: 10.1162/evco.2009.17.3.411
+  first-page: '411'
+  issue: '3'
+  journal-title: Evolutionary Computation
+  volume: '17'
+  year: '2009'
+- article-title: 'Evolutionary large-scale multi-objective optimization: A survey'
+  author: Tian
+  doi: 10.1145/3470971
+  issue: '8'
+  journal-title: ACM Computing Surveys
+  volume: '54'
+  year: '2021'
+- article-title: Multi-criteria decision making methods
+  author: Triantaphyllou
+  first-page: '5'
+  series-title: 'Multi-criteria decision making methods: a comparative study'
+  year: '2000'
+- article-title: Empirical evaluation methods for multiobjective reinforcement learning
+    algorithms
+  author: Vamplew
+  doi: 10.1007/s10994-010-5232-5
+  first-page: '51'
+  issue: 1–2
+  journal-title: Machine Learning
+  volume: '84'
+  year: '2011'
+- article-title: 'Scalar reward is not enough: a response to silver, singh, precup
+    and sutton (2021)'
+  author: Vamplew
+  doi: 10.1007/s10458-022-09575-5
+  issue: '2'
+  journal-title: Autonomous Agents and Multi-Agent Systems
+  volume: '36'
+  year: '2022'
+- article-title: 'Numerical differentiation of noisy data: A unifying multi-objective
+    optimization framework'
+  author: Van Breugel
+  doi: 10.1109/ACCESS.2020.3034077
+  first-page: '196865'
+  journal-title: IEEE Access
+  volume: '8'
+  year: '2020'
+- article-title: Deep reinforcement learning with double Q-learning
+  author: Van Hasselt
+  doi: 10.1609/aaai.v30i1.10295
+  issue: '1'
+  journal-title: Proceedings of the AAAI Conference on Artificial Intelligence
+  volume: '30'
+  year: '2016'
+- article-title: Multi-objective reinforcement learning using sets of Pareto dominating
+    policies
+  author: Van Moffaert
+  first-page: '3483'
+  issue: '1'
+  journal-title: Journal of Machine Learning Research
+  volume: '15'
+  year: '2014'
+- article-title: Attention is all you need
+  author: Vaswani
+  series-title: Advances in neural information processing systems
+  volume: '30'
+  year: '2017'
+- article-title: 'Recent advances in applying deep reinforcement learning for flow
+    control: Perspectives and future directions'
+  author: Vignon
+  doi: 10.1063/5.0143913
+  issue: '3'
+  journal-title: Physics of Fluids
+  volume: '35'
+  year: '2023'
+- article-title: Unsupervised active learning with loss prediction
+  author: Wan
+  first-page: '1'
+  journal-title: Neural Computing and Applications
+  year: '2023'
+- article-title: Multi-objective deep data generation with correlated property control
+  author: Wang
+  first-page: '28889'
+  series-title: Advances in neural information processing systems
+  volume: vol. 35
+  year: '2022'
+- article-title: Multi-objective workflow scheduling with deep-q-network-based multi-agent
+    reinforcement learning
+  author: Wang
+  doi: 10.1109/ACCESS.2019.2902846
+  first-page: '39974'
+  journal-title: IEEE Access
+  volume: '7'
+  year: '2019'
+- article-title: Nonparametric density estimation for high-dimensional data—Algorithms
+    and applications
+  author: Wang
+  doi: 10.1002/wics.1461
+  issue: '4'
+  journal-title: 'Wiley Interdisciplinary Reviews: Computational Statistics'
+  volume: '11'
+  year: '2019'
+- doi: 10.1109/CVPR52729.2023.01183
+  unstructured: Williams, P. N., & Li, K. (2023). Black-Box Sparse Adversarial Attack
+    via Multi-Objective Optimisation. In Proceedings of the IEEE/CVF conference on
+    computer vision and pattern recognition (pp. 12291–12301).
+- article-title: A survey of unsupervised deep domain adaptation
+  author: Wilson
+  doi: 10.1145/3400066
+  first-page: '1'
+  issue: '5'
+  journal-title: ACM Transactions on Intelligent Systems and Technology (TIST)
+  volume: '11'
+  year: '2020'
+- article-title: Multi-objective policy gradients with topological constraints
+  author: Wray
+  first-page: '9034'
+  series-title: 2022 IEEE/RSJ international conference on intelligent robots and systems
+  year: '2022'
+- article-title: A survey of human-in-the-loop for machine learning
+  author: Wu
+  doi: 10.1016/j.future.2022.05.014
+  first-page: '364'
+  journal-title: Future Generation Computer Systems
+  volume: '135'
+  year: '2022'
+- author: Xia
+  series-title: Molecule optimization via multi-objective evolutionary in implicit
+    chemical space
+  year: '2022'
+- article-title: Short video creation mode based on interactive multi-objective optimization
+    algorithm
+  author: Xu
+  first-page: '9'
+  series-title: International conference on frontier computing
+  year: '2023'
+- author: Xu
+  series-title: Multi-objective learning and mask-based post-processing for deep neural
+    network based speech enhancement
+  year: '2017'
+- author: Xu
+  series-title: 'The perfect blend: Redefining RLHF with mixture of judges'
+  year: '2024'
+- author: Xue
+  series-title: A pairwise comparison relation-assisted multi-objective evolutionary
+    neural architecture search method with multi-population mechanism
+  year: '2024'
+- doi: 10.1109/CVPR.2019.00419
+  unstructured: Yang, X., Deng, C., Zheng, F., Yan, J., & Liu, W. (2019). Deep spectral
+    clustering using dual autoencoder network. In Proceedings of the IEEE/CVF conference
+    on computer vision and pattern recognition (pp. 4066–4075).
+- article-title: Gradient shaping for multi-constraint safe reinforcement learning
+  author: Yao
+  first-page: '25'
+  series-title: 6th annual learning for dynamics & control conference
+  year: '2024'
+- article-title: 'PROUD: Pareto-guided diffusion model for multi-objective generation'
+  author: Yao
+  doi: 10.1007/s10994-024-06575-2
+  first-page: '6511'
+  issue: '9'
+  journal-title: Machine Learning
+  volume: '113'
+  year: '2024'
+- article-title: Gradient surgery for multi-task learning
+  author: Yu
+  first-page: '5824'
+  journal-title: Advances in Neural Information Processing Systems
+  volume: '33'
+  year: '2020'
+- article-title: A convolutional neural network-based surrogate model for multi-objective
+    optimization evolutionary algorithm based on decomposition
+  author: Zhang
+  doi: 10.1016/j.swevo.2022.101081
+  journal-title: Swarm and Evolutionary Computation
+  volume: '72'
+  year: '2022'
+- article-title: 'Hypervolume maximization: a geometric view of Pareto set learning'
+  author: Zhang
+  series-title: Proceedings of the 37th international conference on neural information
+    processing systems
+  year: '2023'
+- author: Zhang
+  series-title: 'PMGDA: A preference-based multiple gradient descent algorithm'
+  year: '2024'
+- article-title: Anchor-changing regularized natural policy gradient for multi-objective
+    reinforcement learning
+  author: Zhou
+  first-page: '13584'
+  journal-title: Advances in Neural Information Processing Systems
+  volume: '35'
+  year: '2022'
+- article-title: 'Multiobjective evolutionary algorithms: A survey of the state of
+    the art'
+  author: Zhou
+  doi: 10.1016/j.swevo.2011.03.001
+  first-page: '32'
+  issue: '1'
+  journal-title: Swarm and Evolutionary Computation
+  volume: '1'
+  year: '2011'
+- article-title: A reinforcement learning approach for dynamic multi-objective optimization
+  author: Zou
+  doi: 10.1016/j.ins.2020.08.101
+  first-page: '815'
+  journal-title: Information Sciences
+  volume: '546'
+  year: '2021'
+doi: 10.1016/j.mlwa.2025.100700
+files: []
+journal: Machine Learning with Applications
+language: en
+month: 9
+pages: '100700'
+papis_id: 1b8501aded4168afe3f0d69da901f95d
+publisher: Elsevier BV
+ref: peitz-mla2025a
+time-added: 2026-11-26-18:39:24
+title: 'Multi-objective deep learning: Taxonomy and survey of the state of the art'
+type: article
+url: https://doi.org/10.1016/j.mlwa.2025.100700
+volume: '21'
+year: 2025
