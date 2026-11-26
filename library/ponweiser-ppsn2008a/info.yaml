@@ -1,0 +1,231 @@
+author: Ponweiser, Wolfgang and Wagner, Tobias and Biermann, Dirk and Vincze, Markus
+author_list:
+- affiliation: []
+  family: Ponweiser
+  given: Wolfgang
+- affiliation: []
+  family: Wagner
+  given: Tobias
+- affiliation: []
+  family: Biermann
+  given: Dirk
+- affiliation: []
+  family: Vincze
+  given: Markus
+booktitle: Parallel Problem Solving from Nature – PPSN X
+citations:
+- unstructured: 'Zitzler, E.: Evolutionary Algorithms for Multiobjective Optimization:
+    Methods and Applications. Dissertation, Swiss Federal Institute of Technology
+    (ETH), Zürich (1999)'
+- author: J. Knowles
+  doi: 10.1109/TEVC.2005.851274
+  first-page: '50'
+  issue: '1'
+  journal-title: IEEE Trans. Evolutionary Computation
+  unstructured: 'Knowles, J.: ParEGO: A hybrid algorithm with on-line landscape approximation
+    for expensive multiobjective optimization problems. IEEE Trans. Evolutionary Computation 10(1),
+    50–66 (2006)'
+  volume: '10'
+  year: '2006'
+- unstructured: 'Biermann, D., Weinert, K., Wagner, T.: Model-based optimization revisited:
+    Towards real-world processes. In: [29], pp. 2980–2987'
+- unstructured: 'Jeong, S., Obayashi, S.: Efficient global optimization (EGO) for
+    multi-objective problem and data mining. In: [30], pp. 2138–22145'
+- author: D.R. Jones
+  doi: 10.1023/A:1008306431147
+  first-page: '455'
+  issue: '4'
+  journal-title: Global Optimization
+  unstructured: 'Jones, D.R., Schonlau, M., Welch, W.J.: Efficient global optimization
+    of expensive black-box functions. Global Optimization 13(4), 455–492 (1998)'
+  volume: '13'
+  year: '1998'
+- author: G.G. Wang
+  doi: 10.1115/1.2429697
+  first-page: '370'
+  issue: '4'
+  journal-title: Journal of Mechanical Design
+  unstructured: 'Wang, G.G., Shan, S.: Review of metamodeling techniques in support
+    of engineering design optimization. Journal of Mechanical Design 129(4), 370–380
+    (2007)'
+  volume: '129'
+  year: '2007'
+- author: J. Sacks
+  doi: 10.1214/ss/1177012413
+  first-page: '409'
+  issue: '4'
+  journal-title: Statistical Science
+  unstructured: 'Sacks, J., Welch, W.J., Mitchell, T.J., Wynn, H.P.: Design and analysis
+    of computer experiments. Statistical Science 4(4), 409–423 (1989)'
+  volume: '4'
+  year: '1989'
+- unstructured: 'Gonzalez, L.F., Walker, R., Periaux, K.S.,, J.: Multidisciplinary
+    design optimisation of unmanned aerial systems (UAS) using meta model assisted
+    evolutionary algorithms. In: 16th Australasian Fluid Mechanics Conf., pp. 471–474
+    (2007)'
+- doi: 10.1109/CEC.2005.1554835
+  unstructured: 'D’Angelo, S., Minisci, E.: Multi-objective evolutionary optimization
+    of subsonic airfoils by kriging approximation and evolution control. In: [30],
+    pp. 1262–1267'
+- author: M. Emmerich
+  doi: 10.1007/978-0-85729-338-1_21
+  first-page: '249'
+  unstructured: 'Emmerich, M., Naujoks, B.: Metamodel-assisted multiobjective optimisation
+    strategies and their application in airfoil design. In: Parmee, I.C. (ed.) Adaptive
+    Computing in Design and Manufacture VI, pp. 249–260. Springer, Heidelberg (2004)'
+  volume-title: Adaptive Computing in Design and Manufacture VI
+  year: '2004'
+- unstructured: 'Naujoks, B., Beume, N., Emmerich, M.: Metamodel-assisted SMS-EMOA
+    applied to airfoil optimisation tasks. In: Schilling, R., et al. (eds.) Evolutionary
+    and Deterministic Methods for Design, Optimization and Control with Applications
+    to Industrial and Societal Problems (EUROGEN 2005) (CD-ROM). FLM (2005)'
+- author: M. Emmerich
+  doi: 10.1109/TEVC.2005.859463
+  first-page: '421'
+  issue: '4'
+  journal-title: IEEE Trans. Evolutionary Computation
+  unstructured: 'Emmerich, M., Giannakoglou, K., Naujoks, B.: Single- and multi-objective
+    evolutionary optimization assisted by gaussian random field metamodels. IEEE Trans.
+    Evolutionary Computation 10(4), 421–439 (2006)'
+  volume: '10'
+  year: '2006'
+- author: A.J. Keane
+  doi: 10.2514/1.16875
+  first-page: '879'
+  journal-title: AIAA
+  unstructured: 'Keane, A.J.: Statistical improvement criteria for use in multiobjective
+    design optimization. AIAA 44, 879–891 (2006)'
+  volume: '44'
+  year: '2006'
+- author: M. Sasena
+  doi: 10.1080/03052150211751
+  first-page: '263'
+  journal-title: Engineering Optimization
+  unstructured: 'Sasena, M., Papalambros, P., Goovaerts, P.: Exploration of metamodeling
+    sampling criteria for constrained global optimization. Engineering Optimization 34,
+    263–278 (2002)'
+  volume: '34'
+  year: '2002'
+- unstructured: 'Ponweiser, W., Wagner, T.: Clustered multiple generalized expected
+    improvement: A novel infill sampling criterion for surrogate models. In: [29],
+    pp. 3514–3521'
+- author: Joshua Knowles
+  first-page: '176'
+  unstructured: 'Knowles, J.D., Hughes, E.J.: Multiobjective optimization on a budget
+    of 250 evaluations. In: [31], pp. 176–190'
+  volume-title: Lecture Notes in Computer Science
+  year: '2005'
+- author: K. Deb
+  doi: 10.1007/3-540-45356-3_83
+  first-page: '849'
+  unstructured: 'Deb, K., Agrawal, S., Pratab, A., Meyarivan, T.: A Fast Elitist Non-Dominated
+    Sorting Genetic Algorithm for Multi-Objective Optimization: NSGA-II. In: Schoenauer,
+    M., et al. (eds.) Proc. 6th Int’l Conf. Parallel Problem Solving from Nature,
+    pp. 849–858. Springer, Heidelberg (2000)'
+  volume-title: Proc. 6th Int’l Conf. Parallel Problem Solving from Nature
+  year: '2000'
+- author: E. Zitzler
+  doi: 10.1007/BFb0056872
+  first-page: '292'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Zitzler, E., Thiele, L.: Multiobjective optimization using evolutionary
+    algorithms – A comparative case study. In: Eiben, A.E., et al. (eds.) PPSN 1998.
+    LNCS, vol. 1498, pp. 292–301. Springer, Heidelberg (1998)'
+  volume-title: Parallel Problem Solving from Nature - PPSN V
+  year: '1998'
+- unstructured: 'Knowles, J.: Local-Search and Hybrid Evolutionary Algorithms for
+    Pareto Optimization. PhD thesis, Department of Computer Science, University of
+    Reading (2002)'
+- author: E. Zitzler
+  doi: 10.1109/TEVC.2003.810758
+  first-page: '117'
+  issue: '2'
+  journal-title: Trans. Evolutionary Computation
+  unstructured: 'Zitzler, E., Thiele, L., Laumanns, M., Fonseca, C., Fonseca, V.:
+    Performance assessment of multiobjective optimizers: An analysis and review. Trans.
+    Evolutionary Computation 8(2), 117–132 (2003)'
+  volume: '8'
+  year: '2003'
+- author: T. Wagner
+  doi: 10.1007/978-3-540-70928-2_56
+  first-page: '742'
+  unstructured: 'Wagner, T., Beume, N., Naujoks, B.: Pareto-, aggregation-, and indicator-based
+    methods in many-objective optimization. In: Obayashi, S., et al. (eds.) Proc.
+    4th Int’l Conf. Evolutionary Multi-Criterion Optimization, pp. 742–756. Springer,
+    Heidelberg (2007)'
+  volume-title: Proc. 4th Int’l Conf. Evolutionary Multi-Criterion Optimization
+  year: '2007'
+- author: Michael Emmerich
+  first-page: '62'
+  unstructured: 'Emmerich, M., Beume, N., Naujoks, B.: An emo algorithm using the
+    hypervolume measure as selection criterion. In: [31], pp. 62–76 (2005)'
+  volume-title: Lecture Notes in Computer Science
+  year: '2005'
+- unstructured: 'Huang, V.L., Qin, A.K., Deb, K., Zitzler, E., Suganthan, P.N., Liang,
+    J.J., Preuss, M., Huband, S.: Problem definitions for performance assessment of
+    multi-objective optimization algorithms. Technical report, Nanyang Technological
+    University, Singapore (2007)'
+- author: E. Zitzler
+  doi: 10.1162/106365600568202
+  first-page: '173'
+  issue: '2'
+  journal-title: MIT Evolutionary Computation
+  unstructured: 'Zitzler, E., Deb, K., Thiele, L.: Comparison of multiobjective evolutionary
+    algorithms: Empirical results. MIT Evolutionary Computation 8(2), 173–195 (2000)'
+  volume: '8'
+  year: '2000'
+- author: T. Okabe
+  doi: 10.1007/978-3-540-30217-9_80
+  first-page: '792'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Okabe, T., Jin, Y., Olhofer, M., Sendhoff, B.: On test functions
+    for evolutionary multi-objective optimization. In: Yao, X., et al. (eds.) PPSN
+    2004. LNCS, vol. 3242, pp. 792–802. Springer, Heidelberg (2004)'
+  volume-title: Parallel Problem Solving from Nature - PPSN VIII
+  year: '2004'
+- author: N. Hansen
+  doi: 10.1162/106365601750190398
+  first-page: '159'
+  issue: '2'
+  journal-title: Evolutionary Computation
+  unstructured: 'Hansen, N., Ostermeier, A.: Completely derandomized self-adaptation
+    in evolution strategies. Evolutionary Computation 9(2), 159–195 (2001)'
+  volume: '9'
+  year: '2001'
+- author: C. Fonseca
+  first-page: '1157'
+  unstructured: 'Fonseca, C., Paquete, L., Lopez-Ibanez, M.: An improved dimension-sweep
+    algorithm for the hypervolume indicator. In: Congr. Evolutionary Computation,
+    pp. 1157–1163. IEEE, Los Alamitos (2006)'
+  volume-title: Congr. Evolutionary Computation
+  year: '2006'
+- unstructured: 'Hansen, M.P., Jaszkiewicz, A.: Evaluating the quality of approximations
+    to the non-dominated set. Technical Report IMM1998-7, Technical University of
+    Denmark (1998)'
+- unstructured: 'Michalewicz, Z., et al. (eds.): Proc. Congr. Evolutionary Computation.
+    IEEE, Los Alamitos (2008)'
+  volume-title: Proc. Congr. Evolutionary Computation
+  year: '2008'
+- unstructured: 'Corne, D., et al. (eds.): Proc. Congr. Evolutionary Computation.
+    IEEE, Los Alamitos (2005)'
+  volume-title: Proc. Congr. Evolutionary Computation
+  year: '2005'
+- unstructured: 'Coello, C.A.C., et al. (eds.): Proc. 3rd Int’l Conf. Evolutionary
+    Multi-Criterion Optimization. Springer, Heidelberg (2005)'
+  volume-title: Proc. 3rd Int’l Conf. Evolutionary Multi-Criterion Optimization
+  year: '2005'
+doc_url: http://link.springer.com/content/pdf/10.1007/978-3-540-87700-4_78
+doi: 10.1007/978-3-540-87700-4_78
+files: []
+isbn: '9783540877004'
+pages: 784--794
+papis_id: 34c40cc63b1582f62504db11523fbb43
+publisher: Springer Berlin Heidelberg
+ref: ponweiser-ppsn2008a
+series: Lecture Notes in Computer Science
+time-added: 2026-11-26-18:37:03
+title: Multiobjective Optimization on a Limited Budget of Evaluations Using Model-Assisted
+  $\mathcal{S}$ -Metric Selection
+type: inproceedings
+url: https://doi.org/10.1007/978-3-540-87700-4_78
+year: 2008
