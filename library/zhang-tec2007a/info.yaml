@@ -1,0 +1,118 @@
+author: Qingfu Zhang, None and Hui Li, None
+author_list:
+- affiliation: []
+  family: Qingfu Zhang
+  given: null
+- affiliation: []
+  family: Hui Li
+  given: null
+citations:
+- author: ehrgott
+  journal-title: Multicriteria Optimization
+  year: '2005'
+- doi: 10.1109/4235.985691
+- doi: 10.1162/106365600568202
+- doi: 10.1109/TEVC.2003.810758
+- author: santers
+  journal-title: The Design of Analysis of Computer Experiments
+  year: '2003'
+- doi: 10.1109/4235.752920
+- article-title: finding acceptable solutions in the pareto-optimal range using multiobjective
+    genetic algorithms
+  author: bentley
+  first-page: '231'
+  journal-title: Proc 2nd On-Line World Conf Soft Comput Eng Design Manuf
+  year: '1997'
+- author: gen
+  journal-title: Genetic Algorithms and Engineering Design
+  year: '1997'
+- author: steuer
+  journal-title: Multiple Criteria Optimization Theory Computation and Application
+  year: '1986'
+- doi: 10.1109/CEC.2002.1007032
+- doi: 10.1007/s00158-002-0276-1
+- author: murata
+  first-page: '82'
+  journal-title: Specification of Genetic Search Direction in Cellular Multiobjective
+    Genetic Algorithm in Evolutionary Multicriterion Optimization
+  year: '2001'
+- doi: 10.1080/0305215042000274942
+- doi: 10.1145/358923.358929
+- doi: 10.1109/4235.797969
+- doi: 10.1109/CEC.1999.781913
+- article-title: 'spea2: improving the strength pareto evolutionary algorithm for
+    multiobjective optimization'
+  author: zitzler
+  first-page: '95'
+  journal-title: Proc Evolutionary Methods for Design Optimization and Control with
+    Applications to Industrial Problems
+  year: '0'
+- doi: 10.1109/4235.996017
+- doi: 10.1109/TEVC.2003.812220
+- author: okabe
+  first-page: '1594'
+  journal-title: Congress on Evolutionary Computation (CEC)
+  year: '2004'
+- doi: 10.1109/TEVC.2004.826067
+- doi: 10.1109/5326.704576
+- author: tan
+  journal-title: Multiobjective Evolutionary Algorithms and Applications
+  year: '2005'
+- author: jin
+  doi: 10.1007/3-540-44719-9_7
+  first-page: '96'
+  journal-title: Evolutionary Multicriterion Optimization
+  volume: '1993'
+  year: '2001'
+- doi: 10.1007/978-1-4757-5184-0
+- doi: 10.1007/BF01097002
+- doi: 10.1109/TEVC.2002.802873
+- author: polak
+  first-page: '271'
+  journal-title: Multiple Criteria Decision Making
+  volume: '123'
+  year: '1976'
+- doi: 10.1007/s10957-005-5494-4
+- doi: 10.1002/mcda.287
+- author: deb
+  journal-title: Multi-Objective Optimization Using Evolutionary Algorithms
+  year: '2001'
+- doi: 10.1137/S1052623496307510
+- author: miettinen
+  journal-title: Nonlinear Multiobjective Optimization
+  year: '1999'
+- doi: 10.1162/106365600568158
+- author: zhang
+  journal-title: Modelling the regularity in an estimation of distribution algorithm
+    for continuous multiobjective optimisation with variable linkages
+  year: '2006'
+- doi: 10.1109/TEVC.2003.810755
+- article-title: multiple objective optimization with vector evaluated genetic algorithms
+  author: schaffer
+  first-page: '93'
+  journal-title: Proc 1st Int Conf Genetic Algorithms
+  year: '1985'
+- doi: 10.1109/TEVC.2003.810761
+- doi: 10.1109/CEC.2003.1299427
+- article-title: a two-phase local search for the biobjective traveling salesman problem
+  author: paquete
+  doi: 10.1007/3-540-36970-8_34
+  first-page: '479'
+  journal-title: Proc Evol Multi-Criterion Optim
+  year: '2003'
+doc_url: http://xplorestaging.ieee.org/ielx5/4235/4384509/04358754.pdf?arnumber=4358754
+doi: 10.1109/tevc.2007.892759
+files: []
+issue: '6'
+journal: IEEE Transactions on Evolutionary Computation
+month: 12
+pages: 712--731
+papis_id: 7415d561fd777ca19c3a016149a45103
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: zhang-tec2007a
+time-added: 2026-11-26-18:32:57
+title: 'MOEA/D: A Multiobjective Evolutionary Algorithm Based on Decomposition'
+type: article
+url: https://doi.org/10.1109/tevc.2007.892759
+volume: '11'
+year: 2007
