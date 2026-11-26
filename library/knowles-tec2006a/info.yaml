@@ -1,0 +1,148 @@
+author: Knowles, J.
+author_list:
+- affiliation: []
+  family: Knowles
+  given: J.
+citations:
+- author: Box
+  volume-title: Empirical Model Building and Response Surfaces
+  year: '1987'
+- doi: 10.1007/s11306-005-1106-4
+- doi: 10.1007/3-540-45712-7_12
+- doi: 10.1109/TSMCC.2004.841917
+- doi: 10.1007/3-540-36970-8_47
+- doi: 10.1145/358923.358929
+- doi: 10.1007/3-540-44719-9_9
+- doi: 10.1109/TEVC.2004.826067
+- doi: 10.1007/978-1-4757-5184-0
+- doi: 10.1007/BF00993277
+- doi: 10.1007/3-540-36605-9_18
+- article-title: 'PESA-II: Region-based selection in evolutionary multiobjective optimization'
+  author: Corne
+  first-page: '283'
+  volume-title: Proc. Genetic and Evol. Comput. Conf. (GECCO)
+- doi: 10.1016/S0045-7825(99)00393-X
+- doi: 10.1128/AEM.66.4.1435-1443.2000
+- article-title: Evolutionary algorithms for multi-criterion optimization in engineering
+    design
+  author: Deb
+  first-page: '135'
+  volume-title: Evolutionary Algorithms in Engineering and Computer Science
+  year: '1999'
+- author: Deb
+  volume-title: Multi-Objective Optimization Using Evolutionary Algorithms
+  year: '2001'
+- doi: 10.1007/3-540-45356-3_83
+- doi: 10.1162/106365601750190406
+- author: Deb
+  volume-title: Scalable test problems for evolutionary multi-objective optimization
+  year: '2001'
+- doi: 10.1007/978-3-540-31880-4_5
+- doi: 10.1007/3-540-45712-7_35
+- doi: 10.1007/978-0-85729-338-1_21
+- article-title: Metamodel-assisted multiobjective optimization strategies with implicit
+    constraints and their application in airfoil design
+  author: Emmerich
+  volume-title: Proc. ERCOFTAC
+- doi: 10.1016/S0955-2219(01)00289-8
+- doi: 10.1109/TEVC.2004.831456
+- doi: 10.1007/3-540-61723-X_1022
+- article-title: A multi-objective evolutionary algorithm using approximate fitness
+    evaluation
+  author: Gaspar-Cunha
+  volume-title: Proc. Int. Congr. Evol. Methods for Design, Optimization and Control
+    With Applications to Industrial Problems EUROGEN
+- article-title: A hybrid multi-objective evolutionary algorithm using an inverse
+    neural network
+  author: Gaspar-Cunha
+  first-page: '25'
+  volume-title: Proc. Hybrid Metaheuristics (HM 2004) Workshop at ECAI 2004
+- doi: 10.1016/S0376-0421(01)00019-7
+- author: Horn
+  volume-title: Multiobjective optimization using the niched pareto genetic algorithm
+  year: '1993'
+- article-title: Multi-objective binary search optimization
+  author: Hughes
+  first-page: '102'
+  volume: '2632'
+  volume-title: Lecture Notes in Computer Science
+- doi: 10.1109/TEVC.2003.817234
+- doi: 10.1007/s00500-003-0328-5
+- doi: 10.1109/TEVC.2002.800884
+- doi: 10.1023/A:1008306431147
+- author: Knowles
+  volume-title: 'Parameter setting for PESA-II on the closed-loop spectrometer optimization
+    problem: A simulation study using short run experiments'
+  year: '2004'
+- author: Knowles
+  volume-title: Supporting material for this paper
+  year: '2004'
+- doi: 10.1109/CEC.2002.1007013
+- author: Knowles
+  volume-title: Local-search and hybrid evolutionary algorithms for Pareto optimization
+  year: '2002'
+- doi: 10.1162/106365600568167
+- article-title: Evolutionary search of approximated n-dimensional landscapes
+  author: Liang
+  first-page: '172'
+  issue: '3'
+  journal-title: Int. J. Knowledge-Based Intelligent Eng. Syst.
+  volume: '4'
+  year: '2000'
+- author: Myers
+  volume-title: Response Surface Methodology
+  year: '1995'
+- author: Nain
+  volume-title: A computationally effective multi-objective search and optimization
+    technique using coarse-to-fine grain modeling
+  year: '2002'
+- article-title: Evaluating multi-criteria evolutionary algorithms for airfoil optimization
+  author: Naujoks
+  doi: 10.1007/3-540-45712-7_81
+  first-page: '841'
+  volume: '2439'
+  volume-title: Parallel Problem Solving from Nature—PPSN VII
+  year: '2002'
+- doi: 10.1021/ac049146x
+- doi: 10.1007/978-3-540-30217-9_80
+- doi: 10.2514/2.1999
+- article-title: Surrogate-assisted evolutionary optimization frameworks for high-fidelity
+    engineering design problems
+  author: Ong
+  volume-title: Knowledge Incorporation in Evolutionary Computation
+  year: '2004'
+- author: Press
+  volume-title: 'Numerical Recipes in C: The Art of Scientific Computing'
+  year: '1992'
+- doi: 10.1007/BFb0056852
+- doi: 10.1109/TEVC.2004.835247
+- doi: 10.1214/ss/1177012413
+- doi: 10.1109/CEC.2004.1330833
+- doi: 10.1021/ac034669a
+- doi: 10.1021/ac049684+
+- doi: 10.1145/298151.298382
+- doi: 10.2514/2.764
+- doi: 10.1016/0032-9592(94)00036-0
+- doi: 10.1162/neco.1996.8.7.1341
+- author: Zitzler
+  volume-title: 'Evolutionary algorithms for multiobjective optimization: Methods
+    and applications'
+  year: '1999'
+- doi: 10.1109/TEVC.2003.810758
+doc_url: http://xplorestaging.ieee.org/ielx5/4235/33420/01583627.pdf?arnumber=1583627
+doi: 10.1109/tevc.2005.851274
+files: []
+issue: '1'
+journal: IEEE Transactions on Evolutionary Computation
+month: 2
+pages: 50--66
+papis_id: 177c9e71e7581c3a1a8714f6dd7cfed8
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: knowles-tec2006a
+time-added: 2026-11-26-18:33:38
+title: 'ParEGO: a hybrid algorithm with on-line landscape approximation for expensive
+  multiobjective optimization problems'
+type: article
+url: https://doi.org/10.1109/tevc.2005.851274
+volume: '10'
+year: 2006
