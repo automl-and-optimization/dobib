@@ -1,0 +1,178 @@
+author: Binder, Martin and Moosbauer, Julia and Thomas, Janek and Bischl, Bernd
+author_list:
+- affiliation:
+  - name: Ludwig-Maximilians-Universität München, Munich, Germany
+  family: Binder
+  given: Martin
+- affiliation:
+  - name: Ludwig-Maximilians-Universität München, Munich, Germany
+  family: Moosbauer
+  given: Julia
+- affiliation:
+  - name: Fraunhofer Institute for Integrated Circuits IIS Erlangen, Germany
+  family: Thomas
+  given: Janek
+- affiliation:
+  - name: Ludwig-Maximilians-Universität München, Munich, Germany
+  family: Bischl
+  given: Bernd
+booktitle: Proceedings of the 2020 Genetic and Evolutionary Computation Conference
+citations:
+- doi: 10.1007/978-3-642-15844-5_32
+- article-title: Machine Learning
+  author: Bischl Bernd
+  first-page: '1'
+  issue: '170'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Bernd Bischl , Michel Lang , Jakob Bossek , Leonard Judt , Jakob
+    Richter , Tobias Kuehn , and Erich Studerus . mlr : Machine Learning in R. Journal
+    of Machine Learning Research , 17 ( 170 ): 1 -- 5 , 2014 . Bernd Bischl, Michel
+    Lang, Jakob Bossek, Leonard Judt, Jakob Richter, Tobias Kuehn, and Erich Studerus.
+    mlr: Machine Learning in R. Journal of Machine Learning Research, 17(170):1--5,
+    2014.'
+  volume: '17'
+  year: '2014'
+- doi: 10.1016/j.inffus.2018.11.008
+- doi: 10.1007/s10462-017-9543-9
+- author: Chen Tianqi
+  unstructured: 'Tianqi Chen and Carlos Guestrin . XGBoost : A Scalable Tree Boosting
+    System . ACM , 2016 . ISBN 9781450342322. Tianqi Chen and Carlos Guestrin. XGBoost:
+    A Scalable Tree Boosting System. ACM, 2016. ISBN 9781450342322.'
+  volume-title: ACM
+  year: '2016'
+- doi: 10.1023/A:1022627411411
+- doi: 10.1109/ICSMC.1992.271617
+- doi: 10.3233/IDA-1997-1302
+- article-title: Simulated binary crossover for continuous search space
+  author: Deb Kalyanmoy
+  first-page: '115'
+  issue: '2'
+  journal-title: Complex Systems
+  unstructured: 'Kalyanmoy Deb and R B Agrawal . Simulated binary crossover for continuous
+    search space . Complex Systems , 9 ( 2 ): 115 -- 148 , 1994 . ISSN 08912513. Kalyanmoy
+    Deb and R B Agrawal. Simulated binary crossover for continuous search space. Complex
+    Systems, 9(2):115--148, 1994. ISSN 08912513.'
+  volume: '9'
+  year: '1994'
+- doi: 10.1109/4235.996017
+- doi: 10.5555/1248547.1248548
+- doi: 10.1109/icmla.2012.175
+- doi: 10.1109/CEC.2000.870311
+- author: Feurer Matthias
+  unstructured: Matthias Feurer , Aaron Klein , Katharina Eggensperger , Jost Springenberg
+    , Manuel Blum , and Frank Hutter . Efficient and Robust Automated Machine Learning
+    , 2015 . URL http://papers.nips.cc/paper/5872-efficient-and-robust-automated-machine-learning.
+    Matthias Feurer, Aaron Klein, Katharina Eggensperger, Jost Springenberg, Manuel
+    Blum, and Frank Hutter. Efficient and Robust Automated Machine Learning, 2015.
+    URL http://papers.nips.cc/paper/5872-efficient-and-robust-automated-machine-learning.
+  volume-title: Efficient and Robust Automated Machine Learning
+  year: '2015'
+- doi: 10.5555/1005332.1044711
+- author: Franceschi Luca
+  unstructured: Luca Franceschi , Paolo Frasconi , Saverio Salzo , Riccardo Grazzi
+    , and Massimiliano Pontil . Bilevel programming for hyperparameter optimization
+    and meta-learning . In Proceedings of the 35th International Conference on Machine
+    Learning (ICML 2018, Proceedings of Machine Learning Research. PMLR , 2018 . Luca
+    Franceschi, Paolo Frasconi, Saverio Salzo, Riccardo Grazzi, and Massimiliano Pontil.
+    Bilevel programming for hyperparameter optimization and meta-learning. In Proceedings
+    of the 35th International Conference on Machine Learning (ICML 2018, Proceedings
+    of Machine Learning Research. PMLR, 2018.
+  volume-title: Proceedings of the 35th International Conference on Machine Learning
+    (ICML 2018, Proceedings of Machine Learning Research. PMLR
+  year: '2018'
+- doi: 10.5555/944919.944968
+- doi: 10.1007/978-3-540-71618-1_27
+- doi: 10.1109/SSCI.2016.7850221
+- author: Horn Daniel
+  first-page: '64'
+  series-title: Lecture Notes in Computer Science (including subseries Lecture Notes
+    in Artificial Intelligence and Lecture Notes in Bioinformatics)
+  unstructured: 'Daniel Horn , Tobias Wagner , Dirk Biermann , Claus Weihs , and Bernd
+    Bischl . Model-based multi-objective optimization: Taxonomy, multi-point proposal,
+    toolbox and benchmark . In Lecture Notes in Computer Science (including subseries
+    Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+    , volume 9018 , pages 64 -- 78 , 2015 . ISBN 9783319159331. Daniel Horn, Tobias
+    Wagner, Dirk Biermann, Claus Weihs, and Bernd Bischl. Model-based multi-objective
+    optimization: Taxonomy, multi-point proposal, toolbox and benchmark. In Lecture
+    Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence
+    and Lecture Notes in Bioinformatics), volume 9018, pages 64--78, 2015. ISBN 9783319159331.'
+  volume-title: 'Model-based multi-objective optimization: Taxonomy, multi-point proposal,
+    toolbox and benchmark'
+  year: '2015'
+- doi: 10.1007/978-3-319-15934-8_5
+- author: Hutter Frank
+  unstructured: Frank Hutter , Holger H Hoos , and Kevin Leyton-Brown. Sequential
+    Model-Based Optimization for General Algorithm Configuration. In International
+    conference on learning and intelligent optimization. Springer , 2011 . URL http://www.cs.ubc.ca/labs/beta/Projects/SMAC/papers/11-LION5-SMAC.pdf.
+    Frank Hutter, Holger H Hoos, and Kevin Leyton-Brown. Sequential Model-Based Optimization
+    for General Algorithm Configuration. In International conference on learning and
+    intelligent optimization. Springer, 2011. URL http://www.cs.ubc.ca/labs/beta/Projects/SMAC/papers/11-LION5-SMAC.pdf.
+  volume-title: Kevin Leyton-Brown. Sequential Model-Based Optimization for General
+    Algorithm Configuration. In International conference on learning and intelligent
+    optimization. Springer
+  year: '2011'
+- doi: 10.1198/jasa.2009.tm08622
+- doi: 10.1023/A:1008306431147
+- doi: 10.1109/4235.996017
+- doi: 10.1016/S1665-6423(15)30013-4
+- doi: 10.1109/TEVC.2005.851274
+- doi: 10.1016/S0004-3702(97)00043-X
+- doi: 10.1162/EVCO_a_00059
+- author: Liu Hanxiao
+  unstructured: 'Hanxiao Liu , Karen Simonyan , and Yiming Yang . Darts: Differentiable
+    architecture search. arXiv preprint arXiv:1806.09055 , 2018 . Hanxiao Liu, Karen
+    Simonyan, and Yiming Yang. Darts: Differentiable architecture search. arXiv preprint
+    arXiv:1806.09055, 2018.'
+  volume-title: 'Darts: Differentiable architecture search. arXiv preprint arXiv:1806.09055'
+  year: '2018'
+- doi: 10.1007/978-3-030-05318-5_8
+- author: Pfisterer Florian
+  unstructured: Florian Pfisterer , Stefan Coors , Janek Thomas , and Bernd Bischl
+    . Multi-objective automatic machine learning with autoxgboostmc. arXiv preprint
+    arXiv:1908.10796 , 2019 . Florian Pfisterer, Stefan Coors, Janek Thomas, and Bernd
+    Bischl. Multi-objective automatic machine learning with autoxgboostmc. arXiv preprint
+    arXiv:1908.10796, 2019.
+  volume-title: Multi-objective automatic machine learning with autoxgboostmc. arXiv
+    preprint arXiv:1908.10796
+  year: '2019'
+- author: Snoek Jasper
+  first-page: '2951'
+  unstructured: Jasper Snoek , Hugo Larochelle , and Ryan P. Adams . Practical Bayesian
+    Optimization of Machine Learning Algorithms. In F. Pereira, C. J. C. Burges, L.
+    Bottou, and K. Q. Weinberger, editors , Advances in Neural Information Processing
+    Systems 25 , pages 2951 -- 2959 , 2012 . Jasper Snoek, Hugo Larochelle, and Ryan
+    P. Adams. Practical Bayesian Optimization of Machine Learning Algorithms. In F.
+    Pereira, C. J. C. Burges, L. Bottou, and K. Q. Weinberger, editors, Advances in
+    Neural Information Processing Systems 25, pages 2951--2959, 2012.
+  volume-title: Advances in Neural Information Processing Systems 25
+  year: '2012'
+- doi: 10.1145/2641190.2641198
+- doi: 10.1109/INMIC.2009.5383159
+- doi: 10.1109/TSMCB.2012.2227469
+- doi: 10.1109/TEVC.2015.2504420
+- author: Yang H
+  first-page: '687'
+  unstructured: 'H Yang . Data visualization and feature selection: New algorithms
+    for nongaussian data . Advances in Neural Information Processing Systems , pages
+    687 -- 693 , 1999 . H Yang. Data visualization and feature selection: New algorithms
+    for nongaussian data. Advances in Neural Information Processing Systems, pages
+    687--693, 1999.'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '1999'
+- doi: 10.1023/A:1015244902967
+- doi: 10.1007/BFb0056872
+doc_url: https://dl.acm.org/doi/pdf/10.1145/3377930.3389815
+doi: 10.1145/3377930.3389815
+eventtitle: 'GECCO ''20: Genetic and Evolutionary Computation Conference'
+files: []
+month: 6
+pages: 471--479
+papis_id: f9db56e97e21645f86103bf5b958d402
+publisher: ACM
+ref: binder-gecco2020a
+time-added: 2026-11-26-22:11:49
+title: Multi-objective hyperparameter tuning and feature selection using filter ensembles
+type: inproceedings
+url: https://doi.org/10.1145/3377930.3389815
+venue: Cancún Mexico
+year: 2020
