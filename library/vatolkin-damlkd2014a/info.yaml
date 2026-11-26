@@ -1,0 +1,112 @@
+author: Vatolkin, Igor and Bischl, Bernd and Rudolph, Günter and Weihs, Claus
+author_list:
+- affiliation: []
+  family: Vatolkin
+  given: Igor
+- affiliation: []
+  family: Bischl
+  given: Bernd
+- affiliation: []
+  family: Rudolph
+  given: Günter
+- affiliation: []
+  family: Weihs
+  given: Claus
+booktitle: Data Analysis, Machine Learning and Knowledge Discovery
+citations:
+- unstructured: 'Bischl, B., Eichhoff, M., & Weihs, C. (2010). Selecting groups of
+    audio features by statistical tests and the group lasso. In Proceedings of the
+    9th ITG Fachtagung Sprachkommunikation. Berlin: VDE Verlag.'
+- author: H. Blume
+  doi: 10.1109/MSP.2011.940880
+  first-page: '24'
+  issue: '4'
+  journal-title: IEEE Signal Processing Magazine
+  unstructured: Blume, H., Bischl, B., Botteck, M., Igel, C., Martin, R., & Rötter,
+    G. (2011). Huge music archives on mobile devices. IEEE Signal Processing Magazine,
+    28(4), 24–39.
+  volume: '28'
+  year: '2011'
+- author: S. Downie
+  doi: 10.1002/aris.1440370108
+  first-page: '295'
+  issue: '1'
+  journal-title: Annual Review of Information Science and Technology
+  unstructured: Downie, S. (2003). Music information retrieval. Annual Review of Information
+    Science and Technology, 37(1), 295–340.
+  volume: '37'
+  year: '2003'
+- author: A. Eronen
+  unstructured: Eronen, A. (2001). Automatic Musical Instrument Recognition (Master’s
+    thesis). Department of Information Technology, Tampere University of Technology.
+  volume-title: Automatic Musical Instrument Recognition (Master’s thesis)
+  year: '2001'
+- unstructured: Fiebrink, R., & Fujinaga, I. (2006). Feature selection pitfalls and
+    music classification. In Proceedings of the 7th International Conference on Music
+    Information Retrieval (ISMIR) (pp. 340–341). University of Victoria.
+- unstructured: Fuhrmann, S. (2012). Automatic Musical Instrument Recognition from
+    Polyphonic Music Audio Signals (Ph.D. thesis). Department of Information and Communication
+    Technologies, Universitat Pompeu Fabra, Barcelona.
+- author: L. Gillick
+  doi: 10.1109/ICASSP.1989.266481
+  first-page: '532'
+  unstructured: 'Gillick, L., & Cox, S. (1989). Some statistical issues in the comparison
+    of speech recognition algorithms. In Proceedings of the IEEE Conference on Acoustics,
+    Speech and Signal Processing (ICASSP) (pp. 532–535). New York: IEEE.'
+  volume-title: Proceedings of the IEEE Conference on Acoustics, Speech and Signal
+    Processing (ICASSP)
+  year: '1989'
+- author: M. Hollander
+  unstructured: 'Hollander, M., & Wolfe, D. A. (1973). Nonparametric statistical methods.
+    New York: Wiley.'
+  volume-title: Nonparametric statistical methods
+  year: '1973'
+- unstructured: Mckay, C. (2010). Automatic Music Classification with jMIR (Ph.D.
+    thesis). Department of Music Research, Schulich School of Music, McGill University,
+    Montreal.
+- author: A. Meng
+  doi: 10.1109/TASL.2007.899293
+  first-page: '1654'
+  issue: '5'
+  journal-title: IEEE Transactions on Audio, Speech and Language Processing
+  unstructured: Meng, A., Ahrendt, P., Larsen, J., & Hansen, L. K. (2007). Temporal
+    feature integration for music genre classification. IEEE Transactions on Audio,
+    Speech and Language Processing, 15(5), 1654–1664.
+  volume: '15'
+  year: '2007'
+- author: K. Noland
+  doi: 10.1162/comj.2009.33.1.42
+  first-page: '42'
+  issue: '1'
+  journal-title: Computer Music Journal
+  unstructured: Noland, K., & Sandler, M. (2009). Influences of signal processing,
+    tone profiles, and chord progressions on a model for estimating the musical key
+    from audio. Computer Music Journal, 33(1), 42–56.
+  volume: '33'
+  year: '2009'
+- doi: 10.1145/2001576.2001633
+  unstructured: 'Vatolkin, I., Preuß, & Rudolph, G. (2011). Multi-objective feature
+    selection in music genre and style recognition tasks. In Proceedings of the 2011
+    Genetic and Evolutionary Computation Conference (GECCO) (pp. 411–418). New York:
+    ACM.'
+- doi: 10.1007/s00500-012-0874-9
+  unstructured: Vatolkin, I., Preuß, Rudolph, G., Eichhoff, M., & Weihs, C. (2012).
+    Multi-objective evolutionary feature selection for instrument recognition in polyphonic
+    audio mixtures. Soft Computing, 16(12), 2027–2047.
+doc_url: https://link.springer.com/content/pdf/10.1007/978-3-319-01595-8_19
+doi: 10.1007/978-3-319-01595-8_19
+files: []
+isbn: '9783319015958'
+language: en
+month: 10
+pages: 171--178
+papis_id: 81a3a04d6c6633804db17d890942d8d2
+publisher: Springer International Publishing
+ref: vatolkin-damlkd2014a
+series: Studies in Classification, Data Analysis, and Knowledge Organization
+time-added: 2026-11-26-22:19:46
+title: Statistical Comparison of Classifiers for Multi-objective Feature Selection
+  in Instrument Recognition
+type: inbook
+url: https://doi.org/10.1007/978-3-319-01595-8_19
+year: 2014
