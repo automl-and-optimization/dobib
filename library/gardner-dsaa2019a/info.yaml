@@ -1,0 +1,160 @@
+author: Gardner, Steven and Golovidov, Oleg and Griffin, Joshua and Koch, Patrick
+  and Thompson, Wayne and Wujek, Brett and Xu, Yan
+author_list:
+- affiliation:
+  - name: SAS Institute Inc.
+  family: Gardner
+  given: Steven
+- affiliation:
+  - name: SAS Institute Inc.
+  family: Golovidov
+  given: Oleg
+- affiliation:
+  - name: SAS Institute Inc.
+  family: Griffin
+  given: Joshua
+- affiliation:
+  - name: SAS Institute Inc.
+  family: Koch
+  given: Patrick
+- affiliation:
+  - name: SAS Institute Inc.
+  family: Thompson
+  given: Wayne
+- affiliation:
+  - name: SAS Institute Inc.
+  family: Wujek
+  given: Brett
+- affiliation:
+  - name: SAS Institute Inc.
+  family: Xu
+  given: Yan
+booktitle: 2019 IEEE International Conference on Data Science and Advanced Analytics
+  (DSAA)
+citations:
+- doi: 10.1137/060664161
+- author: goldberg
+  journal-title: Genetic Algorithms in Search Optimization and Machine Learning
+  year: '1989'
+- article-title: Hopspack 2.0 user manual (v 2.0.2)
+  author: plantenga
+  journal-title: Sandia National Laboratories Tech Rep
+  year: '2009'
+- doi: 10.1198/TECH.2009.08007
+- doi: 10.1145/1143997.1144112
+- doi: 10.1137/10079731X
+- article-title: Derivative-free optimization via evolutionary algorithms guiding
+    local search (eagls) for minlp
+  author: griffin
+  first-page: '425'
+  journal-title: Pacific Journal of Optimization
+  volume: '7'
+  year: '2011'
+- doi: 10.1504/IJMMNO.2011.039424
+- doi: 10.1080/10556780903039893
+- doi: 10.1016/j.procs.2010.04.150
+- article-title: Why quality assessment of multiobjective optimizers is difficult
+  author: zitzler
+  first-page: '666'
+  journal-title: Proceedings of the 4th Annual Conference on Genetic and Evolutionary
+    Computation ser GECCO&#x2019;02
+  year: '2002'
+- doi: 10.1109/TEVC.2011.2161872
+- doi: 10.1016/0005-2795(75)90109-9
+- article-title: The limitations of fraud detection today, and its future with bolt
+  year: '2018'
+- article-title: 'Pareto-based multiobjective machine learning: An overview and case
+    studies'
+  author: jin
+  doi: 10.1109/TSMCC.2008.919172
+  first-page: '397'
+  journal-title: Trans Sys Man Cyber Part C
+  volume: '38'
+  year: '2008'
+- doi: 10.1162/106365600568202
+- doi: 10.1007/3-540-33019-4
+- article-title: 'ADC: automated deep compression and acceleration with reinforcement
+    learning'
+  author: he
+  year: '2018'
+- doi: 10.1016/j.cmpb.2017.04.012
+- article-title: 'Beyond mitchell: Multi-objective machine learning &#x2013; minimal
+    entropy, energy and error'
+  author: loeckx
+  journal-title: 11th Metaheuristics International Conference (MIC 2015)
+  year: '2015'
+- article-title: Big models for big data using multi objective averaged one dependence
+    estimators
+  author: panda
+  year: '2016'
+- article-title: A multi-objective DIRECT algorithm towards structural damage identification
+    with limited dynamic response information
+  author: cao
+  year: '2017'
+- article-title: Efficient and robust automated machine learning
+  author: feurer
+  first-page: '2962'
+  journal-title: Advances in Neural IInformation Processing Systems
+  year: '2015'
+- doi: 10.1137/060677513
+- article-title: Open sourcing transmogrifai
+  year: '2018'
+- article-title: 'Automl: Automatic machine learning'
+  year: '2018'
+- doi: 10.1007/s10898-018-0618-1
+- article-title: 'Auto-weka 2.0: Automatic model selection and hyperparameter optimization
+    in weka'
+  author: kotthoff
+  first-page: '1'
+  journal-title: Journal of Machine Learning Research
+  volume: '18'
+  year: '2017'
+- doi: 10.1016/j.patrec.2008.08.010
+- author: jin
+  journal-title: Auto-keras Efficient neural architecture search with network morphism
+  year: '2018'
+- article-title: Automl
+  year: '2018'
+- article-title: 'Evaluation: From precision, recall and f-factor to roc, informedness,
+    markedness & correlation'
+  author: powers
+  journal-title: Machine Learning Techniques
+  volume: '1'
+  year: '2008'
+- article-title: Cloud automlBETA
+  year: '2018'
+- doi: 10.1109/CIBCB.2017.8058553
+- article-title: 'Nemo : Neuro-evolution with multiobjective optimization of deep
+    neural network for speed and accuracy'
+  author: kim
+  year: '2017'
+- article-title: Rapidminer documentation
+  year: '2019'
+- doi: 10.1093/amrx/abq003
+- article-title: 'Ppp-net: Platform-aware progressive search for pareto-optimal neural
+    architectures'
+  author: dong
+  year: '2018'
+- doi: 10.1137/060664161
+- article-title: Efficient multi-objective neural architecture search via lamarckian
+    evolution
+  author: elsken
+  year: '2018'
+- doi: 10.1007/3-540-45356-3_83
+- article-title: 'DVOLVER: Efficient pareto-optimal neural network architecture search'
+  author: michel
+  year: '2019'
+doc_url: http://xplorestaging.ieee.org/ielx7/8961324/8964124/08964219.pdf?arnumber=8964219
+doi: 10.1109/dsaa.2019.00051
+files: []
+month: 10
+pages: 364--373
+papis_id: 1c208c859e4eb9f438f71613d139d75c
+publisher: IEEE
+ref: gardner-dsaa2019a
+time-added: 2026-11-26-22:03:15
+title: Constrained Multi-Objective Optimization for Automated Machine Learning
+type: inproceedings
+url: https://doi.org/10.1109/dsaa.2019.00051
+venue: Washington, DC, USA
+year: 2019
