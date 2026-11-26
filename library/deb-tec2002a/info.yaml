@@ -1,0 +1,119 @@
+author: Deb, K. and Pratap, A. and Agarwal, S. and Meyarivan, T.
+author_list:
+- affiliation: []
+  family: Deb
+  given: K.
+- affiliation: []
+  family: Pratap
+  given: A.
+- affiliation: []
+  family: Agarwal
+  given: S.
+- affiliation: []
+  family: Meyarivan
+  given: T.
+citations:
+- author: Deb
+  volume-title: Multiobjective Optimization Using Evolutionary Algorithms
+  year: '2001'
+- article-title: An efficient constraint-handling method for genetic algorithms
+  author: Deb
+  doi: 10.1016/S0045-7825(99)00389-8
+  first-page: '311'
+  issue: 2–4
+  journal-title: Comput. Methods Appl. Mech. Eng.
+  volume: '186'
+  year: '2000'
+- doi: 10.1162/evco.1999.7.3.205
+- article-title: An investigation of niche and species formation in genetic function
+    optimization
+  author: Deb
+  first-page: '42'
+  volume-title: Proceedings of the Third International Conference on Genetic Algorithms
+- article-title: Understanding interactions among genetic algorithm parameters
+  author: Deb
+  first-page: '265'
+  volume-title: Foundations of Genetic Algorithms V
+  year: '1998'
+- article-title: Simulated binary crossover for continuous search space
+  author: Deb
+  first-page: '115'
+  volume: '9'
+  volume-title: Complex Syst.
+  year: '1995'
+- article-title: 'Genetic algorithms for multiobjective optimization: Formulation,
+    discussion and generalization'
+  author: Fonseca
+  first-page: '416'
+  volume-title: Proceedings of the Fifth International Conference on Genetic Algorithms
+- doi: 10.1007/3-540-61723-X_1022
+- doi: 10.1109/3468.650319
+- doi: 10.1109/3468.650320
+- article-title: 'Messy genetic algorithms: Motivation, analysis, and first results'
+  author: Goldberg
+  first-page: '93'
+  volume: '3'
+  volume-title: Complex Syst.
+  year: '1989'
+- article-title: Learning gene linkage to efficiently solve problems of bounded difficulty
+    using genetic algorithms
+  author: Harik
+  volume-title: IlliGAL Rep. 97005
+  year: '1997'
+- doi: 10.1109/ICEC.1994.350037
+- doi: 10.1109/CEC.1999.781913
+- doi: 10.1007/bfb0029752
+- article-title: Hybrid GA for multiobjective aerodynamic shape optimization
+  author: Poloni
+  first-page: '397'
+  volume-title: Genetic Algorithms in Engineering and Computer Science
+  year: '1997'
+- article-title: An evolutionary algorithm for multiobjective optimization
+  author: Ray
+  doi: 10.1080/03052150108940926
+  first-page: '399'
+  issue: '3'
+  journal-title: Eng. Optim.
+  volume: '33'
+  year: '2001'
+- article-title: Evolutionary search under partially ordered sets
+  author: Rudolph
+  volume-title: Tech. Rep. CI-67/99
+  year: '1999'
+- article-title: Multiple objective optimization with vector evaluated genetic algorithms
+  author: Schaffer
+  first-page: '93'
+  volume-title: Proceedings of the First International Conference on Genetic Algorithms
+- doi: 10.1162/evco.1994.2.3.221
+- doi: 10.1109/ICSMC.1995.537993
+- article-title: 'Multiobjective evolutionary algorithms: Classifications, analyzes,
+    and new innovations'
+  author: Van Veldhuizen
+  volume-title: Tech. Rep. AFIT/DS/ENG/99-01
+  year: '1999'
+- article-title: 'Multiobjective evolutionary algorithm research: A history and analysis'
+  author: Van Veldhuizen
+  volume-title: Tech. Rep. TR-98-03
+  year: '1998'
+- author: Zitzler
+  volume-title: 'Evolutionary algorithms for multiobjective optimization: Methods
+    and applications'
+  year: '1999'
+- doi: 10.1162/106365600568202
+- doi: 10.1007/bfb0056872
+doc_url: http://xplorestaging.ieee.org/ielx5/4235/21497/00996017.pdf?arnumber=996017
+doi: 10.1109/4235.996017
+files: []
+issue: '2'
+journal: IEEE Transactions on Evolutionary Computation
+month: 4
+pages: 182--197
+papis_id: 03aeb106147c6f7933305617faf42083
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: deb-tec2002a
+time-added: 2026-11-26-18:32:01
+title: 'A fast and elitist multiobjective genetic algorithm: NSGA-II'
+type: article
+url: https://doi.org/10.1109/4235.996017
+volume: '6'
+year: 2002
