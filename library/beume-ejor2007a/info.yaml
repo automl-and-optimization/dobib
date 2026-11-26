@@ -1,0 +1,169 @@
+author: Beume, Nicola and Naujoks, Boris and Emmerich, Michael
+author_list:
+- affiliation: []
+  family: Beume
+  given: Nicola
+- affiliation: []
+  family: Naujoks
+  given: Boris
+- affiliation: []
+  family: Emmerich
+  given: Michael
+citations:
+- author: Deb
+  series-title: Multi-Objective Optimization using Evolutionary Algorithms
+  year: '2001'
+- author: Coello Coello
+  series-title: Evolutionary Algorithms for Solving Multi-Objective Problems
+  year: '2002'
+- article-title: Multiobjective Optimization Using Evolutionary Algorithms – A Comparative
+    Study
+  author: Zitzler
+  first-page: '292'
+  series-title: Parallel Problem Solving from Nature V
+  year: '1998'
+- unstructured: 'E. Zitzler, Evolutionary algorithms for multiobjective optimization:
+    methods and applications, Ph.D. Thesis, Swiss Federal Institute of Technology
+    (ETH), Zürich, Switzerland, 1999.'
+- article-title: The Measure of Pareto Optima. Applications to Multi-objective Metaheuristics
+  author: Fleischer
+  first-page: '519'
+  volume: vol. 2632
+  year: '2003'
+- article-title: Bounded Archiving using the Lebesgue Measure
+  author: Knowles
+  first-page: '2490'
+  volume: vol. 4
+  year: '2003'
+- article-title: An EMO Algorithm Using the Hypervolume Measure as Selection Criterion
+  author: Emmerich
+  first-page: '62'
+  volume: vol. 3410
+  year: '2005'
+- article-title: Properties of an adaptive archiving algorithm for storing nondominated
+    vectors
+  author: Knowles
+  doi: 10.1109/TEVC.2003.810755
+  first-page: '100'
+  issue: '2'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '7'
+  year: '2003'
+- article-title: Towards a Quick Computation of Well-Spread Pareto-Optimal Solutions
+  author: Deb
+  first-page: '222'
+  volume: vol. 2632
+  year: '2003'
+- doi: 10.1007/3-540-36970-8_16
+  unstructured: K. Deb, M. Mohan, S. Mishra, A fast multi-objective evolutionary algorithm
+    for finding well-spread Pareto-optimal solutions, KanGAL report 2003002, Indian
+    Institute of Technology, Kanpur, India, 2003.
+- unstructured: 'E. Zitzler, L. Thiele, M. Laumanns, C.M. Fonseca, V. G. da Fonseca,
+    Performance assessment of multiobjective optimizers: An analysis and review, TIK-Report
+    139, Swiss Federal Institute of Technology (ETH), Zürich, 2002.'
+- article-title: An evolution strategy with probabilistic mutation for multi-objective
+    optimisation
+  author: Huband
+  first-page: '2284'
+  volume: vol. 4
+  year: '2003'
+- article-title: Indicator-based selection in multiobjective search
+  author: Zitzler
+  first-page: '832'
+  series-title: Parallel Problem Solving from Nature (PPSN 2004)
+  year: '2004'
+- article-title: 'A fast and elitist multiobjective genetic algorithm: NSGA-II'
+  author: Deb
+  doi: 10.1109/4235.996017
+  first-page: '182'
+  issue: '2'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '6'
+  year: '2002'
+- author: Goldberg
+  series-title: Genetic Algorithms in Search, Optimization and Machine Learning
+  year: '1989'
+- article-title: 'Multi-objective optimisation using S-metric selection: Application
+    to three-dimensional solution spaces'
+  author: Naujoks
+  volume: vol. 2
+  year: '2005'
+- article-title: A New Analysis of the LebMeasure Algorithm for Calculating the Hypervolume
+  author: While
+  first-page: '326'
+  volume: vol. 3410
+  year: '2005'
+- unstructured: J. Knowles, Local search and hybrid evolutionary algorithms for Pareto
+    optimization, Ph.D. Thesis, University of Reading, Reading, UK, 2002.
+- unstructured: 'E. Zitzler, Hypervolume metric calculation, Computer Engineering
+    and Networks Laboratory (TIK), Zürich, 2001. Available from: <ftp://ftp.tik.ee.ethz.ch/pub/people/zitzler/hypervol.c>.'
+- article-title: Heuristics for Optimising the Calculation of Hypervolume for Multi-objective
+    Optimisation Problems
+  author: While
+  first-page: '2225'
+  volume: vol. 3
+  year: '2005'
+- article-title: 'SPEA2: Improving the strength Pareto evolutionary algorithm for
+    multiobjective optimization'
+  author: Zitzler
+  first-page: '95'
+  series-title: Evolutionary Methods for Design, Optimisation, and Control
+  year: '2002'
+- article-title: 'Comparison of multiobjective evolutionary algorithms: Empirical
+    results'
+  author: Zitzler
+  doi: 10.1162/106365600568202
+  first-page: '173'
+  issue: '2'
+  journal-title: Evolutionary Computation
+  volume: '8'
+  year: '2000'
+- unstructured: M. Emmerich, A rigorous analysis of two bi-criteria problem families
+    with scalable curvature of the Pareto fronts, Technical Report LIACS TR 2005-05,
+    Leiden Institute on Advanced Computer Science, Leiden, NL, 2005.
+- article-title: Scalable Multi-objective Optimization Test Problems
+  author: Deb
+  first-page: '825'
+  volume: vol. 1
+  year: '2002'
+- article-title: Design and analysis of computer experiments
+  author: Sacks
+  doi: 10.1214/ss/1177012413
+  first-page: '409'
+  journal-title: Statistical Science
+  volume: '4'
+  year: '1989'
+- article-title: Metamodel assisted multiobjective optimisation strategies and their
+    application in airfoil design
+  author: Emmerich
+  first-page: '249'
+  series-title: Adaptive Computing in Design and Manufacture VI (ACDM 2004)
+  year: '2004'
+- doi: 10.1007/978-0-85729-338-1_21
+  unstructured: 'M. Emmerich, B. Naujoks, Metamodel-assisted multi-objective optimisation
+    with implicit constraints and their application in airfoil design, in: Proc. Int.
+    Conf. ERCOFTAC’04, Athens (CD-ROM), CIMNE, Barcelona, Spain, 2004.'
+- article-title: Evolution strategies – A comprehensive introduction
+  author: Beyer
+  doi: 10.1023/A:1015059928466
+  first-page: '3'
+  issue: '1'
+  journal-title: Natural Computing
+  volume: '1'
+  year: '2002'
+doi: 10.1016/j.ejor.2006.08.008
+files: []
+issue: '3'
+journal: European Journal of Operational Research
+language: en
+month: 9
+pages: 1653--1669
+papis_id: 896899d419786f303bb9636c496b0e50
+publisher: Elsevier BV
+ref: beume-ejor2007a
+time-added: 2026-11-26-18:33:18
+title: 'SMS-EMOA: Multiobjective selection based on dominated hypervolume'
+type: article
+url: https://doi.org/10.1016/j.ejor.2006.08.008
+volume: '181'
+year: 2007
