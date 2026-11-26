@@ -1,0 +1,42 @@
+abstract: There are several bias mitigators that can reduce algorithmic bias in machine
+  learning models but, unfortunately, the effect of mitigators on fairness is often
+  not stable when measured across different data splits. A popular approach to train
+  more stable models is ensemble learning. Ensembles, such as bagging, boosting, voting,
+  or stacking, have been successful at making predictive performance more stable.
+  One might therefore ask whether we can combine the advantages of bias mitigators
+  and ensembles? To explore this question, we first need bias mitigators and ensembles
+  to work together. We built an open-source library enabling the modular composition
+  of 10 mitigators, 4 ensembles, and their corresponding hyperparameters. Based on
+  this library, we empirically explored the space of combinations on 13 datasets,
+  including datasets commonly used in fairness literature plus datasets newly curated
+  by our library. Furthermore, we distilled the results into a guidance diagram for
+  practitioners. We hope this paper will contribute towards improving stability in
+  bias mitigation.
+author: Feffer, Michael and Hirzel, Martin and Hoffman, Samuel C. and Kate, Kiran
+  and Ram, Parikshit and Shinnar, Avraham
+author_list:
+- family: Feffer
+  given: Michael
+- family: Hirzel
+  given: Martin
+- family: Hoffman
+  given: Samuel C.
+- family: Kate
+  given: Kiran
+- family: Ram
+  given: Parikshit
+- family: Shinnar
+  given: Avraham
+doc_url: https://arxiv.org/pdf/2202.00751v1
+eprint: 2202.00751v1
+eprintclass: cs.LG
+eprinttype: arxiv
+files: []
+month: 2
+papis_id: e1160657bb2f2d22dde2dfb9892cdd68
+ref: feffer-arxiv2022a
+time-added: 2026-11-26-22:04:01
+title: An Empirical Study of Modular Bias Mitigators and Ensembles
+type: article
+url: http://arxiv.org/abs/2202.00751v1
+year: 2022
