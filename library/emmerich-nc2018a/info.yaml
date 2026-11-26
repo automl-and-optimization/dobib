@@ -1,0 +1,636 @@
+author: Emmerich, Michael T. M. and Deutz, André H.
+author_list:
+- affiliation: []
+  family: Emmerich
+  given: Michael T. M.
+- affiliation: []
+  family: Deutz
+  given: André H.
+citations:
+- author: R Allmendinger
+  doi: 10.1002/mcda.1605
+  first-page: '5'
+  issue: 1–2
+  journal-title: J Multi-Criteria Decis Anal
+  unstructured: 'Allmendinger R, Emmerich M, Hakanen J, Jin Y, Rigoni E (2017) Surrogate-assisted
+    multicriteria optimization: complexities, prospective solutions, and business
+    case. J Multi-Criteria Decis Anal 24(1–2):5–24'
+  volume: '24'
+  year: '2017'
+- author: C Audet
+  doi: 10.1016/j.ejor.2009.11.010
+  first-page: '545'
+  issue: '3'
+  journal-title: Eur J Oper Res
+  unstructured: Audet C, Savard G, Zghal W (2010) A mesh adaptive direct search algorithm
+    for multiobjective optimization. Eur J Oper Res 204(3):545–556
+  volume: '204'
+  year: '2010'
+- doi: 10.1145/1527125.1527138
+  unstructured: 'Auger A, Bader J, Brockhoff D, Zitzler E (2009) Theory of the hypervolume
+    indicator: optimal $$\mu$$ μ -distributions and the choice of the reference point.
+    In: Proceedings of the tenth ACM SIGEVO workshop on foundations of genetic algorithms,
+    pp 87–102. ACM'
+- author: T Bäck
+  doi: 10.1093/oso/9780195099713.001.0001
+  unstructured: 'Bäck T (1996) Evolutionary algorithms in theory and practice: evolution
+    strategies, evolutionary programming, genetic algorithms. Oxford University Press,
+    Oxford'
+  volume-title: 'Evolutionary algorithms in theory and practice: evolution strategies,
+    evolutionary programming, genetic algorithms'
+  year: '1996'
+- author: J Bader
+  doi: 10.1162/EVCO_a_00009
+  first-page: '45'
+  issue: '1'
+  journal-title: Evol Comput
+  unstructured: 'Bader J, Zitzler E (2011) Hype: an algorithm for fast hypervolume-based
+    many-objective optimization. Evol Comput 19(1):45–76'
+  volume: '19'
+  year: '2011'
+- unstructured: 'Barán B, Schaerer M (2003) A multiobjective ant colony system for
+    vehicle routing problem with time windows. In: Proceedings of the twenty first
+    IASTED international conference on applied informatics, vol 378. Insbruck, Austria,
+    pp 97–102'
+- doi: 10.1007/978-3-319-54157-0_2
+  unstructured: 'Barba-González C, García-Nieto J, Nebro AJ, Montes JFA (2017) Multi-objective
+    big data optimization with jmetal and spark. In: EMO, volume 10173 of lecture
+    notes in computer science, pp 16–30. Springer'
+- author: V Belton
+  doi: 10.1007/978-1-4615-1495-4
+  unstructured: 'Belton V, Stewart T (2002) Multiple criteria decision analysis: an
+    integrated approach. Springer, Berlin'
+  volume-title: 'Multiple criteria decision analysis: an integrated approach'
+  year: '2002'
+- doi: 10.1145/1967654.1967676
+  unstructured: 'Beume N, Laumanns M, Rudolph G (2011). Convergence rates of SMS-EMOA
+    on continuous bi-objective problem classes. In: FOGA, pages 243–252. ACM'
+- doi: 10.1007/3-540-36970-8_35
+  unstructured: 'Bleuler S, Laumanns M, Thiele L, Zitzler E (2003). PISA: A platform
+    and programming language independent interface for search algorithms. In: EMO,
+    volume 2632 of lecture notes in computer science, pp 494–508. Springer'
+- unstructured: 'Bossek J (2017). Ecr 2.0: A modular framework for evolutionary computation
+    in r. In: Proceedings of the genetic and evolutionary computation conference companion,
+    GECCO ‘17, pp 1187–1193, New York, NY, USA. ACM'
+- doi: 10.1016/j.ejor.2015.10.027
+  unstructured: Branke J, Corrente S, Slowiński R, Zielniewicz P (2016). Using Choquet
+    integral as preference model in interactive evolutionary multiobjective optimization.
+    In European Jounal of Operational Research, volume 250, pp 884–901. Springer
+- doi: 10.1007/978-3-540-88908-3
+  unstructured: 'Branke J, Deb K, Miettinen K, Slowiński R, e. (2008). Multiobjective
+    optimization: interactive and evolutionary approaches. In volume 5252 of lecture
+    notes in computer science. Springer'
+- author: J Branke
+  doi: 10.1109/TEVC.2014.2303783
+  first-page: '88'
+  issue: '1'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: Branke J, Greco S, Slowiński R, Zielniewicz P (2015) Learning value
+    functions in interactive and evolutionary multiobjective optimization. IEEE Trans
+    Evol Comput 19(1):88–102
+  volume: '19'
+  year: '2015'
+- doi: 10.1145/3067695.3067708
+  unstructured: 'Brockhoff D (2017). GECCO 2017 tutorial on evolutionary multiobjective
+    optimization. In: Proceedings of the genetic and evolutionary computation conference
+    companion, GECCO ‘17, pp 335–358, New York, NY, USA. ACM'
+- doi: 10.1007/3-540-44719-9_9
+  unstructured: 'Coello CAC, Pulido GT (2001) A micro-genetic algorithm for multiobjective
+    optimization. In: EMO, volume 1993 of lecture notes in computer science, pp 126–140.
+    Springer'
+- doi: 10.1145/2464576.2480802
+  unstructured: Coello Coello CA (2013) Constraint-handling techniques used with evolutionary
+    algorithms. In GECCO (Companion), pp 521–544. ACM
+- author: CA Coello Coello
+  doi: 10.1007/s10710-005-6164-x
+  first-page: '163'
+  issue: '2'
+  journal-title: Genet Program Evol Mach
+  unstructured: Coello Coello CA, Cortés NC (2005) Solving multiobjective optimization
+    problems using an artificial immune system. Genet Program Evol Mach 6(2):163–190
+  volume: '6'
+  year: '2005'
+- unstructured: Coello Coello CA, Van Veldhuizen DA, Lamont GA (2007) Evolutionary
+    algorithms for solving multi-objective problems, second edition. Springer Science
+    & Business Media
+- author: A Custódio
+  doi: 10.4203/ctr.5.1
+  first-page: '1'
+  journal-title: Comput Technol Rev
+  unstructured: Custódio A, Emmerich M, Madeira J (2012) Recent developments in derivative-free
+    multiobjective optimization. Comput Technol Rev 5:1–30
+  volume: '5'
+  year: '2012'
+- author: AL Custódio
+  doi: 10.1137/10079731X
+  first-page: '1109'
+  issue: '3'
+  journal-title: SIAM J Optim
+  unstructured: Custódio AL, Madeira JA, Vaz AIF, Vicente LN (2011) Direct multisearch
+    for multiobjective optimization. SIAM J Optim 21(3):1109–1140
+  volume: '21'
+  year: '2011'
+- doi: 10.1007/3-540-44719-9_15
+  unstructured: 'da Fonseca VG, Fonseca CM, Hall AO (2001) Inferential performance
+    assessment of stochastic optimisers and the attainment function. In: EMO, volume
+    1993 of Lecture notes in computer science, pp 213–225. Springer'
+- author: I Das
+  doi: 10.1137/S1052623496307510
+  first-page: '631'
+  issue: '3'
+  journal-title: SIAM J Optim
+  unstructured: 'Das I, Dennis JE (1998) Normal-boundary intersection: a new method
+    for generating the Pareto surface in nonlinear multicriteria optimization problems.
+    SIAM J Optim 8(3):631–657'
+  volume: '8'
+  year: '1998'
+- author: C Daskalakis
+  doi: 10.1137/070697720
+  first-page: '597'
+  issue: '3'
+  journal-title: SIAM J Comput
+  unstructured: Daskalakis C, Karp RM, Mossel E, Riesenfeld SJ, Verbin E (2011) Sorting
+    and selection in posets. SIAM J Comput 40(3):597–622
+  volume: '40'
+  year: '2011'
+- author: K Deb
+  unstructured: Deb K (2001) Multi-objective optimization using evolutionary algorithms.
+    John-Wiley, Chichester
+  volume-title: Multi-objective optimization using evolutionary algorithms
+  year: '2001'
+- doi: 10.1007/978-3-540-88908-3_3
+  unstructured: 'Deb K (2008). Introduction to evolutionary multiobjective optimization.
+    In: Branke J, Deb K, Miettinen K, Słowiński R (eds) Multiobjective optimization:
+    interactive and evolutionary approaches, lecture notes in computer science 5252,
+    pp 59–96, Berlin, Heidelberg. Springer'
+- author: K Deb
+  first-page: '115'
+  issue: '2'
+  journal-title: Complex Syst
+  unstructured: Deb K, Argawal RB (1995) Simulated binary crossover for continuous
+    search space. Complex Syst 9(2):115–148
+  volume: '9'
+  year: '1995'
+- author: K Deb
+  doi: 10.1109/TEVC.2013.2281535
+  first-page: '577'
+  issue: '4'
+  journal-title: IEEE Trans Evolut Comput
+  unstructured: 'Deb K, Jain H (2014) An evolutionary many-objective optimization
+    algorithm using reference-point-based nondominated sorting approach, part I: solving
+    problems with box constraints. IEEE Trans Evolut Comput 18(4):577–601'
+  volume: '18'
+  year: '2014'
+- author: K Deb
+  doi: 10.1109/4235.996017
+  first-page: '182'
+  issue: '2'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: 'Deb K, Pratap A, Agarwal S, Meyarivan T (2002) A fast and elitist
+    multiobjective genetic algorithm: NSGA-II. IEEE Trans Evol Comput 6(2):182–197'
+  volume: '6'
+  year: '2002'
+- author: M Dellnitz
+  doi: 10.1007/s10957-004-6468-7
+  first-page: '113'
+  issue: '1'
+  journal-title: J Optim Theory Appl
+  unstructured: Dellnitz M, Schütze O, Hestermeyer T (2005) Covering pareto sets by
+    multilevel subdivision techniques. J Optim Theory Appl 124(1):113–136
+  volume: '124'
+  year: '2005'
+- author: M Ehrgott
+  unstructured: Ehrgott M (2005) Multicriteria optimization. Springer, Berlin
+  volume-title: Multicriteria optimization
+  year: '2005'
+- author: M Ehrgott
+  first-page: '447'
+  journal-title: Journal der Deutschen Mathematiker-Vereiningung, Extra
+  unstructured: Ehrgott M (2012) Vilfredo Pareto and multi-objective optimization.
+    Optimization stories. Journal der Deutschen Mathematiker-Vereiningung, Extra 21:447–453
+  volume: '21'
+  year: '2012'
+- author: M Ehrgott
+  doi: 10.1007/s002910000046
+  first-page: '425'
+  issue: '4'
+  journal-title: OR Spectr
+  unstructured: Ehrgott M, Gandibleux X (2000) A survey and annotated bibliography
+    of multiobjective combinatorial optimization. OR Spectr 22(4):425–460
+  volume: '22'
+  year: '2000'
+- doi: 10.1007/978-3-540-31880-4_5
+  unstructured: 'Emmerich M, Beume N, Naujoks B (2005). An EMO algorithm using the
+    hypervolume measure as selection criterion. In: EMO, volume 3410 of lecture notes
+    in computer science, pp 62–76. Springer'
+- doi: 10.1007/978-3-319-01460-9_8
+  unstructured: 'Emmerich M, Deutz A (2014) Time complexity and zeros of the hypervolume
+    indicator gradient field. In: EVOLVE-a bridge between probability, set oriented
+    numerics, and evolutionary computation III, pp 169–193. Springer'
+- doi: 10.1007/978-3-642-37140-0_12
+  unstructured: 'Emmerich M, Deutz A, Kruisselbrink J, Shukla PK (2013) Cone-based
+    hypervolume indicators: construction, properties, and efficient computation. In:
+    International conference on evolutionary multi-criterion optimization, pp 111–127.
+    Springer'
+- unstructured: 'Emmerich M, Hosenberg R (2000) Tea: a toolbox for the design of parallel
+    evolutionary algorithms. Technical report, C++-technical report, CI-106/01 Collaborative
+    Research Center (Sonderforschungsbereich) DFG-SFB 531, Design and Management of
+    Complex Technical Processes and Systems by Means of Computational Intelligence
+    Methods, University of Dortmund'
+- author: M Emmerich
+  first-page: '229'
+  unstructured: Emmerich M, Yang K, Deutz A, Wang H, Fonseca CM (2016) A multicriteria
+    generalization of bayesian global optimization. Springer, Cham, pp 229–242
+  volume-title: A multicriteria generalization of bayesian global optimization
+  year: '2016'
+- author: MT Emmerich
+  doi: 10.1109/TEVC.2005.859463
+  first-page: '421'
+  issue: '4'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: Emmerich MT, Giannakoglou KC, Naujoks B (2006) Single-and multiobjective
+    evolutionary optimization assisted by Gaussian random field metamodels. IEEE Trans
+    Evol Comput 10(4):421–439
+  volume: '10'
+  year: '2006'
+- doi: 10.1007/978-3-642-19893-9_9
+  unstructured: 'Emmerich MTM, Fonseca CM (2011) Computing hypervolume contributions
+    in low dimensions: asymptotically optimal algorithm and complexity results. In:
+    EMO, volume 6576 of lecture notes in computer science, pp 121–135. Springer'
+- doi: 10.1007/978-3-540-31880-4_2
+  unstructured: 'Fleming PJ, Purshouse RC, Lygoe RJ (2005) Many-objective optimization:
+    an engineering design perspective. In: EMO, volume 3410 of lecture notes in computer
+    science, pp 14–32. Springer'
+- unstructured: 'Fonseca CM, Fleming PJ (1993) Genetic algorithms for multiobjective
+    optimization: Formulation, discussion and generalization. In: ICGA, pp 416–423.
+    Morgan Kaufmann'
+- doi: 10.1007/978-3-642-21527-8_41
+  unstructured: 'Geiger MJ, Sevaux M (2011) The biobjective inventory routing problem–problem
+    solution and decision support. In: Network optimization, pp 365–378. Springer'
+- doi: 10.1145/2464576.2466801
+  unstructured: 'Giagkiozis I, Lygoe RJ, Fleming PJ (2013) Liger: an open source integrated
+    optimization environment. In: Proceedings of the 15th annual conference companion
+    on Genetic and evolutionary computation, pp 1089–1096. ACM'
+- author: I Giagkiozis
+  doi: 10.1016/j.ins.2014.05.045
+  first-page: '363'
+  journal-title: Inf Sci
+  unstructured: Giagkiozis I, Purshouse RC, Fleming PJ (2014) Generalized decomposition
+    and cross entropy methods for many-objective optimization. Inf Sci 282:363–387
+  volume: '282'
+  year: '2014'
+- author: A Greco
+  doi: 10.1007/978-1-4939-3094-4
+  edition: '2'
+  unstructured: 'Greco A, Ehrgott M, Figueira J (2016) Multiple criteria decision
+    analysis: state of the art surveys, 2nd edn. Springer, Berlin'
+  volume-title: 'Multiple criteria decision analysis: state of the art surveys'
+  year: '2016'
+- doi: 10.1145/1143997.1144121
+  unstructured: 'Grimme C, Schmitt K (2006) Inside a predator-prey model for multi-objective
+    optimization: a second study. In: GECCO, pp 707–714. ACM'
+- unstructured: Guerreiro AP, Fonseca CM (2017) Computing and updating hypervolume
+    contributions in up to four dimensions. Technical report, CISUC Technical Report
+    TR-2017-001, University of Coimbra
+- doi: 10.1109/SSCI.2016.7850220
+  unstructured: 'Hakanen J, Chugh T, Sindhya K, Jin Y, Miettinen K (2016) Connections
+    of reference vectors and different types of preference information in interactive
+    multiobjective evolutionary algorithms. In: SSCI, pp 1–8. IEEE'
+- doi: 10.1007/978-3-319-07494-8_2
+  unstructured: 'Hernández V A S, Schütze O, Emmerich M (2014) Hypervolume maximization
+    via set based Newton‘s method. In: EVOLVE-a bridge between probability, set oriented
+    numerics, and evolutionary computation V, pp 15–28. Springer'
+- author: C Hillermeier
+  doi: 10.1007/978-3-0348-8280-4
+  unstructured: 'Hillermeier C (2001) Nonlinear multiobjective optimization: a generalized
+    homotopy approach, vol 135. Springer, Berlin'
+  volume-title: 'Nonlinear multiobjective optimization: a generalized homotopy approach'
+  year: '2001'
+- unstructured: 'Hopfe CJ, Emmerich MT, Marijt R, Hensen J (2012) Robust multi-criteria
+    design optimisation in building design. In: Proceedings of building simulation
+    and optimization, Loughborough, UK, pp 118–125'
+- doi: 10.1109/CEC.2003.1299373
+  unstructured: 'Huband S, Hingston P, While L, Barone L (2003) An evolution strategy
+    with probabilistic mutation for multi-objective optimisation. In: The 2003 congress
+    on evolutionary computation, 2003. CEC‘03. volume 4, pp 2284–2291. IEEE'
+- doi: 10.1007/978-3-319-01128-8_11
+  unstructured: 'Hupkens I, Emmerich M (2013) Logarithmic-time updates in SMS-EMOA
+    and hypervolume-based archiving. In: EVOLVE—a bridge between probability, set
+    oriented numerics, and evolutionary computation IV, volume 227 of advances in
+    intelligent systems and computing. Springer, Heidelberg'
+- doi: 10.1007/978-3-540-70928-2_16
+  unstructured: 'Igel C, Suttorp T, Hansen N (2006) Steady-state selection and efficient
+    covariance matrix update in the multi-objective CMA-ES. In: EMO, volume 4403 of
+    lecture notes in computer science, pp 171–185. Springer'
+- doi: 10.1145/3071178.3071264
+  unstructured: 'Ishibuchi H, Imada R, Setoguchi Y, Nojima Y (2017) Reference point
+    specification in hypervolume calculation for fair comparison and efficient search.
+    In: Proceedings of the genetic and evolutionary computation conference, GECCO
+    ‘17, pp 585–592, New York, NY, USA. ACM'
+- doi: 10.1109/ICEC.1996.542345
+  unstructured: 'Ishibuchi H, Murata T (1996) Multi-objective genetic local search
+    algorithm. In: Proceedings of IEEE international conference on evolutionary computation,
+    1996. pp 119–124. IEEE'
+- author: A Jaszkiewicz
+  doi: 10.1109/TEVC.2002.802873
+  first-page: '402'
+  issue: '4'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: Jaszkiewicz A (2002) On the performance of multiple-objective genetic
+    local search on the 0/1 knapsack problem-a comparative experiment. IEEE Trans
+    Evol Comput 6(4):402–412
+  volume: '6'
+  year: '2002'
+- author: A Jaszkiewicz
+  doi: 10.1016/S0377-2217(98)00218-5
+  first-page: '300'
+  issue: '2'
+  journal-title: Eur J Oper Res
+  unstructured: Jaszkiewicz A, Słowiński R (1999) The ‘Light Beam Search’ approach-an
+    overview of methodology applications. Eur J Oper Res 113(2):300–314
+  volume: '113'
+  year: '1999'
+- doi: 10.1007/3-540-44719-9_7
+  unstructured: 'Jin Y, Okabe T, Sendho B (2001) Adapting weighted aggregation for
+    multiobjective evolution strategies. In: Evolutionary multi-criterion optimization,
+    pp 96–110. Springer'
+- doi: 10.1007/978-3-319-45823-6_90
+  unstructured: 'Kerschke P, Wang H, Preuss M, Grimme C, Deutz A H, Trautmann H, Emmerich
+    M (2016) Towards analyzing multimodality of continuous multiobjective landscapes.
+    In: PPSN, volume 9921 of lecture notes in computer science, pp 962–972. Springer'
+- author: J Knowles
+  doi: 10.1109/TEVC.2005.851274
+  first-page: '50'
+  issue: '1'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: 'Knowles J (2006) Parego: a hybrid algorithm with on-line landscape
+    approximation for expensive multiobjective optimization problems. IEEE Trans Evol
+    Comput 10(1):50–66'
+  volume: '10'
+  year: '2006'
+- author: J Knowles
+  unstructured: Knowles J, Corne D, Deb K (2007) Multiobjective problem solving from
+    nature. Springer, Berlin
+  volume-title: Multiobjective problem solving from nature
+  year: '2007'
+- author: JD Knowles
+  doi: 10.1162/106365600568167
+  first-page: '149'
+  issue: '2'
+  journal-title: Evol Comput
+  unstructured: Knowles JD, Corne DW (2000) Approximating the nondominated front using
+    the Pareto archived evolution strategy. Evol Comput 8(2):149–172
+  volume: '8'
+  year: '2000'
+- doi: 10.1109/CEC.2003.1299401
+  unstructured: 'Knowles JD, Corne DW, Fleischer M (2003) Bounded archiving using
+    the Lebesgue measure. In: The 2003 congress on evolutionary computation, 2003.
+    CEC‘03. volume 4, pp 2490–2497. IEEE'
+- author: S Krantz
+  doi: 10.1007/978-1-4612-0059-8
+  unstructured: 'Krantz S, Parks H (2003) Implicit function theorem: history, theory,
+    and applications. Springer, New York'
+  volume-title: 'Implicit function theorem: history, theory, and applications'
+  year: '2003'
+- unstructured: 'Kuhn HW, Tucker AW (1951) Nonlinear programming. In: Proceedings
+    of 2nd Berkeley symposium. Berkeley, Berkeley and Los Angeles. University of California
+    Press, pp 481–492'
+- author: H-T Kung
+  doi: 10.1145/321906.321910
+  first-page: '469'
+  issue: '4'
+  journal-title: J ACM (JACM)
+  unstructured: Kung H-T, Luccio F, Preparata FP (1975) On finding the maxima of a
+    set of vectors. J ACM (JACM) 22(4):469–476
+  volume: '22'
+  year: '1975'
+- doi: 10.1007/BFb0029752
+  unstructured: 'Kursawe F (1990) A variant of evolution strategies for vector optimization.
+    In: PPSN, volume 496 of lecture notes in computer science, pp 193–197. Springer'
+- doi: 10.1007/BFb0056867
+  unstructured: 'Laumanns M, Rudolph G, Schwefel H (1998) A spatial predator-prey
+    approach to multi-objective optimization: a preliminary study. In: PPSN, volume
+    1498 of lecture notes in computer science, pp 241–249. Springer'
+- author: B Li
+  doi: 10.1145/2792984
+  first-page: '13:1'
+  issue: '1'
+  journal-title: ACM Comput Surv
+  unstructured: 'Li B, Li J, Tang K, Yao X (2015) Many-objective evolutionary algorithms:
+    a survey. ACM Comput Surv 48(1):13:1–13:35'
+  volume: '48'
+  year: '2015'
+- doi: 10.1007/978-3-319-54157-0_28
+  unstructured: Li L, Yevseyeva I, Fernandes V B, Trautmann H, Jing N, Emmerich M
+    (2017) Building and using an ontology of preference-based multiobjective evolutionary
+    algorithms. In EMO, volume 10173 of lecture notes in computer science, pp 406–421.
+    Springer
+- author: P Mateo
+  doi: 10.1007/s10732-011-9156-4
+  first-page: '53'
+  issue: '1'
+  journal-title: J Heuristics
+  unstructured: Mateo P, Alberto I (2012) A mutation operator based on a Pareto ranking
+    for multi-objective evolutionary algorithms. J Heuristics 18(1):53–89
+  volume: '18'
+  year: '2012'
+- author: K Miettinen
+  unstructured: Miettinen K (2012) Nonlinear multiobjective optimization, vol 12.
+    Springer, Berlin
+  volume-title: Nonlinear multiobjective optimization
+  year: '2012'
+- author: K Miettinen
+  doi: 10.1016/S0305-0548(99)00115-X
+  first-page: '709'
+  issue: 7–8
+  journal-title: Comput OR
+  unstructured: Miettinen K, Mäkelä MM (2000) Interactive multiobjective optimization
+    system WWW-NIMBUS on the internet. Comput OR 27(7–8):709–723
+  volume: '27'
+  year: '2000'
+- author: M Reyes-Sierra
+  first-page: '287'
+  issue: '3'
+  journal-title: Int J Comput Intel Res
+  unstructured: 'Reyes-Sierra M, Coello Coello C (2006) Multi-objective particle swarm
+    optimizers: a survey of the state-of-the-art. Int J Comput Intel Res 2(3):287–308'
+  volume: '2'
+  year: '2006'
+- doi: 10.1109/CLEI.2015.7360024
+  unstructured: 'Riquelme N, Von Lücken C, Barán B (2015) Performance metrics in multi-objective
+    optimization. In: 2015 XLI Latin American computing conference. IEEE'
+- doi: 10.1007/978-3-540-31880-4_36
+  unstructured: 'Robic T, Filipic B (2005) DEMO: differential evolution for multiobjective
+    optimization. In: EMO, volume 3410 of lecture notes in computer science, pp 520–533.
+    Springer'
+- doi: 10.1007/978-3-319-54157-0_36
+  unstructured: Rosenthal S, Borschbach M (2017) Design perspectives of an evolutionary
+    process for multi-objective molecular optimization. In EMO, volume 10173 of lecture
+    notes in computer science, pp 529–544. Springer
+- doi: 10.1109/CEC.2000.870756
+  unstructured: 'Rudolph G, Agapie A (2000) Convergence properties of some multi-objective
+    evolutionary algorithms. In: Proceedings of the 2000 Congress on evolutionary
+    computation, 2000, volume 2, pp 1010–1016. IEEE'
+- author: G Rudolph
+  doi: 10.1007/s10589-015-9815-8
+  first-page: '589'
+  issue: '2'
+  journal-title: Comp Opt Appl
+  unstructured: 'Rudolph G, Schütze O, Grimme C, Domínguez-Medina C, Trautmann H (2016)
+    Optimal averaged Hausdorff archives for bi-objective problems: theoretical and
+    numerical results. Comp Opt Appl 64(2):589–618'
+  volume: '64'
+  year: '2016'
+- unstructured: Rueffler C et al (2006) Traits traded off. techreport, Institute of
+    Biology Leiden, Theoretical Biology; Faculty of Mathematics and Natural Sciences;
+    Leiden University
+- unstructured: 'Schaffer JD (1985) Multiple objective optimization with vector evaluated
+    genetic algorithm. In: Proceeding of the first international conference of genetic
+    algorithms and their application, pp 93–100'
+- unstructured: 'Schütze O, Dell’Aere A, Dellnitz M (2005) On continuation methods
+    for the numerical treatment of multi-objective optimization problems. In: Dagstuhl
+    Seminar Proceedings. Schloss Dagstuhl-Leibniz-Zentrum für Informatik'
+- author: O Schütze
+  doi: 10.1007/s10589-015-9774-0
+  first-page: '305'
+  issue: '2'
+  journal-title: Comp Opt Appl
+  unstructured: Schütze O, Martín A, Lara A, Alvarado S, Salinas E, Coello CAC (2016)
+    The directed search method for multi-objective memetic algorithms. Comp Opt Appl
+    63(2):305–332
+  volume: '63'
+  year: '2016'
+- author: F Sterck
+  doi: 10.1073/pnas.1106950108
+  first-page: '20627'
+  issue: '51'
+  journal-title: Proc Nat Acad Sci
+  unstructured: Sterck F, Markesteijn L, Schieving F, Poorter L (2011) Functional
+    traits determine trade-offs and niches in a tropical forest community. Proc Nat
+    Acad Sci 108(51):20627–20632
+  volume: '108'
+  year: '2011'
+- doi: 10.1007/978-3-642-44973-4_8
+  unstructured: 'Trautmann H, Wagner T, Brockhoff D (2013) R2-EMOA: focused multiobjective
+    search using R2-Indicator-Based selection. In LION, volume 7997 of Lecture Notes
+    in Computer Science, pages 70–74. Springer'
+- author: E Horst van der
+  doi: 10.1021/ci2005115
+  first-page: '1713'
+  issue: '7'
+  journal-title: J Chem Inf Model
+  unstructured: van der Horst E, Marqueś-Gallego P, Mulder-Krieger T, van Veldhoven
+    J, Kruisselbrink J, Aleman A, Emmerich MT, Brussee J, Bender A, IJzerman AP (2012)
+    Multi-objective evolutionary design of adenosine receptor ligands. J Chem Inf
+    Model 52(7):1713–1721
+  volume: '52'
+  year: '2012'
+- author: M Wagner
+  doi: 10.1016/j.ejor.2014.11.032
+  first-page: '465'
+  issue: '2'
+  journal-title: Eur J Oper Res
+  unstructured: Wagner M, Bringmann K, Friedrich T, Neumann F (2015) Efficient optimization
+    of many objectives by approximation-guided evolution. Eur J Oper Res 243(2):465–479
+  volume: '243'
+  year: '2015'
+- doi: 10.1007/978-3-642-01020-0_19
+  unstructured: 'Wagner T, Trautmann H, Naujoks B (2009) OCD: Online convergence detection
+    for evolutionary multi-objective algorithms based on statistical testing. In Ehrgott,
+    M., Fonseca, C. M., Gandibleux, X., Hao, J.-K., and Sevaux, M., editors, Evolutionary
+    Multi-Criterion Optimization: 5th International Conference, EMO 2009, Nantes,
+    France, April 7-10, 2009. Proceedings, pages 198–215. Springer Berlin Heidelberg,
+    Berlin, Heidelberg'
+- doi: 10.1007/978-3-319-54157-0_44
+  unstructured: Wang H, Deutz A H, Bäck T, Emmerich M (2017) Hypervolume indicator
+    gradient ascent multi-objective optimization. In EMO, volume 10173 of Lecture
+    Notes in Computer Science, pages 654–669. Springer
+- author: P Wang
+  doi: 10.1109/TEVC.2014.2305671
+  first-page: '188'
+  issue: '2'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: Wang P, Emmerich M, Li R, Tang K, Bäck T, Yao X (2015) Convex hull-based
+    multiobjective genetic programming for maximizing receiver operating characteristic
+    performance. IEEE Trans Evol Comput 19(2):188–200
+  volume: '19'
+  year: '2015'
+- author: I Yevseyeva
+  doi: 10.1016/j.eswa.2013.01.008
+  first-page: '4010'
+  issue: '10'
+  journal-title: Expert Syst Appl
+  unstructured: Yevseyeva I, Basto-Fernandes V, Ruano-Ordás D, Méndez JR (2013) Optimising
+    anti-spam filters with evolutionary algorithms. Expert Syst Appl 40(10):4010–4021
+  volume: '40'
+  year: '2013'
+- doi: 10.1007/978-3-319-10762-2_66
+  unstructured: Yevseyeva I, Guerreiro A P, Emmerich M T M, Fonseca C M (2014) A portfolio
+    optimization approach to selection in multiobjective evolutionary algorithms.
+    In PPSN, volume 8672 of Lecture Notes in Computer Science, pages 672–681. Springer
+- author: Q Zhang
+  doi: 10.1109/TEVC.2007.892759
+  first-page: '712'
+  issue: '6'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: 'Zhang Q, Li H (2007) MOEA/D: A multiobjective evolutionary algorithm
+    based on decomposition. IEEE Trans Evol Comput 11(6):712–731'
+  volume: '11'
+  year: '2007'
+- author: A Žilinskas
+  doi: 10.1007/s11590-012-0547-8
+  first-page: '1921'
+  issue: '8'
+  journal-title: Optimization Letters
+  unstructured: Žilinskas A (2013) On the worst-case optimal multi-objective global
+    optimization. Optimization Letters 7(8):1921–1928
+  volume: '7'
+  year: '2013'
+- doi: 10.1007/978-3-540-30217-9_84
+  unstructured: Zitzler E, Künzli S (2004) Indicator-based selection in multiobjective
+    search. In PPSN, volume 3242 of Lecture Notes in Computer Science, pages 832–842.
+    Springer
+- doi: 10.1007/978-3-642-17144-4_1
+  unstructured: Zitzler E, Laumanns M, Bleuler S (2004) A tutorial on evolutionary
+    multiobjective optimization. Metaheuristics for multiobjective optimisation, pages
+    3–37
+- unstructured: 'Zitzler E, Laumanns M, Thiele L (2001) SPEA2: Improving the strength
+    pareto evolutionary algorithm. TIK – Report 103, Eidgenössische Technische Hochschule
+    Zürich (ETH), Institut für Technische Informatik und Kommunikationsnetze (TIK)'
+- author: E Zitzler
+  doi: 10.1109/4235.797969
+  first-page: '257'
+  issue: '4'
+  journal-title: IEEE Trans. Evolutionary Computation
+  unstructured: 'Zitzler E, Thiele L (1999) Multiobjective evolutionary algorithms:
+    a comparative case study and the strength Pareto approach. IEEE Trans. Evolutionary
+    Computation 3(4):257–271'
+  volume: '3'
+  year: '1999'
+- author: E Zitzler
+  doi: 10.1109/TEVC.2003.810758
+  first-page: '117'
+  issue: '2'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: 'Zitzler E, Thiele L, Laumanns M, Fonseca CM, Da Fonseca VG (2003)
+    Performance assessment of multiobjective optimizers: An analysis and review. IEEE
+    Trans Evol Comput 7(2):117–132'
+  volume: '7'
+  year: '2003'
+doc_url: http://link.springer.com/content/pdf/10.1007/s11047-018-9685-y.pdf
+doi: 10.1007/s11047-018-9685-y
+files: []
+issue: '3'
+journal: Natural Computing
+language: en
+month: 9
+pages: 585--609
+papis_id: 10c189183202a4052392ac823e51fc5d
+publisher: Springer Science and Business Media LLC
+ref: emmerich-nc2018a
+time-added: 2026-11-26-11:09:18
+title: 'A tutorial on multiobjective optimization: fundamentals and evolutionary methods'
+type: article
+url: https://doi.org/10.1007/s11047-018-9685-y
+volume: '17'
+year: 2018
