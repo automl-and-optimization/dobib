@@ -1,0 +1,160 @@
+author: Schäpermeier, Lennart and Kerschke, Pascal
+author_list:
+- affiliation: []
+  family: Schäpermeier
+  given: Lennart
+- affiliation: []
+  family: Kerschke
+  given: Pascal
+booktitle: Parallel Problem Solving from Nature – PPSN XVIII
+citations:
+- author: C Audet
+  doi: 10.1016/j.ejor.2020.11.016
+  first-page: '397'
+  issue: '2'
+  journal-title: Eur. J. Oper. Res.
+  unstructured: 'Audet, C., Bigeon, J., Cartier, D., Le Digabel, S., Salomon, L.:
+    Performance indicators in multiobjective optimization. Eur. J. Oper. Res. 292(2),
+    397–422 (2021)'
+  volume: '292'
+  year: '2021'
+- author: N Beume
+  doi: 10.1109/TEVC.2009.2015575
+  first-page: '1075'
+  issue: '5'
+  journal-title: IEEE Trans. Evol. Comput.
+  unstructured: 'Beume, N., Fonseca, C.M., López-Ibáñez, M., Paquete, L., Vahrenhold,
+    J.: On the complexity of computing the hypervolume indicator. IEEE Trans. Evol.
+    Comput. 13(5), 1075–1082 (2009). https://doi.org/10.1109/TEVC.2009.2015575'
+  volume: '13'
+  year: '2009'
+- author: B Bozkurt
+  doi: 10.1287/opre.1090.0766
+  first-page: '650'
+  issue: '3'
+  journal-title: Oper. Res.
+  unstructured: 'Bozkurt, B., Fowler, J.W., Gel, E.S., Kim, B., Köksalan, M., Wallenius,
+    J.: Quantitative comparison of approximate solution sets for multicriteria optimization
+    problems with weighted Tchebycheff preference function. Oper. Res. 58(3), 650–659
+    (2010)'
+  volume: '58'
+  year: '2010'
+- doi: 10.1162/EVCO_A_00298
+  unstructured: 'Brockhoff, D., Auger, A., Hansen, N., Tusar, T.: Using well-understood
+    single-objective functions in multiobjective black-box optimization test suites.
+    Evol. Comput. 30(2), 165–193 (2022). https://doi.org/10.1162/EVCO_A_00298'
+- doi: 10.1145/2330163.2330230
+  unstructured: 'Brockhoff, D., Wagner, T., Trautmann, H.: On the properties of the
+    R2 indicator. In: Proceedings of the 14th Annual Conference on Genetic and Evolutionary
+    Computation, pp. 465–472 (2012)'
+- author: WM Carlyle
+  doi: 10.1111/1540-5915.02254
+  first-page: '63'
+  issue: '1'
+  journal-title: Decis. Sci.
+  unstructured: 'Carlyle, W.M., Fowler, J.W., Gel, E.S., Kim, B.: Quantitative comparison
+    of approximate solution sets for bi-criteria optimization problems. Decis. Sci.
+    34(1), 63–82 (2003)'
+  volume: '34'
+  year: '2003'
+- author: K Deb
+  doi: 10.1007/1-84628-137-7_6
+  first-page: '105'
+  unstructured: 'Deb, K., Thiele, L., Laumanns, M., Zitzler, E.: Scalable test problems
+    for evolutionary multiobjective optimization. In: Abraham, A., Jain, L., Goldberg,
+    R. (eds.) Evolutionary Multiobjective Optimization, pp. 105–145. Springer, London
+    (2005). https://doi.org/10.1007/1-84628-137-7_6'
+  volume-title: Evolutionary Multiobjective Optimization
+  year: '2005'
+- author: C Grimme
+  doi: 10.1016/j.cor.2021.105489
+  first-page: '105489'
+  journal-title: Comput. Oper. Res.
+  unstructured: 'Grimme, C., et al.: Peeking beyond peaks: challenges and research
+    potentials of continuous multimodal multi-objective optimization. Comput. Oper.
+    Res. 136, 105489 (2021)'
+  volume: '136'
+  year: '2021'
+- doi: 10.1145/3453474
+  unstructured: 'Guerreiro, A.P., Fonseca, C.M., Paquete, L.: The hypervolume indicator:
+    computational problems and algorithms. ACM Comput. Surv. 54(6), 119:1–119:42 (2022).
+    https://doi.org/10.1145/3453474'
+- unstructured: 'Hansen, M.P., Jaszkiewicz, A.: Evaluating the quality of approximations
+    to the non-dominated set, Department of Mathematical Modelling, Technical University
+    of Denmark, IMM (1998)'
+- author: H Ishibuchi
+  doi: 10.1007/978-3-319-15892-1_8
+  first-page: '110'
+  unstructured: 'Ishibuchi, H., Masuda, H., Tanigaki, Y., Nojima, Y.: Modified distance
+    calculation in generational distance and inverted generational distance. In: Gaspar-Cunha,
+    A., Henggeler Antunes, C., Coello, C.C. (eds.) Evolutionary Multi-Criterion Optimization,
+    pp. 110–125. Springer, Cham (2015). https://doi.org/10.1007/978-3-319-15892-1_8'
+  volume-title: Evolutionary Multi-Criterion Optimization
+  year: '2015'
+- unstructured: 'Mersmann, O.: emoa: evolutionary multiobjective optimization algorithms,
+    R package version 0.5-0.2 (2023). https://CRAN.R-project.org/package=emoa'
+- author: K Miettinen
+  doi: 10.1007/978-1-4615-5563-6
+  unstructured: 'Miettinen, K.: Nonlinear Multiobjective Optimization. Springer, Boston,
+    MA (1998). https://doi.org/10.1007/978-1-4615-5563-6'
+  volume-title: Nonlinear Multiobjective Optimization
+  year: '1998'
+- author: H Trautmann
+  doi: 10.1007/978-3-642-44973-4_8
+  first-page: '70'
+  unstructured: 'Trautmann, H., Wagner, T., Brockhoff, D.: R2-EMOA: focused multiobjective
+    search using R2-indicator-based selection. In: Nicosia, G., Pardalos, P. (eds.)
+    Learning and Intelligent Optimization, pp. 70–74. Springer, Berlin, Heidelberg
+    (2013). https://doi.org/10.1007/978-3-642-44973-4_8'
+  volume-title: Learning and Intelligent Optimization
+  year: '2013'
+- doi: 10.1007/978-3-642-37140-0
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Purshouse, R.C., Fleming, P.J., Fonseca, C.M., Greco, S., Shaw, J.
+    (eds.): EMO 2013. LNCS, vol. 7811. Springer, Heidelberg (2013). https://doi.org/10.1007/978-3-642-37140-0'
+  volume-title: Evolutionary Multi-Criterion Optimization
+  year: '2013'
+- author: E Zitzler
+  doi: 10.1007/978-3-540-88908-3_14
+  first-page: '373'
+  unstructured: 'Zitzler, E., Knowles, J., Thiele, L.: Quality assessment of Pareto
+    set approximations. In: Branke, J., Deb, K., Miettinen, K., Słowiński, R. (eds.)
+    Multiobjective Optimization, pp. 373–404. Springer, Berlin, Heidelberg (2008).
+    https://doi.org/10.1007/978-3-540-88908-3_14'
+  volume-title: Multiobjective Optimization
+  year: '2008'
+- author: E Zitzler
+  doi: 10.1007/BFb0056872
+  first-page: '292'
+  unstructured: 'Zitzler, E., Thiele, L.: Multiobjective optimization using evolutionary
+    algorithms — a comparative case study. In: Eiben, A.E., Bäck, T., Schoenauer,
+    M., Schwefel, H.-P. (eds.) PPSN V, pp. 292–301. Springer, Berlin, Heidelberg (1998).
+    https://doi.org/10.1007/BFb0056872'
+  volume-title: Parallel Problem Solving from Nature
+  year: '1998'
+- author: E Zitzler
+  doi: 10.1109/TEVC.2003.810758
+  first-page: '117'
+  issue: '2'
+  journal-title: IEEE Trans. Evol. Comput.
+  unstructured: 'Zitzler, E., Thiele, L., Laumanns, M., Fonseca, C.M., da Fonseca,
+    V.G.: Performance assessment of multiobjective optimizers: an analysis and review.
+    IEEE Trans. Evol. Comput. 7(2), 117–132 (2003). https://doi.org/10.1109/TEVC.2003.810758'
+  volume: '7'
+  year: '2003'
+doc_url: https://link.springer.com/content/pdf/10.1007/978-3-031-70085-9_13
+doi: 10.1007/978-3-031-70085-9_13
+files: []
+isbn: '9783031700859'
+language: en
+month: 9
+pages: 202--216
+papis_id: 122c2cf4c89b4e005e9be52ab0b263ce
+publisher: Springer Nature Switzerland
+ref: schaepermeier-ppsn2024a
+series: Lecture Notes in Computer Science
+time-added: 2026-11-26-11:31:12
+title: 'Reinvestigating the R2 Indicator: Achieving Pareto Compliance by Integration'
+type: inproceedings
+url: https://doi.org/10.1007/978-3-031-70085-9_13
+year: 2024
