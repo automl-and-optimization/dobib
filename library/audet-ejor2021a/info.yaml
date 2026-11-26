@@ -1,0 +1,884 @@
+author: Audet, Charles and Bigeon, Jean and Cartier, Dominique and Le Digabel, Sébastien
+  and Salomon, Ludovic
+author_list:
+- affiliation: []
+  family: Audet
+  given: Charles
+- affiliation: []
+  family: Bigeon
+  given: Jean
+- affiliation: []
+  family: Cartier
+  given: Dominique
+- affiliation: []
+  family: Le Digabel
+  given: Sébastien
+- affiliation: []
+  family: Salomon
+  given: Ludovic
+citations:
+- article-title: Multi objective optimization of computationally expensive multi-modal
+    functions with RBF surrogates and multi-rule selection
+  author: Akhtar
+  doi: 10.1007/s10898-015-0270-y
+  first-page: '17'
+  issue: '1'
+  journal-title: Journal of Global Optimization
+  volume: '64'
+  year: '2016'
+- article-title: 'BMOBench: Black-box multi-objective optimization benchmarking platform'
+  author: Al-Dujaili
+  series-title: Technical Report
+  year: '2016'
+- article-title: 'Revisiting norm optimization for multi-objective black-box problems:
+    A finite-time analysis'
+  author: Al-Dujaili
+  doi: 10.1007/s10898-018-0709-z
+  first-page: '659'
+  issue: '3'
+  journal-title: Journal of Global Optimization
+  volume: '73'
+  year: '2018'
+- article-title: Characterizing Pareto front approximations in many-objective optimization
+  author: Asafuddoula
+  first-page: '607'
+  series-title: Proceedings of the 2015 annual conference on genetic and evolutionary
+    computation
+  year: '2015'
+- article-title: Multiobjective optimization through a series of single-objective
+    formulations
+  author: Audet
+  doi: 10.1137/060677513
+  first-page: '188'
+  issue: '1'
+  journal-title: SIAM Journal on Optimization
+  volume: '19'
+  year: '2008'
+- article-title: A mesh adaptive direct search algorithm for multiobjective optimization
+  author: Audet
+  doi: 10.1016/j.ejor.2009.11.010
+  first-page: '545'
+  issue: '3'
+  journal-title: European Journal of Operational Research
+  volume: '204'
+  year: '2010'
+- article-title: 'Theoretically investigating optimal μ-distributions for the hypervolume
+    indicator: First results for three objectives'
+  author: Auger
+  first-page: '586'
+  series-title: Parallel problem solving from nature, PPSN XI
+  year: '2010'
+- article-title: 'Theory of the hypervolume indicator: Optimal μ-distributions and
+    the choice of the reference point'
+  author: Auger
+  first-page: '87'
+  series-title: Proceedings of the tenth ACM SIGEVO workshop on foundations of genetic
+    algorithms
+  year: '2009'
+- article-title: 'Hypervolume-based multiobjective optimization: Theoretical foundations
+    and practical implications'
+  author: Auger
+  doi: 10.1016/j.tcs.2011.03.012
+  first-page: '75'
+  journal-title: Theoretical Computer Science
+  volume: '425'
+  year: '2012'
+- author: Bäck
+  series-title: 'Evolutionary algorithms in theory and practice: Evolution strategies,
+    evolutionary programming, genetic algorithms'
+  year: '1996'
+- article-title: Best practices for comparing optimization algorithms
+  author: Beiranvand
+  doi: 10.1007/s11081-017-9366-1
+  first-page: '815'
+  issue: '4'
+  journal-title: Optimization and Engineering
+  volume: '18'
+  year: '2017'
+- article-title: On the complexity of computing the hypervolume indicator
+  author: Beume
+  doi: 10.1109/TEVC.2009.2015575
+  first-page: '1075'
+  issue: '5'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '13'
+  year: '2009'
+- article-title: 'SMS-EMOA: Multiobjective selection based on dominated hypervolume'
+  author: Beume
+  doi: 10.1016/j.ejor.2006.08.008
+  first-page: '1653'
+  issue: '3'
+  journal-title: European Journal of Operational Research
+  volume: '181'
+  year: '2007'
+- article-title: Efficient multiobjective optimization employing Gaussian processes,
+    spectral sampling and a genetic algorithm
+  author: Bradford
+  doi: 10.1007/s10898-018-0609-2
+  first-page: '407'
+  issue: '2'
+  journal-title: Journal of Global Optimization
+  volume: '71'
+  year: '2018'
+- author: Branke
+  series-title: 'Multiobjective optimization: Interactive and evolutionary approaches'
+  volume: '5252'
+  year: '2008'
+- article-title: Approximating the volume of unions and intersections of high-dimensional
+    geometric objects
+  author: Bringmann
+  doi: 10.1016/j.comgeo.2010.03.004
+  first-page: '601'
+  issue: '6'
+  journal-title: Computational Geometry
+  volume: '43'
+  year: '2010'
+- article-title: Tight bounds for the approximation ratio of the hypervolume indicator
+  author: Bringmann
+  first-page: '607'
+  series-title: Parallel problem solving from nature, PPSN XI
+  year: '2010'
+- article-title: Approximation quality of the hypervolume indicator
+  author: Bringmann
+  doi: 10.1016/j.artint.2012.09.005
+  first-page: '265'
+  journal-title: Artificial Intelligence
+  volume: '195'
+  year: '2013'
+- article-title: 'Quantitative performance assessment of multiobjective optimizers:
+    The average runtime attainment function'
+  author: Brockhoff
+  first-page: '103'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2017'
+- article-title: On the properties of the R2 indicator
+  author: Brockhoff
+  first-page: '465'
+  series-title: Proceedings of the 14th annual conference on genetic and evolutionary
+    computation
+  year: '2012'
+- article-title: 2 indicator-based multiobjective search
+  author: Brockhoff
+  doi: 10.1162/EVCO_a_00135
+  first-page: '369'
+  issue: '3'
+  journal-title: Evolutionary Computation
+  volume: '23'
+  year: '2015'
+- article-title: A diversity indicator based on reference vectors for many-objective
+    optimization
+  author: Cai
+  doi: 10.1016/j.ins.2017.11.051
+  first-page: '467'
+  journal-title: Information Sciences
+  volume: 430–431
+  year: '2018'
+- article-title: Klee’s measure problem made easy
+  author: Chan
+  first-page: '410'
+  series-title: IEEE 54th annual symposium on foundations of computer science
+  year: '2013'
+- article-title: On the performance metrics of multiobjective optimization
+  author: Cheng
+  first-page: '504'
+  series-title: Advances in swarm intelligence
+  year: '2012'
+- article-title: Solving multiobjective optimization problems using an artificial
+    immune system
+  author: Coello
+  doi: 10.1007/s10710-005-6164-x
+  first-page: '163'
+  issue: '2'
+  journal-title: Genetic Programming and Evolvable Machines
+  volume: '6'
+  year: '2005'
+- article-title: Three new metrics to measure the convergence of metaheuristics towards
+    the Pareto frontier and the aesthetic of a set of solutions in biobjective optimization
+  author: Collette
+  doi: 10.1016/j.cor.2003.08.017
+  first-page: '773'
+  issue: '4'
+  journal-title: Computers and Operations Research
+  volume: '32'
+  year: '2005'
+- author: Collette
+  series-title: 'Multiobjective optimization: Principles and case studies'
+  year: '2011'
+- author: Cornuéjols
+  series-title: Optimization methods in finance
+  year: '2018'
+- article-title: Recent developments in derivative-free multiobjective optimization
+  author: Custódio
+  doi: 10.4203/ctr.5.1
+  first-page: '1'
+  issue: '1'
+  journal-title: Computational Technology Reviews
+  volume: '5'
+  year: '2012'
+- article-title: Direct multisearch for multiobjective optimization
+  author: Custódio
+  doi: 10.1137/10079731X
+  first-page: '1109'
+  issue: '3'
+  journal-title: SIAM Journal on Optimization
+  volume: '21'
+  year: '2011'
+- article-title: Pareto simulated annealing–a metaheuristic technique for multiple-objective
+    combinatorial optimization
+  author: Czyzzak
+  doi: 10.1002/(SICI)1099-1360(199801)7:1<34::AID-MCDA161>3.0.CO;2-6
+  first-page: '34'
+  issue: '1'
+  journal-title: Journal of Multi-Criteria Decision Analysis
+  volume: '7'
+  year: '1998'
+- article-title: Efficient computation of the search region in multi-objective optimization
+  author: Dächert
+  doi: 10.1016/j.ejor.2016.05.029
+  first-page: '841'
+  issue: '3'
+  journal-title: European Journal of Operational Research
+  volume: '260'
+  year: '2017'
+- article-title: 'Normal-boundary intersection: A new method for generating the Pareto
+    surface in nonlinear multicriteria optimization problems'
+  author: Das
+  doi: 10.1137/S1052623496307510
+  first-page: '631'
+  issue: '3'
+  journal-title: SIAM Journal on Optimization
+  volume: '8'
+  year: '1998'
+- author: Deb
+  series-title: Multi-objective optimization using evolutionary algorithms
+  year: '2001'
+- article-title: 'A fast elitist non-dominated sorting genetic algorithm for multi-objective
+    optimization: NSGA-II'
+  author: Deb
+  first-page: '849'
+  series-title: Parallel problem solving from nature PPSN VI
+  year: '2000'
+- article-title: 'Omni-optimizer: A generic evolutionary algorithm for single and
+    multi-objective optimization'
+  author: Deb
+  doi: 10.1016/j.ejor.2006.06.042
+  first-page: '1062'
+  issue: '3'
+  journal-title: European Journal of Operational Research
+  volume: '185'
+  year: '2008'
+- article-title: The expected R2-indicator improvement for multi-objective Bayesian
+    optimization
+  author: Deutz
+  first-page: '359'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2019'
+- article-title: A weakly Pareto compliant quality indicator
+  author: Dilettoso
+  issue: '1'
+  journal-title: Mathematical and Computational Applications
+  volume: '22'
+  year: '2017'
+- article-title: Benchmarking optimization software with performance profiles
+  author: Dolan
+  doi: 10.1007/s101070100263
+  first-page: '201'
+  issue: '2'
+  journal-title: Mathematical Programming
+  volume: '91'
+  year: '2002'
+- author: Ehrgott
+  series-title: Multicriteria optimization, volume 491 of lecture notes in economics
+    and mathematical systems
+  year: '2005'
+- author: Emmerich
+  first-page: '157'
+  series-title: On Quality Indicators for Black-Box Level Set Approximation
+  year: '2013'
+- article-title: 'Cone-based hypervolume indicators: Construction, properties, and
+    efficient computation'
+  author: Emmerich
+  first-page: '111'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2013'
+- article-title: On Reference Point Free Weighted Hypervolume Indicators based on
+    Desirability Functions and their Probabilistic Interpretation
+  author: Emmerich
+  doi: 10.1016/j.protcy.2014.10.001
+  first-page: '532'
+  journal-title: Procedia Technology
+  volume: '16'
+  year: '2014'
+- author: Emmerich
+  first-page: '229'
+  series-title: A Multicriteria Generalization of Bayesian Global Optimization
+  year: '2016'
+- article-title: 'Indicator-based multi-objective evolutionary algorithms: A comprehensive
+    survey'
+  author: Falcón-Cardona
+  doi: 10.1145/3376916
+  first-page: '1'
+  issue: '2'
+  journal-title: ACM Computing Surveys
+  volume: '53'
+  year: '2020'
+- article-title: 'CRI-EMOA: A Pareto-front shape invariant evolutionary multi-objective
+    algorithm'
+  author: Falcón-Cardona
+  first-page: '307'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2019'
+- article-title: On the Construction of Pareto-Compliant Quality Indicators
+  author: Falcón-Cardona
+  first-page: '2024'
+  series-title: Proceedings of the Genetic and Evolutionary Computation Conference
+    Companion
+  year: '2019'
+- article-title: An information-theoretic entropy metric for assessing multi-objective
+    optimization solution set quality
+  author: Farhang-Mehr
+  doi: 10.1115/1.1623186
+  first-page: '655'
+  issue: '4'
+  journal-title: Journal of Mechanical Design
+  volume: '125'
+  year: '2004'
+- article-title: On the quality of discrete representations in multiple objective
+    programming
+  author: Faulkenberg
+  doi: 10.1007/s11081-009-9099-x
+  first-page: '423'
+  issue: '3'
+  journal-title: Optimization and Engineering
+  volume: '11'
+  year: '2009'
+- article-title: A Bayesian approach to constrained single-and multi-objective optimization
+  author: Feliot
+  doi: 10.1007/s10898-016-0427-3
+  first-page: '97'
+  issue: 1–2
+  journal-title: Journal of Global Optimization
+  volume: '67'
+  year: '2017'
+- article-title: 'User preferences in Bayesian multi-objective optimization: The expected
+    weighted hypervolume improvement criterion'
+  author: Feliot
+  first-page: '533'
+  series-title: Machine learning, optimization, and data science
+  year: '2019'
+- article-title: Exploring the performance of stochastic multiobjective optimisers
+    with the second-order attainment function
+  author: Fonseca
+  first-page: '250'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2005'
+- article-title: On the computation of the empirical attainment function
+  author: Fonseca
+  first-page: '106'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2011'
+- article-title: Inferential performance assessment of stochastic optimisers and the
+    attainment function
+  author: da Fonseca
+  first-page: '213'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2001'
+- article-title: The logarithmic hypervolume indicator
+  author: Friedrich
+  first-page: '81'
+  series-title: Proceedings of the 11th workshop proceedings on foundations of genetic
+    algorithms
+  year: '2011'
+- article-title: A direction based classical method to obtain complete Pareto set
+    of multi-criteria optimization problems
+  author: Ghosh
+  doi: 10.1007/s12597-014-0178-1
+  first-page: '340'
+  issue: '2'
+  journal-title: Opsearch
+  volume: '52'
+  year: '2015'
+- article-title: 'Hypervolume sharpe-ratio indicator: Formalization and first theoretical
+    results'
+  author: Guerreiro
+  first-page: '814'
+  series-title: Parallel problem solving from nature – PPSN XIV
+  year: '2016'
+- article-title: An analysis of the hypervolume sharpe-ratio indicator
+  author: Guerreiro
+  doi: 10.1016/j.ejor.2019.11.023
+  first-page: '614'
+  issue: '2'
+  journal-title: European Journal of Operational Research
+  volume: '283'
+  year: '2020'
+- author: Hansen
+  series-title: Evaluating the quality of approximations to the non-dominated set
+  year: '1998'
+- article-title: Discretizing manifolds via minimum energy points
+  author: Hardin
+  first-page: '1186'
+  issue: '10'
+  journal-title: Notices of the AMS
+  volume: '51'
+  year: '2004'
+- article-title: Minimal Riesz energy point configurations for rectifiable d-dimensional
+    manifolds
+  author: Hardin
+  doi: 10.1016/j.aim.2004.05.006
+  first-page: '174'
+  issue: '1'
+  journal-title: Advances in Mathematics
+  volume: '193'
+  year: '2005'
+- article-title: How to specify a reference point in hypervolume calculation for fair
+    performance comparison
+  author: Ishibuchi
+  doi: 10.1162/evco_a_00226
+  first-page: '411'
+  issue: '3'
+  journal-title: Evolutionary Computation
+  volume: '26'
+  year: '2018'
+- article-title: Difficulties in specifying reference points to calculate the inverted
+    generational distance for many-objective optimization problems
+  author: Ishibuchi
+  first-page: '170'
+  series-title: IEEE symposium on computational intelligence in multi-criteria decision-making
+  year: '2014'
+- article-title: Modified distance calculation in generational distance and inverted
+    generational distance
+  author: Ishibuchi
+  first-page: '110'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2015'
+- article-title: Improved quick hypervolume algorithm
+  author: Jaszkiewicz
+  doi: 10.1016/j.cor.2017.09.016
+  first-page: '72'
+  journal-title: Computers and Operations Research
+  volume: '90'
+  year: '2018'
+- article-title: Consistencies and contradictions of performance metrics in multiobjective
+    optimization
+  author: Jiang
+  doi: 10.1109/TCYB.2014.2307319
+  first-page: '2391'
+  issue: '12'
+  journal-title: IEEE Transactions on Cybernetics
+  volume: '44'
+  year: '2014'
+- article-title: On the use of hypervolume for diversity measurement of Pareto front
+    approximations
+  author: Jiang
+  first-page: '1'
+  series-title: 2016 IEEE Symposium Series on Computational Intelligence (SSCI)
+  year: '2016'
+- article-title: 'Equidistant representations: Connecting coverage and uniformity
+    in discrete biobjective optimization'
+  author: Kidd
+  doi: 10.1016/j.cor.2019.104872
+  first-page: '104872'
+  journal-title: Computers and Operations Research
+  volume: '117'
+  year: '2020'
+- article-title: On metrics for comparing nondominated sets
+  author: Knowles
+  first-page: '711'
+  series-title: Evolutionary computation
+  volume: '1'
+  year: '2002'
+- article-title: A box decomposition algorithm to compute the hyperVolume indicator
+  author: Lacour
+  doi: 10.1016/j.cor.2016.06.021
+  first-page: '347'
+  journal-title: Computers and Operations Research
+  volume: '79'
+  year: '2017'
+- author: Laumanns
+  series-title: 'Approximating the Pareto set: Concepts, diversity issues, and performance
+    assessment'
+  year: '1999'
+- article-title: A unified model for multi-objective evolutionary algorithms with
+    elitism
+  author: Laumanns
+  first-page: '46'
+  series-title: Congress on evolutionary computation
+  volume: '1'
+  year: '2000'
+- article-title: 'U-measure: a quality measure for multiobjective programming'
+  author: Leung
+  doi: 10.1109/TSMCA.2003.817059
+  first-page: '337'
+  issue: '3'
+  journal-title: 'IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems
+    and Humans'
+  volume: '33'
+  year: '2003'
+- article-title: Diversity comparison of Pareto front approximations in many-objective
+    optimization
+  author: Li
+  doi: 10.1109/TCYB.2014.2310651
+  first-page: '2568'
+  issue: '12'
+  journal-title: IEEE Transactions on Cybernetics
+  volume: '44'
+  year: '2014'
+- article-title: A performance comparison indicator for Pareto front approximations
+    in many-objective optimization
+  author: Li
+  first-page: '703'
+  series-title: Proceedings of the 2015 annual conference on genetic and evolutionary
+    computation
+  year: '2015'
+- article-title: 'Dominance move: A measure of comparing solution sets in multiobjective
+    optimization'
+  author: Li
+  series-title: Technical Report
+  year: '2017'
+- article-title: 'Quality evaluation of solution sets in multiobjective optimisation:
+    A survey'
+  author: Li
+  first-page: '26:1'
+  issue: '2'
+  journal-title: ACM Computing Surveys
+  volume: '52'
+  year: '2019'
+- article-title: Uniformity assessment for evolutionary multi-objective optimization
+  author: Li
+  first-page: '625'
+  series-title: IEEE congress on evolutionary computation (IEEE World Congress on
+    Computational Intelligence)
+  year: '2008'
+- article-title: A derivative-free approach to constrained multiobjective nonsmooth
+    optimization
+  author: Liuzzi
+  doi: 10.1137/15M1037810
+  first-page: '2744'
+  issue: '4'
+  journal-title: SIAM Journal on Optimization
+  volume: '26'
+  year: '2016'
+- article-title: 'G-metric: An M-ary quality indicator for the evaluation of non-dominated
+    sets'
+  author: Lizarraga-Lizarraga
+  first-page: '665'
+  series-title: Proceedings of the 10th annual conference on genetic and evolutionary
+    computation
+  year: '2008'
+- article-title: 'IGD+-EMOA: A multi-objective evolutionary algorithm based on IGD+'
+  author: Lopez
+  first-page: '999'
+  series-title: 2016 IEEE Congress on Evolutionary Computation (CEC)
+  year: '2016'
+- article-title: Portfolio selection
+  author: Markowitz
+  first-page: '77'
+  issue: '1'
+  journal-title: Journal of Finance
+  volume: '7'
+  year: '1952'
+- article-title: A stopping criterion for multi-objective optimization evolutionary
+    algorithms
+  author: Martí
+  doi: 10.1016/j.ins.2016.07.025
+  first-page: '700'
+  journal-title: Information Sciences
+  volume: 367–368
+  year: '2016'
+- article-title: New quality measures for multiobjective programming
+  author: Meng
+  first-page: '1044'
+  series-title: Advances in natural computation
+  year: '2005'
+- article-title: Normal constraint method with guarantee of even representation of
+    complete Pareto frontier
+  author: Messac
+  doi: 10.2514/1.8977
+  first-page: '2101'
+  issue: '10'
+  journal-title: AIAA Journal
+  volume: '42'
+  year: '2004'
+- article-title: Benchmarking derivative-free optimization algorithms
+  author: Moré
+  doi: 10.1137/080724083
+  first-page: '172'
+  issue: '1'
+  journal-title: SIAM Journal on Optimization
+  volume: '20'
+  year: '2009'
+- article-title: A new approach on many objective diversity measurement
+  author: Mostaghim
+  series-title: Practical approaches to multi-objective optimization
+  year: '2005'
+- author: Nesterov
+  series-title: Interior-point polynomial algorithms in convex programming
+  year: '1994'
+- article-title: Numerical optimization
+  author: Nocedal
+  year: '2006'
+- article-title: A critical survey of performance indices for multi-objective optimisation
+  author: Okabe
+  first-page: '878'
+  series-title: Evolutionary computation
+  volume: '2'
+  year: '2003'
+- article-title: Performance metrics in multi-objective optimization
+  author: Riquelme
+  first-page: '1'
+  series-title: Latin American computing conference
+  year: '2015'
+- article-title: 'Optimal averaged Hausdorff archives for bi-objective problems: theoretical
+    and numerical results'
+  author: Rudolph
+  doi: 10.1007/s10589-015-9815-8
+  first-page: '589'
+  issue: '2'
+  journal-title: Computational Optimization and Applications
+  volume: '64'
+  year: '2016'
+- article-title: Quick hypervolume
+  author: Russo
+  doi: 10.1109/TEVC.2013.2281525
+  first-page: '481'
+  issue: '4'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '18'
+  year: '2014'
+- article-title: Extending quick hypervolume
+  author: Russo
+  doi: 10.1007/s10732-016-9309-6
+  first-page: '245'
+  issue: '3'
+  journal-title: Journal of Heuristics
+  volume: '22'
+  year: '2016'
+- article-title: Measuring the quality of discrete representations of efficient sets
+    in multiple objective mathematical programming
+  author: Sayın
+  doi: 10.1007/s101070050128
+  first-page: '543'
+  issue: '3'
+  journal-title: Mathematical Programming
+  volume: '87'
+  year: '2000'
+- article-title: Fault tolerant design using single and multicriteria genetic algorithm
+    optimization
+  author: Schott
+  series-title: Technical Report
+  year: '1995'
+- article-title: Using the averaged Hausdorff distance as a performance measure in
+    evolutionary multiobjective optimization
+  author: Schutze
+  doi: 10.1109/TEVC.2011.2161872
+  first-page: '504'
+  issue: '4'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '16'
+  year: '2012'
+- article-title: A mathematical theory of communication
+  author: Shannon
+  doi: 10.1145/584091.584093
+  first-page: '3'
+  issue: '1'
+  journal-title: ACM SIGMOBILE Mobile Computing and Communications Review
+  volume: '5'
+  year: '2001'
+- article-title: Enhancing decision space diversity in evolutionary multiobjective
+    algorithms
+  author: Shir
+  first-page: '95'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2009'
+- article-title: A theoretical analysis of volume based Pareto front approximations
+  author: Shukla
+  first-page: '1415'
+  series-title: Proceedings of the 2014 annual conference on genetic and evolutionary
+    computation
+  year: '2014'
+- author: Slowinski
+  series-title: Stochastic versus fuzzy approaches to multiobjective mathematical
+    programming under uncertainty
+  year: '1990'
+- article-title: 'Evolutionary algorithms for multi-objective optimization: performance
+    assessments and comparisons'
+  author: Tan
+  doi: 10.1023/A:1015516501242
+  first-page: '251'
+  issue: '4'
+  journal-title: Artificial Intelligence Review
+  volume: '17'
+  year: '2002'
+- article-title: A multi-objective evolutionary algorithm based on an enhanced inverted
+    generational distance metric
+  author: Tian
+  first-page: '5222'
+  series-title: Proceedings of the 2016 IEEE congress on evolutionary computation
+    (CEC’2016)
+  year: '2016'
+- article-title: 'R2-EMOA: Focused multiobjective search using R2-indicator-based
+    selection'
+  author: Trautmann
+  first-page: '70'
+  series-title: Learning and intelligent optimization
+  year: '2013'
+- article-title: Defining and optimizing indicator-based diversity measures in multiobjective
+    search
+  author: Ulrich
+  first-page: '707'
+  series-title: Parallel problem solving from nature, PPSN XI
+  year: '2010'
+- article-title: Integrating decision space diversity into hypervolume-based multiobjective
+    search
+  author: Ulrich
+  first-page: '455'
+  series-title: Proceedings of the 12th annual conference on genetic and evolutionary
+    computation
+  year: '2010'
+- article-title: 'Multiobjective evolutionary algorithms: Classifications, analyses,
+    and new innovations'
+  author: Van Veldhuizen
+  series-title: Technical Report
+  year: '1999'
+- article-title: On measuring multiobjective evolutionary algorithm performance
+  author: Van Veldhuizen
+  first-page: '204'
+  series-title: Proceedings of the 2000 congress on evolutionary computation
+  volume: '1'
+  year: '2000'
+- article-title: A generalization of the averaged Hausdorff distance
+  author: Vargas
+  doi: 10.13053/cys-22-2-2950
+  first-page: '331'
+  issue: '2'
+  journal-title: Computación y Sistemas
+  volume: '22'
+  year: '2018'
+- article-title: Preference articulation by means of the R2 indicator
+  author: Wagner
+  first-page: '81'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2013'
+- article-title: A taxonomy of online stopping criteria for multi-objective evolutionary
+    algorithms
+  author: Wagner
+  first-page: '16'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2011'
+- article-title: 'OCD: Online convergence detection for evolutionary multi-objective
+    algorithms based on statistical testing'
+  author: Wagner
+  first-page: '198'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2009'
+- article-title: A fast way of calculating exact hypervolumes
+  author: While
+  doi: 10.1109/TEVC.2010.2077298
+  first-page: '86'
+  issue: '1'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '16'
+  year: '2012'
+- article-title: Continuous multiobjective programming
+  author: Wiecek
+  first-page: '739'
+  series-title: Multiple criteria decision analysis
+  year: '2016'
+- article-title: Metrics for quality assessment of a multiobjective design optimization
+    solution set
+  author: Wu
+  doi: 10.1115/1.1329875
+  first-page: '18'
+  issue: '1'
+  journal-title: Journal of Mechanical Design
+  volume: '123'
+  year: '2000'
+- article-title: A portfolio optimization approach to selection in multiobjective
+    evolutionary algorithms
+  author: Yevseyeva
+  first-page: '672'
+  series-title: Parallel problem solving from nature – PPSN XIII
+  year: '2014'
+- article-title: 3D fast convex-hull-based evolutionary multiobjective optimization
+    algorithm
+  author: Zhao
+  doi: 10.1016/j.asoc.2018.03.005
+  first-page: '322'
+  journal-title: Applied Soft Computing
+  volume: '67'
+  year: '2018'
+- article-title: A new distribution metric for comparing Pareto optimal solutions
+  author: Zheng
+  doi: 10.1007/s00158-016-1469-3
+  first-page: '53'
+  issue: '1'
+  journal-title: Structural and Multidisciplinary Optimization
+  volume: '55'
+  year: '2017'
+- article-title: Combining model-based and genetics-based offspring generation for
+    multi-objective optimization using a convergence criterion
+  author: Zhou
+  first-page: '892'
+  series-title: IEEE international conference on evolutionary computation
+  year: '2006'
+- author: Zitzler
+  series-title: 'Evolutionary algorithms for multiobjective optimization: Methods
+    and applications'
+  year: '1999'
+- article-title: 'The hypervolume indicator revisited: on the design of Pareto-compliant
+    indicators via weighted integration'
+  author: Zitzler
+  first-page: '862'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2007'
+- article-title: 'Comparison of multiobjective evolutionary algorithms: Empirical
+    results'
+  author: Zitzler
+  doi: 10.1162/106365600568202
+  first-page: '173'
+  issue: '2'
+  journal-title: Evolutionary Computation
+  volume: '8'
+  year: '2000'
+- article-title: Quality assessment of Pareto set approximations
+  author: Zitzler
+  first-page: '373'
+  series-title: Multiobjective optimization
+  year: '2008'
+- article-title: Indicator-based selection in multiobjective search
+  author: Zitzler
+  first-page: '832'
+  series-title: Parallel problem solving from nature - PPSN VIII
+  year: '2004'
+- article-title: Multiobjective optimization using evolutionary algorithms – A comparative
+    case study
+  author: Zitzler
+  first-page: '292'
+  series-title: Parallel problem solving from nature – PPSN V
+  year: '1998'
+- article-title: 'Performance assessment of multiobjective optimizers: An analysis
+    and review'
+  author: Zitzler
+  doi: 10.1109/TEVC.2003.810758
+  first-page: '117'
+  issue: '2'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '7'
+  year: '2003'
+doi: 10.1016/j.ejor.2020.11.016
+files: []
+issue: '2'
+journal: European Journal of Operational Research
+language: en
+month: 7
+pages: 397--422
+papis_id: fcee9e9286aa9285d2671189e7d8de9a
+publisher: Elsevier BV
+ref: audet-ejor2021a
+time-added: 2026-11-26-10:39:26
+title: Performance indicators in multiobjective optimization
+type: article
+url: https://doi.org/10.1016/j.ejor.2020.11.016
+volume: '292'
+year: 2021
