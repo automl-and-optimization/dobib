@@ -1,0 +1,26 @@
+author: Hernández-Lobato, José Miguel and Gelbart, Michael A. and Adams, Ryan P. and
+  Hoffman, Matthew W. and Ghahramani, Zoubin
+author_list:
+- family: Hernández-Lobato
+  given: José Miguel
+- family: Gelbart
+  given: Michael A.
+- family: Adams
+  given: Ryan P.
+- family: Hoffman
+  given: Matthew W.
+- family: Ghahramani
+  given: Zoubin
+files: []
+journal: Journal of Machine Learning Research
+number: '160'
+pages: 1--53
+papis_id: 696654027c5c15fd4550c0f9990e883f
+ref: hernandez-lobato-jmlr2016a
+time-added: 2026-11-26-22:09:54
+title: A General Framework for Constrained Bayesian Optimization using Information-based
+  Search
+type: article
+url: http://jmlr.org/papers/v17/15-616.html
+volume: '17'
+year: '2016'
