@@ -1,0 +1,150 @@
+author: Deb, Kalyanmoy and Jain, Himanshu
+author_list:
+- affiliation: []
+  family: Deb
+  given: Kalyanmoy
+- affiliation: []
+  family: Jain
+  given: Himanshu
+citations:
+- doi: 10.1109/TEVC.2007.910138
+- doi: 10.1109/TEVC.2009.2021467
+- author: miettinen
+  journal-title: Nonlinear Multiobjective Optimization
+  year: '1999'
+- article-title: Pareto partial dominance MOEA in many-objective optimization
+  author: sato
+  first-page: '1'
+  journal-title: Proceedings of CCECE 2010
+  year: '0'
+- article-title: Many-objective optimization by space partitioning and adaptive epsilon-ranking
+    on MNK-landscapes
+  author: aguirre
+  first-page: '407'
+  journal-title: Proc 5th EMO
+  volume: lncs 5467
+  year: '2009'
+- article-title: A new evolutionary algorithm for solving many-objective optimization
+    problems
+  author: zou
+  doi: 10.1109/TSMCB.2008.926329
+  first-page: '1402'
+  journal-title: IEEE Trans Syst Man Cybern B Cybern
+  volume: '38'
+  year: '2008'
+- doi: 10.1109/CEC.2010.5586185
+- doi: 10.1109/CEC.2012.6256519
+- doi: 10.1007/s10957-011-9928-x
+- doi: 10.1016/S0965-9978(00)00110-1
+- doi: 10.1007/BFb0056867
+- doi: 10.1109/5326.704576
+- doi: 10.1007/3-540-36970-8_16
+- doi: 10.1016/S0377-2217(01)00104-7
+- article-title: Simulated binary crossover for continuous search space
+  author: deb
+  first-page: '115'
+  journal-title: Complex Syst
+  volume: '9'
+  year: '1995'
+- doi: 10.1162/EVCO_a_00053
+- doi: 10.1109/TSMCA.2004.824873
+- doi: 10.1142/5712
+- doi: 10.1109/CEC.2012.6256170
+- article-title: Reference point based multiobjective optimization using evolutionary
+    algorithms
+  author: deb
+  doi: 10.5019/j.ijcir.2006.67
+  first-page: '273'
+  journal-title: Int J Comput Intell Res
+  volume: '2'
+  year: '2006'
+- doi: 10.1109/CEC.2007.4424735
+- doi: 10.1145/1276958.1277116
+- doi: 10.1007/978-3-540-69995-8_68
+- doi: 10.1007/978-3-642-10439-8_45
+- doi: 10.1162/106365602760234108
+- doi: 10.1109/TEVC.2010.2093579
+- author: zhang
+  journal-title: MOEA/D Homepage
+  year: '2012'
+- article-title: 'Multiobjective evolutionary algorithm research: A history and analysis'
+  author: veldhuizen
+  year: '1998'
+- article-title: 'PESA-II: Region-based selection in evolutionary multiobjective optimization'
+  author: corne
+  first-page: '283'
+  journal-title: Proceedings of GECCO 2001
+  year: '0'
+- doi: 10.1007/978-3-540-70928-2_57
+- doi: 10.1109/TEVC.2009.2014361
+- doi: 10.1007/978-3-642-48782-8_32
+- doi: 10.1007/s00158-007-0163-x
+- doi: 10.1109/TEVC.2010.2041667
+- doi: 10.1007/1-84628-137-7_6
+- doi: 10.1109/TEVC.2013.2281534
+- doi: 10.1109/TEVC.2007.892759
+- doi: 10.1109/TEVC.2012.2185847
+- doi: 10.1109/TEVC.2010.2058117
+- article-title: Some techniques to deal with many-objective problems
+  author: lópez
+  first-page: '2693'
+  journal-title: Proc 11th Annu Companion Genet Evol Comput Conf
+  year: '2009'
+- doi: 10.1109/GEFS.2008.4484566
+- doi: 10.1109/TEVC.2012.2204403
+- doi: 10.1016/0377-2217(95)00241-3
+- doi: 10.1007/978-3-642-05258-3_56
+- author: chankong
+  journal-title: Multiobjective Decision Making Theory and Methodology
+  year: '1983'
+- doi: 10.1109/CEC.2006.1688440
+- doi: 10.1109/TEVC.2005.851275
+- article-title: Searching for Pareto-optimal solutions through dimensionality reduction
+    for certain large-dimensional multi-objective optimization problems
+  author: deb
+  first-page: '3352'
+  journal-title: Proc WCCI-2006
+  year: '0'
+- author: deb
+  journal-title: Multi-Objective Optimization Using Evolutionary Algorithms
+  year: '2001'
+- article-title: 'SPEA2: Improving the strength Pareto evolutionary algorithm for
+    multiobjective optimization'
+  author: zitzler
+  first-page: '95'
+  journal-title: Evolutionary Methods for Design Optimization and Control with Applications
+    to Industrial Problems
+  year: '2001'
+- doi: 10.1109/4235.996017
+- doi: 10.1109/TEVC.2003.810758
+- doi: 10.1109/4235.797969
+- doi: 10.1145/321906.321910
+- doi: 10.1109/CEC.2005.1554688
+- doi: 10.1109/TEVC.2008.925798
+- doi: 10.1109/TEVC.2008.919001
+- doi: 10.1137/S1052623496307510
+- article-title: Multiobjective optimization test instances for the CEC-2009 special
+    session and competition
+  author: zhang
+  year: '2008'
+- doi: 10.1162/EVCO_a_00075
+- doi: 10.1007/978-3-540-70928-2_55
+- doi: 10.1007/978-3-642-04045-0_27
+- doi: 10.1162/EVCO_a_00009
+doc_url: http://xplorestaging.ieee.org/ielx7/4235/6866949/06600851.pdf?arnumber=6600851
+doi: 10.1109/tevc.2013.2281535
+files: []
+issue: '4'
+journal: IEEE Transactions on Evolutionary Computation
+month: 8
+pages: 577--601
+papis_id: 92e6f7828cf9735f608a3c72b6b18be6
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: deb-tec2014a
+time-added: 2026-11-26-18:32:28
+title: 'An Evolutionary Many-Objective Optimization Algorithm Using Reference-Point-Based
+  Nondominated Sorting Approach, Part I: Solving Problems With Box Constraints'
+type: article
+url: https://doi.org/10.1109/tevc.2013.2281535
+volume: '18'
+year: 2014
