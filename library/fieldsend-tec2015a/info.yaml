@@ -1,0 +1,123 @@
+author: Fieldsend, Jonathan E. and Everson, Richard M.
+author_list:
+- affiliation: []
+  family: Fieldsend
+  given: Jonathan E.
+- affiliation: []
+  family: Everson
+  given: Richard M.
+citations:
+- doi: 10.1162/106365600568202
+- article-title: Multiobjective optimization test instances for the CEC 2009 special
+    session and competition
+  author: zhang
+  year: '2009'
+- doi: 10.1109/4235.797969
+- article-title: A tutorial on the performance assessment of stochastic multiobjective
+    optimizers
+  author: knowles
+  year: '2006'
+- article-title: Indicator-based selection in multiobjective search
+  author: zitzler
+  first-page: '832'
+  journal-title: Proc PPSN
+  year: '2004'
+- article-title: 'SPEA2: Improving the strength pareto evolutionary algorithm'
+  author: zitzler
+  year: '2001'
+- doi: 10.1109/TEVC.2011.2161872
+- author: coello
+  journal-title: Evolutionary Algorithms for Solving Multi-Objective Problems
+  year: '2007'
+- doi: 10.1109/TEVC.2003.810733
+- doi: 10.1016/S0377-2217(98)00262-8
+- doi: 10.1109/TEVC.2005.846356
+- article-title: 'Performance assessment of multiobjective optimizers: An analysis
+    and review'
+  author: zitzler
+  year: '2002'
+- article-title: Multiobjective optimization using the Niched Pareto genetic algorithm
+  author: horn
+  year: '1993'
+- doi: 10.1109/CEC.2001.934294
+- article-title: Pareto-front exploration with uncertain objectives
+  author: teich
+  doi: 10.1007/3-540-44719-9_22
+  first-page: '314'
+  journal-title: Proc Evol Multi-Criterion Optimization
+  year: '2001'
+- article-title: Evolutionary multi-objective ranking with uncertainty and noise
+  author: hughes
+  first-page: '329'
+  journal-title: Proc Evol Multi-Criterion Optimization
+  year: '1993'
+- doi: 10.1145/1068009.1068141
+- doi: 10.1109/TEVC.2006.882428
+- author: goh
+  journal-title: Evolutionary Multi-Objective Optimization in Uncertain Environments
+  year: '2009'
+- doi: 10.1007/978-3-642-01020-0_8
+- article-title: Sequential sampling in noisy multi-objective evolutionary optimization
+  author: siegmund
+  year: '2009'
+- article-title: 'A fast elitist non-dominated sorting genetic algorithm for multi-objective
+    optimization: NSGA-II'
+  author: deb
+  first-page: '849'
+  journal-title: Proc PPSN
+  year: '2000'
+- article-title: Averaging Efficiently in the Presence of Noise
+  author: stagge
+  first-page: '188'
+  journal-title: Proc PPSN
+  year: '1998'
+- author: yang
+  doi: 10.1007/978-3-540-49774-5
+  journal-title: Evolutionary Computation in Dynamic and Uncertain Environments
+  year: '2007'
+- doi: 10.1109/EH.2004.1310844
+- doi: 10.1109/CEC.2005.1554691
+- doi: 10.1162/106365600568167
+- doi: 10.1109/TSMCB.2002.804372
+- doi: 10.1007/3-540-61723-X_984
+- doi: 10.1007/11732242_71
+- author: thompson
+  journal-title: Hardware Evolution Automatic Design of Electronic Circuits in Reconfigurable
+    Hardware by Artificial Evolution
+  year: '1998'
+- doi: 10.1109/CEC.2004.1331041
+- article-title: 'Evolutionsstrategie: Optimierung technischer systeme nach prinzipien
+    der biologischen evolution'
+  author: rechenberg
+  year: '1971'
+- doi: 10.1007/s10732-008-9077-z
+- doi: 10.1145/2001576.2001684
+- doi: 10.1016/j.ejor.2009.11.003
+- doi: 10.1145/2576768.2598279
+- doi: 10.1007/978-3-642-37140-0_59
+- article-title: Simulated binary crossover for continuous search space
+  author: deb
+  first-page: '115'
+  journal-title: Complex Syst
+  volume: '9'
+  year: '1995'
+- doi: 10.1162/EVCO_a_00066
+- doi: 10.1162/evco.2006.14.4.463
+- doi: 10.1016/j.cma.2008.05.004
+doc_url: http://xplorestaging.ieee.org/ielx7/4235/7024198/06730915.pdf?arnumber=6730915
+doi: 10.1109/tevc.2014.2304415
+files: []
+issue: '1'
+journal: IEEE Transactions on Evolutionary Computation
+month: 2
+pages: 103--117
+papis_id: 18de84a3302908bfb64c158c3bd134e1
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: fieldsend-tec2015a
+time-added: 2026-11-26-18:52:40
+title: 'The Rolling Tide Evolutionary Algorithm: A Multiobjective Optimizer for Noisy
+  Optimization Problems'
+type: article
+url: https://doi.org/10.1109/tevc.2014.2304415
+volume: '19'
+year: 2015
