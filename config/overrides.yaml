@@ -31,6 +31,12 @@ bischl-neurips2021a:
   # confirmed against https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/108-/bibtex.
   author: "Bischl, Bernd and Casalicchio, Giuseppe and Feurer, Matthias and Gijsbers, Pieter and Hutter, Frank and Lang, Michel and Gomes Mantovani, Rafael and van Rijn, Jan and Vanschoren, Joaquin"
 
+kohli-dmlrws2024a:
+  # OpenReview still returns "Anonymous" for this entry (blind-review metadata
+  # that was never updated post-decision). Real authors confirmed from the
+  # camera-ready PDF: https://ml.informatik.uni-freiburg.de/wp-content/uploads/2024/04/61_towards_quantifying_the_effect.pdf
+  author: "Kohli, Ravin and Feurer, Matthias and Eggensperger, Katharina and Bischl, Bernd and Hutter, Frank"
+
 harsanyi-ier1963a:
   # Crossref has only the first page for this DOI (10.2307/2525487); JSTOR
   # registered it that way, as it did for many pre-digital articles. The real
