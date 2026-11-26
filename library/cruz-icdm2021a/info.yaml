@@ -1,0 +1,112 @@
+author: F.Cruz, Andre and Saleiro, Pedro and Belem, Catarina and Soares, Carlos and
+  Bizarro, Pedro
+author_list:
+- affiliation: []
+  family: F.Cruz
+  given: Andre
+- affiliation: []
+  family: Saleiro
+  given: Pedro
+- affiliation: []
+  family: Belem
+  given: Catarina
+- affiliation: []
+  family: Soares
+  given: Carlos
+- affiliation: []
+  family: Bizarro
+  given: Pedro
+booktitle: 2021 IEEE International Conference on Data Mining (ICDM)
+citations:
+- article-title: Non-stochastic best arm identification and hyperparameter optimization
+  author: jamieson
+  first-page: '240'
+  journal-title: 19th AISTATS
+  year: '2016'
+- article-title: Learning Non-Discriminatory Predictors
+  author: woodworth
+  first-page: '1920'
+  journal-title: Proc of the 2017 Conf on Learning Theory
+  volume: '65'
+  year: '2017'
+- author: miettinen
+  journal-title: Nonlinear Multiobjective Optimization
+  volume: '12'
+  year: '2012'
+- doi: 10.1016/j.ins.2014.08.071
+- article-title: 'Aequitas: A bias and fairness audit toolkit'
+  author: saleiro
+  journal-title: arXiv preprint arXiv 1811 05577
+  year: '2018'
+- article-title: 'Machine bias: There&#x2019;s software used across the country to
+    predict future criminals. and it&#x2019;s biased against blacks'
+  author: angwin
+  year: '2016'
+- article-title: UCI Machine Learning Repository
+  author: dua
+  year: '2017'
+- article-title: Predicting excitement at donorschoose.org - kdd cup 2014
+  author: wijesinghe
+  year: '2014'
+- article-title: 'Lightgbm: A highly efficient gradient boosting decision tree'
+  author: ke
+  first-page: '3146'
+  journal-title: NIPS
+  volume: '30'
+  year: '2017'
+- doi: 10.2307/2283970
+- article-title: Manuale di economica politica, societa editrice libraria
+  author: pareto
+  journal-title: Manual of Political Economy
+  volume: '1971'
+  year: '1906'
+- article-title: A Reductions Approach to Fair Classification
+  author: agarwal
+  first-page: '60'
+  journal-title: 35th ICML
+  volume: '80'
+  year: '2018'
+- article-title: 'Hyperband: A novel bandit-based approach to hyperparameter optimization'
+  author: li
+  first-page: '6765'
+  journal-title: JMLR
+  volume: '18'
+  year: '2017'
+- article-title: Algorithms for hyperparameter optimization
+  author: bergstra
+  first-page: '1'
+  journal-title: NIPS
+  year: '2011'
+- doi: 10.1145/3461702.3462629
+- article-title: Bayesian optimization with inequality constraints
+  author: gardner
+  first-page: '937'
+  journal-title: 31st ICML
+  volume: '32'
+  year: '2014'
+- article-title: A framework for understanding unintended consequences of machine
+    learning
+  author: suresh
+  year: '2019'
+- article-title: 'Chapter 11: Bias and Fairness'
+  author: rodolfa
+  journal-title: Big data and social science A practical guide to methods and tools
+  year: '2020'
+- author: hutter
+  doi: 10.1007/978-3-030-05318-5
+  journal-title: Automated Machine Learning Methods Systems Challenges
+  year: '2019'
+doc_url: http://xplorestaging.ieee.org/ielx7/9678506/9678989/09679036.pdf?arnumber=9679036
+doi: 10.1109/icdm51629.2021.00119
+files: []
+month: 12
+pages: 1036--1041
+papis_id: a2b3e4ef7df0a31408d3feeb370afcdd
+publisher: IEEE
+ref: cruz-icdm2021a
+time-added: 2026-11-26-22:02:54
+title: Promoting Fairness through Hyperparameter Optimization
+type: inproceedings
+url: https://doi.org/10.1109/icdm51629.2021.00119
+venue: Auckland, New Zealand
+year: 2021
