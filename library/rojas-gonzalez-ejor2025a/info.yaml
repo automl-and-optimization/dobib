@@ -1,0 +1,417 @@
+author: Rojas Gonzalez, Sebastian and Branke, Juergen and Van Nieuwenhuyse, Inneke
+author_list:
+- affiliation: []
+  family: Rojas Gonzalez
+  given: Sebastian
+- affiliation: []
+  family: Branke
+  given: Juergen
+- affiliation: []
+  family: Van Nieuwenhuyse
+  given: Inneke
+citations:
+- article-title: Many-objective quality measures
+  author: Afsar
+  first-page: '113'
+  series-title: 'Many-criteria optimization and decision analysis: state-of-the-art,
+    present challenges, and future perspectives'
+  year: '2023'
+- article-title: Pareto set estimation with guaranteed probability of correct selection
+  author: Andradóttir
+  doi: 10.1016/j.ejor.2020.10.021
+  first-page: '286'
+  issue: '1'
+  journal-title: European Journal of Operational Research
+  volume: '292'
+  year: '2021'
+- doi: 10.2139/ssrn.3958881
+  unstructured: 'Angun, E., & Kleijnen, J. (2023). Constrained optimization in random
+    simulation: Efficient global optimization and Karush-Kuhn-Tucker conditions (Revision
+    of CentER DP 2022-022): CentER discussion paper, CentER discussion paper Nr. 2023-010.'
+- article-title: Stochastic kriging for simulation metamodeling
+  author: Ankenman
+  doi: 10.1287/opre.1090.0754
+  first-page: '371'
+  issue: '2'
+  journal-title: Operations Research
+  volume: '58'
+  year: '2010'
+- article-title: 'Multi-objective ranking and selection: Optimal sampling laws and
+    tractable approximations via SCORE'
+  author: Applegate
+  doi: 10.1080/17477778.2019.1633891
+  first-page: '21'
+  issue: '1'
+  journal-title: Journal of Simulation
+  volume: '14'
+  year: '2020'
+- article-title: 'Hypervolume-based multiobjective optimization: Theoretical foundations
+    and practical implications'
+  author: Auger
+  doi: 10.1016/j.tcs.2011.03.012
+  first-page: '75'
+  journal-title: Theoretical Computer Science
+  volume: '425'
+  year: '2012'
+- article-title: Optimization of (s, S) inventory systems with random lead times and
+    a service level constraint
+  author: Bashyam
+  doi: 10.1287/mnsc.44.12.S243
+  first-page: '243'
+  journal-title: Management Science
+  volume: '44'
+  year: '1998'
+- article-title: A preliminary study on handling uncertainty in indicator-based multiobjective
+    optimization
+  author: Basseur
+  first-page: '727'
+  series-title: Applications of evolutionary computing
+  year: '2006'
+- article-title: Quantifying uncertainty on Pareto fronts with Gaussian process conditional
+    simulations
+  author: Binois
+  doi: 10.1016/j.ejor.2014.07.032
+  first-page: '386'
+  issue: '2'
+  journal-title: European Journal of Operational Research
+  volume: '243'
+  year: '2015'
+- article-title: A survey on high-dimensional Gaussian process modeling with application
+    to Bayesian optimization
+  author: Binois
+  doi: 10.1145/3545611
+  first-page: '1'
+  issue: '2'
+  journal-title: ACM Transactions on Evolutionary Learning and Optimization
+  volume: '2'
+  year: '2022'
+- article-title: Using ranking and selection to “Clean Up” after simulation optimization
+  author: Boesel
+  doi: 10.1287/opre.51.5.814.16751
+  first-page: '814'
+  issue: '5'
+  journal-title: Operations Research
+  volume: '51'
+  year: '2003'
+- article-title: 'Identifying efficient solutions via simulation: myopic multi-objective
+    budget allocation for the bi-objective case'
+  author: Branke
+  doi: 10.1007/s00291-019-00561-0
+  first-page: '831'
+  issue: '3'
+  journal-title: OR Spectrum
+  volume: '41'
+  year: '2019'
+- article-title: Multiobjective ranking and selection based on hypervolume
+  author: Branke
+  first-page: '859'
+  series-title: Proceedings of the 2016 winter simulation conference
+  year: '2016'
+- article-title: The effects of common random numbers on stochastic kriging metamodels
+  author: Chen
+  doi: 10.1145/2133390.2133391
+  first-page: '7:1'
+  issue: '2'
+  journal-title: ACM Transactions on Modeling and Computer Simulation
+  volume: '22'
+  year: '2012'
+- author: Chen
+  series-title: Stochastic simulation optimization
+  year: '2010'
+- article-title: Sequential sampling to myopically maximize the expected value of
+    information
+  author: Chick
+  doi: 10.1287/ijoc.1090.0327
+  first-page: '71'
+  issue: '1'
+  journal-title: INFORMS Journal on Computing
+  volume: '22'
+  year: '2010'
+- article-title: Biobjective simulation optimization on integer lattices using the
+    epsilon-constraint method in a retrospective approximation framework
+  author: Cooper
+  first-page: '1080'
+  issue: '4'
+  journal-title: INFORMS Journal on Computing
+  volume: '32'
+  year: '2020'
+- article-title: A statistical method for global optimization
+  author: Cox
+  first-page: '1241'
+  series-title: '[proceedings] 1992 IEEE international conference on systems, man,
+    and cybernetics'
+  year: '1992'
+- article-title: 'A fast and elitist multiobjective genetic algorithm: NSGA-II'
+  author: Deb
+  doi: 10.1109/4235.996017
+  first-page: '182'
+  issue: '2'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '6'
+  year: '2002'
+- article-title: Applying evolutionary algorithms to problems with noisy, time-consuming
+    fitness functions
+  author: Di Pietro
+  first-page: '1254'
+  series-title: Proceedings of the 2004 congress on evolutionary computation
+  volume: Vol. 2
+  year: '2004'
+- article-title: Indifference-zone-free selection of the best
+  author: Fan
+  doi: 10.1287/opre.2016.1530
+  first-page: '1499'
+  issue: '6'
+  journal-title: Operations Research
+  volume: '64'
+  year: '2016'
+- article-title: SCORE allocations for Bi-objective ranking and selection
+  author: Feldman
+  doi: 10.1145/3158666
+  first-page: '7:1'
+  issue: '1'
+  journal-title: ACM Transactions on Modeling and Computer Simulation
+  volume: '28'
+  year: '2018'
+- article-title: 'Multiobjective simulation optimization on finite sets: Optimal allocation
+    via scalarization'
+  author: Feldman
+  first-page: '3610'
+  series-title: Proceedings of the 2015 winter simulation conference
+  year: '2015'
+- article-title: A Bayesian approach to constrained single-and multi-objective optimization
+  author: Feliot
+  doi: 10.1007/s10898-016-0427-3
+  first-page: '97'
+  issue: 1–2
+  journal-title: Journal of Global Optimization
+  volume: '67'
+  year: '2017'
+- article-title: Multi-objective optimisation in the presence of uncertainty
+  author: Fieldsend
+  first-page: '243'
+  series-title: 2005 IEEE congress on evolutionary computation
+  volume: Vol. 1
+  year: '2005'
+- article-title: 'The rolling tide evolutionary algorithm: A multiobjective optimizer
+    for noisy optimization problems'
+  author: Fieldsend
+  doi: 10.1109/TEVC.2014.2304415
+  first-page: '103'
+  issue: '1'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '19'
+  year: '2015'
+- article-title: A fully sequential elimination procedure for indifference-zone ranking
+    and selection with tight bounds on probability of correct selection
+  author: Frazier
+  doi: 10.1287/opre.2014.1282
+  first-page: '926'
+  issue: '4'
+  journal-title: Operations Research
+  volume: '62'
+  year: '2014'
+- article-title: Predictive entropy search for multi-objective Bayesian optimization
+  author: Hernández-Lobato
+  first-page: '1492'
+  series-title: Proceedings of the 33rd international conference on international
+    conference on machine learning - volume 48
+  year: '2016'
+- article-title: First investigations on noisy model-based multi-objective optimization
+  author: Horn
+  first-page: '298'
+  series-title: International conference on evolutionary multi-criterion optimization
+  year: '2017'
+- article-title: A review of multiobjective test problems and a scalable test problem
+    toolkit
+  author: Huband
+  doi: 10.1109/TEVC.2005.861417
+  first-page: '477'
+  issue: '5'
+  journal-title: IEEE Transactions on Evolutionary Computation
+  volume: '10'
+  year: '2006'
+- article-title: Evolutionary multi-objective ranking with uncertainty and noise
+  author: Hughes
+  first-page: '329'
+  series-title: International conference on evolutionary multi-criterion optimization
+  year: '2001'
+- article-title: An introduction to multiobjective simulation optimization
+  author: Hunter
+  doi: 10.1145/3299872
+  first-page: '7:1'
+  issue: '1'
+  journal-title: ACM Transactions on Modeling and Computer Simulation
+  volume: '29'
+  year: '2019'
+- article-title: Comparison of Kriging-based algorithms for simulation optimization
+    with heterogeneous noise
+  author: Jalali
+  doi: 10.1016/j.ejor.2017.01.035
+  first-page: '279'
+  issue: '1'
+  journal-title: European Journal of Operational Research
+  volume: '261'
+  year: '2017'
+- article-title: A taxonomy of global optimization methods based on response surfaces
+  author: Jones
+  doi: 10.1023/A:1012771025575
+  first-page: '345'
+  journal-title: Journal of Global Optimization
+  volume: '21'
+  year: '2001'
+- article-title: A simulation based optimization approach to supply chain management
+    under demand uncertainty
+  author: Jung
+  doi: 10.1016/j.compchemeng.2004.06.006
+  first-page: '2087'
+  issue: '10'
+  journal-title: Computers & Chemical Engineering
+  volume: '28'
+  year: '2004'
+- article-title: A fully sequential procedure for indifference-zone selection in simulation
+  author: Kim
+  doi: 10.1145/502109.502111
+  first-page: '251'
+  issue: '3'
+  journal-title: ACM Transactions on Modeling and Computer Simulation (TOMACS)
+  volume: '11'
+  year: '2001'
+- article-title: Selecting the best system
+  author: Kim
+  doi: 10.1016/S0927-0507(06)13017-0
+  first-page: '501'
+  series-title: Handbooks in operations research and management science
+  volume: vol. 13
+  year: '2006'
+- author: Kleijnen
+  series-title: Design and analysis of simulation experiments
+  year: '2015'
+- article-title: 'Optimization of simulated systems: OptQuest and alternatives'
+  author: Kleijnen
+  doi: 10.1016/j.simpat.2006.11.001
+  first-page: '354'
+  issue: '3'
+  journal-title: Simulation Modelling Practice and Theory
+  volume: '15'
+  year: '2007'
+- article-title: Finding the non-dominated Pareto set for multi-objective simulation
+    models
+  author: Lee
+  doi: 10.1080/07408171003705367
+  first-page: '656'
+  issue: '9'
+  journal-title: IIE Transactions
+  volume: '42'
+  year: '2010'
+- article-title: 'Faster kriging: Facing high-dimensional simulators'
+  author: Lu
+  doi: 10.1287/opre.2019.1860
+  first-page: '233'
+  issue: '1'
+  journal-title: Operations Research
+  volume: '68'
+  year: '2020'
+- author: Miettinen
+  series-title: Nonlinear multiobjective optimization
+  year: '1999'
+- article-title: A benchmark of kriging-based infill criteria for noisy optimization
+  author: Picheny
+  doi: 10.1007/s00158-013-0919-4
+  first-page: '607'
+  issue: '3'
+  journal-title: Structural and Multidisciplinary Optimization
+  volume: '48'
+  year: '2013'
+- author: Rasmussen
+  series-title: Gaussian processes for machine learning (Adaptive computation and
+    machine learning)
+  year: '2005'
+- article-title: Multiobjective ranking and selection with correlation and heteroscedastic
+    noise
+  author: Rojas-Gonzalez
+  first-page: '3392'
+  series-title: 2019 winter simulation conference
+  year: '2019'
+- article-title: A multiobjective stochastic simulation optimization algorithm
+  author: Rojas-Gonzalez
+  doi: 10.1016/j.ejor.2019.12.014
+  first-page: '212'
+  issue: '1'
+  journal-title: European Journal of Operational Research
+  volume: '284'
+  year: '2020'
+- article-title: A survey on kriging-based infill algorithms for multiobjective simulation
+    optimization
+  author: Rojas-Gonzalez
+  doi: 10.1016/j.cor.2019.104869
+  journal-title: Computers & Operations Research
+  volume: '116'
+  year: '2020'
+- article-title: Practical bayesian optimization of machine learning algorithms
+  author: Snoek
+  journal-title: Advances in Neural Information Processing Systems
+  volume: '25'
+  year: '2012'
+- article-title: 'Better simulation metamodeling: The why, what, and how of stochastic
+    kriging'
+  author: Staum
+  first-page: '119'
+  series-title: Proceedings of the 2009 winter simulation conference
+  year: '2009'
+- article-title: Evolutionary optimisation of noisy multi-objective problems using
+    confidence-based dynamic resampling
+  author: Syberfeldt
+  doi: 10.1016/j.ejor.2009.11.003
+  first-page: '533'
+  issue: '3'
+  journal-title: European Journal of Operational Research
+  volume: '204'
+  year: '2010'
+- article-title: Pareto-front exploration with uncertain objectives
+  author: Teich
+  first-page: '314'
+  series-title: International conference on evolutionary multi-criterion optimization
+  year: '2001'
+- article-title: Integration of indifference-zone with multi-objective computing budget
+    allocation
+  author: Teng
+  doi: 10.1016/j.ejor.2009.08.008
+  first-page: '419'
+  issue: '2'
+  journal-title: European Journal of Operational Research
+  volume: '203'
+  year: '2010'
+- article-title: Pareto-dominance in noisy environments
+  author: Trautmann
+  first-page: '3119'
+  series-title: Proceedings of the eleventh conference on congress on evolutionary
+    computation
+  year: '2009'
+- article-title: New uncertainty handling strategies in multi-objective evolutionary
+    optimization
+  author: Voß
+  first-page: '260'
+  series-title: Parallel problem solving from nature, PPSN XI
+  year: '2010'
+- article-title: 'The hypervolume indicator revisited: On the design of Pareto-compliant
+    indicators via weighted integration'
+  author: Zitzler
+  first-page: '862'
+  series-title: Evolutionary multi-criterion optimization
+  year: '2007'
+doi: 10.1016/j.ejor.2024.11.008
+files: []
+issue: '2'
+journal: European Journal of Operational Research
+language: en
+month: 4
+pages: 599--614
+papis_id: 8fbec9aa51b19dd44bb72c2a7bb6fc24
+publisher: Elsevier BV
+ref: rojas-gonzalez-ejor2025a
+time-added: 2026-11-26-22:10:44
+title: Bi-objective ranking and selection using stochastic kriging
+type: article
+url: https://doi.org/10.1016/j.ejor.2024.11.008
+volume: '322'
+year: 2025
