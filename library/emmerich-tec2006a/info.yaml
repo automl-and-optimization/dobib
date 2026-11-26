@@ -1,0 +1,203 @@
+author: Emmerich, M.T.M. and Giannakoglou, K.C. and Naujoks, B.
+author_list:
+- affiliation: []
+  family: Emmerich
+  given: M.T.M.
+- affiliation: []
+  family: Giannakoglou
+  given: K.C.
+- affiliation: []
+  family: Naujoks
+  given: B.
+citations:
+- author: beyer
+  doi: 10.1007/978-3-662-04378-3
+  journal-title: The Theory of Evolution Strategies
+  year: '2001'
+- author: schwefel
+  journal-title: Evolution and Optimum Seeking
+  year: '1995'
+- article-title: Efficient global optimization of expensive black-box functions
+  author: schonlau
+  doi: 10.1023/A:1008350230239
+  first-page: '433'
+  journal-title: J Global Optimization
+  volume: '13'
+  year: '1998'
+- author: schonlau
+  doi: 10.1214/lnms/1215456182
+  first-page: '11'
+  journal-title: New Developments and Applications in Experimental Design
+  volume: '34'
+  year: '1998'
+- author: koehler
+  first-page: '239'
+  journal-title: Handbook Statistics
+  volume: '13'
+  year: '1996'
+- doi: 10.1214/ss/1177012413
+- doi: 10.1023/A:1015059928466
+- journal-title: Handbook of Evolutionary Computation
+  year: '1997'
+- doi: 10.1109/TEVC.2004.835247
+- doi: 10.2514/2.1999
+- doi: 10.1016/j.apnum.2003.11.001
+- doi: 10.1016/0898-1221(92)90176-I
+- author: padula
+  journal-title: Interpolation and Pseudorandom Function Generators
+  year: '2000'
+- author: barthelemy
+  journal-title: Recent advances in approximation concepts for optimum structural
+    design
+  year: '1991'
+- doi: 10.1109/TEVC.2005.846356
+- doi: 10.1109/TSMCC.2004.841905
+- doi: 10.1016/0016-7142(66)90010-X
+- article-title: Metamodel-assisted evolution strategies
+  author: emmerich
+  first-page: '361'
+  journal-title: Proc Int?l Conf Granada Parallel Problem Solving from Nature VII
+  volume: '2439'
+  year: '2002'
+- author: mackay
+  first-page: '133'
+  journal-title: Neural Networks and Machine Learning
+  volume: '168'
+  year: '1998'
+- author: santers
+  journal-title: The Design and Analysis of Computer Experiments
+  year: '2003'
+- author: flannery
+  journal-title: Numerical Recipes in FORTRAN The Art of Scientific Computing
+  year: '1992'
+- author: adler
+  journal-title: The Geometry of Random Fields
+  year: '1981'
+- author: weinzierl
+  journal-title: Introduction to Monte Carlo methods
+  year: '2000'
+- doi: 10.1007/s00500-003-0330-y
+- author: de fonseca
+  journal-title: Multiobjective Genetic Algorithms with Applications to Control Engineering
+    Problems
+  year: '1995'
+- doi: 10.1080/03052159608941404
+- doi: 10.1016/S0377-2217(77)81007-2
+- article-title: On the relation of the Chebycheff norm and the efficient frontier
+    of multiple criteria objectives
+  author: bowman
+  doi: 10.1007/978-3-642-87563-2_5
+  first-page: '76'
+  journal-title: Lecture Notes in Economics and Mathematical Systems
+  year: '1976'
+- author: emmerich
+  journal-title: A rigorous analysis of two bi-criteria problem families with scalable
+    curvature of the Pareto fronts
+  year: '2005'
+- author: yesilyurt
+  journal-title: Surrogates for numerical simulations Optimization of Eddy?Promoter
+    heat exchangers
+  year: '1993'
+- doi: 10.1109/TEVC.2002.800884
+- article-title: Problem independent handling of constraints by use of metric penalty
+    functions
+  author: hoffmeister
+  first-page: '289'
+  journal-title: Proc 5th Annu Conf Evol Program
+  year: '1996'
+- article-title: Managing approximation models in evolutionary aerodynamic design
+    optimization
+  author: jin
+  first-page: '592'
+  journal-title: Proc Int Conf Evol Comput
+  volume: '1'
+  year: '2001'
+- doi: 10.1080/174159701088027771
+- article-title: 'Metamodeling techniques for evolutionary optimization of computationally
+    expensive problems: Promises and limitations'
+  author: el-beltagy
+  first-page: '196'
+  journal-title: Proc Int Conf Genetic and Evol Comput
+  year: '1999'
+- article-title: Accelerating the convergence of evolutionary algorithms by fitness
+    landscape approximations
+  author: ratle
+  first-page: '87'
+  journal-title: Proc Parallel Problem Solving By Nature
+  volume: v
+  year: '1998'
+- article-title: 'Metamodel-assisted optimization with constraints: A case study in
+    material process design'
+  author: emmerich
+  journal-title: Proc Int Conf EUROGEN
+  year: '2003'
+- article-title: A reduced-cost multi-objective optimization method based on the pareto
+    front technique, neural networks, and PVM
+  author: giotis
+  journal-title: Proc Eur Congr Comput Methods in Applied Sciences and Engineering
+    (ECCOMAS?00) (CD-ROM)
+  year: '2000'
+- article-title: On the use of surrogate evaluation models in multi-objective evolutionary
+    algorithms
+  author: giannakoglou
+  journal-title: Proc ECCOMAS
+  year: '2004'
+- doi: 10.1109/CEC.2003.1299929
+- author: dennis
+  first-page: '330'
+  journal-title: Multidisciplinary Design Optimization State-of-the-Art
+  year: '1997'
+- doi: 10.1109/TSMCC.2004.841917
+- doi: 10.1016/S0376-0421(01)00019-7
+- article-title: Single- and multi-objective airfoil design using genetic algorithms
+    and artificial intelligence
+  author: giotis
+  first-page: '65'
+  journal-title: Proc Evol Algorithms in Eng Comput Sci (EUROGEN 99)
+  year: '1999'
+- doi: 10.1115/99-GT-181
+- doi: 10.1007/s00500-003-0328-5
+- doi: 10.1007/978-0-85729-338-1_21
+- doi: 10.1109/CEC.2003.1299643
+- doi: 10.1007/s00500-003-0329-4
+- author: trosset
+  journal-title: Numerical optimization using computer experiments
+  year: '1997'
+- article-title: 'The measure of Pareto optima: Applications in multiobjective metaheuristics'
+  author: fleischer
+  first-page: '519'
+  journal-title: Proc 2nd Int Conf Evol Multiobjective Optimization
+  year: '2003'
+- author: torczon
+  journal-title: Direct search methods Then and now
+  year: '2000'
+- author: deb
+  journal-title: Multi-Objective Optimization Using Evolutionary Algorithms
+  year: '2001'
+- author: deb
+  journal-title: A Fast and Elitist Multi-Objective Genetic Algorithm NSGA-II
+  year: '2000'
+- author: cox
+  first-page: '315'
+  journal-title: Multidisciplinary Design Optimization (Hampton VA 1995)
+  year: '1997'
+- author: zitzler
+  journal-title: Evolutionary algorithms for multiobjective optimization
+  year: '1998'
+doc_url: http://xplorestaging.ieee.org/ielx5/4235/34852/01665031.pdf?arnumber=1665031
+doi: 10.1109/tevc.2005.859463
+files: []
+issue: '4'
+journal: IEEE Transactions on Evolutionary Computation
+month: 8
+pages: 421--439
+papis_id: ee28dddda81e40d69c824e73266fb9f1
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: emmerich-tec2006a
+time-added: 2026-11-26-18:33:57
+title: Single- and multiobjective evolutionary optimization assisted by Gaussian random
+  field metamodels
+type: article
+url: https://doi.org/10.1109/tevc.2005.859463
+volume: '10'
+year: 2006
