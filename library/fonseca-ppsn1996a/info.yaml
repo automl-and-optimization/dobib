@@ -1,0 +1,54 @@
+author: Fonseca, Carlos M. and Fleming, Peter J.
+author_list:
+- affiliation: []
+  family: Fonseca
+  given: Carlos M.
+- affiliation: []
+  family: Fleming
+  given: Peter J.
+booktitle: Parallel Problem Solving from Nature — PPSN IV
+citations:
+- author: C. M. Fonseca
+  doi: 10.1162/evco.1995.3.1.1
+  first-page: '1'
+  journal-title: Evolutionary Computation
+  unstructured: C. M. Fonseca and P. J. Fleming, “An overview of evolutionary algorithms
+    in multiobjective optimization,” Evolutionary Computation, vol. 3, pp. 1–16, Spring
+    1995.
+  volume: '3'
+  year: '1995'
+- unstructured: 'W. J. Conover, ed., Practical Nonparametric Statistics. New York:
+    Wiley, 1971.'
+  volume-title: Practical Nonparametric Statistics
+  year: '1971'
+- doi: 10.1049/cp:19951023
+  unstructured: C. M. Fonseca, Multiobjective Genetic Algorithms with Application
+    to Control Engineering Problems. PhD thesis, University of Sheffield, 1995.
+- doi: 10.1049/cp:19940225
+  unstructured: C. M. Fonseca and P. J. Fleming, “Multiobjective optimal controller
+    design with genetic algorithms,” in Proc. IEE Control'94 International Conference,
+    vol. 1, (Warwick, U.K.), pp. 745–749, 1994.
+- author: C. M. Fonseca
+  first-page: '45'
+  unstructured: 'C. M. Fonseca and P. J. Fleming, “Multiobjective genetic algorithms
+    made easy: Selection, sharing and mating restriction,” in First IEE/IEEE International
+    Conference on Genetic Algorithms in Engineering Systems: Innovations and Applications,
+    (Sheffield, UK), pp. 45–52, The Institution of Electrical Engineers, 1995.'
+  volume-title: 'Multiobjective genetic algorithms made easy: Selection, sharing and
+    mating restriction'
+  year: '1995'
+doc_url: http://link.springer.com/content/pdf/10.1007/3-540-61723-X_1022
+doi: 10.1007/3-540-61723-x_1022
+files: []
+isbn: '9783540706687'
+month: 7
+pages: 584--593
+papis_id: 016c3203249e7731f20869c1f87e73da
+publisher: Springer Berlin Heidelberg
+ref: fonseca-ppsn1996a
+series: Lecture Notes in Computer Science
+time-added: 2026-11-28-17:57:46
+title: On the performance assessment and comparison of stochastic multiobjective optimizers
+type: inproceedings
+url: https://doi.org/10.1007/3-540-61723-x_1022
+year: 1996
