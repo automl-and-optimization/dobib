@@ -1,0 +1,83 @@
+author: Igel, Christian
+author_list:
+- affiliation: []
+  family: Igel
+  given: Christian
+citations:
+- doi: 10.1137/1116025
+- article-title: 'Gaussian and Rademacher complexities: Risk bounds and structural
+    results'
+  author: bartlett
+  first-page: '463'
+  journal-title: J Mach Learning Res
+  volume: '3'
+  year: '2002'
+- author: bottou
+  first-page: '301'
+  journal-title: Large Scale Kernel Machines
+  year: '2007'
+- author: langford
+  journal-title: Clever Methods of Overfitting
+  year: '2005'
+- author: hastie
+  doi: 10.1007/978-0-387-21606-5
+  journal-title: The Elements of Statistical Learning
+  year: '2001'
+- doi: 10.1145/1462153.1462156
+- author: prechelt
+  doi: 10.1007/3-540-49430-8_3
+  first-page: '55'
+  journal-title: Neural Networks Tricks of the Trade
+  volume: '1524'
+  year: '1998'
+- doi: 10.1142/S1469026804001288
+- doi: 10.1109/TPAMI.1979.4766926
+- doi: 10.1109/34.824819
+- doi: 10.1142/S0218213004001818
+- doi: 10.1007/s12065-007-0002-4
+- author: glasmachers
+  doi: 10.1007/978-3-540-87700-4_19
+  first-page: '185'
+  journal-title: Parallel Problem Solving from Nature
+  volume: '5199'
+  year: '2008'
+- doi: 10.1016/j.neucom.2004.11.022
+- doi: 10.1007/978-3-642-17103-1_21
+- author: igel
+  journal-title: Encyclopedia of Machine Learning
+  year: '2010'
+- author: nolfi
+  first-page: '415'
+  journal-title: The Handbook of Brain Theory and Neural Networks
+  year: '2002'
+- doi: 10.1109/5.784219
+- doi: 10.1017/CBO9780511624216
+- author: bck
+  doi: 10.1093/oso/9780195099713.001.0001
+  journal-title: Evolutionary Algorithms in Theory and Practice
+  year: '1996'
+- article-title: Shark
+  author: igel
+  first-page: '993'
+  journal-title: J Mach Learning Res
+  volume: '9'
+  year: '2008'
+- author: fogel
+  journal-title: Evolutionary Computation Toward a New Philosophy of Machine Intelligence
+  year: '1995'
+doc_url: http://xplorestaging.ieee.org/ielx5/4235/6519957/06193424.pdf?arnumber=6193424
+doi: 10.1109/tevc.2012.2197214
+files: []
+issue: '3'
+journal: IEEE Transactions on Evolutionary Computation
+month: 6
+pages: 345--352
+papis_id: d2034c31b1a6442444640a0ba716e624
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: igel-tec2013a
+time-added: 2026-11-28-13:34:03
+title: A Note on Generalization Loss When Evolving Adaptive Pattern Recognition Systems
+type: article
+url: https://doi.org/10.1109/tevc.2012.2197214
+volume: '17'
+year: 2013
