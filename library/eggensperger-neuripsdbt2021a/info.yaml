@@ -1,0 +1,36 @@
+author: Eggensperger, Katharina and Müller, Philipp and Mallik, Neeratyoy and Feurer,
+  Matthias and Sass, Rene and Klein, Aaron and Awad, Noor and Lindauer, Marius and
+  Hutter, Frank
+author_list:
+- family: Eggensperger
+  given: Katharina
+- family: Müller
+  given: Philipp
+- family: Mallik
+  given: Neeratyoy
+- family: Feurer
+  given: Matthias
+- family: Sass
+  given: Rene
+- family: Klein
+  given: Aaron
+- family: Awad
+  given: Noor
+- family: Lindauer
+  given: Marius
+- family: Hutter
+  given: Frank
+booktitle: Proceedings of the Neural Information Processing Systems Track on Datasets
+  and Benchmarks
+editor: J. Vanschoren and S. Yeung
+files: []
+pages: ''
+papis_id: 6e6246c98fb9c5e08dfe9d523d3c9de8
+ref: eggensperger-neuripsdbt2021a
+time-added: 2026-11-28-17:54:42
+title: 'HPOBench: A Collection of Reproducible Multi-Fidelity Benchmark Problems for
+  HPO'
+type: inproceedings
+url: https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/93db85ed909c13838ff95ccfa94cebd9-Paper-round2.pdf
+volume: '1'
+year: '2021'
