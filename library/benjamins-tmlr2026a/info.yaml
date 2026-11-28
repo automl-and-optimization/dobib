@@ -1,0 +1,50 @@
+author: Benjamins, Carolin and Graf, Helena and Segel, Sarah and Deng, Difan and Ruhkopf,
+  Tim and Hennig, Leona and Basu, Soham and Mallik, Neeratyoy and Bergman, Edward
+  and Chen, Deyao and Clément, François and Tornede, Alexander and Feurer, Matthias
+  and Eggensperger, Katharina and Hutter, Frank and Doerr, Carola and Lindauer, Marius
+author_list:
+- family: Benjamins
+  given: Carolin
+- family: Graf
+  given: Helena
+- family: Segel
+  given: Sarah
+- family: Deng
+  given: Difan
+- family: Ruhkopf
+  given: Tim
+- family: Hennig
+  given: Leona
+- family: Basu
+  given: Soham
+- family: Mallik
+  given: Neeratyoy
+- family: Bergman
+  given: Edward
+- family: Chen
+  given: Deyao
+- family: Clément
+  given: François
+- family: Tornede
+  given: Alexander
+- family: Feurer
+  given: Matthias
+- family: Eggensperger
+  given: Katharina
+- family: Hutter
+  given: Frank
+- family: Doerr
+  given: Carola
+- family: Lindauer
+  given: Marius
+files: []
+issn: 2835-8856
+journal: Transactions on Machine Learning Research
+note: Reproducibility Certification
+papis_id: fdbda2367bb14215558486d1417089db
+ref: benjamins-tmlr2026a
+time-added: 2026-11-28-17:59:04
+title: 'carps: A Framework for Comparing N Hyperparameter Optimizers on M Benchmarks'
+type: article
+url: https://openreview.net/forum?id=AuA8m4I6zI
+year: '2026'
