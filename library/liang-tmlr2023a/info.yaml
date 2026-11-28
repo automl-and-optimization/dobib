@@ -1,0 +1,124 @@
+author: Liang, Percy and Bommasani, Rishi and Lee, Tony and Tsipras, Dimitris and
+  Soylu, Dilara and Yasunaga, Michihiro and Zhang, Yian and Narayanan, Deepak and
+  Wu, Yuhuai and Kumar, Ananya and Newman, Benjamin and Yuan, Binhang and Yan, Bobby
+  and Zhang, Ce and Cosgrove, Christian and Manning, Christopher D and Re, Christopher
+  and Acosta-Navas, Diana and Hudson, Drew A. and Zelikman, Eric and Durmus, Esin
+  and Ladhak, Faisal and Rong, Frieda and Ren, Hongyu and Yao, Huaxiu and WANG, Jue
+  and Santhanam, Keshav and Orr, Laurel and Zheng, Lucia and Yuksekgonul, Mert and
+  Suzgun, Mirac and Kim, Nathan and Guha, Neel and Chatterji, Niladri S. and Khattab,
+  Omar and Henderson, Peter and Huang, Qian and Chi, Ryan Andrew and Xie, Sang Michael
+  and Santurkar, Shibani and Ganguli, Surya and Hashimoto, Tatsunori and Icard, Thomas
+  and Zhang, Tianyi and Chaudhary, Vishrav and Wang, William and Li, Xuechen and Mai,
+  Yifan and Zhang, Yuhui and Koreeda, Yuta
+author_list:
+- family: Liang
+  given: Percy
+- family: Bommasani
+  given: Rishi
+- family: Lee
+  given: Tony
+- family: Tsipras
+  given: Dimitris
+- family: Soylu
+  given: Dilara
+- family: Yasunaga
+  given: Michihiro
+- family: Zhang
+  given: Yian
+- family: Narayanan
+  given: Deepak
+- family: Wu
+  given: Yuhuai
+- family: Kumar
+  given: Ananya
+- family: Newman
+  given: Benjamin
+- family: Yuan
+  given: Binhang
+- family: Yan
+  given: Bobby
+- family: Zhang
+  given: Ce
+- family: Cosgrove
+  given: Christian
+- family: Manning
+  given: Christopher D
+- family: Re
+  given: Christopher
+- family: Acosta-Navas
+  given: Diana
+- family: Hudson
+  given: Drew A.
+- family: Zelikman
+  given: Eric
+- family: Durmus
+  given: Esin
+- family: Ladhak
+  given: Faisal
+- family: Rong
+  given: Frieda
+- family: Ren
+  given: Hongyu
+- family: Yao
+  given: Huaxiu
+- family: WANG
+  given: Jue
+- family: Santhanam
+  given: Keshav
+- family: Orr
+  given: Laurel
+- family: Zheng
+  given: Lucia
+- family: Yuksekgonul
+  given: Mert
+- family: Suzgun
+  given: Mirac
+- family: Kim
+  given: Nathan
+- family: Guha
+  given: Neel
+- family: Chatterji
+  given: Niladri S.
+- family: Khattab
+  given: Omar
+- family: Henderson
+  given: Peter
+- family: Huang
+  given: Qian
+- family: Chi
+  given: Ryan Andrew
+- family: Xie
+  given: Sang Michael
+- family: Santurkar
+  given: Shibani
+- family: Ganguli
+  given: Surya
+- family: Hashimoto
+  given: Tatsunori
+- family: Icard
+  given: Thomas
+- family: Zhang
+  given: Tianyi
+- family: Chaudhary
+  given: Vishrav
+- family: Wang
+  given: William
+- family: Li
+  given: Xuechen
+- family: Mai
+  given: Yifan
+- family: Zhang
+  given: Yuhui
+- family: Koreeda
+  given: Yuta
+files: []
+issn: 2835-8856
+journal: Transactions on Machine Learning Research
+note: Featured Certification, Expert Certification, Outstanding Certification
+papis_id: 22903509150cae47c76579934a9a0a6d
+ref: liang-tmlr2023a
+time-added: 2026-11-28-13:30:51
+title: Holistic Evaluation of Language Models
+type: article
+url: https://openreview.net/forum?id=iO4LZibEqW
+year: '2023'
