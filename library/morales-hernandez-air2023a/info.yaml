@@ -1,0 +1,1231 @@
+abstract: "<jats:title>Abstract</jats:title>\n                  <jats:p>Hyperparameter
+  optimization (HPO) is a necessary step to ensure the best possible performance of
+  Machine Learning (ML) algorithms. Several methods have been developed to perform
+  HPO; most of these are focused on optimizing one performance measure (usually an
+  error-based measure), and the literature on such single-objective HPO problems is
+  vast. Recently, though, algorithms have appeared that focus on optimizing multiple
+  conflicting objectives simultaneously. This article presents a systematic survey
+  of the literature published between 2014 and 2020 on multi-objective HPO algorithms,
+  distinguishing between metaheuristic-based algorithms, metamodel-based algorithms
+  and approaches using a mixture of both. We also discuss the quality metrics used
+  to compare multi-objective HPO procedures and present future research directions.</jats:p>"
+author: Morales-Hernández, Alejandro and Van Nieuwenhuyse, Inneke and Rojas Gonzalez,
+  Sebastian
+author_list:
+- affiliation: []
+  family: Morales-Hernández
+  given: Alejandro
+- affiliation: []
+  family: Van Nieuwenhuyse
+  given: Inneke
+- affiliation: []
+  family: Rojas Gonzalez
+  given: Sebastian
+citations:
+- unstructured: Abdolsh M, Shilton A, Rana S, Gupta S, Venkatesh S (2019) Multi-objective
+    Bayesian optimisation with preferences over objectives. Advances in neural information
+    processing systems pp 12235–12245
+- author: MN Ab Wahab
+  doi: 10.1371/journal.pone.0122827
+  first-page: e0122827
+  issue: '5'
+  journal-title: PLoS ONE
+  unstructured: Ab Wahab MN, Nefti-Meziani S, Atyabi A (2015) A comprehensive review
+    of swarm optimization algorithms. PLoS ONE 10(5):e0122827
+  volume: '10'
+  year: '2015'
+- doi: 10.1145/3292500.3330701
+  unstructured: 'Akiba T, Sano S, Yanase T, Ohta T, Koyama M (2019) Optuna: a next-generation
+    hyperparameter optimization framework. In: Proceedings of the 25th ACM SIGKDD
+    international conference on knowledge discovery & data mining. pp 2623–2631'
+- doi: 10.1109/ICTAI.2007.108
+  unstructured: 'Alaya I, Solnon C, Ghedira K (2007) Ant colony optimization for multi-objective
+    optimization problems. In: 19th IEEE international conference on tools with artificial
+    intelligence (ICTAI 2007) vol 1, pp 450–457. https://doi.org/10.1109/ICTAI.2007.108'
+- doi: 10.1109/ICMLA.2016.0018
+  unstructured: 'Albelwi S, Mah A (2016) Automated optimal architecture of deep convolutional
+    neural networks for image recognition. In: 2016 15th IEEE international conference
+    on machine learning and applications (icmla) pp 53–60. https://doi.org/10.1109/ICMLA.2016.0018'
+- author: A Andreopoulos
+  doi: 10.1016/j.cviu.2013.04.005
+  first-page: '827'
+  issue: '8'
+  journal-title: Comput Vis Image Understand
+  unstructured: 'Andreopoulos A, Tsotsos JK (2013) 50 years of object recognition:
+    directions forward. Comput Vis Image Understand 117(8):827–891. https://doi.org/10.1016/j.cviu.2013.04.005'
+  volume: '117'
+  year: '2013'
+- author: B Babu
+  doi: 10.26634/jfet.3.1.697
+  first-page: '47'
+  issue: '1'
+  journal-title: J Future Eng Technol
+  unstructured: 'Babu B, Gujarathi AM (2007) Multi-objective differential evolution
+    (mode) algorithm for multi-objective optimization: parametric study on benchmark
+    test problems. J Future Eng Technol 3(1):47–59. https://doi.org/10.26634/jfet.3.1.697'
+  volume: '3'
+  year: '2007'
+- author: M Baldeon
+  doi: 10.1016/j.neucom.2019.01.110
+  first-page: '325'
+  journal-title: Neu-rocomputing
+  unstructured: 'Baldeon M, Lai-Yuen SK (2020) Adaresu-net: multiobjective adaptive
+    convolutional neural network for medical image segmentation. Neu-rocomputing 392:325–340.
+    https://doi.org/10.1016/j.neucom.2019.01.110'
+  volume: '392'
+  year: '2020'
+- unstructured: Barán B, Schaerer M (2003) A multiobjective ant colony system for
+    vehicle routing problem with time windows. Applied informatics pp 97–102
+- author: M Belgiu
+  doi: 10.1016/j.isprsjprs.2016.01.011
+  first-page: '24'
+  journal-title: ISPRS J Photogramm Remote Sens
+  unstructured: 'Belgiu M, Drăguţ L (2016) Random forest in remote sensing: a review
+    of applications and future directions. ISPRS J Photogramm Remote Sens 114:24–31'
+  volume: '114'
+  year: '2016'
+- unstructured: 'Bergstra J, Bardenet R, Bengio Y, Kégl B (2011) Algorithms for hyper-parameter
+    optimization. In: 25th annual conference on neural information processing systems
+    (NIPS 2011) vol 24'
+- author: J Bergstra
+  first-page: '281'
+  issue: '1'
+  journal-title: J Mach Learn Res
+  unstructured: Bergstra J, Bengio Y (2012) Random search for hyper-parameter optimization.
+    J Mach Learn Res 13(1):281–305
+  volume: '13'
+  year: '2012'
+- unstructured: 'Bergstra J, Yamins D, Cox D (2013) Making a science of model search:
+    hyperparameter optimization in hundreds of dimensions for vision archi-tectures.
+    In: International conference on machine learning, pp 115–123. http://proceedings.mlr.press/v28/bergstra13.html'
+- author: L Bianchi
+  doi: 10.1007/s11047-008-9098-4
+  first-page: '239'
+  issue: '2'
+  journal-title: Natural Comput
+  unstructured: Bianchi L, Dorigo M, Gambardella LM, Gutjahr WJ (2009) A survey on
+    metaheuristics for stochastic combinatorial optimization. Natural Comput 8(2):239–287.
+    https://doi.org/10.1007/s11047-008-9098-4
+  volume: '8'
+  year: '2009'
+- doi: 10.1145/3377930.3389815
+  unstructured: Binder M, Moosbauer J, Thomas J, Bischl B (2020) Multi-objective hyperparameter
+    tuning and feature selection using filter ensembles. vol 1050, p 13. https://doi.org/10.1145/3377930.3389815
+- author: M Binois
+  doi: 10.1080/00401706.2018.1469433
+  first-page: '7'
+  issue: '1'
+  journal-title: Technometrics
+  unstructured: Binois M, Huang J, Gramacy RB, Ludkovski M (2019) Replication or exploration?
+    Sequential design for stochastic simulation experiments. Technometrics 61(1):7–23.
+    https://doi.org/10.1080/00401706.2018.1469433
+  volume: '61'
+  year: '2019'
+- author: B Bischl
+  doi: 10.1162/EVCO_a_00069
+  first-page: '249'
+  issue: '2'
+  journal-title: Evol Comput
+  unstructured: Bischl B, Mersmann O, Trautmann H, Weihs C (2012) Resampling methods
+    for meta-model validation with recommendations for evolutionary computation. Evol
+    Comput 20(2):249–275. https://doi.org/10.1162/EVCO_a_00069
+  volume: '20'
+  year: '2012'
+- author: A Blumer
+  doi: 10.1016/0020-0190(87)90114-1
+  first-page: '377'
+  issue: '6'
+  journal-title: Inf Process Lett
+  unstructured: Blumer A, Ehrenfeucht A, Haussler D, Warmuth MK (1987) Occam’s razor.
+    Inf Process Lett 24(6):377–380. https://doi.org/10.1016/0020-0190(87)90114-1
+  volume: '24'
+  year: '1987'
+- author: A Bouraoui
+  doi: 10.1007/s10462-017-9543-9
+  first-page: '261'
+  issue: '2'
+  journal-title: Artif Intell Rev
+  unstructured: Bouraoui A, Jamoussi S, BenAyed Y (2018) A multi-objective genetic
+    algorithm for simultaneous model and feature selection for support vector machines.
+    Artif Intell Rev 50(2):261–281. https://doi.org/10.1007/s10462-017-9543-9
+  volume: '50'
+  year: '2018'
+- doi: 10.1109/BigComp48618.2020.0-100
+  unstructured: 'Bui K-HN, Yi H (2020) Optimal hyperparameter tuning using meta-learning
+    for big traffic datasets. In: Lee W et al. (ed) 2020 IEEE international conference
+    on big data and smart computing (bigcomp 2020) pp 48–54. IEEE. https://doi.org/10.1109/BigComp48618.2020.0-100'
+- author: X Cai
+  doi: 10.1016/j.eswa.2020.113648
+  journal-title: Expert Syst Appl
+  unstructured: Cai X, Hu Z, Zhao P, Zhang W, Chen J (2020) A hybrid recommendation
+    system with many-objective evolutionary algorithm. Expert Syst Appl 159:113648.
+    https://doi.org/10.1016/j.eswa.2020.113648
+  volume: '159'
+  year: '2020'
+- author: MB Calisto
+  doi: 10.1016/j.neunet.2020.03.007
+  journal-title: Neural Netw
+  unstructured: 'Calisto MB, Lai-Yuen SK (2020) Adaen-net: an ensemble of adaptive
+    2d–3d fully convolutional networks for medical image segmentation. Neural Netw.
+    https://doi.org/10.1016/j.neunet.2020.03.007'
+  year: '2020'
+- author: MB Calisto
+  doi: 10.1016/j.artmed.2021.102154
+  first-page: '102154'
+  journal-title: Artif Intell Med
+  unstructured: 'Calisto MB, Lai-Yuen SK (2021) Emonas-net: efficient multiobjective
+    neural architecture search using surrogate-assisted evolutionary algorithm for
+    3d medical image segmentation. Artif Intell Med 119:102154. https://doi.org/10.1016/j.artmed.2021.102154'
+  volume: '119'
+  year: '2021'
+- doi: 10.1109/SLT.2016.7846303
+  unstructured: 'Chandra A, Lane I (2016) Automated optimization of decoder hyper-parameters
+    for online lvcsr. In: 2016 IEEE spoken language technol-ogy workshop (slt) pp
+    454–460. https://doi.org/10.1109/SLT.2016.7846303'
+- doi: 10.1109/ICDAR.2007.4378745
+  unstructured: 'Chatelain C, Adam S, Lecourtier Y, Heutte L, Paquet T (2007) Multi-objective
+    optimization for svm model selection. In: Ninth international conference on document
+    analysis and recognition (ICDAR 2007) vol 1, pp 427–431. https://doi.org/10.1109/ICDAR.2007.4378745'
+- author: J Chen
+  doi: 10.1109/TPDS.2016.2603511
+  first-page: '919'
+  issue: '4'
+  journal-title: IEEE Trans Parallel Distrib Syst
+  unstructured: Chen J, Li K, Tang Z, Bilal K, Yu S, Weng C, Li K (2016) A parallel
+    random forest algorithm for big data in a spark cloud computing environment. IEEE
+    Trans Parallel Distrib Syst 28(4):919–933
+  volume: '28'
+  year: '2016'
+- author: W-C Chen
+  doi: 10.1007/s00521-013-1353-7
+  first-page: '1391'
+  issue: '6'
+  journal-title: Neural Comput Appl
+  unstructured: Chen W-C, Jiang X-Y, Chang H-P, Chen H-P (2014) An effective system
+    for parameter optimization in photolithography process of a lgp stamper. Neural
+    Comput Appl 24(6):1391–1401. https://doi.org/10.1007/s00521-013-1353-7
+  volume: '24'
+  year: '2014'
+- unstructured: 'Chin T-W, Morcos AS, Marculescu D (2020) Pareco: Pareto-aware channel
+    optimization for slimmable neural networks. In: 2nd Workshop on Adversarial Learning
+    Methods for Machine Learning and Data Mining, KDD’2020. https://openreview.net/forum?id=SPyxaz%5Fh9Nd'
+- author: H Cho
+  doi: 10.1109/ACCESS.2020.2981072
+  first-page: '52588'
+  journal-title: IEEE Access
+  unstructured: Cho H, Kim Y, Lee E, Choi D, Lee Y, Rhee W (2020) Basic enhancement
+    strategies when using Bayesian optimization for hyperparameter tuning of deep
+    neural networks. IEEE Access 8:52588–52608. https://doi.org/10.1109/ACCESS.2020.2981072
+  volume: '8'
+  year: '2020'
+- author: C Cooney
+  doi: 10.3390/s20164629
+  first-page: '4629'
+  issue: '16'
+  journal-title: Sensors
+  unstructured: Cooney C, Korik A, Folli R, Coyle D (2020) Evaluation of hyperparameter
+    optimization in machine and deep learning methods for decoding imagined speech
+    EEG. Sensors 20(16):4629. https://doi.org/10.3390/s20164629
+  volume: '20'
+  year: '2020'
+- unstructured: 'Cowen-Rivers AI, Lyu W, Wang Z, Tutunov R, Jianye H, Wang J, Ammar
+    HB (2020) Hebo: heteroscedastic evolutionary bayesian optimisation. Workshop at
+    NeurIPS 2020 Competition Track on Black-Box Optimization Challenge'
+- unstructured: Dai Z, Damianou A, Hensman J, Lawrence N (2014) Gaussian process models
+    with parallelization and GPU acceleration. arXiv:1410.4984
+- unstructured: Dai Z, Yu H, Low BKH, Jaillet P (2019) Bayesian optimization meets
+    bayesian optimal stopping. International conference on machine learning. pp 1496–1506.
+    http://proceedings.mlr.press/v97/dai19a.html
+- author: K Deb
+  doi: 10.1109/4235.996017
+  first-page: '182'
+  issue: '2'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: 'Deb K, Pratap A, Agarwal S, Meyarivan T (2002) A fast and elitist
+    multiobjective genetic algorithm: Nsga-ii. IEEE Trans Evol Comput 6(2):182–197.
+    https://doi.org/10.1109/4235.996017'
+  volume: '6'
+  year: '2002'
+- author: DS Deighan
+  doi: 10.1007/s00521-021-06024-4
+  journal-title: Neural Comput Appl
+  unstructured: Deighan DS, Field SE, Capano CD, Khanna G (2021) Genetic-algorithm-optimized
+    neural networks for gravitational wave classification. Neural Comput Appl. https://doi.org/10.1007/s00521-021-06024-4
+  year: '2021'
+- doi: 10.1007/3-540-36131-6_32
+  unstructured: de Toro F, Ros E, Mota S, Ortega J (2002) Multi-objective optimization
+    evolutionary algorithms applied to paroxysmal atrial fibrillation diagnosis based
+    on the k-nearest neighbours classifier. Ibero-american conference on artificial
+    intelligence pp 313–318. https://doi.org/10.1007/3-540-36131-6_32
+- author: K Doerner
+  doi: 10.1023/B:ANOR.0000039513.99038.c6
+  first-page: '79'
+  issue: '1'
+  journal-title: Ann Oper Res
+  unstructured: 'Doerner K, Gutjahr WJ, Hartl RF, Strauss C, Stummer C (2004) Pareto
+    ant colony optimization: a metaheuristic approach to multiobjective portfolio
+    selection. Ann Oper Res 131(1):79–99. https://doi.org/10.1023/B:ANOR.0000039513.99038.c6'
+  volume: '131'
+  year: '2004'
+- doi: 10.1007/978-3-030-29414-4_3
+  unstructured: Doerr C (2020) Complexity theory for discrete black-box optimization
+    heuristics. Theory of evolutionary computation. Springer pp 133–212
+- author: M Dorigo
+  doi: 10.1016/j.tcs.2005.05.020
+  first-page: '243'
+  issue: 2–3
+  journal-title: Theor Comput Sci
+  unstructured: 'Dorigo M, Blum C (2005) Ant colony optimization theory: a survey.
+    Theor Comput Sci 344(2–3):243–278. https://doi.org/10.1016/j.tcs.2005.05.020'
+  volume: '344'
+  year: '2005'
+- author: M Dorigo
+  doi: 10.1109/3477.484436
+  first-page: '29'
+  issue: '1'
+  journal-title: IEEE Trans Syst Man Cybern B
+  unstructured: 'Dorigo M, Maniezzo V, Colorni A (1996) Ant system: optimization by
+    a colony of cooperating agents. IEEE Trans Syst Man Cybern B 26(1):29–41. https://doi.org/10.1109/3477.484436'
+  volume: '26'
+  year: '1996'
+- doi: 10.1109/IPDPS.2008.4536375
+  unstructured: 'Durillo JJ, Nebro AJ, Luna F, Alba E (2008) A study of master-slave
+    approaches to parallelize nsga-ii. In: 2008 IEEE international symposium on parallel
+    and distributed processing pp 1–8'
+- doi: 10.1007/978-3-030-39831-6_29
+  unstructured: 'Dutta S, Gandomi AH (2020) Surrogate model-driven evolutionary algorithms:
+    theory and applications. Evolution in action: past, present and future. Springer.
+    pp 435–451. https://doi.org/10.1007/978-3-030-39831-6_29'
+- doi: 10.1109/MHS.1995.494215
+  unstructured: 'Eberhart R, Kennedy J (1995) A new optimizer using particle swarm
+    theory. Mhs’95. In: Proceedings of the sixth international symposium on micro
+    machine and human science. pp 39–43. https://doi.org/10.1109/MHS.1995.494215'
+- author: A Ekbal
+  doi: 10.1016/j.knosys.2015.04.015
+  first-page: '37'
+  journal-title: Knowl-Based Syst
+  unstructured: Ekbal A, Saha S (2015) Joint model for feature selection and parameter
+    optimization coupled with classifier ensemble in chemical mention recog-nition.
+    Knowl-Based Syst 85:37–51. https://doi.org/10.1016/j.knosys.2015.04.015
+  volume: '85'
+  year: '2015'
+- author: A Ekbal
+  doi: 10.1007/s13042-014-0268-7
+  first-page: '597'
+  issue: '4'
+  journal-title: Int J Mach Learn Cybern
+  unstructured: 'Ekbal A, Saha S (2016) Simultaneous feature and parameter selection
+    using multiobjective optimization: application to named entity recogni-tion. Int
+    J Mach Learn Cybern 7(4):597–611. https://doi.org/10.1007/s13042-014-0268-7'
+  volume: '7'
+  year: '2016'
+- author: MT Emmerich
+  doi: 10.1007/s11047-018-9685-y
+  first-page: '585'
+  issue: '3'
+  journal-title: Natural Comput
+  unstructured: 'Emmerich MT, Deutz AH (2018) A tutorial on multiobjective optimization:
+    fundamentals and evolutionary methods. Natural Comput 17(3):585–609'
+  volume: '17'
+  year: '2018'
+- doi: 10.1109/CEC.2011.5949880
+  unstructured: 'Emmerich MT, Deutz AH, Klinkenberg JW (2011) Hypervolume-based expected
+    improvement: Monotonicity properties and exact computation. In: 2011 IEEE congress
+    of evolutionary computation (CEC) pp 2147–2154. https://doi.org/10.1109/CEC.2011.5949880'
+- author: W Ertel
+  unstructured: Ertel W (2018) Introduction to artificial intelligence. Springer,
+    Cham
+  volume-title: Introduction to artificial intelligence
+  year: '2018'
+- unstructured: 'Falkner S, Klein A, Hutter F (2018) Bohb: robust and efficient hyper-parameter
+    optimization at scale. In: International conference on machine learning pp 1437–1446.
+    http://proceedings.mlr.press/v80/falkner18a.html'
+- author: H Faris
+  doi: 10.1016/j.jbi.2020.103525
+  first-page: '103525'
+  journal-title: J Biomed Inform
+  unstructured: Faris H, Habib M, Faris M, Alomari M, Alomari A (2020) Medical speciality
+    classification system based on binary particle swarms and ensemble of one vs rest
+    support vector machines. J Biomed Inform 109:103525. https://doi.org/10.1016/j.jbi.2020.103525
+  volume: '109'
+  year: '2020'
+- author: P Feliot
+  doi: 10.1007/s10898-016-0427-3
+  first-page: '97'
+  issue: 1–2
+  journal-title: J Glob Optim
+  unstructured: Feliot P, Bect J, Vazquez E (2017) A bayesian approach to constrained
+    single-and multi-objective optimization. J Glob Optim 67(1–2):97–133. https://doi.org/10.1007/s10898-016-0427-3
+  volume: '67'
+  year: '2017'
+- author: M Feurer
+  doi: 10.1007/978-3-030-05318-5_1
+  first-page: '3'
+  unstructured: 'Feurer M, Hutter F (2019) Hyperparameter optimization. Automated
+    machine learning: methods, systems, challenges. Springer, Cham, pp 3–33'
+  volume-title: 'Hyperparameter optimization. Automated machine learning: methods,
+    systems, challenges'
+  year: '2019'
+- author: JE Fieldsend
+  doi: 10.1109/TEVC.2014.2304415
+  first-page: '103'
+  issue: '1'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: 'Fieldsend JE, Everson RM (2014) The rolling tide evolutionary algorithm:
+    a multiobjective optimizer for noisy optimization problems. IEEE Trans Evol Comput
+    19(1):103–117. https://doi.org/10.1109/TEVC.2014.2304415'
+  volume: '19'
+  year: '2014'
+- author: AI Forrester
+  doi: 10.2514/1.20068
+  first-page: '2331'
+  issue: '10'
+  journal-title: AIAA J
+  unstructured: Forrester AI, Keane AJ, Bressloff NW (2006) Design and analysis of
+    “noisy’’ computer experiments. AIAA J 44(10):2331–2339. https://doi.org/10.2514/1.20068
+  volume: '44'
+  year: '2006'
+- author: AG Gad
+  first-page: '1'
+  journal-title: Arch Comput Methods Eng
+  unstructured: 'Gad AG (2022) Particle swarm optimization algorithm and its applications:
+    a systematic review. Arch Comput Methods Eng 8:1–31'
+  volume: '8'
+  year: '2022'
+- author: EC Garrido
+  doi: 10.1016/j.neucom.2019.06.025
+  first-page: '50'
+  journal-title: Neurocomputing
+  unstructured: Garrido EC, Hernández D (2019) Predictive entropy search for multi-objective
+    Bayesian optimization with constraints. Neurocomputing 361:50–68. https://doi.org/10.1016/j.neucom.2019.06.025
+  volume: '361'
+  year: '2019'
+- author: F Glover
+  doi: 10.1016/0305-0548(86)90048-1
+  first-page: '533'
+  issue: '5'
+  journal-title: Comput Oper Res
+  unstructured: Glover F (1986) Future paths for integer programming and links to
+    artificial intelligence. Comput Oper Res 13(5):533–549. https://doi.org/10.1016/0305-0548(86)90048-1
+  volume: '13'
+  year: '1986'
+- author: SR Gonzalez
+  doi: 10.1016/j.ejor.2019.12.014
+  first-page: '212'
+  issue: '1'
+  journal-title: Eur J Oper Res
+  unstructured: Gonzalez SR, Jalali H, Van Nieuwenhuyse I (2020) A multiobjective
+    stochastic simulation optimization algorithm. Eur J Oper Res 284(1):212–226. https://doi.org/10.1016/j.ejor.2019.12.014
+  volume: '284'
+  year: '2020'
+- author: M Gravel
+  doi: 10.1016/S0377-2217(01)00329-0
+  first-page: '218'
+  issue: '1'
+  journal-title: Eur J Oper Res
+  unstructured: Gravel M, Price WL, Gagné C (2002) Scheduling continuous casting of
+    aluminum using a multiple objective ant colony optimization meta-heuristic. Eur
+    J Oper Res 143(1):218–229. https://doi.org/10.1016/S0377-2217(01)00329-0
+  volume: '143'
+  year: '2002'
+- author: A Gülcü
+  doi: 10.7717/peerj-cs.338
+  journal-title: PeerJ Comput Sci
+  unstructured: Gülcü A, Kuş Z (2021) Multi-objective simulated annealing for hyper-parameter
+    optimization in convolutional neural networks. PeerJ Comput Sci 7:e338. https://doi.org/10.7717/peerj-cs.338
+  volume: '7'
+  year: '2021'
+- author: C Guo
+  doi: 10.1109/ACCESS.2020.3009644
+  first-page: '131248'
+  journal-title: IEEE Access
+  unstructured: Guo C, Li L, Hu Y, Yan J (2020) A deep learning based fault diagnosis
+    method with hyperparameter optimization by using parallel computing. IEEE Access
+    8:131248–131256. https://doi.org/10.1109/ACCESS.2020.3009644
+  volume: '8'
+  year: '2020'
+- author: J Guo
+  doi: 10.1016/j.comnet.2019.01.026
+  first-page: '166'
+  journal-title: Comput Netw
+  unstructured: Guo J, Yang L, Bie R, Yu J, Gao Y, Shen Y, Kos A (2019) An xgboost-based
+    physical fitness evaluation model using advanced feature selection and bayesian
+    hyper-parameter optimization for wearable running monitoring. Comput Netw 151:166–180.
+    https://doi.org/10.1016/j.comnet.2019.01.026
+  volume: '151'
+  year: '2019'
+- unstructured: 'Gupta S, Shilton A, Rana S, Venkatesh S (2018) Exploiting strategy-space
+    diversity for batch bayesian optimization. In: International conference on artificial
+    intelligence and statistics pp 538–547. http://proceedings.mlr.press/v84/gupta18a.html'
+- unstructured: 'Han S, Pool J, Tran J, Dally W (2015) Learning both weights and connections
+    for efficient neural network. In: Cortes C, Lawrence N, Lee D, Sugiyama M, Garnett
+    R (eds) Advances in neural information processing systems vol 28, pp 1135-1143.
+    Curran Associates, Inc. https://dl.acm.org/doi/10.5555/2969239.2969366'
+- author: N Hansen
+  doi: 10.1162/106365603321828970
+  first-page: '1'
+  issue: '1'
+  journal-title: Evol Comput
+  unstructured: Hansen N, Müller SD, Koumoutsakos P (2003) Reducing the time complexity
+    of the derandomized evolution strategy with covariance matrix adaptation (CMA-ES).
+    Evol Comput 11(1):1–18. https://doi.org/10.1162/106365603321828970
+  volume: '11'
+  year: '2003'
+- author: S Hegde
+  doi: 10.1108/IJPCC-04-2020-0018
+  journal-title: Int J Pervas Comput Commun
+  unstructured: Hegde S, Mundada MR (2020) Early prediction of chronic disease using
+    an efficient machine learning algorithm through adaptive probabilistic divergence
+    based feature selection approach. Int J Pervas Comput Commun. https://doi.org/10.1108/IJPCC-04-2020-0018
+  year: '2020'
+- unstructured: 'Hernández D, Hernandez-Lobato J, Shah A, Adams R (2016) Predictive
+    entropy search for multi-objective bayesian optimization. In: International conference
+    on machine learning pp 1492–1501. http://proceedings.mlr.press/v48/hernandez-lobatoa16.html'
+- unstructured: Hernández-Lobato JM, Gelbart MA, Reagen B, Adolf R, Hernández-Lobato
+    D, Whatmough PN, Adams RP (2016) Designing neural network hardware accelerators
+    with decoupled objective evaluations. Nips workshop on bayesian optimization.
+    p 10
+- doi: 10.1109/ICDAR.1995.598994
+  unstructured: 'Ho TK (1995) Random decision forests. In: Proceedings of 3rd international
+    conference on document analysis and recognition vol 1, pp 278–282. https://doi.org/10.1109/ICDAR.1995.598994'
+- doi: 10.1109/SSCI.2016.7850221
+  unstructured: 'Horn D, Bischl B (2016) Multi-objective parameter configuration of
+    machine learning algorithms using model-based optimization. In: 2016 IEEE symposium
+    series on computational intelligence (SSCI) pp 1–8. https://doi.org/10.1109/SSCI.2016.7850221'
+- doi: 10.1007/978-3-319-54157-0_21
+  unstructured: Horn D, Dagge M, Sun X, Bischl B (2017) First investigations on noisy
+    model-based multi-objective optimization. International conference on evolutionary
+    multi-criterion optimization pp 298–313. https://doi.org/10.1007/978-3-319-54157-0_21
+- author: C-H Hsu
+  doi: 10.1109/MCI.2013.2264233
+  first-page: '28'
+  issue: '3'
+  journal-title: IEEE Comput Intell Mag
+  unstructured: Hsu C-H, Juang C-F (2013) Multi-objective continuous-ant-colony-optimized
+    fc for robot wall-following control. IEEE Comput Intell Mag 8(3):28–40. https://doi.org/10.1109/MCI.2013.2264233
+  volume: '8'
+  year: '2013'
+- author: W Hu
+  doi: 10.1109/TNNLS.2019.2939157
+  journal-title: IEEE Trans Neural Netw Learn Syst
+  unstructured: Hu W, Jin J, Liu T-Y, Zhang C (2019) Automatically design convolutional
+    neural networks by optimization with submodularity and supermodularity. IEEE Trans
+    Neural Netw Learn Syst. https://doi.org/10.1109/TNNLS.2019.2939157
+  year: '2019'
+- author: F Hutter
+  doi: 10.1613/jair.2861
+  first-page: '267'
+  journal-title: J Artif Intell Res
+  unstructured: 'Hutter F, Hoos HH, Leyton-Brown K, Stützle T (2009) Paramils: an
+    automatic algorithm configuration framework. J Artif Intell Res 36:267–306. https://doi.org/10.1613/jair.2861'
+  volume: '36'
+  year: '2009'
+- author: F Hutter
+  doi: 10.1007/s13218-015-0381-0
+  first-page: '329'
+  issue: '4'
+  journal-title: KI-Künstliche Intelligenz
+  unstructured: Hutter F, Lücke J, Schmidt-Thieme L (2015) Beyond manual tuning of
+    hyperparameters. KI-Künstliche Intelligenz 29(4):329–337. https://doi.org/10.1007/s13218-015-0381-0
+  volume: '29'
+  year: '2015'
+- doi: 10.1007/3-540-44719-9_25
+  unstructured: Iredi S, Merkle D, Middendorf M (2001) Bi-criterion optimization with
+    multi colony ant algorithms. International conference on evolutionary multi-criterion
+    optimization pp 359–372. https://doi.org/10.1007/3-540-44719-9_25
+- unstructured: Jaderberg M, Dalibard V, Osindero S, Czarnecki WM, Donahue J, Razavi
+    A, et al (2017) Population based training of neural networks. arXiv:1711.09846
+- author: H Jalali
+  doi: 10.1016/j.ejor.2017.01.035
+  first-page: '279'
+  issue: '1'
+  journal-title: Eur J Oper Res
+  unstructured: Jalali H, Van Nieuwenhuyse I, Picheny V (2017) Comparison of kriging-based
+    algorithms for simulation optimization with heterogeneous noise. Eur J Oper Res
+    261(1):279–301. https://doi.org/10.1016/j.ejor.2017.01.035
+  volume: '261'
+  year: '2017'
+- author: F Jiang
+  doi: 10.1136/svn-2017-000101
+  first-page: '230'
+  issue: '4'
+  journal-title: Stroke Vasc Neurol
+  unstructured: 'Jiang F, Jiang Y, Zhi H, Dong Y, Li H, Ma S, Wang Y (2017) Artificial
+    intelligence in healthcare: past, present and future. Stroke Vasc Neurol 2(4):230–243.
+    https://doi.org/10.1136/svn-2017-000101'
+  volume: '2'
+  year: '2017'
+- author: Y Jin
+  doi: 10.1016/j.swevo.2011.05.001
+  first-page: '61'
+  issue: '2'
+  journal-title: Swarm Evol Comput
+  unstructured: 'Jin Y (2011) Surrogate-assisted evolutionary computation: recent
+    advances and future challenges. Swarm Evol Comput 1(2):61–70. https://doi.org/10.1016/j.swevo.2011.05.001'
+  volume: '1'
+  year: '2011'
+- doi: 10.1016/j.imavis.2020.104025
+  unstructured: 'Jing W, Lin J, Wang H (2020) Building nas: Automatic designation
+    of efficient neural architectures for building extraction in high-resolution aerial
+    images. IMAGE AND VISION COMPUTING 103. https://doi.org/10.1016/j.imavis.2020.104025'
+- unstructured: 'Jomaa HS, Grabocka J, Schmidt-Thieme L (2019) Hyp-rl: Hyper-parameter
+    optimization by reinforcement learning. arXiv:1906.11527'
+- author: DR Jones
+  doi: 10.1023/A:1008306431147
+  first-page: '455'
+  issue: '4'
+  journal-title: J Global Optim
+  unstructured: Jones DR, Schonlau M, Welch WJ (1998) Efficient global optimization
+    of expensive black-box functions. J Global Optim 13(4):455–492. https://doi.org/10.1023/A:1008306431147
+  volume: '13'
+  year: '1998'
+- author: M Joorabian
+  doi: 10.1016/j.asoc.2013.09.015
+  first-page: '623'
+  journal-title: Appl Soft Comput
+  unstructured: Joorabian M, Afzalan E (2014) Optimal power flow under both normal
+    and contingent operation conditions using the hybrid fuzzy particle swarm optimisation
+    and nelder-mead algorithm (hfpso-nm). Appl Soft Comput 14:623–633
+  volume: '14'
+  year: '2014'
+- author: C-F Juang
+  doi: 10.1109/91.995118
+  first-page: '155'
+  issue: '2'
+  journal-title: IEEE Trans Fuzzy Syst
+  unstructured: Juang C-F (2002) A tsk-type recurrent fuzzy network for dynamic systems
+    processing by neural network and genetic algorithms. IEEE Trans Fuzzy Syst 10(2):155–170.
+    https://doi.org/10.1109/91.995118
+  volume: '10'
+  year: '2002'
+- doi: 10.1109/FUZZ-IEEE.2014.6891545
+  unstructured: 'Juang C-F, Hsu C-H (2014) Structure and parameter optimization of
+    fnns using multi-objective aco for control and prediction. In: 2014 ieee international
+    conference on fuzzy systems (fuzz-ieee) pp 928–933. https://doi.org/10.1109/FUZZ-IEEE.2014.6891545'
+- unstructured: Karnin Z, Koren T, Somekh O (2013) Almost optimal exploration in multi-armed
+    bandits. International conference on machine learning pp 1238–1246
+- unstructured: 'Kim Y, Reddy B, Yun S, Seo C (2017) Nemo: Neuro-evolution with mul-tiobjective
+    optimization of deep neural network for speed and accuracy. Icml 2017 automl workshop'
+- author: S Kirkpatrick
+  doi: 10.1126/science.220.4598.671
+  first-page: '671'
+  issue: '4598'
+  journal-title: Science
+  unstructured: Kirkpatrick S, Gelatt CD, Vecchi MP (1983) Optimization by simulated
+    annealing. Science 220(4598):671–680. https://doi.org/10.1126/science.220.4598.671
+  volume: '220'
+  year: '1983'
+- author: J Knowles
+  doi: 10.1109/TEVC.2005.851274
+  first-page: '50'
+  issue: '1'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: 'Knowles J (2006) Parego: a hybrid algorithm with on-line landscape
+    approximation for expensive multiobjective optimization problems. IEEE Trans Evol
+    Comput 10(1):50–66. https://doi.org/10.1109/TEVC.2005.851274'
+  volume: '10'
+  year: '2006'
+- author: P Koch
+  doi: 10.1016/j.asoc.2015.01.005
+  first-page: '357'
+  journal-title: Appl Soft Comput
+  unstructured: Koch P, Wagner T, Emmerich MT, Bäck T, Konen W (2015) Efficient multi-criteria
+    optimization on noisy machine learning problems. Appl Soft Comput 29:357–370.
+    https://doi.org/10.1016/j.asoc.2015.01.005
+  volume: '29'
+  year: '2015'
+- doi: 10.1016/B978-1-55860-377-6.50045-1
+  unstructured: Kohavi R, John GH (1995) Automatic parameter selection by minimizing
+    estimated error. Machine learning proceedings 1995 pp 304–312. Elsevier. https://doi.org/10.1016/B978-1-55860-377-6.50045-1
+- doi: 10.1109/AUPEC.2017.8282478
+  unstructured: Kong W, Dong ZY, Luo F, Meng K, Zhang W, Wang F, Zhao X (2017) Effect
+    of automatic hyperparameter tuning for residential load forecasting via deep learning.
+    2017 australasian universities power engineering conference (aupec) (pp 1–6).
+    https://doi.org/10.1109/AUPEC.2017.8282478
+- author: LI Kuncheva
+  doi: 10.1002/9781118914564
+  unstructured: 'Kuncheva LI (2014) Combining pattern classifiers: methods and algorithms.
+    Wiley, Hoboken'
+  volume-title: 'Combining pattern classifiers: methods and algorithms'
+  year: '2014'
+- doi: 10.1145/3400302.3415698
+  unstructured: 'Laskaridis S, Venieris SI, Kim H, Lane ND (2020) Hapi: hardware-aware
+    progressive inference. In: 2020 ieee/acm international conference on computer
+    aided design (iccad) (pp 1–9)'
+- author: M Laumanns
+  doi: 10.1162/106365602760234108
+  first-page: '263'
+  issue: '3'
+  journal-title: Evol Comput
+  unstructured: Laumanns M, Thiele L, Deb K, Zitzler E (2002) Combining convergence
+    and diversity in evolutionary multiobjective optimization. Evol Comput 10(3):263–282.
+    https://doi.org/10.1162/106365602760234108
+  volume: '10'
+  year: '2002'
+- doi: 10.1007/978-3-030-20521-8_72
+  unstructured: León J, Ortega J, Ortiz A (2019) Convolutional neural networks and
+    feature selection for bci with multiresolution analysis. International work-conference
+    on artificial neural networks (pp 883-894). https://doi.org/10.1007/978-3-030-20521-8_72
+- author: M Li
+  doi: 10.1145/3300148
+  first-page: '1'
+  issue: '2'
+  journal-title: ACM Comput Surv (CSUR)
+  unstructured: 'Li M, Yao X (2019) Quality evaluation of solution sets in multiobjective
+    optimisation: a survey. ACM Comput Surv (CSUR) 52(2):1–38. https://doi.org/10.1145/3300148'
+  volume: '52'
+  year: '2019'
+- doi: 10.1007/978-3-540-24652-7_15
+  unstructured: Li H, Zhang Q, Tsang E, Ford JA (2004) Hybrid estimation of distribution
+    algorithm for multiobjective knapsack problem. J. Gottlieb & G.R. Raidl (Eds.),
+    Evolutionary computation in combinatorial optimization (pp 145–154). https://doi.org/10.1007/978-3-540-24652-7_15
+- author: L Li
+  first-page: '6765'
+  issue: '1'
+  journal-title: J Mach Learn Res
+  unstructured: 'Li L, Jamieson K, DeSalvo G, Rostamizadeh A, Talwalkar A (2017) Hyperband:
+    a novel bandit-based approach to hyperparameter optimization. J Mach Learn Res
+    18(1):6765–6816'
+  volume: '18'
+  year: '2017'
+- author: S Li
+  doi: 10.1016/j.solener.2019.08.022
+  first-page: '465'
+  journal-title: Sol Energy
+  unstructured: Li S, Gong W, Yan X, Hu C, Bai D, Wang L (2019) Parameter estimation
+    of photovoltaic models with memetic adaptive differential evolution. Sol Energy
+    190:465–474. https://doi.org/10.1016/j.solener.2019.08.022
+  volume: '190'
+  year: '2019'
+- doi: 10.1145/3321707.3321721
+  unstructured: Liang J, Meyerson E, Hodjat B, Fink D, Mutch K, Miikkulainen R (2019)
+    Evolutionary neural automl for deep learning. Proceedings of the genetic and evolutionary
+    computation conference (pp 401–409). https://doi.org/10.1145/3321707.3321721
+- author: H Liu
+  doi: 10.1016/j.knosys.2017.12.034
+  first-page: '102'
+  journal-title: Knowl-Based Syst
+  unstructured: Liu H, Cai J, Ong Y-S (2018) Remarks on multi-output gaussian process
+    regression. Knowl-Based Syst 144:102–121. https://doi.org/10.1016/j.knosys.2017.12.034
+  volume: '144'
+  year: '2018'
+- unstructured: Liu J, Tunguz B, Titericz G (2020) GPU accelerated exhaustive search
+    for optimal ensemble of black-box optimization algorithms. Workshop at NeurIPS
+    2020 Competition Track on Black-Box Optimization Challenge
+- doi: 10.1007/978-3-030-30487-4_17
+  unstructured: 'Loni M, Zoljodi A, Sinaei S, Daneshtalab M, Sjödin M (2019) Neuropower:
+    Designing energy efficient convolutional neural network architecture for embedded
+    systems. International conference on artificial neural networks (pp 208-222).
+    https://doi.org/10.1007/978-3-030-30487-4_17'
+- author: M Loni
+  doi: 10.1016/j.micpro.2020.102989
+  journal-title: Microprocess Microsyst
+  unstructured: 'Loni M, Sinaei S, Zoljodi A, Daneshtalab M, Sjödin M (2020) Deepmaker:
+    a multi-objective optimization framework for deep neural networks in embedded
+    systems. Microprocess Microsyst 73:102989. https://doi.org/10.1016/j.micpro.2020.102989'
+  volume: '73'
+  year: '2020'
+- author: M López-Ibáñez
+  doi: 10.1016/j.orp.2016.09.002
+  first-page: '43'
+  journal-title: Oper Res Perspect
+  unstructured: 'López-Ibáñez M, Dubois-Lacoste J, Cáceres LP, Birattari M, Stützle
+    T (2016) The irace package: iterated racing for automatic algorithm configuration.
+    Oper Res Perspect 3:43–58. https://doi.org/10.1016/j.orp.2016.09.002'
+  volume: '3'
+  year: '2016'
+- doi: 10.1145/3321707.3321729
+  unstructured: 'Lu Z, Whalen I, Boddeti V, Dhebar Y, Deb K, Goodman E, Banzhaf W
+    (2019) Nsga-net: neural architecture search using multi-objective ge-netic algorithm.
+    Proceedings of the genetic and evolutionary computation conference (pp 419–427).
+    https://doi.org/10.1145/3321707.3321729'
+- doi: 10.1007/978-3-030-58452-8_3
+  unstructured: 'Lu Z, Deb K, Goodman E, Banzhaf W, Boddeti VN (2020) Nsganetv2: Evolutionary
+    multi-objective surrogate-assisted neural architecture search. European conference
+    on computer vision (pp 35–51). https://doi.org/10.1007/978-3-030-58452-8_3'
+- author: G Luo
+  doi: 10.1007/s13721-016-0125-6
+  first-page: '18'
+  issue: '1'
+  journal-title: Netw Model Anal Health Inform Bioinform
+  unstructured: Luo G (2016) A review of automatic selection methods for machine learning
+    algorithms and hyper-parameter values. Netw Model Anal Health Inform Bioinform
+    5(1):18. https://doi.org/10.1007/s13721-016-0125-6
+  volume: '5'
+  year: '2016'
+- doi: 10.1007/978-3-319-70742-6_16
+  unstructured: Magda M, Martinez-Alvarez A, Cuenca-Asensi S (2017) Mooga parameter
+    optimization for onset detection in emg signals. International conference on image
+    analysis and processing (pp 171–180). https://doi.org/10.1007/978-3-319-70742-6_16
+- unstructured: 'Makarova A, Shen H, Perrone V, Klein A, Faddoul JB, Krause A, Archambeau
+    C (2021) Overfitting in bayesian optimization: an empirical study and early-stopping
+    solution. https://www.amazon.science/publications/overfitting-in-bayesian-optimization-an-empirical-study-and-early-stopping-solution'
+- doi: 10.1016/j.neucom.2018.05.136
+  unstructured: Martinez-de Pison FJ, Gonzalez-Sendino R, Aldama A, Ferreiro J, Fraile
+    E (2017) Hybrid methodology based on bayesian optimization and ga-parsimony for
+    searching parsimony models by combining hyperparameter optimization and feature
+    selection. International conference on hybrid artificial intelligence systems
+    (pp 52-62). https://doi.org/10.1016/j.neucom.2018.05.136
+- author: KI McKinnon
+  doi: 10.1137/S1052623496303482
+  first-page: '148'
+  issue: '1'
+  journal-title: SIAM J Optim
+  unstructured: McKinnon KI (1998) Convergence of the nelder-mead simplex method to
+    a nonstationary point. SIAM J Optim 9(1):148–158. https://doi.org/10.1137/S1052623496303482
+  volume: '9'
+  year: '1998'
+- unstructured: 'Mei J, Li Y, Lian X, Jin X, Yang L, Yuille A, Yang J (2020) Atomnas:
+    Fine-grained end-to-end neural architecture search. International conference on
+    learning representations. https://openreview.net/forum?id=BylQSxHFwr'
+- unstructured: Meinshausen N, Ridgeway G (2006) Quantile regression forests. J Mach
+    Learn Res 7(6). http://jmlr.org/papers/v7/meinshausen06a.html
+- author: L Mentch
+  first-page: '841'
+  issue: '1'
+  journal-title: J Mach Learn Res
+  unstructured: Mentch L, Hooker G (2016) Quantifying uncertainty in random forests
+    via confidence intervals and hypothesis tests. J Mach Learn Res 17(1):841–881
+  volume: '17'
+  year: '2016'
+- author: K Miettinen
+  unstructured: Miettinen K (2012) Nonlinear multiobjective optimization. Springer,
+    Cham
+  volume-title: Nonlinear multiobjective optimization
+  year: '2012'
+- author: K Miettinen
+  doi: 10.1007/s00291-001-0092-9
+  first-page: '193'
+  issue: '2'
+  journal-title: OR Spectrum
+  unstructured: Miettinen K, Mäkelä MM (2002) On scalarizing functions in multiobjective
+    optimization. OR Spectrum 24(2):193–213. https://doi.org/10.1007/s00291-001-0092-9
+  volume: '24'
+  year: '2002'
+- author: M Mitchell
+  doi: 10.7551/mitpress/3927.001.0001
+  unstructured: Mitchell M (1998) An introduction to genetic algorithms. MIT Press,
+    Cambridge
+  volume-title: An introduction to genetic algorithms
+  year: '1998'
+- author: TM Mitchell
+  first-page: '870'
+  issue: '37'
+  journal-title: Burr Ridge
+  unstructured: Mitchell TM et al (1997) Machine learning. Burr Ridge 45(37):870–877
+  volume: '45'
+  year: '1997'
+- author: DC Montgomery
+  unstructured: Montgomery DC (2017) Design and analysis of experiments. Wiley, Hoboken
+  volume-title: Design and analysis of experiments
+  year: '2017'
+- author: SS Mostafa
+  doi: 10.1109/ACCESS.2020.3009149
+  first-page: '129586'
+  journal-title: IEEE Access
+  unstructured: Mostafa SS, Mendonça F, Ravelo-Garcia A, Julia-Serda G, Morgado-Dias
+    F (2020) Multi-objective hyperparameter optimization of convolutional neural network
+    for obstructive sleep apnea detection. IEEE Access 8:129586–129599. https://doi.org/10.1109/ACCESS.2020.3009149
+  volume: '8'
+  year: '2020'
+- doi: 10.1109/iThings/GreenCom/CPSCom/SmartData.2019.00175
+  unstructured: Nabil M, Mahmoud M, Ismail M, Serpedin E (2019) Deep recurrent electricity
+    theft detection in ami networks with evolutionary hyper-parameter tuning. 2019
+    international conference on internet of things (ithings) and ieee green computing
+    and communications (greencom) and ieee cyber, physical and social computing (cpscom)
+    and ieee smart data (smartdata) (pp 1002–1008)
+- unstructured: Negrinho R, Gormley M, Gordon GJ, Patil D, Le N, Ferreira D (2019)
+    Towards modular and programmable architecture search. Advances in neural information
+    processing systems (pp 13715-13725). https://dl.acm.org/doi/abs/10.5555/3454287.3455517
+- author: DM Olsson
+  doi: 10.1080/00401706.1975.10489269
+  first-page: '45'
+  issue: '1'
+  journal-title: Technometrics
+  unstructured: Olsson DM, Nelson LS (1975) The Nelder-mead simplex procedure for
+    function minimization. Technometrics 17(1):45–51. https://doi.org/10.1080/00401706.1975.10489269
+  volume: '17'
+  year: '1975'
+- author: ST Ounpraseuth
+  unstructured: Ounpraseuth ST (2008) Gaussian processes for machine learning. Taylor
+    & Francis, Milton Park
+  volume-title: Gaussian processes for machine learning
+  year: '2008'
+- doi: 10.1145/3377930.3389817
+  unstructured: Ozaki Y, Tanigaki Y, Watanabe S, Onishi M (2020) Multiobjective tree-structured
+    parzen estimator for computationally expensive optimization problems. Proceedings
+    of the 2020 genetic and evolutionary computation conference (pp 533–541). https://doi.org/10.1145/3377930.3389817
+- author: J Parker-Holder
+  first-page: '17200'
+  journal-title: Adv Neural Inf Process Syst
+  unstructured: Parker-Holder J, Nguyen V, Roberts SJ (2020) Provably efficient online
+    hyperparameter optimization with population-based bandits. Adv Neural Inf Process
+    Syst 33:17200–17211
+  volume: '33'
+  year: '2020'
+- doi: 10.1109/ICCAD45719.2019.8942046
+  unstructured: 'Parsa M, Ankit A, Ziabari A, Roy K (2019) Pabo: Pseudo agent-based
+    multi-objective bayesian hyperparameter optimization for efficient neural accelerator
+    design. 2019 ieee/acm international conference on computer-aided design (iccad)
+    (pp 1-8). https://doi.org/10.1109/ICCAD45719.2019.8942046'
+- author: Y Pathak
+  doi: 10.1109/TCBB.2020.3009859
+  journal-title: IEEE/ACM Trans Comput Biol Bioinf
+  unstructured: Pathak Y, Shukla PK, Arya K (2020) Deep bidirectional classification
+    model for covid-19 disease infected patients. IEEE/ACM Trans Comput Biol Bioinf.
+    https://doi.org/10.1109/TCBB.2020.3009859
+  year: '2020'
+- doi: 10.1109/CVPR.2005.268
+  unstructured: Phillips PJ, Flynn PJ, Scruggs T, Bowyer KW, Chang J, Hoffman K, Worek
+    W (2005) Overview of the face recognition grand challenge. 2005 ieee computer
+    society conference on computer vision and pattern recognition (cvpr’05) (Vol.
+    1, pp 947-954). https://doi.org/10.1109/CVPR.2005.268
+- unstructured: Picheny V (2014) A stepwise uncertainty reduction approach to constrained
+    global optimization. Artificial intelligence and statistics (pp 787–795). http://proceedings.mlr.press/v33/picheny14.html
+- doi: 10.1007/978-3-540-87700-4_78
+  unstructured: Ponweiser W, Wagner T, Biermann D, Vincze M (2008) Multiobjective
+    optimization on a limited budget of evaluations using model-assisted $$s$$-metric
+    selection. International conference on parallel problem solving from nature (pp
+    784-794). https://doi.org/10.1007/978-3-540-87700-4_78
+- doi: 10.1145/312129.312188
+  unstructured: Provost F, Jensen D, Oates T (1999) Efficient progressive sampling.
+    Proceedings of the fifth acm sigkdd international conference on knowledge discovery
+    and data mining (pp 23-32). https://doi.org/10.1145/312129.312188
+- author: AK Qin
+  doi: 10.1109/TEVC.2008.927706
+  first-page: '398'
+  issue: '2'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: Qin AK, Huang VL, Suganthan PN (2008) Differential evolution algorithm
+    with strategy adaptation for global numerical optimization. IEEE Trans Evol Comput
+    13(2):398–417. https://doi.org/10.1109/TEVC.2008.927706
+  volume: '13'
+  year: '2008'
+- unstructured: Qin H, Shinozaki T, Duh K (2017) Evolution strategy based automatic
+    tuning of neural machine translation systems. Proceeding of international workshop
+    on spoken language translation (iwslt) (pp 120-128)
+- author: A Rajagopal
+  doi: 10.1109/ACCESS.2020.3011502
+  first-page: '135383'
+  journal-title: IEEE Access
+  unstructured: Rajagopal A, Joshi GP, Ramachandran A, Subhalakshmi R, Khari M, Jha
+    S, You J (2020) A deep learning model based on multi-objective particle swarm
+    optimization for scene classification in unmanned aerial vehicles. IEEE Access
+    8:135383–135393. https://doi.org/10.1109/ACCESS.2020.3011502
+  volume: '8'
+  year: '2020'
+- doi: 10.1007/978-3-319-50349-3_22
+  unstructured: Richter J, Kotthaus H, Bischl B, Marwedel P, Rahnenführer J, Lang
+    M (2016) Faster model-based optimization through resource-aware scheduling strategies.
+    International conference on learning and intelligent optimization (pp 267-273).
+    https://doi.org/10.1007/978-3-319-50349-3_22
+- author: S Rojas-Gonzalez
+  doi: 10.1016/j.cor.2019.104869
+  journal-title: Comput Oper Res
+  unstructured: Rojas-Gonzalez S, Van Nieuwenhuyse I (2020) A survey on kriging-based
+    infill algorithms for multiobjective simulation optimization. Comput Oper Res
+    116:104869. https://doi.org/10.1016/j.cor.2019.104869
+  volume: '116'
+  year: '2020'
+- author: S Russell
+  edition: '3'
+  unstructured: 'Russell S, Norvig P (2010) Artificial intelligence: a modern approach,
+    3rd edn. Prentice Hall, Hoboken'
+  volume-title: 'Artificial intelligence: a modern approach'
+  year: '2010'
+- author: L Salt
+  doi: 10.1109/TNNLS.2019.2941506
+  journal-title: IEEE Trans Neural Netw Learn Syst
+  unstructured: Salt L, Howard D, Indiveri G, Sandamirskaya Y (2019) Parameter optimization
+    and learning in a spiking neural network for uav obstacle avoidance targeting
+    neuromorphic processors. IEEE Trans Neural Netw Learn Syst. https://doi.org/10.1109/TNNLS.2019.2941506
+  year: '2019'
+- author: A Sanz-García
+  doi: 10.1016/j.asoc.2015.06.012
+  first-page: '13'
+  journal-title: Appl Soft Comput
+  unstructured: 'Sanz-García A, Fernández-Ceniceros J, Antonanzas-Torres F, Pernia-Espinoza
+    A, Martinez-De-Pison F (2015) Ga-parsimony: a ga-svr approach with feature selection
+    and parameter optimization to obtain parsimonious solutions for predicting temperature
+    settings in a continuous annealing furnace. Appl Soft Comput 35:13–28. https://doi.org/10.1016/j.asoc.2015.06.012'
+  volume: '35'
+  year: '2015'
+- unstructured: 'Schaffer JD (1985) Multiple objective optimization with vector evaluated
+    genetic algorithms. Proceedings of the 1st international conference on genetic
+    algorithms (p. 93-100). USA: L. Erlbaum Associates Inc'
+- unstructured: Shah A, Ghahramani Z (2016) Pareto frontier learning with expensive
+    correlated objectives. International conference on machine learning (pp 1919-1927).
+    http://proceedings.mlr.press/v48/shahc16.html
+- doi: 10.1145/3449726.3459575
+  unstructured: Shimizu H, Toyoda M (2021) Cma-es with coordinate selection for high-dimensional
+    and ill-conditioned functions. Proceedings of the genetic and evolutionary computation
+    conference companion (pp 209–210)
+- doi: 10.1007/978-981-15-3685-4_4
+  unstructured: Shinozaki T, Watanabe S, Duh K (2020) Automated development of dnn
+    based spoken language systems using evolutionary algorithms. Deep neural evolution
+    (pp 97-129). Springer. https://doi.org/10.1007/978-981-15-3685-4_4
+- doi: 10.1007/978-3-540-31880-4_35
+  unstructured: Sierra MR, Coello CAC (2005) Improving pso-based multi-objective optimization
+    using crowding, mutation and $$\epsilon$$-dominance. International conference
+    on evolutionary multi-criterion optimization (pp 505-519). https://doi.org/10.1007/978-3-540-31880-4_35
+- author: LF Silva
+  doi: 10.1016/j.cmpb.2016.03.002
+  first-page: '142'
+  journal-title: Comput Methods Programs Biomed
+  unstructured: Silva LF, Santos AAS, Bravo RS, Silva AC, Muchaluat-Saade DC, Conci
+    A (2016) Hybrid analysis for indicating patients with breast cancer using temperature
+    time series. Comput Methods Programs Biomed 130:142–153. https://doi.org/10.1016/j.cmpb.2016.03.002
+  volume: '130'
+  year: '2016'
+- author: D Singh
+  doi: 10.1007/s10096-020-03901-z
+  journal-title: Eur J Clin Microbiol Infect Dis
+  unstructured: Singh D, Kumar V, Kaur M (2020) Classification of covid-19 patients
+    from chest ct images using multi-objective differential evolution-based convolutional
+    neural networks. Eur J Clin Microbiol Infect Dis. https://doi.org/10.1007/s10096-020-03901-z
+  year: '2020'
+- doi: 10.1007/978-3-030-30484-3_19
+  unstructured: Sjöberg A, Önnheim M, Gustavsson E, Jirstrand M (2019) Architecture-aware
+    bayesian optimization for neural network tuning. International conference on artificial
+    neural networks (pp 220-231). https://doi.org/10.1007/978-3-030-30484-3_19
+- doi: 10.1145/2966986.2967058
+  unstructured: 'Smithson SC, Yang G, Gross WJ, Meyer BH (2016) Neural networks designing
+    neural networks: multi-objective hyper-parameter optimization. Proceedings of
+    the 35th international conference on computer-aided design (pp 1-8). https://doi.org/10.1145/2966986.2967058'
+- unstructured: Snoek J, Larochelle H, Adams RP (2012) Practical bayesian optimization
+    of machine learning algorithms. Advances in neural information processing systems,
+    25
+- author: K Socha
+  doi: 10.1016/j.ejor.2006.06.046
+  first-page: '1155'
+  issue: '3'
+  journal-title: Eur J Oper Res
+  unstructured: Socha K, Dorigo M (2008) Ant colony optimization for continuous domains.
+    Eur J Oper Res 185(3):1155–1173. https://doi.org/10.1016/j.ejor.2006.06.046
+  volume: '185'
+  year: '2008'
+- doi: 10.1109/SSCI.2015.252
+  unstructured: Sopov E, Ivanov I (2015) Self-configuring ensemble of neural network
+    classifiers for emotion recognition in the intelligent human-machine in-teraction.
+    2015 ieee symposium series on computational intelligence (pp 1808-1815). https://doi.org/10.1109/SSCI.2015.252
+- author: N Srinivas
+  doi: 10.1162/evco.1994.2.3.221
+  first-page: '221'
+  issue: '3'
+  journal-title: Evol Comput
+  unstructured: Srinivas N, Deb K (1994) Multiobjective optimization using nondom-inated
+    sorting in genetic algorithms. Evol Comput 2(3):221–248. https://doi.org/10.1162/evco.1994.2.3.221
+  volume: '2'
+  year: '1994'
+- doi: 10.23919/DATE.2018.8341973
+  unstructured: 'Stamoulis D, Cai E, Juan D-C, Marculescu D (2018) Hyperpower: Power-and
+    memory-constrained hyper-parameter optimization for neural networks. 2018 design,
+    automation & test in europe conference & exhibition (date) (pp 19-24). https://doi.org/10.23919/DATE.2018.8341973'
+- doi: 10.1145/3240765.3240796
+  unstructured: Stamoulis D, Chin T-W, Prakash AK, Fang H, Sajja S, Bognar M, Marculescu
+    D (2018) Designing adaptive neural networks for energy-constrained image classification.
+    Proceedings of the international conference on computer-aided design (pp 1-8).
+    https://doi.org/10.1145/3240765.3240796
+- author: R Storn
+  doi: 10.1023/A:1008202821328
+  first-page: '341'
+  issue: '4'
+  journal-title: J Global Optim
+  unstructured: Storn R, Price K (1997) Differential evolution -a simple and efficient
+    heuristic for global optimization over continuous spaces. J Global Optim 11(4):341–359.
+    https://doi.org/10.1023/A:1008202821328
+  volume: '11'
+  year: '1997'
+- unstructured: Swersky K, Snoek J, Adams RP (2013) Multi-task bayesian optimization.
+    Advances in neural information processing systems, 26
+- unstructured: Swersky K, Snoek J, Adams RP (2014) Freeze-thaw bayesian optimization.
+    arXiv:1406.3896
+- author: E-G Talbi
+  doi: 10.1145/3439730
+  first-page: '1'
+  issue: '2'
+  journal-title: ACM Comput Surv (CSUR)
+  unstructured: 'Talbi E-G (2021) Automated design of deep neural networks: a survey
+    and unified taxonomy. ACM Comput Surv (CSUR) 54(2):1–37. https://doi.org/10.1145/3439730'
+  volume: '54'
+  year: '2021'
+- doi: 10.1109/CEC.2013.6557555
+  unstructured: Tanabe R, Fukunaga A (2013) Success-history based parameter adap-tation
+    for differential evolution. 2013 ieee congress on evolutionary computation (pp
+    71-78). https://doi.org/10.1109/CEC.2013.6557555
+- doi: 10.1109/SLT.2016.7846334
+  unstructured: Tanaka T, Moriya T, Shinozaki T, Watanabe S, Hori T, Duh K (2016)
+    Automated structure discovery and parameter tuning of neural network language
+    model based on evolution strategy. 2016 ieee spoken language technology workshop
+    (slt) (pp 665-671). https://doi.org/10.1109/SLT.2016.7846334
+- author: A Tharwat
+  doi: 10.1016/j.aci.2018.08.003
+  journal-title: Appl Comput Inf
+  unstructured: Tharwat A (2020) Classification assessment methods. Appl Comput Inf.
+    https://doi.org/10.1016/j.aci.2018.08.003
+  year: '2020'
+- doi: 10.1145/2487575.2487629
+  unstructured: 'Thornton C, Hutter F, Hoos HH, Leyton-Brown K (2013) Auto-weka: Combined
+    selection and hyperparameter optimization of classification algorithms. Proceedings
+    of the 19th acm sigkdd international conference on knowledge discovery and data
+    mining (pp 847-855). https://doi.org/10.1145/2487575.2487629'
+- author: R Tripathy
+  doi: 10.1016/j.jcp.2016.05.039
+  first-page: '191'
+  journal-title: J Comput Phys
+  unstructured: 'Tripathy R, Bilionis I, Gonzalez M (2016) Gaussian processes with
+    built-in dimensionality reduction: applications to high-dimensional uncertainty
+    propagation. J Comput Phys 321:191–223'
+  volume: '321'
+  year: '2016'
+- doi: 10.1007/978-3-319-24465-5_26
+  unstructured: van Rijn JN, Abdulrahman SM, Brazdil P, Vanschoren J (2015) Fast algorithm
+    selection using learning curves. International symposium on intelligent data analysis
+    (pp 298-309). https://doi.org/10.1007/978-3-319-24465-5_26
+- doi: 10.1007/978-3-030-05318-5_2
+  unstructured: 'Vanschoren J (2019) Meta-learning. Automated machine learning: methods,
+    systems, challenges (pp 35-61). Springer, Cham'
+- doi: 10.1007/s12530-020-09345-2
+  unstructured: Victoria AH, Maragatham G (2021) Automatic tuning of hyper-parameters
+    using bayesian optimization. Evolving Systems 217–223. https://doi.org/10.1007/s12530-020-09345-2
+- author: D Wang
+  doi: 10.1007/s00500-016-2474-6
+  first-page: '387'
+  issue: '2'
+  journal-title: Soft Comput
+  unstructured: 'Wang D, Tan D, Liu L (2018) Particle swarm optimization algorithm:
+    an overview. Soft Comput 22(2):387–408'
+  volume: '22'
+  year: '2018'
+- doi: 10.1145/3321707.3321735
+  unstructured: Wang B, Sun Y, Xue B, Zhang M (2019) Evolving deep neural networks
+    by multi-objective particle swarm optimization for image classification. Proceedings
+    of the genetic and evolutionary computation conference (pp 490-498). https://doi.org/10.1145/3321707.3321735
+- doi: 10.1007/978-981-15-3685-4_6
+  unstructured: 'Wang B, Xue B, Zhang M (2020) Particle swarm optimization for evolving
+    deep convolutional neural networks for image classification: Single-and multi-objective
+    approaches. Deep neural evolution (pp 155-184). Springer. https://doi.org/10.1007/978-981-15-3685-4_6'
+- author: F Wang
+  doi: 10.1016/j.swevo.2020.100808
+  journal-title: Swarm Evol Comput
+  unstructured: Wang F, Zhang H, Zhou A (2021) A particle swarm optimization algorithm
+    for mixed-variable optimization problems. Swarm Evol Comput 60:100808
+  volume: '60'
+  year: '2021'
+- author: P Wawrzyński
+  doi: 10.1016/j.neunet.2017.07.007
+  first-page: '1'
+  journal-title: Neural Netw
+  unstructured: 'Wawrzyński P (2017) Asd+ m: automatic parameter tuning in stochastic
+    optimization and on-line learning. Neural Netw 96:1–10. https://doi.org/10.1016/j.neunet.2017.07.007'
+  volume: '96'
+  year: '2017'
+- author: M Wistuba
+  doi: 10.1007/s10994-017-5684-y
+  first-page: '43'
+  issue: '1'
+  journal-title: Mach Learn
+  unstructured: Wistuba M, Schilling N, Schmidt-Thieme L (2018) Scalable gaussian
+    process-based transfer surrogates for hyperparameter optimization. Mach Learn
+    107(1):43–78. https://doi.org/10.1007/s10994-017-5684-y
+  volume: '107'
+  year: '2018'
+- author: J Wu
+  doi: 10.1016/j.neucom.2020.06.064
+  first-page: '381'
+  journal-title: Neurocomputing
+  unstructured: Wu J, Chen S, Liu X (2020) Efficient hyperparameter optimization through
+    model-based reinforcement learning. Neurocomputing 409:381–393
+  volume: '409'
+  year: '2020'
+- author: L Yang
+  doi: 10.1016/j.neucom.2020.07.061
+  first-page: '295'
+  journal-title: Neurocomputing
+  unstructured: 'Yang L, Shami A (2020) On hyperparameter optimization of machine
+    learning algorithms: theory and practice. Neurocomputing 415:295–316. https://doi.org/10.1016/j.neucom.2020.07.061'
+  volume: '415'
+  year: '2020'
+- author: G Zames
+  first-page: '301'
+  issue: '1'
+  journal-title: Inf Technol J
+  unstructured: Zames G, Ajlouni N, Ajlouni N, Ajlouni N, Holland J, Hills W, Gold-berg
+    D (1981) Genetic algorithms in search, optimization and machine learning. Inf
+    Technol J 3(1):301–302
+  volume: '3'
+  year: '1981'
+- author: C Zhang
+  doi: 10.1109/TNNLS.2016.2582798
+  first-page: '2306'
+  issue: '10'
+  journal-title: IEEE Trans Neural Netw Learn Syst
+  unstructured: Zhang C, Lim P, Qin AK, Tan KC (2016) Multiobjective deep belief networks
+    ensemble for remaining useful life estimation in prognostics. IEEE Trans Neural
+    Netw Learn Syst 28(10):2306–2318. https://doi.org/10.1109/TNNLS.2016.2582798
+  volume: '28'
+  year: '2016'
+- doi: 10.1109/SMC42975.2020.9282842
+  unstructured: Zhang M, Ni Q, Zhao S, Wang Y, Shen C (2020) A combined prediction
+    method for short-term wind speed using variational mode decomposition based on
+    parameter optimization. 2020 ieee international conference on systems, man, and
+    cybernetics (smc) (pp 2607-2614)
+- author: Q Zhang
+  doi: 10.1109/TEVC.2007.892759
+  first-page: '712'
+  issue: '6'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: 'Zhang Q, Li H (2007) Moea/d: a multiobjective evolutionary algorithm
+    based on decomposition. IEEE Trans Evol Comput 11(6):712–731. https://doi.org/10.1109/TEVC.2007.892759'
+  volume: '11'
+  year: '2007'
+- author: S-Z Zhao
+  doi: 10.1109/TEVC.2011.2166159
+  first-page: '442'
+  issue: '3'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: Zhao S-Z, Suganthan PN, Zhang Q (2012) Decomposition-based multiobjective
+    evolutionary algorithm with an ensemble of neighborhood sizes. IEEE Trans Evol
+    Comput 16(3):442–446. https://doi.org/10.1109/TEVC.2011.2166159
+  volume: '16'
+  year: '2012'
+- author: E Zitzler
+  doi: 10.1162/106365600568202
+  first-page: '173'
+  issue: '2'
+  journal-title: Evol Comput
+  unstructured: 'Zitzler E, Deb K, Thiele L (2000) Comparison of multiobjective evolutionary
+    algorithms: empirical results. Evol Comput 8(2):173–195. https://doi.org/10.1162/106365600568202'
+  volume: '8'
+  year: '2000'
+- author: E Zitzler
+  doi: 10.1109/4235.797969
+  first-page: '257'
+  issue: '4'
+  journal-title: IEEE Trans Evol Comput
+  unstructured: 'Zitzler E, Thiele L (1999) Multiobjective evolutionary algorithms:
+    a comparative case study and the strength pareto approach. IEEE Trans Evol Comput
+    3(4):257–271. https://doi.org/10.1109/4235.797969'
+  volume: '3'
+  year: '1999'
+- doi: 10.3929/ethz-a-004284029
+  unstructured: 'Zitzler E, Laumanns M, Thiele L (2001) Spea 2: Improving the strength
+    pareto evolutionary algorithm. TIK-report 103. https://doi.org/10.3929/ethz-a-004284029'
+doc_url: https://link.springer.com/content/pdf/10.1007/s10462-022-10359-2.pdf
+doi: 10.1007/s10462-022-10359-2
+files: []
+issue: '8'
+journal: Artificial Intelligence Review
+language: en
+month: 8
+pages: 8043--8093
+papis_id: 3e62cc5704c0e791288cd5f58ddaf0dd
+publisher: Springer Science and Business Media LLC
+ref: morales-hernandez-air2023a
+time-added: 2026-11-28-13:31:46
+title: A survey on multi-objective hyperparameter optimization algorithms for machine
+  learning
+type: article
+url: https://doi.org/10.1007/s10462-022-10359-2
+volume: '56'
+year: 2023
